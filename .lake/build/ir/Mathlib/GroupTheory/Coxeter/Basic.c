@@ -1,0 +1,3915 @@
+// Lean compiler output
+// Module: Mathlib.GroupTheory.Coxeter.Basic
+// Imports: Init Mathlib.Algebra.Group.Subgroup.Pointwise Mathlib.Algebra.Ring.Int.Parity Mathlib.GroupTheory.Coxeter.Matrix Mathlib.GroupTheory.PresentedGroup Mathlib.Tactic.NormNum.DivMod Mathlib.Tactic.Ring Mathlib.Tactic.Use
+#include <lean/lean.h>
+#if defined(__clang__)
+#pragma clang diagnostic ignored "-Wunused-parameter"
+#pragma clang diagnostic ignored "-Wunused-label"
+#elif defined(__GNUC__) && !defined(__CLANG__)
+#pragma GCC diagnostic ignored "-Wunused-parameter"
+#pragma GCC diagnostic ignored "-Wunused-label"
+#pragma GCC diagnostic ignored "-Wunused-but-set-variable"
+#endif
+#ifdef __cplusplus
+extern "C" {
+#endif
+LEAN_EXPORT lean_object* l_CoxeterSystem_lift___elambda__2___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CoxeterMatrix_instGroupGroup___boxed(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_MonoidHom_mk_x27___at_CoxeterMatrix_reindexGroupEquiv___spec__17___rarg___boxed(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_MonoidHom_comp___at___private_Mathlib_GroupTheory_Coxeter_Basic_0__CoxeterSystem_groupLift___spec__2(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_Con_liftOn___at_CoxeterMatrix_reindexGroupEquiv___spec__40(lean_object*, lean_object*, lean_object*);
+static lean_object* l_CoxeterSystem_term_u03c0______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_3347____closed__6;
+LEAN_EXPORT lean_object* l_iInf___at_CoxeterMatrix_reindexGroupEquiv___spec__6___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_QuotientGroup_con___at_CoxeterMatrix_reindexGroupEquiv___spec__20___rarg(lean_object*, lean_object*);
+lean_object* l_MulHomClass_toMulHom___elambda__1___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_QuotientGroup_lift___at_CoxeterSystem_lift___elambda__2___spec__7(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l___private_Mathlib_GroupTheory_Coxeter_Basic_0__CoxeterSystem_alternatingWord_match__1_splitter___rarg___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_QuotientGroup_lift___at_CoxeterMatrix_reindexGroupEquiv___spec__35___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_QuotientGroup_mk___at_CoxeterMatrix_reindexGroupEquiv___spec__30___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_npowBinRec_go___at_CoxeterMatrix_relation___spec__2(lean_object*);
+LEAN_EXPORT lean_object* l_CoxeterSystem_lift___elambda__2___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_MonoidHomClass_toMonoidHom___at_CoxeterMatrix_reindexGroupEquiv___spec__26___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_MonoidHom_comp___at_CoxeterSystem_lift___elambda__2___spec__15(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l___private_Mathlib_GroupTheory_Coxeter_Basic_0__CoxeterSystem_alternatingWord_match__1_splitter(lean_object*);
+LEAN_EXPORT lean_object* l_CoxeterMatrix_simple(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_MulEquiv_symm___at_CoxeterMatrix_reindexGroupEquiv___spec__41___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_Subgroup_closure___at_CoxeterSystem_lift___elambda__2___spec__3___lambda__1___boxed(lean_object*, lean_object*);
+static lean_object* l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__4;
+LEAN_EXPORT lean_object* l_QuotientGroup_con___at_CoxeterSystem_lift___elambda__2___spec__8___rarg___boxed(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l___private_Mathlib_GroupTheory_Coxeter_Basic_0__CoxeterSystem_groupLift___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l___private_Mathlib_GroupTheory_Coxeter_Basic_0__CoxeterSystem_restrictUnit(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_MonoidHom_mk_x27___at_CoxeterMatrix_reindexGroupEquiv___spec__17___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_QuotientGroup_leftRel___at_CoxeterMatrix_reindexGroupEquiv___spec__31(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_Con_lift___at_CoxeterMatrix_reindexGroupEquiv___spec__39___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_MonoidHomClass_toMonoidHom___at_CoxeterMatrix_reindexGroupEquiv___spec__10___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_Subgroup_op___at_CoxeterSystem_lift___elambda__2___spec__10(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_PresentedGroup_toGroup___at_CoxeterSystem_lift___elambda__2___spec__2(lean_object*, lean_object*);
+static lean_object* l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__19;
+static lean_object* l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__15;
+static lean_object* l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__1;
+LEAN_EXPORT lean_object* l_MulEquiv_symm___at_CoxeterSystem_reindex___spec__1___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_QuotientGroup_mk___at_CoxeterMatrix_reindexGroupEquiv___spec__30___rarg___boxed(lean_object*);
+LEAN_EXPORT lean_object* l_Subgroup_closure___at_CoxeterMatrix_reindexGroupEquiv___spec__1___lambda__1(lean_object*, lean_object*);
+static lean_object* l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__16;
+LEAN_EXPORT lean_object* l_QuotientGroup_mk_x27___at_CoxeterMatrix_reindexGroupEquiv___spec__13___rarg___boxed(lean_object*, lean_object*);
+static lean_object* l_CoxeterSystem_term_u03c0______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_3347____closed__3;
+LEAN_EXPORT lean_object* l_CoxeterMatrix_relation___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_Con_lift___at_CoxeterMatrix_reindexGroupEquiv___spec__23___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CoxeterSystem_wordProd___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_MulEquiv_toMonoidHom___at___private_Mathlib_GroupTheory_Coxeter_Basic_0__CoxeterSystem_groupLift___spec__1___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_MulEquiv_toMonoidHom___at___private_Mathlib_GroupTheory_Coxeter_Basic_0__CoxeterSystem_groupLift___spec__1___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_Con_lift___at_CoxeterMatrix_reindexGroupEquiv___spec__23___rarg(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_MonoidHom_mk_x27___at_CoxeterMatrix_reindexGroupEquiv___spec__17___rarg(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_Con_liftOn___at_CoxeterSystem_lift___elambda__2___spec__12___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CoxeterMatrix_reindexGroupEquiv___rarg(lean_object*, lean_object*);
+static lean_object* l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__13;
+static lean_object* l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__17;
+LEAN_EXPORT lean_object* l_QuotientGroup_congr___at_CoxeterMatrix_reindexGroupEquiv___spec__9___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CoxeterMatrix_reindexGroupEquiv___rarg___boxed(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_QuotientGroup_mk___at_CoxeterMatrix_reindexGroupEquiv___spec__14(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_iInf___at_CoxeterMatrix_reindexGroupEquiv___spec__2___rarg___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_MulHomClass_toMulHom___at_CoxeterMatrix_reindexGroupEquiv___spec__27(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l___private_Mathlib_GroupTheory_Coxeter_Basic_0__CoxeterSystem_alternatingWord_match__1_splitter___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_QuotientGroup_con___at_CoxeterMatrix_reindexGroupEquiv___spec__20(lean_object*);
+LEAN_EXPORT lean_object* l_CoxeterSystem_simple___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_QuotientGroup_lift___at_CoxeterMatrix_reindexGroupEquiv___spec__35(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_Con_liftOn___at_CoxeterSystem_lift___elambda__2___spec__12(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_MonoidHom_comp___at_CoxeterMatrix_reindexGroupEquiv___spec__18___rarg(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_MulEquiv_symm___at_CoxeterMatrix_reindexGroupEquiv___spec__41___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_Subgroup_closure___at_CoxeterMatrix_instGroupGroup___spec__1___lambda__2(lean_object*, lean_object*);
+static lean_object* l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__22;
+static lean_object* l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__6;
+static lean_object* l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__14;
+static lean_object* l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__4;
+LEAN_EXPORT lean_object* l_MonoidHom_mk_x27___at_CoxeterMatrix_reindexGroupEquiv___spec__33(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_QuotientGroup_leftRel___at_CoxeterMatrix_reindexGroupEquiv___spec__31___boxed(lean_object*, lean_object*);
+static lean_object* l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__6;
+LEAN_EXPORT lean_object* l_CoxeterSystem_term_u03c0______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_3347_;
+LEAN_EXPORT lean_object* l_CoxeterSystem_alternatingWord___rarg(lean_object*, lean_object*, lean_object*);
+static lean_object* l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__term_u03c0____1___closed__7;
+LEAN_EXPORT lean_object* l_CoxeterSystem_map(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_Con_liftOn___at_CoxeterSystem_lift___elambda__2___spec__12___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965_;
+LEAN_EXPORT lean_object* l_iInf___at_CoxeterSystem_lift___elambda__2___spec__4(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_iInf___at_CoxeterMatrix_reindexGroupEquiv___spec__3___boxed(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CoxeterSystem_map___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+uint8_t l_Lean_Syntax_isOfKind(lean_object*, lean_object*);
+static lean_object* l_iInf___at_CoxeterMatrix_instGroupGroup___spec__3___closed__1;
+LEAN_EXPORT lean_object* l_iInf___at_CoxeterMatrix_reindexGroupEquiv___spec__2(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_Submonoid_copy___at_CoxeterMatrix_reindexGroupEquiv___spec__8(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_iInf___at_CoxeterMatrix_instGroupGroup___spec__2___rarg(lean_object*, lean_object*, lean_object*);
+static lean_object* l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__5;
+static lean_object* l_Subgroup_op___at_CoxeterMatrix_reindexGroupEquiv___spec__16___closed__3;
+static lean_object* l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__18;
+LEAN_EXPORT lean_object* l_Subgroup_closure___at_CoxeterMatrix_instGroupGroup___spec__1___lambda__1(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_MonoidHom_mk_x27___at_CoxeterMatrix_reindexGroupEquiv___spec__17(lean_object*, lean_object*, lean_object*);
+lean_object* l_QuotientGroup_Quotient_group___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_MonoidHom_comp___at_CoxeterSystem_lift___elambda__2___spec__15___rarg(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_MonoidHom_mk_x27___at_CoxeterMatrix_reindexGroupEquiv___spec__33___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_MonoidHom_comp___at___private_Mathlib_GroupTheory_Coxeter_Basic_0__CoxeterSystem_groupLift___spec__2___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+static lean_object* l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__9;
+lean_object* lean_nat_shiftr(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_QuotientGroup_mk_x27___at_CoxeterMatrix_reindexGroupEquiv___spec__29___rarg(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_QuotientGroup_congr___at_CoxeterMatrix_reindexGroupEquiv___spec__9___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+static lean_object* l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__7;
+LEAN_EXPORT lean_object* l_MulEquiv_symm___at_CoxeterMatrix_reindexGroupEquiv___spec__25(lean_object*, lean_object*);
+static lean_object* l_MulEquiv_refl___at_CoxeterMatrix_toCoxeterSystem___spec__1___closed__1;
+static lean_object* l_Subgroup_op___at_CoxeterMatrix_reindexGroupEquiv___spec__16___closed__2;
+LEAN_EXPORT lean_object* l_MulEquiv_toMonoidHom___at_CoxeterSystem_lift___elambda__2___spec__13___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_QuotientGroup_lift___at_CoxeterMatrix_reindexGroupEquiv___spec__19(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_QuotientGroup_con___at_CoxeterSystem_lift___elambda__2___spec__8___rarg(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_QuotientGroup_map___at_CoxeterMatrix_reindexGroupEquiv___spec__28(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_Subgroup_closure___at_CoxeterSystem_lift___elambda__2___spec__3___lambda__1(lean_object*, lean_object*);
+static lean_object* l_CoxeterSystem_term_u03c0______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_3347____closed__5;
+LEAN_EXPORT lean_object* l_CoxeterSystem_alternatingWord___rarg___boxed(lean_object*, lean_object*, lean_object*);
+static lean_object* l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__20;
+LEAN_EXPORT lean_object* l_QuotientGroup_mk_x27___at_CoxeterMatrix_reindexGroupEquiv___spec__29(lean_object*);
+LEAN_EXPORT lean_object* l_MonoidHom_comp___at_CoxeterMatrix_reindexGroupEquiv___spec__18(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_MonoidHom_comp___at_CoxeterMatrix_reindexGroupEquiv___spec__34(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_QuotientGroup_leftRel___at_CoxeterMatrix_reindexGroupEquiv___spec__21___boxed(lean_object*, lean_object*);
+lean_object* l_List_appendTR___rarg(lean_object*, lean_object*);
+static lean_object* l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__5;
+LEAN_EXPORT lean_object* l_QuotientGroup_leftRel___at_CoxeterSystem_lift___elambda__2___spec__9(lean_object*, lean_object*);
+static lean_object* l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__term_u03c0____1___closed__5;
+lean_object* l_List_foldrTR___at_List_prod___spec__1___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l___private_Mathlib_GroupTheory_Coxeter_Basic_0__CoxeterSystem_groupLift___at_CoxeterSystem_lift___elambda__2___spec__1(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l___private_Mathlib_GroupTheory_Coxeter_Basic_0__CoxeterSystem_restrictUnit___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_Subgroup_closure___at_CoxeterMatrix_reindexGroupEquiv___spec__5(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l___private_Mathlib_GroupTheory_Coxeter_Basic_0__CoxeterSystem_restrictUnit___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_QuotientGroup_con___at_CoxeterMatrix_reindexGroupEquiv___spec__36(lean_object*);
+LEAN_EXPORT lean_object* l_MulEquiv_symm___at_CoxeterSystem_simple___spec__1(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_iInf___at_CoxeterMatrix_instGroupGroup___spec__2___rarg___boxed(lean_object*, lean_object*, lean_object*);
+static lean_object* l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__term_u03c0____1___closed__6;
+LEAN_EXPORT lean_object* l_Submonoid_copy___at_CoxeterSystem_lift___elambda__2___spec__6___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CoxeterMatrix_toCoxeterSystem(lean_object*);
+LEAN_EXPORT lean_object* l_QuotientGroup_leftRel___at_CoxeterSystem_lift___elambda__2___spec__9___boxed(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_MulEquiv_trans___at_CoxeterSystem_map___spec__1___rarg(lean_object*, lean_object*);
+lean_object* l_MulOpposite_instDivInvMonoid___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_CoxeterSystem_simple(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_Con_lift___at_CoxeterSystem_lift___elambda__2___spec__11___rarg(lean_object*, lean_object*, lean_object*, lean_object*);
+static lean_object* l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__22;
+LEAN_EXPORT lean_object* l_MonoidHom_comp___at_CoxeterMatrix_reindexGroupEquiv___spec__18___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_QuotientGroup_map___at_CoxeterMatrix_reindexGroupEquiv___spec__12(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_Con_liftOn___at_CoxeterMatrix_reindexGroupEquiv___spec__40___boxed(lean_object*, lean_object*, lean_object*);
+lean_object* l_Lean_SourceInfo_fromRef(lean_object*, uint8_t);
+LEAN_EXPORT lean_object* l_MulHomClass_toMulHom___at_CoxeterMatrix_reindexGroupEquiv___spec__11(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_QuotientGroup_map___at_CoxeterMatrix_reindexGroupEquiv___spec__28___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_Con_lift___at_CoxeterSystem_lift___elambda__2___spec__11___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_QuotientGroup_map___at_CoxeterMatrix_reindexGroupEquiv___spec__12___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_MonoidHom_comp___at_CoxeterSystem_lift___elambda__2___spec__15___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_MulEquiv_refl___at_CoxeterMatrix_toCoxeterSystem___spec__1(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_List_mapTR_loop___at_CoxeterSystem_wordProd___spec__1___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+static lean_object* l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__26;
+static lean_object* l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__19;
+LEAN_EXPORT lean_object* l_MulHomClass_toMulHom___at_CoxeterMatrix_reindexGroupEquiv___spec__11___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_CoxeterSystem_alternatingWord(lean_object*);
+LEAN_EXPORT lean_object* l_QuotientGroup_map___at_CoxeterMatrix_reindexGroupEquiv___spec__28___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_iInf___at_CoxeterMatrix_instGroupGroup___spec__2(lean_object*, lean_object*);
+static lean_object* l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__12;
+LEAN_EXPORT lean_object* l_QuotientGroup_map___at_CoxeterMatrix_reindexGroupEquiv___spec__12___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_MonoidHom_comp___at_CoxeterSystem_lift___elambda__2___spec__14(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_MulEquiv_toMonoidHom___at___private_Mathlib_GroupTheory_Coxeter_Basic_0__CoxeterSystem_groupLift___spec__1(lean_object*, lean_object*, lean_object*, lean_object*);
+static lean_object* l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__3;
+static lean_object* l_CoxeterSystem_term_u03c0______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_3347____closed__8;
+static lean_object* l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__11;
+static lean_object* l_CoxeterSystem_term_u03c0______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_3347____closed__12;
+LEAN_EXPORT lean_object* l_Con_lift___at_CoxeterMatrix_reindexGroupEquiv___spec__39___rarg(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_Subgroup_op___at_CoxeterMatrix_reindexGroupEquiv___spec__32___boxed(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_MulEquiv_symm___at_CoxeterMatrix_reindexGroupEquiv___spec__25___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_QuotientGroup_leftRel___at_CoxeterMatrix_reindexGroupEquiv___spec__37___boxed(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_QuotientGroup_leftRel___at_CoxeterMatrix_reindexGroupEquiv___spec__15(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CoxeterSystem_reindex___rarg(lean_object*, lean_object*, lean_object*, lean_object*);
+static lean_object* l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__7;
+LEAN_EXPORT lean_object* l_Subgroup_op___at_CoxeterSystem_lift___elambda__2___spec__10___boxed(lean_object*, lean_object*);
+lean_object* l_Lean_Name_num___override(lean_object*, lean_object*);
+static lean_object* l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__17;
+LEAN_EXPORT lean_object* l_QuotientGroup_congr___at_CoxeterMatrix_reindexGroupEquiv___spec__9(lean_object*, lean_object*);
+static lean_object* l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__10;
+LEAN_EXPORT lean_object* l_QuotientGroup_mk___at_CoxeterMatrix_reindexGroupEquiv___spec__14___rarg___boxed(lean_object*);
+lean_object* l_Equiv_trans___rarg(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_QuotientGroup_lift___at_CoxeterMatrix_reindexGroupEquiv___spec__19___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_MulEquiv_toMonoidHom___at___private_Mathlib_GroupTheory_Coxeter_Basic_0__CoxeterSystem_groupLift___spec__1___rarg___boxed(lean_object*);
+LEAN_EXPORT lean_object* l_Subgroup_op___at_CoxeterMatrix_reindexGroupEquiv___spec__22___boxed(lean_object*, lean_object*);
+lean_object* l_Lean_addMacroScope(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_QuotientGroup_mk___at_CoxeterMatrix_reindexGroupEquiv___spec__14___boxed(lean_object*, lean_object*);
+static lean_object* l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__1;
+LEAN_EXPORT lean_object* l_MulEquiv_symm___at_CoxeterMatrix_reindexGroupEquiv___spec__41(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CoxeterSystem_simple___rarg(lean_object*, lean_object*, lean_object*, lean_object*);
+lean_object* l_DivInvOneMonoid_toInvOneClass___rarg(lean_object*);
+lean_object* lean_nat_land(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_Subgroup_closure___at_CoxeterMatrix_reindexGroupEquiv___spec__1___lambda__1___boxed(lean_object*, lean_object*);
+lean_object* l_Lean_Name_str___override(lean_object*, lean_object*);
+static lean_object* l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__2;
+static lean_object* l_MulHomClass_toMulHom___at_CoxeterMatrix_reindexGroupEquiv___spec__11___rarg___closed__1;
+static lean_object* l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__14;
+lean_object* l_Lean_Syntax_node2(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_MonoidHom_comp___at_CoxeterSystem_lift___elambda__2___spec__14___rarg(lean_object*, lean_object*);
+static lean_object* l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__24;
+LEAN_EXPORT lean_object* l_QuotientGroup_mk___at_CoxeterMatrix_reindexGroupEquiv___spec__30___boxed(lean_object*, lean_object*);
+static lean_object* l_Subgroup_op___at_CoxeterMatrix_reindexGroupEquiv___spec__16___closed__1;
+lean_object* l_Lean_Syntax_getArg(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_iInf___at_CoxeterSystem_lift___elambda__2___spec__4___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_npowBinRec_go___at_CoxeterMatrix_relation___spec__2___rarg___lambda__1(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_npowBinRec_go___at_CoxeterMatrix_relation___spec__2___rarg___lambda__1___boxed(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_QuotientGroup_lift___at_CoxeterSystem_lift___elambda__2___spec__7___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_MonoidHom_comp___at___private_Mathlib_GroupTheory_Coxeter_Basic_0__CoxeterSystem_groupLift___spec__2___rarg(lean_object*, lean_object*);
+static lean_object* l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__8;
+static lean_object* l_CoxeterSystem_term_u03c0______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_3347____closed__13;
+lean_object* l_FreeGroup_of___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_CoxeterSystem_lift(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_MulEquiv_symm___at_CoxeterSystem_reindex___spec__1___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_MulEquiv_refl___at_CoxeterMatrix_toCoxeterSystem___spec__1___boxed(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_QuotientGroup_mk_x27___at_CoxeterMatrix_reindexGroupEquiv___spec__13___rarg(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_QuotientGroup_con___at_CoxeterSystem_lift___elambda__2___spec__8(lean_object*);
+static lean_object* l_CoxeterSystem_term_u03c0______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_3347____closed__2;
+LEAN_EXPORT lean_object* l_Con_lift___at_CoxeterMatrix_reindexGroupEquiv___spec__23___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_MulEquiv_trans___at_CoxeterSystem_reindex___spec__2___rarg(lean_object*, lean_object*);
+lean_object* l_Units_instDivInvMonoid___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_Nat_binaryRec___at_CoxeterMatrix_relation___spec__3(lean_object*);
+LEAN_EXPORT lean_object* l_iInf___at_CoxeterMatrix_instGroupGroup___spec__3(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_Subgroup_op___at_CoxeterMatrix_reindexGroupEquiv___spec__16___boxed(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_QuotientGroup_lift___at_CoxeterMatrix_reindexGroupEquiv___spec__35___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_MonoidHom_comp___at_CoxeterMatrix_reindexGroupEquiv___spec__34___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+static lean_object* l_CoxeterSystem_term_u03c0______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_3347____closed__4;
+static lean_object* l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__8;
+LEAN_EXPORT lean_object* l_QuotientGroup_leftRel___at_CoxeterMatrix_reindexGroupEquiv___spec__21(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_npowBinRec___at_CoxeterMatrix_relation___spec__1(lean_object*);
+LEAN_EXPORT lean_object* l_Submonoid_copy___at_CoxeterSystem_lift___elambda__2___spec__6(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_Con_liftOn___at_CoxeterMatrix_reindexGroupEquiv___spec__24___rarg(lean_object*, lean_object*, lean_object*);
+static lean_object* l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__10;
+lean_object* l_Units_coeHom___rarg___boxed(lean_object*);
+LEAN_EXPORT lean_object* l_CoxeterSystem_braidWord___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_iInf___at_CoxeterMatrix_instGroupGroup___spec__3___boxed(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_MonoidHom_comp___at_CoxeterSystem_lift___elambda__2___spec__14___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_Con_liftOn___at_CoxeterMatrix_reindexGroupEquiv___spec__40___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_Subgroup_closure___at_CoxeterMatrix_instGroupGroup___spec__1___lambda__2___boxed(lean_object*, lean_object*);
+static lean_object* l_iInf___at_CoxeterMatrix_instGroupGroup___spec__3___closed__2;
+lean_object* l_Equiv_symm___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_CoxeterSystem_reindex(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CoxeterSystem_lift___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+static lean_object* l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__9;
+LEAN_EXPORT lean_object* l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_Con_lift___at_CoxeterMatrix_reindexGroupEquiv___spec__39___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_Con_liftOn___at_CoxeterMatrix_reindexGroupEquiv___spec__24(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_Con_lift___at_CoxeterSystem_lift___elambda__2___spec__11(lean_object*, lean_object*, lean_object*);
+static lean_object* l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__23;
+LEAN_EXPORT lean_object* l_QuotientGroup_mk___at_CoxeterMatrix_reindexGroupEquiv___spec__30(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_MulEquiv_symm___at_CoxeterSystem_simple___spec__1___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_QuotientGroup_mk_x27___at_CoxeterMatrix_reindexGroupEquiv___spec__29___rarg___boxed(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_QuotientGroup_leftRel___at_CoxeterMatrix_reindexGroupEquiv___spec__15___boxed(lean_object*, lean_object*);
+static lean_object* l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__11;
+LEAN_EXPORT lean_object* l_QuotientGroup_mk_x27___at_CoxeterMatrix_reindexGroupEquiv___spec__13(lean_object*);
+LEAN_EXPORT lean_object* l_Subgroup_closure___at_CoxeterMatrix_reindexGroupEquiv___spec__5___lambda__1(lean_object*, lean_object*);
+static lean_object* l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__term_u03c0____1___closed__3;
+LEAN_EXPORT lean_object* l_Nat_binaryRec___at_CoxeterMatrix_relation___spec__3___rarg(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_Submonoid_copy___at_CoxeterMatrix_instGroupGroup___spec__4(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_Subgroup_op___at_CoxeterMatrix_reindexGroupEquiv___spec__32(lean_object*, lean_object*);
+uint8_t lean_nat_dec_eq(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_iInf___at_CoxeterMatrix_reindexGroupEquiv___spec__2___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_QuotientGroup_con___at_CoxeterMatrix_reindexGroupEquiv___spec__36___rarg(lean_object*, lean_object*);
+static lean_object* l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__12;
+LEAN_EXPORT lean_object* l_CoxeterMatrix_toCoxeterSystem___rarg___boxed(lean_object*);
+LEAN_EXPORT lean_object* l_CoxeterMatrix_instGroupGroup(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_MulEquiv_symm___at_CoxeterSystem_reindex___spec__1(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_MulHomClass_toMulHom___at_CoxeterMatrix_reindexGroupEquiv___spec__11___rarg___lambda__1(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_iInf___at_CoxeterSystem_lift___elambda__2___spec__5(lean_object*, lean_object*);
+lean_object* l_Lean_Name_mkStr2(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_MulEquiv_trans___at_CoxeterSystem_map___spec__1(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+static lean_object* l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__term_u03c0____1___closed__4;
+LEAN_EXPORT lean_object* l_CoxeterMatrix_simple___boxed(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_Submonoid_copy___at_CoxeterMatrix_reindexGroupEquiv___spec__4(lean_object*, lean_object*, lean_object*, lean_object*);
+lean_object* l_Monoid_toMulOneClass___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_Submonoid_copy___at_CoxeterMatrix_instGroupGroup___spec__4___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+lean_object* l_Lean_Syntax_node1(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_MulEquiv_toMonoidHom___at_CoxeterSystem_lift___elambda__2___spec__13___rarg___boxed(lean_object*);
+static lean_object* l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__25;
+LEAN_EXPORT lean_object* l___private_Mathlib_GroupTheory_Coxeter_Basic_0__CoxeterSystem_groupLift___at_CoxeterSystem_lift___elambda__2___spec__1___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CoxeterSystem_lift___elambda__1___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_QuotientGroup_lift___at_CoxeterSystem_lift___elambda__2___spec__7___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+static lean_object* l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__23;
+static lean_object* l_CoxeterSystem_term_u03c0______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_3347____closed__1;
+static lean_object* l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__18;
+LEAN_EXPORT lean_object* l_Subgroup_closure___at_CoxeterMatrix_reindexGroupEquiv___spec__5___lambda__1___boxed(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_MonoidHom_mk_x27___at_CoxeterMatrix_reindexGroupEquiv___spec__33___rarg(lean_object*, lean_object*);
+static lean_object* l_iInf___at_CoxeterMatrix_instGroupGroup___spec__3___closed__3;
+LEAN_EXPORT lean_object* l_iInf___at_CoxeterMatrix_reindexGroupEquiv___spec__6(lean_object*, lean_object*);
+lean_object* lean_nat_sub(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CoxeterMatrix_reindexGroupEquiv(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_PresentedGroup_toGroup___at_CoxeterSystem_lift___elambda__2___spec__2___rarg(lean_object*, lean_object*, lean_object*, lean_object*);
+static lean_object* l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__2;
+LEAN_EXPORT lean_object* l_Submonoid_copy___at_CoxeterMatrix_reindexGroupEquiv___spec__8___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l___private_Mathlib_GroupTheory_Coxeter_Basic_0__CoxeterSystem_groupLift___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+static lean_object* l_CoxeterSystem_term_u03c0______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_3347____closed__11;
+static lean_object* l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__20;
+LEAN_EXPORT lean_object* l_iInf___at_CoxeterSystem_lift___elambda__2___spec__4___rarg___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CoxeterSystem_wordProd(lean_object*, lean_object*);
+lean_object* l_FreeGroup_freeGroupCongr___rarg(lean_object*);
+static lean_object* l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__21;
+LEAN_EXPORT lean_object* l_CoxeterSystem_wordProd___rarg(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_MonoidHom_comp___at_CoxeterMatrix_reindexGroupEquiv___spec__34___rarg(lean_object*, lean_object*);
+lean_object* l_List_concat___rarg(lean_object*, lean_object*);
+static lean_object* l_CoxeterSystem_lift___elambda__2___rarg___closed__1;
+lean_object* l_List_reverse___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_iInf___at_CoxeterMatrix_reindexGroupEquiv___spec__6___rarg___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l___private_Mathlib_GroupTheory_Coxeter_Basic_0__CoxeterSystem_restrictUnit___rarg(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_Subgroup_op___at_CoxeterMatrix_reindexGroupEquiv___spec__38___boxed(lean_object*, lean_object*);
+static lean_object* l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__term_u03c0____1___closed__1;
+LEAN_EXPORT lean_object* l_QuotientGroup_lift___at_CoxeterMatrix_reindexGroupEquiv___spec__19___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CoxeterSystem_reindex___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_Con_liftOn___at_CoxeterMatrix_reindexGroupEquiv___spec__24___boxed(lean_object*, lean_object*, lean_object*);
+lean_object* l_Function_comp___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_QuotientGroup_con___at_CoxeterMatrix_reindexGroupEquiv___spec__20___rarg___boxed(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l___private_Mathlib_GroupTheory_Coxeter_Basic_0__CoxeterSystem_groupLift(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_MulEquiv_symm___at_CoxeterSystem_simple___spec__1___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_CoxeterMatrix_relation(lean_object*);
+LEAN_EXPORT lean_object* l_MulEquiv_toMonoidHom___at_CoxeterSystem_lift___elambda__2___spec__13___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_CoxeterSystem_map___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_Subgroup_op___at_CoxeterMatrix_reindexGroupEquiv___spec__22(lean_object*, lean_object*);
+lean_object* l_PresentedGroup_toGroup___rarg(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CoxeterMatrix_toCoxeterSystem___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_CoxeterMatrix_simple___rarg(lean_object*);
+lean_object* l_Equiv_refl(lean_object*);
+lean_object* l_Lean_Name_mkStr4(lean_object*, lean_object*, lean_object*, lean_object*);
+static lean_object* l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__term_u03c0____1___closed__2;
+static lean_object* l_CoxeterSystem_term_u03c0______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_3347____closed__10;
+LEAN_EXPORT lean_object* l_MulHomClass_toMulHom___at_CoxeterMatrix_reindexGroupEquiv___spec__27___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_iInf___at_CoxeterMatrix_reindexGroupEquiv___spec__7___boxed(lean_object*, lean_object*);
+lean_object* l_FreeGroup_lift___elambda__2___rarg(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__term_u03c0____1(lean_object*, lean_object*, lean_object*);
+static lean_object* l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__3;
+LEAN_EXPORT lean_object* l_QuotientGroup_leftRel___at_CoxeterMatrix_reindexGroupEquiv___spec__37(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CoxeterSystem_lift___elambda__2(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_List_mapTR_loop___at_CoxeterSystem_wordProd___spec__1___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+static lean_object* l_CoxeterSystem_term_u03c0______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_3347____closed__7;
+LEAN_EXPORT lean_object* l_Subgroup_closure___at_CoxeterMatrix_instGroupGroup___spec__1(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_Con_lift___at_CoxeterMatrix_reindexGroupEquiv___spec__23(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_Submonoid_copy___at_CoxeterMatrix_reindexGroupEquiv___spec__4___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_Subgroup_closure___at_CoxeterMatrix_reindexGroupEquiv___spec__1(lean_object*, lean_object*);
+static lean_object* l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__15;
+LEAN_EXPORT lean_object* l_CoxeterSystem_lift___elambda__1(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_QuotientGroup_lift___at_CoxeterMatrix_reindexGroupEquiv___spec__35___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_Subgroup_closure___at_CoxeterSystem_lift___elambda__2___spec__3(lean_object*, lean_object*);
+lean_object* l_PresentedGroup_of___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_MulEquiv_trans___at_CoxeterSystem_reindex___spec__2(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_iInf___at_CoxeterSystem_lift___elambda__2___spec__5___boxed(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_List_mapTR_loop___at_CoxeterSystem_wordProd___spec__1(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_npowBinRec_go___at_CoxeterMatrix_relation___spec__2___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_MonoidHomClass_toMonoidHom___at_CoxeterMatrix_reindexGroupEquiv___spec__26(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_npowBinRec___at_CoxeterMatrix_relation___spec__1___rarg(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_Subgroup_closure___at_CoxeterMatrix_instGroupGroup___spec__1___lambda__1___boxed(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_QuotientGroup_lift___at_CoxeterMatrix_reindexGroupEquiv___spec__19___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_MulEquiv_trans___at_CoxeterSystem_reindex___spec__2___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+static lean_object* l_npowBinRec_go___at_CoxeterMatrix_relation___spec__2___rarg___closed__1;
+LEAN_EXPORT lean_object* l_MulEquiv_toMonoidHom___at_CoxeterSystem_lift___elambda__2___spec__13(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_Con_lift___at_CoxeterMatrix_reindexGroupEquiv___spec__39(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_Con_lift___at_CoxeterSystem_lift___elambda__2___spec__11___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+lean_object* l_String_toSubstring_x27(lean_object*);
+LEAN_EXPORT lean_object* l___private_Mathlib_GroupTheory_Coxeter_Basic_0__CoxeterSystem_groupLift___at_CoxeterSystem_lift___elambda__2___spec__1___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_QuotientGroup_con___at_CoxeterMatrix_reindexGroupEquiv___spec__36___rarg___boxed(lean_object*, lean_object*);
+static lean_object* l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__21;
+LEAN_EXPORT lean_object* l_iInf___at_CoxeterMatrix_reindexGroupEquiv___spec__3(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_MonoidHom_mk_x27___at_CoxeterMatrix_reindexGroupEquiv___spec__33___rarg___boxed(lean_object*, lean_object*);
+static lean_object* l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__16;
+LEAN_EXPORT lean_object* l_CoxeterSystem_braidWord(lean_object*);
+LEAN_EXPORT lean_object* l_iInf___at_CoxeterMatrix_reindexGroupEquiv___spec__7(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_MulEquiv_trans___at_CoxeterSystem_map___spec__1___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_QuotientGroup_mk___at_CoxeterMatrix_reindexGroupEquiv___spec__14___rarg(lean_object*);
+lean_object* l_FreeGroup_instGroup(lean_object*);
+LEAN_EXPORT lean_object* l_MonoidHomClass_toMonoidHom___at_CoxeterMatrix_reindexGroupEquiv___spec__10(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_Subgroup_op___at_CoxeterMatrix_reindexGroupEquiv___spec__38(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CoxeterSystem_lift___elambda__1___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_Subgroup_op___at_CoxeterMatrix_reindexGroupEquiv___spec__16(lean_object*, lean_object*);
+static lean_object* l_CoxeterSystem_term_u03c0______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_3347____closed__9;
+static lean_object* l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__13;
+LEAN_EXPORT lean_object* l_Nat_binaryRec___at_CoxeterMatrix_relation___spec__3___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; uint8_t x_6; 
+x_5 = lean_unsigned_to_nat(0u);
+x_6 = lean_nat_dec_eq(x_2, x_5);
+if (x_6 == 0)
+{
+lean_object* x_7; lean_object* x_8; uint8_t x_9; lean_object* x_10; 
+x_7 = lean_unsigned_to_nat(1u);
+x_8 = lean_nat_land(x_7, x_2);
+x_9 = lean_nat_dec_eq(x_8, x_5);
+lean_dec(x_8);
+x_10 = lean_nat_shiftr(x_2, x_7);
+lean_dec(x_2);
+if (x_9 == 0)
+{
+lean_object* x_11; lean_object* x_12; 
+lean_inc_n(x_4, 2);
+x_11 = l_List_appendTR___rarg(x_4, x_4);
+x_12 = l_List_appendTR___rarg(x_3, x_4);
+x_2 = x_10;
+x_3 = x_12;
+x_4 = x_11;
+goto _start;
+}
+else
+{
+lean_object* x_14; 
+lean_inc(x_4);
+x_14 = l_List_appendTR___rarg(x_4, x_4);
+x_2 = x_10;
+x_4 = x_14;
+goto _start;
+}
+}
+else
+{
+lean_object* x_16; 
+lean_dec(x_2);
+x_16 = lean_apply_2(x_1, x_3, x_4);
+return x_16;
+}
+}
+}
+LEAN_EXPORT lean_object* l_Nat_binaryRec___at_CoxeterMatrix_relation___spec__3(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_Nat_binaryRec___at_CoxeterMatrix_relation___spec__3___rarg), 4, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_npowBinRec_go___at_CoxeterMatrix_relation___spec__2___rarg___lambda__1(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_inc(x_1);
+return x_1;
+}
+}
+static lean_object* _init_l_npowBinRec_go___at_CoxeterMatrix_relation___spec__2___rarg___closed__1() {
+_start:
+{
+lean_object* x_1; 
+x_1 = lean_alloc_closure((void*)(l_npowBinRec_go___at_CoxeterMatrix_relation___spec__2___rarg___lambda__1___boxed), 2, 0);
+return x_1;
+}
+}
+LEAN_EXPORT lean_object* l_npowBinRec_go___at_CoxeterMatrix_relation___spec__2___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; 
+x_4 = l_npowBinRec_go___at_CoxeterMatrix_relation___spec__2___rarg___closed__1;
+x_5 = l_Nat_binaryRec___at_CoxeterMatrix_relation___spec__3___rarg(x_4, x_1, x_2, x_3);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_npowBinRec_go___at_CoxeterMatrix_relation___spec__2(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_npowBinRec_go___at_CoxeterMatrix_relation___spec__2___rarg), 3, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_npowBinRec___at_CoxeterMatrix_relation___spec__1___rarg(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+x_3 = lean_box(0);
+x_4 = lean_alloc_closure((void*)(l_npowBinRec_go___at_CoxeterMatrix_relation___spec__2___rarg___lambda__1___boxed), 2, 0);
+x_5 = l_Nat_binaryRec___at_CoxeterMatrix_relation___spec__3___rarg(x_4, x_1, x_3, x_2);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_npowBinRec___at_CoxeterMatrix_relation___spec__1(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_npowBinRec___at_CoxeterMatrix_relation___spec__1___rarg), 2, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CoxeterMatrix_relation___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; lean_object* x_6; lean_object* x_7; lean_object* x_8; 
+lean_inc(x_2);
+x_4 = l_FreeGroup_of___rarg(x_2);
+lean_inc(x_3);
+x_5 = l_FreeGroup_of___rarg(x_3);
+x_6 = l_List_appendTR___rarg(x_4, x_5);
+x_7 = lean_apply_2(x_1, x_2, x_3);
+x_8 = l_npowBinRec___at_CoxeterMatrix_relation___spec__1___rarg(x_7, x_6);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CoxeterMatrix_relation(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CoxeterMatrix_relation___rarg), 3, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_npowBinRec_go___at_CoxeterMatrix_relation___spec__2___rarg___lambda__1___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_npowBinRec_go___at_CoxeterMatrix_relation___spec__2___rarg___lambda__1(x_1, x_2);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_iInf___at_CoxeterMatrix_instGroupGroup___spec__2___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = lean_alloc_ctor(0, 1, 0);
+lean_ctor_set(x_4, 0, lean_box(0));
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_iInf___at_CoxeterMatrix_instGroupGroup___spec__2(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = lean_alloc_closure((void*)(l_iInf___at_CoxeterMatrix_instGroupGroup___spec__2___rarg___boxed), 3, 0);
+return x_3;
+}
+}
+static lean_object* _init_l_iInf___at_CoxeterMatrix_instGroupGroup___spec__3___closed__1() {
+_start:
+{
+lean_object* x_1; 
+x_1 = l_FreeGroup_instGroup(lean_box(0));
+return x_1;
+}
+}
+static lean_object* _init_l_iInf___at_CoxeterMatrix_instGroupGroup___spec__3___closed__2() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; lean_object* x_3; 
+x_1 = l_iInf___at_CoxeterMatrix_instGroupGroup___spec__3___closed__1;
+x_2 = lean_ctor_get(x_1, 0);
+lean_inc(x_2);
+x_3 = l_Monoid_toMulOneClass___rarg(x_2);
+lean_dec(x_2);
+return x_3;
+}
+}
+static lean_object* _init_l_iInf___at_CoxeterMatrix_instGroupGroup___spec__3___closed__3() {
+_start:
+{
+lean_object* x_1; 
+x_1 = lean_alloc_ctor(0, 1, 0);
+lean_ctor_set(x_1, 0, lean_box(0));
+return x_1;
+}
+}
+LEAN_EXPORT lean_object* l_iInf___at_CoxeterMatrix_instGroupGroup___spec__3(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_iInf___at_CoxeterMatrix_instGroupGroup___spec__3___closed__3;
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_Submonoid_copy___at_CoxeterMatrix_instGroupGroup___spec__4(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_iInf___at_CoxeterMatrix_instGroupGroup___spec__3___closed__3;
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_Subgroup_closure___at_CoxeterMatrix_instGroupGroup___spec__1___lambda__1(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_inc(x_1);
+return x_1;
+}
+}
+LEAN_EXPORT lean_object* l_Subgroup_closure___at_CoxeterMatrix_instGroupGroup___spec__1___lambda__2(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; 
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_Subgroup_closure___at_CoxeterMatrix_instGroupGroup___spec__1___lambda__1___boxed), 2, 1);
+lean_closure_set(x_3, 0, x_2);
+x_4 = l_iInf___at_CoxeterMatrix_instGroupGroup___spec__2___rarg(x_1, x_2, x_3);
+lean_dec(x_3);
+lean_dec(x_2);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_Subgroup_closure___at_CoxeterMatrix_instGroupGroup___spec__1(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; lean_object* x_6; 
+x_3 = l_iInf___at_CoxeterMatrix_instGroupGroup___spec__3___closed__1;
+x_4 = lean_alloc_closure((void*)(l_Subgroup_closure___at_CoxeterMatrix_instGroupGroup___spec__1___lambda__2___boxed), 2, 1);
+lean_closure_set(x_4, 0, x_3);
+x_5 = l_iInf___at_CoxeterMatrix_instGroupGroup___spec__3(lean_box(0), x_4);
+lean_dec(x_4);
+x_6 = l_Submonoid_copy___at_CoxeterMatrix_instGroupGroup___spec__4(lean_box(0), x_5, lean_box(0), lean_box(0));
+lean_dec(x_5);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CoxeterMatrix_instGroupGroup(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+x_3 = l_Subgroup_closure___at_CoxeterMatrix_instGroupGroup___spec__1(lean_box(0), lean_box(0));
+x_4 = l_iInf___at_CoxeterMatrix_instGroupGroup___spec__3___closed__1;
+x_5 = l_QuotientGroup_Quotient_group___rarg(x_4, x_3, lean_box(0));
+lean_dec(x_3);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_iInf___at_CoxeterMatrix_instGroupGroup___spec__2___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_iInf___at_CoxeterMatrix_instGroupGroup___spec__2___rarg(x_1, x_2, x_3);
+lean_dec(x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_iInf___at_CoxeterMatrix_instGroupGroup___spec__3___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_iInf___at_CoxeterMatrix_instGroupGroup___spec__3(x_1, x_2);
+lean_dec(x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_Submonoid_copy___at_CoxeterMatrix_instGroupGroup___spec__4___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_Submonoid_copy___at_CoxeterMatrix_instGroupGroup___spec__4(x_1, x_2, x_3, x_4);
+lean_dec(x_2);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_Subgroup_closure___at_CoxeterMatrix_instGroupGroup___spec__1___lambda__1___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_Subgroup_closure___at_CoxeterMatrix_instGroupGroup___spec__1___lambda__1(x_1, x_2);
+lean_dec(x_1);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_Subgroup_closure___at_CoxeterMatrix_instGroupGroup___spec__1___lambda__2___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_Subgroup_closure___at_CoxeterMatrix_instGroupGroup___spec__1___lambda__2(x_1, x_2);
+lean_dec(x_1);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CoxeterMatrix_instGroupGroup___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_CoxeterMatrix_instGroupGroup(x_1, x_2);
+lean_dec(x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CoxeterMatrix_simple___rarg(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = l_PresentedGroup_of___rarg(x_1);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CoxeterMatrix_simple(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = lean_alloc_closure((void*)(l_CoxeterMatrix_simple___rarg), 1, 0);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CoxeterMatrix_simple___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_CoxeterMatrix_simple(x_1, x_2);
+lean_dec(x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_iInf___at_CoxeterMatrix_reindexGroupEquiv___spec__2___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = lean_alloc_ctor(0, 1, 0);
+lean_ctor_set(x_4, 0, lean_box(0));
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_iInf___at_CoxeterMatrix_reindexGroupEquiv___spec__2(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = lean_alloc_closure((void*)(l_iInf___at_CoxeterMatrix_reindexGroupEquiv___spec__2___rarg___boxed), 3, 0);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_iInf___at_CoxeterMatrix_reindexGroupEquiv___spec__3(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_iInf___at_CoxeterMatrix_instGroupGroup___spec__3___closed__3;
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_Submonoid_copy___at_CoxeterMatrix_reindexGroupEquiv___spec__4(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_iInf___at_CoxeterMatrix_instGroupGroup___spec__3___closed__3;
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_Subgroup_closure___at_CoxeterMatrix_reindexGroupEquiv___spec__1___lambda__1(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; 
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_Subgroup_closure___at_CoxeterMatrix_instGroupGroup___spec__1___lambda__1___boxed), 2, 1);
+lean_closure_set(x_3, 0, x_2);
+x_4 = l_iInf___at_CoxeterMatrix_reindexGroupEquiv___spec__2___rarg(x_1, x_2, x_3);
+lean_dec(x_3);
+lean_dec(x_2);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_Subgroup_closure___at_CoxeterMatrix_reindexGroupEquiv___spec__1(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; lean_object* x_6; 
+x_3 = l_iInf___at_CoxeterMatrix_instGroupGroup___spec__3___closed__1;
+x_4 = lean_alloc_closure((void*)(l_Subgroup_closure___at_CoxeterMatrix_reindexGroupEquiv___spec__1___lambda__1___boxed), 2, 1);
+lean_closure_set(x_4, 0, x_3);
+x_5 = l_iInf___at_CoxeterMatrix_reindexGroupEquiv___spec__3(lean_box(0), x_4);
+lean_dec(x_4);
+x_6 = l_Submonoid_copy___at_CoxeterMatrix_reindexGroupEquiv___spec__4(lean_box(0), x_5, lean_box(0), lean_box(0));
+lean_dec(x_5);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_iInf___at_CoxeterMatrix_reindexGroupEquiv___spec__6___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = lean_alloc_ctor(0, 1, 0);
+lean_ctor_set(x_4, 0, lean_box(0));
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_iInf___at_CoxeterMatrix_reindexGroupEquiv___spec__6(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = lean_alloc_closure((void*)(l_iInf___at_CoxeterMatrix_reindexGroupEquiv___spec__6___rarg___boxed), 3, 0);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_iInf___at_CoxeterMatrix_reindexGroupEquiv___spec__7(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_iInf___at_CoxeterMatrix_instGroupGroup___spec__3___closed__3;
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_Submonoid_copy___at_CoxeterMatrix_reindexGroupEquiv___spec__8(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_iInf___at_CoxeterMatrix_instGroupGroup___spec__3___closed__3;
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_Subgroup_closure___at_CoxeterMatrix_reindexGroupEquiv___spec__5___lambda__1(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; 
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_Subgroup_closure___at_CoxeterMatrix_instGroupGroup___spec__1___lambda__1___boxed), 2, 1);
+lean_closure_set(x_3, 0, x_2);
+x_4 = l_iInf___at_CoxeterMatrix_reindexGroupEquiv___spec__6___rarg(x_1, x_2, x_3);
+lean_dec(x_3);
+lean_dec(x_2);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_Subgroup_closure___at_CoxeterMatrix_reindexGroupEquiv___spec__5(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; lean_object* x_6; 
+x_3 = l_iInf___at_CoxeterMatrix_instGroupGroup___spec__3___closed__1;
+x_4 = lean_alloc_closure((void*)(l_Subgroup_closure___at_CoxeterMatrix_reindexGroupEquiv___spec__5___lambda__1___boxed), 2, 1);
+lean_closure_set(x_4, 0, x_3);
+x_5 = l_iInf___at_CoxeterMatrix_reindexGroupEquiv___spec__7(lean_box(0), x_4);
+lean_dec(x_4);
+x_6 = l_Submonoid_copy___at_CoxeterMatrix_reindexGroupEquiv___spec__8(lean_box(0), x_5, lean_box(0), lean_box(0));
+lean_dec(x_5);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_MulHomClass_toMulHom___at_CoxeterMatrix_reindexGroupEquiv___spec__11___rarg___lambda__1(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; 
+x_3 = lean_ctor_get(x_1, 0);
+lean_inc(x_3);
+lean_dec(x_1);
+x_4 = lean_apply_1(x_3, x_2);
+return x_4;
+}
+}
+static lean_object* _init_l_MulHomClass_toMulHom___at_CoxeterMatrix_reindexGroupEquiv___spec__11___rarg___closed__1() {
+_start:
+{
+lean_object* x_1; 
+x_1 = lean_alloc_closure((void*)(l_MulHomClass_toMulHom___at_CoxeterMatrix_reindexGroupEquiv___spec__11___rarg___lambda__1), 2, 0);
+return x_1;
+}
+}
+LEAN_EXPORT lean_object* l_MulHomClass_toMulHom___at_CoxeterMatrix_reindexGroupEquiv___spec__11___rarg(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; lean_object* x_3; 
+x_2 = l_MulHomClass_toMulHom___at_CoxeterMatrix_reindexGroupEquiv___spec__11___rarg___closed__1;
+x_3 = lean_alloc_closure((void*)(l_MulHomClass_toMulHom___elambda__1___rarg), 3, 2);
+lean_closure_set(x_3, 0, x_1);
+lean_closure_set(x_3, 1, x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_MulHomClass_toMulHom___at_CoxeterMatrix_reindexGroupEquiv___spec__11(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = lean_alloc_closure((void*)(l_MulHomClass_toMulHom___at_CoxeterMatrix_reindexGroupEquiv___spec__11___rarg), 1, 0);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_MonoidHomClass_toMonoidHom___at_CoxeterMatrix_reindexGroupEquiv___spec__10___rarg(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; lean_object* x_3; 
+x_2 = lean_alloc_closure((void*)(l_MulHomClass_toMulHom___at_CoxeterMatrix_reindexGroupEquiv___spec__11___rarg___lambda__1), 2, 0);
+x_3 = lean_alloc_closure((void*)(l_MulHomClass_toMulHom___elambda__1___rarg), 3, 2);
+lean_closure_set(x_3, 0, x_1);
+lean_closure_set(x_3, 1, x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_MonoidHomClass_toMonoidHom___at_CoxeterMatrix_reindexGroupEquiv___spec__10(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = lean_alloc_closure((void*)(l_MonoidHomClass_toMonoidHom___at_CoxeterMatrix_reindexGroupEquiv___spec__10___rarg), 1, 0);
+return x_4;
+}
+}
+static lean_object* _init_l_Subgroup_op___at_CoxeterMatrix_reindexGroupEquiv___spec__16___closed__1() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; 
+x_1 = l_iInf___at_CoxeterMatrix_instGroupGroup___spec__3___closed__1;
+x_2 = l_MulOpposite_instDivInvMonoid___rarg(x_1);
+return x_2;
+}
+}
+static lean_object* _init_l_Subgroup_op___at_CoxeterMatrix_reindexGroupEquiv___spec__16___closed__2() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; lean_object* x_3; 
+x_1 = l_Subgroup_op___at_CoxeterMatrix_reindexGroupEquiv___spec__16___closed__1;
+x_2 = lean_ctor_get(x_1, 0);
+lean_inc(x_2);
+x_3 = l_Monoid_toMulOneClass___rarg(x_2);
+lean_dec(x_2);
+return x_3;
+}
+}
+static lean_object* _init_l_Subgroup_op___at_CoxeterMatrix_reindexGroupEquiv___spec__16___closed__3() {
+_start:
+{
+lean_object* x_1; 
+x_1 = lean_alloc_ctor(0, 1, 0);
+lean_ctor_set(x_1, 0, lean_box(0));
+return x_1;
+}
+}
+LEAN_EXPORT lean_object* l_Subgroup_op___at_CoxeterMatrix_reindexGroupEquiv___spec__16(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_Subgroup_op___at_CoxeterMatrix_reindexGroupEquiv___spec__16___closed__3;
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_QuotientGroup_leftRel___at_CoxeterMatrix_reindexGroupEquiv___spec__15(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = lean_box(0);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_QuotientGroup_mk___at_CoxeterMatrix_reindexGroupEquiv___spec__14___rarg(lean_object* x_1) {
+_start:
+{
+lean_inc(x_1);
+return x_1;
+}
+}
+LEAN_EXPORT lean_object* l_QuotientGroup_mk___at_CoxeterMatrix_reindexGroupEquiv___spec__14(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = lean_alloc_closure((void*)(l_QuotientGroup_mk___at_CoxeterMatrix_reindexGroupEquiv___spec__14___rarg___boxed), 1, 0);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_MonoidHom_mk_x27___at_CoxeterMatrix_reindexGroupEquiv___spec__17___rarg(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_inc(x_1);
+return x_1;
+}
+}
+LEAN_EXPORT lean_object* l_MonoidHom_mk_x27___at_CoxeterMatrix_reindexGroupEquiv___spec__17(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = lean_alloc_closure((void*)(l_MonoidHom_mk_x27___at_CoxeterMatrix_reindexGroupEquiv___spec__17___rarg___boxed), 2, 0);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_QuotientGroup_mk_x27___at_CoxeterMatrix_reindexGroupEquiv___spec__13___rarg(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = lean_alloc_closure((void*)(l_QuotientGroup_mk___at_CoxeterMatrix_reindexGroupEquiv___spec__14___rarg___boxed), 1, 0);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_QuotientGroup_mk_x27___at_CoxeterMatrix_reindexGroupEquiv___spec__13(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_QuotientGroup_mk_x27___at_CoxeterMatrix_reindexGroupEquiv___spec__13___rarg___boxed), 2, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_MonoidHom_comp___at_CoxeterMatrix_reindexGroupEquiv___spec__18___rarg(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = lean_alloc_closure((void*)(l_Function_comp___rarg), 3, 2);
+lean_closure_set(x_3, 0, x_1);
+lean_closure_set(x_3, 1, x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_MonoidHom_comp___at_CoxeterMatrix_reindexGroupEquiv___spec__18(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = lean_alloc_closure((void*)(l_MonoidHom_comp___at_CoxeterMatrix_reindexGroupEquiv___spec__18___rarg), 2, 0);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_Subgroup_op___at_CoxeterMatrix_reindexGroupEquiv___spec__22(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_Subgroup_op___at_CoxeterMatrix_reindexGroupEquiv___spec__16___closed__3;
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_QuotientGroup_leftRel___at_CoxeterMatrix_reindexGroupEquiv___spec__21(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = lean_box(0);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_QuotientGroup_con___at_CoxeterMatrix_reindexGroupEquiv___spec__20___rarg(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = lean_box(0);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_QuotientGroup_con___at_CoxeterMatrix_reindexGroupEquiv___spec__20(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_QuotientGroup_con___at_CoxeterMatrix_reindexGroupEquiv___spec__20___rarg___boxed), 2, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_Con_liftOn___at_CoxeterMatrix_reindexGroupEquiv___spec__24___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = lean_apply_1(x_2, x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_Con_liftOn___at_CoxeterMatrix_reindexGroupEquiv___spec__24(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = lean_alloc_closure((void*)(l_Con_liftOn___at_CoxeterMatrix_reindexGroupEquiv___spec__24___rarg), 3, 0);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_Con_lift___at_CoxeterMatrix_reindexGroupEquiv___spec__23___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = lean_apply_1(x_2, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_Con_lift___at_CoxeterMatrix_reindexGroupEquiv___spec__23(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = lean_alloc_closure((void*)(l_Con_lift___at_CoxeterMatrix_reindexGroupEquiv___spec__23___rarg___boxed), 4, 0);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_QuotientGroup_lift___at_CoxeterMatrix_reindexGroupEquiv___spec__19___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; 
+x_6 = lean_box(0);
+x_7 = lean_alloc_closure((void*)(l_Con_lift___at_CoxeterMatrix_reindexGroupEquiv___spec__23___rarg___boxed), 4, 3);
+lean_closure_set(x_7, 0, x_6);
+lean_closure_set(x_7, 1, x_4);
+lean_closure_set(x_7, 2, lean_box(0));
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_QuotientGroup_lift___at_CoxeterMatrix_reindexGroupEquiv___spec__19(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = lean_alloc_closure((void*)(l_QuotientGroup_lift___at_CoxeterMatrix_reindexGroupEquiv___spec__19___rarg___boxed), 5, 0);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_QuotientGroup_map___at_CoxeterMatrix_reindexGroupEquiv___spec__12___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; lean_object* x_9; lean_object* x_10; 
+x_8 = l_QuotientGroup_mk_x27___at_CoxeterMatrix_reindexGroupEquiv___spec__13___rarg(x_4, lean_box(0));
+x_9 = lean_alloc_closure((void*)(l_Function_comp___rarg), 3, 2);
+lean_closure_set(x_9, 0, x_8);
+lean_closure_set(x_9, 1, x_6);
+x_10 = l_QuotientGroup_lift___at_CoxeterMatrix_reindexGroupEquiv___spec__19___rarg(x_4, lean_box(0), x_3, x_9, lean_box(0));
+return x_10;
+}
+}
+LEAN_EXPORT lean_object* l_QuotientGroup_map___at_CoxeterMatrix_reindexGroupEquiv___spec__12(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = lean_alloc_closure((void*)(l_QuotientGroup_map___at_CoxeterMatrix_reindexGroupEquiv___spec__12___rarg___boxed), 7, 0);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_MulEquiv_symm___at_CoxeterMatrix_reindexGroupEquiv___spec__25___rarg(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = l_Equiv_symm___rarg(x_1);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_MulEquiv_symm___at_CoxeterMatrix_reindexGroupEquiv___spec__25(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = lean_alloc_closure((void*)(l_MulEquiv_symm___at_CoxeterMatrix_reindexGroupEquiv___spec__25___rarg), 1, 0);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_MulHomClass_toMulHom___at_CoxeterMatrix_reindexGroupEquiv___spec__27___rarg(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; lean_object* x_3; 
+x_2 = l_MulHomClass_toMulHom___at_CoxeterMatrix_reindexGroupEquiv___spec__11___rarg___closed__1;
+x_3 = lean_alloc_closure((void*)(l_MulHomClass_toMulHom___elambda__1___rarg), 3, 2);
+lean_closure_set(x_3, 0, x_1);
+lean_closure_set(x_3, 1, x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_MulHomClass_toMulHom___at_CoxeterMatrix_reindexGroupEquiv___spec__27(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = lean_alloc_closure((void*)(l_MulHomClass_toMulHom___at_CoxeterMatrix_reindexGroupEquiv___spec__27___rarg), 1, 0);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_MonoidHomClass_toMonoidHom___at_CoxeterMatrix_reindexGroupEquiv___spec__26___rarg(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; lean_object* x_3; 
+x_2 = lean_alloc_closure((void*)(l_MulHomClass_toMulHom___at_CoxeterMatrix_reindexGroupEquiv___spec__11___rarg___lambda__1), 2, 0);
+x_3 = lean_alloc_closure((void*)(l_MulHomClass_toMulHom___elambda__1___rarg), 3, 2);
+lean_closure_set(x_3, 0, x_1);
+lean_closure_set(x_3, 1, x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_MonoidHomClass_toMonoidHom___at_CoxeterMatrix_reindexGroupEquiv___spec__26(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = lean_alloc_closure((void*)(l_MonoidHomClass_toMonoidHom___at_CoxeterMatrix_reindexGroupEquiv___spec__26___rarg), 1, 0);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_Subgroup_op___at_CoxeterMatrix_reindexGroupEquiv___spec__32(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_Subgroup_op___at_CoxeterMatrix_reindexGroupEquiv___spec__16___closed__3;
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_QuotientGroup_leftRel___at_CoxeterMatrix_reindexGroupEquiv___spec__31(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = lean_box(0);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_QuotientGroup_mk___at_CoxeterMatrix_reindexGroupEquiv___spec__30___rarg(lean_object* x_1) {
+_start:
+{
+lean_inc(x_1);
+return x_1;
+}
+}
+LEAN_EXPORT lean_object* l_QuotientGroup_mk___at_CoxeterMatrix_reindexGroupEquiv___spec__30(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = lean_alloc_closure((void*)(l_QuotientGroup_mk___at_CoxeterMatrix_reindexGroupEquiv___spec__30___rarg___boxed), 1, 0);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_MonoidHom_mk_x27___at_CoxeterMatrix_reindexGroupEquiv___spec__33___rarg(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_inc(x_1);
+return x_1;
+}
+}
+LEAN_EXPORT lean_object* l_MonoidHom_mk_x27___at_CoxeterMatrix_reindexGroupEquiv___spec__33(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = lean_alloc_closure((void*)(l_MonoidHom_mk_x27___at_CoxeterMatrix_reindexGroupEquiv___spec__33___rarg___boxed), 2, 0);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_QuotientGroup_mk_x27___at_CoxeterMatrix_reindexGroupEquiv___spec__29___rarg(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = lean_alloc_closure((void*)(l_QuotientGroup_mk___at_CoxeterMatrix_reindexGroupEquiv___spec__30___rarg___boxed), 1, 0);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_QuotientGroup_mk_x27___at_CoxeterMatrix_reindexGroupEquiv___spec__29(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_QuotientGroup_mk_x27___at_CoxeterMatrix_reindexGroupEquiv___spec__29___rarg___boxed), 2, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_MonoidHom_comp___at_CoxeterMatrix_reindexGroupEquiv___spec__34___rarg(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = lean_alloc_closure((void*)(l_Function_comp___rarg), 3, 2);
+lean_closure_set(x_3, 0, x_1);
+lean_closure_set(x_3, 1, x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_MonoidHom_comp___at_CoxeterMatrix_reindexGroupEquiv___spec__34(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = lean_alloc_closure((void*)(l_MonoidHom_comp___at_CoxeterMatrix_reindexGroupEquiv___spec__34___rarg), 2, 0);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_Subgroup_op___at_CoxeterMatrix_reindexGroupEquiv___spec__38(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_Subgroup_op___at_CoxeterMatrix_reindexGroupEquiv___spec__16___closed__3;
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_QuotientGroup_leftRel___at_CoxeterMatrix_reindexGroupEquiv___spec__37(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = lean_box(0);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_QuotientGroup_con___at_CoxeterMatrix_reindexGroupEquiv___spec__36___rarg(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = lean_box(0);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_QuotientGroup_con___at_CoxeterMatrix_reindexGroupEquiv___spec__36(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_QuotientGroup_con___at_CoxeterMatrix_reindexGroupEquiv___spec__36___rarg___boxed), 2, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_Con_liftOn___at_CoxeterMatrix_reindexGroupEquiv___spec__40___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = lean_apply_1(x_2, x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_Con_liftOn___at_CoxeterMatrix_reindexGroupEquiv___spec__40(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = lean_alloc_closure((void*)(l_Con_liftOn___at_CoxeterMatrix_reindexGroupEquiv___spec__40___rarg), 3, 0);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_Con_lift___at_CoxeterMatrix_reindexGroupEquiv___spec__39___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = lean_apply_1(x_2, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_Con_lift___at_CoxeterMatrix_reindexGroupEquiv___spec__39(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = lean_alloc_closure((void*)(l_Con_lift___at_CoxeterMatrix_reindexGroupEquiv___spec__39___rarg___boxed), 4, 0);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_QuotientGroup_lift___at_CoxeterMatrix_reindexGroupEquiv___spec__35___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; 
+x_6 = lean_box(0);
+x_7 = lean_alloc_closure((void*)(l_Con_lift___at_CoxeterMatrix_reindexGroupEquiv___spec__39___rarg___boxed), 4, 3);
+lean_closure_set(x_7, 0, x_6);
+lean_closure_set(x_7, 1, x_4);
+lean_closure_set(x_7, 2, lean_box(0));
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_QuotientGroup_lift___at_CoxeterMatrix_reindexGroupEquiv___spec__35(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = lean_alloc_closure((void*)(l_QuotientGroup_lift___at_CoxeterMatrix_reindexGroupEquiv___spec__35___rarg___boxed), 5, 0);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_QuotientGroup_map___at_CoxeterMatrix_reindexGroupEquiv___spec__28___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; lean_object* x_9; lean_object* x_10; 
+x_8 = l_QuotientGroup_mk_x27___at_CoxeterMatrix_reindexGroupEquiv___spec__29___rarg(x_4, lean_box(0));
+x_9 = lean_alloc_closure((void*)(l_Function_comp___rarg), 3, 2);
+lean_closure_set(x_9, 0, x_8);
+lean_closure_set(x_9, 1, x_6);
+x_10 = l_QuotientGroup_lift___at_CoxeterMatrix_reindexGroupEquiv___spec__35___rarg(x_4, lean_box(0), x_3, x_9, lean_box(0));
+return x_10;
+}
+}
+LEAN_EXPORT lean_object* l_QuotientGroup_map___at_CoxeterMatrix_reindexGroupEquiv___spec__28(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = lean_alloc_closure((void*)(l_QuotientGroup_map___at_CoxeterMatrix_reindexGroupEquiv___spec__28___rarg___boxed), 7, 0);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_QuotientGroup_congr___at_CoxeterMatrix_reindexGroupEquiv___spec__9___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; lean_object* x_11; lean_object* x_12; lean_object* x_13; 
+x_7 = lean_alloc_closure((void*)(l_MulHomClass_toMulHom___at_CoxeterMatrix_reindexGroupEquiv___spec__11___rarg___lambda__1), 2, 0);
+lean_inc(x_7);
+lean_inc(x_5);
+x_8 = lean_alloc_closure((void*)(l_MulHomClass_toMulHom___elambda__1___rarg), 3, 2);
+lean_closure_set(x_8, 0, x_5);
+lean_closure_set(x_8, 1, x_7);
+x_9 = l_QuotientGroup_map___at_CoxeterMatrix_reindexGroupEquiv___spec__12___rarg(x_1, lean_box(0), x_1, x_2, lean_box(0), x_8, lean_box(0));
+x_10 = l_Equiv_symm___rarg(x_5);
+x_11 = lean_alloc_closure((void*)(l_MulHomClass_toMulHom___elambda__1___rarg), 3, 2);
+lean_closure_set(x_11, 0, x_10);
+lean_closure_set(x_11, 1, x_7);
+x_12 = l_QuotientGroup_map___at_CoxeterMatrix_reindexGroupEquiv___spec__28___rarg(x_2, lean_box(0), x_2, x_1, lean_box(0), x_11, lean_box(0));
+x_13 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_13, 0, x_9);
+lean_ctor_set(x_13, 1, x_12);
+return x_13;
+}
+}
+LEAN_EXPORT lean_object* l_QuotientGroup_congr___at_CoxeterMatrix_reindexGroupEquiv___spec__9(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = lean_alloc_closure((void*)(l_QuotientGroup_congr___at_CoxeterMatrix_reindexGroupEquiv___spec__9___rarg___boxed), 6, 0);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_MulEquiv_symm___at_CoxeterMatrix_reindexGroupEquiv___spec__41___rarg(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = l_Equiv_symm___rarg(x_1);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_MulEquiv_symm___at_CoxeterMatrix_reindexGroupEquiv___spec__41(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = lean_alloc_closure((void*)(l_MulEquiv_symm___at_CoxeterMatrix_reindexGroupEquiv___spec__41___rarg), 1, 0);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CoxeterMatrix_reindexGroupEquiv___rarg(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+x_3 = l_Subgroup_closure___at_CoxeterMatrix_reindexGroupEquiv___spec__1(lean_box(0), lean_box(0));
+x_4 = l_Subgroup_closure___at_CoxeterMatrix_reindexGroupEquiv___spec__5(lean_box(0), lean_box(0));
+x_5 = l_FreeGroup_freeGroupCongr___rarg(x_2);
+x_6 = l_QuotientGroup_congr___at_CoxeterMatrix_reindexGroupEquiv___spec__9___rarg(x_3, x_4, lean_box(0), lean_box(0), x_5, lean_box(0));
+lean_dec(x_4);
+lean_dec(x_3);
+x_7 = l_Equiv_symm___rarg(x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CoxeterMatrix_reindexGroupEquiv(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = lean_alloc_closure((void*)(l_CoxeterMatrix_reindexGroupEquiv___rarg___boxed), 2, 0);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_iInf___at_CoxeterMatrix_reindexGroupEquiv___spec__2___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_iInf___at_CoxeterMatrix_reindexGroupEquiv___spec__2___rarg(x_1, x_2, x_3);
+lean_dec(x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_iInf___at_CoxeterMatrix_reindexGroupEquiv___spec__3___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_iInf___at_CoxeterMatrix_reindexGroupEquiv___spec__3(x_1, x_2);
+lean_dec(x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_Submonoid_copy___at_CoxeterMatrix_reindexGroupEquiv___spec__4___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_Submonoid_copy___at_CoxeterMatrix_reindexGroupEquiv___spec__4(x_1, x_2, x_3, x_4);
+lean_dec(x_2);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_Subgroup_closure___at_CoxeterMatrix_reindexGroupEquiv___spec__1___lambda__1___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_Subgroup_closure___at_CoxeterMatrix_reindexGroupEquiv___spec__1___lambda__1(x_1, x_2);
+lean_dec(x_1);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_iInf___at_CoxeterMatrix_reindexGroupEquiv___spec__6___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_iInf___at_CoxeterMatrix_reindexGroupEquiv___spec__6___rarg(x_1, x_2, x_3);
+lean_dec(x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_iInf___at_CoxeterMatrix_reindexGroupEquiv___spec__7___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_iInf___at_CoxeterMatrix_reindexGroupEquiv___spec__7(x_1, x_2);
+lean_dec(x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_Submonoid_copy___at_CoxeterMatrix_reindexGroupEquiv___spec__8___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_Submonoid_copy___at_CoxeterMatrix_reindexGroupEquiv___spec__8(x_1, x_2, x_3, x_4);
+lean_dec(x_2);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_Subgroup_closure___at_CoxeterMatrix_reindexGroupEquiv___spec__5___lambda__1___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_Subgroup_closure___at_CoxeterMatrix_reindexGroupEquiv___spec__5___lambda__1(x_1, x_2);
+lean_dec(x_1);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_Subgroup_op___at_CoxeterMatrix_reindexGroupEquiv___spec__16___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_Subgroup_op___at_CoxeterMatrix_reindexGroupEquiv___spec__16(x_1, x_2);
+lean_dec(x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_QuotientGroup_leftRel___at_CoxeterMatrix_reindexGroupEquiv___spec__15___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_QuotientGroup_leftRel___at_CoxeterMatrix_reindexGroupEquiv___spec__15(x_1, x_2);
+lean_dec(x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_QuotientGroup_mk___at_CoxeterMatrix_reindexGroupEquiv___spec__14___rarg___boxed(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = l_QuotientGroup_mk___at_CoxeterMatrix_reindexGroupEquiv___spec__14___rarg(x_1);
+lean_dec(x_1);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_QuotientGroup_mk___at_CoxeterMatrix_reindexGroupEquiv___spec__14___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_QuotientGroup_mk___at_CoxeterMatrix_reindexGroupEquiv___spec__14(x_1, x_2);
+lean_dec(x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_MonoidHom_mk_x27___at_CoxeterMatrix_reindexGroupEquiv___spec__17___rarg___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_MonoidHom_mk_x27___at_CoxeterMatrix_reindexGroupEquiv___spec__17___rarg(x_1, x_2);
+lean_dec(x_1);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_MonoidHom_mk_x27___at_CoxeterMatrix_reindexGroupEquiv___spec__17___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_MonoidHom_mk_x27___at_CoxeterMatrix_reindexGroupEquiv___spec__17(x_1, x_2, x_3);
+lean_dec(x_2);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_QuotientGroup_mk_x27___at_CoxeterMatrix_reindexGroupEquiv___spec__13___rarg___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_QuotientGroup_mk_x27___at_CoxeterMatrix_reindexGroupEquiv___spec__13___rarg(x_1, x_2);
+lean_dec(x_1);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_MonoidHom_comp___at_CoxeterMatrix_reindexGroupEquiv___spec__18___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_MonoidHom_comp___at_CoxeterMatrix_reindexGroupEquiv___spec__18(x_1, x_2, x_3, x_4);
+lean_dec(x_3);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_Subgroup_op___at_CoxeterMatrix_reindexGroupEquiv___spec__22___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_Subgroup_op___at_CoxeterMatrix_reindexGroupEquiv___spec__22(x_1, x_2);
+lean_dec(x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_QuotientGroup_leftRel___at_CoxeterMatrix_reindexGroupEquiv___spec__21___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_QuotientGroup_leftRel___at_CoxeterMatrix_reindexGroupEquiv___spec__21(x_1, x_2);
+lean_dec(x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_QuotientGroup_con___at_CoxeterMatrix_reindexGroupEquiv___spec__20___rarg___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_QuotientGroup_con___at_CoxeterMatrix_reindexGroupEquiv___spec__20___rarg(x_1, x_2);
+lean_dec(x_1);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_Con_liftOn___at_CoxeterMatrix_reindexGroupEquiv___spec__24___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_Con_liftOn___at_CoxeterMatrix_reindexGroupEquiv___spec__24(x_1, x_2, x_3);
+lean_dec(x_3);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_Con_lift___at_CoxeterMatrix_reindexGroupEquiv___spec__23___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_Con_lift___at_CoxeterMatrix_reindexGroupEquiv___spec__23___rarg(x_1, x_2, x_3, x_4);
+lean_dec(x_1);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_Con_lift___at_CoxeterMatrix_reindexGroupEquiv___spec__23___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_Con_lift___at_CoxeterMatrix_reindexGroupEquiv___spec__23(x_1, x_2, x_3, x_4);
+lean_dec(x_3);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_QuotientGroup_lift___at_CoxeterMatrix_reindexGroupEquiv___spec__19___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_QuotientGroup_lift___at_CoxeterMatrix_reindexGroupEquiv___spec__19___rarg(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_QuotientGroup_lift___at_CoxeterMatrix_reindexGroupEquiv___spec__19___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_QuotientGroup_lift___at_CoxeterMatrix_reindexGroupEquiv___spec__19(x_1, x_2, x_3, x_4);
+lean_dec(x_3);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_QuotientGroup_map___at_CoxeterMatrix_reindexGroupEquiv___spec__12___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; 
+x_8 = l_QuotientGroup_map___at_CoxeterMatrix_reindexGroupEquiv___spec__12___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_Subgroup_op___at_CoxeterMatrix_reindexGroupEquiv___spec__32___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_Subgroup_op___at_CoxeterMatrix_reindexGroupEquiv___spec__32(x_1, x_2);
+lean_dec(x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_QuotientGroup_leftRel___at_CoxeterMatrix_reindexGroupEquiv___spec__31___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_QuotientGroup_leftRel___at_CoxeterMatrix_reindexGroupEquiv___spec__31(x_1, x_2);
+lean_dec(x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_QuotientGroup_mk___at_CoxeterMatrix_reindexGroupEquiv___spec__30___rarg___boxed(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = l_QuotientGroup_mk___at_CoxeterMatrix_reindexGroupEquiv___spec__30___rarg(x_1);
+lean_dec(x_1);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_QuotientGroup_mk___at_CoxeterMatrix_reindexGroupEquiv___spec__30___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_QuotientGroup_mk___at_CoxeterMatrix_reindexGroupEquiv___spec__30(x_1, x_2);
+lean_dec(x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_MonoidHom_mk_x27___at_CoxeterMatrix_reindexGroupEquiv___spec__33___rarg___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_MonoidHom_mk_x27___at_CoxeterMatrix_reindexGroupEquiv___spec__33___rarg(x_1, x_2);
+lean_dec(x_1);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_MonoidHom_mk_x27___at_CoxeterMatrix_reindexGroupEquiv___spec__33___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_MonoidHom_mk_x27___at_CoxeterMatrix_reindexGroupEquiv___spec__33(x_1, x_2, x_3);
+lean_dec(x_2);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_QuotientGroup_mk_x27___at_CoxeterMatrix_reindexGroupEquiv___spec__29___rarg___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_QuotientGroup_mk_x27___at_CoxeterMatrix_reindexGroupEquiv___spec__29___rarg(x_1, x_2);
+lean_dec(x_1);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_MonoidHom_comp___at_CoxeterMatrix_reindexGroupEquiv___spec__34___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_MonoidHom_comp___at_CoxeterMatrix_reindexGroupEquiv___spec__34(x_1, x_2, x_3, x_4);
+lean_dec(x_3);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_Subgroup_op___at_CoxeterMatrix_reindexGroupEquiv___spec__38___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_Subgroup_op___at_CoxeterMatrix_reindexGroupEquiv___spec__38(x_1, x_2);
+lean_dec(x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_QuotientGroup_leftRel___at_CoxeterMatrix_reindexGroupEquiv___spec__37___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_QuotientGroup_leftRel___at_CoxeterMatrix_reindexGroupEquiv___spec__37(x_1, x_2);
+lean_dec(x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_QuotientGroup_con___at_CoxeterMatrix_reindexGroupEquiv___spec__36___rarg___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_QuotientGroup_con___at_CoxeterMatrix_reindexGroupEquiv___spec__36___rarg(x_1, x_2);
+lean_dec(x_1);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_Con_liftOn___at_CoxeterMatrix_reindexGroupEquiv___spec__40___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_Con_liftOn___at_CoxeterMatrix_reindexGroupEquiv___spec__40(x_1, x_2, x_3);
+lean_dec(x_3);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_Con_lift___at_CoxeterMatrix_reindexGroupEquiv___spec__39___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_Con_lift___at_CoxeterMatrix_reindexGroupEquiv___spec__39___rarg(x_1, x_2, x_3, x_4);
+lean_dec(x_1);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_Con_lift___at_CoxeterMatrix_reindexGroupEquiv___spec__39___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_Con_lift___at_CoxeterMatrix_reindexGroupEquiv___spec__39(x_1, x_2, x_3, x_4);
+lean_dec(x_3);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_QuotientGroup_lift___at_CoxeterMatrix_reindexGroupEquiv___spec__35___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_QuotientGroup_lift___at_CoxeterMatrix_reindexGroupEquiv___spec__35___rarg(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_QuotientGroup_lift___at_CoxeterMatrix_reindexGroupEquiv___spec__35___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_QuotientGroup_lift___at_CoxeterMatrix_reindexGroupEquiv___spec__35(x_1, x_2, x_3, x_4);
+lean_dec(x_3);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_QuotientGroup_map___at_CoxeterMatrix_reindexGroupEquiv___spec__28___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; 
+x_8 = l_QuotientGroup_map___at_CoxeterMatrix_reindexGroupEquiv___spec__28___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_QuotientGroup_congr___at_CoxeterMatrix_reindexGroupEquiv___spec__9___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = l_QuotientGroup_congr___at_CoxeterMatrix_reindexGroupEquiv___spec__9___rarg(x_1, x_2, x_3, x_4, x_5, x_6);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_MulEquiv_symm___at_CoxeterMatrix_reindexGroupEquiv___spec__41___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_MulEquiv_symm___at_CoxeterMatrix_reindexGroupEquiv___spec__41(x_1, x_2, x_3, x_4);
+lean_dec(x_4);
+lean_dec(x_3);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CoxeterMatrix_reindexGroupEquiv___rarg___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_CoxeterMatrix_reindexGroupEquiv___rarg(x_1, x_2);
+lean_dec(x_1);
+return x_3;
+}
+}
+static lean_object* _init_l_MulEquiv_refl___at_CoxeterMatrix_toCoxeterSystem___spec__1___closed__1() {
+_start:
+{
+lean_object* x_1; 
+x_1 = l_Equiv_refl(lean_box(0));
+return x_1;
+}
+}
+LEAN_EXPORT lean_object* l_MulEquiv_refl___at_CoxeterMatrix_toCoxeterSystem___spec__1(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_MulEquiv_refl___at_CoxeterMatrix_toCoxeterSystem___spec__1___closed__1;
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CoxeterMatrix_toCoxeterSystem___rarg(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = l_Equiv_refl(lean_box(0));
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CoxeterMatrix_toCoxeterSystem(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CoxeterMatrix_toCoxeterSystem___rarg___boxed), 1, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_MulEquiv_refl___at_CoxeterMatrix_toCoxeterSystem___spec__1___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_MulEquiv_refl___at_CoxeterMatrix_toCoxeterSystem___spec__1(x_1, x_2);
+lean_dec(x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CoxeterMatrix_toCoxeterSystem___rarg___boxed(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = l_CoxeterMatrix_toCoxeterSystem___rarg(x_1);
+lean_dec(x_1);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_MulEquiv_symm___at_CoxeterSystem_reindex___spec__1___rarg(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = l_Equiv_symm___rarg(x_1);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_MulEquiv_symm___at_CoxeterSystem_reindex___spec__1(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = lean_alloc_closure((void*)(l_MulEquiv_symm___at_CoxeterSystem_reindex___spec__1___rarg), 1, 0);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_MulEquiv_trans___at_CoxeterSystem_reindex___spec__2___rarg(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_Equiv_trans___rarg(x_1, x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_MulEquiv_trans___at_CoxeterSystem_reindex___spec__2(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = lean_alloc_closure((void*)(l_MulEquiv_trans___at_CoxeterSystem_reindex___spec__2___rarg), 2, 0);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CoxeterSystem_reindex___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+x_5 = l_CoxeterMatrix_reindexGroupEquiv___rarg(x_2, x_4);
+x_6 = l_Equiv_symm___rarg(x_5);
+x_7 = l_Equiv_trans___rarg(x_3, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CoxeterSystem_reindex(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = lean_alloc_closure((void*)(l_CoxeterSystem_reindex___rarg___boxed), 4, 0);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_MulEquiv_symm___at_CoxeterSystem_reindex___spec__1___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_MulEquiv_symm___at_CoxeterSystem_reindex___spec__1(x_1, x_2, x_3, x_4);
+lean_dec(x_4);
+lean_dec(x_3);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_MulEquiv_trans___at_CoxeterSystem_reindex___spec__2___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = l_MulEquiv_trans___at_CoxeterSystem_reindex___spec__2(x_1, x_2, x_3, x_4, x_5, x_6);
+lean_dec(x_6);
+lean_dec(x_5);
+lean_dec(x_4);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CoxeterSystem_reindex___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CoxeterSystem_reindex___rarg(x_1, x_2, x_3, x_4);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_MulEquiv_trans___at_CoxeterSystem_map___spec__1___rarg(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_Equiv_trans___rarg(x_1, x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_MulEquiv_trans___at_CoxeterSystem_map___spec__1(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = lean_alloc_closure((void*)(l_MulEquiv_trans___at_CoxeterSystem_map___spec__1___rarg), 2, 0);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CoxeterSystem_map___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; 
+x_6 = l_Equiv_symm___rarg(x_5);
+x_7 = l_Equiv_trans___rarg(x_6, x_4);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CoxeterSystem_map(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = lean_alloc_closure((void*)(l_CoxeterSystem_map___rarg___boxed), 5, 0);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_MulEquiv_trans___at_CoxeterSystem_map___spec__1___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = l_MulEquiv_trans___at_CoxeterSystem_map___spec__1(x_1, x_2, x_3, x_4, x_5, x_6);
+lean_dec(x_6);
+lean_dec(x_5);
+lean_dec(x_4);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CoxeterSystem_map___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CoxeterSystem_map___rarg(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_MulEquiv_symm___at_CoxeterSystem_simple___spec__1___rarg(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = l_Equiv_symm___rarg(x_1);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_MulEquiv_symm___at_CoxeterSystem_simple___spec__1(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = lean_alloc_closure((void*)(l_MulEquiv_symm___at_CoxeterSystem_simple___spec__1___rarg), 1, 0);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CoxeterSystem_simple___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; lean_object* x_7; lean_object* x_8; 
+x_5 = l_Equiv_symm___rarg(x_3);
+x_6 = l_PresentedGroup_of___rarg(x_4);
+x_7 = lean_ctor_get(x_5, 0);
+lean_inc(x_7);
+lean_dec(x_5);
+x_8 = lean_apply_1(x_7, x_6);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CoxeterSystem_simple(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = lean_alloc_closure((void*)(l_CoxeterSystem_simple___rarg___boxed), 4, 0);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_MulEquiv_symm___at_CoxeterSystem_simple___spec__1___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_MulEquiv_symm___at_CoxeterSystem_simple___spec__1(x_1, x_2, x_3, x_4);
+lean_dec(x_4);
+lean_dec(x_3);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CoxeterSystem_simple___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CoxeterSystem_simple___rarg(x_1, x_2, x_3, x_4);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_5;
+}
+}
+static lean_object* _init_l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__1() {
+_start:
+{
+lean_object* x_1; 
+x_1 = lean_mk_string_unchecked("CoxeterSystem", 13, 13);
+return x_1;
+}
+}
+static lean_object* _init_l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__2() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; lean_object* x_3; 
+x_1 = lean_box(0);
+x_2 = l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__1;
+x_3 = l_Lean_Name_str___override(x_1, x_2);
+return x_3;
+}
+}
+static lean_object* _init_l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__3() {
+_start:
+{
+lean_object* x_1; 
+x_1 = lean_mk_string_unchecked("termS_", 6, 6);
+return x_1;
+}
+}
+static lean_object* _init_l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__4() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; lean_object* x_3; 
+x_1 = l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__2;
+x_2 = l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__3;
+x_3 = l_Lean_Name_str___override(x_1, x_2);
+return x_3;
+}
+}
+static lean_object* _init_l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__5() {
+_start:
+{
+lean_object* x_1; 
+x_1 = lean_mk_string_unchecked("_@", 2, 2);
+return x_1;
+}
+}
+static lean_object* _init_l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__6() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; lean_object* x_3; 
+x_1 = l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__4;
+x_2 = l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__5;
+x_3 = l_Lean_Name_str___override(x_1, x_2);
+return x_3;
+}
+}
+static lean_object* _init_l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__7() {
+_start:
+{
+lean_object* x_1; 
+x_1 = lean_mk_string_unchecked("Mathlib", 7, 7);
+return x_1;
+}
+}
+static lean_object* _init_l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__8() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; lean_object* x_3; 
+x_1 = l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__6;
+x_2 = l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__7;
+x_3 = l_Lean_Name_str___override(x_1, x_2);
+return x_3;
+}
+}
+static lean_object* _init_l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__9() {
+_start:
+{
+lean_object* x_1; 
+x_1 = lean_mk_string_unchecked("GroupTheory", 11, 11);
+return x_1;
+}
+}
+static lean_object* _init_l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__10() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; lean_object* x_3; 
+x_1 = l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__8;
+x_2 = l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__9;
+x_3 = l_Lean_Name_str___override(x_1, x_2);
+return x_3;
+}
+}
+static lean_object* _init_l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__11() {
+_start:
+{
+lean_object* x_1; 
+x_1 = lean_mk_string_unchecked("Coxeter", 7, 7);
+return x_1;
+}
+}
+static lean_object* _init_l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__12() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; lean_object* x_3; 
+x_1 = l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__10;
+x_2 = l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__11;
+x_3 = l_Lean_Name_str___override(x_1, x_2);
+return x_3;
+}
+}
+static lean_object* _init_l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__13() {
+_start:
+{
+lean_object* x_1; 
+x_1 = lean_mk_string_unchecked("Basic", 5, 5);
+return x_1;
+}
+}
+static lean_object* _init_l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__14() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; lean_object* x_3; 
+x_1 = l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__12;
+x_2 = l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__13;
+x_3 = l_Lean_Name_str___override(x_1, x_2);
+return x_3;
+}
+}
+static lean_object* _init_l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__15() {
+_start:
+{
+lean_object* x_1; 
+x_1 = lean_mk_string_unchecked("_hyg", 4, 4);
+return x_1;
+}
+}
+static lean_object* _init_l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__16() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; lean_object* x_3; 
+x_1 = l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__14;
+x_2 = l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__15;
+x_3 = l_Lean_Name_str___override(x_1, x_2);
+return x_3;
+}
+}
+static lean_object* _init_l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__17() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; lean_object* x_3; 
+x_1 = l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__16;
+x_2 = lean_unsigned_to_nat(965u);
+x_3 = l_Lean_Name_num___override(x_1, x_2);
+return x_3;
+}
+}
+static lean_object* _init_l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__18() {
+_start:
+{
+lean_object* x_1; 
+x_1 = lean_mk_string_unchecked("andthen", 7, 7);
+return x_1;
+}
+}
+static lean_object* _init_l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__19() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; lean_object* x_3; 
+x_1 = lean_box(0);
+x_2 = l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__18;
+x_3 = l_Lean_Name_str___override(x_1, x_2);
+return x_3;
+}
+}
+static lean_object* _init_l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__20() {
+_start:
+{
+lean_object* x_1; 
+x_1 = lean_mk_string_unchecked("s", 1, 1);
+return x_1;
+}
+}
+static lean_object* _init_l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__21() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; 
+x_1 = l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__20;
+x_2 = lean_alloc_ctor(5, 1, 0);
+lean_ctor_set(x_2, 0, x_1);
+return x_2;
+}
+}
+static lean_object* _init_l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__22() {
+_start:
+{
+lean_object* x_1; 
+x_1 = lean_mk_string_unchecked("term", 4, 4);
+return x_1;
+}
+}
+static lean_object* _init_l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__23() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; lean_object* x_3; 
+x_1 = lean_box(0);
+x_2 = l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__22;
+x_3 = l_Lean_Name_str___override(x_1, x_2);
+return x_3;
+}
+}
+static lean_object* _init_l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__24() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; lean_object* x_3; 
+x_1 = l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__23;
+x_2 = lean_unsigned_to_nat(100u);
+x_3 = lean_alloc_ctor(7, 2, 0);
+lean_ctor_set(x_3, 0, x_1);
+lean_ctor_set(x_3, 1, x_2);
+return x_3;
+}
+}
+static lean_object* _init_l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__25() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; lean_object* x_3; lean_object* x_4; 
+x_1 = l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__19;
+x_2 = l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__21;
+x_3 = l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__24;
+x_4 = lean_alloc_ctor(2, 3, 0);
+lean_ctor_set(x_4, 0, x_1);
+lean_ctor_set(x_4, 1, x_2);
+lean_ctor_set(x_4, 2, x_3);
+return x_4;
+}
+}
+static lean_object* _init_l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__26() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; lean_object* x_3; lean_object* x_4; 
+x_1 = l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__17;
+x_2 = lean_unsigned_to_nat(100u);
+x_3 = l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__25;
+x_4 = lean_alloc_ctor(3, 3, 0);
+lean_ctor_set(x_4, 0, x_1);
+lean_ctor_set(x_4, 1, x_2);
+lean_ctor_set(x_4, 2, x_3);
+return x_4;
+}
+}
+static lean_object* _init_l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965_() {
+_start:
+{
+lean_object* x_1; 
+x_1 = l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__26;
+return x_1;
+}
+}
+static lean_object* _init_l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__1() {
+_start:
+{
+lean_object* x_1; 
+x_1 = lean_mk_string_unchecked("Lean", 4, 4);
+return x_1;
+}
+}
+static lean_object* _init_l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__2() {
+_start:
+{
+lean_object* x_1; 
+x_1 = lean_mk_string_unchecked("Parser", 6, 6);
+return x_1;
+}
+}
+static lean_object* _init_l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__3() {
+_start:
+{
+lean_object* x_1; 
+x_1 = lean_mk_string_unchecked("Term", 4, 4);
+return x_1;
+}
+}
+static lean_object* _init_l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__4() {
+_start:
+{
+lean_object* x_1; 
+x_1 = lean_mk_string_unchecked("app", 3, 3);
+return x_1;
+}
+}
+static lean_object* _init_l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__5() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+x_1 = l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__1;
+x_2 = l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__2;
+x_3 = l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__3;
+x_4 = l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__4;
+x_5 = l_Lean_Name_mkStr4(x_1, x_2, x_3, x_4);
+return x_5;
+}
+}
+static lean_object* _init_l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__6() {
+_start:
+{
+lean_object* x_1; 
+x_1 = lean_mk_string_unchecked("cs.simple", 9, 9);
+return x_1;
+}
+}
+static lean_object* _init_l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__7() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; 
+x_1 = l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__6;
+x_2 = l_String_toSubstring_x27(x_1);
+return x_2;
+}
+}
+static lean_object* _init_l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__8() {
+_start:
+{
+lean_object* x_1; 
+x_1 = lean_mk_string_unchecked("cs", 2, 2);
+return x_1;
+}
+}
+static lean_object* _init_l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__9() {
+_start:
+{
+lean_object* x_1; 
+x_1 = lean_mk_string_unchecked("simple", 6, 6);
+return x_1;
+}
+}
+static lean_object* _init_l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__10() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; lean_object* x_3; 
+x_1 = l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__8;
+x_2 = l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__9;
+x_3 = l_Lean_Name_mkStr2(x_1, x_2);
+return x_3;
+}
+}
+static lean_object* _init_l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__11() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; lean_object* x_3; 
+x_1 = lean_box(0);
+x_2 = l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__8;
+x_3 = l_Lean_Name_str___override(x_1, x_2);
+return x_3;
+}
+}
+static lean_object* _init_l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__12() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; lean_object* x_3; 
+x_1 = l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__11;
+x_2 = l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__5;
+x_3 = l_Lean_Name_str___override(x_1, x_2);
+return x_3;
+}
+}
+static lean_object* _init_l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__13() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; lean_object* x_3; 
+x_1 = l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__12;
+x_2 = l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__7;
+x_3 = l_Lean_Name_str___override(x_1, x_2);
+return x_3;
+}
+}
+static lean_object* _init_l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__14() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; lean_object* x_3; 
+x_1 = l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__13;
+x_2 = l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__9;
+x_3 = l_Lean_Name_str___override(x_1, x_2);
+return x_3;
+}
+}
+static lean_object* _init_l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__15() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; lean_object* x_3; 
+x_1 = l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__14;
+x_2 = l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__11;
+x_3 = l_Lean_Name_str___override(x_1, x_2);
+return x_3;
+}
+}
+static lean_object* _init_l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__16() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; lean_object* x_3; 
+x_1 = l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__15;
+x_2 = l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__13;
+x_3 = l_Lean_Name_str___override(x_1, x_2);
+return x_3;
+}
+}
+static lean_object* _init_l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__17() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; lean_object* x_3; 
+x_1 = l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__16;
+x_2 = l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__15;
+x_3 = l_Lean_Name_str___override(x_1, x_2);
+return x_3;
+}
+}
+static lean_object* _init_l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__18() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; lean_object* x_3; 
+x_1 = l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__17;
+x_2 = lean_unsigned_to_nat(742u);
+x_3 = l_Lean_Name_num___override(x_1, x_2);
+return x_3;
+}
+}
+static lean_object* _init_l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__19() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; lean_object* x_3; 
+x_1 = lean_box(0);
+x_2 = l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__9;
+x_3 = lean_alloc_ctor(1, 2, 0);
+lean_ctor_set(x_3, 0, x_2);
+lean_ctor_set(x_3, 1, x_1);
+return x_3;
+}
+}
+static lean_object* _init_l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__20() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; lean_object* x_3; 
+x_1 = l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__18;
+x_2 = l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__19;
+x_3 = lean_alloc_ctor(1, 2, 0);
+lean_ctor_set(x_3, 0, x_1);
+lean_ctor_set(x_3, 1, x_2);
+return x_3;
+}
+}
+static lean_object* _init_l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__21() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; lean_object* x_3; 
+x_1 = lean_box(0);
+x_2 = l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__20;
+x_3 = lean_alloc_ctor(1, 2, 0);
+lean_ctor_set(x_3, 0, x_2);
+lean_ctor_set(x_3, 1, x_1);
+return x_3;
+}
+}
+static lean_object* _init_l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__22() {
+_start:
+{
+lean_object* x_1; 
+x_1 = lean_mk_string_unchecked("null", 4, 4);
+return x_1;
+}
+}
+static lean_object* _init_l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__23() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; lean_object* x_3; 
+x_1 = lean_box(0);
+x_2 = l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__22;
+x_3 = l_Lean_Name_str___override(x_1, x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; uint8_t x_5; 
+x_4 = l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__17;
+lean_inc(x_1);
+x_5 = l_Lean_Syntax_isOfKind(x_1, x_4);
+if (x_5 == 0)
+{
+lean_object* x_6; lean_object* x_7; 
+lean_dec(x_2);
+lean_dec(x_1);
+x_6 = lean_box(1);
+x_7 = lean_alloc_ctor(1, 2, 0);
+lean_ctor_set(x_7, 0, x_6);
+lean_ctor_set(x_7, 1, x_3);
+return x_7;
+}
+else
+{
+lean_object* x_8; lean_object* x_9; lean_object* x_10; uint8_t x_11; lean_object* x_12; lean_object* x_13; lean_object* x_14; lean_object* x_15; lean_object* x_16; lean_object* x_17; lean_object* x_18; lean_object* x_19; lean_object* x_20; lean_object* x_21; lean_object* x_22; lean_object* x_23; lean_object* x_24; 
+x_8 = lean_unsigned_to_nat(1u);
+x_9 = l_Lean_Syntax_getArg(x_1, x_8);
+lean_dec(x_1);
+x_10 = lean_ctor_get(x_2, 5);
+lean_inc(x_10);
+x_11 = 0;
+x_12 = l_Lean_SourceInfo_fromRef(x_10, x_11);
+lean_dec(x_10);
+x_13 = lean_ctor_get(x_2, 2);
+lean_inc(x_13);
+x_14 = lean_ctor_get(x_2, 1);
+lean_inc(x_14);
+lean_dec(x_2);
+x_15 = l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__10;
+x_16 = l_Lean_addMacroScope(x_14, x_15, x_13);
+x_17 = l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__7;
+x_18 = l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__21;
+lean_inc(x_12);
+x_19 = lean_alloc_ctor(3, 4, 0);
+lean_ctor_set(x_19, 0, x_12);
+lean_ctor_set(x_19, 1, x_17);
+lean_ctor_set(x_19, 2, x_16);
+lean_ctor_set(x_19, 3, x_18);
+x_20 = l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__23;
+lean_inc(x_12);
+x_21 = l_Lean_Syntax_node1(x_12, x_20, x_9);
+x_22 = l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__5;
+x_23 = l_Lean_Syntax_node2(x_12, x_22, x_19, x_21);
+x_24 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_24, 0, x_23);
+lean_ctor_set(x_24, 1, x_3);
+return x_24;
+}
+}
+}
+LEAN_EXPORT lean_object* l_MulEquiv_toMonoidHom___at___private_Mathlib_GroupTheory_Coxeter_Basic_0__CoxeterSystem_groupLift___spec__1___rarg(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_ctor_get(x_1, 0);
+lean_inc(x_2);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_MulEquiv_toMonoidHom___at___private_Mathlib_GroupTheory_Coxeter_Basic_0__CoxeterSystem_groupLift___spec__1(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = lean_alloc_closure((void*)(l_MulEquiv_toMonoidHom___at___private_Mathlib_GroupTheory_Coxeter_Basic_0__CoxeterSystem_groupLift___spec__1___rarg___boxed), 1, 0);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_MonoidHom_comp___at___private_Mathlib_GroupTheory_Coxeter_Basic_0__CoxeterSystem_groupLift___spec__2___rarg(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = lean_alloc_closure((void*)(l_Function_comp___rarg), 3, 2);
+lean_closure_set(x_3, 0, x_1);
+lean_closure_set(x_3, 1, x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_MonoidHom_comp___at___private_Mathlib_GroupTheory_Coxeter_Basic_0__CoxeterSystem_groupLift___spec__2(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = lean_alloc_closure((void*)(l_MonoidHom_comp___at___private_Mathlib_GroupTheory_Coxeter_Basic_0__CoxeterSystem_groupLift___spec__2___rarg), 2, 0);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l___private_Mathlib_GroupTheory_Coxeter_Basic_0__CoxeterSystem_groupLift___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; lean_object* x_9; lean_object* x_10; 
+x_8 = l_PresentedGroup_toGroup___rarg(x_5, x_6, lean_box(0), lean_box(0));
+x_9 = lean_ctor_get(x_3, 0);
+lean_inc(x_9);
+lean_dec(x_3);
+x_10 = lean_alloc_closure((void*)(l_Function_comp___rarg), 3, 2);
+lean_closure_set(x_10, 0, x_8);
+lean_closure_set(x_10, 1, x_9);
+return x_10;
+}
+}
+LEAN_EXPORT lean_object* l___private_Mathlib_GroupTheory_Coxeter_Basic_0__CoxeterSystem_groupLift(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = lean_alloc_closure((void*)(l___private_Mathlib_GroupTheory_Coxeter_Basic_0__CoxeterSystem_groupLift___rarg___boxed), 7, 0);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_MulEquiv_toMonoidHom___at___private_Mathlib_GroupTheory_Coxeter_Basic_0__CoxeterSystem_groupLift___spec__1___rarg___boxed(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = l_MulEquiv_toMonoidHom___at___private_Mathlib_GroupTheory_Coxeter_Basic_0__CoxeterSystem_groupLift___spec__1___rarg(x_1);
+lean_dec(x_1);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_MulEquiv_toMonoidHom___at___private_Mathlib_GroupTheory_Coxeter_Basic_0__CoxeterSystem_groupLift___spec__1___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_MulEquiv_toMonoidHom___at___private_Mathlib_GroupTheory_Coxeter_Basic_0__CoxeterSystem_groupLift___spec__1(x_1, x_2, x_3, x_4);
+lean_dec(x_4);
+lean_dec(x_3);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_MonoidHom_comp___at___private_Mathlib_GroupTheory_Coxeter_Basic_0__CoxeterSystem_groupLift___spec__2___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = l_MonoidHom_comp___at___private_Mathlib_GroupTheory_Coxeter_Basic_0__CoxeterSystem_groupLift___spec__2(x_1, x_2, x_3, x_4, x_5, x_6);
+lean_dec(x_6);
+lean_dec(x_4);
+lean_dec(x_3);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l___private_Mathlib_GroupTheory_Coxeter_Basic_0__CoxeterSystem_groupLift___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; 
+x_8 = l___private_Mathlib_GroupTheory_Coxeter_Basic_0__CoxeterSystem_groupLift___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l___private_Mathlib_GroupTheory_Coxeter_Basic_0__CoxeterSystem_restrictUnit___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; 
+x_5 = lean_apply_1(x_2, x_4);
+lean_inc(x_5);
+x_6 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_6, 0, x_5);
+lean_ctor_set(x_6, 1, x_5);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l___private_Mathlib_GroupTheory_Coxeter_Basic_0__CoxeterSystem_restrictUnit(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = lean_alloc_closure((void*)(l___private_Mathlib_GroupTheory_Coxeter_Basic_0__CoxeterSystem_restrictUnit___rarg___boxed), 4, 0);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l___private_Mathlib_GroupTheory_Coxeter_Basic_0__CoxeterSystem_restrictUnit___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l___private_Mathlib_GroupTheory_Coxeter_Basic_0__CoxeterSystem_restrictUnit___rarg(x_1, x_2, x_3, x_4);
+lean_dec(x_1);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l___private_Mathlib_GroupTheory_Coxeter_Basic_0__CoxeterSystem_restrictUnit___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l___private_Mathlib_GroupTheory_Coxeter_Basic_0__CoxeterSystem_restrictUnit(x_1, x_2, x_3);
+lean_dec(x_2);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CoxeterSystem_lift___elambda__1___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; lean_object* x_8; 
+x_7 = lean_alloc_closure((void*)(l_CoxeterSystem_simple___rarg___boxed), 4, 3);
+lean_closure_set(x_7, 0, x_1);
+lean_closure_set(x_7, 1, x_2);
+lean_closure_set(x_7, 2, x_3);
+x_8 = lean_alloc_closure((void*)(l_Function_comp___rarg), 3, 2);
+lean_closure_set(x_8, 0, x_6);
+lean_closure_set(x_8, 1, x_7);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CoxeterSystem_lift___elambda__1(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = lean_alloc_closure((void*)(l_CoxeterSystem_lift___elambda__1___rarg___boxed), 6, 0);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_iInf___at_CoxeterSystem_lift___elambda__2___spec__4___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = lean_alloc_ctor(0, 1, 0);
+lean_ctor_set(x_4, 0, lean_box(0));
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_iInf___at_CoxeterSystem_lift___elambda__2___spec__4(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = lean_alloc_closure((void*)(l_iInf___at_CoxeterSystem_lift___elambda__2___spec__4___rarg___boxed), 3, 0);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_iInf___at_CoxeterSystem_lift___elambda__2___spec__5(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_iInf___at_CoxeterMatrix_instGroupGroup___spec__3___closed__3;
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_Submonoid_copy___at_CoxeterSystem_lift___elambda__2___spec__6(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_iInf___at_CoxeterMatrix_instGroupGroup___spec__3___closed__3;
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_Subgroup_closure___at_CoxeterSystem_lift___elambda__2___spec__3___lambda__1(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; 
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_Subgroup_closure___at_CoxeterMatrix_instGroupGroup___spec__1___lambda__1___boxed), 2, 1);
+lean_closure_set(x_3, 0, x_2);
+x_4 = l_iInf___at_CoxeterSystem_lift___elambda__2___spec__4___rarg(x_1, x_2, x_3);
+lean_dec(x_3);
+lean_dec(x_2);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_Subgroup_closure___at_CoxeterSystem_lift___elambda__2___spec__3(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; lean_object* x_6; 
+x_3 = l_iInf___at_CoxeterMatrix_instGroupGroup___spec__3___closed__1;
+x_4 = lean_alloc_closure((void*)(l_Subgroup_closure___at_CoxeterSystem_lift___elambda__2___spec__3___lambda__1___boxed), 2, 1);
+lean_closure_set(x_4, 0, x_3);
+x_5 = l_iInf___at_CoxeterSystem_lift___elambda__2___spec__5(lean_box(0), x_4);
+lean_dec(x_4);
+x_6 = l_Submonoid_copy___at_CoxeterSystem_lift___elambda__2___spec__6(lean_box(0), x_5, lean_box(0), lean_box(0));
+lean_dec(x_5);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_Subgroup_op___at_CoxeterSystem_lift___elambda__2___spec__10(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_Subgroup_op___at_CoxeterMatrix_reindexGroupEquiv___spec__16___closed__3;
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_QuotientGroup_leftRel___at_CoxeterSystem_lift___elambda__2___spec__9(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = lean_box(0);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_QuotientGroup_con___at_CoxeterSystem_lift___elambda__2___spec__8___rarg(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = lean_box(0);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_QuotientGroup_con___at_CoxeterSystem_lift___elambda__2___spec__8(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_QuotientGroup_con___at_CoxeterSystem_lift___elambda__2___spec__8___rarg___boxed), 2, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_Con_liftOn___at_CoxeterSystem_lift___elambda__2___spec__12___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = lean_apply_1(x_2, x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_Con_liftOn___at_CoxeterSystem_lift___elambda__2___spec__12(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = lean_alloc_closure((void*)(l_Con_liftOn___at_CoxeterSystem_lift___elambda__2___spec__12___rarg), 3, 0);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_Con_lift___at_CoxeterSystem_lift___elambda__2___spec__11___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = lean_apply_1(x_2, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_Con_lift___at_CoxeterSystem_lift___elambda__2___spec__11(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = lean_alloc_closure((void*)(l_Con_lift___at_CoxeterSystem_lift___elambda__2___spec__11___rarg___boxed), 4, 0);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_QuotientGroup_lift___at_CoxeterSystem_lift___elambda__2___spec__7___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; 
+x_6 = lean_box(0);
+x_7 = lean_alloc_closure((void*)(l_Con_lift___at_CoxeterSystem_lift___elambda__2___spec__11___rarg___boxed), 4, 3);
+lean_closure_set(x_7, 0, x_6);
+lean_closure_set(x_7, 1, x_4);
+lean_closure_set(x_7, 2, lean_box(0));
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_QuotientGroup_lift___at_CoxeterSystem_lift___elambda__2___spec__7(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = lean_alloc_closure((void*)(l_QuotientGroup_lift___at_CoxeterSystem_lift___elambda__2___spec__7___rarg___boxed), 5, 0);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_PresentedGroup_toGroup___at_CoxeterSystem_lift___elambda__2___spec__2___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; lean_object* x_7; lean_object* x_8; 
+lean_inc(x_1);
+x_5 = l_Units_instDivInvMonoid___rarg(x_1);
+x_6 = l_Subgroup_closure___at_CoxeterSystem_lift___elambda__2___spec__3(lean_box(0), lean_box(0));
+x_7 = l_FreeGroup_lift___elambda__2___rarg(x_5, x_2);
+x_8 = l_QuotientGroup_lift___at_CoxeterSystem_lift___elambda__2___spec__7___rarg(x_1, lean_box(0), x_6, x_7, lean_box(0));
+lean_dec(x_6);
+lean_dec(x_1);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_PresentedGroup_toGroup___at_CoxeterSystem_lift___elambda__2___spec__2(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = lean_alloc_closure((void*)(l_PresentedGroup_toGroup___at_CoxeterSystem_lift___elambda__2___spec__2___rarg), 4, 0);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_MulEquiv_toMonoidHom___at_CoxeterSystem_lift___elambda__2___spec__13___rarg(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_ctor_get(x_1, 0);
+lean_inc(x_2);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_MulEquiv_toMonoidHom___at_CoxeterSystem_lift___elambda__2___spec__13(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = lean_alloc_closure((void*)(l_MulEquiv_toMonoidHom___at_CoxeterSystem_lift___elambda__2___spec__13___rarg___boxed), 1, 0);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_MonoidHom_comp___at_CoxeterSystem_lift___elambda__2___spec__14___rarg(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = lean_alloc_closure((void*)(l_Function_comp___rarg), 3, 2);
+lean_closure_set(x_3, 0, x_1);
+lean_closure_set(x_3, 1, x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_MonoidHom_comp___at_CoxeterSystem_lift___elambda__2___spec__14(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = lean_alloc_closure((void*)(l_MonoidHom_comp___at_CoxeterSystem_lift___elambda__2___spec__14___rarg), 2, 0);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l___private_Mathlib_GroupTheory_Coxeter_Basic_0__CoxeterSystem_groupLift___at_CoxeterSystem_lift___elambda__2___spec__1___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; lean_object* x_9; lean_object* x_10; 
+x_8 = l_PresentedGroup_toGroup___at_CoxeterSystem_lift___elambda__2___spec__2___rarg(x_3, x_6, lean_box(0), lean_box(0));
+x_9 = lean_ctor_get(x_5, 0);
+lean_inc(x_9);
+lean_dec(x_5);
+x_10 = lean_alloc_closure((void*)(l_Function_comp___rarg), 3, 2);
+lean_closure_set(x_10, 0, x_8);
+lean_closure_set(x_10, 1, x_9);
+return x_10;
+}
+}
+LEAN_EXPORT lean_object* l___private_Mathlib_GroupTheory_Coxeter_Basic_0__CoxeterSystem_groupLift___at_CoxeterSystem_lift___elambda__2___spec__1(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = lean_alloc_closure((void*)(l___private_Mathlib_GroupTheory_Coxeter_Basic_0__CoxeterSystem_groupLift___at_CoxeterSystem_lift___elambda__2___spec__1___rarg___boxed), 7, 0);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_MonoidHom_comp___at_CoxeterSystem_lift___elambda__2___spec__15___rarg(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = lean_alloc_closure((void*)(l_Function_comp___rarg), 3, 2);
+lean_closure_set(x_3, 0, x_1);
+lean_closure_set(x_3, 1, x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_MonoidHom_comp___at_CoxeterSystem_lift___elambda__2___spec__15(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = lean_alloc_closure((void*)(l_MonoidHom_comp___at_CoxeterSystem_lift___elambda__2___spec__15___rarg), 2, 0);
+return x_5;
+}
+}
+static lean_object* _init_l_CoxeterSystem_lift___elambda__2___rarg___closed__1() {
+_start:
+{
+lean_object* x_1; 
+x_1 = lean_alloc_closure((void*)(l_Units_coeHom___rarg___boxed), 1, 0);
+return x_1;
+}
+}
+LEAN_EXPORT lean_object* l_CoxeterSystem_lift___elambda__2___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; 
+lean_inc(x_5);
+x_7 = lean_alloc_closure((void*)(l___private_Mathlib_GroupTheory_Coxeter_Basic_0__CoxeterSystem_restrictUnit___rarg___boxed), 4, 3);
+lean_closure_set(x_7, 0, x_5);
+lean_closure_set(x_7, 1, x_6);
+lean_closure_set(x_7, 2, lean_box(0));
+x_8 = l___private_Mathlib_GroupTheory_Coxeter_Basic_0__CoxeterSystem_groupLift___at_CoxeterSystem_lift___elambda__2___spec__1___rarg(x_1, lean_box(0), x_5, x_2, x_3, x_7, lean_box(0));
+x_9 = l_CoxeterSystem_lift___elambda__2___rarg___closed__1;
+x_10 = lean_alloc_closure((void*)(l_Function_comp___rarg), 3, 2);
+lean_closure_set(x_10, 0, x_9);
+lean_closure_set(x_10, 1, x_8);
+return x_10;
+}
+}
+LEAN_EXPORT lean_object* l_CoxeterSystem_lift___elambda__2(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = lean_alloc_closure((void*)(l_CoxeterSystem_lift___elambda__2___rarg___boxed), 6, 0);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CoxeterSystem_lift___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; 
+lean_inc(x_5);
+lean_inc(x_3);
+lean_inc(x_2);
+lean_inc(x_1);
+x_6 = lean_alloc_closure((void*)(l_CoxeterSystem_lift___elambda__2___rarg___boxed), 6, 5);
+lean_closure_set(x_6, 0, x_1);
+lean_closure_set(x_6, 1, x_2);
+lean_closure_set(x_6, 2, x_3);
+lean_closure_set(x_6, 3, lean_box(0));
+lean_closure_set(x_6, 4, x_5);
+x_7 = lean_alloc_closure((void*)(l_CoxeterSystem_lift___elambda__1___rarg___boxed), 6, 5);
+lean_closure_set(x_7, 0, x_1);
+lean_closure_set(x_7, 1, x_2);
+lean_closure_set(x_7, 2, x_3);
+lean_closure_set(x_7, 3, lean_box(0));
+lean_closure_set(x_7, 4, x_5);
+x_8 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_8, 0, x_6);
+lean_ctor_set(x_8, 1, x_7);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CoxeterSystem_lift(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = lean_alloc_closure((void*)(l_CoxeterSystem_lift___rarg), 5, 0);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CoxeterSystem_lift___elambda__1___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = l_CoxeterSystem_lift___elambda__1___rarg(x_1, x_2, x_3, x_4, x_5, x_6);
+lean_dec(x_5);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_iInf___at_CoxeterSystem_lift___elambda__2___spec__4___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_iInf___at_CoxeterSystem_lift___elambda__2___spec__4___rarg(x_1, x_2, x_3);
+lean_dec(x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_iInf___at_CoxeterSystem_lift___elambda__2___spec__5___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_iInf___at_CoxeterSystem_lift___elambda__2___spec__5(x_1, x_2);
+lean_dec(x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_Submonoid_copy___at_CoxeterSystem_lift___elambda__2___spec__6___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_Submonoid_copy___at_CoxeterSystem_lift___elambda__2___spec__6(x_1, x_2, x_3, x_4);
+lean_dec(x_2);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_Subgroup_closure___at_CoxeterSystem_lift___elambda__2___spec__3___lambda__1___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_Subgroup_closure___at_CoxeterSystem_lift___elambda__2___spec__3___lambda__1(x_1, x_2);
+lean_dec(x_1);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_Subgroup_op___at_CoxeterSystem_lift___elambda__2___spec__10___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_Subgroup_op___at_CoxeterSystem_lift___elambda__2___spec__10(x_1, x_2);
+lean_dec(x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_QuotientGroup_leftRel___at_CoxeterSystem_lift___elambda__2___spec__9___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_QuotientGroup_leftRel___at_CoxeterSystem_lift___elambda__2___spec__9(x_1, x_2);
+lean_dec(x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_QuotientGroup_con___at_CoxeterSystem_lift___elambda__2___spec__8___rarg___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_QuotientGroup_con___at_CoxeterSystem_lift___elambda__2___spec__8___rarg(x_1, x_2);
+lean_dec(x_1);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_Con_liftOn___at_CoxeterSystem_lift___elambda__2___spec__12___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_Con_liftOn___at_CoxeterSystem_lift___elambda__2___spec__12(x_1, x_2, x_3);
+lean_dec(x_3);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_Con_lift___at_CoxeterSystem_lift___elambda__2___spec__11___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_Con_lift___at_CoxeterSystem_lift___elambda__2___spec__11___rarg(x_1, x_2, x_3, x_4);
+lean_dec(x_1);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_Con_lift___at_CoxeterSystem_lift___elambda__2___spec__11___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_Con_lift___at_CoxeterSystem_lift___elambda__2___spec__11(x_1, x_2, x_3);
+lean_dec(x_3);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_QuotientGroup_lift___at_CoxeterSystem_lift___elambda__2___spec__7___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_QuotientGroup_lift___at_CoxeterSystem_lift___elambda__2___spec__7___rarg(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_MulEquiv_toMonoidHom___at_CoxeterSystem_lift___elambda__2___spec__13___rarg___boxed(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = l_MulEquiv_toMonoidHom___at_CoxeterSystem_lift___elambda__2___spec__13___rarg(x_1);
+lean_dec(x_1);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_MulEquiv_toMonoidHom___at_CoxeterSystem_lift___elambda__2___spec__13___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_MulEquiv_toMonoidHom___at_CoxeterSystem_lift___elambda__2___spec__13(x_1, x_2, x_3, x_4);
+lean_dec(x_4);
+lean_dec(x_3);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_MonoidHom_comp___at_CoxeterSystem_lift___elambda__2___spec__14___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = l_MonoidHom_comp___at_CoxeterSystem_lift___elambda__2___spec__14(x_1, x_2, x_3, x_4, x_5, x_6);
+lean_dec(x_6);
+lean_dec(x_5);
+lean_dec(x_3);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l___private_Mathlib_GroupTheory_Coxeter_Basic_0__CoxeterSystem_groupLift___at_CoxeterSystem_lift___elambda__2___spec__1___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; 
+x_8 = l___private_Mathlib_GroupTheory_Coxeter_Basic_0__CoxeterSystem_groupLift___at_CoxeterSystem_lift___elambda__2___spec__1___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7);
+lean_dec(x_4);
+lean_dec(x_1);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_MonoidHom_comp___at_CoxeterSystem_lift___elambda__2___spec__15___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_MonoidHom_comp___at_CoxeterSystem_lift___elambda__2___spec__15(x_1, x_2, x_3, x_4);
+lean_dec(x_4);
+lean_dec(x_2);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CoxeterSystem_lift___elambda__2___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = l_CoxeterSystem_lift___elambda__2___rarg(x_1, x_2, x_3, x_4, x_5, x_6);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_List_mapTR_loop___at_CoxeterSystem_wordProd___spec__1___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+if (lean_obj_tag(x_4) == 0)
+{
+lean_object* x_6; 
+lean_dec(x_3);
+x_6 = l_List_reverse___rarg(x_5);
+return x_6;
+}
+else
+{
+uint8_t x_7; 
+x_7 = !lean_is_exclusive(x_4);
+if (x_7 == 0)
+{
+lean_object* x_8; lean_object* x_9; lean_object* x_10; 
+x_8 = lean_ctor_get(x_4, 0);
+x_9 = lean_ctor_get(x_4, 1);
+lean_inc(x_3);
+x_10 = l_CoxeterSystem_simple___rarg(x_1, x_2, x_3, x_8);
+lean_ctor_set(x_4, 1, x_5);
+lean_ctor_set(x_4, 0, x_10);
+{
+lean_object* _tmp_3 = x_9;
+lean_object* _tmp_4 = x_4;
+x_4 = _tmp_3;
+x_5 = _tmp_4;
+}
+goto _start;
+}
+else
+{
+lean_object* x_12; lean_object* x_13; lean_object* x_14; lean_object* x_15; 
+x_12 = lean_ctor_get(x_4, 0);
+x_13 = lean_ctor_get(x_4, 1);
+lean_inc(x_13);
+lean_inc(x_12);
+lean_dec(x_4);
+lean_inc(x_3);
+x_14 = l_CoxeterSystem_simple___rarg(x_1, x_2, x_3, x_12);
+x_15 = lean_alloc_ctor(1, 2, 0);
+lean_ctor_set(x_15, 0, x_14);
+lean_ctor_set(x_15, 1, x_5);
+x_4 = x_13;
+x_5 = x_15;
+goto _start;
+}
+}
+}
+}
+LEAN_EXPORT lean_object* l_List_mapTR_loop___at_CoxeterSystem_wordProd___spec__1(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = lean_alloc_closure((void*)(l_List_mapTR_loop___at_CoxeterSystem_wordProd___spec__1___rarg___boxed), 5, 0);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CoxeterSystem_wordProd___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; lean_object* x_11; lean_object* x_12; 
+x_5 = lean_ctor_get(x_1, 0);
+x_6 = l_Monoid_toMulOneClass___rarg(x_5);
+x_7 = lean_ctor_get(x_6, 1);
+lean_inc(x_7);
+lean_dec(x_6);
+x_8 = l_DivInvOneMonoid_toInvOneClass___rarg(x_1);
+x_9 = lean_ctor_get(x_8, 0);
+lean_inc(x_9);
+lean_dec(x_8);
+x_10 = lean_box(0);
+x_11 = l_List_mapTR_loop___at_CoxeterSystem_wordProd___spec__1___rarg(x_1, x_2, x_3, x_4, x_10);
+x_12 = l_List_foldrTR___at_List_prod___spec__1___rarg(x_7, x_9, x_11);
+return x_12;
+}
+}
+LEAN_EXPORT lean_object* l_CoxeterSystem_wordProd(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = lean_alloc_closure((void*)(l_CoxeterSystem_wordProd___rarg___boxed), 4, 0);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_List_mapTR_loop___at_CoxeterSystem_wordProd___spec__1___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_List_mapTR_loop___at_CoxeterSystem_wordProd___spec__1___rarg(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CoxeterSystem_wordProd___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CoxeterSystem_wordProd___rarg(x_1, x_2, x_3, x_4);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_5;
+}
+}
+static lean_object* _init_l_CoxeterSystem_term_u03c0______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_3347____closed__1() {
+_start:
+{
+lean_object* x_1; 
+x_1 = lean_mk_string_unchecked("termπ_", 7, 6);
+return x_1;
+}
+}
+static lean_object* _init_l_CoxeterSystem_term_u03c0______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_3347____closed__2() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; lean_object* x_3; 
+x_1 = l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__2;
+x_2 = l_CoxeterSystem_term_u03c0______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_3347____closed__1;
+x_3 = l_Lean_Name_str___override(x_1, x_2);
+return x_3;
+}
+}
+static lean_object* _init_l_CoxeterSystem_term_u03c0______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_3347____closed__3() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; lean_object* x_3; 
+x_1 = l_CoxeterSystem_term_u03c0______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_3347____closed__2;
+x_2 = l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__5;
+x_3 = l_Lean_Name_str___override(x_1, x_2);
+return x_3;
+}
+}
+static lean_object* _init_l_CoxeterSystem_term_u03c0______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_3347____closed__4() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; lean_object* x_3; 
+x_1 = l_CoxeterSystem_term_u03c0______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_3347____closed__3;
+x_2 = l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__7;
+x_3 = l_Lean_Name_str___override(x_1, x_2);
+return x_3;
+}
+}
+static lean_object* _init_l_CoxeterSystem_term_u03c0______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_3347____closed__5() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; lean_object* x_3; 
+x_1 = l_CoxeterSystem_term_u03c0______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_3347____closed__4;
+x_2 = l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__9;
+x_3 = l_Lean_Name_str___override(x_1, x_2);
+return x_3;
+}
+}
+static lean_object* _init_l_CoxeterSystem_term_u03c0______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_3347____closed__6() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; lean_object* x_3; 
+x_1 = l_CoxeterSystem_term_u03c0______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_3347____closed__5;
+x_2 = l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__11;
+x_3 = l_Lean_Name_str___override(x_1, x_2);
+return x_3;
+}
+}
+static lean_object* _init_l_CoxeterSystem_term_u03c0______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_3347____closed__7() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; lean_object* x_3; 
+x_1 = l_CoxeterSystem_term_u03c0______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_3347____closed__6;
+x_2 = l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__13;
+x_3 = l_Lean_Name_str___override(x_1, x_2);
+return x_3;
+}
+}
+static lean_object* _init_l_CoxeterSystem_term_u03c0______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_3347____closed__8() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; lean_object* x_3; 
+x_1 = l_CoxeterSystem_term_u03c0______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_3347____closed__7;
+x_2 = l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__15;
+x_3 = l_Lean_Name_str___override(x_1, x_2);
+return x_3;
+}
+}
+static lean_object* _init_l_CoxeterSystem_term_u03c0______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_3347____closed__9() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; lean_object* x_3; 
+x_1 = l_CoxeterSystem_term_u03c0______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_3347____closed__8;
+x_2 = lean_unsigned_to_nat(3347u);
+x_3 = l_Lean_Name_num___override(x_1, x_2);
+return x_3;
+}
+}
+static lean_object* _init_l_CoxeterSystem_term_u03c0______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_3347____closed__10() {
+_start:
+{
+lean_object* x_1; 
+x_1 = lean_mk_string_unchecked("π", 2, 1);
+return x_1;
+}
+}
+static lean_object* _init_l_CoxeterSystem_term_u03c0______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_3347____closed__11() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; 
+x_1 = l_CoxeterSystem_term_u03c0______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_3347____closed__10;
+x_2 = lean_alloc_ctor(5, 1, 0);
+lean_ctor_set(x_2, 0, x_1);
+return x_2;
+}
+}
+static lean_object* _init_l_CoxeterSystem_term_u03c0______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_3347____closed__12() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; lean_object* x_3; lean_object* x_4; 
+x_1 = l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__19;
+x_2 = l_CoxeterSystem_term_u03c0______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_3347____closed__11;
+x_3 = l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__24;
+x_4 = lean_alloc_ctor(2, 3, 0);
+lean_ctor_set(x_4, 0, x_1);
+lean_ctor_set(x_4, 1, x_2);
+lean_ctor_set(x_4, 2, x_3);
+return x_4;
+}
+}
+static lean_object* _init_l_CoxeterSystem_term_u03c0______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_3347____closed__13() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; lean_object* x_3; lean_object* x_4; 
+x_1 = l_CoxeterSystem_term_u03c0______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_3347____closed__9;
+x_2 = lean_unsigned_to_nat(100u);
+x_3 = l_CoxeterSystem_term_u03c0______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_3347____closed__12;
+x_4 = lean_alloc_ctor(3, 3, 0);
+lean_ctor_set(x_4, 0, x_1);
+lean_ctor_set(x_4, 1, x_2);
+lean_ctor_set(x_4, 2, x_3);
+return x_4;
+}
+}
+static lean_object* _init_l_CoxeterSystem_term_u03c0______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_3347_() {
+_start:
+{
+lean_object* x_1; 
+x_1 = l_CoxeterSystem_term_u03c0______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_3347____closed__13;
+return x_1;
+}
+}
+static lean_object* _init_l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__term_u03c0____1___closed__1() {
+_start:
+{
+lean_object* x_1; 
+x_1 = lean_mk_string_unchecked("cs.wordProd", 11, 11);
+return x_1;
+}
+}
+static lean_object* _init_l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__term_u03c0____1___closed__2() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; 
+x_1 = l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__term_u03c0____1___closed__1;
+x_2 = l_String_toSubstring_x27(x_1);
+return x_2;
+}
+}
+static lean_object* _init_l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__term_u03c0____1___closed__3() {
+_start:
+{
+lean_object* x_1; 
+x_1 = lean_mk_string_unchecked("wordProd", 8, 8);
+return x_1;
+}
+}
+static lean_object* _init_l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__term_u03c0____1___closed__4() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; lean_object* x_3; 
+x_1 = l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__8;
+x_2 = l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__term_u03c0____1___closed__3;
+x_3 = l_Lean_Name_mkStr2(x_1, x_2);
+return x_3;
+}
+}
+static lean_object* _init_l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__term_u03c0____1___closed__5() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; lean_object* x_3; 
+x_1 = lean_box(0);
+x_2 = l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__term_u03c0____1___closed__3;
+x_3 = lean_alloc_ctor(1, 2, 0);
+lean_ctor_set(x_3, 0, x_2);
+lean_ctor_set(x_3, 1, x_1);
+return x_3;
+}
+}
+static lean_object* _init_l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__term_u03c0____1___closed__6() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; lean_object* x_3; 
+x_1 = l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__18;
+x_2 = l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__term_u03c0____1___closed__5;
+x_3 = lean_alloc_ctor(1, 2, 0);
+lean_ctor_set(x_3, 0, x_1);
+lean_ctor_set(x_3, 1, x_2);
+return x_3;
+}
+}
+static lean_object* _init_l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__term_u03c0____1___closed__7() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; lean_object* x_3; 
+x_1 = lean_box(0);
+x_2 = l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__term_u03c0____1___closed__6;
+x_3 = lean_alloc_ctor(1, 2, 0);
+lean_ctor_set(x_3, 0, x_2);
+lean_ctor_set(x_3, 1, x_1);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__term_u03c0____1(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; uint8_t x_5; 
+x_4 = l_CoxeterSystem_term_u03c0______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_3347____closed__9;
+lean_inc(x_1);
+x_5 = l_Lean_Syntax_isOfKind(x_1, x_4);
+if (x_5 == 0)
+{
+lean_object* x_6; lean_object* x_7; 
+lean_dec(x_2);
+lean_dec(x_1);
+x_6 = lean_box(1);
+x_7 = lean_alloc_ctor(1, 2, 0);
+lean_ctor_set(x_7, 0, x_6);
+lean_ctor_set(x_7, 1, x_3);
+return x_7;
+}
+else
+{
+lean_object* x_8; lean_object* x_9; lean_object* x_10; uint8_t x_11; lean_object* x_12; lean_object* x_13; lean_object* x_14; lean_object* x_15; lean_object* x_16; lean_object* x_17; lean_object* x_18; lean_object* x_19; lean_object* x_20; lean_object* x_21; lean_object* x_22; lean_object* x_23; lean_object* x_24; 
+x_8 = lean_unsigned_to_nat(1u);
+x_9 = l_Lean_Syntax_getArg(x_1, x_8);
+lean_dec(x_1);
+x_10 = lean_ctor_get(x_2, 5);
+lean_inc(x_10);
+x_11 = 0;
+x_12 = l_Lean_SourceInfo_fromRef(x_10, x_11);
+lean_dec(x_10);
+x_13 = lean_ctor_get(x_2, 2);
+lean_inc(x_13);
+x_14 = lean_ctor_get(x_2, 1);
+lean_inc(x_14);
+lean_dec(x_2);
+x_15 = l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__term_u03c0____1___closed__4;
+x_16 = l_Lean_addMacroScope(x_14, x_15, x_13);
+x_17 = l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__term_u03c0____1___closed__2;
+x_18 = l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__term_u03c0____1___closed__7;
+lean_inc(x_12);
+x_19 = lean_alloc_ctor(3, 4, 0);
+lean_ctor_set(x_19, 0, x_12);
+lean_ctor_set(x_19, 1, x_17);
+lean_ctor_set(x_19, 2, x_16);
+lean_ctor_set(x_19, 3, x_18);
+x_20 = l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__23;
+lean_inc(x_12);
+x_21 = l_Lean_Syntax_node1(x_12, x_20, x_9);
+x_22 = l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__5;
+x_23 = l_Lean_Syntax_node2(x_12, x_22, x_19, x_21);
+x_24 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_24, 0, x_23);
+lean_ctor_set(x_24, 1, x_3);
+return x_24;
+}
+}
+}
+LEAN_EXPORT lean_object* l_CoxeterSystem_alternatingWord___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; uint8_t x_5; 
+x_4 = lean_unsigned_to_nat(0u);
+x_5 = lean_nat_dec_eq(x_3, x_4);
+if (x_5 == 0)
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; lean_object* x_9; 
+x_6 = lean_unsigned_to_nat(1u);
+x_7 = lean_nat_sub(x_3, x_6);
+lean_inc(x_2);
+x_8 = l_CoxeterSystem_alternatingWord___rarg(x_2, x_1, x_7);
+lean_dec(x_7);
+x_9 = l_List_concat___rarg(x_8, x_2);
+return x_9;
+}
+else
+{
+lean_object* x_10; 
+lean_dec(x_2);
+lean_dec(x_1);
+x_10 = lean_box(0);
+return x_10;
+}
+}
+}
+LEAN_EXPORT lean_object* l_CoxeterSystem_alternatingWord(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CoxeterSystem_alternatingWord___rarg___boxed), 3, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CoxeterSystem_alternatingWord___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CoxeterSystem_alternatingWord___rarg(x_1, x_2, x_3);
+lean_dec(x_3);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CoxeterSystem_braidWord___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; 
+lean_inc(x_3);
+lean_inc(x_2);
+x_4 = lean_apply_2(x_1, x_2, x_3);
+x_5 = l_CoxeterSystem_alternatingWord___rarg(x_2, x_3, x_4);
+lean_dec(x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CoxeterSystem_braidWord(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CoxeterSystem_braidWord___rarg), 3, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l___private_Mathlib_GroupTheory_Coxeter_Basic_0__CoxeterSystem_alternatingWord_match__1_splitter___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; uint8_t x_5; 
+x_4 = lean_unsigned_to_nat(0u);
+x_5 = lean_nat_dec_eq(x_1, x_4);
+if (x_5 == 0)
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; 
+x_6 = lean_unsigned_to_nat(1u);
+x_7 = lean_nat_sub(x_1, x_6);
+x_8 = lean_apply_1(x_3, x_7);
+return x_8;
+}
+else
+{
+lean_dec(x_3);
+lean_inc(x_2);
+return x_2;
+}
+}
+}
+LEAN_EXPORT lean_object* l___private_Mathlib_GroupTheory_Coxeter_Basic_0__CoxeterSystem_alternatingWord_match__1_splitter(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l___private_Mathlib_GroupTheory_Coxeter_Basic_0__CoxeterSystem_alternatingWord_match__1_splitter___rarg___boxed), 3, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l___private_Mathlib_GroupTheory_Coxeter_Basic_0__CoxeterSystem_alternatingWord_match__1_splitter___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l___private_Mathlib_GroupTheory_Coxeter_Basic_0__CoxeterSystem_alternatingWord_match__1_splitter___rarg(x_1, x_2, x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_4;
+}
+}
+lean_object* initialize_Init(uint8_t builtin, lean_object*);
+lean_object* initialize_Mathlib_Algebra_Group_Subgroup_Pointwise(uint8_t builtin, lean_object*);
+lean_object* initialize_Mathlib_Algebra_Ring_Int_Parity(uint8_t builtin, lean_object*);
+lean_object* initialize_Mathlib_GroupTheory_Coxeter_Matrix(uint8_t builtin, lean_object*);
+lean_object* initialize_Mathlib_GroupTheory_PresentedGroup(uint8_t builtin, lean_object*);
+lean_object* initialize_Mathlib_Tactic_NormNum_DivMod(uint8_t builtin, lean_object*);
+lean_object* initialize_Mathlib_Tactic_Ring(uint8_t builtin, lean_object*);
+lean_object* initialize_Mathlib_Tactic_Use(uint8_t builtin, lean_object*);
+static bool _G_initialized = false;
+LEAN_EXPORT lean_object* initialize_Mathlib_GroupTheory_Coxeter_Basic(uint8_t builtin, lean_object* w) {
+lean_object * res;
+if (_G_initialized) return lean_io_result_mk_ok(lean_box(0));
+_G_initialized = true;
+res = initialize_Init(builtin, lean_io_mk_world());
+if (lean_io_result_is_error(res)) return res;
+lean_dec_ref(res);
+res = initialize_Mathlib_Algebra_Group_Subgroup_Pointwise(builtin, lean_io_mk_world());
+if (lean_io_result_is_error(res)) return res;
+lean_dec_ref(res);
+res = initialize_Mathlib_Algebra_Ring_Int_Parity(builtin, lean_io_mk_world());
+if (lean_io_result_is_error(res)) return res;
+lean_dec_ref(res);
+res = initialize_Mathlib_GroupTheory_Coxeter_Matrix(builtin, lean_io_mk_world());
+if (lean_io_result_is_error(res)) return res;
+lean_dec_ref(res);
+res = initialize_Mathlib_GroupTheory_PresentedGroup(builtin, lean_io_mk_world());
+if (lean_io_result_is_error(res)) return res;
+lean_dec_ref(res);
+res = initialize_Mathlib_Tactic_NormNum_DivMod(builtin, lean_io_mk_world());
+if (lean_io_result_is_error(res)) return res;
+lean_dec_ref(res);
+res = initialize_Mathlib_Tactic_Ring(builtin, lean_io_mk_world());
+if (lean_io_result_is_error(res)) return res;
+lean_dec_ref(res);
+res = initialize_Mathlib_Tactic_Use(builtin, lean_io_mk_world());
+if (lean_io_result_is_error(res)) return res;
+lean_dec_ref(res);
+l_npowBinRec_go___at_CoxeterMatrix_relation___spec__2___rarg___closed__1 = _init_l_npowBinRec_go___at_CoxeterMatrix_relation___spec__2___rarg___closed__1();
+lean_mark_persistent(l_npowBinRec_go___at_CoxeterMatrix_relation___spec__2___rarg___closed__1);
+l_iInf___at_CoxeterMatrix_instGroupGroup___spec__3___closed__1 = _init_l_iInf___at_CoxeterMatrix_instGroupGroup___spec__3___closed__1();
+lean_mark_persistent(l_iInf___at_CoxeterMatrix_instGroupGroup___spec__3___closed__1);
+l_iInf___at_CoxeterMatrix_instGroupGroup___spec__3___closed__2 = _init_l_iInf___at_CoxeterMatrix_instGroupGroup___spec__3___closed__2();
+lean_mark_persistent(l_iInf___at_CoxeterMatrix_instGroupGroup___spec__3___closed__2);
+l_iInf___at_CoxeterMatrix_instGroupGroup___spec__3___closed__3 = _init_l_iInf___at_CoxeterMatrix_instGroupGroup___spec__3___closed__3();
+lean_mark_persistent(l_iInf___at_CoxeterMatrix_instGroupGroup___spec__3___closed__3);
+l_MulHomClass_toMulHom___at_CoxeterMatrix_reindexGroupEquiv___spec__11___rarg___closed__1 = _init_l_MulHomClass_toMulHom___at_CoxeterMatrix_reindexGroupEquiv___spec__11___rarg___closed__1();
+lean_mark_persistent(l_MulHomClass_toMulHom___at_CoxeterMatrix_reindexGroupEquiv___spec__11___rarg___closed__1);
+l_Subgroup_op___at_CoxeterMatrix_reindexGroupEquiv___spec__16___closed__1 = _init_l_Subgroup_op___at_CoxeterMatrix_reindexGroupEquiv___spec__16___closed__1();
+lean_mark_persistent(l_Subgroup_op___at_CoxeterMatrix_reindexGroupEquiv___spec__16___closed__1);
+l_Subgroup_op___at_CoxeterMatrix_reindexGroupEquiv___spec__16___closed__2 = _init_l_Subgroup_op___at_CoxeterMatrix_reindexGroupEquiv___spec__16___closed__2();
+lean_mark_persistent(l_Subgroup_op___at_CoxeterMatrix_reindexGroupEquiv___spec__16___closed__2);
+l_Subgroup_op___at_CoxeterMatrix_reindexGroupEquiv___spec__16___closed__3 = _init_l_Subgroup_op___at_CoxeterMatrix_reindexGroupEquiv___spec__16___closed__3();
+lean_mark_persistent(l_Subgroup_op___at_CoxeterMatrix_reindexGroupEquiv___spec__16___closed__3);
+l_MulEquiv_refl___at_CoxeterMatrix_toCoxeterSystem___spec__1___closed__1 = _init_l_MulEquiv_refl___at_CoxeterMatrix_toCoxeterSystem___spec__1___closed__1();
+lean_mark_persistent(l_MulEquiv_refl___at_CoxeterMatrix_toCoxeterSystem___spec__1___closed__1);
+l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__1 = _init_l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__1();
+lean_mark_persistent(l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__1);
+l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__2 = _init_l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__2();
+lean_mark_persistent(l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__2);
+l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__3 = _init_l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__3();
+lean_mark_persistent(l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__3);
+l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__4 = _init_l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__4();
+lean_mark_persistent(l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__4);
+l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__5 = _init_l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__5();
+lean_mark_persistent(l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__5);
+l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__6 = _init_l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__6();
+lean_mark_persistent(l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__6);
+l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__7 = _init_l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__7();
+lean_mark_persistent(l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__7);
+l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__8 = _init_l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__8();
+lean_mark_persistent(l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__8);
+l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__9 = _init_l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__9();
+lean_mark_persistent(l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__9);
+l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__10 = _init_l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__10();
+lean_mark_persistent(l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__10);
+l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__11 = _init_l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__11();
+lean_mark_persistent(l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__11);
+l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__12 = _init_l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__12();
+lean_mark_persistent(l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__12);
+l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__13 = _init_l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__13();
+lean_mark_persistent(l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__13);
+l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__14 = _init_l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__14();
+lean_mark_persistent(l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__14);
+l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__15 = _init_l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__15();
+lean_mark_persistent(l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__15);
+l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__16 = _init_l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__16();
+lean_mark_persistent(l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__16);
+l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__17 = _init_l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__17();
+lean_mark_persistent(l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__17);
+l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__18 = _init_l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__18();
+lean_mark_persistent(l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__18);
+l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__19 = _init_l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__19();
+lean_mark_persistent(l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__19);
+l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__20 = _init_l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__20();
+lean_mark_persistent(l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__20);
+l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__21 = _init_l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__21();
+lean_mark_persistent(l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__21);
+l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__22 = _init_l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__22();
+lean_mark_persistent(l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__22);
+l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__23 = _init_l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__23();
+lean_mark_persistent(l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__23);
+l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__24 = _init_l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__24();
+lean_mark_persistent(l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__24);
+l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__25 = _init_l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__25();
+lean_mark_persistent(l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__25);
+l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__26 = _init_l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__26();
+lean_mark_persistent(l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965____closed__26);
+l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965_ = _init_l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965_();
+lean_mark_persistent(l_CoxeterSystem_termS______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_965_);
+l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__1 = _init_l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__1();
+lean_mark_persistent(l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__1);
+l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__2 = _init_l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__2();
+lean_mark_persistent(l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__2);
+l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__3 = _init_l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__3();
+lean_mark_persistent(l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__3);
+l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__4 = _init_l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__4();
+lean_mark_persistent(l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__4);
+l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__5 = _init_l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__5();
+lean_mark_persistent(l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__5);
+l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__6 = _init_l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__6();
+lean_mark_persistent(l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__6);
+l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__7 = _init_l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__7();
+lean_mark_persistent(l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__7);
+l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__8 = _init_l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__8();
+lean_mark_persistent(l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__8);
+l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__9 = _init_l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__9();
+lean_mark_persistent(l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__9);
+l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__10 = _init_l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__10();
+lean_mark_persistent(l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__10);
+l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__11 = _init_l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__11();
+lean_mark_persistent(l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__11);
+l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__12 = _init_l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__12();
+lean_mark_persistent(l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__12);
+l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__13 = _init_l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__13();
+lean_mark_persistent(l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__13);
+l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__14 = _init_l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__14();
+lean_mark_persistent(l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__14);
+l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__15 = _init_l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__15();
+lean_mark_persistent(l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__15);
+l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__16 = _init_l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__16();
+lean_mark_persistent(l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__16);
+l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__17 = _init_l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__17();
+lean_mark_persistent(l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__17);
+l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__18 = _init_l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__18();
+lean_mark_persistent(l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__18);
+l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__19 = _init_l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__19();
+lean_mark_persistent(l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__19);
+l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__20 = _init_l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__20();
+lean_mark_persistent(l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__20);
+l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__21 = _init_l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__21();
+lean_mark_persistent(l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__21);
+l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__22 = _init_l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__22();
+lean_mark_persistent(l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__22);
+l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__23 = _init_l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__23();
+lean_mark_persistent(l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__termS____1___closed__23);
+l_CoxeterSystem_lift___elambda__2___rarg___closed__1 = _init_l_CoxeterSystem_lift___elambda__2___rarg___closed__1();
+lean_mark_persistent(l_CoxeterSystem_lift___elambda__2___rarg___closed__1);
+l_CoxeterSystem_term_u03c0______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_3347____closed__1 = _init_l_CoxeterSystem_term_u03c0______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_3347____closed__1();
+lean_mark_persistent(l_CoxeterSystem_term_u03c0______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_3347____closed__1);
+l_CoxeterSystem_term_u03c0______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_3347____closed__2 = _init_l_CoxeterSystem_term_u03c0______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_3347____closed__2();
+lean_mark_persistent(l_CoxeterSystem_term_u03c0______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_3347____closed__2);
+l_CoxeterSystem_term_u03c0______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_3347____closed__3 = _init_l_CoxeterSystem_term_u03c0______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_3347____closed__3();
+lean_mark_persistent(l_CoxeterSystem_term_u03c0______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_3347____closed__3);
+l_CoxeterSystem_term_u03c0______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_3347____closed__4 = _init_l_CoxeterSystem_term_u03c0______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_3347____closed__4();
+lean_mark_persistent(l_CoxeterSystem_term_u03c0______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_3347____closed__4);
+l_CoxeterSystem_term_u03c0______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_3347____closed__5 = _init_l_CoxeterSystem_term_u03c0______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_3347____closed__5();
+lean_mark_persistent(l_CoxeterSystem_term_u03c0______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_3347____closed__5);
+l_CoxeterSystem_term_u03c0______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_3347____closed__6 = _init_l_CoxeterSystem_term_u03c0______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_3347____closed__6();
+lean_mark_persistent(l_CoxeterSystem_term_u03c0______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_3347____closed__6);
+l_CoxeterSystem_term_u03c0______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_3347____closed__7 = _init_l_CoxeterSystem_term_u03c0______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_3347____closed__7();
+lean_mark_persistent(l_CoxeterSystem_term_u03c0______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_3347____closed__7);
+l_CoxeterSystem_term_u03c0______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_3347____closed__8 = _init_l_CoxeterSystem_term_u03c0______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_3347____closed__8();
+lean_mark_persistent(l_CoxeterSystem_term_u03c0______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_3347____closed__8);
+l_CoxeterSystem_term_u03c0______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_3347____closed__9 = _init_l_CoxeterSystem_term_u03c0______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_3347____closed__9();
+lean_mark_persistent(l_CoxeterSystem_term_u03c0______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_3347____closed__9);
+l_CoxeterSystem_term_u03c0______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_3347____closed__10 = _init_l_CoxeterSystem_term_u03c0______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_3347____closed__10();
+lean_mark_persistent(l_CoxeterSystem_term_u03c0______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_3347____closed__10);
+l_CoxeterSystem_term_u03c0______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_3347____closed__11 = _init_l_CoxeterSystem_term_u03c0______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_3347____closed__11();
+lean_mark_persistent(l_CoxeterSystem_term_u03c0______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_3347____closed__11);
+l_CoxeterSystem_term_u03c0______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_3347____closed__12 = _init_l_CoxeterSystem_term_u03c0______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_3347____closed__12();
+lean_mark_persistent(l_CoxeterSystem_term_u03c0______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_3347____closed__12);
+l_CoxeterSystem_term_u03c0______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_3347____closed__13 = _init_l_CoxeterSystem_term_u03c0______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_3347____closed__13();
+lean_mark_persistent(l_CoxeterSystem_term_u03c0______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_3347____closed__13);
+l_CoxeterSystem_term_u03c0______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_3347_ = _init_l_CoxeterSystem_term_u03c0______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_3347_();
+lean_mark_persistent(l_CoxeterSystem_term_u03c0______x40_Mathlib_GroupTheory_Coxeter_Basic___hyg_3347_);
+l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__term_u03c0____1___closed__1 = _init_l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__term_u03c0____1___closed__1();
+lean_mark_persistent(l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__term_u03c0____1___closed__1);
+l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__term_u03c0____1___closed__2 = _init_l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__term_u03c0____1___closed__2();
+lean_mark_persistent(l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__term_u03c0____1___closed__2);
+l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__term_u03c0____1___closed__3 = _init_l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__term_u03c0____1___closed__3();
+lean_mark_persistent(l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__term_u03c0____1___closed__3);
+l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__term_u03c0____1___closed__4 = _init_l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__term_u03c0____1___closed__4();
+lean_mark_persistent(l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__term_u03c0____1___closed__4);
+l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__term_u03c0____1___closed__5 = _init_l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__term_u03c0____1___closed__5();
+lean_mark_persistent(l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__term_u03c0____1___closed__5);
+l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__term_u03c0____1___closed__6 = _init_l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__term_u03c0____1___closed__6();
+lean_mark_persistent(l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__term_u03c0____1___closed__6);
+l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__term_u03c0____1___closed__7 = _init_l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__term_u03c0____1___closed__7();
+lean_mark_persistent(l_CoxeterSystem___aux__Mathlib__GroupTheory__Coxeter__Basic______macroRules__CoxeterSystem__term_u03c0____1___closed__7);
+return lean_io_result_mk_ok(lean_box(0));
+}
+#ifdef __cplusplus
+}
+#endif

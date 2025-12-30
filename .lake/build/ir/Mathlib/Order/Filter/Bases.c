@@ -1,0 +1,152 @@
+// Lean compiler output
+// Module: Mathlib.Order.Filter.Bases
+// Imports: Init Mathlib.Data.Prod.PProd Mathlib.Order.Filter.Finite Mathlib.Order.Filter.Map
+#include <lean/lean.h>
+#if defined(__clang__)
+#pragma clang diagnostic ignored "-Wunused-parameter"
+#pragma clang diagnostic ignored "-Wunused-label"
+#elif defined(__GNUC__) && !defined(__CLANG__)
+#pragma GCC diagnostic ignored "-Wunused-parameter"
+#pragma GCC diagnostic ignored "-Wunused-label"
+#pragma GCC diagnostic ignored "-Wunused-but-set-variable"
+#endif
+#ifdef __cplusplus
+extern "C" {
+#endif
+LEAN_EXPORT lean_object* l_instMembershipSetFilterBasis(lean_object*);
+LEAN_EXPORT lean_object* l_FilterBasis_filter___boxed(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_Filter_IsBasis_filterBasis(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_Filter_IsBasis_filter(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_Filter_asBasis(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_Filter_IsBasis_filterBasis___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_Filter_asBasis___boxed(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_Filter_FilterBasis_ofSets(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_Filter_IsBasis_filter___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_FilterBasis_filter(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_instInhabitedFilterBasisNat;
+LEAN_EXPORT lean_object* l_instMembershipSetFilterBasis(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_box(0);
+return x_2;
+}
+}
+static lean_object* _init_l_instInhabitedFilterBasisNat() {
+_start:
+{
+lean_object* x_1; 
+x_1 = lean_alloc_ctor(0, 1, 0);
+lean_ctor_set(x_1, 0, lean_box(0));
+return x_1;
+}
+}
+LEAN_EXPORT lean_object* l_Filter_asBasis(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = lean_alloc_ctor(0, 1, 0);
+lean_ctor_set(x_3, 0, lean_box(0));
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_Filter_asBasis___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_Filter_asBasis(x_1, x_2);
+lean_dec(x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_Filter_IsBasis_filterBasis(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = lean_alloc_ctor(0, 1, 0);
+lean_ctor_set(x_6, 0, lean_box(0));
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_Filter_IsBasis_filterBasis___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_Filter_IsBasis_filterBasis(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_4);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_FilterBasis_filter(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = lean_alloc_ctor(0, 1, 0);
+lean_ctor_set(x_3, 0, lean_box(0));
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_FilterBasis_filter___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_FilterBasis_filter(x_1, x_2);
+lean_dec(x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_Filter_IsBasis_filter(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = lean_alloc_ctor(0, 1, 0);
+lean_ctor_set(x_6, 0, lean_box(0));
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_Filter_IsBasis_filter___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_Filter_IsBasis_filter(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_4);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_Filter_FilterBasis_ofSets(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = lean_alloc_ctor(0, 1, 0);
+lean_ctor_set(x_3, 0, lean_box(0));
+return x_3;
+}
+}
+lean_object* initialize_Init(uint8_t builtin, lean_object*);
+lean_object* initialize_Mathlib_Data_Prod_PProd(uint8_t builtin, lean_object*);
+lean_object* initialize_Mathlib_Order_Filter_Finite(uint8_t builtin, lean_object*);
+lean_object* initialize_Mathlib_Order_Filter_Map(uint8_t builtin, lean_object*);
+static bool _G_initialized = false;
+LEAN_EXPORT lean_object* initialize_Mathlib_Order_Filter_Bases(uint8_t builtin, lean_object* w) {
+lean_object * res;
+if (_G_initialized) return lean_io_result_mk_ok(lean_box(0));
+_G_initialized = true;
+res = initialize_Init(builtin, lean_io_mk_world());
+if (lean_io_result_is_error(res)) return res;
+lean_dec_ref(res);
+res = initialize_Mathlib_Data_Prod_PProd(builtin, lean_io_mk_world());
+if (lean_io_result_is_error(res)) return res;
+lean_dec_ref(res);
+res = initialize_Mathlib_Order_Filter_Finite(builtin, lean_io_mk_world());
+if (lean_io_result_is_error(res)) return res;
+lean_dec_ref(res);
+res = initialize_Mathlib_Order_Filter_Map(builtin, lean_io_mk_world());
+if (lean_io_result_is_error(res)) return res;
+lean_dec_ref(res);
+l_instInhabitedFilterBasisNat = _init_l_instInhabitedFilterBasisNat();
+lean_mark_persistent(l_instInhabitedFilterBasisNat);
+return lean_io_result_mk_ok(lean_box(0));
+}
+#ifdef __cplusplus
+}
+#endif

@@ -1,0 +1,57 @@
+// Lean compiler output
+// Module: Mathlib.Order.Filter.AtTopBot.ModEq
+// Imports: Init Mathlib.Algebra.Order.Ring.Basic Mathlib.Algebra.Order.Ring.Nat Mathlib.Algebra.Ring.Divisibility.Basic Mathlib.Algebra.Ring.Int.Defs Mathlib.Data.Nat.ModEq Mathlib.Order.Filter.AtTopBot.Basic Mathlib.Order.Filter.AtTopBot.Monoid
+#include <lean/lean.h>
+#if defined(__clang__)
+#pragma clang diagnostic ignored "-Wunused-parameter"
+#pragma clang diagnostic ignored "-Wunused-label"
+#elif defined(__GNUC__) && !defined(__CLANG__)
+#pragma GCC diagnostic ignored "-Wunused-parameter"
+#pragma GCC diagnostic ignored "-Wunused-label"
+#pragma GCC diagnostic ignored "-Wunused-but-set-variable"
+#endif
+#ifdef __cplusplus
+extern "C" {
+#endif
+lean_object* initialize_Init(uint8_t builtin, lean_object*);
+lean_object* initialize_Mathlib_Algebra_Order_Ring_Basic(uint8_t builtin, lean_object*);
+lean_object* initialize_Mathlib_Algebra_Order_Ring_Nat(uint8_t builtin, lean_object*);
+lean_object* initialize_Mathlib_Algebra_Ring_Divisibility_Basic(uint8_t builtin, lean_object*);
+lean_object* initialize_Mathlib_Algebra_Ring_Int_Defs(uint8_t builtin, lean_object*);
+lean_object* initialize_Mathlib_Data_Nat_ModEq(uint8_t builtin, lean_object*);
+lean_object* initialize_Mathlib_Order_Filter_AtTopBot_Basic(uint8_t builtin, lean_object*);
+lean_object* initialize_Mathlib_Order_Filter_AtTopBot_Monoid(uint8_t builtin, lean_object*);
+static bool _G_initialized = false;
+LEAN_EXPORT lean_object* initialize_Mathlib_Order_Filter_AtTopBot_ModEq(uint8_t builtin, lean_object* w) {
+lean_object * res;
+if (_G_initialized) return lean_io_result_mk_ok(lean_box(0));
+_G_initialized = true;
+res = initialize_Init(builtin, lean_io_mk_world());
+if (lean_io_result_is_error(res)) return res;
+lean_dec_ref(res);
+res = initialize_Mathlib_Algebra_Order_Ring_Basic(builtin, lean_io_mk_world());
+if (lean_io_result_is_error(res)) return res;
+lean_dec_ref(res);
+res = initialize_Mathlib_Algebra_Order_Ring_Nat(builtin, lean_io_mk_world());
+if (lean_io_result_is_error(res)) return res;
+lean_dec_ref(res);
+res = initialize_Mathlib_Algebra_Ring_Divisibility_Basic(builtin, lean_io_mk_world());
+if (lean_io_result_is_error(res)) return res;
+lean_dec_ref(res);
+res = initialize_Mathlib_Algebra_Ring_Int_Defs(builtin, lean_io_mk_world());
+if (lean_io_result_is_error(res)) return res;
+lean_dec_ref(res);
+res = initialize_Mathlib_Data_Nat_ModEq(builtin, lean_io_mk_world());
+if (lean_io_result_is_error(res)) return res;
+lean_dec_ref(res);
+res = initialize_Mathlib_Order_Filter_AtTopBot_Basic(builtin, lean_io_mk_world());
+if (lean_io_result_is_error(res)) return res;
+lean_dec_ref(res);
+res = initialize_Mathlib_Order_Filter_AtTopBot_Monoid(builtin, lean_io_mk_world());
+if (lean_io_result_is_error(res)) return res;
+lean_dec_ref(res);
+return lean_io_result_mk_ok(lean_box(0));
+}
+#ifdef __cplusplus
+}
+#endif

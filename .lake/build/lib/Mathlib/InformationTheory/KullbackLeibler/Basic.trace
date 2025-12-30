@@ -1,0 +1,47 @@
+{"log":
+ [{"message":
+   ".> LEAN_PATH=././.lake/packages/Cli/.lake/build/lib:././.lake/packages/SafeVerify/.lake/build/lib:././.lake/packages/batteries/.lake/build/lib:././.lake/packages/Qq/.lake/build/lib:././.lake/packages/aesop/.lake/build/lib:././.lake/packages/proofwidgets/.lake/build/lib:././.lake/packages/importGraph/.lake/build/lib:././.lake/packages/LeanSearchClient/.lake/build/lib:././.lake/packages/plausible/.lake/build/lib:././.lake/packages/VerifiedAgora/.lake/build/lib:././.lake/build/lib LD_LIBRARY_PATH= /home/shivansg/.elan/toolchains/leanprover--lean4---v4.17.0/bin/lean -Dpp.unicode.fun=true -DautoImplicit=false -DmaxSynthPendingDepth=3 -Dweak.linter.docPrime=false -Dweak.linter.hashCommand=true -Dweak.linter.oldObtain=true -Dweak.linter.refine=true -Dweak.linter.style.cdot=true -Dweak.linter.style.dollarSyntax=true -Dweak.linter.style.header=true -Dweak.linter.style.lambdaSyntax=true -Dweak.linter.style.longLine=true -Dweak.linter.style.longFile=1500 -Dweak.linter.style.missingEnd=true -Dweak.linter.style.multiGoal=true -Dweak.linter.style.setOption=true ././././Mathlib/InformationTheory/KullbackLeibler/Basic.lean -R ./././. -o ././.lake/build/lib/Mathlib/InformationTheory/KullbackLeibler/Basic.olean -i ././.lake/build/lib/Mathlib/InformationTheory/KullbackLeibler/Basic.ilean -c ././.lake/build/ir/Mathlib/InformationTheory/KullbackLeibler/Basic.c --json",
+   "level": "trace"},
+  {"message":
+   "././././Mathlib/InformationTheory/KullbackLeibler/Basic.lean:1:1: * '-/':\nCopyright too short!\n\nnote: this linter can be disabled with `set_option linter.style.header false`",
+   "level": "warning"},
+  {"message":
+   "././././Mathlib/InformationTheory/KullbackLeibler/Basic.lean:60:6: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././././Mathlib/InformationTheory/KullbackLeibler/Basic.lean:74:6: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././././Mathlib/InformationTheory/KullbackLeibler/Basic.lean:86:6: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././././Mathlib/InformationTheory/KullbackLeibler/Basic.lean:89:6: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././././Mathlib/InformationTheory/KullbackLeibler/Basic.lean:97:6: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././././Mathlib/InformationTheory/KullbackLeibler/Basic.lean:104:6: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././././Mathlib/InformationTheory/KullbackLeibler/Basic.lean:105:0: This line exceeds the 100 character limit, please shorten it!\nnote: this linter can be disabled with `set_option linter.style.longLine false`",
+   "level": "warning"},
+  {"message":
+   "././././Mathlib/InformationTheory/KullbackLeibler/Basic.lean:123:6: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././././Mathlib/InformationTheory/KullbackLeibler/Basic.lean:135:6: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././././Mathlib/InformationTheory/KullbackLeibler/Basic.lean:164:6: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././././Mathlib/InformationTheory/KullbackLeibler/Basic.lean:168:6: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././././Mathlib/InformationTheory/KullbackLeibler/Basic.lean:173:6: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././././Mathlib/InformationTheory/KullbackLeibler/Basic.lean:183:6: declaration uses 'sorry'",
+   "level": "warning"}],
+ "depHash": "5548642956536478227"}

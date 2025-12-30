@@ -1,0 +1,57 @@
+// Lean compiler output
+// Module: Mathlib.Analysis.Convex.Visible
+// Imports: Init Mathlib.Algebra.BigOperators.Field Mathlib.Algebra.Group.Pointwise.Set.Card Mathlib.Analysis.Convex.Between Mathlib.Analysis.Convex.Combination Mathlib.Topology.Algebra.Affine Mathlib.Topology.MetricSpace.Pseudo.Lemmas Mathlib.Topology.Order.Monotone
+#include <lean/lean.h>
+#if defined(__clang__)
+#pragma clang diagnostic ignored "-Wunused-parameter"
+#pragma clang diagnostic ignored "-Wunused-label"
+#elif defined(__GNUC__) && !defined(__CLANG__)
+#pragma GCC diagnostic ignored "-Wunused-parameter"
+#pragma GCC diagnostic ignored "-Wunused-label"
+#pragma GCC diagnostic ignored "-Wunused-but-set-variable"
+#endif
+#ifdef __cplusplus
+extern "C" {
+#endif
+lean_object* initialize_Init(uint8_t builtin, lean_object*);
+lean_object* initialize_Mathlib_Algebra_BigOperators_Field(uint8_t builtin, lean_object*);
+lean_object* initialize_Mathlib_Algebra_Group_Pointwise_Set_Card(uint8_t builtin, lean_object*);
+lean_object* initialize_Mathlib_Analysis_Convex_Between(uint8_t builtin, lean_object*);
+lean_object* initialize_Mathlib_Analysis_Convex_Combination(uint8_t builtin, lean_object*);
+lean_object* initialize_Mathlib_Topology_Algebra_Affine(uint8_t builtin, lean_object*);
+lean_object* initialize_Mathlib_Topology_MetricSpace_Pseudo_Lemmas(uint8_t builtin, lean_object*);
+lean_object* initialize_Mathlib_Topology_Order_Monotone(uint8_t builtin, lean_object*);
+static bool _G_initialized = false;
+LEAN_EXPORT lean_object* initialize_Mathlib_Analysis_Convex_Visible(uint8_t builtin, lean_object* w) {
+lean_object * res;
+if (_G_initialized) return lean_io_result_mk_ok(lean_box(0));
+_G_initialized = true;
+res = initialize_Init(builtin, lean_io_mk_world());
+if (lean_io_result_is_error(res)) return res;
+lean_dec_ref(res);
+res = initialize_Mathlib_Algebra_BigOperators_Field(builtin, lean_io_mk_world());
+if (lean_io_result_is_error(res)) return res;
+lean_dec_ref(res);
+res = initialize_Mathlib_Algebra_Group_Pointwise_Set_Card(builtin, lean_io_mk_world());
+if (lean_io_result_is_error(res)) return res;
+lean_dec_ref(res);
+res = initialize_Mathlib_Analysis_Convex_Between(builtin, lean_io_mk_world());
+if (lean_io_result_is_error(res)) return res;
+lean_dec_ref(res);
+res = initialize_Mathlib_Analysis_Convex_Combination(builtin, lean_io_mk_world());
+if (lean_io_result_is_error(res)) return res;
+lean_dec_ref(res);
+res = initialize_Mathlib_Topology_Algebra_Affine(builtin, lean_io_mk_world());
+if (lean_io_result_is_error(res)) return res;
+lean_dec_ref(res);
+res = initialize_Mathlib_Topology_MetricSpace_Pseudo_Lemmas(builtin, lean_io_mk_world());
+if (lean_io_result_is_error(res)) return res;
+lean_dec_ref(res);
+res = initialize_Mathlib_Topology_Order_Monotone(builtin, lean_io_mk_world());
+if (lean_io_result_is_error(res)) return res;
+lean_dec_ref(res);
+return lean_io_result_mk_ok(lean_box(0));
+}
+#ifdef __cplusplus
+}
+#endif

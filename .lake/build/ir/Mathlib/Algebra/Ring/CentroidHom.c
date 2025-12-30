@@ -1,0 +1,4173 @@
+// Lean compiler output
+// Module: Mathlib.Algebra.Ring.CentroidHom
+// Imports: Init Mathlib.Algebra.Algebra.Defs Mathlib.Algebra.Group.Action.Pi Mathlib.Algebra.Module.Hom Mathlib.GroupTheory.GroupAction.Ring Mathlib.RingTheory.NonUnitalSubsemiring.Basic Mathlib.Algebra.Ring.Subsemiring.Basic
+#include <lean/lean.h>
+#if defined(__clang__)
+#pragma clang diagnostic ignored "-Wunused-parameter"
+#pragma clang diagnostic ignored "-Wunused-label"
+#elif defined(__GNUC__) && !defined(__CLANG__)
+#pragma GCC diagnostic ignored "-Wunused-parameter"
+#pragma GCC diagnostic ignored "-Wunused-label"
+#pragma GCC diagnostic ignored "-Wunused-but-set-variable"
+#endif
+#ifdef __cplusplus
+extern "C" {
+#endif
+LEAN_EXPORT lean_object* l_AddHomClass_toAddHom___at_CentroidHom_instAddCommMonoid___spec__2___rarg(lean_object*);
+static lean_object* l_CentroidHom_instInhabited___closed__1;
+LEAN_EXPORT lean_object* l_CentroidHom_hasNPowNat___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_Nat_cast___at_CentroidHom_instRing___spec__4___rarg(lean_object*, lean_object*);
+static lean_object* l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_8118____closed__1;
+LEAN_EXPORT lean_object* l_AddHomClass_toAddHom___at_CentroidHom_instSMul___spec__2___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_AddMonoidHom_comp___at_CentroidHom_comp___spec__1___rarg(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CentroidHom_instNatCast(lean_object*);
+LEAN_EXPORT lean_object* l_AddHomClass_toAddHom___at_CentroidHom_instAddCommGroup___spec__3(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CentroidHom_toEnd___at_CentroidHom_instAddCommGroup___spec__1___rarg___boxed(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_AddHomClass_toAddHom___at_CentroidHom_toEnd___spec__2___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_CentroidHom_centerIsoCentroid(lean_object*);
+LEAN_EXPORT lean_object* l_CentroidHom_instAddCommMonoid___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_CentroidHom_commRing___rarg(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_Int_cast___at_CentroidHom_instRing___spec__9(lean_object*);
+LEAN_EXPORT lean_object* l_AddHomClass_toAddHom___at_CentroidHom_instAddCommMonoid___spec__2(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_MulHom_comp___at_CentroidHom_centerToCentroid___spec__6(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_Subsemiring_center___at_CentroidHom_centerToCentroidCenter___spec__1___rarg___boxed(lean_object*);
+LEAN_EXPORT lean_object* l_CentroidHom_instMul(lean_object*);
+LEAN_EXPORT lean_object* l_CentroidHom_applyModule___rarg(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_instAdd___spec__1___rarg___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_instIntCast___spec__3___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_AddMonoidHom_id___at_CentroidHom_instIntCast___spec__2___rarg___boxed(lean_object*);
+static lean_object* l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______macroRules__CentroidHom__termL__1___closed__5;
+LEAN_EXPORT lean_object* l_SubsemiringClass_subtype___at_CentroidHom_centerToCentroid___spec__3___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_AddHomClass_toAddHom___at_CentroidHom_instNeg___spec__2(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CentroidHom_toEnd___at_CentroidHom_instRing___spec__1(lean_object*);
+LEAN_EXPORT lean_object* l_RingHom_smulOneHom___at_Module_toCentroidHom___spec__1___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_instAddCommMonoid___spec__1(lean_object*);
+LEAN_EXPORT lean_object* l_Int_cast___at_CentroidHom_instRing___spec__9___rarg(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_instNeg___spec__1(lean_object*);
+LEAN_EXPORT lean_object* l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_instDistribMulAction___spec__2___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______unexpand__AddMonoid__End__mulRight__1(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_AddMonoidHom_id___at_CentroidHom_instRing___spec__6___rarg___boxed(lean_object*);
+LEAN_EXPORT lean_object* l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_instSub___spec__3___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_Nat_cast___at_CentroidHom_instSemiring___spec__1(lean_object*);
+LEAN_EXPORT lean_object* l_CentroidHom_applyModule(lean_object*, lean_object*);
+static lean_object* l_CentroidHom_termR____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_6169____closed__6;
+LEAN_EXPORT lean_object* l_Module_toCentroidHom(lean_object*);
+LEAN_EXPORT lean_object* l_AddHomClass_toAddHom___at_CentroidHom_instModule___spec__3___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______macroRules__CentroidHom__termL__2(lean_object*, lean_object*, lean_object*);
+static lean_object* l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______macroRules__CentroidHom__termL__1___closed__3;
+static lean_object* l_CentroidHom_termR____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_6169____closed__11;
+static lean_object* l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__8;
+LEAN_EXPORT lean_object* l_Nat_cast___at_CentroidHom_instSemiring___spec__1___rarg(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_instAddCommMonoid___spec__1___rarg___boxed(lean_object*, lean_object*, lean_object*);
+static lean_object* l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__13;
+LEAN_EXPORT lean_object* l_AddHomClass_toAddHom___at_CentroidHom_instRing___spec__13(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_instRing___spec__12___rarg(lean_object*, lean_object*, lean_object*);
+static lean_object* l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__4;
+LEAN_EXPORT lean_object* l_CentroidHom_instMul___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_AddHomClass_toAddHom___at_CentroidHom_instSMul___spec__2___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_RingHom_toNonUnitalRingHom___at_CentroidHom_centerToCentroid___spec__4___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_CentroidHom_copy___rarg(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CentroidHom_instSMul___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+static lean_object* l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__6;
+LEAN_EXPORT lean_object* l_AddMonoidHom_comp___at_CentroidHom_comp___spec__1___boxed(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_AddMonoidHom_id___at_CentroidHom_instRing___spec__11___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_AddHomClass_toAddHom___at_CentroidHom_instDistribMulAction___spec__3___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_8118_;
+static lean_object* l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__15;
+lean_object* l_Lean_replaceRef(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_AddHomClass_toAddHom___at_CentroidHom_instRing___spec__3___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______unexpand__AddMonoid__End__mulLeft__1___boxed(lean_object*, lean_object*, lean_object*);
+static lean_object* l_CentroidHom_termR____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_6169____closed__5;
+LEAN_EXPORT lean_object* l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_instSMul___spec__1___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_AddMonoidHom_id___at_CentroidHom_instIntCast___spec__2___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_AddMonoidHom_id___at_CentroidHom_instRing___spec__8(lean_object*, lean_object*);
+lean_object* l_AddMonoid_End_instMonoid___elambda__1___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CentroidHom_instAddCommMonoid(lean_object*);
+LEAN_EXPORT lean_object* l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_instAdd___spec__3(lean_object*);
+LEAN_EXPORT lean_object* l_CentroidHom_instFunLike___rarg(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_AddMonoidHom_comp___at_CentroidHom_comp___spec__1(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_RingHom_smulOneHom___at_Module_toCentroidHom___spec__1(lean_object*);
+static lean_object* l_CentroidHom_termR____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_6169____closed__7;
+LEAN_EXPORT lean_object* l_SubsemiringClass_subtype___at_CentroidHom_centerToCentroid___spec__3___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CentroidHom_toEnd___at_CentroidHom_instRing___spec__16___rarg___boxed(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_instRing___spec__2___rarg___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_AddMonoidHom_id___at_CentroidHom_instIntCast___spec__2(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_AddHomClass_toAddHom___at_CentroidHom_instSub___spec__4___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_RingHom_toAddMonoidHom___at_CentroidHom_instModule___spec__1___rarg___boxed(lean_object*);
+LEAN_EXPORT lean_object* l_AddHomClass_toAddHom___at_CentroidHom_instAdd___spec__2___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CentroidHom_toEnd___at_CentroidHom_instRing___spec__1___rarg___boxed(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_AddHomClass_toAddHom___at_CentroidHom_instNeg___spec__2___boxed(lean_object*, lean_object*, lean_object*);
+uint8_t l_Lean_Syntax_isOfKind(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______unexpand__AddMonoid__End__mulLeft__1(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_instCoeTCCentroidHomOfCentroidHomClass___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CentroidHom_instRing(lean_object*);
+LEAN_EXPORT lean_object* l_CentroidHom_instModule(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CentroidHom_instDistribMulAction___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CentroidHom_instIntCast___rarg(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CentroidHom_toEnd___at_CentroidHom_instAddCommGroup___spec__1(lean_object*);
+LEAN_EXPORT lean_object* l_RingHom_toNonUnitalRingHom___at_CentroidHom_centerToCentroid___spec__4___rarg___boxed(lean_object*);
+static lean_object* l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__16;
+LEAN_EXPORT lean_object* l_CentroidHom_comp(lean_object*);
+LEAN_EXPORT lean_object* l_CentroidHom_instFunLike___boxed(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CentroidHom_centerToCentroid(lean_object*);
+LEAN_EXPORT lean_object* l_AddHomClass_toAddHom___at_CentroidHom_instSub___spec__2___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_NonUnitalSubsemiring_center___at_CentroidHom_centerToCentroid___spec__2___rarg___boxed(lean_object*);
+LEAN_EXPORT lean_object* l_RingHom_toAddMonoidHom___at_CentroidHom_instModule___spec__1(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CentroidHom_id___at_CentroidHom_instRing___spec__5___rarg___boxed(lean_object*);
+LEAN_EXPORT lean_object* l_NonUnitalRingHom_comp___at_CentroidHom_centerToCentroid___spec__5(lean_object*);
+static lean_object* l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______macroRules__CentroidHom__termR__1___closed__4;
+LEAN_EXPORT lean_object* l_CentroidHom_centerToCentroidCenter(lean_object*);
+lean_object* l_Semiring_toNonAssocSemiring___rarg(lean_object*);
+static lean_object* l_CentroidHom_termR____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_6169____closed__4;
+lean_object* l_Function_Injective_addMonoid___elambda__1___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_NonUnitalRingHom_comp___at_CentroidHom_centerToCentroid___spec__5___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CentroidHom_copy___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_instAddCommMonoid___spec__1___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CentroidHom_instFunLikeSubtypeMemSubsemiringCenter___boxed(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_instAdd___spec__1(lean_object*);
+lean_object* l_Lean_Name_mkStr3(lean_object*, lean_object*, lean_object*);
+static lean_object* l_CentroidHom_termR____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_6169____closed__3;
+LEAN_EXPORT lean_object* l_AddHomClass_toAddHom___at_CentroidHom_instSub___spec__2___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_Int_cast___at_CentroidHom_instRing___spec__9___rarg___lambda__1___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CentroidHom_toEnd___at_CentroidHom_instRing___spec__16(lean_object*);
+static lean_object* l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______macroRules__CentroidHom__termL__1___closed__1;
+LEAN_EXPORT lean_object* l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_instAddCommGroup___spec__2(lean_object*);
+LEAN_EXPORT lean_object* l_CentroidHom_instDistribMulAction(lean_object*, lean_object*);
+lean_object* l_AddMonoidHom_add___elambda__1___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CentroidHom_id___at_CentroidHom_instRing___spec__7___rarg___boxed(lean_object*);
+LEAN_EXPORT lean_object* l_CentroidHom_instNeg(lean_object*);
+LEAN_EXPORT lean_object* l_CentroidHom_id___at_CentroidHom_instRing___spec__10___rarg(lean_object*);
+lean_object* l_AddMonoidHom_instFunLike___elambda__1___rarg(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CentroidHom_termR____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_6169_;
+LEAN_EXPORT lean_object* l_instCoeTCCentroidHomOfCentroidHomClass(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_instNeg___spec__1___rarg___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_Module_toCentroidHom___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+static lean_object* l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______macroRules__CentroidHom__termR__1___closed__2;
+LEAN_EXPORT lean_object* l_CentroidHom_id___at_CentroidHom_instRing___spec__5(lean_object*);
+static lean_object* l_CentroidHom_termR____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_6169____closed__2;
+LEAN_EXPORT lean_object* l_AddHomClass_toAddHom___at_CentroidHom_toEnd___spec__2(lean_object*, lean_object*, lean_object*);
+static lean_object* l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______macroRules__CentroidHom__termL__1___closed__4;
+lean_object* l_Lean_SourceInfo_fromRef(lean_object*, uint8_t);
+LEAN_EXPORT lean_object* l_Subsemiring_center___at_CentroidHom_centerToCentroidCenter___spec__1___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_CentroidHom_instZero(lean_object*);
+LEAN_EXPORT lean_object* l_AddHomClass_toAddHom___at_Module_toCentroidHom___spec__4___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_instCoeTCCentroidHomOfCentroidHomClass___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_instRing___spec__17(lean_object*);
+LEAN_EXPORT lean_object* l_CentroidHom_commRing(lean_object*);
+LEAN_EXPORT lean_object* l_CentroidHom_instInhabited___boxed(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CentroidHom_instRing___rarg___lambda__1___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CentroidHom_instRing___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_AddHomClass_toAddHom___at_CentroidHom_instRing___spec__13___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_MonoidHom_smulOneHom___at_Module_toCentroidHom___spec__2(lean_object*);
+static lean_object* l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__17;
+LEAN_EXPORT lean_object* l_AddMonoidHom_id___at_CentroidHom_id___spec__1___boxed(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_AddHomClass_toAddHom___at_CentroidHom_instAdd___spec__4___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CentroidHom_instModule___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CentroidHom_id___at_CentroidHom_instIntCast___spec__1___rarg___boxed(lean_object*);
+LEAN_EXPORT lean_object* l_RingHom_toNonUnitalRingHom___at_CentroidHom_centerToCentroid___spec__4___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_AddHomClass_toAddHom___at_CentroidHom_instRing___spec__3___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CentroidHom_instRing___rarg___lambda__1(lean_object*, lean_object*, lean_object*, lean_object*);
+static lean_object* l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__9;
+LEAN_EXPORT lean_object* l_AddHomClass_toAddHom___at_CentroidHom_toEnd___spec__2___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______unexpand__AddMonoid__End__mulLeft__2(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_AddHomClass_toAddHom___at_CentroidHom_instAddCommMonoid___spec__2___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CentroidHom_hasNPowNat(lean_object*);
+LEAN_EXPORT lean_object* l_AddHomClass_toAddHom___at_CentroidHom_instSMul___spec__2(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_MulHom_comp___at_CentroidHom_centerToCentroid___spec__6___rarg(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609_;
+LEAN_EXPORT lean_object* l_AddMonoidHom_id___at_CentroidHom_instRing___spec__8___rarg___boxed(lean_object*);
+static lean_object* l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__11;
+lean_object* l_Function_Injective_subNegMonoid___elambda__1___rarg(lean_object*, lean_object*, lean_object*);
+lean_object* l_AddHomClass_toAddHom___elambda__1___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CentroidHom_id___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_AddMonoidHom_comp___at_CentroidHom_instRing___spec__15(lean_object*, lean_object*);
+lean_object* l_AddMonoidHom_instSub___elambda__1___rarg(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_MonoidHom_smulOneHom___at_Module_toCentroidHom___spec__2___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_AddMonoidHom_id___at_CentroidHom_id___spec__1___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_CentroidHom_instAddCommGroup(lean_object*);
+LEAN_EXPORT lean_object* l_AddHomClass_toAddHom___at_CentroidHom_instRing___spec__18___boxed(lean_object*, lean_object*, lean_object*);
+static lean_object* l_CentroidHom_termR____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_6169____closed__12;
+LEAN_EXPORT lean_object* l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_instModule___spec__2___rarg___boxed(lean_object*, lean_object*, lean_object*);
+lean_object* l_NonAssocSemiring_toAddCommMonoidWithOne___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_toEnd___spec__1(lean_object*);
+lean_object* l_Lean_Name_num___override(lean_object*, lean_object*);
+static lean_object* l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______unexpand__AddMonoid__End__mulLeft__1___closed__2;
+LEAN_EXPORT lean_object* l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_instSMul___spec__1(lean_object*);
+LEAN_EXPORT lean_object* l_CentroidHom_instSemiring___rarg___lambda__1(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_AddMonoidHom_id___at_CentroidHom_instRing___spec__6___boxed(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CentroidHom_instSMul___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CentroidHom_id___at_CentroidHom_instRing___spec__7___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______unexpand__AddMonoid__End__mulLeft__2___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_RingHom_toAddMonoidHom___at_CentroidHom_instModule___spec__1___boxed(lean_object*, lean_object*);
+static lean_object* l_CentroidHom_termR____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_6169____closed__8;
+static lean_object* l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______macroRules__CentroidHom__termR__1___closed__5;
+LEAN_EXPORT lean_object* l_AddHomClass_toAddHom___at_CentroidHom_instModule___spec__3(lean_object*, lean_object*, lean_object*);
+static lean_object* l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______unexpand__AddMonoid__End__mulLeft__1___closed__1;
+LEAN_EXPORT lean_object* l_AddHomClass_toAddHom___at_CentroidHom_instRing___spec__13___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_Subsemiring_center___at_CentroidHom_centerToCentroidCenter___spec__1(lean_object*);
+static lean_object* l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______macroRules__CentroidHom__termL__1___closed__2;
+LEAN_EXPORT lean_object* l_CentroidHom_id___at_CentroidHom_instRing___spec__10(lean_object*);
+LEAN_EXPORT lean_object* l_CentroidHom_instNeg___rarg(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CentroidHom_instSemiring___rarg(lean_object*);
+lean_object* l_Lean_addMacroScope(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_instAdd___spec__3___rarg(lean_object*, lean_object*, lean_object*);
+lean_object* l_Semiring_toMonoidWithZero___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_AddMonoidHomClass_toAddMonoidHom___at_Module_toCentroidHom___spec__3___rarg___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_SubsemiringClass_subtype___at_CentroidHom_centerToCentroid___spec__3___rarg___boxed(lean_object*);
+static lean_object* l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______macroRules__CentroidHom__termR__1___closed__6;
+LEAN_EXPORT lean_object* l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_instSub___spec__1___rarg___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CentroidHom_toEnd___rarg___boxed(lean_object*, lean_object*);
+lean_object* l_AddMonoidHom_instNeg___elambda__1___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_instSub___spec__1___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CentroidHom_instAdd___rarg___boxed(lean_object*, lean_object*, lean_object*);
+lean_object* l_Lean_Name_str___override(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_AddHomClass_toAddHom___at_CentroidHom_instRing___spec__3(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CentroidHom_id(lean_object*);
+static lean_object* l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______macroRules__CentroidHom__termR__1___closed__1;
+static lean_object* l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__12;
+LEAN_EXPORT lean_object* l_Nat_cast___at_CentroidHom_instRing___spec__4(lean_object*);
+LEAN_EXPORT lean_object* l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_instRing___spec__12___rarg___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_instAdd___spec__1___rarg(lean_object*, lean_object*, lean_object*);
+lean_object* l_MulHom_comp___elambda__1___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CentroidHom_instZero___rarg___lambda__1(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_Subsemiring_center___at_CentroidHom_centerToCentroid___spec__1___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_RingHom_toNonUnitalRingHom___at_CentroidHom_centerToCentroid___spec__4(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+static lean_object* l_CentroidHom_termR____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_6169____closed__9;
+static lean_object* l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______macroRules__CentroidHom__termR__1___closed__3;
+LEAN_EXPORT lean_object* l_AddHomClass_toAddHom___at_CentroidHom_instDistribMulAction___spec__3(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CentroidHom_comp___at_CentroidHom_instRing___spec__14___rarg___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_instAdd___spec__3___rarg___boxed(lean_object*, lean_object*, lean_object*);
+static lean_object* l_AddHomClass_toAddHom___at_CentroidHom_toEnd___spec__2___rarg___closed__1;
+LEAN_EXPORT lean_object* l_CentroidHom_id___rarg___boxed(lean_object*);
+LEAN_EXPORT lean_object* l_AddHomClass_toAddHom___at_CentroidHom_instAddCommGroup___spec__3___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_CentroidHom_centerIsoCentroid___rarg(lean_object*);
+static lean_object* l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__10;
+LEAN_EXPORT lean_object* l_AddHomClass_toAddHom___at_CentroidHom_toEnd___spec__2___rarg___lambda__1(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CentroidHom_instIntCast___rarg___lambda__1(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CentroidHom_instIntCast(lean_object*);
+LEAN_EXPORT lean_object* l_AddMonoidHom_id___at_CentroidHom_instRing___spec__8___boxed(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_AddMonoidHom_comp___at_CentroidHom_instRing___spec__15___boxed(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CentroidHom_comp___at_CentroidHom_instRing___spec__14(lean_object*);
+LEAN_EXPORT lean_object* l_AddHomClass_toAddHom___at_CentroidHom_instAdd___spec__4___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_CentroidHom_id___at_CentroidHom_instRing___spec__7(lean_object*);
+LEAN_EXPORT lean_object* l_AddMonoidHom_id___at_CentroidHom_instRing___spec__6(lean_object*, lean_object*);
+lean_object* l_AddMonoid_toAddZeroClass___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_toEnd___spec__1___rarg___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_RingHom_toAddMonoidHom___at_CentroidHom_instDistribMulAction___spec__1___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_CentroidHom_centerIsoCentroid___rarg___lambda__1___boxed(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CentroidHom_applyModule___boxed(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CentroidHom_comp___rarg___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_AddMonoidHom_id___at_CentroidHom_instIntCast___spec__2___boxed(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_AddHomClass_toAddHom___at_CentroidHom_instNeg___spec__2___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_AddHomClass_toAddHom___at_CentroidHom_instSub___spec__4(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CentroidHom_id___at_CentroidHom_instIntCast___spec__1___rarg(lean_object*);
+static lean_object* l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__7;
+LEAN_EXPORT lean_object* l_CentroidHom_toEnd___at_CentroidHom_instRing___spec__1___rarg(lean_object*, lean_object*);
+static lean_object* l_CentroidHom_instAddCommGroup___rarg___closed__1;
+LEAN_EXPORT lean_object* l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______unexpand__AddMonoid__End__mulRight__1___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_toEnd___spec__1___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CentroidHom_instIntCast___rarg___lambda__1___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_AddMonoidHomClass_toAddMonoidHom___at_Module_toCentroidHom___spec__3___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_instRing___spec__2(lean_object*);
+LEAN_EXPORT lean_object* l_AddHomClass_toAddHom___at_CentroidHom_instModule___spec__3___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_instModule___spec__2___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_MulHom_comp___at_CentroidHom_centerToCentroid___spec__6___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CentroidHom_toEndRingHom(lean_object*);
+LEAN_EXPORT lean_object* l_AddHomClass_toAddHom___at_CentroidHom_instSub___spec__4___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_instDistribMulAction___spec__2(lean_object*);
+LEAN_EXPORT lean_object* l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_instNeg___spec__1___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_AddHomClass_toAddHom___at_Module_toCentroidHom___spec__4___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CentroidHom_instSemiring(lean_object*);
+LEAN_EXPORT lean_object* l_CentroidHom_copy(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_AddMonoidHom_id___at_CentroidHom_id___spec__1(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_NonUnitalSubsemiring_center___at_CentroidHom_centerToCentroid___spec__2(lean_object*);
+extern lean_object* l_Nat_instSemiring;
+LEAN_EXPORT lean_object* l_CentroidHom_instAdd___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_AddHomClass_toAddHom___at_CentroidHom_instRing___spec__18___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_CentroidHom_toEndRingHom___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_AddHomClass_toAddHom___at_CentroidHom_instAdd___spec__4(lean_object*, lean_object*, lean_object*);
+static lean_object* l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______macroRules__CentroidHom__termL__1___closed__6;
+lean_object* l_Lean_Syntax_node1(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_AddMonoidHomClass_toAddMonoidHom___at_Module_toCentroidHom___spec__3(lean_object*);
+static lean_object* l_CentroidHom_termR____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_6169____closed__10;
+static lean_object* l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__1;
+LEAN_EXPORT lean_object* l_AddHomClass_toAddHom___at_Module_toCentroidHom___spec__4(lean_object*, lean_object*, lean_object*);
+static lean_object* l_CentroidHom_instAddCommMonoid___rarg___closed__1;
+LEAN_EXPORT lean_object* l_CentroidHom_instOne(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_RingHom_toAddMonoidHom___at_CentroidHom_instDistribMulAction___spec__1___boxed(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_AddHomClass_toAddHom___at_CentroidHom_instIntCast___spec__4(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_Subsemiring_center___at_CentroidHom_centerToCentroid___spec__1___rarg___boxed(lean_object*);
+LEAN_EXPORT lean_object* l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_instSub___spec__1(lean_object*);
+LEAN_EXPORT lean_object* l_CentroidHom_instAdd(lean_object*);
+LEAN_EXPORT lean_object* l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_instRing___spec__17___rarg(lean_object*, lean_object*, lean_object*);
+static lean_object* l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__2;
+LEAN_EXPORT lean_object* l_AddMonoidHom_id___at_CentroidHom_instRing___spec__8___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_RingHom_toAddMonoidHom___at_CentroidHom_instModule___spec__1___rarg(lean_object*);
+static lean_object* l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_8118____closed__2;
+LEAN_EXPORT lean_object* l_CentroidHom_instAddCommGroup___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_AddHomClass_toAddHom___at_CentroidHom_instAddCommGroup___spec__3___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_AddHomClass_toAddHom___at_CentroidHom_instAdd___spec__2___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_NonUnitalSubsemiring_center___at_CentroidHom_centerToCentroidCenter___spec__2___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_CentroidHom_toEnd___rarg(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CentroidHom_toEnd___at_CentroidHom_instAddCommGroup___spec__1___rarg(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_AddHomClass_toAddHom___at_CentroidHom_instIntCast___spec__4___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______macroRules__CentroidHom__termR__1(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_instRing___spec__17___rarg___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_AddMonoidHom_id___at_CentroidHom_instRing___spec__11(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_instRing___spec__12(lean_object*);
+LEAN_EXPORT lean_object* l_RingHom_toAddMonoidHom___at_CentroidHom_instDistribMulAction___spec__1(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CentroidHom_instDistribMulAction___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+lean_object* l_Function_comp___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_NonUnitalSubsemiring_center___at_CentroidHom_centerToCentroidCenter___spec__2(lean_object*);
+LEAN_EXPORT lean_object* l_AddMonoidHom_id___at_CentroidHom_id___spec__1___rarg___boxed(lean_object*);
+LEAN_EXPORT lean_object* l_AddMonoidHom_id___at_CentroidHom_instRing___spec__11___rarg___boxed(lean_object*);
+LEAN_EXPORT lean_object* l_CentroidHom_hasNPowNat___rarg___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CentroidHom_instSub___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_instIntCast___spec__3(lean_object*);
+LEAN_EXPORT lean_object* l_AddHomClass_toAddHom___at_CentroidHom_instSub___spec__2(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_instModule___spec__2(lean_object*);
+LEAN_EXPORT lean_object* l_CentroidHom_id___at_CentroidHom_instRing___spec__5___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_instIntCast___spec__3___rarg___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CentroidHom_instSub(lean_object*);
+LEAN_EXPORT lean_object* l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______macroRules__CentroidHom__termL__1(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CentroidHom_comp___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CentroidHom_instFunLike(lean_object*, lean_object*);
+static lean_object* l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__5;
+LEAN_EXPORT lean_object* l_AddMonoidHom_id___at_CentroidHom_instRing___spec__6___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_CentroidHom_comp___at_CentroidHom_instRing___spec__14___rarg(lean_object*, lean_object*, lean_object*);
+static lean_object* l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______macroRules__CentroidHom__termL__1___closed__8;
+LEAN_EXPORT lean_object* l_CentroidHom_instZero___rarg___lambda__1___boxed(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_instAddCommGroup___spec__2___rarg___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_AddMonoidHom_comp___at_CentroidHom_instRing___spec__15___rarg(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CentroidHom_instInhabited(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CentroidHom_id___at_CentroidHom_instIntCast___spec__1(lean_object*);
+LEAN_EXPORT lean_object* l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_instSMul___spec__1___rarg___boxed(lean_object*, lean_object*, lean_object*);
+lean_object* l_AddMonoidHom_mulLeft___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_instSub___spec__3(lean_object*);
+LEAN_EXPORT lean_object* l_MonoidHom_smulOneHom___at_Module_toCentroidHom___spec__2___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_NonUnitalSubsemiring_center___at_CentroidHom_centerToCentroid___spec__2___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_RingHom_toAddMonoidHom___at_CentroidHom_instDistribMulAction___spec__1___rarg___boxed(lean_object*);
+LEAN_EXPORT lean_object* l_AddHomClass_toAddHom___at_CentroidHom_instAdd___spec__2(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CentroidHom_copy___rarg___boxed(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_instRing___spec__2___rarg(lean_object*, lean_object*, lean_object*);
+lean_object* l_NonUnitalNonAssocRing_toNonUnitalNonAssocSemiring___rarg(lean_object*);
+static lean_object* l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__3;
+static lean_object* l_CentroidHom_termR____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_6169____closed__1;
+LEAN_EXPORT lean_object* l_NonUnitalSubsemiring_center___at_CentroidHom_centerToCentroidCenter___spec__2___rarg___boxed(lean_object*);
+LEAN_EXPORT lean_object* l_CentroidHom_instModule___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_Subsemiring_center___at_CentroidHom_centerToCentroid___spec__1(lean_object*);
+LEAN_EXPORT lean_object* l_CentroidHom_centerToCentroidCenter___rarg(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CentroidHom_instFunLikeSubtypeMemSubsemiringCenter___rarg(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CentroidHom_toEnd(lean_object*);
+LEAN_EXPORT lean_object* l_SubsemiringClass_subtype___at_CentroidHom_centerToCentroid___spec__3(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_AddHomClass_toAddHom___at_CentroidHom_instRing___spec__18(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CentroidHom_centerIsoCentroid___rarg___lambda__1(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CentroidHom_instZero___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_instDistribMulAction___spec__2___rarg___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_AddHomClass_toAddHom___at_CentroidHom_instIntCast___spec__4___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_NonUnitalRingHom_comp___at_CentroidHom_centerToCentroid___spec__5___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CentroidHom_instSMul(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_AddMonoidHom_id___at_CentroidHom_instRing___spec__11___boxed(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CentroidHom_instSemiring___rarg___lambda__1___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_AddHomClass_toAddHom___at_CentroidHom_instDistribMulAction___spec__3___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CentroidHom_instFunLikeSubtypeMemSubsemiringCenter(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_instAddCommGroup___spec__2___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CentroidHom_centerToCentroid___rarg(lean_object*);
+lean_object* l_String_toSubstring_x27(lean_object*);
+static lean_object* l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__14;
+extern lean_object* l_Int_instSemiring;
+LEAN_EXPORT lean_object* l_CentroidHom_toEnd___at_CentroidHom_instRing___spec__16___rarg(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_instSub___spec__3___rarg___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_Int_cast___at_CentroidHom_instRing___spec__9___rarg___lambda__1(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+static lean_object* l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__18;
+static lean_object* l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______macroRules__CentroidHom__termL__1___closed__7;
+LEAN_EXPORT lean_object* l_CentroidHom_instOne___boxed(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CentroidHom_instNatCast___rarg(lean_object*, lean_object*);
+static lean_object* l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__19;
+LEAN_EXPORT lean_object* l_CentroidHom_id___at_CentroidHom_instRing___spec__10___rarg___boxed(lean_object*);
+LEAN_EXPORT lean_object* l_instCoeTCCentroidHomOfCentroidHomClass___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = lean_apply_1(x_1, x_3);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_instCoeTCCentroidHomOfCentroidHomClass(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = lean_alloc_closure((void*)(l_instCoeTCCentroidHomOfCentroidHomClass___rarg), 3, 0);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_instCoeTCCentroidHomOfCentroidHomClass___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_instCoeTCCentroidHomOfCentroidHomClass(x_1, x_2, x_3);
+lean_dec(x_3);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CentroidHom_instFunLike___rarg(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = lean_apply_1(x_1, x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CentroidHom_instFunLike(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = lean_alloc_closure((void*)(l_CentroidHom_instFunLike___rarg), 2, 0);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CentroidHom_instFunLike___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_CentroidHom_instFunLike(x_1, x_2);
+lean_dec(x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_AddHomClass_toAddHom___at_CentroidHom_toEnd___spec__2___rarg___lambda__1(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = lean_apply_1(x_1, x_2);
+return x_3;
+}
+}
+static lean_object* _init_l_AddHomClass_toAddHom___at_CentroidHom_toEnd___spec__2___rarg___closed__1() {
+_start:
+{
+lean_object* x_1; 
+x_1 = lean_alloc_closure((void*)(l_AddHomClass_toAddHom___at_CentroidHom_toEnd___spec__2___rarg___lambda__1), 2, 0);
+return x_1;
+}
+}
+LEAN_EXPORT lean_object* l_AddHomClass_toAddHom___at_CentroidHom_toEnd___spec__2___rarg(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; lean_object* x_3; 
+x_2 = l_AddHomClass_toAddHom___at_CentroidHom_toEnd___spec__2___rarg___closed__1;
+x_3 = lean_alloc_closure((void*)(l_AddHomClass_toAddHom___elambda__1___rarg), 3, 2);
+lean_closure_set(x_3, 0, x_1);
+lean_closure_set(x_3, 1, x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_AddHomClass_toAddHom___at_CentroidHom_toEnd___spec__2(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = lean_alloc_closure((void*)(l_AddHomClass_toAddHom___at_CentroidHom_toEnd___spec__2___rarg), 1, 0);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_toEnd___spec__1___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; 
+x_4 = lean_alloc_closure((void*)(l_AddHomClass_toAddHom___at_CentroidHom_toEnd___spec__2___rarg___lambda__1), 2, 0);
+x_5 = lean_alloc_closure((void*)(l_AddHomClass_toAddHom___elambda__1___rarg), 3, 2);
+lean_closure_set(x_5, 0, x_3);
+lean_closure_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_toEnd___spec__1(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_toEnd___spec__1___rarg___boxed), 3, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CentroidHom_toEnd___rarg(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; 
+x_3 = lean_alloc_closure((void*)(l_AddHomClass_toAddHom___at_CentroidHom_toEnd___spec__2___rarg___lambda__1), 2, 0);
+x_4 = lean_alloc_closure((void*)(l_AddHomClass_toAddHom___elambda__1___rarg), 3, 2);
+lean_closure_set(x_4, 0, x_2);
+lean_closure_set(x_4, 1, x_3);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CentroidHom_toEnd(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CentroidHom_toEnd___rarg___boxed), 2, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_AddHomClass_toAddHom___at_CentroidHom_toEnd___spec__2___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_AddHomClass_toAddHom___at_CentroidHom_toEnd___spec__2(x_1, x_2, x_3);
+lean_dec(x_2);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_toEnd___spec__1___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_toEnd___spec__1___rarg(x_1, x_2, x_3);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CentroidHom_toEnd___rarg___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_CentroidHom_toEnd___rarg(x_1, x_2);
+lean_dec(x_1);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CentroidHom_copy___rarg(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_inc(x_1);
+return x_1;
+}
+}
+LEAN_EXPORT lean_object* l_CentroidHom_copy(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = lean_alloc_closure((void*)(l_CentroidHom_copy___rarg___boxed), 2, 0);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CentroidHom_copy___rarg___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_CentroidHom_copy___rarg(x_1, x_2);
+lean_dec(x_1);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CentroidHom_copy___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CentroidHom_copy(x_1, x_2, x_3);
+lean_dec(x_3);
+lean_dec(x_2);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_AddMonoidHom_id___at_CentroidHom_id___spec__1___rarg(lean_object* x_1) {
+_start:
+{
+lean_inc(x_1);
+return x_1;
+}
+}
+LEAN_EXPORT lean_object* l_AddMonoidHom_id___at_CentroidHom_id___spec__1(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = lean_alloc_closure((void*)(l_AddMonoidHom_id___at_CentroidHom_id___spec__1___rarg___boxed), 1, 0);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CentroidHom_id___rarg(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_AddMonoidHom_id___at_CentroidHom_id___spec__1___rarg___boxed), 1, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CentroidHom_id(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CentroidHom_id___rarg___boxed), 1, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_AddMonoidHom_id___at_CentroidHom_id___spec__1___rarg___boxed(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = l_AddMonoidHom_id___at_CentroidHom_id___spec__1___rarg(x_1);
+lean_dec(x_1);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_AddMonoidHom_id___at_CentroidHom_id___spec__1___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_AddMonoidHom_id___at_CentroidHom_id___spec__1(x_1, x_2);
+lean_dec(x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CentroidHom_id___rarg___boxed(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = l_CentroidHom_id___rarg(x_1);
+lean_dec(x_1);
+return x_2;
+}
+}
+static lean_object* _init_l_CentroidHom_instInhabited___closed__1() {
+_start:
+{
+lean_object* x_1; 
+x_1 = lean_alloc_closure((void*)(l_AddMonoidHom_id___at_CentroidHom_id___spec__1___rarg___boxed), 1, 0);
+return x_1;
+}
+}
+LEAN_EXPORT lean_object* l_CentroidHom_instInhabited(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_CentroidHom_instInhabited___closed__1;
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CentroidHom_instInhabited___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_CentroidHom_instInhabited(x_1, x_2);
+lean_dec(x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_AddMonoidHom_comp___at_CentroidHom_comp___spec__1___rarg(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+x_3 = lean_alloc_closure((void*)(l_AddMonoidHom_instFunLike___elambda__1___rarg), 2, 1);
+lean_closure_set(x_3, 0, x_1);
+x_4 = lean_alloc_closure((void*)(l_AddMonoidHom_instFunLike___elambda__1___rarg), 2, 1);
+lean_closure_set(x_4, 0, x_2);
+x_5 = lean_alloc_closure((void*)(l_Function_comp___rarg), 3, 2);
+lean_closure_set(x_5, 0, x_3);
+lean_closure_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_AddMonoidHom_comp___at_CentroidHom_comp___spec__1(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = lean_alloc_closure((void*)(l_AddMonoidHom_comp___at_CentroidHom_comp___spec__1___rarg), 2, 0);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CentroidHom_comp___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_AddMonoidHom_comp___at_CentroidHom_comp___spec__1___rarg(x_2, x_3);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CentroidHom_comp(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CentroidHom_comp___rarg___boxed), 3, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_AddMonoidHom_comp___at_CentroidHom_comp___spec__1___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_AddMonoidHom_comp___at_CentroidHom_comp___spec__1(x_1, x_2);
+lean_dec(x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CentroidHom_comp___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CentroidHom_comp___rarg(x_1, x_2, x_3);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CentroidHom_instZero___rarg___lambda__1(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_inc(x_1);
+return x_1;
+}
+}
+LEAN_EXPORT lean_object* l_CentroidHom_instZero___rarg(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; lean_object* x_3; lean_object* x_4; 
+x_2 = lean_ctor_get(x_1, 0);
+lean_inc(x_2);
+lean_dec(x_1);
+x_3 = lean_ctor_get(x_2, 1);
+lean_inc(x_3);
+lean_dec(x_2);
+x_4 = lean_alloc_closure((void*)(l_CentroidHom_instZero___rarg___lambda__1___boxed), 2, 1);
+lean_closure_set(x_4, 0, x_3);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CentroidHom_instZero(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CentroidHom_instZero___rarg), 1, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CentroidHom_instZero___rarg___lambda__1___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_CentroidHom_instZero___rarg___lambda__1(x_1, x_2);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CentroidHom_instOne(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_CentroidHom_instInhabited___closed__1;
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CentroidHom_instOne___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_CentroidHom_instOne(x_1, x_2);
+lean_dec(x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_AddHomClass_toAddHom___at_CentroidHom_instAdd___spec__2___rarg(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; lean_object* x_3; 
+x_2 = l_AddHomClass_toAddHom___at_CentroidHom_toEnd___spec__2___rarg___closed__1;
+x_3 = lean_alloc_closure((void*)(l_AddHomClass_toAddHom___elambda__1___rarg), 3, 2);
+lean_closure_set(x_3, 0, x_1);
+lean_closure_set(x_3, 1, x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_AddHomClass_toAddHom___at_CentroidHom_instAdd___spec__2(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = lean_alloc_closure((void*)(l_AddHomClass_toAddHom___at_CentroidHom_instAdd___spec__2___rarg), 1, 0);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_instAdd___spec__1___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; 
+x_4 = lean_alloc_closure((void*)(l_AddHomClass_toAddHom___at_CentroidHom_toEnd___spec__2___rarg___lambda__1), 2, 0);
+x_5 = lean_alloc_closure((void*)(l_AddHomClass_toAddHom___elambda__1___rarg), 3, 2);
+lean_closure_set(x_5, 0, x_3);
+lean_closure_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_instAdd___spec__1(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_instAdd___spec__1___rarg___boxed), 3, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_AddHomClass_toAddHom___at_CentroidHom_instAdd___spec__4___rarg(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; lean_object* x_3; 
+x_2 = l_AddHomClass_toAddHom___at_CentroidHom_toEnd___spec__2___rarg___closed__1;
+x_3 = lean_alloc_closure((void*)(l_AddHomClass_toAddHom___elambda__1___rarg), 3, 2);
+lean_closure_set(x_3, 0, x_1);
+lean_closure_set(x_3, 1, x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_AddHomClass_toAddHom___at_CentroidHom_instAdd___spec__4(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = lean_alloc_closure((void*)(l_AddHomClass_toAddHom___at_CentroidHom_instAdd___spec__4___rarg), 1, 0);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_instAdd___spec__3___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; 
+x_4 = lean_alloc_closure((void*)(l_AddHomClass_toAddHom___at_CentroidHom_toEnd___spec__2___rarg___lambda__1), 2, 0);
+x_5 = lean_alloc_closure((void*)(l_AddHomClass_toAddHom___elambda__1___rarg), 3, 2);
+lean_closure_set(x_5, 0, x_3);
+lean_closure_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_instAdd___spec__3(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_instAdd___spec__3___rarg___boxed), 3, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CentroidHom_instAdd___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; lean_object* x_6; lean_object* x_7; lean_object* x_8; 
+x_4 = lean_ctor_get(x_1, 0);
+x_5 = lean_alloc_closure((void*)(l_AddHomClass_toAddHom___at_CentroidHom_toEnd___spec__2___rarg___lambda__1), 2, 0);
+lean_inc(x_5);
+x_6 = lean_alloc_closure((void*)(l_AddHomClass_toAddHom___elambda__1___rarg), 3, 2);
+lean_closure_set(x_6, 0, x_2);
+lean_closure_set(x_6, 1, x_5);
+x_7 = lean_alloc_closure((void*)(l_AddHomClass_toAddHom___elambda__1___rarg), 3, 2);
+lean_closure_set(x_7, 0, x_3);
+lean_closure_set(x_7, 1, x_5);
+x_8 = l_AddMonoidHom_add___elambda__1___rarg(x_4, x_6, x_7);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CentroidHom_instAdd(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CentroidHom_instAdd___rarg___boxed), 3, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_AddHomClass_toAddHom___at_CentroidHom_instAdd___spec__2___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_AddHomClass_toAddHom___at_CentroidHom_instAdd___spec__2(x_1, x_2, x_3);
+lean_dec(x_2);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_instAdd___spec__1___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_instAdd___spec__1___rarg(x_1, x_2, x_3);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_AddHomClass_toAddHom___at_CentroidHom_instAdd___spec__4___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_AddHomClass_toAddHom___at_CentroidHom_instAdd___spec__4(x_1, x_2, x_3);
+lean_dec(x_2);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_instAdd___spec__3___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_instAdd___spec__3___rarg(x_1, x_2, x_3);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CentroidHom_instAdd___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CentroidHom_instAdd___rarg(x_1, x_2, x_3);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CentroidHom_instMul___rarg(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CentroidHom_comp___rarg___boxed), 3, 1);
+lean_closure_set(x_2, 0, x_1);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CentroidHom_instMul(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CentroidHom_instMul___rarg), 1, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_AddHomClass_toAddHom___at_CentroidHom_instSMul___spec__2___rarg(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; lean_object* x_3; 
+x_2 = l_AddHomClass_toAddHom___at_CentroidHom_toEnd___spec__2___rarg___closed__1;
+x_3 = lean_alloc_closure((void*)(l_AddHomClass_toAddHom___elambda__1___rarg), 3, 2);
+lean_closure_set(x_3, 0, x_1);
+lean_closure_set(x_3, 1, x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_AddHomClass_toAddHom___at_CentroidHom_instSMul___spec__2(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = lean_alloc_closure((void*)(l_AddHomClass_toAddHom___at_CentroidHom_instSMul___spec__2___rarg), 1, 0);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_instSMul___spec__1___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; 
+x_4 = lean_alloc_closure((void*)(l_AddHomClass_toAddHom___at_CentroidHom_toEnd___spec__2___rarg___lambda__1), 2, 0);
+x_5 = lean_alloc_closure((void*)(l_AddHomClass_toAddHom___elambda__1___rarg), 3, 2);
+lean_closure_set(x_5, 0, x_3);
+lean_closure_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_instSMul___spec__1(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_instSMul___spec__1___rarg___boxed), 3, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CentroidHom_instSMul___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8) {
+_start:
+{
+lean_object* x_9; lean_object* x_10; 
+x_9 = lean_apply_1(x_7, x_8);
+x_10 = lean_apply_2(x_3, x_6, x_9);
+return x_10;
+}
+}
+LEAN_EXPORT lean_object* l_CentroidHom_instSMul(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = lean_alloc_closure((void*)(l_CentroidHom_instSMul___rarg___boxed), 8, 0);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_AddHomClass_toAddHom___at_CentroidHom_instSMul___spec__2___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_AddHomClass_toAddHom___at_CentroidHom_instSMul___spec__2(x_1, x_2, x_3);
+lean_dec(x_2);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_instSMul___spec__1___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_instSMul___spec__1___rarg(x_1, x_2, x_3);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CentroidHom_instSMul___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8) {
+_start:
+{
+lean_object* x_9; 
+x_9 = l_CentroidHom_instSMul___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_9;
+}
+}
+LEAN_EXPORT lean_object* l_CentroidHom_hasNPowNat___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; lean_object* x_6; lean_object* x_7; lean_object* x_8; 
+x_4 = lean_ctor_get(x_1, 0);
+x_5 = l_AddMonoid_toAddZeroClass___rarg(x_4);
+x_6 = l_AddHomClass_toAddHom___at_CentroidHom_toEnd___spec__2___rarg___closed__1;
+x_7 = lean_alloc_closure((void*)(l_AddHomClass_toAddHom___elambda__1___rarg), 3, 2);
+lean_closure_set(x_7, 0, x_2);
+lean_closure_set(x_7, 1, x_6);
+x_8 = l_AddMonoid_End_instMonoid___elambda__1___rarg(x_5, x_3, x_7);
+lean_dec(x_5);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CentroidHom_hasNPowNat(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CentroidHom_hasNPowNat___rarg___boxed), 3, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CentroidHom_hasNPowNat___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CentroidHom_hasNPowNat___rarg(x_1, x_2, x_3);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_AddHomClass_toAddHom___at_CentroidHom_instAddCommMonoid___spec__2___rarg(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; lean_object* x_3; 
+x_2 = l_AddHomClass_toAddHom___at_CentroidHom_toEnd___spec__2___rarg___closed__1;
+x_3 = lean_alloc_closure((void*)(l_AddHomClass_toAddHom___elambda__1___rarg), 3, 2);
+lean_closure_set(x_3, 0, x_1);
+lean_closure_set(x_3, 1, x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_AddHomClass_toAddHom___at_CentroidHom_instAddCommMonoid___spec__2(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = lean_alloc_closure((void*)(l_AddHomClass_toAddHom___at_CentroidHom_instAddCommMonoid___spec__2___rarg), 1, 0);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_instAddCommMonoid___spec__1___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; 
+x_4 = lean_alloc_closure((void*)(l_AddHomClass_toAddHom___at_CentroidHom_toEnd___spec__2___rarg___lambda__1), 2, 0);
+x_5 = lean_alloc_closure((void*)(l_AddHomClass_toAddHom___elambda__1___rarg), 3, 2);
+lean_closure_set(x_5, 0, x_3);
+lean_closure_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_instAddCommMonoid___spec__1(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_instAddCommMonoid___spec__1___rarg___boxed), 3, 0);
+return x_2;
+}
+}
+static lean_object* _init_l_CentroidHom_instAddCommMonoid___rarg___closed__1() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; 
+x_1 = l_Nat_instSemiring;
+x_2 = l_Semiring_toMonoidWithZero___rarg(x_1);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CentroidHom_instAddCommMonoid___rarg(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; lean_object* x_3; lean_object* x_4; lean_object* x_5; lean_object* x_6; lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; 
+lean_inc(x_1);
+x_2 = lean_alloc_closure((void*)(l_CentroidHom_instAdd___rarg___boxed), 3, 1);
+lean_closure_set(x_2, 0, x_1);
+lean_inc(x_1);
+x_3 = l_CentroidHom_instZero___rarg(x_1);
+x_4 = l_CentroidHom_instAddCommMonoid___rarg___closed__1;
+x_5 = lean_ctor_get(x_4, 0);
+lean_inc(x_5);
+x_6 = lean_ctor_get(x_1, 0);
+lean_inc(x_6);
+x_7 = lean_ctor_get(x_6, 2);
+lean_inc(x_7);
+lean_dec(x_6);
+x_8 = lean_alloc_closure((void*)(l_CentroidHom_instSMul___rarg___boxed), 8, 5);
+lean_closure_set(x_8, 0, x_1);
+lean_closure_set(x_8, 1, x_5);
+lean_closure_set(x_8, 2, x_7);
+lean_closure_set(x_8, 3, lean_box(0));
+lean_closure_set(x_8, 4, lean_box(0));
+x_9 = lean_alloc_closure((void*)(l_Function_Injective_addMonoid___elambda__1___rarg), 3, 1);
+lean_closure_set(x_9, 0, x_8);
+x_10 = lean_alloc_ctor(0, 3, 0);
+lean_ctor_set(x_10, 0, x_2);
+lean_ctor_set(x_10, 1, x_3);
+lean_ctor_set(x_10, 2, x_9);
+return x_10;
+}
+}
+LEAN_EXPORT lean_object* l_CentroidHom_instAddCommMonoid(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CentroidHom_instAddCommMonoid___rarg), 1, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_AddHomClass_toAddHom___at_CentroidHom_instAddCommMonoid___spec__2___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_AddHomClass_toAddHom___at_CentroidHom_instAddCommMonoid___spec__2(x_1, x_2, x_3);
+lean_dec(x_2);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_instAddCommMonoid___spec__1___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_instAddCommMonoid___spec__1___rarg(x_1, x_2, x_3);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CentroidHom_instNatCast___rarg(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; lean_object* x_6; lean_object* x_7; lean_object* x_8; 
+x_3 = l_CentroidHom_instAddCommMonoid___rarg___closed__1;
+x_4 = lean_ctor_get(x_3, 0);
+lean_inc(x_4);
+x_5 = lean_ctor_get(x_1, 0);
+lean_inc(x_5);
+x_6 = lean_ctor_get(x_5, 2);
+lean_inc(x_6);
+lean_dec(x_5);
+x_7 = l_CentroidHom_instInhabited___closed__1;
+x_8 = lean_alloc_closure((void*)(l_CentroidHom_instSMul___rarg___boxed), 8, 7);
+lean_closure_set(x_8, 0, x_1);
+lean_closure_set(x_8, 1, x_4);
+lean_closure_set(x_8, 2, x_6);
+lean_closure_set(x_8, 3, lean_box(0));
+lean_closure_set(x_8, 4, lean_box(0));
+lean_closure_set(x_8, 5, x_2);
+lean_closure_set(x_8, 6, x_7);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CentroidHom_instNatCast(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CentroidHom_instNatCast___rarg), 2, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_Nat_cast___at_CentroidHom_instSemiring___spec__1___rarg(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; lean_object* x_6; lean_object* x_7; lean_object* x_8; 
+x_3 = l_CentroidHom_instAddCommMonoid___rarg___closed__1;
+x_4 = lean_ctor_get(x_3, 0);
+lean_inc(x_4);
+x_5 = lean_ctor_get(x_1, 0);
+lean_inc(x_5);
+x_6 = lean_ctor_get(x_5, 2);
+lean_inc(x_6);
+lean_dec(x_5);
+x_7 = l_CentroidHom_instInhabited___closed__1;
+x_8 = lean_alloc_closure((void*)(l_CentroidHom_instSMul___rarg___boxed), 8, 7);
+lean_closure_set(x_8, 0, x_1);
+lean_closure_set(x_8, 1, x_4);
+lean_closure_set(x_8, 2, x_6);
+lean_closure_set(x_8, 3, lean_box(0));
+lean_closure_set(x_8, 4, lean_box(0));
+lean_closure_set(x_8, 5, x_2);
+lean_closure_set(x_8, 6, x_7);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_Nat_cast___at_CentroidHom_instSemiring___spec__1(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_Nat_cast___at_CentroidHom_instSemiring___spec__1___rarg), 2, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CentroidHom_instSemiring___rarg___lambda__1(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; lean_object* x_6; 
+x_4 = l_AddHomClass_toAddHom___at_CentroidHom_toEnd___spec__2___rarg___closed__1;
+x_5 = lean_alloc_closure((void*)(l_AddHomClass_toAddHom___elambda__1___rarg), 3, 2);
+lean_closure_set(x_5, 0, x_3);
+lean_closure_set(x_5, 1, x_4);
+x_6 = l_AddMonoid_End_instMonoid___elambda__1___rarg(x_1, x_2, x_5);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CentroidHom_instSemiring___rarg(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; lean_object* x_3; lean_object* x_4; lean_object* x_5; lean_object* x_6; lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; lean_object* x_11; lean_object* x_12; lean_object* x_13; lean_object* x_14; lean_object* x_15; 
+lean_inc(x_1);
+x_2 = lean_alloc_closure((void*)(l_CentroidHom_instAdd___rarg___boxed), 3, 1);
+lean_closure_set(x_2, 0, x_1);
+lean_inc(x_1);
+x_3 = lean_alloc_closure((void*)(l_CentroidHom_comp___rarg___boxed), 3, 1);
+lean_closure_set(x_3, 0, x_1);
+lean_inc(x_1);
+x_4 = l_CentroidHom_instZero___rarg(x_1);
+lean_inc(x_1);
+x_5 = l_CentroidHom_instAddCommMonoid___rarg(x_1);
+x_6 = lean_ctor_get(x_5, 2);
+lean_inc(x_6);
+lean_dec(x_5);
+x_7 = lean_ctor_get(x_1, 0);
+lean_inc(x_7);
+x_8 = l_CentroidHom_instInhabited___closed__1;
+x_9 = lean_alloc_closure((void*)(l_Function_Injective_addMonoid___elambda__1___rarg), 3, 1);
+lean_closure_set(x_9, 0, x_6);
+x_10 = lean_alloc_closure((void*)(l_Nat_cast___at_CentroidHom_instSemiring___spec__1___rarg), 2, 1);
+lean_closure_set(x_10, 0, x_1);
+x_11 = l_AddMonoid_toAddZeroClass___rarg(x_7);
+lean_dec(x_7);
+x_12 = lean_alloc_closure((void*)(l_CentroidHom_instSemiring___rarg___lambda__1___boxed), 3, 1);
+lean_closure_set(x_12, 0, x_11);
+x_13 = lean_alloc_ctor(0, 3, 0);
+lean_ctor_set(x_13, 0, x_2);
+lean_ctor_set(x_13, 1, x_4);
+lean_ctor_set(x_13, 2, x_9);
+x_14 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_14, 0, x_13);
+lean_ctor_set(x_14, 1, x_3);
+x_15 = lean_alloc_ctor(0, 4, 0);
+lean_ctor_set(x_15, 0, x_14);
+lean_ctor_set(x_15, 1, x_8);
+lean_ctor_set(x_15, 2, x_10);
+lean_ctor_set(x_15, 3, x_12);
+return x_15;
+}
+}
+LEAN_EXPORT lean_object* l_CentroidHom_instSemiring(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CentroidHom_instSemiring___rarg), 1, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CentroidHom_instSemiring___rarg___lambda__1___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CentroidHom_instSemiring___rarg___lambda__1(x_1, x_2, x_3);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CentroidHom_toEndRingHom___rarg(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CentroidHom_toEnd___rarg___boxed), 2, 1);
+lean_closure_set(x_2, 0, x_1);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CentroidHom_toEndRingHom(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CentroidHom_toEndRingHom___rarg), 1, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_RingHom_toAddMonoidHom___at_CentroidHom_instDistribMulAction___spec__1___rarg(lean_object* x_1) {
+_start:
+{
+lean_inc(x_1);
+return x_1;
+}
+}
+LEAN_EXPORT lean_object* l_RingHom_toAddMonoidHom___at_CentroidHom_instDistribMulAction___spec__1(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = lean_alloc_closure((void*)(l_RingHom_toAddMonoidHom___at_CentroidHom_instDistribMulAction___spec__1___rarg___boxed), 1, 0);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_AddHomClass_toAddHom___at_CentroidHom_instDistribMulAction___spec__3___rarg(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; lean_object* x_3; 
+x_2 = l_AddHomClass_toAddHom___at_CentroidHom_toEnd___spec__2___rarg___closed__1;
+x_3 = lean_alloc_closure((void*)(l_AddHomClass_toAddHom___elambda__1___rarg), 3, 2);
+lean_closure_set(x_3, 0, x_1);
+lean_closure_set(x_3, 1, x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_AddHomClass_toAddHom___at_CentroidHom_instDistribMulAction___spec__3(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = lean_alloc_closure((void*)(l_AddHomClass_toAddHom___at_CentroidHom_instDistribMulAction___spec__3___rarg), 1, 0);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_instDistribMulAction___spec__2___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; 
+x_4 = lean_alloc_closure((void*)(l_AddHomClass_toAddHom___at_CentroidHom_toEnd___spec__2___rarg___lambda__1), 2, 0);
+x_5 = lean_alloc_closure((void*)(l_AddHomClass_toAddHom___elambda__1___rarg), 3, 2);
+lean_closure_set(x_5, 0, x_3);
+lean_closure_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_instDistribMulAction___spec__2(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_instDistribMulAction___spec__2___rarg___boxed), 3, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CentroidHom_instDistribMulAction___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8) {
+_start:
+{
+lean_object* x_9; lean_object* x_10; 
+x_9 = lean_apply_1(x_7, x_8);
+x_10 = lean_apply_2(x_3, x_6, x_9);
+return x_10;
+}
+}
+LEAN_EXPORT lean_object* l_CentroidHom_instDistribMulAction(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = lean_alloc_closure((void*)(l_CentroidHom_instDistribMulAction___rarg___boxed), 8, 0);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_RingHom_toAddMonoidHom___at_CentroidHom_instDistribMulAction___spec__1___rarg___boxed(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = l_RingHom_toAddMonoidHom___at_CentroidHom_instDistribMulAction___spec__1___rarg(x_1);
+lean_dec(x_1);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_RingHom_toAddMonoidHom___at_CentroidHom_instDistribMulAction___spec__1___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_RingHom_toAddMonoidHom___at_CentroidHom_instDistribMulAction___spec__1(x_1, x_2);
+lean_dec(x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_AddHomClass_toAddHom___at_CentroidHom_instDistribMulAction___spec__3___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_AddHomClass_toAddHom___at_CentroidHom_instDistribMulAction___spec__3(x_1, x_2, x_3);
+lean_dec(x_2);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_instDistribMulAction___spec__2___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_instDistribMulAction___spec__2___rarg(x_1, x_2, x_3);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CentroidHom_instDistribMulAction___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8) {
+_start:
+{
+lean_object* x_9; 
+x_9 = l_CentroidHom_instDistribMulAction___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_9;
+}
+}
+LEAN_EXPORT lean_object* l_RingHom_toAddMonoidHom___at_CentroidHom_instModule___spec__1___rarg(lean_object* x_1) {
+_start:
+{
+lean_inc(x_1);
+return x_1;
+}
+}
+LEAN_EXPORT lean_object* l_RingHom_toAddMonoidHom___at_CentroidHom_instModule___spec__1(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = lean_alloc_closure((void*)(l_RingHom_toAddMonoidHom___at_CentroidHom_instModule___spec__1___rarg___boxed), 1, 0);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_AddHomClass_toAddHom___at_CentroidHom_instModule___spec__3___rarg(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; lean_object* x_3; 
+x_2 = l_AddHomClass_toAddHom___at_CentroidHom_toEnd___spec__2___rarg___closed__1;
+x_3 = lean_alloc_closure((void*)(l_AddHomClass_toAddHom___elambda__1___rarg), 3, 2);
+lean_closure_set(x_3, 0, x_1);
+lean_closure_set(x_3, 1, x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_AddHomClass_toAddHom___at_CentroidHom_instModule___spec__3(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = lean_alloc_closure((void*)(l_AddHomClass_toAddHom___at_CentroidHom_instModule___spec__3___rarg), 1, 0);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_instModule___spec__2___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; 
+x_4 = lean_alloc_closure((void*)(l_AddHomClass_toAddHom___at_CentroidHom_toEnd___spec__2___rarg___lambda__1), 2, 0);
+x_5 = lean_alloc_closure((void*)(l_AddHomClass_toAddHom___elambda__1___rarg), 3, 2);
+lean_closure_set(x_5, 0, x_3);
+lean_closure_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_instModule___spec__2(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_instModule___spec__2___rarg___boxed), 3, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CentroidHom_instModule___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8) {
+_start:
+{
+lean_object* x_9; lean_object* x_10; 
+x_9 = lean_apply_1(x_7, x_8);
+x_10 = lean_apply_2(x_3, x_6, x_9);
+return x_10;
+}
+}
+LEAN_EXPORT lean_object* l_CentroidHom_instModule(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = lean_alloc_closure((void*)(l_CentroidHom_instModule___rarg___boxed), 8, 0);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_RingHom_toAddMonoidHom___at_CentroidHom_instModule___spec__1___rarg___boxed(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = l_RingHom_toAddMonoidHom___at_CentroidHom_instModule___spec__1___rarg(x_1);
+lean_dec(x_1);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_RingHom_toAddMonoidHom___at_CentroidHom_instModule___spec__1___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_RingHom_toAddMonoidHom___at_CentroidHom_instModule___spec__1(x_1, x_2);
+lean_dec(x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_AddHomClass_toAddHom___at_CentroidHom_instModule___spec__3___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_AddHomClass_toAddHom___at_CentroidHom_instModule___spec__3(x_1, x_2, x_3);
+lean_dec(x_2);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_instModule___spec__2___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_instModule___spec__2___rarg(x_1, x_2, x_3);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CentroidHom_instModule___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8) {
+_start:
+{
+lean_object* x_9; 
+x_9 = l_CentroidHom_instModule___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_9;
+}
+}
+LEAN_EXPORT lean_object* l_CentroidHom_applyModule___rarg(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = lean_apply_1(x_1, x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CentroidHom_applyModule(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = lean_alloc_closure((void*)(l_CentroidHom_applyModule___rarg), 2, 0);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CentroidHom_applyModule___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_CentroidHom_applyModule(x_1, x_2);
+lean_dec(x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_AddHomClass_toAddHom___at_Module_toCentroidHom___spec__4___rarg(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; lean_object* x_3; 
+x_2 = l_AddHomClass_toAddHom___at_CentroidHom_toEnd___spec__2___rarg___closed__1;
+x_3 = lean_alloc_closure((void*)(l_AddHomClass_toAddHom___elambda__1___rarg), 3, 2);
+lean_closure_set(x_3, 0, x_1);
+lean_closure_set(x_3, 1, x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_AddHomClass_toAddHom___at_Module_toCentroidHom___spec__4(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = lean_alloc_closure((void*)(l_AddHomClass_toAddHom___at_Module_toCentroidHom___spec__4___rarg), 1, 0);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_AddMonoidHomClass_toAddMonoidHom___at_Module_toCentroidHom___spec__3___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; 
+x_4 = lean_alloc_closure((void*)(l_AddHomClass_toAddHom___at_CentroidHom_toEnd___spec__2___rarg___lambda__1), 2, 0);
+x_5 = lean_alloc_closure((void*)(l_AddHomClass_toAddHom___elambda__1___rarg), 3, 2);
+lean_closure_set(x_5, 0, x_3);
+lean_closure_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_AddMonoidHomClass_toAddMonoidHom___at_Module_toCentroidHom___spec__3(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_AddMonoidHomClass_toAddMonoidHom___at_Module_toCentroidHom___spec__3___rarg___boxed), 3, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_MonoidHom_smulOneHom___at_Module_toCentroidHom___spec__2___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8, lean_object* x_9) {
+_start:
+{
+lean_object* x_10; lean_object* x_11; lean_object* x_12; 
+x_10 = l_CentroidHom_instInhabited___closed__1;
+x_11 = lean_apply_1(x_10, x_9);
+x_12 = lean_apply_2(x_4, x_8, x_11);
+return x_12;
+}
+}
+LEAN_EXPORT lean_object* l_MonoidHom_smulOneHom___at_Module_toCentroidHom___spec__2(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_MonoidHom_smulOneHom___at_Module_toCentroidHom___spec__2___rarg___boxed), 9, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_RingHom_smulOneHom___at_Module_toCentroidHom___spec__1___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; 
+x_8 = lean_alloc_closure((void*)(l_MonoidHom_smulOneHom___at_Module_toCentroidHom___spec__2___rarg___boxed), 9, 7);
+lean_closure_set(x_8, 0, x_1);
+lean_closure_set(x_8, 1, lean_box(0));
+lean_closure_set(x_8, 2, x_3);
+lean_closure_set(x_8, 3, x_4);
+lean_closure_set(x_8, 4, lean_box(0));
+lean_closure_set(x_8, 5, lean_box(0));
+lean_closure_set(x_8, 6, lean_box(0));
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_RingHom_smulOneHom___at_Module_toCentroidHom___spec__1(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_RingHom_smulOneHom___at_Module_toCentroidHom___spec__1___rarg), 7, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_Module_toCentroidHom___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = lean_alloc_closure((void*)(l_MonoidHom_smulOneHom___at_Module_toCentroidHom___spec__2___rarg___boxed), 9, 7);
+lean_closure_set(x_7, 0, x_1);
+lean_closure_set(x_7, 1, lean_box(0));
+lean_closure_set(x_7, 2, x_3);
+lean_closure_set(x_7, 3, x_4);
+lean_closure_set(x_7, 4, lean_box(0));
+lean_closure_set(x_7, 5, lean_box(0));
+lean_closure_set(x_7, 6, lean_box(0));
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_Module_toCentroidHom(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_Module_toCentroidHom___rarg), 6, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_AddHomClass_toAddHom___at_Module_toCentroidHom___spec__4___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_AddHomClass_toAddHom___at_Module_toCentroidHom___spec__4(x_1, x_2, x_3);
+lean_dec(x_2);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_AddMonoidHomClass_toAddMonoidHom___at_Module_toCentroidHom___spec__3___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_AddMonoidHomClass_toAddMonoidHom___at_Module_toCentroidHom___spec__3___rarg(x_1, x_2, x_3);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_MonoidHom_smulOneHom___at_Module_toCentroidHom___spec__2___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8, lean_object* x_9) {
+_start:
+{
+lean_object* x_10; 
+x_10 = l_MonoidHom_smulOneHom___at_Module_toCentroidHom___spec__2___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8, x_9);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_10;
+}
+}
+static lean_object* _init_l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__1() {
+_start:
+{
+lean_object* x_1; 
+x_1 = lean_mk_string_unchecked("CentroidHom", 11, 11);
+return x_1;
+}
+}
+static lean_object* _init_l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__2() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; lean_object* x_3; 
+x_1 = lean_box(0);
+x_2 = l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__1;
+x_3 = l_Lean_Name_str___override(x_1, x_2);
+return x_3;
+}
+}
+static lean_object* _init_l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__3() {
+_start:
+{
+lean_object* x_1; 
+x_1 = lean_mk_string_unchecked("termL", 5, 5);
+return x_1;
+}
+}
+static lean_object* _init_l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__4() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; lean_object* x_3; 
+x_1 = l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__2;
+x_2 = l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__3;
+x_3 = l_Lean_Name_str___override(x_1, x_2);
+return x_3;
+}
+}
+static lean_object* _init_l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__5() {
+_start:
+{
+lean_object* x_1; 
+x_1 = lean_mk_string_unchecked("_@", 2, 2);
+return x_1;
+}
+}
+static lean_object* _init_l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__6() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; lean_object* x_3; 
+x_1 = l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__4;
+x_2 = l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__5;
+x_3 = l_Lean_Name_str___override(x_1, x_2);
+return x_3;
+}
+}
+static lean_object* _init_l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__7() {
+_start:
+{
+lean_object* x_1; 
+x_1 = lean_mk_string_unchecked("Mathlib", 7, 7);
+return x_1;
+}
+}
+static lean_object* _init_l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__8() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; lean_object* x_3; 
+x_1 = l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__6;
+x_2 = l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__7;
+x_3 = l_Lean_Name_str___override(x_1, x_2);
+return x_3;
+}
+}
+static lean_object* _init_l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__9() {
+_start:
+{
+lean_object* x_1; 
+x_1 = lean_mk_string_unchecked("Algebra", 7, 7);
+return x_1;
+}
+}
+static lean_object* _init_l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__10() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; lean_object* x_3; 
+x_1 = l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__8;
+x_2 = l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__9;
+x_3 = l_Lean_Name_str___override(x_1, x_2);
+return x_3;
+}
+}
+static lean_object* _init_l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__11() {
+_start:
+{
+lean_object* x_1; 
+x_1 = lean_mk_string_unchecked("Ring", 4, 4);
+return x_1;
+}
+}
+static lean_object* _init_l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__12() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; lean_object* x_3; 
+x_1 = l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__10;
+x_2 = l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__11;
+x_3 = l_Lean_Name_str___override(x_1, x_2);
+return x_3;
+}
+}
+static lean_object* _init_l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__13() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; lean_object* x_3; 
+x_1 = l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__12;
+x_2 = l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__1;
+x_3 = l_Lean_Name_str___override(x_1, x_2);
+return x_3;
+}
+}
+static lean_object* _init_l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__14() {
+_start:
+{
+lean_object* x_1; 
+x_1 = lean_mk_string_unchecked("_hyg", 4, 4);
+return x_1;
+}
+}
+static lean_object* _init_l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__15() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; lean_object* x_3; 
+x_1 = l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__13;
+x_2 = l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__14;
+x_3 = l_Lean_Name_str___override(x_1, x_2);
+return x_3;
+}
+}
+static lean_object* _init_l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__16() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; lean_object* x_3; 
+x_1 = l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__15;
+x_2 = lean_unsigned_to_nat(5609u);
+x_3 = l_Lean_Name_num___override(x_1, x_2);
+return x_3;
+}
+}
+static lean_object* _init_l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__17() {
+_start:
+{
+lean_object* x_1; 
+x_1 = lean_mk_string_unchecked("L", 1, 1);
+return x_1;
+}
+}
+static lean_object* _init_l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__18() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; 
+x_1 = l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__17;
+x_2 = lean_alloc_ctor(5, 1, 0);
+lean_ctor_set(x_2, 0, x_1);
+return x_2;
+}
+}
+static lean_object* _init_l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__19() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; lean_object* x_3; lean_object* x_4; 
+x_1 = l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__16;
+x_2 = lean_unsigned_to_nat(1024u);
+x_3 = l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__18;
+x_4 = lean_alloc_ctor(3, 3, 0);
+lean_ctor_set(x_4, 0, x_1);
+lean_ctor_set(x_4, 1, x_2);
+lean_ctor_set(x_4, 2, x_3);
+return x_4;
+}
+}
+static lean_object* _init_l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609_() {
+_start:
+{
+lean_object* x_1; 
+x_1 = l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__19;
+return x_1;
+}
+}
+static lean_object* _init_l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______macroRules__CentroidHom__termL__1___closed__1() {
+_start:
+{
+lean_object* x_1; 
+x_1 = lean_mk_string_unchecked("AddMonoid.End.mulLeft", 21, 21);
+return x_1;
+}
+}
+static lean_object* _init_l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______macroRules__CentroidHom__termL__1___closed__2() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; 
+x_1 = l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______macroRules__CentroidHom__termL__1___closed__1;
+x_2 = l_String_toSubstring_x27(x_1);
+return x_2;
+}
+}
+static lean_object* _init_l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______macroRules__CentroidHom__termL__1___closed__3() {
+_start:
+{
+lean_object* x_1; 
+x_1 = lean_mk_string_unchecked("AddMonoid", 9, 9);
+return x_1;
+}
+}
+static lean_object* _init_l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______macroRules__CentroidHom__termL__1___closed__4() {
+_start:
+{
+lean_object* x_1; 
+x_1 = lean_mk_string_unchecked("End", 3, 3);
+return x_1;
+}
+}
+static lean_object* _init_l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______macroRules__CentroidHom__termL__1___closed__5() {
+_start:
+{
+lean_object* x_1; 
+x_1 = lean_mk_string_unchecked("mulLeft", 7, 7);
+return x_1;
+}
+}
+static lean_object* _init_l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______macroRules__CentroidHom__termL__1___closed__6() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; lean_object* x_3; lean_object* x_4; 
+x_1 = l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______macroRules__CentroidHom__termL__1___closed__3;
+x_2 = l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______macroRules__CentroidHom__termL__1___closed__4;
+x_3 = l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______macroRules__CentroidHom__termL__1___closed__5;
+x_4 = l_Lean_Name_mkStr3(x_1, x_2, x_3);
+return x_4;
+}
+}
+static lean_object* _init_l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______macroRules__CentroidHom__termL__1___closed__7() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; lean_object* x_3; 
+x_1 = lean_box(0);
+x_2 = l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______macroRules__CentroidHom__termL__1___closed__6;
+x_3 = lean_alloc_ctor(1, 2, 0);
+lean_ctor_set(x_3, 0, x_2);
+lean_ctor_set(x_3, 1, x_1);
+return x_3;
+}
+}
+static lean_object* _init_l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______macroRules__CentroidHom__termL__1___closed__8() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; lean_object* x_3; 
+x_1 = lean_box(0);
+x_2 = l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______macroRules__CentroidHom__termL__1___closed__7;
+x_3 = lean_alloc_ctor(1, 2, 0);
+lean_ctor_set(x_3, 0, x_2);
+lean_ctor_set(x_3, 1, x_1);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______macroRules__CentroidHom__termL__1(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; uint8_t x_5; 
+x_4 = l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__16;
+x_5 = l_Lean_Syntax_isOfKind(x_1, x_4);
+if (x_5 == 0)
+{
+lean_object* x_6; lean_object* x_7; 
+lean_dec(x_2);
+x_6 = lean_box(1);
+x_7 = lean_alloc_ctor(1, 2, 0);
+lean_ctor_set(x_7, 0, x_6);
+lean_ctor_set(x_7, 1, x_3);
+return x_7;
+}
+else
+{
+lean_object* x_8; uint8_t x_9; lean_object* x_10; lean_object* x_11; lean_object* x_12; lean_object* x_13; lean_object* x_14; lean_object* x_15; lean_object* x_16; lean_object* x_17; lean_object* x_18; 
+x_8 = lean_ctor_get(x_2, 5);
+lean_inc(x_8);
+x_9 = 0;
+x_10 = l_Lean_SourceInfo_fromRef(x_8, x_9);
+lean_dec(x_8);
+x_11 = lean_ctor_get(x_2, 2);
+lean_inc(x_11);
+x_12 = lean_ctor_get(x_2, 1);
+lean_inc(x_12);
+lean_dec(x_2);
+x_13 = l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______macroRules__CentroidHom__termL__1___closed__6;
+x_14 = l_Lean_addMacroScope(x_12, x_13, x_11);
+x_15 = l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______macroRules__CentroidHom__termL__1___closed__2;
+x_16 = l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______macroRules__CentroidHom__termL__1___closed__8;
+x_17 = lean_alloc_ctor(3, 4, 0);
+lean_ctor_set(x_17, 0, x_10);
+lean_ctor_set(x_17, 1, x_15);
+lean_ctor_set(x_17, 2, x_14);
+lean_ctor_set(x_17, 3, x_16);
+x_18 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_18, 0, x_17);
+lean_ctor_set(x_18, 1, x_3);
+return x_18;
+}
+}
+}
+static lean_object* _init_l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______unexpand__AddMonoid__End__mulLeft__1___closed__1() {
+_start:
+{
+lean_object* x_1; 
+x_1 = lean_mk_string_unchecked("ident", 5, 5);
+return x_1;
+}
+}
+static lean_object* _init_l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______unexpand__AddMonoid__End__mulLeft__1___closed__2() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; lean_object* x_3; 
+x_1 = lean_box(0);
+x_2 = l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______unexpand__AddMonoid__End__mulLeft__1___closed__1;
+x_3 = l_Lean_Name_str___override(x_1, x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______unexpand__AddMonoid__End__mulLeft__1(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; uint8_t x_5; 
+x_4 = l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______unexpand__AddMonoid__End__mulLeft__1___closed__2;
+lean_inc(x_1);
+x_5 = l_Lean_Syntax_isOfKind(x_1, x_4);
+if (x_5 == 0)
+{
+lean_object* x_6; lean_object* x_7; 
+lean_dec(x_1);
+x_6 = lean_box(0);
+x_7 = lean_alloc_ctor(1, 2, 0);
+lean_ctor_set(x_7, 0, x_6);
+lean_ctor_set(x_7, 1, x_3);
+return x_7;
+}
+else
+{
+lean_object* x_8; uint8_t x_9; lean_object* x_10; lean_object* x_11; lean_object* x_12; lean_object* x_13; lean_object* x_14; lean_object* x_15; 
+x_8 = l_Lean_replaceRef(x_1, x_2);
+lean_dec(x_1);
+x_9 = 0;
+x_10 = l_Lean_SourceInfo_fromRef(x_8, x_9);
+lean_dec(x_8);
+x_11 = l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__17;
+lean_inc(x_10);
+x_12 = lean_alloc_ctor(2, 2, 0);
+lean_ctor_set(x_12, 0, x_10);
+lean_ctor_set(x_12, 1, x_11);
+x_13 = l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__16;
+x_14 = l_Lean_Syntax_node1(x_10, x_13, x_12);
+x_15 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_15, 0, x_14);
+lean_ctor_set(x_15, 1, x_3);
+return x_15;
+}
+}
+}
+LEAN_EXPORT lean_object* l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______unexpand__AddMonoid__End__mulLeft__1___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______unexpand__AddMonoid__End__mulLeft__1(x_1, x_2, x_3);
+lean_dec(x_2);
+return x_4;
+}
+}
+static lean_object* _init_l_CentroidHom_termR____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_6169____closed__1() {
+_start:
+{
+lean_object* x_1; 
+x_1 = lean_mk_string_unchecked("termR", 5, 5);
+return x_1;
+}
+}
+static lean_object* _init_l_CentroidHom_termR____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_6169____closed__2() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; lean_object* x_3; 
+x_1 = l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__2;
+x_2 = l_CentroidHom_termR____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_6169____closed__1;
+x_3 = l_Lean_Name_str___override(x_1, x_2);
+return x_3;
+}
+}
+static lean_object* _init_l_CentroidHom_termR____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_6169____closed__3() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; lean_object* x_3; 
+x_1 = l_CentroidHom_termR____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_6169____closed__2;
+x_2 = l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__5;
+x_3 = l_Lean_Name_str___override(x_1, x_2);
+return x_3;
+}
+}
+static lean_object* _init_l_CentroidHom_termR____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_6169____closed__4() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; lean_object* x_3; 
+x_1 = l_CentroidHom_termR____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_6169____closed__3;
+x_2 = l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__7;
+x_3 = l_Lean_Name_str___override(x_1, x_2);
+return x_3;
+}
+}
+static lean_object* _init_l_CentroidHom_termR____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_6169____closed__5() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; lean_object* x_3; 
+x_1 = l_CentroidHom_termR____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_6169____closed__4;
+x_2 = l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__9;
+x_3 = l_Lean_Name_str___override(x_1, x_2);
+return x_3;
+}
+}
+static lean_object* _init_l_CentroidHom_termR____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_6169____closed__6() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; lean_object* x_3; 
+x_1 = l_CentroidHom_termR____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_6169____closed__5;
+x_2 = l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__11;
+x_3 = l_Lean_Name_str___override(x_1, x_2);
+return x_3;
+}
+}
+static lean_object* _init_l_CentroidHom_termR____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_6169____closed__7() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; lean_object* x_3; 
+x_1 = l_CentroidHom_termR____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_6169____closed__6;
+x_2 = l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__1;
+x_3 = l_Lean_Name_str___override(x_1, x_2);
+return x_3;
+}
+}
+static lean_object* _init_l_CentroidHom_termR____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_6169____closed__8() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; lean_object* x_3; 
+x_1 = l_CentroidHom_termR____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_6169____closed__7;
+x_2 = l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__14;
+x_3 = l_Lean_Name_str___override(x_1, x_2);
+return x_3;
+}
+}
+static lean_object* _init_l_CentroidHom_termR____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_6169____closed__9() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; lean_object* x_3; 
+x_1 = l_CentroidHom_termR____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_6169____closed__8;
+x_2 = lean_unsigned_to_nat(6169u);
+x_3 = l_Lean_Name_num___override(x_1, x_2);
+return x_3;
+}
+}
+static lean_object* _init_l_CentroidHom_termR____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_6169____closed__10() {
+_start:
+{
+lean_object* x_1; 
+x_1 = lean_mk_string_unchecked("R", 1, 1);
+return x_1;
+}
+}
+static lean_object* _init_l_CentroidHom_termR____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_6169____closed__11() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; 
+x_1 = l_CentroidHom_termR____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_6169____closed__10;
+x_2 = lean_alloc_ctor(5, 1, 0);
+lean_ctor_set(x_2, 0, x_1);
+return x_2;
+}
+}
+static lean_object* _init_l_CentroidHom_termR____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_6169____closed__12() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; lean_object* x_3; lean_object* x_4; 
+x_1 = l_CentroidHom_termR____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_6169____closed__9;
+x_2 = lean_unsigned_to_nat(1024u);
+x_3 = l_CentroidHom_termR____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_6169____closed__11;
+x_4 = lean_alloc_ctor(3, 3, 0);
+lean_ctor_set(x_4, 0, x_1);
+lean_ctor_set(x_4, 1, x_2);
+lean_ctor_set(x_4, 2, x_3);
+return x_4;
+}
+}
+static lean_object* _init_l_CentroidHom_termR____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_6169_() {
+_start:
+{
+lean_object* x_1; 
+x_1 = l_CentroidHom_termR____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_6169____closed__12;
+return x_1;
+}
+}
+static lean_object* _init_l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______macroRules__CentroidHom__termR__1___closed__1() {
+_start:
+{
+lean_object* x_1; 
+x_1 = lean_mk_string_unchecked("AddMonoid.End.mulRight", 22, 22);
+return x_1;
+}
+}
+static lean_object* _init_l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______macroRules__CentroidHom__termR__1___closed__2() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; 
+x_1 = l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______macroRules__CentroidHom__termR__1___closed__1;
+x_2 = l_String_toSubstring_x27(x_1);
+return x_2;
+}
+}
+static lean_object* _init_l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______macroRules__CentroidHom__termR__1___closed__3() {
+_start:
+{
+lean_object* x_1; 
+x_1 = lean_mk_string_unchecked("mulRight", 8, 8);
+return x_1;
+}
+}
+static lean_object* _init_l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______macroRules__CentroidHom__termR__1___closed__4() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; lean_object* x_3; lean_object* x_4; 
+x_1 = l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______macroRules__CentroidHom__termL__1___closed__3;
+x_2 = l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______macroRules__CentroidHom__termL__1___closed__4;
+x_3 = l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______macroRules__CentroidHom__termR__1___closed__3;
+x_4 = l_Lean_Name_mkStr3(x_1, x_2, x_3);
+return x_4;
+}
+}
+static lean_object* _init_l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______macroRules__CentroidHom__termR__1___closed__5() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; lean_object* x_3; 
+x_1 = lean_box(0);
+x_2 = l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______macroRules__CentroidHom__termR__1___closed__4;
+x_3 = lean_alloc_ctor(1, 2, 0);
+lean_ctor_set(x_3, 0, x_2);
+lean_ctor_set(x_3, 1, x_1);
+return x_3;
+}
+}
+static lean_object* _init_l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______macroRules__CentroidHom__termR__1___closed__6() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; lean_object* x_3; 
+x_1 = lean_box(0);
+x_2 = l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______macroRules__CentroidHom__termR__1___closed__5;
+x_3 = lean_alloc_ctor(1, 2, 0);
+lean_ctor_set(x_3, 0, x_2);
+lean_ctor_set(x_3, 1, x_1);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______macroRules__CentroidHom__termR__1(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; uint8_t x_5; 
+x_4 = l_CentroidHom_termR____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_6169____closed__9;
+x_5 = l_Lean_Syntax_isOfKind(x_1, x_4);
+if (x_5 == 0)
+{
+lean_object* x_6; lean_object* x_7; 
+lean_dec(x_2);
+x_6 = lean_box(1);
+x_7 = lean_alloc_ctor(1, 2, 0);
+lean_ctor_set(x_7, 0, x_6);
+lean_ctor_set(x_7, 1, x_3);
+return x_7;
+}
+else
+{
+lean_object* x_8; uint8_t x_9; lean_object* x_10; lean_object* x_11; lean_object* x_12; lean_object* x_13; lean_object* x_14; lean_object* x_15; lean_object* x_16; lean_object* x_17; lean_object* x_18; 
+x_8 = lean_ctor_get(x_2, 5);
+lean_inc(x_8);
+x_9 = 0;
+x_10 = l_Lean_SourceInfo_fromRef(x_8, x_9);
+lean_dec(x_8);
+x_11 = lean_ctor_get(x_2, 2);
+lean_inc(x_11);
+x_12 = lean_ctor_get(x_2, 1);
+lean_inc(x_12);
+lean_dec(x_2);
+x_13 = l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______macroRules__CentroidHom__termR__1___closed__4;
+x_14 = l_Lean_addMacroScope(x_12, x_13, x_11);
+x_15 = l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______macroRules__CentroidHom__termR__1___closed__2;
+x_16 = l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______macroRules__CentroidHom__termR__1___closed__6;
+x_17 = lean_alloc_ctor(3, 4, 0);
+lean_ctor_set(x_17, 0, x_10);
+lean_ctor_set(x_17, 1, x_15);
+lean_ctor_set(x_17, 2, x_14);
+lean_ctor_set(x_17, 3, x_16);
+x_18 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_18, 0, x_17);
+lean_ctor_set(x_18, 1, x_3);
+return x_18;
+}
+}
+}
+LEAN_EXPORT lean_object* l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______unexpand__AddMonoid__End__mulRight__1(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; uint8_t x_5; 
+x_4 = l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______unexpand__AddMonoid__End__mulLeft__1___closed__2;
+lean_inc(x_1);
+x_5 = l_Lean_Syntax_isOfKind(x_1, x_4);
+if (x_5 == 0)
+{
+lean_object* x_6; lean_object* x_7; 
+lean_dec(x_1);
+x_6 = lean_box(0);
+x_7 = lean_alloc_ctor(1, 2, 0);
+lean_ctor_set(x_7, 0, x_6);
+lean_ctor_set(x_7, 1, x_3);
+return x_7;
+}
+else
+{
+lean_object* x_8; uint8_t x_9; lean_object* x_10; lean_object* x_11; lean_object* x_12; lean_object* x_13; lean_object* x_14; lean_object* x_15; 
+x_8 = l_Lean_replaceRef(x_1, x_2);
+lean_dec(x_1);
+x_9 = 0;
+x_10 = l_Lean_SourceInfo_fromRef(x_8, x_9);
+lean_dec(x_8);
+x_11 = l_CentroidHom_termR____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_6169____closed__10;
+lean_inc(x_10);
+x_12 = lean_alloc_ctor(2, 2, 0);
+lean_ctor_set(x_12, 0, x_10);
+lean_ctor_set(x_12, 1, x_11);
+x_13 = l_CentroidHom_termR____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_6169____closed__9;
+x_14 = l_Lean_Syntax_node1(x_10, x_13, x_12);
+x_15 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_15, 0, x_14);
+lean_ctor_set(x_15, 1, x_3);
+return x_15;
+}
+}
+}
+LEAN_EXPORT lean_object* l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______unexpand__AddMonoid__End__mulRight__1___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______unexpand__AddMonoid__End__mulRight__1(x_1, x_2, x_3);
+lean_dec(x_2);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_NonUnitalSubsemiring_center___at_CentroidHom_centerToCentroidCenter___spec__2___rarg(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_ctor(0, 1, 0);
+lean_ctor_set(x_2, 0, lean_box(0));
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_NonUnitalSubsemiring_center___at_CentroidHom_centerToCentroidCenter___spec__2(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_NonUnitalSubsemiring_center___at_CentroidHom_centerToCentroidCenter___spec__2___rarg___boxed), 1, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_Subsemiring_center___at_CentroidHom_centerToCentroidCenter___spec__1___rarg(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_ctor(0, 1, 0);
+lean_ctor_set(x_2, 0, lean_box(0));
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_Subsemiring_center___at_CentroidHom_centerToCentroidCenter___spec__1(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_Subsemiring_center___at_CentroidHom_centerToCentroidCenter___spec__1___rarg___boxed), 1, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CentroidHom_centerToCentroidCenter___rarg(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = lean_alloc_closure((void*)(l_AddMonoidHom_mulLeft___rarg), 3, 2);
+lean_closure_set(x_3, 0, x_1);
+lean_closure_set(x_3, 1, x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CentroidHom_centerToCentroidCenter(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CentroidHom_centerToCentroidCenter___rarg), 2, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_NonUnitalSubsemiring_center___at_CentroidHom_centerToCentroidCenter___spec__2___rarg___boxed(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = l_NonUnitalSubsemiring_center___at_CentroidHom_centerToCentroidCenter___spec__2___rarg(x_1);
+lean_dec(x_1);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_Subsemiring_center___at_CentroidHom_centerToCentroidCenter___spec__1___rarg___boxed(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = l_Subsemiring_center___at_CentroidHom_centerToCentroidCenter___spec__1___rarg(x_1);
+lean_dec(x_1);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CentroidHom_instFunLikeSubtypeMemSubsemiringCenter___rarg(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = lean_apply_1(x_1, x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CentroidHom_instFunLikeSubtypeMemSubsemiringCenter(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = lean_alloc_closure((void*)(l_CentroidHom_instFunLikeSubtypeMemSubsemiringCenter___rarg), 2, 0);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CentroidHom_instFunLikeSubtypeMemSubsemiringCenter___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_CentroidHom_instFunLikeSubtypeMemSubsemiringCenter(x_1, x_2);
+lean_dec(x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_NonUnitalSubsemiring_center___at_CentroidHom_centerToCentroid___spec__2___rarg(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_ctor(0, 1, 0);
+lean_ctor_set(x_2, 0, lean_box(0));
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_NonUnitalSubsemiring_center___at_CentroidHom_centerToCentroid___spec__2(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_NonUnitalSubsemiring_center___at_CentroidHom_centerToCentroid___spec__2___rarg___boxed), 1, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_Subsemiring_center___at_CentroidHom_centerToCentroid___spec__1___rarg(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_ctor(0, 1, 0);
+lean_ctor_set(x_2, 0, lean_box(0));
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_Subsemiring_center___at_CentroidHom_centerToCentroid___spec__1(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_Subsemiring_center___at_CentroidHom_centerToCentroid___spec__1___rarg___boxed), 1, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_SubsemiringClass_subtype___at_CentroidHom_centerToCentroid___spec__3___rarg(lean_object* x_1) {
+_start:
+{
+lean_inc(x_1);
+return x_1;
+}
+}
+LEAN_EXPORT lean_object* l_SubsemiringClass_subtype___at_CentroidHom_centerToCentroid___spec__3(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = lean_alloc_closure((void*)(l_SubsemiringClass_subtype___at_CentroidHom_centerToCentroid___spec__3___rarg___boxed), 1, 0);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_RingHom_toNonUnitalRingHom___at_CentroidHom_centerToCentroid___spec__4___rarg(lean_object* x_1) {
+_start:
+{
+lean_inc(x_1);
+return x_1;
+}
+}
+LEAN_EXPORT lean_object* l_RingHom_toNonUnitalRingHom___at_CentroidHom_centerToCentroid___spec__4(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = lean_alloc_closure((void*)(l_RingHom_toNonUnitalRingHom___at_CentroidHom_centerToCentroid___spec__4___rarg___boxed), 1, 0);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_MulHom_comp___at_CentroidHom_centerToCentroid___spec__6___rarg(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = lean_alloc_closure((void*)(l_MulHom_comp___elambda__1___rarg), 3, 2);
+lean_closure_set(x_3, 0, x_1);
+lean_closure_set(x_3, 1, x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_MulHom_comp___at_CentroidHom_centerToCentroid___spec__6(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = lean_alloc_closure((void*)(l_MulHom_comp___at_CentroidHom_centerToCentroid___spec__6___rarg), 2, 0);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_NonUnitalRingHom_comp___at_CentroidHom_centerToCentroid___spec__5___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = lean_alloc_closure((void*)(l_MulHom_comp___elambda__1___rarg), 3, 2);
+lean_closure_set(x_7, 0, x_5);
+lean_closure_set(x_7, 1, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_NonUnitalRingHom_comp___at_CentroidHom_centerToCentroid___spec__5(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_NonUnitalRingHom_comp___at_CentroidHom_centerToCentroid___spec__5___rarg___boxed), 6, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CentroidHom_centerToCentroid___rarg(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; lean_object* x_3; lean_object* x_4; 
+x_2 = lean_alloc_closure((void*)(l_CentroidHom_centerToCentroidCenter___rarg), 2, 1);
+lean_closure_set(x_2, 0, x_1);
+x_3 = lean_alloc_closure((void*)(l_SubsemiringClass_subtype___at_CentroidHom_centerToCentroid___spec__3___rarg___boxed), 1, 0);
+x_4 = lean_alloc_closure((void*)(l_MulHom_comp___elambda__1___rarg), 3, 2);
+lean_closure_set(x_4, 0, x_3);
+lean_closure_set(x_4, 1, x_2);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CentroidHom_centerToCentroid(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CentroidHom_centerToCentroid___rarg), 1, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_NonUnitalSubsemiring_center___at_CentroidHom_centerToCentroid___spec__2___rarg___boxed(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = l_NonUnitalSubsemiring_center___at_CentroidHom_centerToCentroid___spec__2___rarg(x_1);
+lean_dec(x_1);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_Subsemiring_center___at_CentroidHom_centerToCentroid___spec__1___rarg___boxed(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = l_Subsemiring_center___at_CentroidHom_centerToCentroid___spec__1___rarg(x_1);
+lean_dec(x_1);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_SubsemiringClass_subtype___at_CentroidHom_centerToCentroid___spec__3___rarg___boxed(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = l_SubsemiringClass_subtype___at_CentroidHom_centerToCentroid___spec__3___rarg(x_1);
+lean_dec(x_1);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_SubsemiringClass_subtype___at_CentroidHom_centerToCentroid___spec__3___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_SubsemiringClass_subtype___at_CentroidHom_centerToCentroid___spec__3(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_5);
+lean_dec(x_3);
+lean_dec(x_2);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_RingHom_toNonUnitalRingHom___at_CentroidHom_centerToCentroid___spec__4___rarg___boxed(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = l_RingHom_toNonUnitalRingHom___at_CentroidHom_centerToCentroid___spec__4___rarg(x_1);
+lean_dec(x_1);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_RingHom_toNonUnitalRingHom___at_CentroidHom_centerToCentroid___spec__4___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_RingHom_toNonUnitalRingHom___at_CentroidHom_centerToCentroid___spec__4(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_2);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_MulHom_comp___at_CentroidHom_centerToCentroid___spec__6___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_MulHom_comp___at_CentroidHom_centerToCentroid___spec__6(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_2);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_NonUnitalRingHom_comp___at_CentroidHom_centerToCentroid___spec__5___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = l_NonUnitalRingHom_comp___at_CentroidHom_centerToCentroid___spec__5___rarg(x_1, x_2, x_3, x_4, x_5, x_6);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_7;
+}
+}
+static lean_object* _init_l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_8118____closed__1() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; lean_object* x_3; 
+x_1 = l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__15;
+x_2 = lean_unsigned_to_nat(8118u);
+x_3 = l_Lean_Name_num___override(x_1, x_2);
+return x_3;
+}
+}
+static lean_object* _init_l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_8118____closed__2() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; lean_object* x_3; lean_object* x_4; 
+x_1 = l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_8118____closed__1;
+x_2 = lean_unsigned_to_nat(1024u);
+x_3 = l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__18;
+x_4 = lean_alloc_ctor(3, 3, 0);
+lean_ctor_set(x_4, 0, x_1);
+lean_ctor_set(x_4, 1, x_2);
+lean_ctor_set(x_4, 2, x_3);
+return x_4;
+}
+}
+static lean_object* _init_l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_8118_() {
+_start:
+{
+lean_object* x_1; 
+x_1 = l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_8118____closed__2;
+return x_1;
+}
+}
+LEAN_EXPORT lean_object* l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______macroRules__CentroidHom__termL__2(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; uint8_t x_5; 
+x_4 = l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_8118____closed__1;
+x_5 = l_Lean_Syntax_isOfKind(x_1, x_4);
+if (x_5 == 0)
+{
+lean_object* x_6; lean_object* x_7; 
+lean_dec(x_2);
+x_6 = lean_box(1);
+x_7 = lean_alloc_ctor(1, 2, 0);
+lean_ctor_set(x_7, 0, x_6);
+lean_ctor_set(x_7, 1, x_3);
+return x_7;
+}
+else
+{
+lean_object* x_8; uint8_t x_9; lean_object* x_10; lean_object* x_11; lean_object* x_12; lean_object* x_13; lean_object* x_14; lean_object* x_15; lean_object* x_16; lean_object* x_17; lean_object* x_18; 
+x_8 = lean_ctor_get(x_2, 5);
+lean_inc(x_8);
+x_9 = 0;
+x_10 = l_Lean_SourceInfo_fromRef(x_8, x_9);
+lean_dec(x_8);
+x_11 = lean_ctor_get(x_2, 2);
+lean_inc(x_11);
+x_12 = lean_ctor_get(x_2, 1);
+lean_inc(x_12);
+lean_dec(x_2);
+x_13 = l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______macroRules__CentroidHom__termL__1___closed__6;
+x_14 = l_Lean_addMacroScope(x_12, x_13, x_11);
+x_15 = l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______macroRules__CentroidHom__termL__1___closed__2;
+x_16 = l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______macroRules__CentroidHom__termL__1___closed__8;
+x_17 = lean_alloc_ctor(3, 4, 0);
+lean_ctor_set(x_17, 0, x_10);
+lean_ctor_set(x_17, 1, x_15);
+lean_ctor_set(x_17, 2, x_14);
+lean_ctor_set(x_17, 3, x_16);
+x_18 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_18, 0, x_17);
+lean_ctor_set(x_18, 1, x_3);
+return x_18;
+}
+}
+}
+LEAN_EXPORT lean_object* l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______unexpand__AddMonoid__End__mulLeft__2(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; uint8_t x_5; 
+x_4 = l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______unexpand__AddMonoid__End__mulLeft__1___closed__2;
+lean_inc(x_1);
+x_5 = l_Lean_Syntax_isOfKind(x_1, x_4);
+if (x_5 == 0)
+{
+lean_object* x_6; lean_object* x_7; 
+lean_dec(x_1);
+x_6 = lean_box(0);
+x_7 = lean_alloc_ctor(1, 2, 0);
+lean_ctor_set(x_7, 0, x_6);
+lean_ctor_set(x_7, 1, x_3);
+return x_7;
+}
+else
+{
+lean_object* x_8; uint8_t x_9; lean_object* x_10; lean_object* x_11; lean_object* x_12; lean_object* x_13; lean_object* x_14; lean_object* x_15; 
+x_8 = l_Lean_replaceRef(x_1, x_2);
+lean_dec(x_1);
+x_9 = 0;
+x_10 = l_Lean_SourceInfo_fromRef(x_8, x_9);
+lean_dec(x_8);
+x_11 = l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__17;
+lean_inc(x_10);
+x_12 = lean_alloc_ctor(2, 2, 0);
+lean_ctor_set(x_12, 0, x_10);
+lean_ctor_set(x_12, 1, x_11);
+x_13 = l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_8118____closed__1;
+x_14 = l_Lean_Syntax_node1(x_10, x_13, x_12);
+x_15 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_15, 0, x_14);
+lean_ctor_set(x_15, 1, x_3);
+return x_15;
+}
+}
+}
+LEAN_EXPORT lean_object* l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______unexpand__AddMonoid__End__mulLeft__2___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______unexpand__AddMonoid__End__mulLeft__2(x_1, x_2, x_3);
+lean_dec(x_2);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CentroidHom_centerIsoCentroid___rarg___lambda__1(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+x_3 = l_NonAssocSemiring_toAddCommMonoidWithOne___rarg(x_1);
+x_4 = lean_ctor_get(x_3, 2);
+lean_inc(x_4);
+lean_dec(x_3);
+x_5 = lean_apply_1(x_2, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CentroidHom_centerIsoCentroid___rarg(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+x_2 = lean_ctor_get(x_1, 0);
+lean_inc(x_2);
+x_3 = l_CentroidHom_centerToCentroid___rarg(x_2);
+x_4 = lean_alloc_closure((void*)(l_CentroidHom_centerIsoCentroid___rarg___lambda__1___boxed), 2, 1);
+lean_closure_set(x_4, 0, x_1);
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CentroidHom_centerIsoCentroid(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CentroidHom_centerIsoCentroid___rarg), 1, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CentroidHom_centerIsoCentroid___rarg___lambda__1___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_CentroidHom_centerIsoCentroid___rarg___lambda__1(x_1, x_2);
+lean_dec(x_1);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_AddHomClass_toAddHom___at_CentroidHom_instNeg___spec__2___rarg(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; lean_object* x_3; 
+x_2 = l_AddHomClass_toAddHom___at_CentroidHom_toEnd___spec__2___rarg___closed__1;
+x_3 = lean_alloc_closure((void*)(l_AddHomClass_toAddHom___elambda__1___rarg), 3, 2);
+lean_closure_set(x_3, 0, x_1);
+lean_closure_set(x_3, 1, x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_AddHomClass_toAddHom___at_CentroidHom_instNeg___spec__2(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = lean_alloc_closure((void*)(l_AddHomClass_toAddHom___at_CentroidHom_instNeg___spec__2___rarg), 1, 0);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_instNeg___spec__1___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; 
+x_4 = lean_alloc_closure((void*)(l_AddHomClass_toAddHom___at_CentroidHom_toEnd___spec__2___rarg___lambda__1), 2, 0);
+x_5 = lean_alloc_closure((void*)(l_AddHomClass_toAddHom___elambda__1___rarg), 3, 2);
+lean_closure_set(x_5, 0, x_3);
+lean_closure_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_instNeg___spec__1(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_instNeg___spec__1___rarg___boxed), 3, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CentroidHom_instNeg___rarg(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; lean_object* x_6; lean_object* x_7; lean_object* x_8; 
+x_3 = lean_ctor_get(x_1, 0);
+lean_inc(x_3);
+lean_dec(x_1);
+x_4 = lean_ctor_get(x_3, 0);
+lean_inc(x_4);
+x_5 = l_AddMonoid_toAddZeroClass___rarg(x_4);
+lean_dec(x_4);
+x_6 = lean_alloc_closure((void*)(l_AddHomClass_toAddHom___at_CentroidHom_toEnd___spec__2___rarg___lambda__1), 2, 0);
+x_7 = lean_alloc_closure((void*)(l_AddHomClass_toAddHom___elambda__1___rarg), 3, 2);
+lean_closure_set(x_7, 0, x_2);
+lean_closure_set(x_7, 1, x_6);
+x_8 = l_AddMonoidHom_instNeg___elambda__1___rarg(x_5, x_3, x_7);
+lean_dec(x_5);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CentroidHom_instNeg(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CentroidHom_instNeg___rarg), 2, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_AddHomClass_toAddHom___at_CentroidHom_instNeg___spec__2___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_AddHomClass_toAddHom___at_CentroidHom_instNeg___spec__2(x_1, x_2, x_3);
+lean_dec(x_2);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_instNeg___spec__1___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_instNeg___spec__1___rarg(x_1, x_2, x_3);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_AddHomClass_toAddHom___at_CentroidHom_instSub___spec__2___rarg(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; lean_object* x_3; 
+x_2 = l_AddHomClass_toAddHom___at_CentroidHom_toEnd___spec__2___rarg___closed__1;
+x_3 = lean_alloc_closure((void*)(l_AddHomClass_toAddHom___elambda__1___rarg), 3, 2);
+lean_closure_set(x_3, 0, x_1);
+lean_closure_set(x_3, 1, x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_AddHomClass_toAddHom___at_CentroidHom_instSub___spec__2(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = lean_alloc_closure((void*)(l_AddHomClass_toAddHom___at_CentroidHom_instSub___spec__2___rarg), 1, 0);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_instSub___spec__1___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; 
+x_4 = lean_alloc_closure((void*)(l_AddHomClass_toAddHom___at_CentroidHom_toEnd___spec__2___rarg___lambda__1), 2, 0);
+x_5 = lean_alloc_closure((void*)(l_AddHomClass_toAddHom___elambda__1___rarg), 3, 2);
+lean_closure_set(x_5, 0, x_3);
+lean_closure_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_instSub___spec__1(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_instSub___spec__1___rarg___boxed), 3, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_AddHomClass_toAddHom___at_CentroidHom_instSub___spec__4___rarg(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; lean_object* x_3; 
+x_2 = l_AddHomClass_toAddHom___at_CentroidHom_toEnd___spec__2___rarg___closed__1;
+x_3 = lean_alloc_closure((void*)(l_AddHomClass_toAddHom___elambda__1___rarg), 3, 2);
+lean_closure_set(x_3, 0, x_1);
+lean_closure_set(x_3, 1, x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_AddHomClass_toAddHom___at_CentroidHom_instSub___spec__4(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = lean_alloc_closure((void*)(l_AddHomClass_toAddHom___at_CentroidHom_instSub___spec__4___rarg), 1, 0);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_instSub___spec__3___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; 
+x_4 = lean_alloc_closure((void*)(l_AddHomClass_toAddHom___at_CentroidHom_toEnd___spec__2___rarg___lambda__1), 2, 0);
+x_5 = lean_alloc_closure((void*)(l_AddHomClass_toAddHom___elambda__1___rarg), 3, 2);
+lean_closure_set(x_5, 0, x_3);
+lean_closure_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_instSub___spec__3(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_instSub___spec__3___rarg___boxed), 3, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CentroidHom_instSub___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; lean_object* x_6; lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; 
+x_4 = lean_ctor_get(x_1, 0);
+lean_inc(x_4);
+lean_dec(x_1);
+x_5 = lean_ctor_get(x_4, 0);
+lean_inc(x_5);
+x_6 = l_AddMonoid_toAddZeroClass___rarg(x_5);
+lean_dec(x_5);
+x_7 = lean_alloc_closure((void*)(l_AddHomClass_toAddHom___at_CentroidHom_toEnd___spec__2___rarg___lambda__1), 2, 0);
+lean_inc(x_7);
+x_8 = lean_alloc_closure((void*)(l_AddHomClass_toAddHom___elambda__1___rarg), 3, 2);
+lean_closure_set(x_8, 0, x_2);
+lean_closure_set(x_8, 1, x_7);
+x_9 = lean_alloc_closure((void*)(l_AddHomClass_toAddHom___elambda__1___rarg), 3, 2);
+lean_closure_set(x_9, 0, x_3);
+lean_closure_set(x_9, 1, x_7);
+x_10 = l_AddMonoidHom_instSub___elambda__1___rarg(x_6, x_4, x_8, x_9);
+lean_dec(x_6);
+return x_10;
+}
+}
+LEAN_EXPORT lean_object* l_CentroidHom_instSub(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CentroidHom_instSub___rarg), 3, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_AddHomClass_toAddHom___at_CentroidHom_instSub___spec__2___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_AddHomClass_toAddHom___at_CentroidHom_instSub___spec__2(x_1, x_2, x_3);
+lean_dec(x_2);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_instSub___spec__1___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_instSub___spec__1___rarg(x_1, x_2, x_3);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_AddHomClass_toAddHom___at_CentroidHom_instSub___spec__4___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_AddHomClass_toAddHom___at_CentroidHom_instSub___spec__4(x_1, x_2, x_3);
+lean_dec(x_2);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_instSub___spec__3___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_instSub___spec__3___rarg(x_1, x_2, x_3);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_AddMonoidHom_id___at_CentroidHom_instIntCast___spec__2___rarg(lean_object* x_1) {
+_start:
+{
+lean_inc(x_1);
+return x_1;
+}
+}
+LEAN_EXPORT lean_object* l_AddMonoidHom_id___at_CentroidHom_instIntCast___spec__2(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = lean_alloc_closure((void*)(l_AddMonoidHom_id___at_CentroidHom_instIntCast___spec__2___rarg___boxed), 1, 0);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CentroidHom_id___at_CentroidHom_instIntCast___spec__1___rarg(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_AddMonoidHom_id___at_CentroidHom_instIntCast___spec__2___rarg___boxed), 1, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CentroidHom_id___at_CentroidHom_instIntCast___spec__1(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CentroidHom_id___at_CentroidHom_instIntCast___spec__1___rarg___boxed), 1, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_AddHomClass_toAddHom___at_CentroidHom_instIntCast___spec__4___rarg(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; lean_object* x_3; 
+x_2 = l_AddHomClass_toAddHom___at_CentroidHom_toEnd___spec__2___rarg___closed__1;
+x_3 = lean_alloc_closure((void*)(l_AddHomClass_toAddHom___elambda__1___rarg), 3, 2);
+lean_closure_set(x_3, 0, x_1);
+lean_closure_set(x_3, 1, x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_AddHomClass_toAddHom___at_CentroidHom_instIntCast___spec__4(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = lean_alloc_closure((void*)(l_AddHomClass_toAddHom___at_CentroidHom_instIntCast___spec__4___rarg), 1, 0);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_instIntCast___spec__3___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; 
+x_4 = lean_alloc_closure((void*)(l_AddHomClass_toAddHom___at_CentroidHom_toEnd___spec__2___rarg___lambda__1), 2, 0);
+x_5 = lean_alloc_closure((void*)(l_AddHomClass_toAddHom___elambda__1___rarg), 3, 2);
+lean_closure_set(x_5, 0, x_3);
+lean_closure_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_instIntCast___spec__3(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_instIntCast___spec__3___rarg___boxed), 3, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CentroidHom_instIntCast___rarg___lambda__1(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; 
+x_6 = lean_ctor_get(x_1, 3);
+lean_inc(x_6);
+lean_dec(x_1);
+x_7 = lean_apply_1(x_3, x_5);
+x_8 = lean_apply_2(x_6, x_4, x_7);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CentroidHom_instIntCast___rarg(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+x_3 = lean_ctor_get(x_1, 0);
+lean_inc(x_3);
+x_4 = lean_alloc_closure((void*)(l_AddMonoidHom_id___at_CentroidHom_instIntCast___spec__2___rarg___boxed), 1, 0);
+x_5 = lean_alloc_closure((void*)(l_CentroidHom_instIntCast___rarg___lambda__1___boxed), 5, 4);
+lean_closure_set(x_5, 0, x_3);
+lean_closure_set(x_5, 1, x_1);
+lean_closure_set(x_5, 2, x_4);
+lean_closure_set(x_5, 3, x_2);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CentroidHom_instIntCast(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CentroidHom_instIntCast___rarg), 2, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_AddMonoidHom_id___at_CentroidHom_instIntCast___spec__2___rarg___boxed(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = l_AddMonoidHom_id___at_CentroidHom_instIntCast___spec__2___rarg(x_1);
+lean_dec(x_1);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_AddMonoidHom_id___at_CentroidHom_instIntCast___spec__2___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_AddMonoidHom_id___at_CentroidHom_instIntCast___spec__2(x_1, x_2);
+lean_dec(x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CentroidHom_id___at_CentroidHom_instIntCast___spec__1___rarg___boxed(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = l_CentroidHom_id___at_CentroidHom_instIntCast___spec__1___rarg(x_1);
+lean_dec(x_1);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_AddHomClass_toAddHom___at_CentroidHom_instIntCast___spec__4___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_AddHomClass_toAddHom___at_CentroidHom_instIntCast___spec__4(x_1, x_2, x_3);
+lean_dec(x_2);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_instIntCast___spec__3___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_instIntCast___spec__3___rarg(x_1, x_2, x_3);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CentroidHom_instIntCast___rarg___lambda__1___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CentroidHom_instIntCast___rarg___lambda__1(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_2);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_AddHomClass_toAddHom___at_CentroidHom_instAddCommGroup___spec__3___rarg(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; lean_object* x_3; 
+x_2 = l_AddHomClass_toAddHom___at_CentroidHom_toEnd___spec__2___rarg___closed__1;
+x_3 = lean_alloc_closure((void*)(l_AddHomClass_toAddHom___elambda__1___rarg), 3, 2);
+lean_closure_set(x_3, 0, x_1);
+lean_closure_set(x_3, 1, x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_AddHomClass_toAddHom___at_CentroidHom_instAddCommGroup___spec__3(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = lean_alloc_closure((void*)(l_AddHomClass_toAddHom___at_CentroidHom_instAddCommGroup___spec__3___rarg), 1, 0);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_instAddCommGroup___spec__2___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; 
+x_4 = lean_alloc_closure((void*)(l_AddHomClass_toAddHom___at_CentroidHom_toEnd___spec__2___rarg___lambda__1), 2, 0);
+x_5 = lean_alloc_closure((void*)(l_AddHomClass_toAddHom___elambda__1___rarg), 3, 2);
+lean_closure_set(x_5, 0, x_3);
+lean_closure_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_instAddCommGroup___spec__2(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_instAddCommGroup___spec__2___rarg___boxed), 3, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CentroidHom_toEnd___at_CentroidHom_instAddCommGroup___spec__1___rarg(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; 
+x_3 = lean_alloc_closure((void*)(l_AddHomClass_toAddHom___at_CentroidHom_toEnd___spec__2___rarg___lambda__1), 2, 0);
+x_4 = lean_alloc_closure((void*)(l_AddHomClass_toAddHom___elambda__1___rarg), 3, 2);
+lean_closure_set(x_4, 0, x_2);
+lean_closure_set(x_4, 1, x_3);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CentroidHom_toEnd___at_CentroidHom_instAddCommGroup___spec__1(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CentroidHom_toEnd___at_CentroidHom_instAddCommGroup___spec__1___rarg___boxed), 2, 0);
+return x_2;
+}
+}
+static lean_object* _init_l_CentroidHom_instAddCommGroup___rarg___closed__1() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; 
+x_1 = l_Int_instSemiring;
+x_2 = l_Semiring_toMonoidWithZero___rarg(x_1);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CentroidHom_instAddCommGroup___rarg(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; lean_object* x_3; lean_object* x_4; lean_object* x_5; lean_object* x_6; lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; lean_object* x_11; lean_object* x_12; lean_object* x_13; lean_object* x_14; lean_object* x_15; lean_object* x_16; lean_object* x_17; lean_object* x_18; lean_object* x_19; lean_object* x_20; 
+lean_inc(x_1);
+x_2 = l_NonUnitalNonAssocRing_toNonUnitalNonAssocSemiring___rarg(x_1);
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_CentroidHom_instAdd___rarg___boxed), 3, 1);
+lean_closure_set(x_3, 0, x_2);
+lean_inc(x_2);
+x_4 = l_CentroidHom_instZero___rarg(x_2);
+lean_inc(x_2);
+x_5 = l_CentroidHom_instSemiring___rarg(x_2);
+x_6 = l_Semiring_toNonAssocSemiring___rarg(x_5);
+lean_dec(x_5);
+x_7 = l_NonAssocSemiring_toAddCommMonoidWithOne___rarg(x_6);
+lean_dec(x_6);
+x_8 = lean_ctor_get(x_7, 1);
+lean_inc(x_8);
+lean_dec(x_7);
+x_9 = lean_ctor_get(x_8, 2);
+lean_inc(x_9);
+lean_dec(x_8);
+lean_inc(x_1);
+x_10 = lean_alloc_closure((void*)(l_CentroidHom_instNeg___rarg), 2, 1);
+lean_closure_set(x_10, 0, x_1);
+lean_inc(x_1);
+x_11 = lean_alloc_closure((void*)(l_CentroidHom_instSub___rarg), 3, 1);
+lean_closure_set(x_11, 0, x_1);
+x_12 = l_CentroidHom_instAddCommGroup___rarg___closed__1;
+x_13 = lean_ctor_get(x_12, 0);
+lean_inc(x_13);
+x_14 = lean_ctor_get(x_1, 0);
+lean_inc(x_14);
+lean_dec(x_1);
+x_15 = lean_ctor_get(x_14, 3);
+lean_inc(x_15);
+lean_dec(x_14);
+x_16 = lean_alloc_closure((void*)(l_CentroidHom_instSMul___rarg___boxed), 8, 5);
+lean_closure_set(x_16, 0, x_2);
+lean_closure_set(x_16, 1, x_13);
+lean_closure_set(x_16, 2, x_15);
+lean_closure_set(x_16, 3, lean_box(0));
+lean_closure_set(x_16, 4, lean_box(0));
+x_17 = lean_alloc_closure((void*)(l_Function_Injective_addMonoid___elambda__1___rarg), 3, 1);
+lean_closure_set(x_17, 0, x_9);
+x_18 = lean_alloc_ctor(0, 3, 0);
+lean_ctor_set(x_18, 0, x_3);
+lean_ctor_set(x_18, 1, x_4);
+lean_ctor_set(x_18, 2, x_17);
+x_19 = lean_alloc_closure((void*)(l_Function_Injective_subNegMonoid___elambda__1___rarg), 3, 1);
+lean_closure_set(x_19, 0, x_16);
+x_20 = lean_alloc_ctor(0, 4, 0);
+lean_ctor_set(x_20, 0, x_18);
+lean_ctor_set(x_20, 1, x_10);
+lean_ctor_set(x_20, 2, x_11);
+lean_ctor_set(x_20, 3, x_19);
+return x_20;
+}
+}
+LEAN_EXPORT lean_object* l_CentroidHom_instAddCommGroup(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CentroidHom_instAddCommGroup___rarg), 1, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_AddHomClass_toAddHom___at_CentroidHom_instAddCommGroup___spec__3___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_AddHomClass_toAddHom___at_CentroidHom_instAddCommGroup___spec__3(x_1, x_2, x_3);
+lean_dec(x_2);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_instAddCommGroup___spec__2___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_instAddCommGroup___spec__2___rarg(x_1, x_2, x_3);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CentroidHom_toEnd___at_CentroidHom_instAddCommGroup___spec__1___rarg___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_CentroidHom_toEnd___at_CentroidHom_instAddCommGroup___spec__1___rarg(x_1, x_2);
+lean_dec(x_1);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_AddHomClass_toAddHom___at_CentroidHom_instRing___spec__3___rarg(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; lean_object* x_3; 
+x_2 = l_AddHomClass_toAddHom___at_CentroidHom_toEnd___spec__2___rarg___closed__1;
+x_3 = lean_alloc_closure((void*)(l_AddHomClass_toAddHom___elambda__1___rarg), 3, 2);
+lean_closure_set(x_3, 0, x_1);
+lean_closure_set(x_3, 1, x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_AddHomClass_toAddHom___at_CentroidHom_instRing___spec__3(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = lean_alloc_closure((void*)(l_AddHomClass_toAddHom___at_CentroidHom_instRing___spec__3___rarg), 1, 0);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_instRing___spec__2___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; 
+x_4 = lean_alloc_closure((void*)(l_AddHomClass_toAddHom___at_CentroidHom_toEnd___spec__2___rarg___lambda__1), 2, 0);
+x_5 = lean_alloc_closure((void*)(l_AddHomClass_toAddHom___elambda__1___rarg), 3, 2);
+lean_closure_set(x_5, 0, x_3);
+lean_closure_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_instRing___spec__2(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_instRing___spec__2___rarg___boxed), 3, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CentroidHom_toEnd___at_CentroidHom_instRing___spec__1___rarg(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; 
+x_3 = lean_alloc_closure((void*)(l_AddHomClass_toAddHom___at_CentroidHom_toEnd___spec__2___rarg___lambda__1), 2, 0);
+x_4 = lean_alloc_closure((void*)(l_AddHomClass_toAddHom___elambda__1___rarg), 3, 2);
+lean_closure_set(x_4, 0, x_2);
+lean_closure_set(x_4, 1, x_3);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CentroidHom_toEnd___at_CentroidHom_instRing___spec__1(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CentroidHom_toEnd___at_CentroidHom_instRing___spec__1___rarg___boxed), 2, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_AddMonoidHom_id___at_CentroidHom_instRing___spec__6___rarg(lean_object* x_1) {
+_start:
+{
+lean_inc(x_1);
+return x_1;
+}
+}
+LEAN_EXPORT lean_object* l_AddMonoidHom_id___at_CentroidHom_instRing___spec__6(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = lean_alloc_closure((void*)(l_AddMonoidHom_id___at_CentroidHom_instRing___spec__6___rarg___boxed), 1, 0);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CentroidHom_id___at_CentroidHom_instRing___spec__5___rarg(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_AddMonoidHom_id___at_CentroidHom_instRing___spec__6___rarg___boxed), 1, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CentroidHom_id___at_CentroidHom_instRing___spec__5(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CentroidHom_id___at_CentroidHom_instRing___spec__5___rarg___boxed), 1, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_Nat_cast___at_CentroidHom_instRing___spec__4___rarg(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; lean_object* x_6; lean_object* x_7; lean_object* x_8; lean_object* x_9; 
+x_3 = l_NonUnitalNonAssocRing_toNonUnitalNonAssocSemiring___rarg(x_1);
+x_4 = l_CentroidHom_instAddCommMonoid___rarg___closed__1;
+x_5 = lean_ctor_get(x_4, 0);
+lean_inc(x_5);
+x_6 = lean_ctor_get(x_3, 0);
+lean_inc(x_6);
+x_7 = lean_ctor_get(x_6, 2);
+lean_inc(x_7);
+lean_dec(x_6);
+x_8 = lean_alloc_closure((void*)(l_AddMonoidHom_id___at_CentroidHom_instRing___spec__6___rarg___boxed), 1, 0);
+x_9 = lean_alloc_closure((void*)(l_CentroidHom_instSMul___rarg___boxed), 8, 7);
+lean_closure_set(x_9, 0, x_3);
+lean_closure_set(x_9, 1, x_5);
+lean_closure_set(x_9, 2, x_7);
+lean_closure_set(x_9, 3, lean_box(0));
+lean_closure_set(x_9, 4, lean_box(0));
+lean_closure_set(x_9, 5, x_2);
+lean_closure_set(x_9, 6, x_8);
+return x_9;
+}
+}
+LEAN_EXPORT lean_object* l_Nat_cast___at_CentroidHom_instRing___spec__4(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_Nat_cast___at_CentroidHom_instRing___spec__4___rarg), 2, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_AddMonoidHom_id___at_CentroidHom_instRing___spec__8___rarg(lean_object* x_1) {
+_start:
+{
+lean_inc(x_1);
+return x_1;
+}
+}
+LEAN_EXPORT lean_object* l_AddMonoidHom_id___at_CentroidHom_instRing___spec__8(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = lean_alloc_closure((void*)(l_AddMonoidHom_id___at_CentroidHom_instRing___spec__8___rarg___boxed), 1, 0);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CentroidHom_id___at_CentroidHom_instRing___spec__7___rarg(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_AddMonoidHom_id___at_CentroidHom_instRing___spec__8___rarg___boxed), 1, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CentroidHom_id___at_CentroidHom_instRing___spec__7(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CentroidHom_id___at_CentroidHom_instRing___spec__7___rarg___boxed), 1, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_AddMonoidHom_id___at_CentroidHom_instRing___spec__11___rarg(lean_object* x_1) {
+_start:
+{
+lean_inc(x_1);
+return x_1;
+}
+}
+LEAN_EXPORT lean_object* l_AddMonoidHom_id___at_CentroidHom_instRing___spec__11(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = lean_alloc_closure((void*)(l_AddMonoidHom_id___at_CentroidHom_instRing___spec__11___rarg___boxed), 1, 0);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CentroidHom_id___at_CentroidHom_instRing___spec__10___rarg(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_AddMonoidHom_id___at_CentroidHom_instRing___spec__11___rarg___boxed), 1, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CentroidHom_id___at_CentroidHom_instRing___spec__10(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CentroidHom_id___at_CentroidHom_instRing___spec__10___rarg___boxed), 1, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_AddHomClass_toAddHom___at_CentroidHom_instRing___spec__13___rarg(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; lean_object* x_3; 
+x_2 = l_AddHomClass_toAddHom___at_CentroidHom_toEnd___spec__2___rarg___closed__1;
+x_3 = lean_alloc_closure((void*)(l_AddHomClass_toAddHom___elambda__1___rarg), 3, 2);
+lean_closure_set(x_3, 0, x_1);
+lean_closure_set(x_3, 1, x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_AddHomClass_toAddHom___at_CentroidHom_instRing___spec__13(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = lean_alloc_closure((void*)(l_AddHomClass_toAddHom___at_CentroidHom_instRing___spec__13___rarg), 1, 0);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_instRing___spec__12___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; 
+x_4 = lean_alloc_closure((void*)(l_AddHomClass_toAddHom___at_CentroidHom_toEnd___spec__2___rarg___lambda__1), 2, 0);
+x_5 = lean_alloc_closure((void*)(l_AddHomClass_toAddHom___elambda__1___rarg), 3, 2);
+lean_closure_set(x_5, 0, x_3);
+lean_closure_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_instRing___spec__12(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_instRing___spec__12___rarg___boxed), 3, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_Int_cast___at_CentroidHom_instRing___spec__9___rarg___lambda__1(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; 
+x_6 = lean_ctor_get(x_1, 3);
+lean_inc(x_6);
+lean_dec(x_1);
+x_7 = lean_apply_1(x_3, x_5);
+x_8 = lean_apply_2(x_6, x_4, x_7);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_Int_cast___at_CentroidHom_instRing___spec__9___rarg(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+x_3 = lean_ctor_get(x_1, 0);
+lean_inc(x_3);
+x_4 = lean_alloc_closure((void*)(l_AddMonoidHom_id___at_CentroidHom_instRing___spec__11___rarg___boxed), 1, 0);
+x_5 = lean_alloc_closure((void*)(l_Int_cast___at_CentroidHom_instRing___spec__9___rarg___lambda__1___boxed), 5, 4);
+lean_closure_set(x_5, 0, x_3);
+lean_closure_set(x_5, 1, x_1);
+lean_closure_set(x_5, 2, x_4);
+lean_closure_set(x_5, 3, x_2);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_Int_cast___at_CentroidHom_instRing___spec__9(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_Int_cast___at_CentroidHom_instRing___spec__9___rarg), 2, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_AddMonoidHom_comp___at_CentroidHom_instRing___spec__15___rarg(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+x_3 = lean_alloc_closure((void*)(l_AddMonoidHom_instFunLike___elambda__1___rarg), 2, 1);
+lean_closure_set(x_3, 0, x_1);
+x_4 = lean_alloc_closure((void*)(l_AddMonoidHom_instFunLike___elambda__1___rarg), 2, 1);
+lean_closure_set(x_4, 0, x_2);
+x_5 = lean_alloc_closure((void*)(l_Function_comp___rarg), 3, 2);
+lean_closure_set(x_5, 0, x_3);
+lean_closure_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_AddMonoidHom_comp___at_CentroidHom_instRing___spec__15(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = lean_alloc_closure((void*)(l_AddMonoidHom_comp___at_CentroidHom_instRing___spec__15___rarg), 2, 0);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CentroidHom_comp___at_CentroidHom_instRing___spec__14___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_AddMonoidHom_comp___at_CentroidHom_instRing___spec__15___rarg(x_2, x_3);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CentroidHom_comp___at_CentroidHom_instRing___spec__14(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CentroidHom_comp___at_CentroidHom_instRing___spec__14___rarg___boxed), 3, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_AddHomClass_toAddHom___at_CentroidHom_instRing___spec__18___rarg(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; lean_object* x_3; 
+x_2 = l_AddHomClass_toAddHom___at_CentroidHom_toEnd___spec__2___rarg___closed__1;
+x_3 = lean_alloc_closure((void*)(l_AddHomClass_toAddHom___elambda__1___rarg), 3, 2);
+lean_closure_set(x_3, 0, x_1);
+lean_closure_set(x_3, 1, x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_AddHomClass_toAddHom___at_CentroidHom_instRing___spec__18(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = lean_alloc_closure((void*)(l_AddHomClass_toAddHom___at_CentroidHom_instRing___spec__18___rarg), 1, 0);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_instRing___spec__17___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; 
+x_4 = lean_alloc_closure((void*)(l_AddHomClass_toAddHom___at_CentroidHom_toEnd___spec__2___rarg___lambda__1), 2, 0);
+x_5 = lean_alloc_closure((void*)(l_AddHomClass_toAddHom___elambda__1___rarg), 3, 2);
+lean_closure_set(x_5, 0, x_3);
+lean_closure_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_instRing___spec__17(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_instRing___spec__17___rarg___boxed), 3, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CentroidHom_toEnd___at_CentroidHom_instRing___spec__16___rarg(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; 
+x_3 = lean_alloc_closure((void*)(l_AddHomClass_toAddHom___at_CentroidHom_toEnd___spec__2___rarg___lambda__1), 2, 0);
+x_4 = lean_alloc_closure((void*)(l_AddHomClass_toAddHom___elambda__1___rarg), 3, 2);
+lean_closure_set(x_4, 0, x_2);
+lean_closure_set(x_4, 1, x_3);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CentroidHom_toEnd___at_CentroidHom_instRing___spec__16(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CentroidHom_toEnd___at_CentroidHom_instRing___spec__16___rarg___boxed), 2, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CentroidHom_instRing___rarg___lambda__1(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+x_5 = lean_alloc_closure((void*)(l_AddHomClass_toAddHom___at_CentroidHom_toEnd___spec__2___rarg___lambda__1), 2, 0);
+x_6 = lean_alloc_closure((void*)(l_AddHomClass_toAddHom___elambda__1___rarg), 3, 2);
+lean_closure_set(x_6, 0, x_4);
+lean_closure_set(x_6, 1, x_5);
+x_7 = l_AddMonoid_End_instMonoid___elambda__1___rarg(x_2, x_3, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CentroidHom_instRing___rarg(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; lean_object* x_3; lean_object* x_4; lean_object* x_5; lean_object* x_6; lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; lean_object* x_11; lean_object* x_12; lean_object* x_13; lean_object* x_14; lean_object* x_15; lean_object* x_16; lean_object* x_17; lean_object* x_18; lean_object* x_19; lean_object* x_20; lean_object* x_21; lean_object* x_22; lean_object* x_23; lean_object* x_24; lean_object* x_25; lean_object* x_26; lean_object* x_27; lean_object* x_28; lean_object* x_29; 
+lean_inc(x_1);
+x_2 = l_NonUnitalNonAssocRing_toNonUnitalNonAssocSemiring___rarg(x_1);
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_CentroidHom_instAdd___rarg___boxed), 3, 1);
+lean_closure_set(x_3, 0, x_2);
+lean_inc(x_2);
+x_4 = lean_alloc_closure((void*)(l_CentroidHom_comp___rarg___boxed), 3, 1);
+lean_closure_set(x_4, 0, x_2);
+lean_inc(x_2);
+x_5 = l_CentroidHom_instZero___rarg(x_2);
+lean_inc(x_1);
+x_6 = lean_alloc_closure((void*)(l_CentroidHom_instNeg___rarg), 2, 1);
+lean_closure_set(x_6, 0, x_1);
+lean_inc(x_1);
+x_7 = lean_alloc_closure((void*)(l_CentroidHom_instSub___rarg), 3, 1);
+lean_closure_set(x_7, 0, x_1);
+lean_inc(x_2);
+x_8 = l_CentroidHom_instSemiring___rarg(x_2);
+x_9 = l_Semiring_toNonAssocSemiring___rarg(x_8);
+lean_dec(x_8);
+x_10 = l_NonAssocSemiring_toAddCommMonoidWithOne___rarg(x_9);
+lean_dec(x_9);
+x_11 = lean_ctor_get(x_10, 1);
+lean_inc(x_11);
+lean_dec(x_10);
+x_12 = lean_ctor_get(x_11, 2);
+lean_inc(x_12);
+lean_dec(x_11);
+x_13 = l_CentroidHom_instAddCommGroup___rarg___closed__1;
+x_14 = lean_ctor_get(x_13, 0);
+lean_inc(x_14);
+x_15 = lean_ctor_get(x_1, 0);
+lean_inc(x_15);
+x_16 = lean_ctor_get(x_15, 3);
+lean_inc(x_16);
+lean_dec(x_15);
+lean_inc(x_2);
+x_17 = lean_alloc_closure((void*)(l_CentroidHom_instSMul___rarg___boxed), 8, 5);
+lean_closure_set(x_17, 0, x_2);
+lean_closure_set(x_17, 1, x_14);
+lean_closure_set(x_17, 2, x_16);
+lean_closure_set(x_17, 3, lean_box(0));
+lean_closure_set(x_17, 4, lean_box(0));
+x_18 = lean_alloc_closure((void*)(l_Function_Injective_addMonoid___elambda__1___rarg), 3, 1);
+lean_closure_set(x_18, 0, x_12);
+x_19 = lean_alloc_closure((void*)(l_Function_Injective_subNegMonoid___elambda__1___rarg), 3, 1);
+lean_closure_set(x_19, 0, x_17);
+lean_inc(x_1);
+x_20 = lean_alloc_closure((void*)(l_Nat_cast___at_CentroidHom_instRing___spec__4___rarg), 2, 1);
+lean_closure_set(x_20, 0, x_1);
+lean_inc(x_1);
+x_21 = lean_alloc_closure((void*)(l_Int_cast___at_CentroidHom_instRing___spec__9___rarg), 2, 1);
+lean_closure_set(x_21, 0, x_1);
+x_22 = l_CentroidHom_instInhabited___closed__1;
+x_23 = lean_ctor_get(x_2, 0);
+lean_inc(x_23);
+lean_dec(x_2);
+x_24 = l_AddMonoid_toAddZeroClass___rarg(x_23);
+lean_dec(x_23);
+x_25 = lean_alloc_closure((void*)(l_CentroidHom_instRing___rarg___lambda__1___boxed), 4, 2);
+lean_closure_set(x_25, 0, x_1);
+lean_closure_set(x_25, 1, x_24);
+x_26 = lean_alloc_ctor(0, 3, 0);
+lean_ctor_set(x_26, 0, x_3);
+lean_ctor_set(x_26, 1, x_5);
+lean_ctor_set(x_26, 2, x_18);
+x_27 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_27, 0, x_26);
+lean_ctor_set(x_27, 1, x_4);
+x_28 = lean_alloc_ctor(0, 4, 0);
+lean_ctor_set(x_28, 0, x_27);
+lean_ctor_set(x_28, 1, x_22);
+lean_ctor_set(x_28, 2, x_20);
+lean_ctor_set(x_28, 3, x_25);
+x_29 = lean_alloc_ctor(0, 5, 0);
+lean_ctor_set(x_29, 0, x_28);
+lean_ctor_set(x_29, 1, x_6);
+lean_ctor_set(x_29, 2, x_7);
+lean_ctor_set(x_29, 3, x_19);
+lean_ctor_set(x_29, 4, x_21);
+return x_29;
+}
+}
+LEAN_EXPORT lean_object* l_CentroidHom_instRing(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CentroidHom_instRing___rarg), 1, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_AddHomClass_toAddHom___at_CentroidHom_instRing___spec__3___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_AddHomClass_toAddHom___at_CentroidHom_instRing___spec__3(x_1, x_2, x_3);
+lean_dec(x_2);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_instRing___spec__2___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_instRing___spec__2___rarg(x_1, x_2, x_3);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CentroidHom_toEnd___at_CentroidHom_instRing___spec__1___rarg___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_CentroidHom_toEnd___at_CentroidHom_instRing___spec__1___rarg(x_1, x_2);
+lean_dec(x_1);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_AddMonoidHom_id___at_CentroidHom_instRing___spec__6___rarg___boxed(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = l_AddMonoidHom_id___at_CentroidHom_instRing___spec__6___rarg(x_1);
+lean_dec(x_1);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_AddMonoidHom_id___at_CentroidHom_instRing___spec__6___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_AddMonoidHom_id___at_CentroidHom_instRing___spec__6(x_1, x_2);
+lean_dec(x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CentroidHom_id___at_CentroidHom_instRing___spec__5___rarg___boxed(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = l_CentroidHom_id___at_CentroidHom_instRing___spec__5___rarg(x_1);
+lean_dec(x_1);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_AddMonoidHom_id___at_CentroidHom_instRing___spec__8___rarg___boxed(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = l_AddMonoidHom_id___at_CentroidHom_instRing___spec__8___rarg(x_1);
+lean_dec(x_1);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_AddMonoidHom_id___at_CentroidHom_instRing___spec__8___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_AddMonoidHom_id___at_CentroidHom_instRing___spec__8(x_1, x_2);
+lean_dec(x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CentroidHom_id___at_CentroidHom_instRing___spec__7___rarg___boxed(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = l_CentroidHom_id___at_CentroidHom_instRing___spec__7___rarg(x_1);
+lean_dec(x_1);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_AddMonoidHom_id___at_CentroidHom_instRing___spec__11___rarg___boxed(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = l_AddMonoidHom_id___at_CentroidHom_instRing___spec__11___rarg(x_1);
+lean_dec(x_1);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_AddMonoidHom_id___at_CentroidHom_instRing___spec__11___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_AddMonoidHom_id___at_CentroidHom_instRing___spec__11(x_1, x_2);
+lean_dec(x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CentroidHom_id___at_CentroidHom_instRing___spec__10___rarg___boxed(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = l_CentroidHom_id___at_CentroidHom_instRing___spec__10___rarg(x_1);
+lean_dec(x_1);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_AddHomClass_toAddHom___at_CentroidHom_instRing___spec__13___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_AddHomClass_toAddHom___at_CentroidHom_instRing___spec__13(x_1, x_2, x_3);
+lean_dec(x_2);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_instRing___spec__12___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_instRing___spec__12___rarg(x_1, x_2, x_3);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_Int_cast___at_CentroidHom_instRing___spec__9___rarg___lambda__1___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_Int_cast___at_CentroidHom_instRing___spec__9___rarg___lambda__1(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_2);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_AddMonoidHom_comp___at_CentroidHom_instRing___spec__15___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_AddMonoidHom_comp___at_CentroidHom_instRing___spec__15(x_1, x_2);
+lean_dec(x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CentroidHom_comp___at_CentroidHom_instRing___spec__14___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CentroidHom_comp___at_CentroidHom_instRing___spec__14___rarg(x_1, x_2, x_3);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_AddHomClass_toAddHom___at_CentroidHom_instRing___spec__18___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_AddHomClass_toAddHom___at_CentroidHom_instRing___spec__18(x_1, x_2, x_3);
+lean_dec(x_2);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_instRing___spec__17___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_AddMonoidHomClass_toAddMonoidHom___at_CentroidHom_instRing___spec__17___rarg(x_1, x_2, x_3);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CentroidHom_toEnd___at_CentroidHom_instRing___spec__16___rarg___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_CentroidHom_toEnd___at_CentroidHom_instRing___spec__16___rarg(x_1, x_2);
+lean_dec(x_1);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CentroidHom_instRing___rarg___lambda__1___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CentroidHom_instRing___rarg___lambda__1(x_1, x_2, x_3, x_4);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CentroidHom_commRing___rarg(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_CentroidHom_instRing___rarg(x_1);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CentroidHom_commRing(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CentroidHom_commRing___rarg), 2, 0);
+return x_2;
+}
+}
+lean_object* initialize_Init(uint8_t builtin, lean_object*);
+lean_object* initialize_Mathlib_Algebra_Algebra_Defs(uint8_t builtin, lean_object*);
+lean_object* initialize_Mathlib_Algebra_Group_Action_Pi(uint8_t builtin, lean_object*);
+lean_object* initialize_Mathlib_Algebra_Module_Hom(uint8_t builtin, lean_object*);
+lean_object* initialize_Mathlib_GroupTheory_GroupAction_Ring(uint8_t builtin, lean_object*);
+lean_object* initialize_Mathlib_RingTheory_NonUnitalSubsemiring_Basic(uint8_t builtin, lean_object*);
+lean_object* initialize_Mathlib_Algebra_Ring_Subsemiring_Basic(uint8_t builtin, lean_object*);
+static bool _G_initialized = false;
+LEAN_EXPORT lean_object* initialize_Mathlib_Algebra_Ring_CentroidHom(uint8_t builtin, lean_object* w) {
+lean_object * res;
+if (_G_initialized) return lean_io_result_mk_ok(lean_box(0));
+_G_initialized = true;
+res = initialize_Init(builtin, lean_io_mk_world());
+if (lean_io_result_is_error(res)) return res;
+lean_dec_ref(res);
+res = initialize_Mathlib_Algebra_Algebra_Defs(builtin, lean_io_mk_world());
+if (lean_io_result_is_error(res)) return res;
+lean_dec_ref(res);
+res = initialize_Mathlib_Algebra_Group_Action_Pi(builtin, lean_io_mk_world());
+if (lean_io_result_is_error(res)) return res;
+lean_dec_ref(res);
+res = initialize_Mathlib_Algebra_Module_Hom(builtin, lean_io_mk_world());
+if (lean_io_result_is_error(res)) return res;
+lean_dec_ref(res);
+res = initialize_Mathlib_GroupTheory_GroupAction_Ring(builtin, lean_io_mk_world());
+if (lean_io_result_is_error(res)) return res;
+lean_dec_ref(res);
+res = initialize_Mathlib_RingTheory_NonUnitalSubsemiring_Basic(builtin, lean_io_mk_world());
+if (lean_io_result_is_error(res)) return res;
+lean_dec_ref(res);
+res = initialize_Mathlib_Algebra_Ring_Subsemiring_Basic(builtin, lean_io_mk_world());
+if (lean_io_result_is_error(res)) return res;
+lean_dec_ref(res);
+l_AddHomClass_toAddHom___at_CentroidHom_toEnd___spec__2___rarg___closed__1 = _init_l_AddHomClass_toAddHom___at_CentroidHom_toEnd___spec__2___rarg___closed__1();
+lean_mark_persistent(l_AddHomClass_toAddHom___at_CentroidHom_toEnd___spec__2___rarg___closed__1);
+l_CentroidHom_instInhabited___closed__1 = _init_l_CentroidHom_instInhabited___closed__1();
+lean_mark_persistent(l_CentroidHom_instInhabited___closed__1);
+l_CentroidHom_instAddCommMonoid___rarg___closed__1 = _init_l_CentroidHom_instAddCommMonoid___rarg___closed__1();
+lean_mark_persistent(l_CentroidHom_instAddCommMonoid___rarg___closed__1);
+l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__1 = _init_l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__1();
+lean_mark_persistent(l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__1);
+l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__2 = _init_l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__2();
+lean_mark_persistent(l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__2);
+l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__3 = _init_l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__3();
+lean_mark_persistent(l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__3);
+l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__4 = _init_l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__4();
+lean_mark_persistent(l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__4);
+l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__5 = _init_l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__5();
+lean_mark_persistent(l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__5);
+l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__6 = _init_l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__6();
+lean_mark_persistent(l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__6);
+l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__7 = _init_l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__7();
+lean_mark_persistent(l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__7);
+l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__8 = _init_l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__8();
+lean_mark_persistent(l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__8);
+l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__9 = _init_l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__9();
+lean_mark_persistent(l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__9);
+l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__10 = _init_l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__10();
+lean_mark_persistent(l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__10);
+l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__11 = _init_l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__11();
+lean_mark_persistent(l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__11);
+l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__12 = _init_l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__12();
+lean_mark_persistent(l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__12);
+l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__13 = _init_l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__13();
+lean_mark_persistent(l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__13);
+l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__14 = _init_l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__14();
+lean_mark_persistent(l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__14);
+l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__15 = _init_l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__15();
+lean_mark_persistent(l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__15);
+l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__16 = _init_l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__16();
+lean_mark_persistent(l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__16);
+l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__17 = _init_l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__17();
+lean_mark_persistent(l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__17);
+l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__18 = _init_l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__18();
+lean_mark_persistent(l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__18);
+l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__19 = _init_l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__19();
+lean_mark_persistent(l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609____closed__19);
+l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609_ = _init_l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609_();
+lean_mark_persistent(l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_5609_);
+l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______macroRules__CentroidHom__termL__1___closed__1 = _init_l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______macroRules__CentroidHom__termL__1___closed__1();
+lean_mark_persistent(l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______macroRules__CentroidHom__termL__1___closed__1);
+l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______macroRules__CentroidHom__termL__1___closed__2 = _init_l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______macroRules__CentroidHom__termL__1___closed__2();
+lean_mark_persistent(l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______macroRules__CentroidHom__termL__1___closed__2);
+l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______macroRules__CentroidHom__termL__1___closed__3 = _init_l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______macroRules__CentroidHom__termL__1___closed__3();
+lean_mark_persistent(l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______macroRules__CentroidHom__termL__1___closed__3);
+l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______macroRules__CentroidHom__termL__1___closed__4 = _init_l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______macroRules__CentroidHom__termL__1___closed__4();
+lean_mark_persistent(l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______macroRules__CentroidHom__termL__1___closed__4);
+l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______macroRules__CentroidHom__termL__1___closed__5 = _init_l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______macroRules__CentroidHom__termL__1___closed__5();
+lean_mark_persistent(l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______macroRules__CentroidHom__termL__1___closed__5);
+l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______macroRules__CentroidHom__termL__1___closed__6 = _init_l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______macroRules__CentroidHom__termL__1___closed__6();
+lean_mark_persistent(l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______macroRules__CentroidHom__termL__1___closed__6);
+l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______macroRules__CentroidHom__termL__1___closed__7 = _init_l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______macroRules__CentroidHom__termL__1___closed__7();
+lean_mark_persistent(l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______macroRules__CentroidHom__termL__1___closed__7);
+l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______macroRules__CentroidHom__termL__1___closed__8 = _init_l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______macroRules__CentroidHom__termL__1___closed__8();
+lean_mark_persistent(l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______macroRules__CentroidHom__termL__1___closed__8);
+l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______unexpand__AddMonoid__End__mulLeft__1___closed__1 = _init_l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______unexpand__AddMonoid__End__mulLeft__1___closed__1();
+lean_mark_persistent(l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______unexpand__AddMonoid__End__mulLeft__1___closed__1);
+l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______unexpand__AddMonoid__End__mulLeft__1___closed__2 = _init_l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______unexpand__AddMonoid__End__mulLeft__1___closed__2();
+lean_mark_persistent(l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______unexpand__AddMonoid__End__mulLeft__1___closed__2);
+l_CentroidHom_termR____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_6169____closed__1 = _init_l_CentroidHom_termR____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_6169____closed__1();
+lean_mark_persistent(l_CentroidHom_termR____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_6169____closed__1);
+l_CentroidHom_termR____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_6169____closed__2 = _init_l_CentroidHom_termR____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_6169____closed__2();
+lean_mark_persistent(l_CentroidHom_termR____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_6169____closed__2);
+l_CentroidHom_termR____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_6169____closed__3 = _init_l_CentroidHom_termR____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_6169____closed__3();
+lean_mark_persistent(l_CentroidHom_termR____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_6169____closed__3);
+l_CentroidHom_termR____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_6169____closed__4 = _init_l_CentroidHom_termR____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_6169____closed__4();
+lean_mark_persistent(l_CentroidHom_termR____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_6169____closed__4);
+l_CentroidHom_termR____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_6169____closed__5 = _init_l_CentroidHom_termR____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_6169____closed__5();
+lean_mark_persistent(l_CentroidHom_termR____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_6169____closed__5);
+l_CentroidHom_termR____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_6169____closed__6 = _init_l_CentroidHom_termR____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_6169____closed__6();
+lean_mark_persistent(l_CentroidHom_termR____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_6169____closed__6);
+l_CentroidHom_termR____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_6169____closed__7 = _init_l_CentroidHom_termR____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_6169____closed__7();
+lean_mark_persistent(l_CentroidHom_termR____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_6169____closed__7);
+l_CentroidHom_termR____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_6169____closed__8 = _init_l_CentroidHom_termR____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_6169____closed__8();
+lean_mark_persistent(l_CentroidHom_termR____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_6169____closed__8);
+l_CentroidHom_termR____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_6169____closed__9 = _init_l_CentroidHom_termR____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_6169____closed__9();
+lean_mark_persistent(l_CentroidHom_termR____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_6169____closed__9);
+l_CentroidHom_termR____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_6169____closed__10 = _init_l_CentroidHom_termR____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_6169____closed__10();
+lean_mark_persistent(l_CentroidHom_termR____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_6169____closed__10);
+l_CentroidHom_termR____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_6169____closed__11 = _init_l_CentroidHom_termR____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_6169____closed__11();
+lean_mark_persistent(l_CentroidHom_termR____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_6169____closed__11);
+l_CentroidHom_termR____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_6169____closed__12 = _init_l_CentroidHom_termR____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_6169____closed__12();
+lean_mark_persistent(l_CentroidHom_termR____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_6169____closed__12);
+l_CentroidHom_termR____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_6169_ = _init_l_CentroidHom_termR____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_6169_();
+lean_mark_persistent(l_CentroidHom_termR____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_6169_);
+l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______macroRules__CentroidHom__termR__1___closed__1 = _init_l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______macroRules__CentroidHom__termR__1___closed__1();
+lean_mark_persistent(l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______macroRules__CentroidHom__termR__1___closed__1);
+l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______macroRules__CentroidHom__termR__1___closed__2 = _init_l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______macroRules__CentroidHom__termR__1___closed__2();
+lean_mark_persistent(l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______macroRules__CentroidHom__termR__1___closed__2);
+l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______macroRules__CentroidHom__termR__1___closed__3 = _init_l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______macroRules__CentroidHom__termR__1___closed__3();
+lean_mark_persistent(l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______macroRules__CentroidHom__termR__1___closed__3);
+l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______macroRules__CentroidHom__termR__1___closed__4 = _init_l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______macroRules__CentroidHom__termR__1___closed__4();
+lean_mark_persistent(l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______macroRules__CentroidHom__termR__1___closed__4);
+l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______macroRules__CentroidHom__termR__1___closed__5 = _init_l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______macroRules__CentroidHom__termR__1___closed__5();
+lean_mark_persistent(l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______macroRules__CentroidHom__termR__1___closed__5);
+l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______macroRules__CentroidHom__termR__1___closed__6 = _init_l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______macroRules__CentroidHom__termR__1___closed__6();
+lean_mark_persistent(l_CentroidHom___aux__Mathlib__Algebra__Ring__CentroidHom______macroRules__CentroidHom__termR__1___closed__6);
+l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_8118____closed__1 = _init_l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_8118____closed__1();
+lean_mark_persistent(l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_8118____closed__1);
+l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_8118____closed__2 = _init_l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_8118____closed__2();
+lean_mark_persistent(l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_8118____closed__2);
+l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_8118_ = _init_l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_8118_();
+lean_mark_persistent(l_CentroidHom_termL____x40_Mathlib_Algebra_Ring_CentroidHom___hyg_8118_);
+l_CentroidHom_instAddCommGroup___rarg___closed__1 = _init_l_CentroidHom_instAddCommGroup___rarg___closed__1();
+lean_mark_persistent(l_CentroidHom_instAddCommGroup___rarg___closed__1);
+return lean_io_result_mk_ok(lean_box(0));
+}
+#ifdef __cplusplus
+}
+#endif

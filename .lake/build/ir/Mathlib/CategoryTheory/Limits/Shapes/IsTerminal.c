@@ -1,0 +1,4231 @@
+// Lean compiler output
+// Module: Mathlib.CategoryTheory.Limits.Shapes.IsTerminal
+// Imports: Init Mathlib.CategoryTheory.PEmpty Mathlib.CategoryTheory.Limits.IsLimit Mathlib.CategoryTheory.EpiMono Mathlib.CategoryTheory.Category.Preorder
+#include <lean/lean.h>
+#if defined(__clang__)
+#pragma clang diagnostic ignored "-Wunused-parameter"
+#pragma clang diagnostic ignored "-Wunused-label"
+#elif defined(__GNUC__) && !defined(__CLANG__)
+#pragma GCC diagnostic ignored "-Wunused-parameter"
+#pragma GCC diagnostic ignored "-Wunused-label"
+#pragma GCC diagnostic ignored "-Wunused-but-set-variable"
+#endif
+#ifdef __cplusplus
+extern "C" {
+#endif
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsTerminal_ofUnique___at_CategoryTheory_Limits_IsTerminal_ofUniqueHom___spec__1___rarg___boxed(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_empty___at_CategoryTheory_Limits_terminalUnopOfInitial___elambda__1___spec__3___rarg(lean_object*);
+static lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_isTerminalTop___spec__9___rarg___lambda__2___closed__1;
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_isInitialBot___spec__9___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsLimit_liftConeMorphism___at_CategoryTheory_Limits_IsTerminal_ofIso___spec__2___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_asEmptyCocone___rarg(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_empty___at_CategoryTheory_Limits_isTerminalTop___spec__2(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsColimit_descCoconeMorphism___at_CategoryTheory_Limits_IsInitial_ofIso___spec__2___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isLimitEmptyConeEquiv___elambda__1___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsTerminal_equivOfIso(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isLimitChangeEmptyCone(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsTerminal_from(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_colimitOfDiagramInitial___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isInitialEquivUnique___elambda__2___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isColimitChangeEmptyCocone(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_asEmptyCocone___at_CategoryTheory_Limits_isInitialBot___spec__5(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_asEmptyCone___spec__1___rarg___lambda__3___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isTerminalTop___rarg(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsLimit_ofIsoLimit___at_CategoryTheory_Limits_IsTerminal_ofIso___spec__1(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_colimitOfDiagramInitial___elambda__1___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsTerminal_from___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsColimit_ofIsoColimit___at_CategoryTheory_Limits_IsInitial_ofIso___spec__1___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_coneOfDiagramInitial___rarg___lambda__1___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_asEmptyCone___spec__1___rarg___lambda__1(lean_object*, uint8_t);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsTerminal_ofUnique___at_CategoryTheory_Limits_IsTerminal_ofUniqueHom___spec__1___rarg(lean_object*, lean_object*);
+static lean_object* l_CategoryTheory_Limits_asEmptyCone___rarg___closed__2;
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_colimitOfDiagramInitial___elambda__1___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_limitOfDiagramInitial___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isInitialBot___rarg(lean_object*, lean_object*);
+static lean_object* l_CategoryTheory_Functor_empty___at_CategoryTheory_Limits_terminalOpOfInitial___spec__1___rarg___closed__1;
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsInitial_equivOfIso___elambda__2(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_initialUnopOfTerminal___elambda__1___spec__4(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isInitialEquivUnique(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_asEmptyCocone___rarg___boxed(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isColimitEmptyCoconeEquiv___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsInitial_ofUnique___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isTerminalEquivUnique___elambda__1___rarg(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsTerminal_equivOfIso___elambda__2___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsTerminal_ofUniqueHom(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isColimitChangeEmptyCocone___elambda__1___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Limits_initialUnopOfTerminal___elambda__1___spec__5___rarg(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_isTerminalTop___spec__7___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsTerminal_ofUnique(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_isInitialBot___spec__3___rarg___lambda__1___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+lean_object* l_CategoryTheory_uniqueToTop___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_empty___at_CategoryTheory_Limits_isTerminalTop___spec__2___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsInitial_equivOfIso___elambda__1___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_isTerminalTop___spec__9___rarg___lambda__3___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_colimitOfDiagramInitial(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_empty___at_CategoryTheory_Limits_terminalOpOfInitial___spec__1(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsInitial_uniqueUpToIso(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Limits_isInitialBot___spec__8(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_colimitOfDiagramTerminal___elambda__1___rarg___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isTerminalEquivUnique___elambda__2___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_empty___at_CategoryTheory_Limits_initialUnopOfTerminal___elambda__1___spec__3(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_terminalOpOfInitial___spec__6(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_isTerminalTop___spec__3(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_isTerminalTop___spec__3___rarg___lambda__1(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsInitial_ofIso___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isInitialEquivUnique___elambda__2___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isLimitEmptyConeEquiv___elambda__2___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isInitialEquivUnique___elambda__2(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsLimit_mkConeMorphism___at_CategoryTheory_Limits_IsTerminal_ofIso___spec__3(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_isTerminalTop___spec__3___rarg___lambda__2___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_isTerminalTop___spec__7(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_asEmptyCone___at_CategoryTheory_Limits_initialUnopOfTerminal___elambda__1___spec__2___rarg___boxed(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsLimit_mkConeMorphism___at_CategoryTheory_Limits_IsTerminal_ofIso___spec__3___rarg(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsInitial_ofUnique___at_CategoryTheory_Limits_isInitialBot___spec__1___rarg___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Limits_isInitialBot___spec__4___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_isTerminalTop___spec__7___rarg___lambda__1(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsTerminal_equivOfIso___elambda__1___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_colimitOfDiagramTerminal___elambda__1___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_isTerminalEquivUnique___elambda__1___spec__1(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isColimitEmptyCoconeEquiv___elambda__2___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_asEmptyCocone___at_CategoryTheory_Limits_terminalUnopOfInitial___elambda__1___spec__2___rarg___boxed(lean_object*, lean_object*);
+static lean_object* l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_isTerminalTop___spec__3___rarg___closed__1;
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsColimit_mkCoconeMorphism___at_CategoryTheory_Limits_IsInitial_ofIso___spec__3(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_terminalUnopOfInitial___elambda__1___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_empty___at_CategoryTheory_Limits_terminalOpOfInitial___spec__1___rarg___lambda__1(uint8_t);
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Limits_initialOpOfTerminal___spec__3___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_initialUnopOfTerminal___elambda__1___spec__6___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_coconeOfDiagramTerminal(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_colimitOfDiagramTerminal___elambda__1___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_terminalUnopOfInitial___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isColimitChangeEmptyCocone___elambda__1___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_asEmptyCone___spec__1___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_terminalOpOfInitial___spec__2___rarg___lambda__1(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Limits_initialOpOfTerminal___spec__7(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_isTerminalTop___spec__3___rarg___lambda__2(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsInitial_equivOfIso___elambda__1___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_isInitialEquivUnique___elambda__1___spec__1___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Limits_terminalOpOfInitial___spec__7___rarg(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_coneOfDiagramInitial___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_colimitOfDiagramInitial___elambda__1(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsTerminal_uniqueUpToIso(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsInitial_ofUniqueHom(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Limits_terminalUnopOfInitial___elambda__1___spec__5(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_asEmptyCone___rarg___lambda__1(uint8_t);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsInitial_ofUnique___at_CategoryTheory_Limits_IsInitial_ofUniqueHom___spec__1___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isLimitChangeEmptyCone___elambda__1___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isLimitEmptyConeEquiv(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Limits_terminalOpOfInitial___spec__3(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_asEmptyCone___at_CategoryTheory_Limits_initialUnopOfTerminal___elambda__1___spec__2(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_terminalOpOfInitial___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsInitial_uniqueUpToIso___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsColimit_descCoconeMorphism___at_CategoryTheory_Limits_IsInitial_ofIso___spec__2___rarg(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsTerminal_ofIso___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+lean_object* l_CategoryTheory_Limits_IsLimit_mkConeMorphism___elambda__1___rarg(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_asEmptyCone___at_CategoryTheory_Limits_terminalOpOfInitial___spec__4___rarg(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_asEmptyCocone___at_CategoryTheory_Limits_initialOpOfTerminal___spec__4___rarg(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsInitial_equivOfIso___elambda__1(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_empty___at_CategoryTheory_Limits_isInitialBot___spec__2(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsTerminal_from___at_CategoryTheory_Limits_initialUnopOfTerminal___elambda__1___spec__1___rarg(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isLimitEmptyConeEquiv___elambda__1(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Limits_initialOpOfTerminal___spec__7___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_asEmptyCocone___at_CategoryTheory_Limits_terminalUnopOfInitial___elambda__1___spec__2___rarg(lean_object*, lean_object*);
+lean_object* l_CategoryTheory_Functor_empty___rarg___lambda__1___boxed(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsInitial_ofUnique___elambda__1(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_limitOfDiagramTerminal___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_asEmptyCone___spec__1___rarg___lambda__3(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsColimit_ofIsoColimit___at_CategoryTheory_Limits_IsInitial_ofIso___spec__1___rarg___lambda__1___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsInitial_equivOfIso___rarg(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isColimitChangeEmptyCocone___elambda__1(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsTerminal_ofUnique___at_CategoryTheory_Limits_IsTerminal_ofUniqueHom___spec__1___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_coneOfDiagramInitial___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_isInitialBot___spec__7(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsLimit_ofIsoLimit___at_CategoryTheory_Limits_IsTerminal_ofIso___spec__1___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_isInitialBot___spec__7___rarg___lambda__1(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_empty___at_CategoryTheory_Limits_isTerminalTop___spec__6___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isColimitEmptyCoconeEquiv___elambda__1___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsInitial_equivOfIso___elambda__2___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_isInitialBot___spec__3___rarg___lambda__1(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Limits_isTerminalTop___spec__8(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+lean_object* l_Preorder_smallCategory(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_empty___at_CategoryTheory_Limits_initialOpOfTerminal___spec__5(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isLimitChangeEmptyCone___elambda__1(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsInitial_ofUnique___elambda__1___rarg(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_isInitialBot___spec__9(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_limitOfDiagramInitial___elambda__1(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_initialOpOfTerminal___spec__8(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_isTerminalTop___spec__3___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_isTerminalEquivUnique___elambda__2___spec__1___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_asEmptyCone___at_CategoryTheory_Limits_terminalOpOfInitial___spec__4___rarg___boxed(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsTerminal_ofUnique___at_CategoryTheory_Limits_isTerminalTop___spec__1___rarg___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_coneOfDiagramInitial(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_terminalOpOfInitial___spec__2___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsTerminal_equivOfIso___elambda__2(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_empty___at_CategoryTheory_Limits_isTerminalTop___spec__6(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsInitial_ofUniqueHom___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Limits_isTerminalTop___spec__8___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsInitial_to___at_CategoryTheory_Limits_terminalUnopOfInitial___elambda__1___spec__1(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsLimit_ofIsoLimit___at_CategoryTheory_Limits_IsTerminal_ofIso___spec__1___rarg___lambda__1(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsInitial_ofUniqueHom___rarg(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsLimit_liftConeMorphism___at_CategoryTheory_Limits_IsTerminal_ofIso___spec__2___rarg(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsInitial_ofUnique(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_limitOfDiagramInitial___elambda__1___rarg___boxed(lean_object*, lean_object*, lean_object*);
+static lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_asEmptyCone___spec__1___rarg___closed__2;
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isLimitChangeEmptyCone___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_asEmptyCone___spec__1(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Limits_isInitialBot___spec__8___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Limits_initialOpOfTerminal___spec__7___rarg(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsInitial_to___at_CategoryTheory_Limits_terminalUnopOfInitial___elambda__1___spec__1___rarg(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_terminalUnopOfInitial___elambda__1___spec__4___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsTerminal_equivOfIso___elambda__1___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_terminalOpOfInitial___spec__6___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isTerminalEquivUnique___elambda__1(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_limitOfDiagramInitial___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+static lean_object* l_CategoryTheory_Limits_asEmptyCone___rarg___closed__1;
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_isColimitChangeEmptyCocone___elambda__1___spec__1(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_asEmptyCone___at_CategoryTheory_Limits_terminalOpOfInitial___spec__4(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_asEmptyCocone___at_CategoryTheory_Limits_initialOpOfTerminal___spec__4___rarg___boxed(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_terminalOpOfInitial___spec__6___rarg___lambda__1(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsTerminal_ofUnique___elambda__1___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Limits_terminalOpOfInitial___spec__3___rarg(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_asEmptyCocone___at_CategoryTheory_Limits_terminalUnopOfInitial___elambda__1___spec__2(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsInitial_uniqueUpToIso___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_limitOfDiagramTerminal___elambda__1___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_empty___at_CategoryTheory_Limits_terminalOpOfInitial___spec__1___rarg___lambda__1___boxed(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_empty___at_CategoryTheory_Limits_isTerminalTop___spec__2___rarg___lambda__1(uint8_t);
+LEAN_EXPORT lean_object* l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_isInitialBot___spec__3(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_asEmptyCone___at_CategoryTheory_Limits_isTerminalTop___spec__5___rarg___boxed(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Limits_isInitialBot___spec__4(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_initialUnopOfTerminal___elambda__1___spec__6(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isLimitEmptyConeEquiv___elambda__2(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_asEmptyCone___at_CategoryTheory_Limits_isTerminalTop___spec__5___rarg(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsTerminal_equivOfIso___elambda__1(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_empty___at_CategoryTheory_Limits_initialUnopOfTerminal___elambda__1___spec__3___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsInitial_to(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_isTerminalTop___spec__9___rarg___lambda__2(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_limitOfDiagramTerminal(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsTerminal_equivOfIso___rarg(lean_object*, lean_object*, lean_object*, lean_object*);
+lean_object* l_CategoryTheory_discreteCategory(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_coconeOfDiagramTerminal___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_isLimitChangeEmptyCone___elambda__1___spec__1___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_initialUnopOfTerminal___elambda__1(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsTerminal_ofUniqueHom___rarg(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_coconeOfDiagramTerminal___rarg___lambda__1(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isLimitChangeEmptyCone___elambda__1___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isInitialEquivUnique___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_coconeOfDiagramTerminal___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_asEmptyCocone(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_isColimitChangeEmptyCocone___elambda__1___spec__1___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_asEmptyCone___rarg(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_terminalOpOfInitial___spec__8___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_initialUnopOfTerminal___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_initialOpOfTerminal(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_limitOfDiagramTerminal___elambda__1___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsInitial_ofUnique___at_CategoryTheory_Limits_IsInitial_ofUniqueHom___spec__1___rarg(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_limitOfDiagramTerminal___elambda__1(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_asEmptyCone___spec__1___rarg___lambda__4(lean_object*, lean_object*, lean_object*, uint8_t);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_asEmptyCone___rarg___boxed(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_isTerminalTop___spec__9___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsTerminal_uniqueUpToIso___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_isInitialEquivUnique___elambda__1___spec__1(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_empty___at_CategoryTheory_Limits_initialOpOfTerminal___spec__5___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_asEmptyCone___rarg___lambda__1___boxed(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_empty___at_CategoryTheory_Limits_initialOpOfTerminal___spec__1___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_terminalOpOfInitial___elambda__1(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_asEmptyCone___spec__1___rarg___lambda__2(lean_object*, lean_object*, uint8_t, uint8_t, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_terminalOpOfInitial___spec__2(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_initialOpOfTerminal___spec__2___rarg___lambda__1(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsTerminal_ofUnique___at_CategoryTheory_Limits_isTerminalTop___spec__1___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_isInitialBot___spec__7___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsInitial_to___rarg(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsTerminal_from___at_CategoryTheory_Limits_initialUnopOfTerminal___elambda__1___spec__1___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_limitOfDiagramInitial___elambda__1___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_isTerminalTop___spec__9___rarg___lambda__2___boxed(lean_object*, lean_object*, lean_object*);
+static lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_isTerminalTop___spec__9___rarg___closed__1;
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_initialOpOfTerminal___spec__8___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_empty___at_CategoryTheory_Limits_initialOpOfTerminal___spec__1(lean_object*);
+lean_object* l_CategoryTheory_uniqueFromBot___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_colimitOfDiagramInitial___elambda__1___rarg___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_asEmptyCocone___at_CategoryTheory_Limits_isInitialBot___spec__5___rarg___boxed(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_asEmptyCone___at_CategoryTheory_Limits_initialUnopOfTerminal___elambda__1___spec__2___rarg(lean_object*, lean_object*);
+lean_object* l_CategoryTheory_Iso_symm___rarg(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isLimitEmptyConeEquiv___elambda__1___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_initialOpOfTerminal___spec__2(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsColimit_mkCoconeMorphism___at_CategoryTheory_Limits_IsInitial_ofIso___spec__3___rarg(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_asEmptyCocone___spec__1___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_isTerminalTop___spec__9___rarg___lambda__1___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_terminalUnopOfInitial___elambda__1___spec__4___rarg___lambda__1(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsInitial_ofUnique___at_CategoryTheory_Limits_isInitialBot___spec__1___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_terminalUnopOfInitial___elambda__1___rarg(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsTerminal_from___rarg(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_empty___at_CategoryTheory_Limits_terminalOpOfInitial___spec__5(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_colimitOfDiagramTerminal___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_limitOfDiagramTerminal___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_asEmptyCone___at_CategoryTheory_Limits_isTerminalTop___spec__5(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_isLimitChangeEmptyCone___elambda__1___spec__1(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Limits_initialOpOfTerminal___spec__3(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_terminalOpOfInitial___elambda__1___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_initialUnopOfTerminal___elambda__1___spec__4___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_initialOpOfTerminal___spec__6(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Limits_initialOpOfTerminal___spec__3___rarg(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Limits_initialUnopOfTerminal___elambda__1___spec__5___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsTerminal_from___at_CategoryTheory_Limits_initialUnopOfTerminal___elambda__1___spec__1(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Limits_terminalUnopOfInitial___elambda__1___spec__5___rarg(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsTerminal_ofUnique___elambda__1(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_isTerminalTop___spec__9___rarg___lambda__1(uint8_t, uint8_t, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsTerminal_uniqueUpToIso___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_asEmptyCone___spec__1___rarg___lambda__4___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_terminalUnopOfInitial___elambda__1(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Limits_isTerminalTop___spec__4___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_empty___at_CategoryTheory_Limits_isInitialBot___spec__6___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_isInitialEquivUnique___elambda__2___spec__1(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isTerminalEquivUnique___elambda__2___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_initialOpOfTerminal___elambda__1(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_terminalUnopOfInitial___elambda__1___spec__6(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsTerminal_ofUnique___rarg___boxed(lean_object*, lean_object*, lean_object*);
+lean_object* l_CategoryTheory_Limits_IsColimit_mkCoconeMorphism___elambda__1___rarg(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_limitOfDiagramInitial___elambda__1___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsColimit_ofIsoColimit___at_CategoryTheory_Limits_IsInitial_ofIso___spec__1___rarg___lambda__1(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsInitial_ofUnique___at_CategoryTheory_Limits_isInitialBot___spec__1(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_limitOfDiagramInitial(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsColimit_descCoconeMorphism___at_CategoryTheory_Limits_IsInitial_ofIso___spec__2(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsInitial_to___at_CategoryTheory_Limits_terminalUnopOfInitial___elambda__1___spec__1___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_terminalUnopOfInitial(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_asEmptyCone___spec__1___rarg___lambda__1___boxed(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isTerminalEquivUnique___elambda__1___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Limits_isTerminalTop___spec__4(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isLimitEmptyConeEquiv___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_asEmptyCone(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_isTerminalEquivUnique___elambda__2___spec__1(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsTerminal_ofUniqueHom___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_initialUnopOfTerminal___elambda__1___spec__4___rarg___lambda__1(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_colimitOfDiagramTerminal___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+lean_object* l_CategoryTheory_Discrete_functor___at_CategoryTheory_Functor_empty___spec__1___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_empty___at_CategoryTheory_Limits_terminalOpOfInitial___spec__5___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_initialUnopOfTerminal(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_terminalUnopOfInitial___elambda__1___spec__4(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsInitial_ofUnique___at_CategoryTheory_Limits_IsInitial_ofUniqueHom___spec__1___rarg___boxed(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_isTerminalTop___spec__9(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_coneOfDiagramInitial___rarg___lambda__1(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsColimit_ofIsoColimit___at_CategoryTheory_Limits_IsInitial_ofIso___spec__1(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_asEmptyCocone___at_CategoryTheory_Limits_initialOpOfTerminal___spec__4(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isTerminalEquivUnique___elambda__2(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Limits_terminalOpOfInitial___spec__7(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isInitialBot(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isInitialEquivUnique___elambda__1___rarg(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_terminalOpOfInitial___elambda__1___rarg(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_initialOpOfTerminal___spec__6___rarg___lambda__1(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsInitial_ofUnique___elambda__1___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Limits_terminalOpOfInitial___spec__3___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsInitial_to___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_empty___at_CategoryTheory_Limits_terminalUnopOfInitial___elambda__1___spec__3(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_asEmptyCone___spec__1___rarg___lambda__2___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_terminalOpOfInitial(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isColimitEmptyCoconeEquiv___elambda__1(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_initialUnopOfTerminal___elambda__1___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_empty___at_CategoryTheory_Limits_isTerminalTop___spec__2___rarg___lambda__1___boxed(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsInitial_ofUnique___at_CategoryTheory_Limits_IsInitial_ofUniqueHom___spec__1(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_isInitialBot___spec__7___rarg___lambda__1___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+static lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_asEmptyCone___spec__1___rarg___closed__1;
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_colimitOfDiagramTerminal(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsLimit_ofIsoLimit___at_CategoryTheory_Limits_IsTerminal_ofIso___spec__1___rarg___lambda__1___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+lean_object* l_Function_comp___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_isInitialBot___spec__3___rarg(lean_object*, lean_object*, lean_object*);
+lean_object* l_CategoryTheory_Category_opposite___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_terminalUnopOfInitial___elambda__1___spec__6___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_initialOpOfTerminal___elambda__1___rarg(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_terminalOpOfInitial___spec__8(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsTerminal_ofIso(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_asEmptyCocone___at_CategoryTheory_Limits_isInitialBot___spec__5___rarg(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsInitial_ofUnique___rarg___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsInitial_equivOfIso(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isColimitEmptyCoconeEquiv(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_isTerminalTop___spec__9___rarg___boxed(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Limits_terminalOpOfInitial___spec__7___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isTerminalEquivUnique___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_initialOpOfTerminal___elambda__1___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Limits_initialUnopOfTerminal___elambda__1___spec__5(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_empty___at_CategoryTheory_Limits_terminalOpOfInitial___spec__1___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_initialOpOfTerminal___spec__6___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Limits_terminalUnopOfInitial___elambda__1___spec__5___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsLimit_liftConeMorphism___at_CategoryTheory_Limits_IsTerminal_ofIso___spec__2(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_isInitialBot___spec__9___rarg___boxed(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isTerminalTop(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isInitialEquivUnique___elambda__1(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isColimitChangeEmptyCocone___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_initialUnopOfTerminal___elambda__1___rarg(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsTerminal_ofUnique___at_CategoryTheory_Limits_isTerminalTop___spec__1(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_empty___at_CategoryTheory_Limits_isInitialBot___spec__2___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_colimitOfDiagramTerminal___elambda__1(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_initialOpOfTerminal___spec__2___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_empty___at_CategoryTheory_Limits_isInitialBot___spec__6(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isColimitEmptyCoconeEquiv___elambda__2(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsColimit_mkCoconeMorphism___at_CategoryTheory_Limits_IsInitial_ofIso___spec__3___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isTerminalEquivUnique(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_initialOpOfTerminal___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsTerminal_ofUnique___at_CategoryTheory_Limits_IsTerminal_ofUniqueHom___spec__1(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsTerminal_ofUnique___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_limitOfDiagramTerminal___elambda__1___rarg___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsInitial_ofIso(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_coconeOfDiagramTerminal___rarg___lambda__1___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_isTerminalTop___spec__3___rarg___lambda__1___boxed(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_asEmptyCocone___spec__1(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsTerminal_ofUnique___elambda__1___rarg(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isColimitEmptyCoconeEquiv___elambda__1___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isInitialEquivUnique___elambda__1___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_isInitialEquivUnique___elambda__2___spec__1___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_isTerminalTop___spec__7___rarg___lambda__1___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+static lean_object* l_CategoryTheory_Functor_empty___at_CategoryTheory_Limits_isTerminalTop___spec__2___rarg___closed__1;
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_isTerminalEquivUnique___elambda__1___spec__1___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_colimitOfDiagramInitial___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsLimit_mkConeMorphism___at_CategoryTheory_Limits_IsTerminal_ofIso___spec__3___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_isTerminalTop___spec__9___rarg___lambda__3(lean_object*, lean_object*, lean_object*, uint8_t);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_asEmptyCone___spec__1___rarg___lambda__1(lean_object* x_1, uint8_t x_2) {
+_start:
+{
+lean_inc(x_1);
+return x_1;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_asEmptyCone___spec__1___rarg___lambda__2(lean_object* x_1, lean_object* x_2, uint8_t x_3, uint8_t x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; 
+x_6 = lean_ctor_get(x_1, 1);
+lean_inc(x_6);
+lean_dec(x_1);
+x_7 = lean_apply_1(x_6, x_2);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_asEmptyCone___spec__1___rarg___lambda__3(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+lean_inc(x_4);
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_asEmptyCone___spec__1___rarg___lambda__1___boxed), 2, 1);
+lean_closure_set(x_5, 0, x_4);
+x_6 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_asEmptyCone___spec__1___rarg___lambda__2___boxed), 5, 2);
+lean_closure_set(x_6, 0, x_2);
+lean_closure_set(x_6, 1, x_4);
+x_7 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_7, 0, x_5);
+lean_ctor_set(x_7, 1, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_asEmptyCone___spec__1___rarg___lambda__4(lean_object* x_1, lean_object* x_2, lean_object* x_3, uint8_t x_4) {
+_start:
+{
+lean_inc(x_3);
+return x_3;
+}
+}
+static lean_object* _init_l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_asEmptyCone___spec__1___rarg___closed__1() {
+_start:
+{
+lean_object* x_1; 
+x_1 = l_CategoryTheory_discreteCategory(lean_box(0));
+return x_1;
+}
+}
+static lean_object* _init_l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_asEmptyCone___spec__1___rarg___closed__2() {
+_start:
+{
+lean_object* x_1; 
+x_1 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_asEmptyCone___spec__1___rarg___lambda__4___boxed), 4, 0);
+return x_1;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_asEmptyCone___spec__1___rarg(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; lean_object* x_3; lean_object* x_4; lean_object* x_5; lean_object* x_6; 
+x_2 = l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_asEmptyCone___spec__1___rarg___closed__1;
+x_3 = lean_ctor_get(x_1, 0);
+lean_inc(x_3);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_asEmptyCone___spec__1___rarg___lambda__3___boxed), 4, 3);
+lean_closure_set(x_4, 0, x_2);
+lean_closure_set(x_4, 1, x_1);
+lean_closure_set(x_4, 2, x_3);
+x_5 = l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_asEmptyCone___spec__1___rarg___closed__2;
+x_6 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_6, 0, x_4);
+lean_ctor_set(x_6, 1, x_5);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_asEmptyCone___spec__1(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_asEmptyCone___spec__1___rarg), 1, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_asEmptyCone___rarg___lambda__1(uint8_t x_1) {
+_start:
+{
+lean_internal_panic_unreachable();
+}
+}
+static lean_object* _init_l_CategoryTheory_Limits_asEmptyCone___rarg___closed__1() {
+_start:
+{
+lean_object* x_1; 
+x_1 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_empty___rarg___lambda__1___boxed), 1, 0);
+return x_1;
+}
+}
+static lean_object* _init_l_CategoryTheory_Limits_asEmptyCone___rarg___closed__2() {
+_start:
+{
+lean_object* x_1; 
+x_1 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_asEmptyCone___rarg___lambda__1___boxed), 1, 0);
+return x_1;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_asEmptyCone___rarg(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; 
+x_3 = l_CategoryTheory_Limits_asEmptyCone___rarg___closed__2;
+x_4 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_4, 0, x_2);
+lean_ctor_set(x_4, 1, x_3);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_asEmptyCone(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_asEmptyCone___rarg___boxed), 2, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_asEmptyCone___spec__1___rarg___lambda__1___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+uint8_t x_3; lean_object* x_4; 
+x_3 = lean_unbox(x_2);
+lean_dec(x_2);
+x_4 = l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_asEmptyCone___spec__1___rarg___lambda__1(x_1, x_3);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_asEmptyCone___spec__1___rarg___lambda__2___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+uint8_t x_6; uint8_t x_7; lean_object* x_8; 
+x_6 = lean_unbox(x_3);
+lean_dec(x_3);
+x_7 = lean_unbox(x_4);
+lean_dec(x_4);
+x_8 = l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_asEmptyCone___spec__1___rarg___lambda__2(x_1, x_2, x_6, x_7, x_5);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_asEmptyCone___spec__1___rarg___lambda__3___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_asEmptyCone___spec__1___rarg___lambda__3(x_1, x_2, x_3, x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_asEmptyCone___spec__1___rarg___lambda__4___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+uint8_t x_5; lean_object* x_6; 
+x_5 = lean_unbox(x_4);
+lean_dec(x_4);
+x_6 = l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_asEmptyCone___spec__1___rarg___lambda__4(x_1, x_2, x_3, x_5);
+lean_dec(x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_asEmptyCone___rarg___lambda__1___boxed(lean_object* x_1) {
+_start:
+{
+uint8_t x_2; lean_object* x_3; 
+x_2 = lean_unbox(x_1);
+lean_dec(x_1);
+x_3 = l_CategoryTheory_Limits_asEmptyCone___rarg___lambda__1(x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_asEmptyCone___rarg___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_CategoryTheory_Limits_asEmptyCone___rarg(x_1, x_2);
+lean_dec(x_1);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_asEmptyCocone___spec__1___rarg(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; lean_object* x_3; lean_object* x_4; lean_object* x_5; lean_object* x_6; 
+x_2 = l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_asEmptyCone___spec__1___rarg___closed__1;
+x_3 = lean_ctor_get(x_1, 0);
+lean_inc(x_3);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_asEmptyCone___spec__1___rarg___lambda__3___boxed), 4, 3);
+lean_closure_set(x_4, 0, x_2);
+lean_closure_set(x_4, 1, x_1);
+lean_closure_set(x_4, 2, x_3);
+x_5 = l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_asEmptyCone___spec__1___rarg___closed__2;
+x_6 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_6, 0, x_4);
+lean_ctor_set(x_6, 1, x_5);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_asEmptyCocone___spec__1(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_asEmptyCocone___spec__1___rarg), 1, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_asEmptyCocone___rarg(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; 
+x_3 = l_CategoryTheory_Limits_asEmptyCone___rarg___closed__2;
+x_4 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_4, 0, x_2);
+lean_ctor_set(x_4, 1, x_3);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_asEmptyCocone(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_asEmptyCocone___rarg___boxed), 2, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_asEmptyCocone___rarg___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_CategoryTheory_Limits_asEmptyCocone___rarg(x_1, x_2);
+lean_dec(x_1);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_isTerminalEquivUnique___elambda__1___spec__1___rarg(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; lean_object* x_3; lean_object* x_4; lean_object* x_5; lean_object* x_6; 
+x_2 = l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_asEmptyCone___spec__1___rarg___closed__1;
+x_3 = lean_ctor_get(x_1, 0);
+lean_inc(x_3);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_asEmptyCone___spec__1___rarg___lambda__3___boxed), 4, 3);
+lean_closure_set(x_4, 0, x_2);
+lean_closure_set(x_4, 1, x_1);
+lean_closure_set(x_4, 2, x_3);
+x_5 = l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_asEmptyCone___spec__1___rarg___closed__2;
+x_6 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_6, 0, x_4);
+lean_ctor_set(x_6, 1, x_5);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_isTerminalEquivUnique___elambda__1___spec__1(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_isTerminalEquivUnique___elambda__1___spec__1___rarg), 1, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isTerminalEquivUnique___elambda__1___rarg(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; 
+x_3 = lean_ctor_get(x_2, 0);
+lean_inc(x_3);
+lean_dec(x_2);
+x_4 = lean_apply_1(x_1, x_3);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isTerminalEquivUnique___elambda__1(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_isTerminalEquivUnique___elambda__1___rarg), 2, 0);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_isTerminalEquivUnique___elambda__2___spec__1___rarg(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; lean_object* x_3; lean_object* x_4; lean_object* x_5; lean_object* x_6; 
+x_2 = l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_asEmptyCone___spec__1___rarg___closed__1;
+x_3 = lean_ctor_get(x_1, 0);
+lean_inc(x_3);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_asEmptyCone___spec__1___rarg___lambda__3___boxed), 4, 3);
+lean_closure_set(x_4, 0, x_2);
+lean_closure_set(x_4, 1, x_1);
+lean_closure_set(x_4, 2, x_3);
+x_5 = l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_asEmptyCone___spec__1___rarg___closed__2;
+x_6 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_6, 0, x_4);
+lean_ctor_set(x_6, 1, x_5);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_isTerminalEquivUnique___elambda__2___spec__1(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_isTerminalEquivUnique___elambda__2___spec__1___rarg), 1, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isTerminalEquivUnique___elambda__2___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; 
+x_6 = l_CategoryTheory_Limits_asEmptyCone___rarg___closed__2;
+x_7 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_7, 0, x_5);
+lean_ctor_set(x_7, 1, x_6);
+x_8 = lean_apply_1(x_4, x_7);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isTerminalEquivUnique___elambda__2(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_isTerminalEquivUnique___elambda__2___rarg___boxed), 5, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isTerminalEquivUnique___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; lean_object* x_6; 
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_isTerminalEquivUnique___elambda__2___rarg___boxed), 5, 3);
+lean_closure_set(x_4, 0, x_1);
+lean_closure_set(x_4, 1, x_2);
+lean_closure_set(x_4, 2, x_3);
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_isTerminalEquivUnique___elambda__1___rarg), 2, 0);
+x_6 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_6, 0, x_4);
+lean_ctor_set(x_6, 1, x_5);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isTerminalEquivUnique(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_isTerminalEquivUnique___rarg), 3, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isTerminalEquivUnique___elambda__1___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_Limits_isTerminalEquivUnique___elambda__1(x_1, x_2, x_3, x_4);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_2);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isTerminalEquivUnique___elambda__2___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_Limits_isTerminalEquivUnique___elambda__2___rarg(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsTerminal_ofUnique___elambda__1___rarg(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; 
+x_3 = lean_ctor_get(x_2, 0);
+lean_inc(x_3);
+lean_dec(x_2);
+x_4 = lean_apply_1(x_1, x_3);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsTerminal_ofUnique___elambda__1(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_IsTerminal_ofUnique___elambda__1___rarg), 2, 0);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsTerminal_ofUnique___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_IsTerminal_ofUnique___elambda__1___rarg), 2, 1);
+lean_closure_set(x_4, 0, x_3);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsTerminal_ofUnique(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_IsTerminal_ofUnique___rarg___boxed), 3, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsTerminal_ofUnique___elambda__1___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Limits_IsTerminal_ofUnique___elambda__1(x_1, x_2, x_3);
+lean_dec(x_3);
+lean_dec(x_2);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsTerminal_ofUnique___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Limits_IsTerminal_ofUnique___rarg(x_1, x_2, x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsTerminal_ofUnique___at_CategoryTheory_Limits_IsTerminal_ofUniqueHom___spec__1___rarg(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_IsTerminal_ofUnique___elambda__1___rarg), 2, 1);
+lean_closure_set(x_3, 0, x_1);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsTerminal_ofUnique___at_CategoryTheory_Limits_IsTerminal_ofUniqueHom___spec__1(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_IsTerminal_ofUnique___at_CategoryTheory_Limits_IsTerminal_ofUniqueHom___spec__1___rarg___boxed), 2, 0);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsTerminal_ofUniqueHom___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_IsTerminal_ofUnique___elambda__1___rarg), 2, 1);
+lean_closure_set(x_5, 0, x_3);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsTerminal_ofUniqueHom(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_IsTerminal_ofUniqueHom___rarg___boxed), 4, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsTerminal_ofUnique___at_CategoryTheory_Limits_IsTerminal_ofUniqueHom___spec__1___rarg___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_CategoryTheory_Limits_IsTerminal_ofUnique___at_CategoryTheory_Limits_IsTerminal_ofUniqueHom___spec__1___rarg(x_1, x_2);
+lean_dec(x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsTerminal_ofUnique___at_CategoryTheory_Limits_IsTerminal_ofUniqueHom___spec__1___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Limits_IsTerminal_ofUnique___at_CategoryTheory_Limits_IsTerminal_ofUniqueHom___spec__1(x_1, x_2, x_3);
+lean_dec(x_3);
+lean_dec(x_2);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsTerminal_ofUniqueHom___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_Limits_IsTerminal_ofUniqueHom___rarg(x_1, x_2, x_3, x_4);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Limits_isTerminalTop___spec__4(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+return lean_box(0);
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_isTerminalTop___spec__3___rarg___lambda__1(lean_object* x_1) {
+_start:
+{
+lean_inc(x_1);
+return x_1;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_isTerminalTop___spec__3___rarg___lambda__2(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+return lean_box(0);
+}
+}
+static lean_object* _init_l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_isTerminalTop___spec__3___rarg___closed__1() {
+_start:
+{
+lean_object* x_1; 
+x_1 = lean_alloc_closure((void*)(l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_isTerminalTop___spec__3___rarg___lambda__1___boxed), 1, 0);
+return x_1;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_isTerminalTop___spec__3___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+x_4 = l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_isTerminalTop___spec__3___rarg___closed__1;
+lean_inc(x_3);
+x_5 = lean_alloc_closure((void*)(l_Function_comp___rarg), 3, 2);
+lean_closure_set(x_5, 0, x_3);
+lean_closure_set(x_5, 1, x_4);
+x_6 = lean_alloc_closure((void*)(l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_isTerminalTop___spec__3___rarg___lambda__2___boxed), 5, 2);
+lean_closure_set(x_6, 0, x_3);
+lean_closure_set(x_6, 1, x_1);
+x_7 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_7, 0, x_5);
+lean_ctor_set(x_7, 1, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_isTerminalTop___spec__3(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_isTerminalTop___spec__3___rarg), 3, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_empty___at_CategoryTheory_Limits_isTerminalTop___spec__2___rarg___lambda__1(uint8_t x_1) {
+_start:
+{
+lean_internal_panic_unreachable();
+}
+}
+static lean_object* _init_l_CategoryTheory_Functor_empty___at_CategoryTheory_Limits_isTerminalTop___spec__2___rarg___closed__1() {
+_start:
+{
+lean_object* x_1; 
+x_1 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_empty___at_CategoryTheory_Limits_isTerminalTop___spec__2___rarg___lambda__1___boxed), 1, 0);
+return x_1;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_empty___at_CategoryTheory_Limits_isTerminalTop___spec__2___rarg(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; lean_object* x_3; 
+x_2 = l_CategoryTheory_Functor_empty___at_CategoryTheory_Limits_isTerminalTop___spec__2___rarg___closed__1;
+x_3 = l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_isTerminalTop___spec__3___rarg(x_1, lean_box(0), x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_empty___at_CategoryTheory_Limits_isTerminalTop___spec__2(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_empty___at_CategoryTheory_Limits_isTerminalTop___spec__2___rarg), 1, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Limits_isTerminalTop___spec__8(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+return lean_box(0);
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_isTerminalTop___spec__7___rarg___lambda__1(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+return lean_box(0);
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_isTerminalTop___spec__7___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+x_4 = l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_isTerminalTop___spec__3___rarg___closed__1;
+lean_inc(x_3);
+x_5 = lean_alloc_closure((void*)(l_Function_comp___rarg), 3, 2);
+lean_closure_set(x_5, 0, x_3);
+lean_closure_set(x_5, 1, x_4);
+x_6 = lean_alloc_closure((void*)(l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_isTerminalTop___spec__7___rarg___lambda__1___boxed), 5, 2);
+lean_closure_set(x_6, 0, x_3);
+lean_closure_set(x_6, 1, x_1);
+x_7 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_7, 0, x_5);
+lean_ctor_set(x_7, 1, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_isTerminalTop___spec__7(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_isTerminalTop___spec__7___rarg), 3, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_empty___at_CategoryTheory_Limits_isTerminalTop___spec__6___rarg(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; lean_object* x_3; 
+x_2 = l_CategoryTheory_Functor_empty___at_CategoryTheory_Limits_isTerminalTop___spec__2___rarg___closed__1;
+x_3 = l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_isTerminalTop___spec__7___rarg(x_1, lean_box(0), x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_empty___at_CategoryTheory_Limits_isTerminalTop___spec__6(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_empty___at_CategoryTheory_Limits_isTerminalTop___spec__6___rarg), 1, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_isTerminalTop___spec__9___rarg___lambda__1(uint8_t x_1, uint8_t x_2, lean_object* x_3) {
+_start:
+{
+return lean_box(0);
+}
+}
+static lean_object* _init_l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_isTerminalTop___spec__9___rarg___lambda__2___closed__1() {
+_start:
+{
+lean_object* x_1; 
+x_1 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_isTerminalTop___spec__9___rarg___lambda__1___boxed), 3, 0);
+return x_1;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_isTerminalTop___spec__9___rarg___lambda__2(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; lean_object* x_6; 
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_asEmptyCone___spec__1___rarg___lambda__1___boxed), 2, 1);
+lean_closure_set(x_4, 0, x_3);
+x_5 = l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_isTerminalTop___spec__9___rarg___lambda__2___closed__1;
+x_6 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_6, 0, x_4);
+lean_ctor_set(x_6, 1, x_5);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_isTerminalTop___spec__9___rarg___lambda__3(lean_object* x_1, lean_object* x_2, lean_object* x_3, uint8_t x_4) {
+_start:
+{
+return x_3;
+}
+}
+static lean_object* _init_l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_isTerminalTop___spec__9___rarg___closed__1() {
+_start:
+{
+lean_object* x_1; 
+x_1 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_isTerminalTop___spec__9___rarg___lambda__3___boxed), 4, 0);
+return x_1;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_isTerminalTop___spec__9___rarg(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; lean_object* x_3; lean_object* x_4; lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+x_2 = l_Preorder_smallCategory(lean_box(0), x_1);
+x_3 = l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_asEmptyCone___spec__1___rarg___closed__1;
+x_4 = lean_ctor_get(x_2, 0);
+lean_inc(x_4);
+lean_dec(x_2);
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_isTerminalTop___spec__9___rarg___lambda__2___boxed), 3, 2);
+lean_closure_set(x_5, 0, x_3);
+lean_closure_set(x_5, 1, x_4);
+x_6 = l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_isTerminalTop___spec__9___rarg___closed__1;
+x_7 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_7, 0, x_5);
+lean_ctor_set(x_7, 1, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_isTerminalTop___spec__9(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_isTerminalTop___spec__9___rarg___boxed), 1, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_asEmptyCone___at_CategoryTheory_Limits_isTerminalTop___spec__5___rarg(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; 
+x_3 = l_CategoryTheory_Limits_asEmptyCone___rarg___closed__2;
+x_4 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_4, 0, x_2);
+lean_ctor_set(x_4, 1, x_3);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_asEmptyCone___at_CategoryTheory_Limits_isTerminalTop___spec__5(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_asEmptyCone___at_CategoryTheory_Limits_isTerminalTop___spec__5___rarg___boxed), 2, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsTerminal_ofUnique___at_CategoryTheory_Limits_isTerminalTop___spec__1___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; 
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_uniqueToTop___boxed), 4, 3);
+lean_closure_set(x_4, 0, lean_box(0));
+lean_closure_set(x_4, 1, x_1);
+lean_closure_set(x_4, 2, x_2);
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_IsTerminal_ofUnique___elambda__1___rarg), 2, 1);
+lean_closure_set(x_5, 0, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsTerminal_ofUnique___at_CategoryTheory_Limits_isTerminalTop___spec__1(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_IsTerminal_ofUnique___at_CategoryTheory_Limits_isTerminalTop___spec__1___rarg___boxed), 3, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isTerminalTop___rarg(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+lean_inc(x_2);
+x_3 = l_CategoryTheory_Limits_IsTerminal_ofUnique___at_CategoryTheory_Limits_isTerminalTop___spec__1___rarg(x_1, x_2, x_2);
+lean_dec(x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isTerminalTop(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_isTerminalTop___rarg), 2, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Limits_isTerminalTop___spec__4___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_eqToHom___at_CategoryTheory_Limits_isTerminalTop___spec__4(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_2);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_isTerminalTop___spec__3___rarg___lambda__1___boxed(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_isTerminalTop___spec__3___rarg___lambda__1(x_1);
+lean_dec(x_1);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_isTerminalTop___spec__3___rarg___lambda__2___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_isTerminalTop___spec__3___rarg___lambda__2(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_empty___at_CategoryTheory_Limits_isTerminalTop___spec__2___rarg___lambda__1___boxed(lean_object* x_1) {
+_start:
+{
+uint8_t x_2; lean_object* x_3; 
+x_2 = lean_unbox(x_1);
+lean_dec(x_1);
+x_3 = l_CategoryTheory_Functor_empty___at_CategoryTheory_Limits_isTerminalTop___spec__2___rarg___lambda__1(x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Limits_isTerminalTop___spec__8___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_eqToHom___at_CategoryTheory_Limits_isTerminalTop___spec__8(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_2);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_isTerminalTop___spec__7___rarg___lambda__1___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_isTerminalTop___spec__7___rarg___lambda__1(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_isTerminalTop___spec__9___rarg___lambda__1___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+uint8_t x_4; uint8_t x_5; lean_object* x_6; 
+x_4 = lean_unbox(x_1);
+lean_dec(x_1);
+x_5 = lean_unbox(x_2);
+lean_dec(x_2);
+x_6 = l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_isTerminalTop___spec__9___rarg___lambda__1(x_4, x_5, x_3);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_isTerminalTop___spec__9___rarg___lambda__2___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_isTerminalTop___spec__9___rarg___lambda__2(x_1, x_2, x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_isTerminalTop___spec__9___rarg___lambda__3___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+uint8_t x_5; lean_object* x_6; 
+x_5 = lean_unbox(x_4);
+lean_dec(x_4);
+x_6 = l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_isTerminalTop___spec__9___rarg___lambda__3(x_1, x_2, x_3, x_5);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_isTerminalTop___spec__9___rarg___boxed(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_isTerminalTop___spec__9___rarg(x_1);
+lean_dec(x_1);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_asEmptyCone___at_CategoryTheory_Limits_isTerminalTop___spec__5___rarg___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_CategoryTheory_Limits_asEmptyCone___at_CategoryTheory_Limits_isTerminalTop___spec__5___rarg(x_1, x_2);
+lean_dec(x_1);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsTerminal_ofUnique___at_CategoryTheory_Limits_isTerminalTop___spec__1___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Limits_IsTerminal_ofUnique___at_CategoryTheory_Limits_isTerminalTop___spec__1___rarg(x_1, x_2, x_3);
+lean_dec(x_3);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsLimit_liftConeMorphism___at_CategoryTheory_Limits_IsTerminal_ofIso___spec__2___rarg(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = lean_apply_1(x_1, x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsLimit_liftConeMorphism___at_CategoryTheory_Limits_IsTerminal_ofIso___spec__2(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_IsLimit_liftConeMorphism___at_CategoryTheory_Limits_IsTerminal_ofIso___spec__2___rarg), 2, 0);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsLimit_mkConeMorphism___at_CategoryTheory_Limits_IsTerminal_ofIso___spec__3___rarg(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_IsLimit_mkConeMorphism___elambda__1___rarg), 2, 1);
+lean_closure_set(x_3, 0, x_1);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsLimit_mkConeMorphism___at_CategoryTheory_Limits_IsTerminal_ofIso___spec__3(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_IsLimit_mkConeMorphism___at_CategoryTheory_Limits_IsTerminal_ofIso___spec__3___rarg), 2, 0);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsLimit_ofIsoLimit___at_CategoryTheory_Limits_IsTerminal_ofIso___spec__1___rarg___lambda__1(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; lean_object* x_9; lean_object* x_10; lean_object* x_11; lean_object* x_12; lean_object* x_13; lean_object* x_14; 
+lean_inc(x_7);
+x_8 = lean_apply_1(x_4, x_7);
+x_9 = lean_ctor_get(x_5, 0);
+lean_inc(x_9);
+lean_dec(x_5);
+x_10 = lean_ctor_get(x_1, 2);
+lean_inc(x_10);
+lean_dec(x_1);
+x_11 = lean_ctor_get(x_7, 0);
+lean_inc(x_11);
+lean_dec(x_7);
+x_12 = lean_ctor_get(x_3, 0);
+lean_inc(x_12);
+lean_dec(x_3);
+x_13 = lean_ctor_get(x_6, 0);
+lean_inc(x_13);
+lean_dec(x_6);
+x_14 = lean_apply_5(x_10, x_11, x_12, x_13, x_8, x_9);
+return x_14;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsLimit_ofIsoLimit___at_CategoryTheory_Limits_IsTerminal_ofIso___spec__1___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; lean_object* x_8; 
+x_7 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_IsLimit_ofIsoLimit___at_CategoryTheory_Limits_IsTerminal_ofIso___spec__1___rarg___lambda__1___boxed), 7, 6);
+lean_closure_set(x_7, 0, x_1);
+lean_closure_set(x_7, 1, x_2);
+lean_closure_set(x_7, 2, x_3);
+lean_closure_set(x_7, 3, x_5);
+lean_closure_set(x_7, 4, x_6);
+lean_closure_set(x_7, 5, x_4);
+x_8 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_IsLimit_mkConeMorphism___elambda__1___rarg), 2, 1);
+lean_closure_set(x_8, 0, x_7);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsLimit_ofIsoLimit___at_CategoryTheory_Limits_IsTerminal_ofIso___spec__1(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_IsLimit_ofIsoLimit___at_CategoryTheory_Limits_IsTerminal_ofIso___spec__1___rarg), 6, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsTerminal_ofIso___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; lean_object* x_9; uint8_t x_10; 
+x_6 = l_CategoryTheory_Limits_asEmptyCone___rarg___closed__1;
+lean_inc(x_1);
+x_7 = l_CategoryTheory_Discrete_functor___at_CategoryTheory_Functor_empty___spec__1___rarg(x_1, lean_box(0), x_6);
+x_8 = l_CategoryTheory_Limits_asEmptyCone___rarg(x_1, x_2);
+x_9 = l_CategoryTheory_Limits_asEmptyCone___rarg(x_1, x_3);
+x_10 = !lean_is_exclusive(x_5);
+if (x_10 == 0)
+{
+lean_object* x_11; 
+x_11 = l_CategoryTheory_Limits_IsLimit_ofIsoLimit___at_CategoryTheory_Limits_IsTerminal_ofIso___spec__1___rarg(x_1, x_7, x_8, x_9, x_4, x_5);
+return x_11;
+}
+else
+{
+lean_object* x_12; lean_object* x_13; lean_object* x_14; lean_object* x_15; 
+x_12 = lean_ctor_get(x_5, 0);
+x_13 = lean_ctor_get(x_5, 1);
+lean_inc(x_13);
+lean_inc(x_12);
+lean_dec(x_5);
+x_14 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_14, 0, x_12);
+lean_ctor_set(x_14, 1, x_13);
+x_15 = l_CategoryTheory_Limits_IsLimit_ofIsoLimit___at_CategoryTheory_Limits_IsTerminal_ofIso___spec__1___rarg(x_1, x_7, x_8, x_9, x_4, x_14);
+return x_15;
+}
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsTerminal_ofIso(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_IsTerminal_ofIso___rarg), 5, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsLimit_liftConeMorphism___at_CategoryTheory_Limits_IsTerminal_ofIso___spec__2___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_Limits_IsLimit_liftConeMorphism___at_CategoryTheory_Limits_IsTerminal_ofIso___spec__2(x_1, x_2, x_3, x_4);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_2);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsLimit_mkConeMorphism___at_CategoryTheory_Limits_IsTerminal_ofIso___spec__3___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_Limits_IsLimit_mkConeMorphism___at_CategoryTheory_Limits_IsTerminal_ofIso___spec__3(x_1, x_2, x_3, x_4);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_2);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsLimit_ofIsoLimit___at_CategoryTheory_Limits_IsTerminal_ofIso___spec__1___rarg___lambda__1___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; 
+x_8 = l_CategoryTheory_Limits_IsLimit_ofIsoLimit___at_CategoryTheory_Limits_IsTerminal_ofIso___spec__1___rarg___lambda__1(x_1, x_2, x_3, x_4, x_5, x_6, x_7);
+lean_dec(x_2);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsTerminal_equivOfIso___elambda__1___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; 
+x_6 = l_CategoryTheory_Iso_symm___rarg(x_1, x_2, x_3, x_4);
+x_7 = l_CategoryTheory_Limits_IsTerminal_ofIso___rarg(x_1, x_3, x_2, x_5, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsTerminal_equivOfIso___elambda__1(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_IsTerminal_equivOfIso___elambda__1___rarg___boxed), 5, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsTerminal_equivOfIso___elambda__2___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_Limits_IsTerminal_ofIso___rarg(x_1, x_2, x_3, x_5, x_4);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsTerminal_equivOfIso___elambda__2(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_IsTerminal_equivOfIso___elambda__2___rarg), 5, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsTerminal_equivOfIso___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+lean_inc(x_4);
+lean_inc(x_3);
+lean_inc(x_2);
+lean_inc(x_1);
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_IsTerminal_equivOfIso___elambda__2___rarg), 5, 4);
+lean_closure_set(x_5, 0, x_1);
+lean_closure_set(x_5, 1, x_2);
+lean_closure_set(x_5, 2, x_3);
+lean_closure_set(x_5, 3, x_4);
+x_6 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_IsTerminal_equivOfIso___elambda__1___rarg___boxed), 5, 4);
+lean_closure_set(x_6, 0, x_1);
+lean_closure_set(x_6, 1, x_2);
+lean_closure_set(x_6, 2, x_3);
+lean_closure_set(x_6, 3, x_4);
+x_7 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_7, 0, x_5);
+lean_ctor_set(x_7, 1, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsTerminal_equivOfIso(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_IsTerminal_equivOfIso___rarg), 4, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsTerminal_equivOfIso___elambda__1___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_Limits_IsTerminal_equivOfIso___elambda__1___rarg(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_4);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_isInitialEquivUnique___elambda__1___spec__1___rarg(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; lean_object* x_3; lean_object* x_4; lean_object* x_5; lean_object* x_6; 
+x_2 = l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_asEmptyCone___spec__1___rarg___closed__1;
+x_3 = lean_ctor_get(x_1, 0);
+lean_inc(x_3);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_asEmptyCone___spec__1___rarg___lambda__3___boxed), 4, 3);
+lean_closure_set(x_4, 0, x_2);
+lean_closure_set(x_4, 1, x_1);
+lean_closure_set(x_4, 2, x_3);
+x_5 = l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_asEmptyCone___spec__1___rarg___closed__2;
+x_6 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_6, 0, x_4);
+lean_ctor_set(x_6, 1, x_5);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_isInitialEquivUnique___elambda__1___spec__1(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_isInitialEquivUnique___elambda__1___spec__1___rarg), 1, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isInitialEquivUnique___elambda__1___rarg(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; 
+x_3 = lean_ctor_get(x_2, 0);
+lean_inc(x_3);
+lean_dec(x_2);
+x_4 = lean_apply_1(x_1, x_3);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isInitialEquivUnique___elambda__1(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_isInitialEquivUnique___elambda__1___rarg), 2, 0);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_isInitialEquivUnique___elambda__2___spec__1___rarg(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; lean_object* x_3; lean_object* x_4; lean_object* x_5; lean_object* x_6; 
+x_2 = l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_asEmptyCone___spec__1___rarg___closed__1;
+x_3 = lean_ctor_get(x_1, 0);
+lean_inc(x_3);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_asEmptyCone___spec__1___rarg___lambda__3___boxed), 4, 3);
+lean_closure_set(x_4, 0, x_2);
+lean_closure_set(x_4, 1, x_1);
+lean_closure_set(x_4, 2, x_3);
+x_5 = l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_asEmptyCone___spec__1___rarg___closed__2;
+x_6 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_6, 0, x_4);
+lean_ctor_set(x_6, 1, x_5);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_isInitialEquivUnique___elambda__2___spec__1(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_isInitialEquivUnique___elambda__2___spec__1___rarg), 1, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isInitialEquivUnique___elambda__2___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; 
+x_6 = l_CategoryTheory_Limits_asEmptyCone___rarg___closed__2;
+x_7 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_7, 0, x_5);
+lean_ctor_set(x_7, 1, x_6);
+x_8 = lean_apply_1(x_4, x_7);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isInitialEquivUnique___elambda__2(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_isInitialEquivUnique___elambda__2___rarg___boxed), 5, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isInitialEquivUnique___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; lean_object* x_6; 
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_isInitialEquivUnique___elambda__2___rarg___boxed), 5, 3);
+lean_closure_set(x_4, 0, x_1);
+lean_closure_set(x_4, 1, x_2);
+lean_closure_set(x_4, 2, x_3);
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_isInitialEquivUnique___elambda__1___rarg), 2, 0);
+x_6 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_6, 0, x_4);
+lean_ctor_set(x_6, 1, x_5);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isInitialEquivUnique(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_isInitialEquivUnique___rarg), 3, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isInitialEquivUnique___elambda__1___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_Limits_isInitialEquivUnique___elambda__1(x_1, x_2, x_3, x_4);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_2);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isInitialEquivUnique___elambda__2___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_Limits_isInitialEquivUnique___elambda__2___rarg(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsInitial_ofUnique___elambda__1___rarg(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; 
+x_3 = lean_ctor_get(x_2, 0);
+lean_inc(x_3);
+lean_dec(x_2);
+x_4 = lean_apply_1(x_1, x_3);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsInitial_ofUnique___elambda__1(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_IsInitial_ofUnique___elambda__1___rarg), 2, 0);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsInitial_ofUnique___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_IsInitial_ofUnique___elambda__1___rarg), 2, 1);
+lean_closure_set(x_4, 0, x_3);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsInitial_ofUnique(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_IsInitial_ofUnique___rarg___boxed), 3, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsInitial_ofUnique___elambda__1___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Limits_IsInitial_ofUnique___elambda__1(x_1, x_2, x_3);
+lean_dec(x_3);
+lean_dec(x_2);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsInitial_ofUnique___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Limits_IsInitial_ofUnique___rarg(x_1, x_2, x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsInitial_ofUnique___at_CategoryTheory_Limits_IsInitial_ofUniqueHom___spec__1___rarg(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_IsInitial_ofUnique___elambda__1___rarg), 2, 1);
+lean_closure_set(x_3, 0, x_1);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsInitial_ofUnique___at_CategoryTheory_Limits_IsInitial_ofUniqueHom___spec__1(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_IsInitial_ofUnique___at_CategoryTheory_Limits_IsInitial_ofUniqueHom___spec__1___rarg___boxed), 2, 0);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsInitial_ofUniqueHom___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_IsInitial_ofUnique___elambda__1___rarg), 2, 1);
+lean_closure_set(x_5, 0, x_3);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsInitial_ofUniqueHom(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_IsInitial_ofUniqueHom___rarg___boxed), 4, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsInitial_ofUnique___at_CategoryTheory_Limits_IsInitial_ofUniqueHom___spec__1___rarg___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_CategoryTheory_Limits_IsInitial_ofUnique___at_CategoryTheory_Limits_IsInitial_ofUniqueHom___spec__1___rarg(x_1, x_2);
+lean_dec(x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsInitial_ofUnique___at_CategoryTheory_Limits_IsInitial_ofUniqueHom___spec__1___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Limits_IsInitial_ofUnique___at_CategoryTheory_Limits_IsInitial_ofUniqueHom___spec__1(x_1, x_2, x_3);
+lean_dec(x_3);
+lean_dec(x_2);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsInitial_ofUniqueHom___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_Limits_IsInitial_ofUniqueHom___rarg(x_1, x_2, x_3, x_4);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Limits_isInitialBot___spec__4(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+return lean_box(0);
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_isInitialBot___spec__3___rarg___lambda__1(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+return lean_box(0);
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_isInitialBot___spec__3___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+x_4 = l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_isTerminalTop___spec__3___rarg___closed__1;
+lean_inc(x_3);
+x_5 = lean_alloc_closure((void*)(l_Function_comp___rarg), 3, 2);
+lean_closure_set(x_5, 0, x_3);
+lean_closure_set(x_5, 1, x_4);
+x_6 = lean_alloc_closure((void*)(l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_isInitialBot___spec__3___rarg___lambda__1___boxed), 5, 2);
+lean_closure_set(x_6, 0, x_3);
+lean_closure_set(x_6, 1, x_1);
+x_7 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_7, 0, x_5);
+lean_ctor_set(x_7, 1, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_isInitialBot___spec__3(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_isInitialBot___spec__3___rarg), 3, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_empty___at_CategoryTheory_Limits_isInitialBot___spec__2___rarg(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; lean_object* x_3; 
+x_2 = l_CategoryTheory_Functor_empty___at_CategoryTheory_Limits_isTerminalTop___spec__2___rarg___closed__1;
+x_3 = l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_isInitialBot___spec__3___rarg(x_1, lean_box(0), x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_empty___at_CategoryTheory_Limits_isInitialBot___spec__2(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_empty___at_CategoryTheory_Limits_isInitialBot___spec__2___rarg), 1, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Limits_isInitialBot___spec__8(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+return lean_box(0);
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_isInitialBot___spec__7___rarg___lambda__1(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+return lean_box(0);
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_isInitialBot___spec__7___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+x_4 = l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_isTerminalTop___spec__3___rarg___closed__1;
+lean_inc(x_3);
+x_5 = lean_alloc_closure((void*)(l_Function_comp___rarg), 3, 2);
+lean_closure_set(x_5, 0, x_3);
+lean_closure_set(x_5, 1, x_4);
+x_6 = lean_alloc_closure((void*)(l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_isInitialBot___spec__7___rarg___lambda__1___boxed), 5, 2);
+lean_closure_set(x_6, 0, x_3);
+lean_closure_set(x_6, 1, x_1);
+x_7 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_7, 0, x_5);
+lean_ctor_set(x_7, 1, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_isInitialBot___spec__7(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_isInitialBot___spec__7___rarg), 3, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_empty___at_CategoryTheory_Limits_isInitialBot___spec__6___rarg(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; lean_object* x_3; 
+x_2 = l_CategoryTheory_Functor_empty___at_CategoryTheory_Limits_isTerminalTop___spec__2___rarg___closed__1;
+x_3 = l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_isInitialBot___spec__7___rarg(x_1, lean_box(0), x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_empty___at_CategoryTheory_Limits_isInitialBot___spec__6(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_empty___at_CategoryTheory_Limits_isInitialBot___spec__6___rarg), 1, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_isInitialBot___spec__9___rarg(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; lean_object* x_3; lean_object* x_4; lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+x_2 = l_Preorder_smallCategory(lean_box(0), x_1);
+x_3 = l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_asEmptyCone___spec__1___rarg___closed__1;
+x_4 = lean_ctor_get(x_2, 0);
+lean_inc(x_4);
+lean_dec(x_2);
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_isTerminalTop___spec__9___rarg___lambda__2___boxed), 3, 2);
+lean_closure_set(x_5, 0, x_3);
+lean_closure_set(x_5, 1, x_4);
+x_6 = l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_isTerminalTop___spec__9___rarg___closed__1;
+x_7 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_7, 0, x_5);
+lean_ctor_set(x_7, 1, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_isInitialBot___spec__9(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_isInitialBot___spec__9___rarg___boxed), 1, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_asEmptyCocone___at_CategoryTheory_Limits_isInitialBot___spec__5___rarg(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; 
+x_3 = l_CategoryTheory_Limits_asEmptyCone___rarg___closed__2;
+x_4 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_4, 0, x_2);
+lean_ctor_set(x_4, 1, x_3);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_asEmptyCocone___at_CategoryTheory_Limits_isInitialBot___spec__5(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_asEmptyCocone___at_CategoryTheory_Limits_isInitialBot___spec__5___rarg___boxed), 2, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsInitial_ofUnique___at_CategoryTheory_Limits_isInitialBot___spec__1___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; 
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_uniqueFromBot___boxed), 4, 3);
+lean_closure_set(x_4, 0, lean_box(0));
+lean_closure_set(x_4, 1, x_1);
+lean_closure_set(x_4, 2, x_2);
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_IsInitial_ofUnique___elambda__1___rarg), 2, 1);
+lean_closure_set(x_5, 0, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsInitial_ofUnique___at_CategoryTheory_Limits_isInitialBot___spec__1(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_IsInitial_ofUnique___at_CategoryTheory_Limits_isInitialBot___spec__1___rarg___boxed), 3, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isInitialBot___rarg(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+lean_inc(x_2);
+x_3 = l_CategoryTheory_Limits_IsInitial_ofUnique___at_CategoryTheory_Limits_isInitialBot___spec__1___rarg(x_1, x_2, x_2);
+lean_dec(x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isInitialBot(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_isInitialBot___rarg), 2, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Limits_isInitialBot___spec__4___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_eqToHom___at_CategoryTheory_Limits_isInitialBot___spec__4(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_2);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_isInitialBot___spec__3___rarg___lambda__1___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_isInitialBot___spec__3___rarg___lambda__1(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Limits_isInitialBot___spec__8___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_eqToHom___at_CategoryTheory_Limits_isInitialBot___spec__8(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_2);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_isInitialBot___spec__7___rarg___lambda__1___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_isInitialBot___spec__7___rarg___lambda__1(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_isInitialBot___spec__9___rarg___boxed(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_isInitialBot___spec__9___rarg(x_1);
+lean_dec(x_1);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_asEmptyCocone___at_CategoryTheory_Limits_isInitialBot___spec__5___rarg___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_CategoryTheory_Limits_asEmptyCocone___at_CategoryTheory_Limits_isInitialBot___spec__5___rarg(x_1, x_2);
+lean_dec(x_1);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsInitial_ofUnique___at_CategoryTheory_Limits_isInitialBot___spec__1___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Limits_IsInitial_ofUnique___at_CategoryTheory_Limits_isInitialBot___spec__1___rarg(x_1, x_2, x_3);
+lean_dec(x_3);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsColimit_descCoconeMorphism___at_CategoryTheory_Limits_IsInitial_ofIso___spec__2___rarg(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = lean_apply_1(x_1, x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsColimit_descCoconeMorphism___at_CategoryTheory_Limits_IsInitial_ofIso___spec__2(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_IsColimit_descCoconeMorphism___at_CategoryTheory_Limits_IsInitial_ofIso___spec__2___rarg), 2, 0);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsColimit_mkCoconeMorphism___at_CategoryTheory_Limits_IsInitial_ofIso___spec__3___rarg(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_IsColimit_mkCoconeMorphism___elambda__1___rarg), 2, 1);
+lean_closure_set(x_3, 0, x_1);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsColimit_mkCoconeMorphism___at_CategoryTheory_Limits_IsInitial_ofIso___spec__3(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_IsColimit_mkCoconeMorphism___at_CategoryTheory_Limits_IsInitial_ofIso___spec__3___rarg), 2, 0);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsColimit_ofIsoColimit___at_CategoryTheory_Limits_IsInitial_ofIso___spec__1___rarg___lambda__1(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; lean_object* x_9; lean_object* x_10; lean_object* x_11; lean_object* x_12; lean_object* x_13; lean_object* x_14; 
+x_8 = lean_ctor_get(x_1, 1);
+lean_inc(x_8);
+lean_dec(x_1);
+lean_inc(x_7);
+x_9 = lean_apply_1(x_5, x_7);
+x_10 = lean_ctor_get(x_2, 2);
+lean_inc(x_10);
+lean_dec(x_2);
+x_11 = lean_ctor_get(x_6, 0);
+lean_inc(x_11);
+lean_dec(x_6);
+x_12 = lean_ctor_get(x_4, 0);
+lean_inc(x_12);
+lean_dec(x_4);
+x_13 = lean_ctor_get(x_7, 0);
+lean_inc(x_13);
+lean_dec(x_7);
+x_14 = lean_apply_5(x_10, x_11, x_12, x_13, x_8, x_9);
+return x_14;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsColimit_ofIsoColimit___at_CategoryTheory_Limits_IsInitial_ofIso___spec__1___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; lean_object* x_8; 
+x_7 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_IsColimit_ofIsoColimit___at_CategoryTheory_Limits_IsInitial_ofIso___spec__1___rarg___lambda__1___boxed), 7, 6);
+lean_closure_set(x_7, 0, x_6);
+lean_closure_set(x_7, 1, x_1);
+lean_closure_set(x_7, 2, x_2);
+lean_closure_set(x_7, 3, x_3);
+lean_closure_set(x_7, 4, x_5);
+lean_closure_set(x_7, 5, x_4);
+x_8 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_IsColimit_mkCoconeMorphism___elambda__1___rarg), 2, 1);
+lean_closure_set(x_8, 0, x_7);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsColimit_ofIsoColimit___at_CategoryTheory_Limits_IsInitial_ofIso___spec__1(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_IsColimit_ofIsoColimit___at_CategoryTheory_Limits_IsInitial_ofIso___spec__1___rarg), 6, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsInitial_ofIso___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; lean_object* x_9; uint8_t x_10; 
+x_6 = l_CategoryTheory_Limits_asEmptyCone___rarg___closed__1;
+lean_inc(x_1);
+x_7 = l_CategoryTheory_Discrete_functor___at_CategoryTheory_Functor_empty___spec__1___rarg(x_1, lean_box(0), x_6);
+x_8 = l_CategoryTheory_Limits_asEmptyCocone___rarg(x_1, x_2);
+x_9 = l_CategoryTheory_Limits_asEmptyCocone___rarg(x_1, x_3);
+x_10 = !lean_is_exclusive(x_5);
+if (x_10 == 0)
+{
+lean_object* x_11; 
+x_11 = l_CategoryTheory_Limits_IsColimit_ofIsoColimit___at_CategoryTheory_Limits_IsInitial_ofIso___spec__1___rarg(x_1, x_7, x_8, x_9, x_4, x_5);
+return x_11;
+}
+else
+{
+lean_object* x_12; lean_object* x_13; lean_object* x_14; lean_object* x_15; 
+x_12 = lean_ctor_get(x_5, 0);
+x_13 = lean_ctor_get(x_5, 1);
+lean_inc(x_13);
+lean_inc(x_12);
+lean_dec(x_5);
+x_14 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_14, 0, x_12);
+lean_ctor_set(x_14, 1, x_13);
+x_15 = l_CategoryTheory_Limits_IsColimit_ofIsoColimit___at_CategoryTheory_Limits_IsInitial_ofIso___spec__1___rarg(x_1, x_7, x_8, x_9, x_4, x_14);
+return x_15;
+}
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsInitial_ofIso(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_IsInitial_ofIso___rarg), 5, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsColimit_descCoconeMorphism___at_CategoryTheory_Limits_IsInitial_ofIso___spec__2___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_Limits_IsColimit_descCoconeMorphism___at_CategoryTheory_Limits_IsInitial_ofIso___spec__2(x_1, x_2, x_3, x_4);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_2);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsColimit_mkCoconeMorphism___at_CategoryTheory_Limits_IsInitial_ofIso___spec__3___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_Limits_IsColimit_mkCoconeMorphism___at_CategoryTheory_Limits_IsInitial_ofIso___spec__3(x_1, x_2, x_3, x_4);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_2);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsColimit_ofIsoColimit___at_CategoryTheory_Limits_IsInitial_ofIso___spec__1___rarg___lambda__1___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; 
+x_8 = l_CategoryTheory_Limits_IsColimit_ofIsoColimit___at_CategoryTheory_Limits_IsInitial_ofIso___spec__1___rarg___lambda__1(x_1, x_2, x_3, x_4, x_5, x_6, x_7);
+lean_dec(x_3);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsInitial_equivOfIso___elambda__1___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; 
+x_6 = l_CategoryTheory_Iso_symm___rarg(x_1, x_2, x_3, x_4);
+x_7 = l_CategoryTheory_Limits_IsInitial_ofIso___rarg(x_1, x_3, x_2, x_5, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsInitial_equivOfIso___elambda__1(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_IsInitial_equivOfIso___elambda__1___rarg___boxed), 5, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsInitial_equivOfIso___elambda__2___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_Limits_IsInitial_ofIso___rarg(x_1, x_2, x_3, x_5, x_4);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsInitial_equivOfIso___elambda__2(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_IsInitial_equivOfIso___elambda__2___rarg), 5, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsInitial_equivOfIso___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+lean_inc(x_4);
+lean_inc(x_3);
+lean_inc(x_2);
+lean_inc(x_1);
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_IsInitial_equivOfIso___elambda__2___rarg), 5, 4);
+lean_closure_set(x_5, 0, x_1);
+lean_closure_set(x_5, 1, x_2);
+lean_closure_set(x_5, 2, x_3);
+lean_closure_set(x_5, 3, x_4);
+x_6 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_IsInitial_equivOfIso___elambda__1___rarg___boxed), 5, 4);
+lean_closure_set(x_6, 0, x_1);
+lean_closure_set(x_6, 1, x_2);
+lean_closure_set(x_6, 2, x_3);
+lean_closure_set(x_6, 3, x_4);
+x_7 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_7, 0, x_5);
+lean_ctor_set(x_7, 1, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsInitial_equivOfIso(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_IsInitial_equivOfIso___rarg), 4, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsInitial_equivOfIso___elambda__1___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_Limits_IsInitial_equivOfIso___elambda__1___rarg(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_4);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsTerminal_from___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; 
+x_5 = l_CategoryTheory_Limits_asEmptyCone___rarg(x_1, x_4);
+x_6 = lean_apply_1(x_3, x_5);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsTerminal_from(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_IsTerminal_from___rarg___boxed), 4, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsTerminal_from___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_Limits_IsTerminal_from___rarg(x_1, x_2, x_3, x_4);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsInitial_to___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; 
+x_5 = l_CategoryTheory_Limits_asEmptyCocone___rarg(x_1, x_4);
+x_6 = lean_apply_1(x_3, x_5);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsInitial_to(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_IsInitial_to___rarg___boxed), 4, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsInitial_to___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_Limits_IsInitial_to___rarg(x_1, x_2, x_3, x_4);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsTerminal_uniqueUpToIso___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; 
+lean_inc(x_2);
+x_6 = l_CategoryTheory_Limits_IsTerminal_from___rarg(x_1, x_3, x_5, x_2);
+x_7 = l_CategoryTheory_Limits_IsTerminal_from___rarg(x_1, x_2, x_4, x_3);
+lean_dec(x_2);
+x_8 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_8, 0, x_6);
+lean_ctor_set(x_8, 1, x_7);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsTerminal_uniqueUpToIso(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_IsTerminal_uniqueUpToIso___rarg___boxed), 5, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsTerminal_uniqueUpToIso___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_Limits_IsTerminal_uniqueUpToIso___rarg(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_1);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsInitial_uniqueUpToIso___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; 
+lean_inc(x_3);
+x_6 = l_CategoryTheory_Limits_IsInitial_to___rarg(x_1, x_2, x_4, x_3);
+x_7 = l_CategoryTheory_Limits_IsInitial_to___rarg(x_1, x_3, x_5, x_2);
+lean_dec(x_3);
+x_8 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_8, 0, x_6);
+lean_ctor_set(x_8, 1, x_7);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsInitial_uniqueUpToIso(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_IsInitial_uniqueUpToIso___rarg___boxed), 5, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsInitial_uniqueUpToIso___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_Limits_IsInitial_uniqueUpToIso___rarg(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_1);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_isLimitChangeEmptyCone___elambda__1___spec__1___rarg(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; lean_object* x_3; lean_object* x_4; lean_object* x_5; lean_object* x_6; 
+x_2 = l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_asEmptyCone___spec__1___rarg___closed__1;
+x_3 = lean_ctor_get(x_1, 0);
+lean_inc(x_3);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_asEmptyCone___spec__1___rarg___lambda__3___boxed), 4, 3);
+lean_closure_set(x_4, 0, x_2);
+lean_closure_set(x_4, 1, x_1);
+lean_closure_set(x_4, 2, x_3);
+x_5 = l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_asEmptyCone___spec__1___rarg___closed__2;
+x_6 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_6, 0, x_4);
+lean_ctor_set(x_6, 1, x_5);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_isLimitChangeEmptyCone___elambda__1___spec__1(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_isLimitChangeEmptyCone___elambda__1___spec__1___rarg), 1, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isLimitChangeEmptyCone___elambda__1___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8) {
+_start:
+{
+lean_object* x_9; uint8_t x_10; 
+x_9 = lean_ctor_get(x_1, 2);
+lean_inc(x_9);
+lean_dec(x_1);
+x_10 = !lean_is_exclusive(x_8);
+if (x_10 == 0)
+{
+lean_object* x_11; lean_object* x_12; lean_object* x_13; lean_object* x_14; lean_object* x_15; lean_object* x_16; lean_object* x_17; lean_object* x_18; 
+x_11 = lean_ctor_get(x_8, 0);
+x_12 = lean_ctor_get(x_8, 1);
+lean_dec(x_12);
+x_13 = lean_ctor_get(x_4, 0);
+lean_inc(x_13);
+lean_dec(x_4);
+x_14 = lean_ctor_get(x_6, 0);
+lean_inc(x_14);
+lean_dec(x_6);
+x_15 = l_CategoryTheory_Limits_asEmptyCone___rarg___closed__2;
+lean_inc(x_11);
+lean_ctor_set(x_8, 1, x_15);
+x_16 = lean_apply_1(x_5, x_8);
+x_17 = lean_ctor_get(x_7, 0);
+lean_inc(x_17);
+lean_dec(x_7);
+x_18 = lean_apply_5(x_9, x_11, x_13, x_14, x_16, x_17);
+return x_18;
+}
+else
+{
+lean_object* x_19; lean_object* x_20; lean_object* x_21; lean_object* x_22; lean_object* x_23; lean_object* x_24; lean_object* x_25; lean_object* x_26; 
+x_19 = lean_ctor_get(x_8, 0);
+lean_inc(x_19);
+lean_dec(x_8);
+x_20 = lean_ctor_get(x_4, 0);
+lean_inc(x_20);
+lean_dec(x_4);
+x_21 = lean_ctor_get(x_6, 0);
+lean_inc(x_21);
+lean_dec(x_6);
+x_22 = l_CategoryTheory_Limits_asEmptyCone___rarg___closed__2;
+lean_inc(x_19);
+x_23 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_23, 0, x_19);
+lean_ctor_set(x_23, 1, x_22);
+x_24 = lean_apply_1(x_5, x_23);
+x_25 = lean_ctor_get(x_7, 0);
+lean_inc(x_25);
+lean_dec(x_7);
+x_26 = lean_apply_5(x_9, x_19, x_20, x_21, x_24, x_25);
+return x_26;
+}
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isLimitChangeEmptyCone___elambda__1(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_isLimitChangeEmptyCone___elambda__1___rarg___boxed), 8, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isLimitChangeEmptyCone___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; 
+x_8 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_isLimitChangeEmptyCone___elambda__1___rarg___boxed), 8, 7);
+lean_closure_set(x_8, 0, x_1);
+lean_closure_set(x_8, 1, x_2);
+lean_closure_set(x_8, 2, x_3);
+lean_closure_set(x_8, 3, x_4);
+lean_closure_set(x_8, 4, x_5);
+lean_closure_set(x_8, 5, x_6);
+lean_closure_set(x_8, 6, x_7);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isLimitChangeEmptyCone(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_isLimitChangeEmptyCone___rarg), 7, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isLimitChangeEmptyCone___elambda__1___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8) {
+_start:
+{
+lean_object* x_9; 
+x_9 = l_CategoryTheory_Limits_isLimitChangeEmptyCone___elambda__1___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8);
+lean_dec(x_3);
+lean_dec(x_2);
+return x_9;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isLimitEmptyConeEquiv___elambda__1___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; lean_object* x_9; lean_object* x_10; lean_object* x_11; 
+x_8 = lean_ctor_get(x_4, 0);
+lean_inc(x_8);
+x_9 = lean_ctor_get(x_5, 0);
+lean_inc(x_9);
+x_10 = l_CategoryTheory_Iso_symm___rarg(x_1, x_8, x_9, x_6);
+lean_dec(x_9);
+lean_dec(x_8);
+x_11 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_isLimitChangeEmptyCone___elambda__1___rarg___boxed), 8, 7);
+lean_closure_set(x_11, 0, x_1);
+lean_closure_set(x_11, 1, x_3);
+lean_closure_set(x_11, 2, x_2);
+lean_closure_set(x_11, 3, x_5);
+lean_closure_set(x_11, 4, x_7);
+lean_closure_set(x_11, 5, x_4);
+lean_closure_set(x_11, 6, x_10);
+return x_11;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isLimitEmptyConeEquiv___elambda__1(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_isLimitEmptyConeEquiv___elambda__1___rarg___boxed), 7, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isLimitEmptyConeEquiv___elambda__2___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; 
+x_8 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_isLimitChangeEmptyCone___elambda__1___rarg___boxed), 8, 7);
+lean_closure_set(x_8, 0, x_1);
+lean_closure_set(x_8, 1, x_2);
+lean_closure_set(x_8, 2, x_3);
+lean_closure_set(x_8, 3, x_4);
+lean_closure_set(x_8, 4, x_7);
+lean_closure_set(x_8, 5, x_5);
+lean_closure_set(x_8, 6, x_6);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isLimitEmptyConeEquiv___elambda__2(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_isLimitEmptyConeEquiv___elambda__2___rarg), 7, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isLimitEmptyConeEquiv___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; lean_object* x_8; lean_object* x_9; 
+lean_inc(x_6);
+lean_inc(x_5);
+lean_inc(x_4);
+lean_inc(x_3);
+lean_inc(x_2);
+lean_inc(x_1);
+x_7 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_isLimitEmptyConeEquiv___elambda__2___rarg), 7, 6);
+lean_closure_set(x_7, 0, x_1);
+lean_closure_set(x_7, 1, x_2);
+lean_closure_set(x_7, 2, x_3);
+lean_closure_set(x_7, 3, x_4);
+lean_closure_set(x_7, 4, x_5);
+lean_closure_set(x_7, 5, x_6);
+x_8 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_isLimitEmptyConeEquiv___elambda__1___rarg___boxed), 7, 6);
+lean_closure_set(x_8, 0, x_1);
+lean_closure_set(x_8, 1, x_2);
+lean_closure_set(x_8, 2, x_3);
+lean_closure_set(x_8, 3, x_4);
+lean_closure_set(x_8, 4, x_5);
+lean_closure_set(x_8, 5, x_6);
+x_9 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_9, 0, x_7);
+lean_ctor_set(x_9, 1, x_8);
+return x_9;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isLimitEmptyConeEquiv(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_isLimitEmptyConeEquiv___rarg), 6, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isLimitEmptyConeEquiv___elambda__1___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; 
+x_8 = l_CategoryTheory_Limits_isLimitEmptyConeEquiv___elambda__1___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7);
+lean_dec(x_6);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_isColimitChangeEmptyCocone___elambda__1___spec__1___rarg(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; lean_object* x_3; lean_object* x_4; lean_object* x_5; lean_object* x_6; 
+x_2 = l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_asEmptyCone___spec__1___rarg___closed__1;
+x_3 = lean_ctor_get(x_1, 0);
+lean_inc(x_3);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_asEmptyCone___spec__1___rarg___lambda__3___boxed), 4, 3);
+lean_closure_set(x_4, 0, x_2);
+lean_closure_set(x_4, 1, x_1);
+lean_closure_set(x_4, 2, x_3);
+x_5 = l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_asEmptyCone___spec__1___rarg___closed__2;
+x_6 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_6, 0, x_4);
+lean_ctor_set(x_6, 1, x_5);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_isColimitChangeEmptyCocone___elambda__1___spec__1(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_isColimitChangeEmptyCocone___elambda__1___spec__1___rarg), 1, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isColimitChangeEmptyCocone___elambda__1___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8) {
+_start:
+{
+lean_object* x_9; lean_object* x_10; lean_object* x_11; uint8_t x_12; 
+x_9 = lean_ctor_get(x_1, 2);
+lean_inc(x_9);
+lean_dec(x_1);
+x_10 = lean_ctor_get(x_6, 0);
+lean_inc(x_10);
+lean_dec(x_6);
+x_11 = lean_ctor_get(x_4, 0);
+lean_inc(x_11);
+lean_dec(x_4);
+x_12 = !lean_is_exclusive(x_8);
+if (x_12 == 0)
+{
+lean_object* x_13; lean_object* x_14; lean_object* x_15; lean_object* x_16; lean_object* x_17; lean_object* x_18; 
+x_13 = lean_ctor_get(x_8, 0);
+x_14 = lean_ctor_get(x_8, 1);
+lean_dec(x_14);
+x_15 = lean_ctor_get(x_7, 1);
+lean_inc(x_15);
+lean_dec(x_7);
+x_16 = l_CategoryTheory_Limits_asEmptyCone___rarg___closed__2;
+lean_inc(x_13);
+lean_ctor_set(x_8, 1, x_16);
+x_17 = lean_apply_1(x_5, x_8);
+x_18 = lean_apply_5(x_9, x_10, x_11, x_13, x_15, x_17);
+return x_18;
+}
+else
+{
+lean_object* x_19; lean_object* x_20; lean_object* x_21; lean_object* x_22; lean_object* x_23; lean_object* x_24; 
+x_19 = lean_ctor_get(x_8, 0);
+lean_inc(x_19);
+lean_dec(x_8);
+x_20 = lean_ctor_get(x_7, 1);
+lean_inc(x_20);
+lean_dec(x_7);
+x_21 = l_CategoryTheory_Limits_asEmptyCone___rarg___closed__2;
+lean_inc(x_19);
+x_22 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_22, 0, x_19);
+lean_ctor_set(x_22, 1, x_21);
+x_23 = lean_apply_1(x_5, x_22);
+x_24 = lean_apply_5(x_9, x_10, x_11, x_19, x_20, x_23);
+return x_24;
+}
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isColimitChangeEmptyCocone___elambda__1(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_isColimitChangeEmptyCocone___elambda__1___rarg___boxed), 8, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isColimitChangeEmptyCocone___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; 
+x_8 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_isColimitChangeEmptyCocone___elambda__1___rarg___boxed), 8, 7);
+lean_closure_set(x_8, 0, x_1);
+lean_closure_set(x_8, 1, x_2);
+lean_closure_set(x_8, 2, x_3);
+lean_closure_set(x_8, 3, x_4);
+lean_closure_set(x_8, 4, x_5);
+lean_closure_set(x_8, 5, x_6);
+lean_closure_set(x_8, 6, x_7);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isColimitChangeEmptyCocone(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_isColimitChangeEmptyCocone___rarg), 7, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isColimitChangeEmptyCocone___elambda__1___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8) {
+_start:
+{
+lean_object* x_9; 
+x_9 = l_CategoryTheory_Limits_isColimitChangeEmptyCocone___elambda__1___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8);
+lean_dec(x_3);
+lean_dec(x_2);
+return x_9;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isColimitEmptyCoconeEquiv___elambda__1___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; lean_object* x_9; lean_object* x_10; lean_object* x_11; 
+x_8 = lean_ctor_get(x_4, 0);
+lean_inc(x_8);
+x_9 = lean_ctor_get(x_5, 0);
+lean_inc(x_9);
+x_10 = l_CategoryTheory_Iso_symm___rarg(x_1, x_8, x_9, x_6);
+lean_dec(x_9);
+lean_dec(x_8);
+x_11 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_isColimitChangeEmptyCocone___elambda__1___rarg___boxed), 8, 7);
+lean_closure_set(x_11, 0, x_1);
+lean_closure_set(x_11, 1, x_3);
+lean_closure_set(x_11, 2, x_2);
+lean_closure_set(x_11, 3, x_5);
+lean_closure_set(x_11, 4, x_7);
+lean_closure_set(x_11, 5, x_4);
+lean_closure_set(x_11, 6, x_10);
+return x_11;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isColimitEmptyCoconeEquiv___elambda__1(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_isColimitEmptyCoconeEquiv___elambda__1___rarg___boxed), 7, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isColimitEmptyCoconeEquiv___elambda__2___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; 
+x_8 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_isColimitChangeEmptyCocone___elambda__1___rarg___boxed), 8, 7);
+lean_closure_set(x_8, 0, x_1);
+lean_closure_set(x_8, 1, x_2);
+lean_closure_set(x_8, 2, x_3);
+lean_closure_set(x_8, 3, x_4);
+lean_closure_set(x_8, 4, x_7);
+lean_closure_set(x_8, 5, x_5);
+lean_closure_set(x_8, 6, x_6);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isColimitEmptyCoconeEquiv___elambda__2(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_isColimitEmptyCoconeEquiv___elambda__2___rarg), 7, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isColimitEmptyCoconeEquiv___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; lean_object* x_8; lean_object* x_9; 
+lean_inc(x_6);
+lean_inc(x_5);
+lean_inc(x_4);
+lean_inc(x_3);
+lean_inc(x_2);
+lean_inc(x_1);
+x_7 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_isColimitEmptyCoconeEquiv___elambda__2___rarg), 7, 6);
+lean_closure_set(x_7, 0, x_1);
+lean_closure_set(x_7, 1, x_2);
+lean_closure_set(x_7, 2, x_3);
+lean_closure_set(x_7, 3, x_4);
+lean_closure_set(x_7, 4, x_5);
+lean_closure_set(x_7, 5, x_6);
+x_8 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_isColimitEmptyCoconeEquiv___elambda__1___rarg___boxed), 7, 6);
+lean_closure_set(x_8, 0, x_1);
+lean_closure_set(x_8, 1, x_2);
+lean_closure_set(x_8, 2, x_3);
+lean_closure_set(x_8, 3, x_4);
+lean_closure_set(x_8, 4, x_5);
+lean_closure_set(x_8, 5, x_6);
+x_9 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_9, 0, x_7);
+lean_ctor_set(x_9, 1, x_8);
+return x_9;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isColimitEmptyCoconeEquiv(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_isColimitEmptyCoconeEquiv___rarg), 6, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isColimitEmptyCoconeEquiv___elambda__1___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; 
+x_8 = l_CategoryTheory_Limits_isColimitEmptyCoconeEquiv___elambda__1___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7);
+lean_dec(x_6);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_terminalOpOfInitial___elambda__1___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; 
+x_5 = lean_ctor_get(x_4, 0);
+lean_inc(x_5);
+lean_dec(x_4);
+x_6 = l_CategoryTheory_Limits_IsInitial_to___rarg(x_1, x_2, x_3, x_5);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_terminalOpOfInitial___elambda__1(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_terminalOpOfInitial___elambda__1___rarg___boxed), 4, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Limits_terminalOpOfInitial___spec__3___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; 
+x_5 = lean_ctor_get(x_1, 1);
+lean_inc(x_5);
+lean_dec(x_1);
+x_6 = lean_apply_1(x_5, x_3);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Limits_terminalOpOfInitial___spec__3(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_eqToHom___at_CategoryTheory_Limits_terminalOpOfInitial___spec__3___rarg___boxed), 4, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_terminalOpOfInitial___spec__2___rarg___lambda__1(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; 
+lean_inc(x_1);
+x_6 = lean_apply_1(x_1, x_3);
+x_7 = lean_apply_1(x_1, x_4);
+x_8 = l_CategoryTheory_eqToHom___at_CategoryTheory_Limits_terminalOpOfInitial___spec__3___rarg(x_2, x_6, x_7, lean_box(0));
+lean_dec(x_6);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_terminalOpOfInitial___spec__2___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+x_4 = l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_isTerminalTop___spec__3___rarg___closed__1;
+lean_inc(x_3);
+x_5 = lean_alloc_closure((void*)(l_Function_comp___rarg), 3, 2);
+lean_closure_set(x_5, 0, x_3);
+lean_closure_set(x_5, 1, x_4);
+x_6 = lean_alloc_closure((void*)(l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_terminalOpOfInitial___spec__2___rarg___lambda__1), 5, 2);
+lean_closure_set(x_6, 0, x_3);
+lean_closure_set(x_6, 1, x_1);
+x_7 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_7, 0, x_5);
+lean_ctor_set(x_7, 1, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_terminalOpOfInitial___spec__2(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_terminalOpOfInitial___spec__2___rarg), 3, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_empty___at_CategoryTheory_Limits_terminalOpOfInitial___spec__1___rarg___lambda__1(uint8_t x_1) {
+_start:
+{
+lean_internal_panic_unreachable();
+}
+}
+static lean_object* _init_l_CategoryTheory_Functor_empty___at_CategoryTheory_Limits_terminalOpOfInitial___spec__1___rarg___closed__1() {
+_start:
+{
+lean_object* x_1; 
+x_1 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_empty___at_CategoryTheory_Limits_terminalOpOfInitial___spec__1___rarg___lambda__1___boxed), 1, 0);
+return x_1;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_empty___at_CategoryTheory_Limits_terminalOpOfInitial___spec__1___rarg(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; lean_object* x_3; 
+x_2 = l_CategoryTheory_Functor_empty___at_CategoryTheory_Limits_terminalOpOfInitial___spec__1___rarg___closed__1;
+x_3 = l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_terminalOpOfInitial___spec__2___rarg(x_1, lean_box(0), x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_empty___at_CategoryTheory_Limits_terminalOpOfInitial___spec__1(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_empty___at_CategoryTheory_Limits_terminalOpOfInitial___spec__1___rarg), 1, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Limits_terminalOpOfInitial___spec__7___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; 
+x_5 = lean_ctor_get(x_1, 1);
+lean_inc(x_5);
+lean_dec(x_1);
+x_6 = lean_apply_1(x_5, x_3);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Limits_terminalOpOfInitial___spec__7(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_eqToHom___at_CategoryTheory_Limits_terminalOpOfInitial___spec__7___rarg___boxed), 4, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_terminalOpOfInitial___spec__6___rarg___lambda__1(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; 
+lean_inc(x_1);
+x_6 = lean_apply_1(x_1, x_3);
+x_7 = lean_apply_1(x_1, x_4);
+x_8 = l_CategoryTheory_eqToHom___at_CategoryTheory_Limits_terminalOpOfInitial___spec__7___rarg(x_2, x_6, x_7, lean_box(0));
+lean_dec(x_6);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_terminalOpOfInitial___spec__6___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+x_4 = l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_isTerminalTop___spec__3___rarg___closed__1;
+lean_inc(x_3);
+x_5 = lean_alloc_closure((void*)(l_Function_comp___rarg), 3, 2);
+lean_closure_set(x_5, 0, x_3);
+lean_closure_set(x_5, 1, x_4);
+x_6 = lean_alloc_closure((void*)(l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_terminalOpOfInitial___spec__6___rarg___lambda__1), 5, 2);
+lean_closure_set(x_6, 0, x_3);
+lean_closure_set(x_6, 1, x_1);
+x_7 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_7, 0, x_5);
+lean_ctor_set(x_7, 1, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_terminalOpOfInitial___spec__6(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_terminalOpOfInitial___spec__6___rarg), 3, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_empty___at_CategoryTheory_Limits_terminalOpOfInitial___spec__5___rarg(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; lean_object* x_3; 
+x_2 = l_CategoryTheory_Functor_empty___at_CategoryTheory_Limits_terminalOpOfInitial___spec__1___rarg___closed__1;
+x_3 = l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_terminalOpOfInitial___spec__6___rarg(x_1, lean_box(0), x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_empty___at_CategoryTheory_Limits_terminalOpOfInitial___spec__5(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_empty___at_CategoryTheory_Limits_terminalOpOfInitial___spec__5___rarg), 1, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_terminalOpOfInitial___spec__8___rarg(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; lean_object* x_3; lean_object* x_4; lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+lean_inc(x_1);
+x_2 = l_CategoryTheory_Category_opposite___rarg(x_1);
+x_3 = l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_asEmptyCone___spec__1___rarg___closed__1;
+x_4 = lean_ctor_get(x_2, 0);
+lean_inc(x_4);
+lean_dec(x_2);
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_asEmptyCone___spec__1___rarg___lambda__3___boxed), 4, 3);
+lean_closure_set(x_5, 0, x_3);
+lean_closure_set(x_5, 1, x_1);
+lean_closure_set(x_5, 2, x_4);
+x_6 = l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_asEmptyCone___spec__1___rarg___closed__2;
+x_7 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_7, 0, x_5);
+lean_ctor_set(x_7, 1, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_terminalOpOfInitial___spec__8(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_terminalOpOfInitial___spec__8___rarg), 1, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_asEmptyCone___at_CategoryTheory_Limits_terminalOpOfInitial___spec__4___rarg(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; 
+x_3 = l_CategoryTheory_Limits_asEmptyCone___rarg___closed__2;
+x_4 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_4, 0, x_2);
+lean_ctor_set(x_4, 1, x_3);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_asEmptyCone___at_CategoryTheory_Limits_terminalOpOfInitial___spec__4(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_asEmptyCone___at_CategoryTheory_Limits_terminalOpOfInitial___spec__4___rarg___boxed), 2, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_terminalOpOfInitial___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_terminalOpOfInitial___elambda__1___rarg___boxed), 4, 3);
+lean_closure_set(x_4, 0, x_1);
+lean_closure_set(x_4, 1, x_2);
+lean_closure_set(x_4, 2, x_3);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_terminalOpOfInitial(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_terminalOpOfInitial___rarg), 3, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_terminalOpOfInitial___elambda__1___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_Limits_terminalOpOfInitial___elambda__1___rarg(x_1, x_2, x_3, x_4);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Limits_terminalOpOfInitial___spec__3___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_eqToHom___at_CategoryTheory_Limits_terminalOpOfInitial___spec__3___rarg(x_1, x_2, x_3, x_4);
+lean_dec(x_2);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_empty___at_CategoryTheory_Limits_terminalOpOfInitial___spec__1___rarg___lambda__1___boxed(lean_object* x_1) {
+_start:
+{
+uint8_t x_2; lean_object* x_3; 
+x_2 = lean_unbox(x_1);
+lean_dec(x_1);
+x_3 = l_CategoryTheory_Functor_empty___at_CategoryTheory_Limits_terminalOpOfInitial___spec__1___rarg___lambda__1(x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Limits_terminalOpOfInitial___spec__7___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_eqToHom___at_CategoryTheory_Limits_terminalOpOfInitial___spec__7___rarg(x_1, x_2, x_3, x_4);
+lean_dec(x_2);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_asEmptyCone___at_CategoryTheory_Limits_terminalOpOfInitial___spec__4___rarg___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_CategoryTheory_Limits_asEmptyCone___at_CategoryTheory_Limits_terminalOpOfInitial___spec__4___rarg(x_1, x_2);
+lean_dec(x_1);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Limits_terminalUnopOfInitial___elambda__1___spec__5___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; 
+x_5 = lean_ctor_get(x_1, 1);
+lean_inc(x_5);
+lean_dec(x_1);
+x_6 = lean_apply_1(x_5, x_3);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Limits_terminalUnopOfInitial___elambda__1___spec__5(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_eqToHom___at_CategoryTheory_Limits_terminalUnopOfInitial___elambda__1___spec__5___rarg___boxed), 4, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_terminalUnopOfInitial___elambda__1___spec__4___rarg___lambda__1(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; 
+lean_inc(x_1);
+x_6 = lean_apply_1(x_1, x_3);
+x_7 = lean_apply_1(x_1, x_4);
+x_8 = l_CategoryTheory_eqToHom___at_CategoryTheory_Limits_terminalUnopOfInitial___elambda__1___spec__5___rarg(x_2, x_6, x_7, lean_box(0));
+lean_dec(x_6);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_terminalUnopOfInitial___elambda__1___spec__4___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+x_4 = l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_isTerminalTop___spec__3___rarg___closed__1;
+lean_inc(x_3);
+x_5 = lean_alloc_closure((void*)(l_Function_comp___rarg), 3, 2);
+lean_closure_set(x_5, 0, x_3);
+lean_closure_set(x_5, 1, x_4);
+x_6 = lean_alloc_closure((void*)(l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_terminalUnopOfInitial___elambda__1___spec__4___rarg___lambda__1), 5, 2);
+lean_closure_set(x_6, 0, x_3);
+lean_closure_set(x_6, 1, x_1);
+x_7 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_7, 0, x_5);
+lean_ctor_set(x_7, 1, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_terminalUnopOfInitial___elambda__1___spec__4(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_terminalUnopOfInitial___elambda__1___spec__4___rarg), 3, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_empty___at_CategoryTheory_Limits_terminalUnopOfInitial___elambda__1___spec__3___rarg(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; lean_object* x_3; 
+x_2 = l_CategoryTheory_Functor_empty___at_CategoryTheory_Limits_terminalOpOfInitial___spec__1___rarg___closed__1;
+x_3 = l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_terminalUnopOfInitial___elambda__1___spec__4___rarg(x_1, lean_box(0), x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_empty___at_CategoryTheory_Limits_terminalUnopOfInitial___elambda__1___spec__3(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_empty___at_CategoryTheory_Limits_terminalUnopOfInitial___elambda__1___spec__3___rarg), 1, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_terminalUnopOfInitial___elambda__1___spec__6___rarg(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; lean_object* x_3; lean_object* x_4; lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+lean_inc(x_1);
+x_2 = l_CategoryTheory_Category_opposite___rarg(x_1);
+x_3 = l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_asEmptyCone___spec__1___rarg___closed__1;
+x_4 = lean_ctor_get(x_2, 0);
+lean_inc(x_4);
+lean_dec(x_2);
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_asEmptyCone___spec__1___rarg___lambda__3___boxed), 4, 3);
+lean_closure_set(x_5, 0, x_3);
+lean_closure_set(x_5, 1, x_1);
+lean_closure_set(x_5, 2, x_4);
+x_6 = l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_asEmptyCone___spec__1___rarg___closed__2;
+x_7 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_7, 0, x_5);
+lean_ctor_set(x_7, 1, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_terminalUnopOfInitial___elambda__1___spec__6(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_terminalUnopOfInitial___elambda__1___spec__6___rarg), 1, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_asEmptyCocone___at_CategoryTheory_Limits_terminalUnopOfInitial___elambda__1___spec__2___rarg(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; 
+x_3 = l_CategoryTheory_Limits_asEmptyCone___rarg___closed__2;
+x_4 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_4, 0, x_2);
+lean_ctor_set(x_4, 1, x_3);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_asEmptyCocone___at_CategoryTheory_Limits_terminalUnopOfInitial___elambda__1___spec__2(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_asEmptyCocone___at_CategoryTheory_Limits_terminalUnopOfInitial___elambda__1___spec__2___rarg___boxed), 2, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsInitial_to___at_CategoryTheory_Limits_terminalUnopOfInitial___elambda__1___spec__1___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; 
+x_5 = l_CategoryTheory_Limits_asEmptyCocone___at_CategoryTheory_Limits_terminalUnopOfInitial___elambda__1___spec__2___rarg(x_1, x_4);
+x_6 = lean_apply_1(x_3, x_5);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsInitial_to___at_CategoryTheory_Limits_terminalUnopOfInitial___elambda__1___spec__1(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_IsInitial_to___at_CategoryTheory_Limits_terminalUnopOfInitial___elambda__1___spec__1___rarg___boxed), 4, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_terminalUnopOfInitial___elambda__1___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; 
+x_5 = lean_ctor_get(x_4, 0);
+lean_inc(x_5);
+lean_dec(x_4);
+x_6 = l_CategoryTheory_Limits_IsInitial_to___at_CategoryTheory_Limits_terminalUnopOfInitial___elambda__1___spec__1___rarg(x_1, x_2, x_3, x_5);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_terminalUnopOfInitial___elambda__1(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_terminalUnopOfInitial___elambda__1___rarg___boxed), 4, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_terminalUnopOfInitial___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_terminalUnopOfInitial___elambda__1___rarg___boxed), 4, 3);
+lean_closure_set(x_4, 0, x_1);
+lean_closure_set(x_4, 1, x_2);
+lean_closure_set(x_4, 2, x_3);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_terminalUnopOfInitial(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_terminalUnopOfInitial___rarg), 3, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Limits_terminalUnopOfInitial___elambda__1___spec__5___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_eqToHom___at_CategoryTheory_Limits_terminalUnopOfInitial___elambda__1___spec__5___rarg(x_1, x_2, x_3, x_4);
+lean_dec(x_2);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_asEmptyCocone___at_CategoryTheory_Limits_terminalUnopOfInitial___elambda__1___spec__2___rarg___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_CategoryTheory_Limits_asEmptyCocone___at_CategoryTheory_Limits_terminalUnopOfInitial___elambda__1___spec__2___rarg(x_1, x_2);
+lean_dec(x_1);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsInitial_to___at_CategoryTheory_Limits_terminalUnopOfInitial___elambda__1___spec__1___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_Limits_IsInitial_to___at_CategoryTheory_Limits_terminalUnopOfInitial___elambda__1___spec__1___rarg(x_1, x_2, x_3, x_4);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_terminalUnopOfInitial___elambda__1___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_Limits_terminalUnopOfInitial___elambda__1___rarg(x_1, x_2, x_3, x_4);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_initialOpOfTerminal___elambda__1___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; 
+x_5 = lean_ctor_get(x_4, 0);
+lean_inc(x_5);
+lean_dec(x_4);
+x_6 = l_CategoryTheory_Limits_IsTerminal_from___rarg(x_1, x_2, x_3, x_5);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_initialOpOfTerminal___elambda__1(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_initialOpOfTerminal___elambda__1___rarg___boxed), 4, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Limits_initialOpOfTerminal___spec__3___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; 
+x_5 = lean_ctor_get(x_1, 1);
+lean_inc(x_5);
+lean_dec(x_1);
+x_6 = lean_apply_1(x_5, x_3);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Limits_initialOpOfTerminal___spec__3(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_eqToHom___at_CategoryTheory_Limits_initialOpOfTerminal___spec__3___rarg___boxed), 4, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_initialOpOfTerminal___spec__2___rarg___lambda__1(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; 
+lean_inc(x_1);
+x_6 = lean_apply_1(x_1, x_3);
+x_7 = lean_apply_1(x_1, x_4);
+x_8 = l_CategoryTheory_eqToHom___at_CategoryTheory_Limits_initialOpOfTerminal___spec__3___rarg(x_2, x_6, x_7, lean_box(0));
+lean_dec(x_6);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_initialOpOfTerminal___spec__2___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+x_4 = l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_isTerminalTop___spec__3___rarg___closed__1;
+lean_inc(x_3);
+x_5 = lean_alloc_closure((void*)(l_Function_comp___rarg), 3, 2);
+lean_closure_set(x_5, 0, x_3);
+lean_closure_set(x_5, 1, x_4);
+x_6 = lean_alloc_closure((void*)(l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_initialOpOfTerminal___spec__2___rarg___lambda__1), 5, 2);
+lean_closure_set(x_6, 0, x_3);
+lean_closure_set(x_6, 1, x_1);
+x_7 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_7, 0, x_5);
+lean_ctor_set(x_7, 1, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_initialOpOfTerminal___spec__2(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_initialOpOfTerminal___spec__2___rarg), 3, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_empty___at_CategoryTheory_Limits_initialOpOfTerminal___spec__1___rarg(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; lean_object* x_3; 
+x_2 = l_CategoryTheory_Functor_empty___at_CategoryTheory_Limits_terminalOpOfInitial___spec__1___rarg___closed__1;
+x_3 = l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_initialOpOfTerminal___spec__2___rarg(x_1, lean_box(0), x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_empty___at_CategoryTheory_Limits_initialOpOfTerminal___spec__1(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_empty___at_CategoryTheory_Limits_initialOpOfTerminal___spec__1___rarg), 1, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Limits_initialOpOfTerminal___spec__7___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; 
+x_5 = lean_ctor_get(x_1, 1);
+lean_inc(x_5);
+lean_dec(x_1);
+x_6 = lean_apply_1(x_5, x_3);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Limits_initialOpOfTerminal___spec__7(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_eqToHom___at_CategoryTheory_Limits_initialOpOfTerminal___spec__7___rarg___boxed), 4, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_initialOpOfTerminal___spec__6___rarg___lambda__1(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; 
+lean_inc(x_1);
+x_6 = lean_apply_1(x_1, x_3);
+x_7 = lean_apply_1(x_1, x_4);
+x_8 = l_CategoryTheory_eqToHom___at_CategoryTheory_Limits_initialOpOfTerminal___spec__7___rarg(x_2, x_6, x_7, lean_box(0));
+lean_dec(x_6);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_initialOpOfTerminal___spec__6___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+x_4 = l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_isTerminalTop___spec__3___rarg___closed__1;
+lean_inc(x_3);
+x_5 = lean_alloc_closure((void*)(l_Function_comp___rarg), 3, 2);
+lean_closure_set(x_5, 0, x_3);
+lean_closure_set(x_5, 1, x_4);
+x_6 = lean_alloc_closure((void*)(l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_initialOpOfTerminal___spec__6___rarg___lambda__1), 5, 2);
+lean_closure_set(x_6, 0, x_3);
+lean_closure_set(x_6, 1, x_1);
+x_7 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_7, 0, x_5);
+lean_ctor_set(x_7, 1, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_initialOpOfTerminal___spec__6(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_initialOpOfTerminal___spec__6___rarg), 3, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_empty___at_CategoryTheory_Limits_initialOpOfTerminal___spec__5___rarg(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; lean_object* x_3; 
+x_2 = l_CategoryTheory_Functor_empty___at_CategoryTheory_Limits_terminalOpOfInitial___spec__1___rarg___closed__1;
+x_3 = l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_initialOpOfTerminal___spec__6___rarg(x_1, lean_box(0), x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_empty___at_CategoryTheory_Limits_initialOpOfTerminal___spec__5(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_empty___at_CategoryTheory_Limits_initialOpOfTerminal___spec__5___rarg), 1, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_initialOpOfTerminal___spec__8___rarg(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; lean_object* x_3; lean_object* x_4; lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+lean_inc(x_1);
+x_2 = l_CategoryTheory_Category_opposite___rarg(x_1);
+x_3 = l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_asEmptyCone___spec__1___rarg___closed__1;
+x_4 = lean_ctor_get(x_2, 0);
+lean_inc(x_4);
+lean_dec(x_2);
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_asEmptyCone___spec__1___rarg___lambda__3___boxed), 4, 3);
+lean_closure_set(x_5, 0, x_3);
+lean_closure_set(x_5, 1, x_1);
+lean_closure_set(x_5, 2, x_4);
+x_6 = l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_asEmptyCone___spec__1___rarg___closed__2;
+x_7 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_7, 0, x_5);
+lean_ctor_set(x_7, 1, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_initialOpOfTerminal___spec__8(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_initialOpOfTerminal___spec__8___rarg), 1, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_asEmptyCocone___at_CategoryTheory_Limits_initialOpOfTerminal___spec__4___rarg(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; 
+x_3 = l_CategoryTheory_Limits_asEmptyCone___rarg___closed__2;
+x_4 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_4, 0, x_2);
+lean_ctor_set(x_4, 1, x_3);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_asEmptyCocone___at_CategoryTheory_Limits_initialOpOfTerminal___spec__4(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_asEmptyCocone___at_CategoryTheory_Limits_initialOpOfTerminal___spec__4___rarg___boxed), 2, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_initialOpOfTerminal___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_initialOpOfTerminal___elambda__1___rarg___boxed), 4, 3);
+lean_closure_set(x_4, 0, x_1);
+lean_closure_set(x_4, 1, x_2);
+lean_closure_set(x_4, 2, x_3);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_initialOpOfTerminal(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_initialOpOfTerminal___rarg), 3, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_initialOpOfTerminal___elambda__1___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_Limits_initialOpOfTerminal___elambda__1___rarg(x_1, x_2, x_3, x_4);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Limits_initialOpOfTerminal___spec__3___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_eqToHom___at_CategoryTheory_Limits_initialOpOfTerminal___spec__3___rarg(x_1, x_2, x_3, x_4);
+lean_dec(x_2);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Limits_initialOpOfTerminal___spec__7___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_eqToHom___at_CategoryTheory_Limits_initialOpOfTerminal___spec__7___rarg(x_1, x_2, x_3, x_4);
+lean_dec(x_2);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_asEmptyCocone___at_CategoryTheory_Limits_initialOpOfTerminal___spec__4___rarg___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_CategoryTheory_Limits_asEmptyCocone___at_CategoryTheory_Limits_initialOpOfTerminal___spec__4___rarg(x_1, x_2);
+lean_dec(x_1);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Limits_initialUnopOfTerminal___elambda__1___spec__5___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; 
+x_5 = lean_ctor_get(x_1, 1);
+lean_inc(x_5);
+lean_dec(x_1);
+x_6 = lean_apply_1(x_5, x_3);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Limits_initialUnopOfTerminal___elambda__1___spec__5(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_eqToHom___at_CategoryTheory_Limits_initialUnopOfTerminal___elambda__1___spec__5___rarg___boxed), 4, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_initialUnopOfTerminal___elambda__1___spec__4___rarg___lambda__1(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; 
+lean_inc(x_1);
+x_6 = lean_apply_1(x_1, x_3);
+x_7 = lean_apply_1(x_1, x_4);
+x_8 = l_CategoryTheory_eqToHom___at_CategoryTheory_Limits_initialUnopOfTerminal___elambda__1___spec__5___rarg(x_2, x_6, x_7, lean_box(0));
+lean_dec(x_6);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_initialUnopOfTerminal___elambda__1___spec__4___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+x_4 = l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_isTerminalTop___spec__3___rarg___closed__1;
+lean_inc(x_3);
+x_5 = lean_alloc_closure((void*)(l_Function_comp___rarg), 3, 2);
+lean_closure_set(x_5, 0, x_3);
+lean_closure_set(x_5, 1, x_4);
+x_6 = lean_alloc_closure((void*)(l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_initialUnopOfTerminal___elambda__1___spec__4___rarg___lambda__1), 5, 2);
+lean_closure_set(x_6, 0, x_3);
+lean_closure_set(x_6, 1, x_1);
+x_7 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_7, 0, x_5);
+lean_ctor_set(x_7, 1, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_initialUnopOfTerminal___elambda__1___spec__4(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_initialUnopOfTerminal___elambda__1___spec__4___rarg), 3, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_empty___at_CategoryTheory_Limits_initialUnopOfTerminal___elambda__1___spec__3___rarg(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; lean_object* x_3; 
+x_2 = l_CategoryTheory_Functor_empty___at_CategoryTheory_Limits_terminalOpOfInitial___spec__1___rarg___closed__1;
+x_3 = l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_initialUnopOfTerminal___elambda__1___spec__4___rarg(x_1, lean_box(0), x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_empty___at_CategoryTheory_Limits_initialUnopOfTerminal___elambda__1___spec__3(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_empty___at_CategoryTheory_Limits_initialUnopOfTerminal___elambda__1___spec__3___rarg), 1, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_initialUnopOfTerminal___elambda__1___spec__6___rarg(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; lean_object* x_3; lean_object* x_4; lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+lean_inc(x_1);
+x_2 = l_CategoryTheory_Category_opposite___rarg(x_1);
+x_3 = l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_asEmptyCone___spec__1___rarg___closed__1;
+x_4 = lean_ctor_get(x_2, 0);
+lean_inc(x_4);
+lean_dec(x_2);
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_asEmptyCone___spec__1___rarg___lambda__3___boxed), 4, 3);
+lean_closure_set(x_5, 0, x_3);
+lean_closure_set(x_5, 1, x_1);
+lean_closure_set(x_5, 2, x_4);
+x_6 = l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_asEmptyCone___spec__1___rarg___closed__2;
+x_7 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_7, 0, x_5);
+lean_ctor_set(x_7, 1, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_initialUnopOfTerminal___elambda__1___spec__6(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_initialUnopOfTerminal___elambda__1___spec__6___rarg), 1, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_asEmptyCone___at_CategoryTheory_Limits_initialUnopOfTerminal___elambda__1___spec__2___rarg(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; 
+x_3 = l_CategoryTheory_Limits_asEmptyCone___rarg___closed__2;
+x_4 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_4, 0, x_2);
+lean_ctor_set(x_4, 1, x_3);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_asEmptyCone___at_CategoryTheory_Limits_initialUnopOfTerminal___elambda__1___spec__2(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_asEmptyCone___at_CategoryTheory_Limits_initialUnopOfTerminal___elambda__1___spec__2___rarg___boxed), 2, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsTerminal_from___at_CategoryTheory_Limits_initialUnopOfTerminal___elambda__1___spec__1___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; 
+x_5 = l_CategoryTheory_Limits_asEmptyCone___at_CategoryTheory_Limits_initialUnopOfTerminal___elambda__1___spec__2___rarg(x_1, x_4);
+x_6 = lean_apply_1(x_3, x_5);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsTerminal_from___at_CategoryTheory_Limits_initialUnopOfTerminal___elambda__1___spec__1(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_IsTerminal_from___at_CategoryTheory_Limits_initialUnopOfTerminal___elambda__1___spec__1___rarg___boxed), 4, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_initialUnopOfTerminal___elambda__1___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; 
+x_5 = lean_ctor_get(x_4, 0);
+lean_inc(x_5);
+lean_dec(x_4);
+x_6 = l_CategoryTheory_Limits_IsTerminal_from___at_CategoryTheory_Limits_initialUnopOfTerminal___elambda__1___spec__1___rarg(x_1, x_2, x_3, x_5);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_initialUnopOfTerminal___elambda__1(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_initialUnopOfTerminal___elambda__1___rarg___boxed), 4, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_initialUnopOfTerminal___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_initialUnopOfTerminal___elambda__1___rarg___boxed), 4, 3);
+lean_closure_set(x_4, 0, x_1);
+lean_closure_set(x_4, 1, x_2);
+lean_closure_set(x_4, 2, x_3);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_initialUnopOfTerminal(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_initialUnopOfTerminal___rarg), 3, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Limits_initialUnopOfTerminal___elambda__1___spec__5___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_eqToHom___at_CategoryTheory_Limits_initialUnopOfTerminal___elambda__1___spec__5___rarg(x_1, x_2, x_3, x_4);
+lean_dec(x_2);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_asEmptyCone___at_CategoryTheory_Limits_initialUnopOfTerminal___elambda__1___spec__2___rarg___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_CategoryTheory_Limits_asEmptyCone___at_CategoryTheory_Limits_initialUnopOfTerminal___elambda__1___spec__2___rarg(x_1, x_2);
+lean_dec(x_1);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsTerminal_from___at_CategoryTheory_Limits_initialUnopOfTerminal___elambda__1___spec__1___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_Limits_IsTerminal_from___at_CategoryTheory_Limits_initialUnopOfTerminal___elambda__1___spec__1___rarg(x_1, x_2, x_3, x_4);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_initialUnopOfTerminal___elambda__1___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_Limits_initialUnopOfTerminal___elambda__1___rarg(x_1, x_2, x_3, x_4);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_coneOfDiagramInitial___rarg___lambda__1(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; 
+x_6 = lean_ctor_get(x_1, 1);
+lean_inc(x_6);
+lean_dec(x_1);
+lean_inc(x_5);
+x_7 = l_CategoryTheory_Limits_IsInitial_to___rarg(x_2, x_3, x_4, x_5);
+x_8 = lean_apply_3(x_6, x_3, x_5, x_7);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_coneOfDiagramInitial___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; 
+x_7 = lean_ctor_get(x_6, 0);
+lean_inc(x_7);
+lean_inc(x_4);
+x_8 = lean_apply_1(x_7, x_4);
+x_9 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_coneOfDiagramInitial___rarg___lambda__1___boxed), 5, 4);
+lean_closure_set(x_9, 0, x_6);
+lean_closure_set(x_9, 1, x_3);
+lean_closure_set(x_9, 2, x_4);
+lean_closure_set(x_9, 3, x_5);
+x_10 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_10, 0, x_8);
+lean_ctor_set(x_10, 1, x_9);
+return x_10;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_coneOfDiagramInitial(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_coneOfDiagramInitial___rarg___boxed), 6, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_coneOfDiagramInitial___rarg___lambda__1___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_Limits_coneOfDiagramInitial___rarg___lambda__1(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_2);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_coneOfDiagramInitial___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = l_CategoryTheory_Limits_coneOfDiagramInitial___rarg(x_1, x_2, x_3, x_4, x_5, x_6);
+lean_dec(x_1);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_limitOfDiagramInitial___elambda__1___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; 
+x_4 = lean_ctor_get(x_3, 1);
+lean_inc(x_4);
+lean_dec(x_3);
+x_5 = lean_apply_1(x_4, x_1);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_limitOfDiagramInitial___elambda__1(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_limitOfDiagramInitial___elambda__1___rarg___boxed), 3, 0);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_limitOfDiagramInitial___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_limitOfDiagramInitial___elambda__1___rarg___boxed), 3, 2);
+lean_closure_set(x_7, 0, x_4);
+lean_closure_set(x_7, 1, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_limitOfDiagramInitial(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_limitOfDiagramInitial___rarg___boxed), 6, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_limitOfDiagramInitial___elambda__1___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Limits_limitOfDiagramInitial___elambda__1___rarg(x_1, x_2, x_3);
+lean_dec(x_2);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_limitOfDiagramInitial___elambda__1___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_Limits_limitOfDiagramInitial___elambda__1(x_1, x_2, x_3, x_4);
+lean_dec(x_4);
+lean_dec(x_2);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_limitOfDiagramInitial___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = l_CategoryTheory_Limits_limitOfDiagramInitial___rarg(x_1, x_2, x_3, x_4, x_5, x_6);
+lean_dec(x_5);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_limitOfDiagramTerminal___elambda__1___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; 
+x_4 = lean_ctor_get(x_3, 1);
+lean_inc(x_4);
+lean_dec(x_3);
+x_5 = lean_apply_1(x_4, x_1);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_limitOfDiagramTerminal___elambda__1(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_limitOfDiagramTerminal___elambda__1___rarg___boxed), 3, 0);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_limitOfDiagramTerminal___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; 
+x_8 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_limitOfDiagramTerminal___elambda__1___rarg___boxed), 3, 2);
+lean_closure_set(x_8, 0, x_4);
+lean_closure_set(x_8, 1, x_6);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_limitOfDiagramTerminal(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_limitOfDiagramTerminal___rarg___boxed), 7, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_limitOfDiagramTerminal___elambda__1___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Limits_limitOfDiagramTerminal___elambda__1___rarg(x_1, x_2, x_3);
+lean_dec(x_2);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_limitOfDiagramTerminal___elambda__1___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_Limits_limitOfDiagramTerminal___elambda__1(x_1, x_2, x_3, x_4);
+lean_dec(x_4);
+lean_dec(x_2);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_limitOfDiagramTerminal___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; 
+x_8 = l_CategoryTheory_Limits_limitOfDiagramTerminal___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7);
+lean_dec(x_5);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_coconeOfDiagramTerminal___rarg___lambda__1(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; 
+x_6 = lean_ctor_get(x_1, 1);
+lean_inc(x_6);
+lean_dec(x_1);
+lean_inc(x_5);
+x_7 = l_CategoryTheory_Limits_IsTerminal_from___rarg(x_2, x_3, x_4, x_5);
+x_8 = lean_apply_3(x_6, x_5, x_3, x_7);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_coconeOfDiagramTerminal___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; 
+x_7 = lean_ctor_get(x_6, 0);
+lean_inc(x_7);
+lean_inc(x_4);
+x_8 = lean_apply_1(x_7, x_4);
+x_9 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_coconeOfDiagramTerminal___rarg___lambda__1___boxed), 5, 4);
+lean_closure_set(x_9, 0, x_6);
+lean_closure_set(x_9, 1, x_3);
+lean_closure_set(x_9, 2, x_4);
+lean_closure_set(x_9, 3, x_5);
+x_10 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_10, 0, x_8);
+lean_ctor_set(x_10, 1, x_9);
+return x_10;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_coconeOfDiagramTerminal(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_coconeOfDiagramTerminal___rarg___boxed), 6, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_coconeOfDiagramTerminal___rarg___lambda__1___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_Limits_coconeOfDiagramTerminal___rarg___lambda__1(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_2);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_coconeOfDiagramTerminal___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = l_CategoryTheory_Limits_coconeOfDiagramTerminal___rarg(x_1, x_2, x_3, x_4, x_5, x_6);
+lean_dec(x_1);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_colimitOfDiagramTerminal___elambda__1___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; 
+x_4 = lean_ctor_get(x_3, 1);
+lean_inc(x_4);
+lean_dec(x_3);
+x_5 = lean_apply_1(x_4, x_1);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_colimitOfDiagramTerminal___elambda__1(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_colimitOfDiagramTerminal___elambda__1___rarg___boxed), 3, 0);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_colimitOfDiagramTerminal___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_colimitOfDiagramTerminal___elambda__1___rarg___boxed), 3, 2);
+lean_closure_set(x_7, 0, x_4);
+lean_closure_set(x_7, 1, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_colimitOfDiagramTerminal(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_colimitOfDiagramTerminal___rarg___boxed), 6, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_colimitOfDiagramTerminal___elambda__1___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Limits_colimitOfDiagramTerminal___elambda__1___rarg(x_1, x_2, x_3);
+lean_dec(x_2);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_colimitOfDiagramTerminal___elambda__1___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_Limits_colimitOfDiagramTerminal___elambda__1(x_1, x_2, x_3, x_4);
+lean_dec(x_4);
+lean_dec(x_2);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_colimitOfDiagramTerminal___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = l_CategoryTheory_Limits_colimitOfDiagramTerminal___rarg(x_1, x_2, x_3, x_4, x_5, x_6);
+lean_dec(x_5);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_colimitOfDiagramInitial___elambda__1___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; 
+x_4 = lean_ctor_get(x_3, 1);
+lean_inc(x_4);
+lean_dec(x_3);
+x_5 = lean_apply_1(x_4, x_1);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_colimitOfDiagramInitial___elambda__1(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_colimitOfDiagramInitial___elambda__1___rarg___boxed), 3, 0);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_colimitOfDiagramInitial___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; 
+x_8 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_colimitOfDiagramInitial___elambda__1___rarg___boxed), 3, 2);
+lean_closure_set(x_8, 0, x_4);
+lean_closure_set(x_8, 1, x_6);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_colimitOfDiagramInitial(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_colimitOfDiagramInitial___rarg___boxed), 7, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_colimitOfDiagramInitial___elambda__1___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Limits_colimitOfDiagramInitial___elambda__1___rarg(x_1, x_2, x_3);
+lean_dec(x_2);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_colimitOfDiagramInitial___elambda__1___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_Limits_colimitOfDiagramInitial___elambda__1(x_1, x_2, x_3, x_4);
+lean_dec(x_4);
+lean_dec(x_2);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_colimitOfDiagramInitial___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; 
+x_8 = l_CategoryTheory_Limits_colimitOfDiagramInitial___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7);
+lean_dec(x_5);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_8;
+}
+}
+lean_object* initialize_Init(uint8_t builtin, lean_object*);
+lean_object* initialize_Mathlib_CategoryTheory_PEmpty(uint8_t builtin, lean_object*);
+lean_object* initialize_Mathlib_CategoryTheory_Limits_IsLimit(uint8_t builtin, lean_object*);
+lean_object* initialize_Mathlib_CategoryTheory_EpiMono(uint8_t builtin, lean_object*);
+lean_object* initialize_Mathlib_CategoryTheory_Category_Preorder(uint8_t builtin, lean_object*);
+static bool _G_initialized = false;
+LEAN_EXPORT lean_object* initialize_Mathlib_CategoryTheory_Limits_Shapes_IsTerminal(uint8_t builtin, lean_object* w) {
+lean_object * res;
+if (_G_initialized) return lean_io_result_mk_ok(lean_box(0));
+_G_initialized = true;
+res = initialize_Init(builtin, lean_io_mk_world());
+if (lean_io_result_is_error(res)) return res;
+lean_dec_ref(res);
+res = initialize_Mathlib_CategoryTheory_PEmpty(builtin, lean_io_mk_world());
+if (lean_io_result_is_error(res)) return res;
+lean_dec_ref(res);
+res = initialize_Mathlib_CategoryTheory_Limits_IsLimit(builtin, lean_io_mk_world());
+if (lean_io_result_is_error(res)) return res;
+lean_dec_ref(res);
+res = initialize_Mathlib_CategoryTheory_EpiMono(builtin, lean_io_mk_world());
+if (lean_io_result_is_error(res)) return res;
+lean_dec_ref(res);
+res = initialize_Mathlib_CategoryTheory_Category_Preorder(builtin, lean_io_mk_world());
+if (lean_io_result_is_error(res)) return res;
+lean_dec_ref(res);
+l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_asEmptyCone___spec__1___rarg___closed__1 = _init_l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_asEmptyCone___spec__1___rarg___closed__1();
+lean_mark_persistent(l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_asEmptyCone___spec__1___rarg___closed__1);
+l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_asEmptyCone___spec__1___rarg___closed__2 = _init_l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_asEmptyCone___spec__1___rarg___closed__2();
+lean_mark_persistent(l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_asEmptyCone___spec__1___rarg___closed__2);
+l_CategoryTheory_Limits_asEmptyCone___rarg___closed__1 = _init_l_CategoryTheory_Limits_asEmptyCone___rarg___closed__1();
+lean_mark_persistent(l_CategoryTheory_Limits_asEmptyCone___rarg___closed__1);
+l_CategoryTheory_Limits_asEmptyCone___rarg___closed__2 = _init_l_CategoryTheory_Limits_asEmptyCone___rarg___closed__2();
+lean_mark_persistent(l_CategoryTheory_Limits_asEmptyCone___rarg___closed__2);
+l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_isTerminalTop___spec__3___rarg___closed__1 = _init_l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_isTerminalTop___spec__3___rarg___closed__1();
+lean_mark_persistent(l_CategoryTheory_Discrete_functor___at_CategoryTheory_Limits_isTerminalTop___spec__3___rarg___closed__1);
+l_CategoryTheory_Functor_empty___at_CategoryTheory_Limits_isTerminalTop___spec__2___rarg___closed__1 = _init_l_CategoryTheory_Functor_empty___at_CategoryTheory_Limits_isTerminalTop___spec__2___rarg___closed__1();
+lean_mark_persistent(l_CategoryTheory_Functor_empty___at_CategoryTheory_Limits_isTerminalTop___spec__2___rarg___closed__1);
+l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_isTerminalTop___spec__9___rarg___lambda__2___closed__1 = _init_l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_isTerminalTop___spec__9___rarg___lambda__2___closed__1();
+lean_mark_persistent(l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_isTerminalTop___spec__9___rarg___lambda__2___closed__1);
+l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_isTerminalTop___spec__9___rarg___closed__1 = _init_l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_isTerminalTop___spec__9___rarg___closed__1();
+lean_mark_persistent(l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_isTerminalTop___spec__9___rarg___closed__1);
+l_CategoryTheory_Functor_empty___at_CategoryTheory_Limits_terminalOpOfInitial___spec__1___rarg___closed__1 = _init_l_CategoryTheory_Functor_empty___at_CategoryTheory_Limits_terminalOpOfInitial___spec__1___rarg___closed__1();
+lean_mark_persistent(l_CategoryTheory_Functor_empty___at_CategoryTheory_Limits_terminalOpOfInitial___spec__1___rarg___closed__1);
+return lean_io_result_mk_ok(lean_box(0));
+}
+#ifdef __cplusplus
+}
+#endif

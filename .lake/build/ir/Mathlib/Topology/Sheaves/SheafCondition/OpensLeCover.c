@@ -1,0 +1,10729 @@
+// Lean compiler output
+// Module: Mathlib.Topology.Sheaves.SheafCondition.OpensLeCover
+// Imports: Init Mathlib.Topology.Sheaves.SheafCondition.Sites
+#include <lean/lean.h>
+#if defined(__clang__)
+#pragma clang diagnostic ignored "-Wunused-parameter"
+#pragma clang diagnostic ignored "-Wunused-label"
+#elif defined(__GNUC__) && !defined(__CLANG__)
+#pragma GCC diagnostic ignored "-Wunused-parameter"
+#pragma GCC diagnostic ignored "-Wunused-label"
+#pragma GCC diagnostic ignored "-Wunused-but-set-variable"
+#endif
+#ifdef __cplusplus
+extern "C" {
+#endif
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__40___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerLeft___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__72___rarg(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_symm___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__47___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_id___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__5(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__43___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__83___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__25___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__11___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+lean_object* l_CompleteLattice_toCompleteSemilatticeInf___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_TopCat_Presheaf_whiskerIsoMapGenerateCocone(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__50___rarg(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_id___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__5___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__70___rarg___lambda__2(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_homOfLE___at_TopCat_Presheaf_generateEquivalenceOpensLe__inverse_x27___spec__7___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__80(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_fullSubcategoryInclusion___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__1___lambda__1(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__69___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__45___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__74___rarg(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__12(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__72___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+lean_object* l_CategoryTheory_Limits_IsLimit_whiskerEquivalenceEquiv___elambda__1___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_TopCat_Presheaf_generateEquivalenceOpensLe__inverse_x27(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+static lean_object* l_CategoryTheory_Functor_id___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__1___closed__1;
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__44(lean_object*, lean_object*, lean_object*, lean_object*);
+lean_object* l_CategoryTheory_FullSubcategory_category___rarg___lambda__1___boxed(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__4___lambda__3___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__2___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cones_functoriality___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__12(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__70___rarg___lambda__1___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__38(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__74___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__57(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__28___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+static lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_generateEquivalenceOpensLe__inverse_x27___spec__2___closed__1;
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_id___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__12(lean_object*, lean_object*, lean_object*, lean_object*);
+static lean_object* l_TopCat_Presheaf_generateEquivalenceOpensLe__functor_x27___closed__2;
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cones_functoriality___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__82___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__17(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerLeft___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__73(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__34(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__84(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_fullSubcategoryInclusion___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__1(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__66(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_inducedFunctor___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__2___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cocone_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__75___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__4___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__19___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__38___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_mapCone___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__80___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__16(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__46___rarg___lambda__2(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_TopCat_Presheaf_generateEquivalenceOpensLe__inverse_x27___spec__1___boxed(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__52(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__61___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__45(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__26(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__14___rarg(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__36(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cocone_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__76___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__17___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__80___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__49___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__61___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__44___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__13___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_mapCone___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__80___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__22___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__74(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__14(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_inducedFunctor___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__2(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_inducedFunctor___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__55(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__7___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Over_forgetCocone___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__63___boxed(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Over_forget___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__65(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__35___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__40___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+lean_object* l_CategoryTheory_NatTrans_op___elambda__1___rarg(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__49(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__16___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__11(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__21___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__28___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__32___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_mapCone___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__11___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerLeft___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__51___rarg(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_CostructuredArrow_homMk___at_TopCat_Presheaf_generateEquivalenceOpensLe__inverse_x27___spec__10(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__10___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__52___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__47___rarg(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__4___lambda__4___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__52___rarg(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__47(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerLeft___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__71___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__60___rarg(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__37___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__41___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__19___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__52___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__36(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_fullSubcategoryInclusion___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__54(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__53(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__21(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__11___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_mapCone___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__11___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__7___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__20(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__70___rarg___lambda__1(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__73(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsLimit_whiskerEquivalenceEquiv___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__47(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cones_functoriality___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__13___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__15(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__6(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__85(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__84___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_TopCat_Presheaf_generateEquivalenceOpensLe__inverse_x27___lambda__2___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__8___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_TopCat_Presheaf_generateEquivalenceOpensLe__inverse_x27___spec__9(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__79(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_symm___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__46___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__54(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_inducedFunctor___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__33___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__6___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_TopCat_Presheaf_generateEquivalenceOpensLe___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__43(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__23___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_TopCat_Presheaf_generateEquivalenceOpensLe__functor_x27___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__35___rarg___lambda__1(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__2___lambda__2___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__62___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__24___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__40___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__78(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__35(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsLimit_whiskerEquivalenceEquiv___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__48___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__79(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__34___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__10(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_fullSubcategoryInclusion___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__2(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__70(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__84___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__9___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_inducedFunctor___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__57(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__71(lean_object*);
+LEAN_EXPORT lean_object* l_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__62___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__82___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__7(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__22(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__8(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cones_functoriality___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__81___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_mapCone___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__12(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__60(lean_object*);
+LEAN_EXPORT lean_object* l_TopCat_Presheaf_generateEquivalenceOpensLe__functor_x27___lambda__2(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__9(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cones_functoriality___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__81(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__79___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cocone_whisker___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__70___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__79___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__61(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__11___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__3___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__14(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerLeft___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__71(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__3___lambda__1(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__27___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__78___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_symm___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__32(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__74(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__29___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__25___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__82(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__54(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__73(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Over_forgetCocone___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__62___boxed(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__39___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__66(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Over_forgetCocone___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__62___lambda__1___boxed(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__18(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_inducedFunctor___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__2(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_TopCat_Presheaf_SheafCondition_instCategoryOpensLeCover___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__86___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__4___lambda__4(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__81___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__49___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+lean_object* l_CategoryTheory_NatTrans_id___elambda__1___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsLimit_equivIsoLimit___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__87(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__73___rarg(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__26___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__36(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__83(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__16(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__8___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__6(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cones_functoriality___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__44___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__58(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_fullSubcategoryInclusion___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__56(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__61(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__51(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__8(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Over_forgetCocone___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__64___boxed(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__70(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__46___rarg___lambda__2___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__40(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__15___rarg(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_inducedFunctor___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__57___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__53___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__71___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsLimit_equivIsoLimit___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__86___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cones_functoriality___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__44___rarg___lambda__3(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__85___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__34(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__75___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__29(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_generateEquivalenceOpensLe__inverse_x27___spec__5(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__74___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__30___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__86(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cones_functoriality___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__44___rarg___lambda__2___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_inducedFunctor___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__2___lambda__1___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__30___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__28(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Comma_fst___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__66___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_homOfLE___at_TopCat_Presheaf_generateEquivalenceOpensLe__inverse_x27___spec__6___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cocone_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__76(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__75___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__2(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__41___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_TopCat_Presheaf_generateEquivalenceOpensLe__functor_x27(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__13___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_inducedFunctor___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__2___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__4___lambda__1(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_inducedFunctor___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__56___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_inducedFunctor___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__56(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_mapCone___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__43___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_TopCat_Presheaf_whiskerIsoMapGenerateCocone___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__76___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__5___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__62___rarg(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cones_functoriality___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__82(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__39___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_inducedFunctor___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__33(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__8___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerLeft___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__73___rarg(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cocone_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__6___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__77___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_homOfLE___at_TopCat_Presheaf_generateEquivalenceOpensLe__inverse_x27___spec__3(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__15___rarg(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__67(lean_object*);
+static lean_object* l_CategoryTheory_inducedFunctor___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__2___closed__1;
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__29___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__39(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Over_forget___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__64(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_inducedFunctor___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__3(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__26(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__67(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__24___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cone_whisker___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__49(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__4(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerLeft___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__52___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerLeft___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__73___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+lean_object* l_Preorder_smallCategory(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__6___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__30(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_TopCat_Presheaf_generateEquivalenceOpensLe__inverse_x27___spec__1(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__44___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__46(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__39(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__4___lambda__2(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__14___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__1___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_symm___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__33(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_fullSubcategoryInclusion___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__32(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_mapCone___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__82___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Equivalence_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__17___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__14___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Comma_fst___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__67___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__78(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__33___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__46___rarg___lambda__3(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__65(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__71___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__31(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_TopCat_Presheaf_SheafCondition_opensLeCoverCocone(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__18(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__7(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerLeft___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__52(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__22___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__85___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__55(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__26___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__27(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__2___lambda__1(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cone_whisker___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__50___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_fullSubcategoryInclusion___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__2___boxed(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__79(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__1___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__85___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Equivalence_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__17(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsLimit_equivIsoLimit___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__87___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__28___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_symm___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__31(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__25___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToIso___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__3___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_id___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__14(lean_object*, lean_object*, lean_object*, lean_object*);
+static lean_object* l_CategoryTheory_fullSubcategoryInclusion___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__1___closed__1;
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__19(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__71___boxed(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cone_whisker___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__49___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__11___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__28(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_symm___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__32___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_id___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__7(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerLeft___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__51___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cocone_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__5___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__19(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_TopCat_Presheaf_generateEquivalenceOpensLe(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cone_whisker___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__49___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__60___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__9(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_generateEquivalenceOpensLe__inverse_x27___spec__2(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__83___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__41___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__31___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__35___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__53___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__2___lambda__1(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cocone_whisker___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__70(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__1(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__63___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_homOfLE___at_TopCat_Presheaf_generateEquivalenceOpensLe__inverse_x27___spec__7(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_fullSubcategoryInclusion___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__54___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_mapCone___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__82___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__83(lean_object*);
+LEAN_EXPORT lean_object* l_TopCat_Presheaf_generateEquivalenceOpensLe__inverse_x27___lambda__2(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__37(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__55___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__78___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__1(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Over_forget___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__56(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsLimit_whiskerEquivalenceEquiv___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__48(lean_object*);
+LEAN_EXPORT lean_object* l_TopCat_Presheaf_generateEquivalenceOpensLe__functor_x27___lambda__2___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__41(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__50___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__50(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_CostructuredArrow_homMk___at_TopCat_Presheaf_generateEquivalenceOpensLe__inverse_x27___spec__10___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerLeft___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__71___rarg(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__70___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__75(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__8(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__77___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__39___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__4___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Comma_fst___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__60___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_TopCat_Presheaf_generateEquivalenceOpensLe__inverse_x27___spec__9___boxed(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__46___rarg(lean_object*, lean_object*, lean_object*, lean_object*);
+lean_object* l_Equiv_trans___rarg(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__15___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__37___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__7___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_generateEquivalenceOpensLe__inverse_x27___spec__11(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__51___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_iSup___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__3___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_fullSubcategoryInclusion___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__56___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cone_whisker___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__50(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_inducedFunctor___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__3___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__13___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__46___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_fullSubcategoryInclusion___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__1___boxed(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__72(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__15___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__9(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__62___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__85(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__82___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToIso___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__10___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__54___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__80(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__53___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__46___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__14___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__21___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__44___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__51(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__27___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__9___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__11(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Comma_fst___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__60(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__29(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__58(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__73___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Equivalence_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__16___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__38___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__59___boxed(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__34___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__8___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__1___lambda__1(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__84(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Comma_fst___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__61(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_id___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__12___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__84___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__24(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__52___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__71___rarg(lean_object*, lean_object*, lean_object*, lean_object*);
+static lean_object* l_TopCat_Presheaf_SheafCondition_instCategoryOpensLeCover___closed__1;
+LEAN_EXPORT lean_object* l_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__62(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__9___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerLeft___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__53(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+lean_object* l_CategoryTheory_discreteCategory(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__8(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__59(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__72___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_TopCat_Presheaf_SheafCondition_instCategoryOpensLeCover(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cocone_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__74(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__45(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__12___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__39(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__70___rarg(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_TopCat_Presheaf_generateEquivalenceOpensLe__inverse_x27___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_mapCone___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__12___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__41___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_symm___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__31___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__83___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__9___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__73___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__49___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__20___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Over_forget___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__63(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Comma_fst___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__67(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__46___rarg___lambda__3___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__30(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__20___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__22(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsLimit_whiskerEquivalenceEquiv___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__47___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__46(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerLeft___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__53___rarg(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__40___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__55___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__38(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__77___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__68(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__80___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_TopCat_Presheaf_generateEquivalenceOpensLe__functor_x27___lambda__1___boxed(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__64___boxed(lean_object*);
+LEAN_EXPORT lean_object* l_TopCat_Presheaf_generateEquivalenceOpensLe__inverse_x27___lambda__1___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_id___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__7___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__48___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__84___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__41(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_fullSubcategoryInclusion___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__55(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__19(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+static lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__46___rarg___closed__1;
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__81(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__25(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__85(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__36___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cones_functoriality___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__44(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__42___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__46___rarg___lambda__1___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+static lean_object* l_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___rarg___closed__1;
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__85___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__25(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__9___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__74___rarg(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__23(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cocone_whisker___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__68(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__26___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cone_whisker___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__48(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__74___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsLimit_equivIsoLimit___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__86___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Comma_fst___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__59(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__72___rarg(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__18___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__5___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerLeft___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__52___rarg(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__23___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cones_functoriality___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__12___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__31(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__15(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_inducedFunctor___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__55___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__42(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__54___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__4___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__18___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__2___lambda__2___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__61___rarg(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cocone_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__5(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__29(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__27___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__35(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__50___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__38___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_homOfLE___at_TopCat_Presheaf_generateEquivalenceOpensLe__inverse_x27___spec__3___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__76___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_fullSubcategoryInclusion___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__1(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___lambda__1___boxed(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cocone_whisker___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__68___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__63(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__72___rarg(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__24(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__22(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__34(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__69(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__43___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__78___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__19___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___lambda__1(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__4(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__75___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__36___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__6___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cones_functoriality___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__83___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__4(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cone_whisker___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__48___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Over_homMk___at_TopCat_Presheaf_generateEquivalenceOpensLe__inverse_x27___spec__8(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__31___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__3(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_fullSubcategoryInclusion___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__32___boxed(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__13(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerLeft___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__51(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToIso___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__3(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__42(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__85___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__15(lean_object*);
+lean_object* l_TopCat_Presheaf_coveringOfPresieve___rarg___boxed(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_mapCone___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__12___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__50(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__14___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cocone_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__75(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+lean_object* l_CategoryTheory_Limits_IsLimit_equivIsoLimit___elambda__2___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_id___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__14___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__76(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__23___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__4___lambda__1___boxed(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__43___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__86___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__64(lean_object*);
+static lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__2___closed__1;
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__18(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_TopCat_Presheaf_SheafCondition_instInhabitedOpensLeCoverOfNonempty___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__20(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__70___rarg___lambda__2___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__16___rarg(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__38(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cones_functoriality___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__13(lean_object*);
+LEAN_EXPORT lean_object* l_TopCat_Presheaf_SheafCondition_instInhabitedOpensLeCoverOfNonempty(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__10(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_TopCat_Presheaf_generateEquivalenceOpensLe__inverse_x27___spec__4(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__78(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__20___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__61___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_mapCone___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__81(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__24___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__6(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__35___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cocone_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__74___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__77___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__5___lambda__1(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__25___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Comma_fst___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__59___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__36___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__13___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__60(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__4___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__86(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__47___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_fullSubcategoryInclusion___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__1___lambda__1___boxed(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cocone_whisker___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__69(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__29___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__4___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__20(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_symm___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__17(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__2(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_homOfLE___at_TopCat_Presheaf_generateEquivalenceOpensLe__inverse_x27___spec__6(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cones_functoriality___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__82___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__10(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cones_functoriality___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__44___rarg___lambda__2(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__59(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_TopCat_Presheaf_generateEquivalenceOpensLe__inverse_x27___spec__4___boxed(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Over_forgetCocone___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__62___lambda__1(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__4___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_mapCone___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__43(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsLimit_whiskerEquivalenceEquiv___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__47___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+lean_object* l_CategoryTheory_InducedCategory_category___rarg(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Over_forgetCocone___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__64(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__73___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__45___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__32(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_mapCone___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__43___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+lean_object* l_CategoryTheory_Limits_IsLimit_whiskerEquivalenceEquiv___elambda__2___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__40(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__5___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__8___rarg(lean_object*);
+static lean_object* l_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___closed__1;
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__75(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cone_whisker___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__48___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__30___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Over_forget___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__58(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__54___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__72___boxed(lean_object*);
+LEAN_EXPORT lean_object* l_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cocone_whisker___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__69___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__41(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__23(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_iSup___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__3(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__5(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__44(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__5(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__54___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__18___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__13(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__11(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__79___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToIso___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__10(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+static lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__4___closed__1;
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__27(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__27___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Over_forgetCocone___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__62(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__42(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__45(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Over_forgetCocone___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__63(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Comma_fst___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__68___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__53(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__22___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__30___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_symm___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__46(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__86___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsLimit_equivIsoLimit___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__87___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__1___lambda__1___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__2___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__2___lambda__2(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_fullSubcategoryInclusion___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__1___boxed(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsLimit_whiskerEquivalenceEquiv___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__48___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__69(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cones_functoriality___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__83(lean_object*);
+lean_object* l_CategoryTheory_Category_opposite___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__45___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+lean_object* l_CategoryTheory_whiskerLeft___elambda__1___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Comma_fst___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__61___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__24(lean_object*, lean_object*, lean_object*, lean_object*);
+lean_object* l_TopologicalSpace_Opens_instCompleteLattice___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__84___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__15___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__78___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__73___rarg(lean_object*, lean_object*, lean_object*, lean_object*);
+lean_object* l_CompleteLattice_toConditionallyCompleteLattice___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__37(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__75___rarg(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__70___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__77(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__49___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cones_functoriality___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__81___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_inducedFunctor___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__2___lambda__1(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cones_functoriality___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__12___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__40(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__23(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__25(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__51___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerLeft___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__72(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__4(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__43(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__71(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__73___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__53___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__50___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_mapCone___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__11(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__60___rarg___lambda__1(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__48___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__21(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerLeft___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__72___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cones_functoriality___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__83___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Over_forget___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__57(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__45___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__33(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__74___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__34___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__4(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__77(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__67___lambda__1___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cones_functoriality___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__44___rarg___lambda__1(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__60___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__84___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__4___lambda__3(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Equivalence_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__16(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__13(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_mapCone___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__81___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_symm___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__17___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__10___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__69___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cone_whisker___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__50___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__46___rarg___lambda__1(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__42___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__83___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__65___boxed(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__2___lambda__2(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__84(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_symm___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__47(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__69___rarg(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__4___lambda__2___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Comma_fst___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__66(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_symm___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__33___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__27(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+lean_object* l_CategoryTheory_instCategoryOver___rarg(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__14(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__58___boxed(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__3___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__35(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__76(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__66___boxed(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cocone_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__37___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__67___lambda__1(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__28(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__49(lean_object*);
+LEAN_EXPORT lean_object* l_TopCat_Presheaf_generateEquivalenceOpensLe__functor_x27___lambda__1(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Equivalence_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__1(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_mapCone___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__82(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__3(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__28___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__79___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__42___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__57___boxed(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__21___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+lean_object* l_CategoryTheory_Limits_IsLimit_equivIsoLimit___elambda__1___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__70___boxed(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__71___rarg(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__26___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_mapCone___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__81___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__48(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__36___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_fullSubcategoryInclusion___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__55___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__35___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__21(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsLimit_equivIsoLimit___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__86(lean_object*);
+static lean_object* l_CategoryTheory_Over_forgetCocone___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__62___closed__1;
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__40___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__52(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Equivalence_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__1___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Comma_fst___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__68(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__72(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__30(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__9(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cones_functoriality___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__13___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__14___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__8___lambda__1(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+static lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__4___lambda__3___closed__1;
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerLeft___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__53___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+static lean_object* l_TopCat_Presheaf_generateEquivalenceOpensLe__functor_x27___closed__1;
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cocone_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__37(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Over_homMk___at_TopCat_Presheaf_generateEquivalenceOpensLe__inverse_x27___spec__8___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_mapCone___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__80(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__7(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__51___rarg(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__51___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__65(lean_object*);
+LEAN_EXPORT lean_object* l_TopCat_Presheaf_generateEquivalenceOpensLe__inverse_x27___lambda__1(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__16___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__62(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cocone_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__6(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__1___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cones_functoriality___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__44___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__10___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__77(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__29___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__70___rarg(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_TopCat_Presheaf_whiskerIsoMapGenerateCocone___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__26(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+static lean_object* _init_l_TopCat_Presheaf_SheafCondition_instCategoryOpensLeCover___closed__1() {
+_start:
+{
+lean_object* x_1; 
+x_1 = lean_alloc_closure((void*)(l_CategoryTheory_FullSubcategory_category___rarg___lambda__1___boxed), 1, 0);
+return x_1;
+}
+}
+LEAN_EXPORT lean_object* l_TopCat_Presheaf_SheafCondition_instCategoryOpensLeCover(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; lean_object* x_6; lean_object* x_7; lean_object* x_8; lean_object* x_9; 
+x_4 = l_TopologicalSpace_Opens_instCompleteLattice___rarg(x_1);
+x_5 = l_CompleteLattice_toCompleteSemilatticeInf___rarg(x_4);
+x_6 = lean_ctor_get(x_5, 0);
+lean_inc(x_6);
+lean_dec(x_5);
+x_7 = l_Preorder_smallCategory(lean_box(0), x_6);
+lean_dec(x_6);
+x_8 = l_TopCat_Presheaf_SheafCondition_instCategoryOpensLeCover___closed__1;
+x_9 = l_CategoryTheory_InducedCategory_category___rarg(x_7, x_8);
+return x_9;
+}
+}
+LEAN_EXPORT lean_object* l_TopCat_Presheaf_SheafCondition_instCategoryOpensLeCover___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_TopCat_Presheaf_SheafCondition_instCategoryOpensLeCover(x_1, x_2, x_3);
+lean_dec(x_3);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_TopCat_Presheaf_SheafCondition_instInhabitedOpensLeCoverOfNonempty(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; 
+x_5 = l_TopologicalSpace_Opens_instCompleteLattice___rarg(x_1);
+x_6 = lean_ctor_get(x_5, 4);
+lean_inc(x_6);
+lean_dec(x_5);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_TopCat_Presheaf_SheafCondition_instInhabitedOpensLeCoverOfNonempty___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_TopCat_Presheaf_SheafCondition_instInhabitedOpensLeCoverOfNonempty(x_1, x_2, x_3, x_4);
+lean_dec(x_3);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_inducedFunctor___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__2___lambda__1(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+return x_3;
+}
+}
+static lean_object* _init_l_CategoryTheory_inducedFunctor___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__2___closed__1() {
+_start:
+{
+lean_object* x_1; 
+x_1 = lean_alloc_closure((void*)(l_CategoryTheory_inducedFunctor___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__2___lambda__1___boxed), 3, 0);
+return x_1;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_inducedFunctor___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__2(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; 
+x_4 = l_CategoryTheory_inducedFunctor___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__2___closed__1;
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_fullSubcategoryInclusion___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__1___lambda__1(lean_object* x_1) {
+_start:
+{
+lean_inc(x_1);
+return x_1;
+}
+}
+static lean_object* _init_l_CategoryTheory_fullSubcategoryInclusion___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__1___closed__1() {
+_start:
+{
+lean_object* x_1; 
+x_1 = lean_alloc_closure((void*)(l_CategoryTheory_fullSubcategoryInclusion___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__1___lambda__1___boxed), 1, 0);
+return x_1;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_fullSubcategoryInclusion___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__1(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; 
+x_3 = l_CategoryTheory_fullSubcategoryInclusion___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__1___closed__1;
+x_4 = l_CategoryTheory_inducedFunctor___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__2(x_1, lean_box(0), x_3);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_iSup___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__3(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+x_4 = l_TopologicalSpace_Opens_instCompleteLattice___rarg(x_1);
+x_5 = l_CompleteLattice_toConditionallyCompleteLattice___rarg(x_4);
+lean_dec(x_4);
+x_6 = lean_ctor_get(x_5, 1);
+lean_inc(x_6);
+lean_dec(x_5);
+x_7 = lean_apply_1(x_6, lean_box(0));
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__4___lambda__1(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_inc(x_1);
+return x_1;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__4___lambda__2(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+return lean_box(0);
+}
+}
+static lean_object* _init_l_CategoryTheory_Functor_const___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__4___lambda__3___closed__1() {
+_start:
+{
+lean_object* x_1; 
+x_1 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__4___lambda__2___boxed), 3, 0);
+return x_1;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__4___lambda__3(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; lean_object* x_6; 
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__4___lambda__1___boxed), 2, 1);
+lean_closure_set(x_4, 0, x_3);
+x_5 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__4___lambda__3___closed__1;
+x_6 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_6, 0, x_4);
+lean_ctor_set(x_6, 1, x_5);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__4___lambda__4(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+return x_3;
+}
+}
+static lean_object* _init_l_CategoryTheory_Functor_const___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__4___closed__1() {
+_start:
+{
+lean_object* x_1; 
+x_1 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__4___lambda__4___boxed), 4, 0);
+return x_1;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__4(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; lean_object* x_6; lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; lean_object* x_11; lean_object* x_12; lean_object* x_13; 
+x_4 = l_TopologicalSpace_Opens_instCompleteLattice___rarg(x_1);
+x_5 = l_CompleteLattice_toCompleteSemilatticeInf___rarg(x_4);
+x_6 = lean_ctor_get(x_5, 0);
+lean_inc(x_6);
+lean_dec(x_5);
+x_7 = l_Preorder_smallCategory(lean_box(0), x_6);
+lean_dec(x_6);
+x_8 = l_TopCat_Presheaf_SheafCondition_instCategoryOpensLeCover___closed__1;
+lean_inc(x_7);
+x_9 = l_CategoryTheory_InducedCategory_category___rarg(x_7, x_8);
+x_10 = lean_ctor_get(x_7, 0);
+lean_inc(x_10);
+lean_dec(x_7);
+x_11 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__4___lambda__3___boxed), 3, 2);
+lean_closure_set(x_11, 0, x_9);
+lean_closure_set(x_11, 1, x_10);
+x_12 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__4___closed__1;
+x_13 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_13, 0, x_11);
+lean_ctor_set(x_13, 1, x_12);
+return x_13;
+}
+}
+LEAN_EXPORT lean_object* l_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___lambda__1(lean_object* x_1) {
+_start:
+{
+return lean_box(0);
+}
+}
+static lean_object* _init_l_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___closed__1() {
+_start:
+{
+lean_object* x_1; 
+x_1 = lean_alloc_closure((void*)(l_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___lambda__1___boxed), 1, 0);
+return x_1;
+}
+}
+LEAN_EXPORT lean_object* l_TopCat_Presheaf_SheafCondition_opensLeCoverCocone(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; lean_object* x_6; 
+x_4 = l_iSup___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__3(x_1, lean_box(0), x_3);
+x_5 = l_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___closed__1;
+x_6 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_6, 0, x_4);
+lean_ctor_set(x_6, 1, x_5);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_inducedFunctor___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__2___lambda__1___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_inducedFunctor___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__2___lambda__1(x_1, x_2, x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_inducedFunctor___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__2___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_inducedFunctor___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__2(x_1, x_2, x_3);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_fullSubcategoryInclusion___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__1___lambda__1___boxed(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = l_CategoryTheory_fullSubcategoryInclusion___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__1___lambda__1(x_1);
+lean_dec(x_1);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_fullSubcategoryInclusion___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__1___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_CategoryTheory_fullSubcategoryInclusion___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__1(x_1, x_2);
+lean_dec(x_1);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_iSup___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__3___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_iSup___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__3(x_1, x_2, x_3);
+lean_dec(x_3);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__4___lambda__1___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__4___lambda__1(x_1, x_2);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__4___lambda__2___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__4___lambda__2(x_1, x_2, x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__4___lambda__3___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__4___lambda__3(x_1, x_2, x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__4___lambda__4___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__4___lambda__4(x_1, x_2, x_3, x_4);
+lean_dec(x_4);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__4___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__4(x_1, x_2, x_3);
+lean_dec(x_3);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___lambda__1___boxed(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = l_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___lambda__1(x_1);
+lean_dec(x_1);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_TopCat_Presheaf_SheafCondition_opensLeCoverCocone(x_1, x_2, x_3);
+lean_dec(x_3);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_TopCat_Presheaf_generateEquivalenceOpensLe__functor_x27___lambda__1(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_ctor_get(x_1, 0);
+lean_inc(x_2);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_TopCat_Presheaf_generateEquivalenceOpensLe__functor_x27___lambda__2(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = lean_ctor_get(x_3, 0);
+lean_inc(x_4);
+return x_4;
+}
+}
+static lean_object* _init_l_TopCat_Presheaf_generateEquivalenceOpensLe__functor_x27___closed__1() {
+_start:
+{
+lean_object* x_1; 
+x_1 = lean_alloc_closure((void*)(l_TopCat_Presheaf_generateEquivalenceOpensLe__functor_x27___lambda__1___boxed), 1, 0);
+return x_1;
+}
+}
+static lean_object* _init_l_TopCat_Presheaf_generateEquivalenceOpensLe__functor_x27___closed__2() {
+_start:
+{
+lean_object* x_1; 
+x_1 = lean_alloc_closure((void*)(l_TopCat_Presheaf_generateEquivalenceOpensLe__functor_x27___lambda__2___boxed), 3, 0);
+return x_1;
+}
+}
+LEAN_EXPORT lean_object* l_TopCat_Presheaf_generateEquivalenceOpensLe__functor_x27(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+x_5 = l_TopCat_Presheaf_generateEquivalenceOpensLe__functor_x27___closed__1;
+x_6 = l_TopCat_Presheaf_generateEquivalenceOpensLe__functor_x27___closed__2;
+x_7 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_7, 0, x_5);
+lean_ctor_set(x_7, 1, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_TopCat_Presheaf_generateEquivalenceOpensLe__functor_x27___lambda__1___boxed(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = l_TopCat_Presheaf_generateEquivalenceOpensLe__functor_x27___lambda__1(x_1);
+lean_dec(x_1);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_TopCat_Presheaf_generateEquivalenceOpensLe__functor_x27___lambda__2___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_TopCat_Presheaf_generateEquivalenceOpensLe__functor_x27___lambda__2(x_1, x_2, x_3);
+lean_dec(x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_TopCat_Presheaf_generateEquivalenceOpensLe__functor_x27___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_TopCat_Presheaf_generateEquivalenceOpensLe__functor_x27(x_1, x_2, x_3, x_4);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_TopCat_Presheaf_generateEquivalenceOpensLe__inverse_x27___spec__1(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; lean_object* x_3; lean_object* x_4; 
+x_2 = l_CategoryTheory_fullSubcategoryInclusion___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__1___closed__1;
+x_3 = l_CategoryTheory_inducedFunctor___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__2___closed__1;
+x_4 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_4, 0, x_2);
+lean_ctor_set(x_4, 1, x_3);
+return x_4;
+}
+}
+static lean_object* _init_l_CategoryTheory_Functor_const___at_TopCat_Presheaf_generateEquivalenceOpensLe__inverse_x27___spec__2___closed__1() {
+_start:
+{
+lean_object* x_1; 
+x_1 = l_CategoryTheory_discreteCategory(lean_box(0));
+return x_1;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_generateEquivalenceOpensLe__inverse_x27___spec__2(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; lean_object* x_3; lean_object* x_4; lean_object* x_5; lean_object* x_6; lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; 
+x_2 = l_TopologicalSpace_Opens_instCompleteLattice___rarg(x_1);
+x_3 = l_CompleteLattice_toCompleteSemilatticeInf___rarg(x_2);
+x_4 = lean_ctor_get(x_3, 0);
+lean_inc(x_4);
+lean_dec(x_3);
+x_5 = l_Preorder_smallCategory(lean_box(0), x_4);
+lean_dec(x_4);
+x_6 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_generateEquivalenceOpensLe__inverse_x27___spec__2___closed__1;
+x_7 = lean_ctor_get(x_5, 0);
+lean_inc(x_7);
+lean_dec(x_5);
+x_8 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__4___lambda__3___boxed), 3, 2);
+lean_closure_set(x_8, 0, x_6);
+lean_closure_set(x_8, 1, x_7);
+x_9 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__4___closed__1;
+x_10 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_10, 0, x_8);
+lean_ctor_set(x_10, 1, x_9);
+return x_10;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_homOfLE___at_TopCat_Presheaf_generateEquivalenceOpensLe__inverse_x27___spec__3(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+return lean_box(0);
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_TopCat_Presheaf_generateEquivalenceOpensLe__inverse_x27___spec__4(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; lean_object* x_3; lean_object* x_4; 
+x_2 = l_CategoryTheory_fullSubcategoryInclusion___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__1___closed__1;
+x_3 = l_CategoryTheory_inducedFunctor___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__2___closed__1;
+x_4 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_4, 0, x_2);
+lean_ctor_set(x_4, 1, x_3);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_generateEquivalenceOpensLe__inverse_x27___spec__5(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; lean_object* x_3; lean_object* x_4; lean_object* x_5; lean_object* x_6; lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; 
+x_2 = l_TopologicalSpace_Opens_instCompleteLattice___rarg(x_1);
+x_3 = l_CompleteLattice_toCompleteSemilatticeInf___rarg(x_2);
+x_4 = lean_ctor_get(x_3, 0);
+lean_inc(x_4);
+lean_dec(x_3);
+x_5 = l_Preorder_smallCategory(lean_box(0), x_4);
+lean_dec(x_4);
+x_6 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_generateEquivalenceOpensLe__inverse_x27___spec__2___closed__1;
+x_7 = lean_ctor_get(x_5, 0);
+lean_inc(x_7);
+lean_dec(x_5);
+x_8 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__4___lambda__3___boxed), 3, 2);
+lean_closure_set(x_8, 0, x_6);
+lean_closure_set(x_8, 1, x_7);
+x_9 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__4___closed__1;
+x_10 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_10, 0, x_8);
+lean_ctor_set(x_10, 1, x_9);
+return x_10;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_homOfLE___at_TopCat_Presheaf_generateEquivalenceOpensLe__inverse_x27___spec__6(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+return lean_box(0);
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_homOfLE___at_TopCat_Presheaf_generateEquivalenceOpensLe__inverse_x27___spec__7(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+return lean_box(0);
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_TopCat_Presheaf_generateEquivalenceOpensLe__inverse_x27___spec__9(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; lean_object* x_3; lean_object* x_4; 
+x_2 = l_CategoryTheory_fullSubcategoryInclusion___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__1___closed__1;
+x_3 = l_CategoryTheory_inducedFunctor___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__2___closed__1;
+x_4 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_4, 0, x_2);
+lean_ctor_set(x_4, 1, x_3);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_generateEquivalenceOpensLe__inverse_x27___spec__11(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; lean_object* x_3; lean_object* x_4; lean_object* x_5; lean_object* x_6; lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; 
+x_2 = l_TopologicalSpace_Opens_instCompleteLattice___rarg(x_1);
+x_3 = l_CompleteLattice_toCompleteSemilatticeInf___rarg(x_2);
+x_4 = lean_ctor_get(x_3, 0);
+lean_inc(x_4);
+lean_dec(x_3);
+x_5 = l_Preorder_smallCategory(lean_box(0), x_4);
+lean_dec(x_4);
+x_6 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_generateEquivalenceOpensLe__inverse_x27___spec__2___closed__1;
+x_7 = lean_ctor_get(x_5, 0);
+lean_inc(x_7);
+lean_dec(x_5);
+x_8 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__4___lambda__3___boxed), 3, 2);
+lean_closure_set(x_8, 0, x_6);
+lean_closure_set(x_8, 1, x_7);
+x_9 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__4___closed__1;
+x_10 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_10, 0, x_8);
+lean_ctor_set(x_10, 1, x_9);
+return x_10;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_CostructuredArrow_homMk___at_TopCat_Presheaf_generateEquivalenceOpensLe__inverse_x27___spec__10(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; 
+x_8 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_8, 0, x_6);
+lean_ctor_set(x_8, 1, lean_box(0));
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Over_homMk___at_TopCat_Presheaf_generateEquivalenceOpensLe__inverse_x27___spec__8(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; lean_object* x_8; 
+x_7 = l_CategoryTheory_Functor_id___at_TopCat_Presheaf_generateEquivalenceOpensLe__inverse_x27___spec__9(x_1);
+x_8 = l_CategoryTheory_CostructuredArrow_homMk___at_TopCat_Presheaf_generateEquivalenceOpensLe__inverse_x27___spec__10(x_1, x_2, x_7, x_3, x_4, x_5, lean_box(0));
+lean_dec(x_7);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_TopCat_Presheaf_generateEquivalenceOpensLe__inverse_x27___lambda__1(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; 
+x_5 = lean_box(0);
+x_6 = lean_alloc_ctor(0, 3, 0);
+lean_ctor_set(x_6, 0, x_4);
+lean_ctor_set(x_6, 1, x_5);
+lean_ctor_set(x_6, 2, lean_box(0));
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_TopCat_Presheaf_generateEquivalenceOpensLe__inverse_x27___lambda__2(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; 
+x_7 = lean_box(0);
+x_8 = lean_alloc_ctor(0, 3, 0);
+lean_ctor_set(x_8, 0, x_4);
+lean_ctor_set(x_8, 1, x_7);
+lean_ctor_set(x_8, 2, lean_box(0));
+x_9 = lean_alloc_ctor(0, 3, 0);
+lean_ctor_set(x_9, 0, x_5);
+lean_ctor_set(x_9, 1, x_7);
+lean_ctor_set(x_9, 2, lean_box(0));
+x_10 = l_CategoryTheory_Over_homMk___at_TopCat_Presheaf_generateEquivalenceOpensLe__inverse_x27___spec__8(x_1, x_2, x_8, x_9, x_6, lean_box(0));
+lean_dec(x_9);
+lean_dec(x_8);
+return x_10;
+}
+}
+LEAN_EXPORT lean_object* l_TopCat_Presheaf_generateEquivalenceOpensLe__inverse_x27(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; lean_object* x_11; lean_object* x_12; 
+lean_inc(x_1);
+x_6 = l_TopologicalSpace_Opens_instCompleteLattice___rarg(x_1);
+x_7 = l_CompleteLattice_toCompleteSemilatticeInf___rarg(x_6);
+x_8 = lean_ctor_get(x_7, 0);
+lean_inc(x_8);
+lean_dec(x_7);
+x_9 = l_Preorder_smallCategory(lean_box(0), x_8);
+lean_dec(x_8);
+lean_inc(x_9);
+lean_inc(x_4);
+lean_inc(x_1);
+x_10 = lean_alloc_closure((void*)(l_TopCat_Presheaf_generateEquivalenceOpensLe__inverse_x27___lambda__1___boxed), 4, 3);
+lean_closure_set(x_10, 0, x_1);
+lean_closure_set(x_10, 1, x_4);
+lean_closure_set(x_10, 2, x_9);
+x_11 = lean_alloc_closure((void*)(l_TopCat_Presheaf_generateEquivalenceOpensLe__inverse_x27___lambda__2___boxed), 6, 3);
+lean_closure_set(x_11, 0, x_1);
+lean_closure_set(x_11, 1, x_4);
+lean_closure_set(x_11, 2, x_9);
+x_12 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_12, 0, x_10);
+lean_ctor_set(x_12, 1, x_11);
+return x_12;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_TopCat_Presheaf_generateEquivalenceOpensLe__inverse_x27___spec__1___boxed(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = l_CategoryTheory_Functor_id___at_TopCat_Presheaf_generateEquivalenceOpensLe__inverse_x27___spec__1(x_1);
+lean_dec(x_1);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_homOfLE___at_TopCat_Presheaf_generateEquivalenceOpensLe__inverse_x27___spec__3___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_homOfLE___at_TopCat_Presheaf_generateEquivalenceOpensLe__inverse_x27___spec__3(x_1, x_2, x_3, x_4);
+lean_dec(x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_TopCat_Presheaf_generateEquivalenceOpensLe__inverse_x27___spec__4___boxed(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = l_CategoryTheory_Functor_id___at_TopCat_Presheaf_generateEquivalenceOpensLe__inverse_x27___spec__4(x_1);
+lean_dec(x_1);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_homOfLE___at_TopCat_Presheaf_generateEquivalenceOpensLe__inverse_x27___spec__6___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_homOfLE___at_TopCat_Presheaf_generateEquivalenceOpensLe__inverse_x27___spec__6(x_1, x_2, x_3, x_4);
+lean_dec(x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_homOfLE___at_TopCat_Presheaf_generateEquivalenceOpensLe__inverse_x27___spec__7___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_homOfLE___at_TopCat_Presheaf_generateEquivalenceOpensLe__inverse_x27___spec__7(x_1, x_2, x_3, x_4);
+lean_dec(x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_TopCat_Presheaf_generateEquivalenceOpensLe__inverse_x27___spec__9___boxed(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = l_CategoryTheory_Functor_id___at_TopCat_Presheaf_generateEquivalenceOpensLe__inverse_x27___spec__9(x_1);
+lean_dec(x_1);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_CostructuredArrow_homMk___at_TopCat_Presheaf_generateEquivalenceOpensLe__inverse_x27___spec__10___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; 
+x_8 = l_CategoryTheory_CostructuredArrow_homMk___at_TopCat_Presheaf_generateEquivalenceOpensLe__inverse_x27___spec__10(x_1, x_2, x_3, x_4, x_5, x_6, x_7);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Over_homMk___at_TopCat_Presheaf_generateEquivalenceOpensLe__inverse_x27___spec__8___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = l_CategoryTheory_Over_homMk___at_TopCat_Presheaf_generateEquivalenceOpensLe__inverse_x27___spec__8(x_1, x_2, x_3, x_4, x_5, x_6);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_TopCat_Presheaf_generateEquivalenceOpensLe__inverse_x27___lambda__1___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_TopCat_Presheaf_generateEquivalenceOpensLe__inverse_x27___lambda__1(x_1, x_2, x_3, x_4);
+lean_dec(x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_TopCat_Presheaf_generateEquivalenceOpensLe__inverse_x27___lambda__2___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = l_TopCat_Presheaf_generateEquivalenceOpensLe__inverse_x27___lambda__2(x_1, x_2, x_3, x_4, x_5, x_6);
+lean_dec(x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_TopCat_Presheaf_generateEquivalenceOpensLe__inverse_x27___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_TopCat_Presheaf_generateEquivalenceOpensLe__inverse_x27(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_3);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__1___lambda__1(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_inc(x_3);
+return x_3;
+}
+}
+static lean_object* _init_l_CategoryTheory_Functor_id___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__1___closed__1() {
+_start:
+{
+lean_object* x_1; 
+x_1 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_id___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__1___lambda__1___boxed), 3, 0);
+return x_1;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__1(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+x_5 = l_CategoryTheory_fullSubcategoryInclusion___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__1___closed__1;
+x_6 = l_CategoryTheory_Functor_id___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__1___closed__1;
+x_7 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_7, 0, x_5);
+lean_ctor_set(x_7, 1, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__2___lambda__1(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+x_4 = lean_ctor_get(x_1, 0);
+lean_inc(x_4);
+lean_dec(x_1);
+x_5 = lean_ctor_get(x_2, 0);
+lean_inc(x_5);
+lean_dec(x_2);
+x_6 = lean_apply_1(x_5, x_3);
+x_7 = lean_apply_1(x_4, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__2___lambda__2(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; 
+x_6 = lean_ctor_get(x_1, 1);
+lean_inc(x_6);
+lean_dec(x_1);
+x_7 = lean_ctor_get(x_2, 0);
+lean_inc(x_7);
+lean_dec(x_2);
+lean_inc(x_7);
+x_8 = lean_apply_1(x_7, x_3);
+x_9 = lean_apply_1(x_7, x_4);
+x_10 = lean_apply_3(x_6, x_8, x_9, lean_box(0));
+return x_10;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__2(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; lean_object* x_8; lean_object* x_9; 
+lean_inc(x_5);
+lean_inc(x_6);
+x_7 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_7, 0, x_6);
+lean_closure_set(x_7, 1, x_5);
+x_8 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__2___lambda__2___boxed), 5, 2);
+lean_closure_set(x_8, 0, x_6);
+lean_closure_set(x_8, 1, x_5);
+x_9 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_9, 0, x_7);
+lean_ctor_set(x_9, 1, x_8);
+return x_9;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_id___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__5(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; lean_object* x_11; lean_object* x_12; lean_object* x_13; 
+x_6 = l_TopologicalSpace_Opens_instCompleteLattice___rarg(x_1);
+x_7 = l_CompleteLattice_toCompleteSemilatticeInf___rarg(x_6);
+x_8 = lean_ctor_get(x_7, 0);
+lean_inc(x_8);
+lean_dec(x_7);
+x_9 = l_Preorder_smallCategory(lean_box(0), x_8);
+lean_dec(x_8);
+x_10 = l_CategoryTheory_instCategoryOver___rarg(x_9, x_4);
+x_11 = l_TopCat_Presheaf_SheafCondition_instCategoryOpensLeCover___closed__1;
+x_12 = l_CategoryTheory_InducedCategory_category___rarg(x_10, x_11);
+x_13 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_id___elambda__1___rarg), 3, 2);
+lean_closure_set(x_13, 0, x_12);
+lean_closure_set(x_13, 1, x_5);
+return x_13;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__4(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; 
+x_8 = l_CategoryTheory_NatTrans_id___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__5(x_1, lean_box(0), x_3, x_4, x_6);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_id___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__7(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; lean_object* x_11; lean_object* x_12; lean_object* x_13; 
+x_6 = l_TopologicalSpace_Opens_instCompleteLattice___rarg(x_1);
+x_7 = l_CompleteLattice_toCompleteSemilatticeInf___rarg(x_6);
+x_8 = lean_ctor_get(x_7, 0);
+lean_inc(x_8);
+lean_dec(x_7);
+x_9 = l_Preorder_smallCategory(lean_box(0), x_8);
+lean_dec(x_8);
+x_10 = l_CategoryTheory_instCategoryOver___rarg(x_9, x_4);
+x_11 = l_TopCat_Presheaf_SheafCondition_instCategoryOpensLeCover___closed__1;
+x_12 = l_CategoryTheory_InducedCategory_category___rarg(x_10, x_11);
+x_13 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_id___elambda__1___rarg), 3, 2);
+lean_closure_set(x_13, 0, x_12);
+lean_closure_set(x_13, 1, x_5);
+return x_13;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__6(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; 
+x_8 = l_CategoryTheory_NatTrans_id___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__7(x_1, lean_box(0), x_3, x_4, x_6);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToIso___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__3(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; lean_object* x_9; lean_object* x_10; 
+lean_inc(x_4);
+lean_inc(x_1);
+x_8 = l_CategoryTheory_NatTrans_id___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__5(x_1, lean_box(0), x_3, x_4, x_6);
+x_9 = l_CategoryTheory_NatTrans_id___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__7(x_1, lean_box(0), x_3, x_4, x_5);
+x_10 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_10, 0, x_8);
+lean_ctor_set(x_10, 1, x_9);
+return x_10;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__8___lambda__1(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; lean_object* x_11; lean_object* x_12; 
+x_6 = lean_ctor_get(x_1, 1);
+lean_inc(x_6);
+lean_dec(x_1);
+x_7 = lean_ctor_get(x_2, 0);
+lean_inc(x_7);
+lean_inc(x_7);
+lean_inc(x_3);
+x_8 = lean_apply_1(x_7, x_3);
+lean_inc(x_4);
+x_9 = lean_apply_1(x_7, x_4);
+x_10 = lean_ctor_get(x_2, 1);
+lean_inc(x_10);
+lean_dec(x_2);
+x_11 = lean_apply_3(x_10, x_3, x_4, x_5);
+x_12 = lean_apply_3(x_6, x_8, x_9, x_11);
+return x_12;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__8(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; lean_object* x_8; lean_object* x_9; 
+lean_inc(x_5);
+lean_inc(x_6);
+x_7 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_7, 0, x_6);
+lean_closure_set(x_7, 1, x_5);
+x_8 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__8___lambda__1), 5, 2);
+lean_closure_set(x_8, 0, x_6);
+lean_closure_set(x_8, 1, x_5);
+x_9 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_9, 0, x_7);
+lean_ctor_set(x_9, 1, x_8);
+return x_9;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__9(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; lean_object* x_6; 
+x_4 = l_CategoryTheory_fullSubcategoryInclusion___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__1___closed__1;
+x_5 = l_CategoryTheory_inducedFunctor___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__2___closed__1;
+x_6 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_6, 0, x_4);
+lean_ctor_set(x_6, 1, x_5);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_id___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__12(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; 
+x_5 = l_TopCat_Presheaf_SheafCondition_instCategoryOpensLeCover(x_1, lean_box(0), x_3);
+x_6 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_id___elambda__1___rarg), 3, 2);
+lean_closure_set(x_6, 0, x_5);
+lean_closure_set(x_6, 1, x_4);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__11(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = l_CategoryTheory_NatTrans_id___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__12(x_1, lean_box(0), x_3, x_5);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_id___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__14(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; 
+x_5 = l_TopCat_Presheaf_SheafCondition_instCategoryOpensLeCover(x_1, lean_box(0), x_3);
+x_6 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_id___elambda__1___rarg), 3, 2);
+lean_closure_set(x_6, 0, x_5);
+lean_closure_set(x_6, 1, x_4);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__13(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = l_CategoryTheory_NatTrans_id___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__14(x_1, lean_box(0), x_3, x_5);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToIso___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__10(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; lean_object* x_8; lean_object* x_9; 
+lean_inc(x_1);
+x_7 = l_CategoryTheory_NatTrans_id___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__12(x_1, lean_box(0), x_3, x_5);
+x_8 = l_CategoryTheory_NatTrans_id___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__14(x_1, lean_box(0), x_3, x_4);
+x_9 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_9, 0, x_7);
+lean_ctor_set(x_9, 1, x_8);
+return x_9;
+}
+}
+LEAN_EXPORT lean_object* l_TopCat_Presheaf_generateEquivalenceOpensLe(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; lean_object* x_11; lean_object* x_12; lean_object* x_13; lean_object* x_14; 
+x_6 = l_TopCat_Presheaf_generateEquivalenceOpensLe__functor_x27(x_1, lean_box(0), x_3, x_4);
+lean_inc(x_4);
+lean_inc(x_1);
+x_7 = l_TopCat_Presheaf_generateEquivalenceOpensLe__inverse_x27(x_1, lean_box(0), x_3, x_4, lean_box(0));
+x_8 = l_CategoryTheory_Functor_id___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__1(x_1, lean_box(0), x_3, x_4);
+lean_inc(x_7);
+lean_inc(x_6);
+x_9 = l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__2(x_1, lean_box(0), x_3, x_4, x_6, x_7);
+lean_inc(x_4);
+lean_inc(x_1);
+x_10 = l_CategoryTheory_eqToIso___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__3(x_1, lean_box(0), x_3, x_4, x_8, x_9, lean_box(0));
+lean_inc(x_6);
+lean_inc(x_7);
+x_11 = l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__8(x_1, lean_box(0), x_3, x_4, x_7, x_6);
+lean_dec(x_4);
+x_12 = l_CategoryTheory_Functor_id___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__9(x_1, lean_box(0), x_3);
+x_13 = l_CategoryTheory_eqToIso___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__10(x_1, lean_box(0), x_3, x_11, x_12, lean_box(0));
+x_14 = lean_alloc_ctor(0, 4, 0);
+lean_ctor_set(x_14, 0, x_6);
+lean_ctor_set(x_14, 1, x_7);
+lean_ctor_set(x_14, 2, x_10);
+lean_ctor_set(x_14, 3, x_13);
+return x_14;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__1___lambda__1___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Functor_id___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__1___lambda__1(x_1, x_2, x_3);
+lean_dec(x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__1___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_Functor_id___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__1(x_1, x_2, x_3, x_4);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__2___lambda__2___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__2___lambda__2(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_5);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__2___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__2(x_1, x_2, x_3, x_4, x_5, x_6);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_id___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__5___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_NatTrans_id___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__5(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_3);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__4___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; 
+x_8 = l_CategoryTheory_eqToHom___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__4(x_1, x_2, x_3, x_4, x_5, x_6, x_7);
+lean_dec(x_5);
+lean_dec(x_3);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_id___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__7___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_NatTrans_id___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__7(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_3);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__6___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; 
+x_8 = l_CategoryTheory_eqToHom___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__6(x_1, x_2, x_3, x_4, x_5, x_6, x_7);
+lean_dec(x_5);
+lean_dec(x_3);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToIso___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__3___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; 
+x_8 = l_CategoryTheory_eqToIso___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__3(x_1, x_2, x_3, x_4, x_5, x_6, x_7);
+lean_dec(x_3);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__8___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__8(x_1, x_2, x_3, x_4, x_5, x_6);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__9___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Functor_id___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__9(x_1, x_2, x_3);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_id___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__12___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_NatTrans_id___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__12(x_1, x_2, x_3, x_4);
+lean_dec(x_3);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__11___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = l_CategoryTheory_eqToHom___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__11(x_1, x_2, x_3, x_4, x_5, x_6);
+lean_dec(x_4);
+lean_dec(x_3);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_id___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__14___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_NatTrans_id___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__14(x_1, x_2, x_3, x_4);
+lean_dec(x_3);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__13___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = l_CategoryTheory_eqToHom___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__13(x_1, x_2, x_3, x_4, x_5, x_6);
+lean_dec(x_4);
+lean_dec(x_3);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToIso___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__10___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = l_CategoryTheory_eqToIso___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__10(x_1, x_2, x_3, x_4, x_5, x_6);
+lean_dec(x_3);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_TopCat_Presheaf_generateEquivalenceOpensLe___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_TopCat_Presheaf_generateEquivalenceOpensLe(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_3);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__2___lambda__1(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; 
+x_3 = lean_ctor_get(x_1, 0);
+lean_inc(x_3);
+lean_dec(x_1);
+x_4 = lean_apply_1(x_3, x_2);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__2___lambda__2(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+return lean_box(0);
+}
+}
+static lean_object* _init_l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__2___closed__1() {
+_start:
+{
+lean_object* x_1; 
+x_1 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__2___lambda__2___boxed), 3, 0);
+return x_1;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__2(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; 
+x_6 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__2___lambda__1), 2, 1);
+lean_closure_set(x_6, 0, x_5);
+x_7 = l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__2___closed__1;
+x_8 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_8, 0, x_6);
+lean_ctor_set(x_8, 1, x_7);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__3___lambda__1(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; 
+x_5 = lean_ctor_get(x_1, 1);
+lean_inc(x_5);
+lean_dec(x_1);
+x_6 = lean_apply_3(x_5, x_3, x_2, lean_box(0));
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__3(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; 
+lean_inc(x_5);
+x_6 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__2___lambda__1), 2, 1);
+lean_closure_set(x_6, 0, x_5);
+x_7 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__3___lambda__1), 4, 1);
+lean_closure_set(x_7, 0, x_5);
+x_8 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_8, 0, x_6);
+lean_ctor_set(x_8, 1, x_7);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__4(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; lean_object* x_8; lean_object* x_9; 
+lean_inc(x_5);
+lean_inc(x_6);
+x_7 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_7, 0, x_6);
+lean_closure_set(x_7, 1, x_5);
+x_8 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__2___lambda__2___boxed), 5, 2);
+lean_closure_set(x_8, 0, x_6);
+lean_closure_set(x_8, 1, x_5);
+x_9 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_9, 0, x_7);
+lean_ctor_set(x_9, 1, x_8);
+return x_9;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__5___lambda__1(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; 
+x_5 = lean_ctor_get(x_1, 1);
+lean_inc(x_5);
+lean_dec(x_1);
+x_6 = lean_apply_3(x_5, x_3, x_2, x_4);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__5(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; 
+lean_inc(x_5);
+x_6 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__2___lambda__1), 2, 1);
+lean_closure_set(x_6, 0, x_5);
+x_7 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__5___lambda__1), 4, 1);
+lean_closure_set(x_7, 0, x_5);
+x_8 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_8, 0, x_6);
+lean_ctor_set(x_8, 1, x_7);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__6(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+x_5 = l_CategoryTheory_fullSubcategoryInclusion___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__1___closed__1;
+x_6 = l_CategoryTheory_Functor_id___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__1___closed__1;
+x_7 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_7, 0, x_5);
+lean_ctor_set(x_7, 1, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__7(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; 
+lean_inc(x_5);
+x_6 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__2___lambda__1), 2, 1);
+lean_closure_set(x_6, 0, x_5);
+x_7 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__5___lambda__1), 4, 1);
+lean_closure_set(x_7, 0, x_5);
+x_8 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_8, 0, x_6);
+lean_ctor_set(x_8, 1, x_7);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__9(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; 
+lean_inc(x_5);
+x_6 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__2___lambda__1), 2, 1);
+lean_closure_set(x_6, 0, x_5);
+x_7 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__5___lambda__1), 4, 1);
+lean_closure_set(x_7, 0, x_5);
+x_8 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_8, 0, x_6);
+lean_ctor_set(x_8, 1, x_7);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__10(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; 
+lean_inc(x_5);
+x_6 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__2___lambda__1), 2, 1);
+lean_closure_set(x_6, 0, x_5);
+x_7 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__5___lambda__1), 4, 1);
+lean_closure_set(x_7, 0, x_5);
+x_8 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_8, 0, x_6);
+lean_ctor_set(x_8, 1, x_7);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__12(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; 
+lean_inc(x_5);
+x_6 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__2___lambda__1), 2, 1);
+lean_closure_set(x_6, 0, x_5);
+x_7 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__5___lambda__1), 4, 1);
+lean_closure_set(x_7, 0, x_5);
+x_8 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_8, 0, x_6);
+lean_ctor_set(x_8, 1, x_7);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__13(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; 
+lean_inc(x_5);
+x_6 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__2___lambda__1), 2, 1);
+lean_closure_set(x_6, 0, x_5);
+x_7 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__5___lambda__1), 4, 1);
+lean_closure_set(x_7, 0, x_5);
+x_8 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_8, 0, x_6);
+lean_ctor_set(x_8, 1, x_7);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__11___rarg(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_op___elambda__1___rarg), 2, 1);
+lean_closure_set(x_2, 0, x_1);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__11(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__11___rarg), 1, 0);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__15(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; 
+lean_inc(x_5);
+x_6 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__2___lambda__1), 2, 1);
+lean_closure_set(x_6, 0, x_5);
+x_7 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__5___lambda__1), 4, 1);
+lean_closure_set(x_7, 0, x_5);
+x_8 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_8, 0, x_6);
+lean_ctor_set(x_8, 1, x_7);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__16(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; 
+lean_inc(x_5);
+x_6 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__2___lambda__1), 2, 1);
+lean_closure_set(x_6, 0, x_5);
+x_7 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__5___lambda__1), 4, 1);
+lean_closure_set(x_7, 0, x_5);
+x_8 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_8, 0, x_6);
+lean_ctor_set(x_8, 1, x_7);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__14___rarg(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_op___elambda__1___rarg), 2, 1);
+lean_closure_set(x_2, 0, x_1);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__14(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__14___rarg), 1, 0);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__8(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; lean_object* x_9; lean_object* x_10; lean_object* x_11; lean_object* x_12; 
+x_8 = lean_ctor_get(x_7, 0);
+lean_inc(x_8);
+x_9 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_op___elambda__1___rarg), 2, 1);
+lean_closure_set(x_9, 0, x_8);
+x_10 = lean_ctor_get(x_7, 1);
+lean_inc(x_10);
+lean_dec(x_7);
+x_11 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_op___elambda__1___rarg), 2, 1);
+lean_closure_set(x_11, 0, x_10);
+x_12 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_12, 0, x_9);
+lean_ctor_set(x_12, 1, x_11);
+return x_12;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_symm___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__17(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; lean_object* x_9; lean_object* x_10; 
+x_8 = lean_ctor_get(x_7, 1);
+x_9 = lean_ctor_get(x_7, 0);
+lean_inc(x_9);
+lean_inc(x_8);
+x_10 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_10, 0, x_8);
+lean_ctor_set(x_10, 1, x_9);
+return x_10;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__18(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; lean_object* x_6; 
+x_4 = l_CategoryTheory_fullSubcategoryInclusion___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__1___closed__1;
+x_5 = l_CategoryTheory_inducedFunctor___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__2___closed__1;
+x_6 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_6, 0, x_4);
+lean_ctor_set(x_6, 1, x_5);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__19(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__2___lambda__1), 2, 1);
+lean_closure_set(x_5, 0, x_4);
+x_6 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__4___lambda__3___closed__1;
+x_7 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_7, 0, x_5);
+lean_ctor_set(x_7, 1, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__20(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; lean_object* x_8; lean_object* x_9; 
+lean_inc(x_5);
+lean_inc(x_6);
+x_7 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_7, 0, x_6);
+lean_closure_set(x_7, 1, x_5);
+x_8 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__8___lambda__1), 5, 2);
+lean_closure_set(x_8, 0, x_6);
+lean_closure_set(x_8, 1, x_5);
+x_9 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_9, 0, x_7);
+lean_ctor_set(x_9, 1, x_8);
+return x_9;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__21(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__2___lambda__1), 2, 1);
+lean_closure_set(x_5, 0, x_4);
+x_6 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__4___lambda__3___closed__1;
+x_7 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_7, 0, x_5);
+lean_ctor_set(x_7, 1, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__23(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__2___lambda__1), 2, 1);
+lean_closure_set(x_5, 0, x_4);
+x_6 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__4___lambda__3___closed__1;
+x_7 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_7, 0, x_5);
+lean_ctor_set(x_7, 1, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__24(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__2___lambda__1), 2, 1);
+lean_closure_set(x_5, 0, x_4);
+x_6 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__4___lambda__3___closed__1;
+x_7 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_7, 0, x_5);
+lean_ctor_set(x_7, 1, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__26(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__2___lambda__1), 2, 1);
+lean_closure_set(x_5, 0, x_4);
+x_6 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__4___lambda__3___closed__1;
+x_7 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_7, 0, x_5);
+lean_ctor_set(x_7, 1, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__27(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__2___lambda__1), 2, 1);
+lean_closure_set(x_5, 0, x_4);
+x_6 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__4___lambda__3___closed__1;
+x_7 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_7, 0, x_5);
+lean_ctor_set(x_7, 1, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__25___rarg(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_op___elambda__1___rarg), 2, 1);
+lean_closure_set(x_2, 0, x_1);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__25(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__25___rarg), 1, 0);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__29(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__2___lambda__1), 2, 1);
+lean_closure_set(x_5, 0, x_4);
+x_6 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__4___lambda__3___closed__1;
+x_7 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_7, 0, x_5);
+lean_ctor_set(x_7, 1, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__30(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__2___lambda__1), 2, 1);
+lean_closure_set(x_5, 0, x_4);
+x_6 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__4___lambda__3___closed__1;
+x_7 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_7, 0, x_5);
+lean_ctor_set(x_7, 1, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__28___rarg(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_op___elambda__1___rarg), 2, 1);
+lean_closure_set(x_2, 0, x_1);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__28(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__28___rarg), 1, 0);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__22(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; lean_object* x_11; 
+x_7 = lean_ctor_get(x_6, 0);
+lean_inc(x_7);
+x_8 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_op___elambda__1___rarg), 2, 1);
+lean_closure_set(x_8, 0, x_7);
+x_9 = lean_ctor_get(x_6, 1);
+lean_inc(x_9);
+lean_dec(x_6);
+x_10 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_op___elambda__1___rarg), 2, 1);
+lean_closure_set(x_10, 0, x_9);
+x_11 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_11, 0, x_8);
+lean_ctor_set(x_11, 1, x_10);
+return x_11;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_symm___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__31(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; lean_object* x_8; lean_object* x_9; 
+x_7 = lean_ctor_get(x_6, 1);
+x_8 = lean_ctor_get(x_6, 0);
+lean_inc(x_8);
+lean_inc(x_7);
+x_9 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_9, 0, x_7);
+lean_ctor_set(x_9, 1, x_8);
+return x_9;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Equivalence_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__1(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; lean_object* x_11; lean_object* x_12; lean_object* x_13; lean_object* x_14; lean_object* x_15; lean_object* x_16; lean_object* x_17; lean_object* x_18; lean_object* x_19; lean_object* x_20; lean_object* x_21; lean_object* x_22; lean_object* x_23; lean_object* x_24; 
+x_6 = lean_ctor_get(x_5, 0);
+lean_inc(x_6);
+lean_inc(x_6);
+x_7 = l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__2(x_1, lean_box(0), x_3, x_4, x_6);
+x_8 = lean_ctor_get(x_5, 1);
+lean_inc(x_8);
+lean_inc(x_8);
+x_9 = l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__3(x_1, lean_box(0), x_3, x_4, x_8);
+lean_inc(x_8);
+lean_inc(x_6);
+x_10 = l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__4(x_1, lean_box(0), x_3, x_4, x_6, x_8);
+lean_inc(x_10);
+x_11 = l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__5(x_1, lean_box(0), x_3, x_4, x_10);
+x_12 = l_CategoryTheory_Functor_id___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__6(x_1, lean_box(0), x_3, x_4);
+lean_inc(x_12);
+x_13 = l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__7(x_1, lean_box(0), x_3, x_4, x_12);
+x_14 = lean_ctor_get(x_5, 2);
+lean_inc(x_14);
+x_15 = l_CategoryTheory_NatIso_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__8(x_1, lean_box(0), x_3, x_4, x_12, x_10, x_14);
+lean_dec(x_10);
+lean_dec(x_12);
+x_16 = l_CategoryTheory_Iso_symm___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__17(x_1, lean_box(0), x_3, x_4, x_11, x_13, x_15);
+lean_dec(x_15);
+lean_dec(x_13);
+lean_dec(x_11);
+x_17 = l_CategoryTheory_Functor_id___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__18(x_1, lean_box(0), x_3);
+lean_inc(x_17);
+x_18 = l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__19(x_1, lean_box(0), x_3, x_17);
+x_19 = l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__20(x_1, lean_box(0), x_3, x_4, x_8, x_6);
+lean_inc(x_19);
+x_20 = l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__21(x_1, lean_box(0), x_3, x_19);
+x_21 = lean_ctor_get(x_5, 3);
+lean_inc(x_21);
+lean_dec(x_5);
+x_22 = l_CategoryTheory_NatIso_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__22(x_1, lean_box(0), x_3, x_19, x_17, x_21);
+lean_dec(x_17);
+lean_dec(x_19);
+x_23 = l_CategoryTheory_Iso_symm___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__31(x_1, lean_box(0), x_3, x_18, x_20, x_22);
+lean_dec(x_22);
+lean_dec(x_20);
+lean_dec(x_18);
+x_24 = lean_alloc_ctor(0, 4, 0);
+lean_ctor_set(x_24, 0, x_7);
+lean_ctor_set(x_24, 1, x_9);
+lean_ctor_set(x_24, 2, x_16);
+lean_ctor_set(x_24, 3, x_23);
+return x_24;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_inducedFunctor___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__33(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; 
+x_4 = l_CategoryTheory_inducedFunctor___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__2___closed__1;
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_fullSubcategoryInclusion___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__32(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; 
+x_3 = l_CategoryTheory_fullSubcategoryInclusion___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__1___closed__1;
+x_4 = l_CategoryTheory_inducedFunctor___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__33(x_1, lean_box(0), x_3);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__34(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__2___lambda__1), 2, 1);
+lean_closure_set(x_5, 0, x_4);
+x_6 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__4___lambda__3___closed__1;
+x_7 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_7, 0, x_5);
+lean_ctor_set(x_7, 1, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__35___rarg___lambda__1(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; 
+x_6 = lean_ctor_get(x_1, 1);
+lean_inc(x_6);
+lean_dec(x_1);
+x_7 = lean_ctor_get(x_2, 0);
+lean_inc(x_7);
+lean_dec(x_2);
+lean_inc(x_7);
+x_8 = lean_apply_1(x_7, x_3);
+x_9 = lean_apply_1(x_7, x_4);
+x_10 = lean_apply_3(x_6, x_8, x_9, lean_box(0));
+return x_10;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__35___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; lean_object* x_8; lean_object* x_9; 
+lean_inc(x_5);
+lean_inc(x_6);
+x_7 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_7, 0, x_6);
+lean_closure_set(x_7, 1, x_5);
+x_8 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__35___rarg___lambda__1), 5, 2);
+lean_closure_set(x_8, 0, x_6);
+lean_closure_set(x_8, 1, x_5);
+x_9 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_9, 0, x_7);
+lean_ctor_set(x_9, 1, x_8);
+return x_9;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__35(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__35___rarg___boxed), 6, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__36___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; lean_object* x_9; lean_object* x_10; 
+lean_inc(x_6);
+lean_inc(x_7);
+x_8 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_8, 0, x_7);
+lean_closure_set(x_8, 1, x_6);
+x_9 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__2___lambda__2___boxed), 5, 2);
+lean_closure_set(x_9, 0, x_7);
+lean_closure_set(x_9, 1, x_6);
+x_10 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_10, 0, x_8);
+lean_ctor_set(x_10, 1, x_9);
+return x_10;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__36(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__36___rarg___boxed), 7, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__38(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__2___lambda__1), 2, 1);
+lean_closure_set(x_5, 0, x_4);
+x_6 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__4___lambda__3___closed__1;
+x_7 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_7, 0, x_5);
+lean_ctor_set(x_7, 1, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__39(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; lean_object* x_6; lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; lean_object* x_11; lean_object* x_12; lean_object* x_13; 
+x_4 = l_TopologicalSpace_Opens_instCompleteLattice___rarg(x_1);
+x_5 = l_CompleteLattice_toCompleteSemilatticeInf___rarg(x_4);
+x_6 = lean_ctor_get(x_5, 0);
+lean_inc(x_6);
+lean_dec(x_5);
+x_7 = l_Preorder_smallCategory(lean_box(0), x_6);
+lean_dec(x_6);
+x_8 = l_TopCat_Presheaf_SheafCondition_instCategoryOpensLeCover___closed__1;
+lean_inc(x_7);
+x_9 = l_CategoryTheory_InducedCategory_category___rarg(x_7, x_8);
+x_10 = lean_ctor_get(x_7, 0);
+lean_inc(x_10);
+lean_dec(x_7);
+x_11 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__4___lambda__3___boxed), 3, 2);
+lean_closure_set(x_11, 0, x_9);
+lean_closure_set(x_11, 1, x_10);
+x_12 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__4___closed__1;
+x_13 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_13, 0, x_11);
+lean_ctor_set(x_13, 1, x_12);
+return x_13;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__41(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__2___lambda__1), 2, 1);
+lean_closure_set(x_5, 0, x_4);
+x_6 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__4___lambda__3___closed__1;
+x_7 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_7, 0, x_5);
+lean_ctor_set(x_7, 1, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__42(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__2___lambda__1), 2, 1);
+lean_closure_set(x_5, 0, x_4);
+x_6 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__4___lambda__3___closed__1;
+x_7 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_7, 0, x_5);
+lean_ctor_set(x_7, 1, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__40___rarg(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_op___elambda__1___rarg), 2, 1);
+lean_closure_set(x_2, 0, x_1);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__40(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__40___rarg), 1, 0);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cocone_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__37(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+uint8_t x_6; 
+x_6 = !lean_is_exclusive(x_5);
+if (x_6 == 0)
+{
+lean_object* x_7; lean_object* x_8; 
+x_7 = lean_ctor_get(x_5, 1);
+x_8 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_op___elambda__1___rarg), 2, 1);
+lean_closure_set(x_8, 0, x_7);
+lean_ctor_set(x_5, 1, x_8);
+return x_5;
+}
+else
+{
+lean_object* x_9; lean_object* x_10; lean_object* x_11; lean_object* x_12; 
+x_9 = lean_ctor_get(x_5, 0);
+x_10 = lean_ctor_get(x_5, 1);
+lean_inc(x_10);
+lean_inc(x_9);
+lean_dec(x_5);
+x_11 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_op___elambda__1___rarg), 2, 1);
+lean_closure_set(x_11, 0, x_10);
+x_12 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_12, 0, x_9);
+lean_ctor_set(x_12, 1, x_11);
+return x_12;
+}
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__45___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; lean_object* x_8; lean_object* x_9; 
+lean_inc(x_5);
+lean_inc(x_6);
+x_7 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_7, 0, x_6);
+lean_closure_set(x_7, 1, x_5);
+x_8 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__35___rarg___lambda__1), 5, 2);
+lean_closure_set(x_8, 0, x_6);
+lean_closure_set(x_8, 1, x_5);
+x_9 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_9, 0, x_7);
+lean_ctor_set(x_9, 1, x_8);
+return x_9;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__45(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__45___rarg___boxed), 6, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__46___rarg___lambda__1(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; 
+x_6 = lean_ctor_get(x_1, 1);
+lean_inc(x_6);
+lean_dec(x_1);
+x_7 = lean_apply_1(x_6, x_2);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__46___rarg___lambda__2(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+lean_inc(x_4);
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__4___lambda__1___boxed), 2, 1);
+lean_closure_set(x_5, 0, x_4);
+x_6 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__46___rarg___lambda__1___boxed), 5, 2);
+lean_closure_set(x_6, 0, x_2);
+lean_closure_set(x_6, 1, x_4);
+x_7 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_7, 0, x_5);
+lean_ctor_set(x_7, 1, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__46___rarg___lambda__3(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_inc(x_3);
+return x_3;
+}
+}
+static lean_object* _init_l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__46___rarg___closed__1() {
+_start:
+{
+lean_object* x_1; 
+x_1 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__46___rarg___lambda__3___boxed), 4, 0);
+return x_1;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__46___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; lean_object* x_11; lean_object* x_12; lean_object* x_13; lean_object* x_14; lean_object* x_15; 
+x_5 = l_TopologicalSpace_Opens_instCompleteLattice___rarg(x_2);
+x_6 = l_CompleteLattice_toCompleteSemilatticeInf___rarg(x_5);
+x_7 = lean_ctor_get(x_6, 0);
+lean_inc(x_7);
+lean_dec(x_6);
+x_8 = l_Preorder_smallCategory(lean_box(0), x_7);
+lean_dec(x_7);
+x_9 = l_TopCat_Presheaf_SheafCondition_instCategoryOpensLeCover___closed__1;
+x_10 = l_CategoryTheory_InducedCategory_category___rarg(x_8, x_9);
+x_11 = l_CategoryTheory_Category_opposite___rarg(x_10);
+x_12 = lean_ctor_get(x_1, 0);
+lean_inc(x_12);
+x_13 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__46___rarg___lambda__2___boxed), 4, 3);
+lean_closure_set(x_13, 0, x_11);
+lean_closure_set(x_13, 1, x_1);
+lean_closure_set(x_13, 2, x_12);
+x_14 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__46___rarg___closed__1;
+x_15 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_15, 0, x_13);
+lean_ctor_set(x_15, 1, x_14);
+return x_15;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__46(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__46___rarg___boxed), 4, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__47___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; lean_object* x_11; lean_object* x_12; lean_object* x_13; lean_object* x_14; lean_object* x_15; 
+x_5 = l_TopologicalSpace_Opens_instCompleteLattice___rarg(x_2);
+x_6 = l_CompleteLattice_toCompleteSemilatticeInf___rarg(x_5);
+x_7 = lean_ctor_get(x_6, 0);
+lean_inc(x_7);
+lean_dec(x_6);
+x_8 = l_Preorder_smallCategory(lean_box(0), x_7);
+lean_dec(x_7);
+x_9 = l_TopCat_Presheaf_SheafCondition_instCategoryOpensLeCover___closed__1;
+x_10 = l_CategoryTheory_InducedCategory_category___rarg(x_8, x_9);
+x_11 = l_CategoryTheory_Category_opposite___rarg(x_10);
+x_12 = lean_ctor_get(x_1, 0);
+lean_inc(x_12);
+x_13 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__46___rarg___lambda__2___boxed), 4, 3);
+lean_closure_set(x_13, 0, x_11);
+lean_closure_set(x_13, 1, x_1);
+lean_closure_set(x_13, 2, x_12);
+x_14 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__46___rarg___closed__1;
+x_15 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_15, 0, x_13);
+lean_ctor_set(x_15, 1, x_14);
+return x_15;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__47(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__47___rarg___boxed), 4, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cones_functoriality___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__44___rarg___lambda__1(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; lean_object* x_7; lean_object* x_8; 
+x_5 = lean_ctor_get(x_1, 1);
+lean_inc(x_5);
+lean_dec(x_1);
+x_6 = lean_ctor_get(x_2, 0);
+lean_inc(x_6);
+lean_dec(x_2);
+x_7 = lean_apply_1(x_6, x_4);
+x_8 = lean_apply_3(x_5, x_3, x_7, lean_box(0));
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cones_functoriality___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__44___rarg___lambda__2(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; lean_object* x_11; 
+x_7 = lean_ctor_get(x_1, 0);
+lean_inc(x_7);
+x_8 = lean_ctor_get(x_6, 0);
+lean_inc(x_8);
+lean_dec(x_6);
+lean_inc(x_8);
+x_9 = lean_apply_1(x_7, x_8);
+x_10 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_Cones_functoriality___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__44___rarg___lambda__1), 4, 3);
+lean_closure_set(x_10, 0, x_1);
+lean_closure_set(x_10, 1, x_2);
+lean_closure_set(x_10, 2, x_8);
+x_11 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_11, 0, x_9);
+lean_ctor_set(x_11, 1, x_10);
+return x_11;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cones_functoriality___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__44___rarg___lambda__3(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; lean_object* x_7; lean_object* x_8; 
+x_5 = lean_ctor_get(x_2, 0);
+lean_inc(x_5);
+lean_dec(x_2);
+x_6 = lean_ctor_get(x_3, 0);
+lean_inc(x_6);
+lean_dec(x_3);
+x_7 = lean_ctor_get(x_1, 1);
+lean_inc(x_7);
+lean_dec(x_1);
+x_8 = lean_apply_3(x_7, x_5, x_6, lean_box(0));
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cones_functoriality___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__44___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; lean_object* x_11; lean_object* x_12; lean_object* x_13; lean_object* x_14; lean_object* x_15; lean_object* x_16; lean_object* x_17; 
+lean_inc(x_2);
+x_7 = l_TopologicalSpace_Opens_instCompleteLattice___rarg(x_2);
+x_8 = l_CompleteLattice_toCompleteSemilatticeInf___rarg(x_7);
+x_9 = lean_ctor_get(x_8, 0);
+lean_inc(x_9);
+lean_dec(x_8);
+x_10 = l_Preorder_smallCategory(lean_box(0), x_9);
+lean_dec(x_9);
+x_11 = l_TopCat_Presheaf_SheafCondition_instCategoryOpensLeCover___closed__1;
+x_12 = l_CategoryTheory_InducedCategory_category___rarg(x_10, x_11);
+x_13 = l_CategoryTheory_Category_opposite___rarg(x_12);
+lean_inc(x_6);
+lean_inc(x_5);
+x_14 = l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__45___rarg(x_1, x_2, lean_box(0), x_4, x_5, x_6);
+lean_dec(x_2);
+lean_inc(x_6);
+x_15 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_Cones_functoriality___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__44___rarg___lambda__2___boxed), 6, 5);
+lean_closure_set(x_15, 0, x_6);
+lean_closure_set(x_15, 1, x_5);
+lean_closure_set(x_15, 2, x_13);
+lean_closure_set(x_15, 3, x_1);
+lean_closure_set(x_15, 4, x_14);
+x_16 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_Cones_functoriality___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__44___rarg___lambda__3), 4, 1);
+lean_closure_set(x_16, 0, x_6);
+x_17 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_17, 0, x_15);
+lean_ctor_set(x_17, 1, x_16);
+return x_17;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cones_functoriality___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__44(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_Cones_functoriality___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__44___rarg___boxed), 6, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_mapCone___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__43___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; lean_object* x_9; lean_object* x_10; 
+x_8 = l_CategoryTheory_Limits_Cones_functoriality___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__44___rarg(x_1, x_2, lean_box(0), x_4, x_6, x_5);
+x_9 = lean_ctor_get(x_8, 0);
+lean_inc(x_9);
+lean_dec(x_8);
+x_10 = lean_apply_1(x_9, x_7);
+return x_10;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_mapCone___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__43(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_mapCone___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__43___rarg___boxed), 7, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__49___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; lean_object* x_9; lean_object* x_10; 
+lean_inc(x_6);
+lean_inc(x_7);
+x_8 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_8, 0, x_7);
+lean_closure_set(x_8, 1, x_6);
+x_9 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__2___lambda__2___boxed), 5, 2);
+lean_closure_set(x_9, 0, x_7);
+lean_closure_set(x_9, 1, x_6);
+x_10 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_10, 0, x_8);
+lean_ctor_set(x_10, 1, x_9);
+return x_10;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__49(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__49___rarg___boxed), 7, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__50___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; 
+x_5 = l_TopCat_Presheaf_SheafCondition_instCategoryOpensLeCover(x_2, lean_box(0), x_4);
+x_6 = l_CategoryTheory_Category_opposite___rarg(x_5);
+x_7 = lean_ctor_get(x_1, 0);
+lean_inc(x_7);
+x_8 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__46___rarg___lambda__2___boxed), 4, 3);
+lean_closure_set(x_8, 0, x_6);
+lean_closure_set(x_8, 1, x_1);
+lean_closure_set(x_8, 2, x_7);
+x_9 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__46___rarg___closed__1;
+x_10 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_10, 0, x_8);
+lean_ctor_set(x_10, 1, x_9);
+return x_10;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__50(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__50___rarg___boxed), 4, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__52___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; lean_object* x_9; lean_object* x_10; 
+lean_inc(x_6);
+lean_inc(x_7);
+x_8 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_8, 0, x_7);
+lean_closure_set(x_8, 1, x_6);
+x_9 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__2___lambda__2___boxed), 5, 2);
+lean_closure_set(x_9, 0, x_7);
+lean_closure_set(x_9, 1, x_6);
+x_10 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_10, 0, x_8);
+lean_ctor_set(x_10, 1, x_9);
+return x_10;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__52(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__52___rarg___boxed), 7, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__53___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; lean_object* x_9; lean_object* x_10; 
+lean_inc(x_6);
+lean_inc(x_7);
+x_8 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_8, 0, x_7);
+lean_closure_set(x_8, 1, x_6);
+x_9 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__2___lambda__2___boxed), 5, 2);
+lean_closure_set(x_9, 0, x_7);
+lean_closure_set(x_9, 1, x_6);
+x_10 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_10, 0, x_8);
+lean_ctor_set(x_10, 1, x_9);
+return x_10;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__53(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__53___rarg___boxed), 7, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerLeft___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__51___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_whiskerLeft___elambda__1___rarg___boxed), 5, 4);
+lean_closure_set(x_5, 0, x_1);
+lean_closure_set(x_5, 1, x_2);
+lean_closure_set(x_5, 2, x_3);
+lean_closure_set(x_5, 3, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerLeft___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__51(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = lean_alloc_closure((void*)(l_CategoryTheory_whiskerLeft___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__51___rarg), 4, 0);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cone_whisker___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__48___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8) {
+_start:
+{
+uint8_t x_9; 
+x_9 = !lean_is_exclusive(x_8);
+if (x_9 == 0)
+{
+lean_object* x_10; lean_object* x_11; lean_object* x_12; lean_object* x_13; lean_object* x_14; lean_object* x_15; 
+x_10 = lean_ctor_get(x_8, 0);
+x_11 = lean_ctor_get(x_8, 1);
+x_12 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__50___rarg(x_1, x_2, lean_box(0), x_4);
+x_13 = lean_ctor_get(x_12, 0);
+lean_inc(x_13);
+lean_dec(x_12);
+lean_inc(x_10);
+x_14 = lean_apply_1(x_13, x_10);
+x_15 = lean_alloc_closure((void*)(l_CategoryTheory_whiskerLeft___elambda__1___rarg___boxed), 5, 4);
+lean_closure_set(x_15, 0, x_7);
+lean_closure_set(x_15, 1, x_14);
+lean_closure_set(x_15, 2, x_6);
+lean_closure_set(x_15, 3, x_11);
+lean_ctor_set(x_8, 1, x_15);
+return x_8;
+}
+else
+{
+lean_object* x_16; lean_object* x_17; lean_object* x_18; lean_object* x_19; lean_object* x_20; lean_object* x_21; lean_object* x_22; 
+x_16 = lean_ctor_get(x_8, 0);
+x_17 = lean_ctor_get(x_8, 1);
+lean_inc(x_17);
+lean_inc(x_16);
+lean_dec(x_8);
+x_18 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__50___rarg(x_1, x_2, lean_box(0), x_4);
+x_19 = lean_ctor_get(x_18, 0);
+lean_inc(x_19);
+lean_dec(x_18);
+lean_inc(x_16);
+x_20 = lean_apply_1(x_19, x_16);
+x_21 = lean_alloc_closure((void*)(l_CategoryTheory_whiskerLeft___elambda__1___rarg___boxed), 5, 4);
+lean_closure_set(x_21, 0, x_7);
+lean_closure_set(x_21, 1, x_20);
+lean_closure_set(x_21, 2, x_6);
+lean_closure_set(x_21, 3, x_17);
+x_22 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_22, 0, x_16);
+lean_ctor_set(x_22, 1, x_21);
+return x_22;
+}
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cone_whisker___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__48(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_Cone_whisker___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__48___rarg___boxed), 8, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_inducedFunctor___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__55(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; 
+x_5 = l_CategoryTheory_Functor_id___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__1___closed__1;
+x_6 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_6, 0, x_4);
+lean_ctor_set(x_6, 1, x_5);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_fullSubcategoryInclusion___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__54(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; 
+x_4 = l_CategoryTheory_fullSubcategoryInclusion___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__1___closed__1;
+x_5 = l_CategoryTheory_inducedFunctor___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__55(x_1, x_2, lean_box(0), x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__57(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; lean_object* x_3; lean_object* x_4; 
+x_2 = l_CategoryTheory_fullSubcategoryInclusion___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__1___closed__1;
+x_3 = l_CategoryTheory_inducedFunctor___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__2___closed__1;
+x_4 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_4, 0, x_2);
+lean_ctor_set(x_4, 1, x_3);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__58(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; lean_object* x_3; lean_object* x_4; lean_object* x_5; lean_object* x_6; lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; 
+x_2 = l_TopologicalSpace_Opens_instCompleteLattice___rarg(x_1);
+x_3 = l_CompleteLattice_toCompleteSemilatticeInf___rarg(x_2);
+x_4 = lean_ctor_get(x_3, 0);
+lean_inc(x_4);
+lean_dec(x_3);
+x_5 = l_Preorder_smallCategory(lean_box(0), x_4);
+lean_dec(x_4);
+x_6 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_generateEquivalenceOpensLe__inverse_x27___spec__2___closed__1;
+x_7 = lean_ctor_get(x_5, 0);
+lean_inc(x_7);
+lean_dec(x_5);
+x_8 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__4___lambda__3___boxed), 3, 2);
+lean_closure_set(x_8, 0, x_6);
+lean_closure_set(x_8, 1, x_7);
+x_9 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__4___closed__1;
+x_10 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_10, 0, x_8);
+lean_ctor_set(x_10, 1, x_9);
+return x_10;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Comma_fst___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__59(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; lean_object* x_6; 
+x_4 = l_TopCat_Presheaf_generateEquivalenceOpensLe__functor_x27___closed__1;
+x_5 = l_TopCat_Presheaf_generateEquivalenceOpensLe__functor_x27___closed__2;
+x_6 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_6, 0, x_4);
+lean_ctor_set(x_6, 1, x_5);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Over_forget___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__56(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+x_3 = l_CategoryTheory_Functor_id___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__57(x_1);
+lean_inc(x_1);
+x_4 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__58(x_1);
+x_5 = lean_ctor_get(x_4, 0);
+lean_inc(x_5);
+lean_dec(x_4);
+x_6 = lean_apply_1(x_5, x_2);
+x_7 = l_CategoryTheory_Comma_fst___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__59(x_1, x_3, x_6);
+lean_dec(x_6);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__60___rarg___lambda__1(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; lean_object* x_11; lean_object* x_12; 
+x_6 = lean_ctor_get(x_1, 1);
+lean_inc(x_6);
+lean_dec(x_1);
+x_7 = lean_ctor_get(x_2, 0);
+lean_inc(x_7);
+lean_inc(x_7);
+lean_inc(x_3);
+x_8 = lean_apply_1(x_7, x_3);
+lean_inc(x_4);
+x_9 = lean_apply_1(x_7, x_4);
+x_10 = lean_ctor_get(x_2, 1);
+lean_inc(x_10);
+lean_dec(x_2);
+x_11 = lean_apply_3(x_10, x_3, x_4, x_5);
+x_12 = lean_apply_3(x_6, x_8, x_9, x_11);
+return x_12;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__60___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+lean_inc(x_3);
+lean_inc(x_4);
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_5, 0, x_4);
+lean_closure_set(x_5, 1, x_3);
+x_6 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__60___rarg___lambda__1), 5, 2);
+lean_closure_set(x_6, 0, x_4);
+lean_closure_set(x_6, 1, x_3);
+x_7 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_7, 0, x_5);
+lean_ctor_set(x_7, 1, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__60(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__60___rarg___boxed), 4, 0);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__61(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; 
+x_6 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__2___lambda__1), 2, 1);
+lean_closure_set(x_6, 0, x_5);
+x_7 = l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__2___closed__1;
+x_8 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_8, 0, x_6);
+lean_ctor_set(x_8, 1, x_7);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__64(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; lean_object* x_3; lean_object* x_4; 
+x_2 = l_CategoryTheory_fullSubcategoryInclusion___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__1___closed__1;
+x_3 = l_CategoryTheory_inducedFunctor___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__2___closed__1;
+x_4 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_4, 0, x_2);
+lean_ctor_set(x_4, 1, x_3);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__65(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; lean_object* x_3; lean_object* x_4; lean_object* x_5; lean_object* x_6; lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; 
+x_2 = l_TopologicalSpace_Opens_instCompleteLattice___rarg(x_1);
+x_3 = l_CompleteLattice_toCompleteSemilatticeInf___rarg(x_2);
+x_4 = lean_ctor_get(x_3, 0);
+lean_inc(x_4);
+lean_dec(x_3);
+x_5 = l_Preorder_smallCategory(lean_box(0), x_4);
+lean_dec(x_4);
+x_6 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_generateEquivalenceOpensLe__inverse_x27___spec__2___closed__1;
+x_7 = lean_ctor_get(x_5, 0);
+lean_inc(x_7);
+lean_dec(x_5);
+x_8 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__4___lambda__3___boxed), 3, 2);
+lean_closure_set(x_8, 0, x_6);
+lean_closure_set(x_8, 1, x_7);
+x_9 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__4___closed__1;
+x_10 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_10, 0, x_8);
+lean_ctor_set(x_10, 1, x_9);
+return x_10;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Comma_fst___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__66(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; lean_object* x_6; 
+x_4 = l_TopCat_Presheaf_generateEquivalenceOpensLe__functor_x27___closed__1;
+x_5 = l_TopCat_Presheaf_generateEquivalenceOpensLe__functor_x27___closed__2;
+x_6 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_6, 0, x_4);
+lean_ctor_set(x_6, 1, x_5);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Over_forget___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__63(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+x_3 = l_CategoryTheory_Functor_id___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__64(x_1);
+lean_inc(x_1);
+x_4 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__65(x_1);
+x_5 = lean_ctor_get(x_4, 0);
+lean_inc(x_5);
+lean_dec(x_4);
+x_6 = lean_apply_1(x_5, x_2);
+x_7 = l_CategoryTheory_Comma_fst___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__66(x_1, x_3, x_6);
+lean_dec(x_6);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__67___lambda__1(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; lean_object* x_6; 
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__4___lambda__1___boxed), 2, 1);
+lean_closure_set(x_4, 0, x_3);
+x_5 = l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__2___closed__1;
+x_6 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_6, 0, x_4);
+lean_ctor_set(x_6, 1, x_5);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__67(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; lean_object* x_6; lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; lean_object* x_11; 
+x_3 = l_TopologicalSpace_Opens_instCompleteLattice___rarg(x_1);
+x_4 = l_CompleteLattice_toCompleteSemilatticeInf___rarg(x_3);
+x_5 = lean_ctor_get(x_4, 0);
+lean_inc(x_5);
+lean_dec(x_4);
+x_6 = l_Preorder_smallCategory(lean_box(0), x_5);
+lean_dec(x_5);
+lean_inc(x_6);
+x_7 = l_CategoryTheory_instCategoryOver___rarg(x_6, x_2);
+x_8 = lean_ctor_get(x_6, 0);
+lean_inc(x_8);
+lean_dec(x_6);
+x_9 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__67___lambda__1___boxed), 3, 2);
+lean_closure_set(x_9, 0, x_7);
+lean_closure_set(x_9, 1, x_8);
+x_10 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__4___closed__1;
+x_11 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_11, 0, x_9);
+lean_ctor_set(x_11, 1, x_10);
+return x_11;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Over_forgetCocone___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__62___lambda__1(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_ctor_get(x_1, 2);
+lean_inc(x_2);
+return x_2;
+}
+}
+static lean_object* _init_l_CategoryTheory_Over_forgetCocone___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__62___closed__1() {
+_start:
+{
+lean_object* x_1; 
+x_1 = lean_alloc_closure((void*)(l_CategoryTheory_Over_forgetCocone___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__62___lambda__1___boxed), 1, 0);
+return x_1;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Over_forgetCocone___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__62(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; 
+x_3 = l_CategoryTheory_Over_forgetCocone___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__62___closed__1;
+x_4 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_4, 0, x_2);
+lean_ctor_set(x_4, 1, x_3);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__69___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+lean_inc(x_3);
+lean_inc(x_4);
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_5, 0, x_4);
+lean_closure_set(x_5, 1, x_3);
+x_6 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__60___rarg___lambda__1), 5, 2);
+lean_closure_set(x_6, 0, x_4);
+lean_closure_set(x_6, 1, x_3);
+x_7 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_7, 0, x_5);
+lean_ctor_set(x_7, 1, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__69(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__69___rarg___boxed), 4, 0);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__70___rarg___lambda__1(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; 
+x_6 = lean_ctor_get(x_1, 1);
+lean_inc(x_6);
+lean_dec(x_1);
+x_7 = lean_apply_1(x_6, x_2);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__70___rarg___lambda__2(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+lean_inc(x_4);
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__4___lambda__1___boxed), 2, 1);
+lean_closure_set(x_5, 0, x_4);
+x_6 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__70___rarg___lambda__1___boxed), 5, 2);
+lean_closure_set(x_6, 0, x_2);
+lean_closure_set(x_6, 1, x_4);
+x_7 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_7, 0, x_5);
+lean_ctor_set(x_7, 1, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__70___rarg(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+lean_inc(x_2);
+x_3 = l_CategoryTheory_instCategoryOver___rarg(x_2, x_1);
+x_4 = lean_ctor_get(x_2, 0);
+lean_inc(x_4);
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__70___rarg___lambda__2___boxed), 4, 3);
+lean_closure_set(x_5, 0, x_3);
+lean_closure_set(x_5, 1, x_2);
+lean_closure_set(x_5, 2, x_4);
+x_6 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__46___rarg___closed__1;
+x_7 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_7, 0, x_5);
+lean_ctor_set(x_7, 1, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__70(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__70___rarg), 2, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__72___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+lean_inc(x_3);
+lean_inc(x_4);
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_5, 0, x_4);
+lean_closure_set(x_5, 1, x_3);
+x_6 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__60___rarg___lambda__1), 5, 2);
+lean_closure_set(x_6, 0, x_4);
+lean_closure_set(x_6, 1, x_3);
+x_7 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_7, 0, x_5);
+lean_ctor_set(x_7, 1, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__72(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__72___rarg___boxed), 4, 0);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__73___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+lean_inc(x_3);
+lean_inc(x_4);
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_5, 0, x_4);
+lean_closure_set(x_5, 1, x_3);
+x_6 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__60___rarg___lambda__1), 5, 2);
+lean_closure_set(x_6, 0, x_4);
+lean_closure_set(x_6, 1, x_3);
+x_7 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_7, 0, x_5);
+lean_ctor_set(x_7, 1, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__73(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__73___rarg___boxed), 4, 0);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerLeft___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__71___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_whiskerLeft___elambda__1___rarg___boxed), 5, 4);
+lean_closure_set(x_5, 0, x_1);
+lean_closure_set(x_5, 1, x_2);
+lean_closure_set(x_5, 2, x_3);
+lean_closure_set(x_5, 3, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerLeft___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__71(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = lean_alloc_closure((void*)(l_CategoryTheory_whiskerLeft___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__71___rarg), 4, 0);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cocone_whisker___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__68(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8) {
+_start:
+{
+uint8_t x_9; 
+x_9 = !lean_is_exclusive(x_8);
+if (x_9 == 0)
+{
+lean_object* x_10; lean_object* x_11; lean_object* x_12; lean_object* x_13; lean_object* x_14; lean_object* x_15; 
+x_10 = lean_ctor_get(x_8, 0);
+x_11 = lean_ctor_get(x_8, 1);
+x_12 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__70___rarg(x_4, x_5);
+x_13 = lean_ctor_get(x_12, 0);
+lean_inc(x_13);
+lean_dec(x_12);
+lean_inc(x_10);
+x_14 = lean_apply_1(x_13, x_10);
+x_15 = lean_alloc_closure((void*)(l_CategoryTheory_whiskerLeft___elambda__1___rarg___boxed), 5, 4);
+lean_closure_set(x_15, 0, x_7);
+lean_closure_set(x_15, 1, x_6);
+lean_closure_set(x_15, 2, x_14);
+lean_closure_set(x_15, 3, x_11);
+lean_ctor_set(x_8, 1, x_15);
+return x_8;
+}
+else
+{
+lean_object* x_16; lean_object* x_17; lean_object* x_18; lean_object* x_19; lean_object* x_20; lean_object* x_21; lean_object* x_22; 
+x_16 = lean_ctor_get(x_8, 0);
+x_17 = lean_ctor_get(x_8, 1);
+lean_inc(x_17);
+lean_inc(x_16);
+lean_dec(x_8);
+x_18 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__70___rarg(x_4, x_5);
+x_19 = lean_ctor_get(x_18, 0);
+lean_inc(x_19);
+lean_dec(x_18);
+lean_inc(x_16);
+x_20 = lean_apply_1(x_19, x_16);
+x_21 = lean_alloc_closure((void*)(l_CategoryTheory_whiskerLeft___elambda__1___rarg___boxed), 5, 4);
+lean_closure_set(x_21, 0, x_7);
+lean_closure_set(x_21, 1, x_6);
+lean_closure_set(x_21, 2, x_20);
+lean_closure_set(x_21, 3, x_17);
+x_22 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_22, 0, x_16);
+lean_ctor_set(x_22, 1, x_21);
+return x_22;
+}
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__75(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; 
+x_6 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__2___lambda__1), 2, 1);
+lean_closure_set(x_6, 0, x_5);
+x_7 = l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__2___closed__1;
+x_8 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_8, 0, x_6);
+lean_ctor_set(x_8, 1, x_7);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__76(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; lean_object* x_11; lean_object* x_12; lean_object* x_13; lean_object* x_14; lean_object* x_15; 
+x_5 = l_TopologicalSpace_Opens_instCompleteLattice___rarg(x_1);
+x_6 = l_CompleteLattice_toCompleteSemilatticeInf___rarg(x_5);
+x_7 = lean_ctor_get(x_6, 0);
+lean_inc(x_7);
+lean_dec(x_6);
+x_8 = l_Preorder_smallCategory(lean_box(0), x_7);
+lean_dec(x_7);
+lean_inc(x_8);
+x_9 = l_CategoryTheory_instCategoryOver___rarg(x_8, x_4);
+x_10 = l_TopCat_Presheaf_SheafCondition_instCategoryOpensLeCover___closed__1;
+x_11 = l_CategoryTheory_InducedCategory_category___rarg(x_9, x_10);
+x_12 = lean_ctor_get(x_8, 0);
+lean_inc(x_12);
+lean_dec(x_8);
+x_13 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__67___lambda__1___boxed), 3, 2);
+lean_closure_set(x_13, 0, x_11);
+lean_closure_set(x_13, 1, x_12);
+x_14 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__4___closed__1;
+x_15 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_15, 0, x_13);
+lean_ctor_set(x_15, 1, x_14);
+return x_15;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__78(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; 
+x_6 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__2___lambda__1), 2, 1);
+lean_closure_set(x_6, 0, x_5);
+x_7 = l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__2___closed__1;
+x_8 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_8, 0, x_6);
+lean_ctor_set(x_8, 1, x_7);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__79(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; 
+x_6 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__2___lambda__1), 2, 1);
+lean_closure_set(x_6, 0, x_5);
+x_7 = l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__2___closed__1;
+x_8 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_8, 0, x_6);
+lean_ctor_set(x_8, 1, x_7);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__77___rarg(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_op___elambda__1___rarg), 2, 1);
+lean_closure_set(x_2, 0, x_1);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__77(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__77___rarg), 1, 0);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cocone_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__74(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+uint8_t x_7; 
+x_7 = !lean_is_exclusive(x_6);
+if (x_7 == 0)
+{
+lean_object* x_8; lean_object* x_9; 
+x_8 = lean_ctor_get(x_6, 1);
+x_9 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_op___elambda__1___rarg), 2, 1);
+lean_closure_set(x_9, 0, x_8);
+lean_ctor_set(x_6, 1, x_9);
+return x_6;
+}
+else
+{
+lean_object* x_10; lean_object* x_11; lean_object* x_12; lean_object* x_13; 
+x_10 = lean_ctor_get(x_6, 0);
+x_11 = lean_ctor_get(x_6, 1);
+lean_inc(x_11);
+lean_inc(x_10);
+lean_dec(x_6);
+x_12 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_op___elambda__1___rarg), 2, 1);
+lean_closure_set(x_12, 0, x_11);
+x_13 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_13, 0, x_10);
+lean_ctor_set(x_13, 1, x_12);
+return x_13;
+}
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__82___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; lean_object* x_9; lean_object* x_10; 
+lean_inc(x_6);
+lean_inc(x_7);
+x_8 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_8, 0, x_7);
+lean_closure_set(x_8, 1, x_6);
+x_9 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__2___lambda__2___boxed), 5, 2);
+lean_closure_set(x_9, 0, x_7);
+lean_closure_set(x_9, 1, x_6);
+x_10 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_10, 0, x_8);
+lean_ctor_set(x_10, 1, x_9);
+return x_10;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__82(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__82___rarg___boxed), 7, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__83___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; lean_object* x_11; lean_object* x_12; lean_object* x_13; lean_object* x_14; lean_object* x_15; lean_object* x_16; lean_object* x_17; 
+x_6 = l_TopologicalSpace_Opens_instCompleteLattice___rarg(x_2);
+x_7 = l_CompleteLattice_toCompleteSemilatticeInf___rarg(x_6);
+x_8 = lean_ctor_get(x_7, 0);
+lean_inc(x_8);
+lean_dec(x_7);
+x_9 = l_Preorder_smallCategory(lean_box(0), x_8);
+lean_dec(x_8);
+x_10 = l_CategoryTheory_instCategoryOver___rarg(x_9, x_5);
+x_11 = l_TopCat_Presheaf_SheafCondition_instCategoryOpensLeCover___closed__1;
+x_12 = l_CategoryTheory_InducedCategory_category___rarg(x_10, x_11);
+x_13 = l_CategoryTheory_Category_opposite___rarg(x_12);
+x_14 = lean_ctor_get(x_1, 0);
+lean_inc(x_14);
+x_15 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__70___rarg___lambda__2___boxed), 4, 3);
+lean_closure_set(x_15, 0, x_13);
+lean_closure_set(x_15, 1, x_1);
+lean_closure_set(x_15, 2, x_14);
+x_16 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__46___rarg___closed__1;
+x_17 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_17, 0, x_15);
+lean_ctor_set(x_17, 1, x_16);
+return x_17;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__83(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__83___rarg___boxed), 5, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__84___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; lean_object* x_11; lean_object* x_12; lean_object* x_13; lean_object* x_14; lean_object* x_15; lean_object* x_16; lean_object* x_17; 
+x_6 = l_TopologicalSpace_Opens_instCompleteLattice___rarg(x_2);
+x_7 = l_CompleteLattice_toCompleteSemilatticeInf___rarg(x_6);
+x_8 = lean_ctor_get(x_7, 0);
+lean_inc(x_8);
+lean_dec(x_7);
+x_9 = l_Preorder_smallCategory(lean_box(0), x_8);
+lean_dec(x_8);
+x_10 = l_CategoryTheory_instCategoryOver___rarg(x_9, x_5);
+x_11 = l_TopCat_Presheaf_SheafCondition_instCategoryOpensLeCover___closed__1;
+x_12 = l_CategoryTheory_InducedCategory_category___rarg(x_10, x_11);
+x_13 = l_CategoryTheory_Category_opposite___rarg(x_12);
+x_14 = lean_ctor_get(x_1, 0);
+lean_inc(x_14);
+x_15 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__70___rarg___lambda__2___boxed), 4, 3);
+lean_closure_set(x_15, 0, x_13);
+lean_closure_set(x_15, 1, x_1);
+lean_closure_set(x_15, 2, x_14);
+x_16 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__46___rarg___closed__1;
+x_17 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_17, 0, x_15);
+lean_ctor_set(x_17, 1, x_16);
+return x_17;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__84(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__84___rarg___boxed), 5, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cones_functoriality___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__81___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; lean_object* x_9; lean_object* x_10; lean_object* x_11; lean_object* x_12; lean_object* x_13; lean_object* x_14; lean_object* x_15; lean_object* x_16; lean_object* x_17; lean_object* x_18; lean_object* x_19; 
+lean_inc(x_2);
+x_8 = l_TopologicalSpace_Opens_instCompleteLattice___rarg(x_2);
+x_9 = l_CompleteLattice_toCompleteSemilatticeInf___rarg(x_8);
+x_10 = lean_ctor_get(x_9, 0);
+lean_inc(x_10);
+lean_dec(x_9);
+x_11 = l_Preorder_smallCategory(lean_box(0), x_10);
+lean_dec(x_10);
+lean_inc(x_5);
+x_12 = l_CategoryTheory_instCategoryOver___rarg(x_11, x_5);
+x_13 = l_TopCat_Presheaf_SheafCondition_instCategoryOpensLeCover___closed__1;
+x_14 = l_CategoryTheory_InducedCategory_category___rarg(x_12, x_13);
+x_15 = l_CategoryTheory_Category_opposite___rarg(x_14);
+lean_inc(x_7);
+lean_inc(x_6);
+x_16 = l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__82___rarg(x_1, x_2, lean_box(0), x_4, x_5, x_6, x_7);
+lean_dec(x_5);
+lean_dec(x_2);
+lean_inc(x_7);
+x_17 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_Cones_functoriality___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__44___rarg___lambda__2___boxed), 6, 5);
+lean_closure_set(x_17, 0, x_7);
+lean_closure_set(x_17, 1, x_6);
+lean_closure_set(x_17, 2, x_15);
+lean_closure_set(x_17, 3, x_1);
+lean_closure_set(x_17, 4, x_16);
+x_18 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_Cones_functoriality___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__44___rarg___lambda__3), 4, 1);
+lean_closure_set(x_18, 0, x_7);
+x_19 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_19, 0, x_17);
+lean_ctor_set(x_19, 1, x_18);
+return x_19;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cones_functoriality___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__81(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_Cones_functoriality___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__81___rarg___boxed), 7, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_mapCone___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__80___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8) {
+_start:
+{
+lean_object* x_9; lean_object* x_10; lean_object* x_11; 
+x_9 = l_CategoryTheory_Limits_Cones_functoriality___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__81___rarg(x_1, x_2, lean_box(0), x_4, x_5, x_7, x_6);
+x_10 = lean_ctor_get(x_9, 0);
+lean_inc(x_10);
+lean_dec(x_9);
+x_11 = lean_apply_1(x_10, x_8);
+return x_11;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_mapCone___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__80(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_mapCone___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__80___rarg___boxed), 8, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__85(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+return lean_box(0);
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__86(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+return lean_box(0);
+}
+}
+LEAN_EXPORT lean_object* l_TopCat_Presheaf_whiskerIsoMapGenerateCocone___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; lean_object* x_9; lean_object* x_10; lean_object* x_11; lean_object* x_12; lean_object* x_13; lean_object* x_14; lean_object* x_15; lean_object* x_16; lean_object* x_17; lean_object* x_18; lean_object* x_19; lean_object* x_20; lean_object* x_21; lean_object* x_22; lean_object* x_23; lean_object* x_24; lean_object* x_25; lean_object* x_26; lean_object* x_27; 
+lean_inc(x_2);
+x_8 = l_TopologicalSpace_Opens_instCompleteLattice___rarg(x_2);
+x_9 = l_CompleteLattice_toCompleteSemilatticeInf___rarg(x_8);
+x_10 = lean_ctor_get(x_9, 0);
+lean_inc(x_10);
+lean_dec(x_9);
+x_11 = l_Preorder_smallCategory(lean_box(0), x_10);
+lean_dec(x_10);
+x_12 = lean_alloc_closure((void*)(l_CategoryTheory_fullSubcategoryInclusion___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__1___lambda__1___boxed), 1, 0);
+lean_inc(x_12);
+x_13 = l_CategoryTheory_inducedFunctor___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__33(x_2, lean_box(0), x_12);
+lean_inc(x_2);
+x_14 = l_TopCat_Presheaf_SheafCondition_opensLeCoverCocone(x_2, lean_box(0), x_5);
+x_15 = l_CategoryTheory_Limits_Cocone_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__37(x_2, lean_box(0), x_5, x_13, x_14);
+lean_dec(x_13);
+x_16 = l_CategoryTheory_inducedFunctor___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__55(x_2, x_6, lean_box(0), x_12);
+lean_inc(x_6);
+lean_inc(x_2);
+x_17 = l_CategoryTheory_Over_forget___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__56(x_2, x_6);
+lean_inc(x_17);
+lean_inc(x_16);
+x_18 = l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__60___rarg(x_6, x_11, x_16, x_17);
+lean_inc(x_6);
+x_19 = l_CategoryTheory_Over_forgetCocone___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__62(x_2, x_6);
+lean_inc(x_6);
+x_20 = l_CategoryTheory_Limits_Cocone_whisker___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__68(x_2, lean_box(0), x_5, x_6, x_11, x_17, x_16, x_19);
+x_21 = l_CategoryTheory_Limits_Cocone_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__74(x_2, lean_box(0), x_5, x_6, x_18, x_20);
+lean_dec(x_18);
+lean_dec(x_6);
+lean_dec(x_2);
+x_22 = lean_ctor_get(x_3, 1);
+lean_inc(x_22);
+lean_dec(x_3);
+x_23 = lean_ctor_get(x_15, 0);
+lean_inc(x_23);
+lean_dec(x_15);
+x_24 = lean_ctor_get(x_21, 0);
+lean_inc(x_24);
+lean_dec(x_21);
+lean_inc(x_22);
+lean_inc(x_24);
+lean_inc(x_23);
+x_25 = lean_apply_3(x_22, x_23, x_24, lean_box(0));
+x_26 = lean_apply_3(x_22, x_24, x_23, lean_box(0));
+x_27 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_27, 0, x_25);
+lean_ctor_set(x_27, 1, x_26);
+return x_27;
+}
+}
+LEAN_EXPORT lean_object* l_TopCat_Presheaf_whiskerIsoMapGenerateCocone(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_TopCat_Presheaf_whiskerIsoMapGenerateCocone___rarg___boxed), 7, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__2___lambda__2___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__2___lambda__2(x_1, x_2, x_3);
+lean_dec(x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__2___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__2(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__3___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__3(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__4___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__4(x_1, x_2, x_3, x_4, x_5, x_6);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__5___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__5(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__6___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_Functor_id___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__6(x_1, x_2, x_3, x_4);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__7___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__7(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__9___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__9(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__10___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__10(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__12___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__12(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__13___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__13(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__11___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__11(x_1, x_2, x_3, x_4, x_5, x_6);
+lean_dec(x_6);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__15___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__15(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__16___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__16(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__14___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__14(x_1, x_2, x_3, x_4, x_5, x_6);
+lean_dec(x_6);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__8___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; 
+x_8 = l_CategoryTheory_NatIso_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__8(x_1, x_2, x_3, x_4, x_5, x_6, x_7);
+lean_dec(x_6);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_symm___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__17___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; 
+x_8 = l_CategoryTheory_Iso_symm___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__17(x_1, x_2, x_3, x_4, x_5, x_6, x_7);
+lean_dec(x_7);
+lean_dec(x_6);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__18___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Functor_id___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__18(x_1, x_2, x_3);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__19___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__19(x_1, x_2, x_3, x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__20___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__20(x_1, x_2, x_3, x_4, x_5, x_6);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__21___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__21(x_1, x_2, x_3, x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__23___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__23(x_1, x_2, x_3, x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__24___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__24(x_1, x_2, x_3, x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__26___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__26(x_1, x_2, x_3, x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__27___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__27(x_1, x_2, x_3, x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__25___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__25(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__29___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__29(x_1, x_2, x_3, x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__30___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__30(x_1, x_2, x_3, x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__28___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__28(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__22___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = l_CategoryTheory_NatIso_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__22(x_1, x_2, x_3, x_4, x_5, x_6);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_symm___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__31___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = l_CategoryTheory_Iso_symm___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__31(x_1, x_2, x_3, x_4, x_5, x_6);
+lean_dec(x_6);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Equivalence_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__1___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_Equivalence_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__1(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_inducedFunctor___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__33___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_inducedFunctor___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__33(x_1, x_2, x_3);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_fullSubcategoryInclusion___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__32___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_CategoryTheory_fullSubcategoryInclusion___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__32(x_1, x_2);
+lean_dec(x_1);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__34___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__34(x_1, x_2, x_3, x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__35___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__35___rarg(x_1, x_2, x_3, x_4, x_5, x_6);
+lean_dec(x_4);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__36___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; 
+x_8 = l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__36___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__38___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__38(x_1, x_2, x_3, x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__39___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__39(x_1, x_2, x_3);
+lean_dec(x_3);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__41___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__41(x_1, x_2, x_3, x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__42___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__42(x_1, x_2, x_3, x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__40___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__40(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cocone_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__37___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_Limits_Cocone_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__37(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__45___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__45___rarg(x_1, x_2, x_3, x_4, x_5, x_6);
+lean_dec(x_4);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__46___rarg___lambda__1___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__46___rarg___lambda__1(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__46___rarg___lambda__2___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__46___rarg___lambda__2(x_1, x_2, x_3, x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__46___rarg___lambda__3___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__46___rarg___lambda__3(x_1, x_2, x_3, x_4);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__46___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__46___rarg(x_1, x_2, x_3, x_4);
+lean_dec(x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__47___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__47___rarg(x_1, x_2, x_3, x_4);
+lean_dec(x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cones_functoriality___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__44___rarg___lambda__2___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = l_CategoryTheory_Limits_Cones_functoriality___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__44___rarg___lambda__2(x_1, x_2, x_3, x_4, x_5, x_6);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cones_functoriality___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__44___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = l_CategoryTheory_Limits_Cones_functoriality___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__44___rarg(x_1, x_2, x_3, x_4, x_5, x_6);
+lean_dec(x_4);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_mapCone___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__43___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; 
+x_8 = l_CategoryTheory_Functor_mapCone___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__43___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7);
+lean_dec(x_4);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__49___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; 
+x_8 = l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__49___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__50___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__50___rarg(x_1, x_2, x_3, x_4);
+lean_dec(x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__52___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; 
+x_8 = l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__52___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__53___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; 
+x_8 = l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__53___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerLeft___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__51___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = l_CategoryTheory_whiskerLeft___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__51(x_1, x_2, x_3, x_4, x_5, x_6);
+lean_dec(x_6);
+lean_dec(x_5);
+lean_dec(x_3);
+lean_dec(x_2);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cone_whisker___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__48___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8) {
+_start:
+{
+lean_object* x_9; 
+x_9 = l_CategoryTheory_Limits_Cone_whisker___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__48___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8);
+lean_dec(x_5);
+lean_dec(x_4);
+return x_9;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_inducedFunctor___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__55___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_inducedFunctor___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__55(x_1, x_2, x_3, x_4);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_fullSubcategoryInclusion___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__54___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_fullSubcategoryInclusion___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__54(x_1, x_2, x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__57___boxed(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = l_CategoryTheory_Functor_id___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__57(x_1);
+lean_dec(x_1);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Comma_fst___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__59___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Comma_fst___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__59(x_1, x_2, x_3);
+lean_dec(x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__60___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__60___rarg(x_1, x_2, x_3, x_4);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__60___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__60(x_1, x_2, x_3);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__61___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__61(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__64___boxed(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = l_CategoryTheory_Functor_id___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__64(x_1);
+lean_dec(x_1);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Comma_fst___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__66___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Comma_fst___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__66(x_1, x_2, x_3);
+lean_dec(x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__67___lambda__1___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__67___lambda__1(x_1, x_2, x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Over_forgetCocone___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__62___lambda__1___boxed(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = l_CategoryTheory_Over_forgetCocone___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__62___lambda__1(x_1);
+lean_dec(x_1);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Over_forgetCocone___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__62___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_CategoryTheory_Over_forgetCocone___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__62(x_1, x_2);
+lean_dec(x_1);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__69___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__69___rarg(x_1, x_2, x_3, x_4);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__69___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__69(x_1, x_2, x_3);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__70___rarg___lambda__1___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__70___rarg___lambda__1(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__70___rarg___lambda__2___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__70___rarg___lambda__2(x_1, x_2, x_3, x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__70___boxed(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__70(x_1);
+lean_dec(x_1);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__72___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__72___rarg(x_1, x_2, x_3, x_4);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__72___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__72(x_1, x_2, x_3);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__73___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__73___rarg(x_1, x_2, x_3, x_4);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__73___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__73(x_1, x_2, x_3);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerLeft___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__71___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_whiskerLeft___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__71(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cocone_whisker___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__68___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8) {
+_start:
+{
+lean_object* x_9; 
+x_9 = l_CategoryTheory_Limits_Cocone_whisker___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__68(x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_9;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__75___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__75(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__76___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__76(x_1, x_2, x_3, x_4);
+lean_dec(x_3);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__78___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__78(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__79___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__79(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__77___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__77(x_1, x_2, x_3, x_4, x_5, x_6);
+lean_dec(x_6);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cocone_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__74___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = l_CategoryTheory_Limits_Cocone_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__74(x_1, x_2, x_3, x_4, x_5, x_6);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__82___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; 
+x_8 = l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__82___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__83___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__83___rarg(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_4);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__84___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__84___rarg(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_4);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cones_functoriality___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__81___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; 
+x_8 = l_CategoryTheory_Limits_Cones_functoriality___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__81___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7);
+lean_dec(x_4);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_mapCone___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__80___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8) {
+_start:
+{
+lean_object* x_9; 
+x_9 = l_CategoryTheory_Functor_mapCone___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__80___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8);
+lean_dec(x_4);
+return x_9;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__85___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_eqToHom___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__85(x_1, x_2, x_3, x_4);
+lean_dec(x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__86___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_eqToHom___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__86(x_1, x_2, x_3, x_4);
+lean_dec(x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_TopCat_Presheaf_whiskerIsoMapGenerateCocone___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; 
+x_8 = l_TopCat_Presheaf_whiskerIsoMapGenerateCocone___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7);
+lean_dec(x_5);
+lean_dec(x_1);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_inducedFunctor___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__2(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; 
+x_4 = l_CategoryTheory_inducedFunctor___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__2___closed__1;
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_fullSubcategoryInclusion___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__1(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; 
+x_3 = l_CategoryTheory_fullSubcategoryInclusion___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__1___closed__1;
+x_4 = l_CategoryTheory_inducedFunctor___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__2(x_1, lean_box(0), x_3);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__3(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__2___lambda__1), 2, 1);
+lean_closure_set(x_5, 0, x_4);
+x_6 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__4___lambda__3___closed__1;
+x_7 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_7, 0, x_5);
+lean_ctor_set(x_7, 1, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__4___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; lean_object* x_8; lean_object* x_9; 
+lean_inc(x_5);
+lean_inc(x_6);
+x_7 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_7, 0, x_6);
+lean_closure_set(x_7, 1, x_5);
+x_8 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__35___rarg___lambda__1), 5, 2);
+lean_closure_set(x_8, 0, x_6);
+lean_closure_set(x_8, 1, x_5);
+x_9 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_9, 0, x_7);
+lean_ctor_set(x_9, 1, x_8);
+return x_9;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__4(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__4___rarg___boxed), 6, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__6(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__2___lambda__1), 2, 1);
+lean_closure_set(x_5, 0, x_4);
+x_6 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__4___lambda__3___closed__1;
+x_7 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_7, 0, x_5);
+lean_ctor_set(x_7, 1, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__7(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; lean_object* x_6; lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; lean_object* x_11; lean_object* x_12; lean_object* x_13; 
+x_4 = l_TopologicalSpace_Opens_instCompleteLattice___rarg(x_1);
+x_5 = l_CompleteLattice_toCompleteSemilatticeInf___rarg(x_4);
+x_6 = lean_ctor_get(x_5, 0);
+lean_inc(x_6);
+lean_dec(x_5);
+x_7 = l_Preorder_smallCategory(lean_box(0), x_6);
+lean_dec(x_6);
+x_8 = l_TopCat_Presheaf_SheafCondition_instCategoryOpensLeCover___closed__1;
+lean_inc(x_7);
+x_9 = l_CategoryTheory_InducedCategory_category___rarg(x_7, x_8);
+x_10 = lean_ctor_get(x_7, 0);
+lean_inc(x_10);
+lean_dec(x_7);
+x_11 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__4___lambda__3___boxed), 3, 2);
+lean_closure_set(x_11, 0, x_9);
+lean_closure_set(x_11, 1, x_10);
+x_12 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__4___closed__1;
+x_13 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_13, 0, x_11);
+lean_ctor_set(x_13, 1, x_12);
+return x_13;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__9(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__2___lambda__1), 2, 1);
+lean_closure_set(x_5, 0, x_4);
+x_6 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__4___lambda__3___closed__1;
+x_7 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_7, 0, x_5);
+lean_ctor_set(x_7, 1, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__10(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__2___lambda__1), 2, 1);
+lean_closure_set(x_5, 0, x_4);
+x_6 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__4___lambda__3___closed__1;
+x_7 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_7, 0, x_5);
+lean_ctor_set(x_7, 1, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__8___rarg(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_op___elambda__1___rarg), 2, 1);
+lean_closure_set(x_2, 0, x_1);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__8(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__8___rarg), 1, 0);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cocone_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__5(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+uint8_t x_6; 
+x_6 = !lean_is_exclusive(x_5);
+if (x_6 == 0)
+{
+lean_object* x_7; lean_object* x_8; 
+x_7 = lean_ctor_get(x_5, 1);
+x_8 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_op___elambda__1___rarg), 2, 1);
+lean_closure_set(x_8, 0, x_7);
+lean_ctor_set(x_5, 1, x_8);
+return x_5;
+}
+else
+{
+lean_object* x_9; lean_object* x_10; lean_object* x_11; lean_object* x_12; 
+x_9 = lean_ctor_get(x_5, 0);
+x_10 = lean_ctor_get(x_5, 1);
+lean_inc(x_10);
+lean_inc(x_9);
+lean_dec(x_5);
+x_11 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_op___elambda__1___rarg), 2, 1);
+lean_closure_set(x_11, 0, x_10);
+x_12 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_12, 0, x_9);
+lean_ctor_set(x_12, 1, x_11);
+return x_12;
+}
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__13___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; lean_object* x_8; lean_object* x_9; 
+lean_inc(x_5);
+lean_inc(x_6);
+x_7 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_7, 0, x_6);
+lean_closure_set(x_7, 1, x_5);
+x_8 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__35___rarg___lambda__1), 5, 2);
+lean_closure_set(x_8, 0, x_6);
+lean_closure_set(x_8, 1, x_5);
+x_9 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_9, 0, x_7);
+lean_ctor_set(x_9, 1, x_8);
+return x_9;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__13(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__13___rarg___boxed), 6, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__14___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; lean_object* x_11; lean_object* x_12; lean_object* x_13; lean_object* x_14; lean_object* x_15; 
+x_5 = l_TopologicalSpace_Opens_instCompleteLattice___rarg(x_2);
+x_6 = l_CompleteLattice_toCompleteSemilatticeInf___rarg(x_5);
+x_7 = lean_ctor_get(x_6, 0);
+lean_inc(x_7);
+lean_dec(x_6);
+x_8 = l_Preorder_smallCategory(lean_box(0), x_7);
+lean_dec(x_7);
+x_9 = l_TopCat_Presheaf_SheafCondition_instCategoryOpensLeCover___closed__1;
+x_10 = l_CategoryTheory_InducedCategory_category___rarg(x_8, x_9);
+x_11 = l_CategoryTheory_Category_opposite___rarg(x_10);
+x_12 = lean_ctor_get(x_1, 0);
+lean_inc(x_12);
+x_13 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__46___rarg___lambda__2___boxed), 4, 3);
+lean_closure_set(x_13, 0, x_11);
+lean_closure_set(x_13, 1, x_1);
+lean_closure_set(x_13, 2, x_12);
+x_14 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__46___rarg___closed__1;
+x_15 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_15, 0, x_13);
+lean_ctor_set(x_15, 1, x_14);
+return x_15;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__14(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__14___rarg___boxed), 4, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__15___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; lean_object* x_11; lean_object* x_12; lean_object* x_13; lean_object* x_14; lean_object* x_15; 
+x_5 = l_TopologicalSpace_Opens_instCompleteLattice___rarg(x_2);
+x_6 = l_CompleteLattice_toCompleteSemilatticeInf___rarg(x_5);
+x_7 = lean_ctor_get(x_6, 0);
+lean_inc(x_7);
+lean_dec(x_6);
+x_8 = l_Preorder_smallCategory(lean_box(0), x_7);
+lean_dec(x_7);
+x_9 = l_TopCat_Presheaf_SheafCondition_instCategoryOpensLeCover___closed__1;
+x_10 = l_CategoryTheory_InducedCategory_category___rarg(x_8, x_9);
+x_11 = l_CategoryTheory_Category_opposite___rarg(x_10);
+x_12 = lean_ctor_get(x_1, 0);
+lean_inc(x_12);
+x_13 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__46___rarg___lambda__2___boxed), 4, 3);
+lean_closure_set(x_13, 0, x_11);
+lean_closure_set(x_13, 1, x_1);
+lean_closure_set(x_13, 2, x_12);
+x_14 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__46___rarg___closed__1;
+x_15 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_15, 0, x_13);
+lean_ctor_set(x_15, 1, x_14);
+return x_15;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__15(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__15___rarg___boxed), 4, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cones_functoriality___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__12___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; lean_object* x_11; lean_object* x_12; lean_object* x_13; lean_object* x_14; lean_object* x_15; lean_object* x_16; lean_object* x_17; 
+lean_inc(x_2);
+x_7 = l_TopologicalSpace_Opens_instCompleteLattice___rarg(x_2);
+x_8 = l_CompleteLattice_toCompleteSemilatticeInf___rarg(x_7);
+x_9 = lean_ctor_get(x_8, 0);
+lean_inc(x_9);
+lean_dec(x_8);
+x_10 = l_Preorder_smallCategory(lean_box(0), x_9);
+lean_dec(x_9);
+x_11 = l_TopCat_Presheaf_SheafCondition_instCategoryOpensLeCover___closed__1;
+x_12 = l_CategoryTheory_InducedCategory_category___rarg(x_10, x_11);
+x_13 = l_CategoryTheory_Category_opposite___rarg(x_12);
+lean_inc(x_6);
+lean_inc(x_5);
+x_14 = l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__13___rarg(x_1, x_2, lean_box(0), x_4, x_5, x_6);
+lean_dec(x_2);
+lean_inc(x_6);
+x_15 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_Cones_functoriality___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__44___rarg___lambda__2___boxed), 6, 5);
+lean_closure_set(x_15, 0, x_6);
+lean_closure_set(x_15, 1, x_5);
+lean_closure_set(x_15, 2, x_13);
+lean_closure_set(x_15, 3, x_1);
+lean_closure_set(x_15, 4, x_14);
+x_16 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_Cones_functoriality___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__44___rarg___lambda__3), 4, 1);
+lean_closure_set(x_16, 0, x_6);
+x_17 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_17, 0, x_15);
+lean_ctor_set(x_17, 1, x_16);
+return x_17;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cones_functoriality___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__12(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_Cones_functoriality___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__12___rarg___boxed), 6, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_mapCone___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__11___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; lean_object* x_9; lean_object* x_10; 
+x_8 = l_CategoryTheory_Limits_Cones_functoriality___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__12___rarg(x_1, x_2, lean_box(0), x_4, x_6, x_5);
+x_9 = lean_ctor_get(x_8, 0);
+lean_inc(x_9);
+lean_dec(x_8);
+x_10 = lean_apply_1(x_9, x_7);
+return x_10;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_mapCone___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__11(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_mapCone___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__11___rarg___boxed), 7, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__17(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; 
+x_6 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__2___lambda__1), 2, 1);
+lean_closure_set(x_6, 0, x_5);
+x_7 = l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__2___closed__1;
+x_8 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_8, 0, x_6);
+lean_ctor_set(x_8, 1, x_7);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__18(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; 
+lean_inc(x_5);
+x_6 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__2___lambda__1), 2, 1);
+lean_closure_set(x_6, 0, x_5);
+x_7 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__3___lambda__1), 4, 1);
+lean_closure_set(x_7, 0, x_5);
+x_8 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_8, 0, x_6);
+lean_ctor_set(x_8, 1, x_7);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__19(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; lean_object* x_8; lean_object* x_9; 
+lean_inc(x_5);
+lean_inc(x_6);
+x_7 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_7, 0, x_6);
+lean_closure_set(x_7, 1, x_5);
+x_8 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__2___lambda__2___boxed), 5, 2);
+lean_closure_set(x_8, 0, x_6);
+lean_closure_set(x_8, 1, x_5);
+x_9 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_9, 0, x_7);
+lean_ctor_set(x_9, 1, x_8);
+return x_9;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__20(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; 
+lean_inc(x_5);
+x_6 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__2___lambda__1), 2, 1);
+lean_closure_set(x_6, 0, x_5);
+x_7 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__5___lambda__1), 4, 1);
+lean_closure_set(x_7, 0, x_5);
+x_8 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_8, 0, x_6);
+lean_ctor_set(x_8, 1, x_7);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__21(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+x_5 = l_CategoryTheory_fullSubcategoryInclusion___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__1___closed__1;
+x_6 = l_CategoryTheory_Functor_id___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__1___closed__1;
+x_7 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_7, 0, x_5);
+lean_ctor_set(x_7, 1, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__22(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; 
+lean_inc(x_5);
+x_6 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__2___lambda__1), 2, 1);
+lean_closure_set(x_6, 0, x_5);
+x_7 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__5___lambda__1), 4, 1);
+lean_closure_set(x_7, 0, x_5);
+x_8 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_8, 0, x_6);
+lean_ctor_set(x_8, 1, x_7);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__24(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; 
+lean_inc(x_5);
+x_6 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__2___lambda__1), 2, 1);
+lean_closure_set(x_6, 0, x_5);
+x_7 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__5___lambda__1), 4, 1);
+lean_closure_set(x_7, 0, x_5);
+x_8 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_8, 0, x_6);
+lean_ctor_set(x_8, 1, x_7);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__25(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; 
+lean_inc(x_5);
+x_6 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__2___lambda__1), 2, 1);
+lean_closure_set(x_6, 0, x_5);
+x_7 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__5___lambda__1), 4, 1);
+lean_closure_set(x_7, 0, x_5);
+x_8 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_8, 0, x_6);
+lean_ctor_set(x_8, 1, x_7);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__27(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; 
+lean_inc(x_5);
+x_6 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__2___lambda__1), 2, 1);
+lean_closure_set(x_6, 0, x_5);
+x_7 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__5___lambda__1), 4, 1);
+lean_closure_set(x_7, 0, x_5);
+x_8 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_8, 0, x_6);
+lean_ctor_set(x_8, 1, x_7);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__28(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; 
+lean_inc(x_5);
+x_6 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__2___lambda__1), 2, 1);
+lean_closure_set(x_6, 0, x_5);
+x_7 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__5___lambda__1), 4, 1);
+lean_closure_set(x_7, 0, x_5);
+x_8 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_8, 0, x_6);
+lean_ctor_set(x_8, 1, x_7);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__26___rarg(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_op___elambda__1___rarg), 2, 1);
+lean_closure_set(x_2, 0, x_1);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__26(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__26___rarg), 1, 0);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__30(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; 
+lean_inc(x_5);
+x_6 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__2___lambda__1), 2, 1);
+lean_closure_set(x_6, 0, x_5);
+x_7 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__5___lambda__1), 4, 1);
+lean_closure_set(x_7, 0, x_5);
+x_8 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_8, 0, x_6);
+lean_ctor_set(x_8, 1, x_7);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__31(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; 
+lean_inc(x_5);
+x_6 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__2___lambda__1), 2, 1);
+lean_closure_set(x_6, 0, x_5);
+x_7 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__5___lambda__1), 4, 1);
+lean_closure_set(x_7, 0, x_5);
+x_8 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_8, 0, x_6);
+lean_ctor_set(x_8, 1, x_7);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__29___rarg(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_op___elambda__1___rarg), 2, 1);
+lean_closure_set(x_2, 0, x_1);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__29(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__29___rarg), 1, 0);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__23(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; lean_object* x_9; lean_object* x_10; lean_object* x_11; lean_object* x_12; 
+x_8 = lean_ctor_get(x_7, 0);
+lean_inc(x_8);
+x_9 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_op___elambda__1___rarg), 2, 1);
+lean_closure_set(x_9, 0, x_8);
+x_10 = lean_ctor_get(x_7, 1);
+lean_inc(x_10);
+lean_dec(x_7);
+x_11 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_op___elambda__1___rarg), 2, 1);
+lean_closure_set(x_11, 0, x_10);
+x_12 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_12, 0, x_9);
+lean_ctor_set(x_12, 1, x_11);
+return x_12;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_symm___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__32(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; lean_object* x_9; lean_object* x_10; 
+x_8 = lean_ctor_get(x_7, 1);
+x_9 = lean_ctor_get(x_7, 0);
+lean_inc(x_9);
+lean_inc(x_8);
+x_10 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_10, 0, x_8);
+lean_ctor_set(x_10, 1, x_9);
+return x_10;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__33(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; lean_object* x_6; 
+x_4 = l_CategoryTheory_fullSubcategoryInclusion___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__1___closed__1;
+x_5 = l_CategoryTheory_inducedFunctor___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__2___closed__1;
+x_6 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_6, 0, x_4);
+lean_ctor_set(x_6, 1, x_5);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__34(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__2___lambda__1), 2, 1);
+lean_closure_set(x_5, 0, x_4);
+x_6 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__4___lambda__3___closed__1;
+x_7 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_7, 0, x_5);
+lean_ctor_set(x_7, 1, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__35(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; lean_object* x_8; lean_object* x_9; 
+lean_inc(x_5);
+lean_inc(x_6);
+x_7 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_7, 0, x_6);
+lean_closure_set(x_7, 1, x_5);
+x_8 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__8___lambda__1), 5, 2);
+lean_closure_set(x_8, 0, x_6);
+lean_closure_set(x_8, 1, x_5);
+x_9 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_9, 0, x_7);
+lean_ctor_set(x_9, 1, x_8);
+return x_9;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__36(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__2___lambda__1), 2, 1);
+lean_closure_set(x_5, 0, x_4);
+x_6 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__4___lambda__3___closed__1;
+x_7 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_7, 0, x_5);
+lean_ctor_set(x_7, 1, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__38(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__2___lambda__1), 2, 1);
+lean_closure_set(x_5, 0, x_4);
+x_6 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__4___lambda__3___closed__1;
+x_7 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_7, 0, x_5);
+lean_ctor_set(x_7, 1, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__39(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__2___lambda__1), 2, 1);
+lean_closure_set(x_5, 0, x_4);
+x_6 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__4___lambda__3___closed__1;
+x_7 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_7, 0, x_5);
+lean_ctor_set(x_7, 1, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__41(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__2___lambda__1), 2, 1);
+lean_closure_set(x_5, 0, x_4);
+x_6 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__4___lambda__3___closed__1;
+x_7 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_7, 0, x_5);
+lean_ctor_set(x_7, 1, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__42(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__2___lambda__1), 2, 1);
+lean_closure_set(x_5, 0, x_4);
+x_6 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__4___lambda__3___closed__1;
+x_7 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_7, 0, x_5);
+lean_ctor_set(x_7, 1, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__40___rarg(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_op___elambda__1___rarg), 2, 1);
+lean_closure_set(x_2, 0, x_1);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__40(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__40___rarg), 1, 0);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__44(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__2___lambda__1), 2, 1);
+lean_closure_set(x_5, 0, x_4);
+x_6 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__4___lambda__3___closed__1;
+x_7 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_7, 0, x_5);
+lean_ctor_set(x_7, 1, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__45(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__2___lambda__1), 2, 1);
+lean_closure_set(x_5, 0, x_4);
+x_6 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__4___lambda__3___closed__1;
+x_7 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_7, 0, x_5);
+lean_ctor_set(x_7, 1, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__43___rarg(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_op___elambda__1___rarg), 2, 1);
+lean_closure_set(x_2, 0, x_1);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__43(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__43___rarg), 1, 0);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__37(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; lean_object* x_11; 
+x_7 = lean_ctor_get(x_6, 0);
+lean_inc(x_7);
+x_8 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_op___elambda__1___rarg), 2, 1);
+lean_closure_set(x_8, 0, x_7);
+x_9 = lean_ctor_get(x_6, 1);
+lean_inc(x_9);
+lean_dec(x_6);
+x_10 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_op___elambda__1___rarg), 2, 1);
+lean_closure_set(x_10, 0, x_9);
+x_11 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_11, 0, x_8);
+lean_ctor_set(x_11, 1, x_10);
+return x_11;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_symm___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__46(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; lean_object* x_8; lean_object* x_9; 
+x_7 = lean_ctor_get(x_6, 1);
+x_8 = lean_ctor_get(x_6, 0);
+lean_inc(x_8);
+lean_inc(x_7);
+x_9 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_9, 0, x_7);
+lean_ctor_set(x_9, 1, x_8);
+return x_9;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Equivalence_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__16(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; lean_object* x_11; lean_object* x_12; lean_object* x_13; lean_object* x_14; lean_object* x_15; lean_object* x_16; lean_object* x_17; lean_object* x_18; lean_object* x_19; lean_object* x_20; lean_object* x_21; lean_object* x_22; lean_object* x_23; lean_object* x_24; 
+x_6 = lean_ctor_get(x_5, 0);
+lean_inc(x_6);
+lean_inc(x_6);
+x_7 = l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__17(x_1, lean_box(0), x_3, x_4, x_6);
+x_8 = lean_ctor_get(x_5, 1);
+lean_inc(x_8);
+lean_inc(x_8);
+x_9 = l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__18(x_1, lean_box(0), x_3, x_4, x_8);
+lean_inc(x_8);
+lean_inc(x_6);
+x_10 = l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__19(x_1, lean_box(0), x_3, x_4, x_6, x_8);
+lean_inc(x_10);
+x_11 = l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__20(x_1, lean_box(0), x_3, x_4, x_10);
+x_12 = l_CategoryTheory_Functor_id___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__21(x_1, lean_box(0), x_3, x_4);
+lean_inc(x_12);
+x_13 = l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__22(x_1, lean_box(0), x_3, x_4, x_12);
+x_14 = lean_ctor_get(x_5, 2);
+lean_inc(x_14);
+x_15 = l_CategoryTheory_NatIso_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__23(x_1, lean_box(0), x_3, x_4, x_12, x_10, x_14);
+lean_dec(x_10);
+lean_dec(x_12);
+x_16 = l_CategoryTheory_Iso_symm___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__32(x_1, lean_box(0), x_3, x_4, x_11, x_13, x_15);
+lean_dec(x_15);
+lean_dec(x_13);
+lean_dec(x_11);
+x_17 = l_CategoryTheory_Functor_id___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__33(x_1, lean_box(0), x_3);
+lean_inc(x_17);
+x_18 = l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__34(x_1, lean_box(0), x_3, x_17);
+x_19 = l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__35(x_1, lean_box(0), x_3, x_4, x_8, x_6);
+lean_inc(x_19);
+x_20 = l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__36(x_1, lean_box(0), x_3, x_19);
+x_21 = lean_ctor_get(x_5, 3);
+lean_inc(x_21);
+lean_dec(x_5);
+x_22 = l_CategoryTheory_NatIso_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__37(x_1, lean_box(0), x_3, x_19, x_17, x_21);
+lean_dec(x_17);
+lean_dec(x_19);
+x_23 = l_CategoryTheory_Iso_symm___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__46(x_1, lean_box(0), x_3, x_18, x_20, x_22);
+lean_dec(x_22);
+lean_dec(x_20);
+lean_dec(x_18);
+x_24 = lean_alloc_ctor(0, 4, 0);
+lean_ctor_set(x_24, 0, x_7);
+lean_ctor_set(x_24, 1, x_9);
+lean_ctor_set(x_24, 2, x_16);
+lean_ctor_set(x_24, 3, x_23);
+return x_24;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsLimit_whiskerEquivalenceEquiv___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__47___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8) {
+_start:
+{
+lean_object* x_9; lean_object* x_10; lean_object* x_11; lean_object* x_12; lean_object* x_13; lean_object* x_14; lean_object* x_15; lean_object* x_16; lean_object* x_17; lean_object* x_18; lean_object* x_19; lean_object* x_20; lean_object* x_21; 
+lean_inc(x_2);
+x_9 = l_TopCat_Presheaf_SheafCondition_instCategoryOpensLeCover(x_2, lean_box(0), x_4);
+x_10 = l_CategoryTheory_Category_opposite___rarg(x_9);
+x_11 = l_TopologicalSpace_Opens_instCompleteLattice___rarg(x_2);
+x_12 = l_CompleteLattice_toCompleteSemilatticeInf___rarg(x_11);
+x_13 = lean_ctor_get(x_12, 0);
+lean_inc(x_13);
+lean_dec(x_12);
+x_14 = l_Preorder_smallCategory(lean_box(0), x_13);
+lean_dec(x_13);
+x_15 = l_CategoryTheory_instCategoryOver___rarg(x_14, x_5);
+x_16 = l_TopCat_Presheaf_SheafCondition_instCategoryOpensLeCover___closed__1;
+x_17 = l_CategoryTheory_InducedCategory_category___rarg(x_15, x_16);
+x_18 = l_CategoryTheory_Category_opposite___rarg(x_17);
+lean_inc(x_8);
+lean_inc(x_7);
+lean_inc(x_6);
+lean_inc(x_1);
+lean_inc(x_18);
+lean_inc(x_10);
+x_19 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_IsLimit_whiskerEquivalenceEquiv___elambda__2___rarg), 9, 8);
+lean_closure_set(x_19, 0, x_10);
+lean_closure_set(x_19, 1, lean_box(0));
+lean_closure_set(x_19, 2, x_18);
+lean_closure_set(x_19, 3, lean_box(0));
+lean_closure_set(x_19, 4, x_1);
+lean_closure_set(x_19, 5, x_6);
+lean_closure_set(x_19, 6, x_7);
+lean_closure_set(x_19, 7, x_8);
+x_20 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_IsLimit_whiskerEquivalenceEquiv___elambda__1___rarg), 9, 8);
+lean_closure_set(x_20, 0, x_10);
+lean_closure_set(x_20, 1, lean_box(0));
+lean_closure_set(x_20, 2, x_18);
+lean_closure_set(x_20, 3, lean_box(0));
+lean_closure_set(x_20, 4, x_1);
+lean_closure_set(x_20, 5, x_6);
+lean_closure_set(x_20, 6, x_7);
+lean_closure_set(x_20, 7, x_8);
+x_21 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_21, 0, x_19);
+lean_ctor_set(x_21, 1, x_20);
+return x_21;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsLimit_whiskerEquivalenceEquiv___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__47(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_IsLimit_whiskerEquivalenceEquiv___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__47___rarg___boxed), 8, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__48___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; lean_object* x_9; lean_object* x_10; 
+lean_inc(x_6);
+lean_inc(x_7);
+x_8 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_8, 0, x_7);
+lean_closure_set(x_8, 1, x_6);
+x_9 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__2___lambda__2___boxed), 5, 2);
+lean_closure_set(x_9, 0, x_7);
+lean_closure_set(x_9, 1, x_6);
+x_10 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_10, 0, x_8);
+lean_ctor_set(x_10, 1, x_9);
+return x_10;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__48(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__48___rarg___boxed), 7, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__50___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; lean_object* x_9; lean_object* x_10; 
+lean_inc(x_6);
+lean_inc(x_7);
+x_8 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_8, 0, x_7);
+lean_closure_set(x_8, 1, x_6);
+x_9 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__2___lambda__2___boxed), 5, 2);
+lean_closure_set(x_9, 0, x_7);
+lean_closure_set(x_9, 1, x_6);
+x_10 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_10, 0, x_8);
+lean_ctor_set(x_10, 1, x_9);
+return x_10;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__50(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__50___rarg___boxed), 7, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__51___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; 
+x_5 = l_TopCat_Presheaf_SheafCondition_instCategoryOpensLeCover(x_2, lean_box(0), x_4);
+x_6 = l_CategoryTheory_Category_opposite___rarg(x_5);
+x_7 = lean_ctor_get(x_1, 0);
+lean_inc(x_7);
+x_8 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__46___rarg___lambda__2___boxed), 4, 3);
+lean_closure_set(x_8, 0, x_6);
+lean_closure_set(x_8, 1, x_1);
+lean_closure_set(x_8, 2, x_7);
+x_9 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__46___rarg___closed__1;
+x_10 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_10, 0, x_8);
+lean_ctor_set(x_10, 1, x_9);
+return x_10;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__51(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__51___rarg___boxed), 4, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__53___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; lean_object* x_9; lean_object* x_10; 
+lean_inc(x_6);
+lean_inc(x_7);
+x_8 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_8, 0, x_7);
+lean_closure_set(x_8, 1, x_6);
+x_9 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__2___lambda__2___boxed), 5, 2);
+lean_closure_set(x_9, 0, x_7);
+lean_closure_set(x_9, 1, x_6);
+x_10 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_10, 0, x_8);
+lean_ctor_set(x_10, 1, x_9);
+return x_10;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__53(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__53___rarg___boxed), 7, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__54___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; lean_object* x_9; lean_object* x_10; 
+lean_inc(x_6);
+lean_inc(x_7);
+x_8 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_8, 0, x_7);
+lean_closure_set(x_8, 1, x_6);
+x_9 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__2___lambda__2___boxed), 5, 2);
+lean_closure_set(x_9, 0, x_7);
+lean_closure_set(x_9, 1, x_6);
+x_10 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_10, 0, x_8);
+lean_ctor_set(x_10, 1, x_9);
+return x_10;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__54(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__54___rarg___boxed), 7, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerLeft___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__52___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_whiskerLeft___elambda__1___rarg___boxed), 5, 4);
+lean_closure_set(x_5, 0, x_1);
+lean_closure_set(x_5, 1, x_2);
+lean_closure_set(x_5, 2, x_3);
+lean_closure_set(x_5, 3, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerLeft___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__52(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = lean_alloc_closure((void*)(l_CategoryTheory_whiskerLeft___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__52___rarg), 4, 0);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cone_whisker___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__49___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8) {
+_start:
+{
+uint8_t x_9; 
+x_9 = !lean_is_exclusive(x_8);
+if (x_9 == 0)
+{
+lean_object* x_10; lean_object* x_11; lean_object* x_12; lean_object* x_13; lean_object* x_14; lean_object* x_15; 
+x_10 = lean_ctor_get(x_8, 0);
+x_11 = lean_ctor_get(x_8, 1);
+x_12 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__51___rarg(x_1, x_2, lean_box(0), x_4);
+x_13 = lean_ctor_get(x_12, 0);
+lean_inc(x_13);
+lean_dec(x_12);
+lean_inc(x_10);
+x_14 = lean_apply_1(x_13, x_10);
+x_15 = lean_alloc_closure((void*)(l_CategoryTheory_whiskerLeft___elambda__1___rarg___boxed), 5, 4);
+lean_closure_set(x_15, 0, x_7);
+lean_closure_set(x_15, 1, x_14);
+lean_closure_set(x_15, 2, x_6);
+lean_closure_set(x_15, 3, x_11);
+lean_ctor_set(x_8, 1, x_15);
+return x_8;
+}
+else
+{
+lean_object* x_16; lean_object* x_17; lean_object* x_18; lean_object* x_19; lean_object* x_20; lean_object* x_21; lean_object* x_22; 
+x_16 = lean_ctor_get(x_8, 0);
+x_17 = lean_ctor_get(x_8, 1);
+lean_inc(x_17);
+lean_inc(x_16);
+lean_dec(x_8);
+x_18 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__51___rarg(x_1, x_2, lean_box(0), x_4);
+x_19 = lean_ctor_get(x_18, 0);
+lean_inc(x_19);
+lean_dec(x_18);
+lean_inc(x_16);
+x_20 = lean_apply_1(x_19, x_16);
+x_21 = lean_alloc_closure((void*)(l_CategoryTheory_whiskerLeft___elambda__1___rarg___boxed), 5, 4);
+lean_closure_set(x_21, 0, x_7);
+lean_closure_set(x_21, 1, x_20);
+lean_closure_set(x_21, 2, x_6);
+lean_closure_set(x_21, 3, x_17);
+x_22 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_22, 0, x_16);
+lean_ctor_set(x_22, 1, x_21);
+return x_22;
+}
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cone_whisker___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__49(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_Cone_whisker___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__49___rarg___boxed), 8, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_inducedFunctor___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__56(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; 
+x_5 = l_CategoryTheory_Functor_id___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__1___closed__1;
+x_6 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_6, 0, x_4);
+lean_ctor_set(x_6, 1, x_5);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_fullSubcategoryInclusion___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__55(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; 
+x_4 = l_CategoryTheory_fullSubcategoryInclusion___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__1___closed__1;
+x_5 = l_CategoryTheory_inducedFunctor___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__56(x_1, x_2, lean_box(0), x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__58(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; lean_object* x_3; lean_object* x_4; 
+x_2 = l_CategoryTheory_fullSubcategoryInclusion___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__1___closed__1;
+x_3 = l_CategoryTheory_inducedFunctor___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__2___closed__1;
+x_4 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_4, 0, x_2);
+lean_ctor_set(x_4, 1, x_3);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__59(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; lean_object* x_3; lean_object* x_4; lean_object* x_5; lean_object* x_6; lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; 
+x_2 = l_TopologicalSpace_Opens_instCompleteLattice___rarg(x_1);
+x_3 = l_CompleteLattice_toCompleteSemilatticeInf___rarg(x_2);
+x_4 = lean_ctor_get(x_3, 0);
+lean_inc(x_4);
+lean_dec(x_3);
+x_5 = l_Preorder_smallCategory(lean_box(0), x_4);
+lean_dec(x_4);
+x_6 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_generateEquivalenceOpensLe__inverse_x27___spec__2___closed__1;
+x_7 = lean_ctor_get(x_5, 0);
+lean_inc(x_7);
+lean_dec(x_5);
+x_8 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__4___lambda__3___boxed), 3, 2);
+lean_closure_set(x_8, 0, x_6);
+lean_closure_set(x_8, 1, x_7);
+x_9 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__4___closed__1;
+x_10 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_10, 0, x_8);
+lean_ctor_set(x_10, 1, x_9);
+return x_10;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Comma_fst___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__60(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; lean_object* x_6; 
+x_4 = l_TopCat_Presheaf_generateEquivalenceOpensLe__functor_x27___closed__1;
+x_5 = l_TopCat_Presheaf_generateEquivalenceOpensLe__functor_x27___closed__2;
+x_6 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_6, 0, x_4);
+lean_ctor_set(x_6, 1, x_5);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Over_forget___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__57(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+x_3 = l_CategoryTheory_Functor_id___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__58(x_1);
+lean_inc(x_1);
+x_4 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__59(x_1);
+x_5 = lean_ctor_get(x_4, 0);
+lean_inc(x_5);
+lean_dec(x_4);
+x_6 = lean_apply_1(x_5, x_2);
+x_7 = l_CategoryTheory_Comma_fst___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__60(x_1, x_3, x_6);
+lean_dec(x_6);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__61___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+lean_inc(x_3);
+lean_inc(x_4);
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_5, 0, x_4);
+lean_closure_set(x_5, 1, x_3);
+x_6 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__60___rarg___lambda__1), 5, 2);
+lean_closure_set(x_6, 0, x_4);
+lean_closure_set(x_6, 1, x_3);
+x_7 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_7, 0, x_5);
+lean_ctor_set(x_7, 1, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__61(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__61___rarg___boxed), 4, 0);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__62(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; 
+x_6 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__2___lambda__1), 2, 1);
+lean_closure_set(x_6, 0, x_5);
+x_7 = l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__2___closed__1;
+x_8 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_8, 0, x_6);
+lean_ctor_set(x_8, 1, x_7);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__65(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; lean_object* x_3; lean_object* x_4; 
+x_2 = l_CategoryTheory_fullSubcategoryInclusion___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__1___closed__1;
+x_3 = l_CategoryTheory_inducedFunctor___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__2___closed__1;
+x_4 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_4, 0, x_2);
+lean_ctor_set(x_4, 1, x_3);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__66(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; lean_object* x_3; lean_object* x_4; lean_object* x_5; lean_object* x_6; lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; 
+x_2 = l_TopologicalSpace_Opens_instCompleteLattice___rarg(x_1);
+x_3 = l_CompleteLattice_toCompleteSemilatticeInf___rarg(x_2);
+x_4 = lean_ctor_get(x_3, 0);
+lean_inc(x_4);
+lean_dec(x_3);
+x_5 = l_Preorder_smallCategory(lean_box(0), x_4);
+lean_dec(x_4);
+x_6 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_generateEquivalenceOpensLe__inverse_x27___spec__2___closed__1;
+x_7 = lean_ctor_get(x_5, 0);
+lean_inc(x_7);
+lean_dec(x_5);
+x_8 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__4___lambda__3___boxed), 3, 2);
+lean_closure_set(x_8, 0, x_6);
+lean_closure_set(x_8, 1, x_7);
+x_9 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__4___closed__1;
+x_10 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_10, 0, x_8);
+lean_ctor_set(x_10, 1, x_9);
+return x_10;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Comma_fst___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__67(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; lean_object* x_6; 
+x_4 = l_TopCat_Presheaf_generateEquivalenceOpensLe__functor_x27___closed__1;
+x_5 = l_TopCat_Presheaf_generateEquivalenceOpensLe__functor_x27___closed__2;
+x_6 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_6, 0, x_4);
+lean_ctor_set(x_6, 1, x_5);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Over_forget___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__64(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+x_3 = l_CategoryTheory_Functor_id___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__65(x_1);
+lean_inc(x_1);
+x_4 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__66(x_1);
+x_5 = lean_ctor_get(x_4, 0);
+lean_inc(x_5);
+lean_dec(x_4);
+x_6 = lean_apply_1(x_5, x_2);
+x_7 = l_CategoryTheory_Comma_fst___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__67(x_1, x_3, x_6);
+lean_dec(x_6);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__68(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; lean_object* x_6; lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; lean_object* x_11; 
+x_3 = l_TopologicalSpace_Opens_instCompleteLattice___rarg(x_1);
+x_4 = l_CompleteLattice_toCompleteSemilatticeInf___rarg(x_3);
+x_5 = lean_ctor_get(x_4, 0);
+lean_inc(x_5);
+lean_dec(x_4);
+x_6 = l_Preorder_smallCategory(lean_box(0), x_5);
+lean_dec(x_5);
+lean_inc(x_6);
+x_7 = l_CategoryTheory_instCategoryOver___rarg(x_6, x_2);
+x_8 = lean_ctor_get(x_6, 0);
+lean_inc(x_8);
+lean_dec(x_6);
+x_9 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__67___lambda__1___boxed), 3, 2);
+lean_closure_set(x_9, 0, x_7);
+lean_closure_set(x_9, 1, x_8);
+x_10 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__4___closed__1;
+x_11 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_11, 0, x_9);
+lean_ctor_set(x_11, 1, x_10);
+return x_11;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Over_forgetCocone___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__63(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; 
+x_3 = l_CategoryTheory_Over_forgetCocone___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__62___closed__1;
+x_4 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_4, 0, x_2);
+lean_ctor_set(x_4, 1, x_3);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__70___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+lean_inc(x_3);
+lean_inc(x_4);
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_5, 0, x_4);
+lean_closure_set(x_5, 1, x_3);
+x_6 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__60___rarg___lambda__1), 5, 2);
+lean_closure_set(x_6, 0, x_4);
+lean_closure_set(x_6, 1, x_3);
+x_7 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_7, 0, x_5);
+lean_ctor_set(x_7, 1, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__70(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__70___rarg___boxed), 4, 0);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__71___rarg(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+lean_inc(x_2);
+x_3 = l_CategoryTheory_instCategoryOver___rarg(x_2, x_1);
+x_4 = lean_ctor_get(x_2, 0);
+lean_inc(x_4);
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__70___rarg___lambda__2___boxed), 4, 3);
+lean_closure_set(x_5, 0, x_3);
+lean_closure_set(x_5, 1, x_2);
+lean_closure_set(x_5, 2, x_4);
+x_6 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__46___rarg___closed__1;
+x_7 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_7, 0, x_5);
+lean_ctor_set(x_7, 1, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__71(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__71___rarg), 2, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__73___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+lean_inc(x_3);
+lean_inc(x_4);
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_5, 0, x_4);
+lean_closure_set(x_5, 1, x_3);
+x_6 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__60___rarg___lambda__1), 5, 2);
+lean_closure_set(x_6, 0, x_4);
+lean_closure_set(x_6, 1, x_3);
+x_7 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_7, 0, x_5);
+lean_ctor_set(x_7, 1, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__73(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__73___rarg___boxed), 4, 0);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__74___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+lean_inc(x_3);
+lean_inc(x_4);
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_5, 0, x_4);
+lean_closure_set(x_5, 1, x_3);
+x_6 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__60___rarg___lambda__1), 5, 2);
+lean_closure_set(x_6, 0, x_4);
+lean_closure_set(x_6, 1, x_3);
+x_7 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_7, 0, x_5);
+lean_ctor_set(x_7, 1, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__74(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__74___rarg___boxed), 4, 0);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerLeft___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__72___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_whiskerLeft___elambda__1___rarg___boxed), 5, 4);
+lean_closure_set(x_5, 0, x_1);
+lean_closure_set(x_5, 1, x_2);
+lean_closure_set(x_5, 2, x_3);
+lean_closure_set(x_5, 3, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerLeft___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__72(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = lean_alloc_closure((void*)(l_CategoryTheory_whiskerLeft___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__72___rarg), 4, 0);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cocone_whisker___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__69(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8) {
+_start:
+{
+uint8_t x_9; 
+x_9 = !lean_is_exclusive(x_8);
+if (x_9 == 0)
+{
+lean_object* x_10; lean_object* x_11; lean_object* x_12; lean_object* x_13; lean_object* x_14; lean_object* x_15; 
+x_10 = lean_ctor_get(x_8, 0);
+x_11 = lean_ctor_get(x_8, 1);
+x_12 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__71___rarg(x_4, x_5);
+x_13 = lean_ctor_get(x_12, 0);
+lean_inc(x_13);
+lean_dec(x_12);
+lean_inc(x_10);
+x_14 = lean_apply_1(x_13, x_10);
+x_15 = lean_alloc_closure((void*)(l_CategoryTheory_whiskerLeft___elambda__1___rarg___boxed), 5, 4);
+lean_closure_set(x_15, 0, x_7);
+lean_closure_set(x_15, 1, x_6);
+lean_closure_set(x_15, 2, x_14);
+lean_closure_set(x_15, 3, x_11);
+lean_ctor_set(x_8, 1, x_15);
+return x_8;
+}
+else
+{
+lean_object* x_16; lean_object* x_17; lean_object* x_18; lean_object* x_19; lean_object* x_20; lean_object* x_21; lean_object* x_22; 
+x_16 = lean_ctor_get(x_8, 0);
+x_17 = lean_ctor_get(x_8, 1);
+lean_inc(x_17);
+lean_inc(x_16);
+lean_dec(x_8);
+x_18 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__71___rarg(x_4, x_5);
+x_19 = lean_ctor_get(x_18, 0);
+lean_inc(x_19);
+lean_dec(x_18);
+lean_inc(x_16);
+x_20 = lean_apply_1(x_19, x_16);
+x_21 = lean_alloc_closure((void*)(l_CategoryTheory_whiskerLeft___elambda__1___rarg___boxed), 5, 4);
+lean_closure_set(x_21, 0, x_7);
+lean_closure_set(x_21, 1, x_6);
+lean_closure_set(x_21, 2, x_20);
+lean_closure_set(x_21, 3, x_17);
+x_22 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_22, 0, x_16);
+lean_ctor_set(x_22, 1, x_21);
+return x_22;
+}
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__76(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; 
+x_6 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__2___lambda__1), 2, 1);
+lean_closure_set(x_6, 0, x_5);
+x_7 = l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__2___closed__1;
+x_8 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_8, 0, x_6);
+lean_ctor_set(x_8, 1, x_7);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__77(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; lean_object* x_11; lean_object* x_12; lean_object* x_13; lean_object* x_14; lean_object* x_15; 
+x_5 = l_TopologicalSpace_Opens_instCompleteLattice___rarg(x_1);
+x_6 = l_CompleteLattice_toCompleteSemilatticeInf___rarg(x_5);
+x_7 = lean_ctor_get(x_6, 0);
+lean_inc(x_7);
+lean_dec(x_6);
+x_8 = l_Preorder_smallCategory(lean_box(0), x_7);
+lean_dec(x_7);
+lean_inc(x_8);
+x_9 = l_CategoryTheory_instCategoryOver___rarg(x_8, x_4);
+x_10 = l_TopCat_Presheaf_SheafCondition_instCategoryOpensLeCover___closed__1;
+x_11 = l_CategoryTheory_InducedCategory_category___rarg(x_9, x_10);
+x_12 = lean_ctor_get(x_8, 0);
+lean_inc(x_12);
+lean_dec(x_8);
+x_13 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__67___lambda__1___boxed), 3, 2);
+lean_closure_set(x_13, 0, x_11);
+lean_closure_set(x_13, 1, x_12);
+x_14 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__4___closed__1;
+x_15 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_15, 0, x_13);
+lean_ctor_set(x_15, 1, x_14);
+return x_15;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__79(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; 
+x_6 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__2___lambda__1), 2, 1);
+lean_closure_set(x_6, 0, x_5);
+x_7 = l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__2___closed__1;
+x_8 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_8, 0, x_6);
+lean_ctor_set(x_8, 1, x_7);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__80(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; 
+x_6 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__2___lambda__1), 2, 1);
+lean_closure_set(x_6, 0, x_5);
+x_7 = l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__2___closed__1;
+x_8 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_8, 0, x_6);
+lean_ctor_set(x_8, 1, x_7);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__78___rarg(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_op___elambda__1___rarg), 2, 1);
+lean_closure_set(x_2, 0, x_1);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__78(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__78___rarg), 1, 0);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cocone_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__75(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+uint8_t x_7; 
+x_7 = !lean_is_exclusive(x_6);
+if (x_7 == 0)
+{
+lean_object* x_8; lean_object* x_9; 
+x_8 = lean_ctor_get(x_6, 1);
+x_9 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_op___elambda__1___rarg), 2, 1);
+lean_closure_set(x_9, 0, x_8);
+lean_ctor_set(x_6, 1, x_9);
+return x_6;
+}
+else
+{
+lean_object* x_10; lean_object* x_11; lean_object* x_12; lean_object* x_13; 
+x_10 = lean_ctor_get(x_6, 0);
+x_11 = lean_ctor_get(x_6, 1);
+lean_inc(x_11);
+lean_inc(x_10);
+lean_dec(x_6);
+x_12 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_op___elambda__1___rarg), 2, 1);
+lean_closure_set(x_12, 0, x_11);
+x_13 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_13, 0, x_10);
+lean_ctor_set(x_13, 1, x_12);
+return x_13;
+}
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__83___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; lean_object* x_9; lean_object* x_10; 
+lean_inc(x_6);
+lean_inc(x_7);
+x_8 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_8, 0, x_7);
+lean_closure_set(x_8, 1, x_6);
+x_9 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__2___lambda__2___boxed), 5, 2);
+lean_closure_set(x_9, 0, x_7);
+lean_closure_set(x_9, 1, x_6);
+x_10 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_10, 0, x_8);
+lean_ctor_set(x_10, 1, x_9);
+return x_10;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__83(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__83___rarg___boxed), 7, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__84___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; lean_object* x_11; lean_object* x_12; lean_object* x_13; lean_object* x_14; lean_object* x_15; lean_object* x_16; lean_object* x_17; 
+x_6 = l_TopologicalSpace_Opens_instCompleteLattice___rarg(x_2);
+x_7 = l_CompleteLattice_toCompleteSemilatticeInf___rarg(x_6);
+x_8 = lean_ctor_get(x_7, 0);
+lean_inc(x_8);
+lean_dec(x_7);
+x_9 = l_Preorder_smallCategory(lean_box(0), x_8);
+lean_dec(x_8);
+x_10 = l_CategoryTheory_instCategoryOver___rarg(x_9, x_5);
+x_11 = l_TopCat_Presheaf_SheafCondition_instCategoryOpensLeCover___closed__1;
+x_12 = l_CategoryTheory_InducedCategory_category___rarg(x_10, x_11);
+x_13 = l_CategoryTheory_Category_opposite___rarg(x_12);
+x_14 = lean_ctor_get(x_1, 0);
+lean_inc(x_14);
+x_15 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__70___rarg___lambda__2___boxed), 4, 3);
+lean_closure_set(x_15, 0, x_13);
+lean_closure_set(x_15, 1, x_1);
+lean_closure_set(x_15, 2, x_14);
+x_16 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__46___rarg___closed__1;
+x_17 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_17, 0, x_15);
+lean_ctor_set(x_17, 1, x_16);
+return x_17;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__84(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__84___rarg___boxed), 5, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__85___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; lean_object* x_11; lean_object* x_12; lean_object* x_13; lean_object* x_14; lean_object* x_15; lean_object* x_16; lean_object* x_17; 
+x_6 = l_TopologicalSpace_Opens_instCompleteLattice___rarg(x_2);
+x_7 = l_CompleteLattice_toCompleteSemilatticeInf___rarg(x_6);
+x_8 = lean_ctor_get(x_7, 0);
+lean_inc(x_8);
+lean_dec(x_7);
+x_9 = l_Preorder_smallCategory(lean_box(0), x_8);
+lean_dec(x_8);
+x_10 = l_CategoryTheory_instCategoryOver___rarg(x_9, x_5);
+x_11 = l_TopCat_Presheaf_SheafCondition_instCategoryOpensLeCover___closed__1;
+x_12 = l_CategoryTheory_InducedCategory_category___rarg(x_10, x_11);
+x_13 = l_CategoryTheory_Category_opposite___rarg(x_12);
+x_14 = lean_ctor_get(x_1, 0);
+lean_inc(x_14);
+x_15 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__70___rarg___lambda__2___boxed), 4, 3);
+lean_closure_set(x_15, 0, x_13);
+lean_closure_set(x_15, 1, x_1);
+lean_closure_set(x_15, 2, x_14);
+x_16 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__46___rarg___closed__1;
+x_17 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_17, 0, x_15);
+lean_ctor_set(x_17, 1, x_16);
+return x_17;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__85(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__85___rarg___boxed), 5, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cones_functoriality___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__82___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; lean_object* x_9; lean_object* x_10; lean_object* x_11; lean_object* x_12; lean_object* x_13; lean_object* x_14; lean_object* x_15; lean_object* x_16; lean_object* x_17; lean_object* x_18; lean_object* x_19; 
+lean_inc(x_2);
+x_8 = l_TopologicalSpace_Opens_instCompleteLattice___rarg(x_2);
+x_9 = l_CompleteLattice_toCompleteSemilatticeInf___rarg(x_8);
+x_10 = lean_ctor_get(x_9, 0);
+lean_inc(x_10);
+lean_dec(x_9);
+x_11 = l_Preorder_smallCategory(lean_box(0), x_10);
+lean_dec(x_10);
+lean_inc(x_5);
+x_12 = l_CategoryTheory_instCategoryOver___rarg(x_11, x_5);
+x_13 = l_TopCat_Presheaf_SheafCondition_instCategoryOpensLeCover___closed__1;
+x_14 = l_CategoryTheory_InducedCategory_category___rarg(x_12, x_13);
+x_15 = l_CategoryTheory_Category_opposite___rarg(x_14);
+lean_inc(x_7);
+lean_inc(x_6);
+x_16 = l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__83___rarg(x_1, x_2, lean_box(0), x_4, x_5, x_6, x_7);
+lean_dec(x_5);
+lean_dec(x_2);
+lean_inc(x_7);
+x_17 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_Cones_functoriality___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__44___rarg___lambda__2___boxed), 6, 5);
+lean_closure_set(x_17, 0, x_7);
+lean_closure_set(x_17, 1, x_6);
+lean_closure_set(x_17, 2, x_15);
+lean_closure_set(x_17, 3, x_1);
+lean_closure_set(x_17, 4, x_16);
+x_18 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_Cones_functoriality___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__44___rarg___lambda__3), 4, 1);
+lean_closure_set(x_18, 0, x_7);
+x_19 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_19, 0, x_17);
+lean_ctor_set(x_19, 1, x_18);
+return x_19;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cones_functoriality___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__82(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_Cones_functoriality___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__82___rarg___boxed), 7, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_mapCone___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__81___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8) {
+_start:
+{
+lean_object* x_9; lean_object* x_10; lean_object* x_11; 
+x_9 = l_CategoryTheory_Limits_Cones_functoriality___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__82___rarg(x_1, x_2, lean_box(0), x_4, x_5, x_7, x_6);
+x_10 = lean_ctor_get(x_9, 0);
+lean_inc(x_10);
+lean_dec(x_9);
+x_11 = lean_apply_1(x_10, x_8);
+return x_11;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_mapCone___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__81(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_mapCone___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__81___rarg___boxed), 8, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsLimit_equivIsoLimit___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__86___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8, lean_object* x_9) {
+_start:
+{
+lean_object* x_10; lean_object* x_11; lean_object* x_12; lean_object* x_13; lean_object* x_14; lean_object* x_15; lean_object* x_16; lean_object* x_17; lean_object* x_18; lean_object* x_19; lean_object* x_20; 
+x_10 = l_TopologicalSpace_Opens_instCompleteLattice___rarg(x_2);
+x_11 = l_CompleteLattice_toCompleteSemilatticeInf___rarg(x_10);
+x_12 = lean_ctor_get(x_11, 0);
+lean_inc(x_12);
+lean_dec(x_11);
+x_13 = l_Preorder_smallCategory(lean_box(0), x_12);
+lean_dec(x_12);
+x_14 = l_CategoryTheory_instCategoryOver___rarg(x_13, x_5);
+x_15 = l_TopCat_Presheaf_SheafCondition_instCategoryOpensLeCover___closed__1;
+x_16 = l_CategoryTheory_InducedCategory_category___rarg(x_14, x_15);
+x_17 = l_CategoryTheory_Category_opposite___rarg(x_16);
+lean_inc(x_9);
+lean_inc(x_8);
+lean_inc(x_7);
+lean_inc(x_6);
+lean_inc(x_1);
+lean_inc(x_17);
+x_18 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_IsLimit_equivIsoLimit___elambda__2___rarg___boxed), 8, 7);
+lean_closure_set(x_18, 0, x_17);
+lean_closure_set(x_18, 1, lean_box(0));
+lean_closure_set(x_18, 2, x_1);
+lean_closure_set(x_18, 3, x_6);
+lean_closure_set(x_18, 4, x_7);
+lean_closure_set(x_18, 5, x_8);
+lean_closure_set(x_18, 6, x_9);
+x_19 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_IsLimit_equivIsoLimit___elambda__1___rarg___boxed), 8, 7);
+lean_closure_set(x_19, 0, x_17);
+lean_closure_set(x_19, 1, lean_box(0));
+lean_closure_set(x_19, 2, x_1);
+lean_closure_set(x_19, 3, x_6);
+lean_closure_set(x_19, 4, x_7);
+lean_closure_set(x_19, 5, x_8);
+lean_closure_set(x_19, 6, x_9);
+x_20 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_20, 0, x_18);
+lean_ctor_set(x_20, 1, x_19);
+return x_20;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsLimit_equivIsoLimit___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__86(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_IsLimit_equivIsoLimit___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__86___rarg___boxed), 9, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; lean_object* x_9; lean_object* x_10; lean_object* x_11; lean_object* x_12; lean_object* x_13; lean_object* x_14; lean_object* x_15; lean_object* x_16; lean_object* x_17; lean_object* x_18; lean_object* x_19; lean_object* x_20; lean_object* x_21; lean_object* x_22; lean_object* x_23; lean_object* x_24; lean_object* x_25; lean_object* x_26; lean_object* x_27; lean_object* x_28; lean_object* x_29; lean_object* x_30; lean_object* x_31; lean_object* x_32; lean_object* x_33; lean_object* x_34; lean_object* x_35; 
+lean_inc(x_2);
+x_8 = l_TopologicalSpace_Opens_instCompleteLattice___rarg(x_2);
+x_9 = l_CompleteLattice_toCompleteSemilatticeInf___rarg(x_8);
+x_10 = lean_ctor_get(x_9, 0);
+lean_inc(x_10);
+lean_dec(x_9);
+x_11 = l_Preorder_smallCategory(lean_box(0), x_10);
+lean_dec(x_10);
+x_12 = lean_alloc_closure((void*)(l_CategoryTheory_fullSubcategoryInclusion___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__1___lambda__1___boxed), 1, 0);
+lean_inc(x_12);
+x_13 = l_CategoryTheory_inducedFunctor___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__2(x_2, lean_box(0), x_12);
+lean_inc(x_13);
+x_14 = l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__3(x_2, lean_box(0), x_5, x_13);
+lean_inc(x_3);
+lean_inc(x_14);
+x_15 = l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__4___rarg(x_1, x_2, lean_box(0), x_5, x_14, x_3);
+lean_inc(x_2);
+x_16 = l_TopCat_Presheaf_SheafCondition_opensLeCoverCocone(x_2, lean_box(0), x_5);
+x_17 = l_CategoryTheory_Limits_Cocone_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__5(x_2, lean_box(0), x_5, x_13, x_16);
+lean_dec(x_13);
+lean_inc(x_3);
+lean_inc(x_2);
+lean_inc(x_1);
+x_18 = l_CategoryTheory_Functor_mapCone___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__11___rarg(x_1, x_2, lean_box(0), x_5, x_3, x_14, x_17);
+lean_inc(x_6);
+lean_inc(x_2);
+x_19 = l_TopCat_Presheaf_generateEquivalenceOpensLe(x_2, lean_box(0), x_5, x_6, lean_box(0));
+x_20 = l_CategoryTheory_Equivalence_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__16(x_2, lean_box(0), x_5, x_6, x_19);
+lean_inc(x_20);
+lean_inc(x_18);
+lean_inc(x_15);
+lean_inc(x_6);
+lean_inc(x_2);
+lean_inc(x_1);
+x_21 = l_CategoryTheory_Limits_IsLimit_whiskerEquivalenceEquiv___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__47___rarg(x_1, x_2, lean_box(0), x_5, x_6, x_15, x_18, x_20);
+x_22 = lean_ctor_get(x_20, 0);
+lean_inc(x_22);
+lean_dec(x_20);
+lean_inc(x_15);
+lean_inc(x_22);
+x_23 = l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__48___rarg(x_1, x_2, lean_box(0), x_5, x_6, x_22, x_15);
+lean_inc(x_2);
+lean_inc(x_1);
+x_24 = l_CategoryTheory_Limits_Cone_whisker___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__49___rarg(x_1, x_2, lean_box(0), x_5, x_6, x_15, x_22, x_18);
+x_25 = l_CategoryTheory_inducedFunctor___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__56(x_2, x_6, lean_box(0), x_12);
+lean_inc(x_6);
+lean_inc(x_2);
+x_26 = l_CategoryTheory_Over_forget___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__57(x_2, x_6);
+lean_inc(x_26);
+lean_inc(x_25);
+x_27 = l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__61___rarg(x_6, x_11, x_25, x_26);
+lean_inc(x_27);
+x_28 = l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__62(x_2, lean_box(0), x_5, x_6, x_27);
+lean_inc(x_6);
+x_29 = l_CategoryTheory_Over_forgetCocone___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__63(x_2, x_6);
+lean_inc(x_6);
+x_30 = l_CategoryTheory_Limits_Cocone_whisker___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__69(x_2, lean_box(0), x_5, x_6, x_11, x_26, x_25, x_29);
+x_31 = l_CategoryTheory_Limits_Cocone_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__75(x_2, lean_box(0), x_5, x_6, x_27, x_30);
+lean_dec(x_27);
+lean_inc(x_3);
+lean_inc(x_6);
+lean_inc(x_2);
+lean_inc(x_1);
+x_32 = l_CategoryTheory_Functor_mapCone___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__81___rarg(x_1, x_2, lean_box(0), x_5, x_6, x_3, x_28, x_31);
+lean_inc(x_6);
+lean_inc(x_2);
+x_33 = l_TopCat_Presheaf_whiskerIsoMapGenerateCocone___rarg(x_1, x_2, x_3, lean_box(0), x_5, x_6, lean_box(0));
+x_34 = l_CategoryTheory_Limits_IsLimit_equivIsoLimit___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__86___rarg(x_1, x_2, lean_box(0), x_5, x_6, x_23, x_24, x_32, x_33);
+x_35 = l_Equiv_trans___rarg(x_21, x_34);
+return x_35;
+}
+}
+LEAN_EXPORT lean_object* l_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___rarg___boxed), 7, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_inducedFunctor___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__2___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_inducedFunctor___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__2(x_1, x_2, x_3);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_fullSubcategoryInclusion___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__1___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_CategoryTheory_fullSubcategoryInclusion___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__1(x_1, x_2);
+lean_dec(x_1);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__3___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__3(x_1, x_2, x_3, x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__4___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__4___rarg(x_1, x_2, x_3, x_4, x_5, x_6);
+lean_dec(x_4);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__6___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__6(x_1, x_2, x_3, x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__7___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__7(x_1, x_2, x_3);
+lean_dec(x_3);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__9___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__9(x_1, x_2, x_3, x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__10___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__10(x_1, x_2, x_3, x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__8___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__8(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cocone_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__5___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_Limits_Cocone_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__5(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__13___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__13___rarg(x_1, x_2, x_3, x_4, x_5, x_6);
+lean_dec(x_4);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__14___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__14___rarg(x_1, x_2, x_3, x_4);
+lean_dec(x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__15___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__15___rarg(x_1, x_2, x_3, x_4);
+lean_dec(x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cones_functoriality___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__12___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = l_CategoryTheory_Limits_Cones_functoriality___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__12___rarg(x_1, x_2, x_3, x_4, x_5, x_6);
+lean_dec(x_4);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_mapCone___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__11___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; 
+x_8 = l_CategoryTheory_Functor_mapCone___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__11___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7);
+lean_dec(x_4);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__17___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__17(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__18___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__18(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__19___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__19(x_1, x_2, x_3, x_4, x_5, x_6);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__20___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__20(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__21___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_Functor_id___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__21(x_1, x_2, x_3, x_4);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__22___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__22(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__24___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__24(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__25___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__25(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__27___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__27(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__28___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__28(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__26___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__26(x_1, x_2, x_3, x_4, x_5, x_6);
+lean_dec(x_6);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__30___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__30(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__31___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__31(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__29___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__29(x_1, x_2, x_3, x_4, x_5, x_6);
+lean_dec(x_6);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__23___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; 
+x_8 = l_CategoryTheory_NatIso_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__23(x_1, x_2, x_3, x_4, x_5, x_6, x_7);
+lean_dec(x_6);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_symm___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__32___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; 
+x_8 = l_CategoryTheory_Iso_symm___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__32(x_1, x_2, x_3, x_4, x_5, x_6, x_7);
+lean_dec(x_7);
+lean_dec(x_6);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__33___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Functor_id___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__33(x_1, x_2, x_3);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__34___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__34(x_1, x_2, x_3, x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__35___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__35(x_1, x_2, x_3, x_4, x_5, x_6);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__36___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__36(x_1, x_2, x_3, x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__38___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__38(x_1, x_2, x_3, x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__39___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__39(x_1, x_2, x_3, x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__41___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__41(x_1, x_2, x_3, x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__42___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__42(x_1, x_2, x_3, x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__40___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__40(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__44___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__44(x_1, x_2, x_3, x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__45___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__45(x_1, x_2, x_3, x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__43___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__43(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__37___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = l_CategoryTheory_NatIso_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__37(x_1, x_2, x_3, x_4, x_5, x_6);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_symm___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__46___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = l_CategoryTheory_Iso_symm___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__46(x_1, x_2, x_3, x_4, x_5, x_6);
+lean_dec(x_6);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Equivalence_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__16___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_Equivalence_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__16(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsLimit_whiskerEquivalenceEquiv___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__47___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8) {
+_start:
+{
+lean_object* x_9; 
+x_9 = l_CategoryTheory_Limits_IsLimit_whiskerEquivalenceEquiv___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__47___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8);
+lean_dec(x_4);
+return x_9;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__48___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; 
+x_8 = l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__48___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__50___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; 
+x_8 = l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__50___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__51___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__51___rarg(x_1, x_2, x_3, x_4);
+lean_dec(x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__53___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; 
+x_8 = l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__53___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__54___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; 
+x_8 = l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__54___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerLeft___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__52___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = l_CategoryTheory_whiskerLeft___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__52(x_1, x_2, x_3, x_4, x_5, x_6);
+lean_dec(x_6);
+lean_dec(x_5);
+lean_dec(x_3);
+lean_dec(x_2);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cone_whisker___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__49___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8) {
+_start:
+{
+lean_object* x_9; 
+x_9 = l_CategoryTheory_Limits_Cone_whisker___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__49___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8);
+lean_dec(x_5);
+lean_dec(x_4);
+return x_9;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_inducedFunctor___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__56___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_inducedFunctor___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__56(x_1, x_2, x_3, x_4);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_fullSubcategoryInclusion___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__55___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_fullSubcategoryInclusion___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__55(x_1, x_2, x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__58___boxed(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = l_CategoryTheory_Functor_id___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__58(x_1);
+lean_dec(x_1);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Comma_fst___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__60___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Comma_fst___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__60(x_1, x_2, x_3);
+lean_dec(x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__61___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__61___rarg(x_1, x_2, x_3, x_4);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__61___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__61(x_1, x_2, x_3);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__62___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__62(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__65___boxed(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = l_CategoryTheory_Functor_id___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__65(x_1);
+lean_dec(x_1);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Comma_fst___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__67___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Comma_fst___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__67(x_1, x_2, x_3);
+lean_dec(x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Over_forgetCocone___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__63___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_CategoryTheory_Over_forgetCocone___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__63(x_1, x_2);
+lean_dec(x_1);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__70___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__70___rarg(x_1, x_2, x_3, x_4);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__70___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__70(x_1, x_2, x_3);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__71___boxed(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__71(x_1);
+lean_dec(x_1);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__73___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__73___rarg(x_1, x_2, x_3, x_4);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__73___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__73(x_1, x_2, x_3);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__74___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__74___rarg(x_1, x_2, x_3, x_4);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__74___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__74(x_1, x_2, x_3);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerLeft___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__72___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_whiskerLeft___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__72(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cocone_whisker___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__69___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8) {
+_start:
+{
+lean_object* x_9; 
+x_9 = l_CategoryTheory_Limits_Cocone_whisker___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__69(x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_9;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__76___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__76(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__77___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__77(x_1, x_2, x_3, x_4);
+lean_dec(x_3);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__79___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__79(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__80___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__80(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__78___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__78(x_1, x_2, x_3, x_4, x_5, x_6);
+lean_dec(x_6);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cocone_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__75___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = l_CategoryTheory_Limits_Cocone_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__75(x_1, x_2, x_3, x_4, x_5, x_6);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__83___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; 
+x_8 = l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__83___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__84___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__84___rarg(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_4);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__85___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__85___rarg(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_4);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cones_functoriality___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__82___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; 
+x_8 = l_CategoryTheory_Limits_Cones_functoriality___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__82___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7);
+lean_dec(x_4);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_mapCone___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__81___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8) {
+_start:
+{
+lean_object* x_9; 
+x_9 = l_CategoryTheory_Functor_mapCone___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__81___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8);
+lean_dec(x_4);
+return x_9;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsLimit_equivIsoLimit___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__86___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8, lean_object* x_9) {
+_start:
+{
+lean_object* x_10; 
+x_10 = l_CategoryTheory_Limits_IsLimit_equivIsoLimit___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___spec__86___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8, x_9);
+lean_dec(x_4);
+return x_10;
+}
+}
+LEAN_EXPORT lean_object* l_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; 
+x_8 = l_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7);
+lean_dec(x_5);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_inducedFunctor___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__3(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; 
+x_4 = l_CategoryTheory_inducedFunctor___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__2___closed__1;
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_fullSubcategoryInclusion___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__2(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; 
+x_3 = l_CategoryTheory_fullSubcategoryInclusion___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__1___closed__1;
+x_4 = l_CategoryTheory_inducedFunctor___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__3(x_1, lean_box(0), x_3);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__4(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__2___lambda__1), 2, 1);
+lean_closure_set(x_5, 0, x_4);
+x_6 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__4___lambda__3___closed__1;
+x_7 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_7, 0, x_5);
+lean_ctor_set(x_7, 1, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__5___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; lean_object* x_8; lean_object* x_9; 
+lean_inc(x_5);
+lean_inc(x_6);
+x_7 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_7, 0, x_6);
+lean_closure_set(x_7, 1, x_5);
+x_8 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__35___rarg___lambda__1), 5, 2);
+lean_closure_set(x_8, 0, x_6);
+lean_closure_set(x_8, 1, x_5);
+x_9 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_9, 0, x_7);
+lean_ctor_set(x_9, 1, x_8);
+return x_9;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__5(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__5___rarg___boxed), 6, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__7(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__2___lambda__1), 2, 1);
+lean_closure_set(x_5, 0, x_4);
+x_6 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__4___lambda__3___closed__1;
+x_7 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_7, 0, x_5);
+lean_ctor_set(x_7, 1, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__8(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; lean_object* x_6; lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; lean_object* x_11; lean_object* x_12; lean_object* x_13; 
+x_4 = l_TopologicalSpace_Opens_instCompleteLattice___rarg(x_1);
+x_5 = l_CompleteLattice_toCompleteSemilatticeInf___rarg(x_4);
+x_6 = lean_ctor_get(x_5, 0);
+lean_inc(x_6);
+lean_dec(x_5);
+x_7 = l_Preorder_smallCategory(lean_box(0), x_6);
+lean_dec(x_6);
+x_8 = l_TopCat_Presheaf_SheafCondition_instCategoryOpensLeCover___closed__1;
+lean_inc(x_7);
+x_9 = l_CategoryTheory_InducedCategory_category___rarg(x_7, x_8);
+x_10 = lean_ctor_get(x_7, 0);
+lean_inc(x_10);
+lean_dec(x_7);
+x_11 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__4___lambda__3___boxed), 3, 2);
+lean_closure_set(x_11, 0, x_9);
+lean_closure_set(x_11, 1, x_10);
+x_12 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__4___closed__1;
+x_13 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_13, 0, x_11);
+lean_ctor_set(x_13, 1, x_12);
+return x_13;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__10(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__2___lambda__1), 2, 1);
+lean_closure_set(x_5, 0, x_4);
+x_6 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__4___lambda__3___closed__1;
+x_7 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_7, 0, x_5);
+lean_ctor_set(x_7, 1, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__11(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__2___lambda__1), 2, 1);
+lean_closure_set(x_5, 0, x_4);
+x_6 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__4___lambda__3___closed__1;
+x_7 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_7, 0, x_5);
+lean_ctor_set(x_7, 1, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__9___rarg(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_op___elambda__1___rarg), 2, 1);
+lean_closure_set(x_2, 0, x_1);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__9(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__9___rarg), 1, 0);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cocone_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__6(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+uint8_t x_6; 
+x_6 = !lean_is_exclusive(x_5);
+if (x_6 == 0)
+{
+lean_object* x_7; lean_object* x_8; 
+x_7 = lean_ctor_get(x_5, 1);
+x_8 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_op___elambda__1___rarg), 2, 1);
+lean_closure_set(x_8, 0, x_7);
+lean_ctor_set(x_5, 1, x_8);
+return x_5;
+}
+else
+{
+lean_object* x_9; lean_object* x_10; lean_object* x_11; lean_object* x_12; 
+x_9 = lean_ctor_get(x_5, 0);
+x_10 = lean_ctor_get(x_5, 1);
+lean_inc(x_10);
+lean_inc(x_9);
+lean_dec(x_5);
+x_11 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_op___elambda__1___rarg), 2, 1);
+lean_closure_set(x_11, 0, x_10);
+x_12 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_12, 0, x_9);
+lean_ctor_set(x_12, 1, x_11);
+return x_12;
+}
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__14___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; lean_object* x_8; lean_object* x_9; 
+lean_inc(x_5);
+lean_inc(x_6);
+x_7 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_7, 0, x_6);
+lean_closure_set(x_7, 1, x_5);
+x_8 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__35___rarg___lambda__1), 5, 2);
+lean_closure_set(x_8, 0, x_6);
+lean_closure_set(x_8, 1, x_5);
+x_9 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_9, 0, x_7);
+lean_ctor_set(x_9, 1, x_8);
+return x_9;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__14(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__14___rarg___boxed), 6, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__15___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; lean_object* x_11; lean_object* x_12; lean_object* x_13; lean_object* x_14; lean_object* x_15; 
+x_5 = l_TopologicalSpace_Opens_instCompleteLattice___rarg(x_2);
+x_6 = l_CompleteLattice_toCompleteSemilatticeInf___rarg(x_5);
+x_7 = lean_ctor_get(x_6, 0);
+lean_inc(x_7);
+lean_dec(x_6);
+x_8 = l_Preorder_smallCategory(lean_box(0), x_7);
+lean_dec(x_7);
+x_9 = l_TopCat_Presheaf_SheafCondition_instCategoryOpensLeCover___closed__1;
+x_10 = l_CategoryTheory_InducedCategory_category___rarg(x_8, x_9);
+x_11 = l_CategoryTheory_Category_opposite___rarg(x_10);
+x_12 = lean_ctor_get(x_1, 0);
+lean_inc(x_12);
+x_13 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__46___rarg___lambda__2___boxed), 4, 3);
+lean_closure_set(x_13, 0, x_11);
+lean_closure_set(x_13, 1, x_1);
+lean_closure_set(x_13, 2, x_12);
+x_14 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__46___rarg___closed__1;
+x_15 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_15, 0, x_13);
+lean_ctor_set(x_15, 1, x_14);
+return x_15;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__15(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__15___rarg___boxed), 4, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__16___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; lean_object* x_11; lean_object* x_12; lean_object* x_13; lean_object* x_14; lean_object* x_15; 
+x_5 = l_TopologicalSpace_Opens_instCompleteLattice___rarg(x_2);
+x_6 = l_CompleteLattice_toCompleteSemilatticeInf___rarg(x_5);
+x_7 = lean_ctor_get(x_6, 0);
+lean_inc(x_7);
+lean_dec(x_6);
+x_8 = l_Preorder_smallCategory(lean_box(0), x_7);
+lean_dec(x_7);
+x_9 = l_TopCat_Presheaf_SheafCondition_instCategoryOpensLeCover___closed__1;
+x_10 = l_CategoryTheory_InducedCategory_category___rarg(x_8, x_9);
+x_11 = l_CategoryTheory_Category_opposite___rarg(x_10);
+x_12 = lean_ctor_get(x_1, 0);
+lean_inc(x_12);
+x_13 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__46___rarg___lambda__2___boxed), 4, 3);
+lean_closure_set(x_13, 0, x_11);
+lean_closure_set(x_13, 1, x_1);
+lean_closure_set(x_13, 2, x_12);
+x_14 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__46___rarg___closed__1;
+x_15 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_15, 0, x_13);
+lean_ctor_set(x_15, 1, x_14);
+return x_15;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__16(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__16___rarg___boxed), 4, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cones_functoriality___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__13___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; lean_object* x_11; lean_object* x_12; lean_object* x_13; lean_object* x_14; lean_object* x_15; lean_object* x_16; lean_object* x_17; 
+lean_inc(x_2);
+x_7 = l_TopologicalSpace_Opens_instCompleteLattice___rarg(x_2);
+x_8 = l_CompleteLattice_toCompleteSemilatticeInf___rarg(x_7);
+x_9 = lean_ctor_get(x_8, 0);
+lean_inc(x_9);
+lean_dec(x_8);
+x_10 = l_Preorder_smallCategory(lean_box(0), x_9);
+lean_dec(x_9);
+x_11 = l_TopCat_Presheaf_SheafCondition_instCategoryOpensLeCover___closed__1;
+x_12 = l_CategoryTheory_InducedCategory_category___rarg(x_10, x_11);
+x_13 = l_CategoryTheory_Category_opposite___rarg(x_12);
+lean_inc(x_6);
+lean_inc(x_5);
+x_14 = l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__14___rarg(x_1, x_2, lean_box(0), x_4, x_5, x_6);
+lean_dec(x_2);
+lean_inc(x_6);
+x_15 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_Cones_functoriality___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__44___rarg___lambda__2___boxed), 6, 5);
+lean_closure_set(x_15, 0, x_6);
+lean_closure_set(x_15, 1, x_5);
+lean_closure_set(x_15, 2, x_13);
+lean_closure_set(x_15, 3, x_1);
+lean_closure_set(x_15, 4, x_14);
+x_16 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_Cones_functoriality___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__44___rarg___lambda__3), 4, 1);
+lean_closure_set(x_16, 0, x_6);
+x_17 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_17, 0, x_15);
+lean_ctor_set(x_17, 1, x_16);
+return x_17;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cones_functoriality___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__13(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_Cones_functoriality___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__13___rarg___boxed), 6, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_mapCone___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__12___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; lean_object* x_9; lean_object* x_10; 
+x_8 = l_CategoryTheory_Limits_Cones_functoriality___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__13___rarg(x_1, x_2, lean_box(0), x_4, x_6, x_5);
+x_9 = lean_ctor_get(x_8, 0);
+lean_inc(x_9);
+lean_dec(x_8);
+x_10 = lean_apply_1(x_9, x_7);
+return x_10;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_mapCone___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__12(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_mapCone___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__12___rarg___boxed), 7, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__18(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; 
+x_6 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__2___lambda__1), 2, 1);
+lean_closure_set(x_6, 0, x_5);
+x_7 = l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__2___closed__1;
+x_8 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_8, 0, x_6);
+lean_ctor_set(x_8, 1, x_7);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__19(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; 
+lean_inc(x_5);
+x_6 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__2___lambda__1), 2, 1);
+lean_closure_set(x_6, 0, x_5);
+x_7 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__3___lambda__1), 4, 1);
+lean_closure_set(x_7, 0, x_5);
+x_8 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_8, 0, x_6);
+lean_ctor_set(x_8, 1, x_7);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__20(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; lean_object* x_8; lean_object* x_9; 
+lean_inc(x_5);
+lean_inc(x_6);
+x_7 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_7, 0, x_6);
+lean_closure_set(x_7, 1, x_5);
+x_8 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__2___lambda__2___boxed), 5, 2);
+lean_closure_set(x_8, 0, x_6);
+lean_closure_set(x_8, 1, x_5);
+x_9 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_9, 0, x_7);
+lean_ctor_set(x_9, 1, x_8);
+return x_9;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__21(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; 
+lean_inc(x_5);
+x_6 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__2___lambda__1), 2, 1);
+lean_closure_set(x_6, 0, x_5);
+x_7 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__5___lambda__1), 4, 1);
+lean_closure_set(x_7, 0, x_5);
+x_8 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_8, 0, x_6);
+lean_ctor_set(x_8, 1, x_7);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__22(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+x_5 = l_CategoryTheory_fullSubcategoryInclusion___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__1___closed__1;
+x_6 = l_CategoryTheory_Functor_id___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__1___closed__1;
+x_7 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_7, 0, x_5);
+lean_ctor_set(x_7, 1, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__23(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; 
+lean_inc(x_5);
+x_6 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__2___lambda__1), 2, 1);
+lean_closure_set(x_6, 0, x_5);
+x_7 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__5___lambda__1), 4, 1);
+lean_closure_set(x_7, 0, x_5);
+x_8 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_8, 0, x_6);
+lean_ctor_set(x_8, 1, x_7);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__25(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; 
+lean_inc(x_5);
+x_6 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__2___lambda__1), 2, 1);
+lean_closure_set(x_6, 0, x_5);
+x_7 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__5___lambda__1), 4, 1);
+lean_closure_set(x_7, 0, x_5);
+x_8 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_8, 0, x_6);
+lean_ctor_set(x_8, 1, x_7);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__26(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; 
+lean_inc(x_5);
+x_6 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__2___lambda__1), 2, 1);
+lean_closure_set(x_6, 0, x_5);
+x_7 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__5___lambda__1), 4, 1);
+lean_closure_set(x_7, 0, x_5);
+x_8 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_8, 0, x_6);
+lean_ctor_set(x_8, 1, x_7);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__28(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; 
+lean_inc(x_5);
+x_6 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__2___lambda__1), 2, 1);
+lean_closure_set(x_6, 0, x_5);
+x_7 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__5___lambda__1), 4, 1);
+lean_closure_set(x_7, 0, x_5);
+x_8 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_8, 0, x_6);
+lean_ctor_set(x_8, 1, x_7);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__29(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; 
+lean_inc(x_5);
+x_6 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__2___lambda__1), 2, 1);
+lean_closure_set(x_6, 0, x_5);
+x_7 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__5___lambda__1), 4, 1);
+lean_closure_set(x_7, 0, x_5);
+x_8 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_8, 0, x_6);
+lean_ctor_set(x_8, 1, x_7);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__27___rarg(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_op___elambda__1___rarg), 2, 1);
+lean_closure_set(x_2, 0, x_1);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__27(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__27___rarg), 1, 0);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__31(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; 
+lean_inc(x_5);
+x_6 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__2___lambda__1), 2, 1);
+lean_closure_set(x_6, 0, x_5);
+x_7 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__5___lambda__1), 4, 1);
+lean_closure_set(x_7, 0, x_5);
+x_8 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_8, 0, x_6);
+lean_ctor_set(x_8, 1, x_7);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__32(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; 
+lean_inc(x_5);
+x_6 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__2___lambda__1), 2, 1);
+lean_closure_set(x_6, 0, x_5);
+x_7 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__5___lambda__1), 4, 1);
+lean_closure_set(x_7, 0, x_5);
+x_8 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_8, 0, x_6);
+lean_ctor_set(x_8, 1, x_7);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__30___rarg(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_op___elambda__1___rarg), 2, 1);
+lean_closure_set(x_2, 0, x_1);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__30(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__30___rarg), 1, 0);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__24(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; lean_object* x_9; lean_object* x_10; lean_object* x_11; lean_object* x_12; 
+x_8 = lean_ctor_get(x_7, 0);
+lean_inc(x_8);
+x_9 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_op___elambda__1___rarg), 2, 1);
+lean_closure_set(x_9, 0, x_8);
+x_10 = lean_ctor_get(x_7, 1);
+lean_inc(x_10);
+lean_dec(x_7);
+x_11 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_op___elambda__1___rarg), 2, 1);
+lean_closure_set(x_11, 0, x_10);
+x_12 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_12, 0, x_9);
+lean_ctor_set(x_12, 1, x_11);
+return x_12;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_symm___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__33(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; lean_object* x_9; lean_object* x_10; 
+x_8 = lean_ctor_get(x_7, 1);
+x_9 = lean_ctor_get(x_7, 0);
+lean_inc(x_9);
+lean_inc(x_8);
+x_10 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_10, 0, x_8);
+lean_ctor_set(x_10, 1, x_9);
+return x_10;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__34(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; lean_object* x_6; 
+x_4 = l_CategoryTheory_fullSubcategoryInclusion___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__1___closed__1;
+x_5 = l_CategoryTheory_inducedFunctor___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__2___closed__1;
+x_6 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_6, 0, x_4);
+lean_ctor_set(x_6, 1, x_5);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__35(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__2___lambda__1), 2, 1);
+lean_closure_set(x_5, 0, x_4);
+x_6 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__4___lambda__3___closed__1;
+x_7 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_7, 0, x_5);
+lean_ctor_set(x_7, 1, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__36(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; lean_object* x_8; lean_object* x_9; 
+lean_inc(x_5);
+lean_inc(x_6);
+x_7 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_7, 0, x_6);
+lean_closure_set(x_7, 1, x_5);
+x_8 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__8___lambda__1), 5, 2);
+lean_closure_set(x_8, 0, x_6);
+lean_closure_set(x_8, 1, x_5);
+x_9 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_9, 0, x_7);
+lean_ctor_set(x_9, 1, x_8);
+return x_9;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__37(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__2___lambda__1), 2, 1);
+lean_closure_set(x_5, 0, x_4);
+x_6 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__4___lambda__3___closed__1;
+x_7 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_7, 0, x_5);
+lean_ctor_set(x_7, 1, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__39(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__2___lambda__1), 2, 1);
+lean_closure_set(x_5, 0, x_4);
+x_6 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__4___lambda__3___closed__1;
+x_7 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_7, 0, x_5);
+lean_ctor_set(x_7, 1, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__40(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__2___lambda__1), 2, 1);
+lean_closure_set(x_5, 0, x_4);
+x_6 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__4___lambda__3___closed__1;
+x_7 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_7, 0, x_5);
+lean_ctor_set(x_7, 1, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__42(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__2___lambda__1), 2, 1);
+lean_closure_set(x_5, 0, x_4);
+x_6 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__4___lambda__3___closed__1;
+x_7 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_7, 0, x_5);
+lean_ctor_set(x_7, 1, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__43(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__2___lambda__1), 2, 1);
+lean_closure_set(x_5, 0, x_4);
+x_6 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__4___lambda__3___closed__1;
+x_7 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_7, 0, x_5);
+lean_ctor_set(x_7, 1, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__41___rarg(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_op___elambda__1___rarg), 2, 1);
+lean_closure_set(x_2, 0, x_1);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__41(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__41___rarg), 1, 0);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__45(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__2___lambda__1), 2, 1);
+lean_closure_set(x_5, 0, x_4);
+x_6 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__4___lambda__3___closed__1;
+x_7 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_7, 0, x_5);
+lean_ctor_set(x_7, 1, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__46(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__2___lambda__1), 2, 1);
+lean_closure_set(x_5, 0, x_4);
+x_6 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__4___lambda__3___closed__1;
+x_7 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_7, 0, x_5);
+lean_ctor_set(x_7, 1, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__44___rarg(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_op___elambda__1___rarg), 2, 1);
+lean_closure_set(x_2, 0, x_1);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__44(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__44___rarg), 1, 0);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__38(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; lean_object* x_11; 
+x_7 = lean_ctor_get(x_6, 0);
+lean_inc(x_7);
+x_8 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_op___elambda__1___rarg), 2, 1);
+lean_closure_set(x_8, 0, x_7);
+x_9 = lean_ctor_get(x_6, 1);
+lean_inc(x_9);
+lean_dec(x_6);
+x_10 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_op___elambda__1___rarg), 2, 1);
+lean_closure_set(x_10, 0, x_9);
+x_11 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_11, 0, x_8);
+lean_ctor_set(x_11, 1, x_10);
+return x_11;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_symm___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__47(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; lean_object* x_8; lean_object* x_9; 
+x_7 = lean_ctor_get(x_6, 1);
+x_8 = lean_ctor_get(x_6, 0);
+lean_inc(x_8);
+lean_inc(x_7);
+x_9 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_9, 0, x_7);
+lean_ctor_set(x_9, 1, x_8);
+return x_9;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Equivalence_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__17(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; lean_object* x_11; lean_object* x_12; lean_object* x_13; lean_object* x_14; lean_object* x_15; lean_object* x_16; lean_object* x_17; lean_object* x_18; lean_object* x_19; lean_object* x_20; lean_object* x_21; lean_object* x_22; lean_object* x_23; lean_object* x_24; 
+x_6 = lean_ctor_get(x_5, 0);
+lean_inc(x_6);
+lean_inc(x_6);
+x_7 = l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__18(x_1, lean_box(0), x_3, x_4, x_6);
+x_8 = lean_ctor_get(x_5, 1);
+lean_inc(x_8);
+lean_inc(x_8);
+x_9 = l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__19(x_1, lean_box(0), x_3, x_4, x_8);
+lean_inc(x_8);
+lean_inc(x_6);
+x_10 = l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__20(x_1, lean_box(0), x_3, x_4, x_6, x_8);
+lean_inc(x_10);
+x_11 = l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__21(x_1, lean_box(0), x_3, x_4, x_10);
+x_12 = l_CategoryTheory_Functor_id___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__22(x_1, lean_box(0), x_3, x_4);
+lean_inc(x_12);
+x_13 = l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__23(x_1, lean_box(0), x_3, x_4, x_12);
+x_14 = lean_ctor_get(x_5, 2);
+lean_inc(x_14);
+x_15 = l_CategoryTheory_NatIso_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__24(x_1, lean_box(0), x_3, x_4, x_12, x_10, x_14);
+lean_dec(x_10);
+lean_dec(x_12);
+x_16 = l_CategoryTheory_Iso_symm___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__33(x_1, lean_box(0), x_3, x_4, x_11, x_13, x_15);
+lean_dec(x_15);
+lean_dec(x_13);
+lean_dec(x_11);
+x_17 = l_CategoryTheory_Functor_id___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__34(x_1, lean_box(0), x_3);
+lean_inc(x_17);
+x_18 = l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__35(x_1, lean_box(0), x_3, x_17);
+x_19 = l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__36(x_1, lean_box(0), x_3, x_4, x_8, x_6);
+lean_inc(x_19);
+x_20 = l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__37(x_1, lean_box(0), x_3, x_19);
+x_21 = lean_ctor_get(x_5, 3);
+lean_inc(x_21);
+lean_dec(x_5);
+x_22 = l_CategoryTheory_NatIso_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__38(x_1, lean_box(0), x_3, x_19, x_17, x_21);
+lean_dec(x_17);
+lean_dec(x_19);
+x_23 = l_CategoryTheory_Iso_symm___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__47(x_1, lean_box(0), x_3, x_18, x_20, x_22);
+lean_dec(x_22);
+lean_dec(x_20);
+lean_dec(x_18);
+x_24 = lean_alloc_ctor(0, 4, 0);
+lean_ctor_set(x_24, 0, x_7);
+lean_ctor_set(x_24, 1, x_9);
+lean_ctor_set(x_24, 2, x_16);
+lean_ctor_set(x_24, 3, x_23);
+return x_24;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsLimit_whiskerEquivalenceEquiv___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__48___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8) {
+_start:
+{
+lean_object* x_9; lean_object* x_10; lean_object* x_11; lean_object* x_12; lean_object* x_13; lean_object* x_14; lean_object* x_15; lean_object* x_16; lean_object* x_17; lean_object* x_18; lean_object* x_19; lean_object* x_20; lean_object* x_21; 
+lean_inc(x_2);
+x_9 = l_TopCat_Presheaf_SheafCondition_instCategoryOpensLeCover(x_2, lean_box(0), x_4);
+x_10 = l_CategoryTheory_Category_opposite___rarg(x_9);
+x_11 = l_TopologicalSpace_Opens_instCompleteLattice___rarg(x_2);
+x_12 = l_CompleteLattice_toCompleteSemilatticeInf___rarg(x_11);
+x_13 = lean_ctor_get(x_12, 0);
+lean_inc(x_13);
+lean_dec(x_12);
+x_14 = l_Preorder_smallCategory(lean_box(0), x_13);
+lean_dec(x_13);
+x_15 = l_CategoryTheory_instCategoryOver___rarg(x_14, x_5);
+x_16 = l_TopCat_Presheaf_SheafCondition_instCategoryOpensLeCover___closed__1;
+x_17 = l_CategoryTheory_InducedCategory_category___rarg(x_15, x_16);
+x_18 = l_CategoryTheory_Category_opposite___rarg(x_17);
+lean_inc(x_8);
+lean_inc(x_7);
+lean_inc(x_6);
+lean_inc(x_1);
+lean_inc(x_18);
+lean_inc(x_10);
+x_19 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_IsLimit_whiskerEquivalenceEquiv___elambda__2___rarg), 9, 8);
+lean_closure_set(x_19, 0, x_10);
+lean_closure_set(x_19, 1, lean_box(0));
+lean_closure_set(x_19, 2, x_18);
+lean_closure_set(x_19, 3, lean_box(0));
+lean_closure_set(x_19, 4, x_1);
+lean_closure_set(x_19, 5, x_6);
+lean_closure_set(x_19, 6, x_7);
+lean_closure_set(x_19, 7, x_8);
+x_20 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_IsLimit_whiskerEquivalenceEquiv___elambda__1___rarg), 9, 8);
+lean_closure_set(x_20, 0, x_10);
+lean_closure_set(x_20, 1, lean_box(0));
+lean_closure_set(x_20, 2, x_18);
+lean_closure_set(x_20, 3, lean_box(0));
+lean_closure_set(x_20, 4, x_1);
+lean_closure_set(x_20, 5, x_6);
+lean_closure_set(x_20, 6, x_7);
+lean_closure_set(x_20, 7, x_8);
+x_21 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_21, 0, x_19);
+lean_ctor_set(x_21, 1, x_20);
+return x_21;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsLimit_whiskerEquivalenceEquiv___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__48(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_IsLimit_whiskerEquivalenceEquiv___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__48___rarg___boxed), 8, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__49___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; lean_object* x_9; lean_object* x_10; 
+lean_inc(x_6);
+lean_inc(x_7);
+x_8 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_8, 0, x_7);
+lean_closure_set(x_8, 1, x_6);
+x_9 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__2___lambda__2___boxed), 5, 2);
+lean_closure_set(x_9, 0, x_7);
+lean_closure_set(x_9, 1, x_6);
+x_10 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_10, 0, x_8);
+lean_ctor_set(x_10, 1, x_9);
+return x_10;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__49(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__49___rarg___boxed), 7, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__51___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; lean_object* x_9; lean_object* x_10; 
+lean_inc(x_6);
+lean_inc(x_7);
+x_8 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_8, 0, x_7);
+lean_closure_set(x_8, 1, x_6);
+x_9 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__2___lambda__2___boxed), 5, 2);
+lean_closure_set(x_9, 0, x_7);
+lean_closure_set(x_9, 1, x_6);
+x_10 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_10, 0, x_8);
+lean_ctor_set(x_10, 1, x_9);
+return x_10;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__51(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__51___rarg___boxed), 7, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__52___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; 
+x_5 = l_TopCat_Presheaf_SheafCondition_instCategoryOpensLeCover(x_2, lean_box(0), x_4);
+x_6 = l_CategoryTheory_Category_opposite___rarg(x_5);
+x_7 = lean_ctor_get(x_1, 0);
+lean_inc(x_7);
+x_8 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__46___rarg___lambda__2___boxed), 4, 3);
+lean_closure_set(x_8, 0, x_6);
+lean_closure_set(x_8, 1, x_1);
+lean_closure_set(x_8, 2, x_7);
+x_9 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__46___rarg___closed__1;
+x_10 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_10, 0, x_8);
+lean_ctor_set(x_10, 1, x_9);
+return x_10;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__52(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__52___rarg___boxed), 4, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__54___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; lean_object* x_9; lean_object* x_10; 
+lean_inc(x_6);
+lean_inc(x_7);
+x_8 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_8, 0, x_7);
+lean_closure_set(x_8, 1, x_6);
+x_9 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__2___lambda__2___boxed), 5, 2);
+lean_closure_set(x_9, 0, x_7);
+lean_closure_set(x_9, 1, x_6);
+x_10 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_10, 0, x_8);
+lean_ctor_set(x_10, 1, x_9);
+return x_10;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__54(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__54___rarg___boxed), 7, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__55___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; lean_object* x_9; lean_object* x_10; 
+lean_inc(x_6);
+lean_inc(x_7);
+x_8 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_8, 0, x_7);
+lean_closure_set(x_8, 1, x_6);
+x_9 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__2___lambda__2___boxed), 5, 2);
+lean_closure_set(x_9, 0, x_7);
+lean_closure_set(x_9, 1, x_6);
+x_10 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_10, 0, x_8);
+lean_ctor_set(x_10, 1, x_9);
+return x_10;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__55(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__55___rarg___boxed), 7, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerLeft___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__53___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_whiskerLeft___elambda__1___rarg___boxed), 5, 4);
+lean_closure_set(x_5, 0, x_1);
+lean_closure_set(x_5, 1, x_2);
+lean_closure_set(x_5, 2, x_3);
+lean_closure_set(x_5, 3, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerLeft___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__53(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = lean_alloc_closure((void*)(l_CategoryTheory_whiskerLeft___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__53___rarg), 4, 0);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cone_whisker___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__50___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8) {
+_start:
+{
+uint8_t x_9; 
+x_9 = !lean_is_exclusive(x_8);
+if (x_9 == 0)
+{
+lean_object* x_10; lean_object* x_11; lean_object* x_12; lean_object* x_13; lean_object* x_14; lean_object* x_15; 
+x_10 = lean_ctor_get(x_8, 0);
+x_11 = lean_ctor_get(x_8, 1);
+x_12 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__52___rarg(x_1, x_2, lean_box(0), x_4);
+x_13 = lean_ctor_get(x_12, 0);
+lean_inc(x_13);
+lean_dec(x_12);
+lean_inc(x_10);
+x_14 = lean_apply_1(x_13, x_10);
+x_15 = lean_alloc_closure((void*)(l_CategoryTheory_whiskerLeft___elambda__1___rarg___boxed), 5, 4);
+lean_closure_set(x_15, 0, x_7);
+lean_closure_set(x_15, 1, x_14);
+lean_closure_set(x_15, 2, x_6);
+lean_closure_set(x_15, 3, x_11);
+lean_ctor_set(x_8, 1, x_15);
+return x_8;
+}
+else
+{
+lean_object* x_16; lean_object* x_17; lean_object* x_18; lean_object* x_19; lean_object* x_20; lean_object* x_21; lean_object* x_22; 
+x_16 = lean_ctor_get(x_8, 0);
+x_17 = lean_ctor_get(x_8, 1);
+lean_inc(x_17);
+lean_inc(x_16);
+lean_dec(x_8);
+x_18 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__52___rarg(x_1, x_2, lean_box(0), x_4);
+x_19 = lean_ctor_get(x_18, 0);
+lean_inc(x_19);
+lean_dec(x_18);
+lean_inc(x_16);
+x_20 = lean_apply_1(x_19, x_16);
+x_21 = lean_alloc_closure((void*)(l_CategoryTheory_whiskerLeft___elambda__1___rarg___boxed), 5, 4);
+lean_closure_set(x_21, 0, x_7);
+lean_closure_set(x_21, 1, x_20);
+lean_closure_set(x_21, 2, x_6);
+lean_closure_set(x_21, 3, x_17);
+x_22 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_22, 0, x_16);
+lean_ctor_set(x_22, 1, x_21);
+return x_22;
+}
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cone_whisker___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__50(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_Cone_whisker___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__50___rarg___boxed), 8, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_inducedFunctor___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__57(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; 
+x_5 = l_CategoryTheory_Functor_id___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__1___closed__1;
+x_6 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_6, 0, x_4);
+lean_ctor_set(x_6, 1, x_5);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_fullSubcategoryInclusion___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__56(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; 
+x_4 = l_CategoryTheory_fullSubcategoryInclusion___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__1___closed__1;
+x_5 = l_CategoryTheory_inducedFunctor___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__57(x_1, x_2, lean_box(0), x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__59(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; lean_object* x_3; lean_object* x_4; 
+x_2 = l_CategoryTheory_fullSubcategoryInclusion___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__1___closed__1;
+x_3 = l_CategoryTheory_inducedFunctor___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__2___closed__1;
+x_4 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_4, 0, x_2);
+lean_ctor_set(x_4, 1, x_3);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__60(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; lean_object* x_3; lean_object* x_4; lean_object* x_5; lean_object* x_6; lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; 
+x_2 = l_TopologicalSpace_Opens_instCompleteLattice___rarg(x_1);
+x_3 = l_CompleteLattice_toCompleteSemilatticeInf___rarg(x_2);
+x_4 = lean_ctor_get(x_3, 0);
+lean_inc(x_4);
+lean_dec(x_3);
+x_5 = l_Preorder_smallCategory(lean_box(0), x_4);
+lean_dec(x_4);
+x_6 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_generateEquivalenceOpensLe__inverse_x27___spec__2___closed__1;
+x_7 = lean_ctor_get(x_5, 0);
+lean_inc(x_7);
+lean_dec(x_5);
+x_8 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__4___lambda__3___boxed), 3, 2);
+lean_closure_set(x_8, 0, x_6);
+lean_closure_set(x_8, 1, x_7);
+x_9 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__4___closed__1;
+x_10 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_10, 0, x_8);
+lean_ctor_set(x_10, 1, x_9);
+return x_10;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Comma_fst___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__61(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; lean_object* x_6; 
+x_4 = l_TopCat_Presheaf_generateEquivalenceOpensLe__functor_x27___closed__1;
+x_5 = l_TopCat_Presheaf_generateEquivalenceOpensLe__functor_x27___closed__2;
+x_6 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_6, 0, x_4);
+lean_ctor_set(x_6, 1, x_5);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Over_forget___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__58(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+x_3 = l_CategoryTheory_Functor_id___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__59(x_1);
+lean_inc(x_1);
+x_4 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__60(x_1);
+x_5 = lean_ctor_get(x_4, 0);
+lean_inc(x_5);
+lean_dec(x_4);
+x_6 = lean_apply_1(x_5, x_2);
+x_7 = l_CategoryTheory_Comma_fst___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__61(x_1, x_3, x_6);
+lean_dec(x_6);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__62___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+lean_inc(x_3);
+lean_inc(x_4);
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_5, 0, x_4);
+lean_closure_set(x_5, 1, x_3);
+x_6 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__60___rarg___lambda__1), 5, 2);
+lean_closure_set(x_6, 0, x_4);
+lean_closure_set(x_6, 1, x_3);
+x_7 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_7, 0, x_5);
+lean_ctor_set(x_7, 1, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__62(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__62___rarg___boxed), 4, 0);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__63(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; 
+x_6 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__2___lambda__1), 2, 1);
+lean_closure_set(x_6, 0, x_5);
+x_7 = l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__2___closed__1;
+x_8 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_8, 0, x_6);
+lean_ctor_set(x_8, 1, x_7);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__66(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; lean_object* x_3; lean_object* x_4; 
+x_2 = l_CategoryTheory_fullSubcategoryInclusion___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__1___closed__1;
+x_3 = l_CategoryTheory_inducedFunctor___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__2___closed__1;
+x_4 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_4, 0, x_2);
+lean_ctor_set(x_4, 1, x_3);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__67(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; lean_object* x_3; lean_object* x_4; lean_object* x_5; lean_object* x_6; lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; 
+x_2 = l_TopologicalSpace_Opens_instCompleteLattice___rarg(x_1);
+x_3 = l_CompleteLattice_toCompleteSemilatticeInf___rarg(x_2);
+x_4 = lean_ctor_get(x_3, 0);
+lean_inc(x_4);
+lean_dec(x_3);
+x_5 = l_Preorder_smallCategory(lean_box(0), x_4);
+lean_dec(x_4);
+x_6 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_generateEquivalenceOpensLe__inverse_x27___spec__2___closed__1;
+x_7 = lean_ctor_get(x_5, 0);
+lean_inc(x_7);
+lean_dec(x_5);
+x_8 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__4___lambda__3___boxed), 3, 2);
+lean_closure_set(x_8, 0, x_6);
+lean_closure_set(x_8, 1, x_7);
+x_9 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__4___closed__1;
+x_10 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_10, 0, x_8);
+lean_ctor_set(x_10, 1, x_9);
+return x_10;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Comma_fst___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__68(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; lean_object* x_6; 
+x_4 = l_TopCat_Presheaf_generateEquivalenceOpensLe__functor_x27___closed__1;
+x_5 = l_TopCat_Presheaf_generateEquivalenceOpensLe__functor_x27___closed__2;
+x_6 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_6, 0, x_4);
+lean_ctor_set(x_6, 1, x_5);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Over_forget___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__65(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+x_3 = l_CategoryTheory_Functor_id___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__66(x_1);
+lean_inc(x_1);
+x_4 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__67(x_1);
+x_5 = lean_ctor_get(x_4, 0);
+lean_inc(x_5);
+lean_dec(x_4);
+x_6 = lean_apply_1(x_5, x_2);
+x_7 = l_CategoryTheory_Comma_fst___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__68(x_1, x_3, x_6);
+lean_dec(x_6);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__69(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; lean_object* x_6; lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; lean_object* x_11; 
+x_3 = l_TopologicalSpace_Opens_instCompleteLattice___rarg(x_1);
+x_4 = l_CompleteLattice_toCompleteSemilatticeInf___rarg(x_3);
+x_5 = lean_ctor_get(x_4, 0);
+lean_inc(x_5);
+lean_dec(x_4);
+x_6 = l_Preorder_smallCategory(lean_box(0), x_5);
+lean_dec(x_5);
+lean_inc(x_6);
+x_7 = l_CategoryTheory_instCategoryOver___rarg(x_6, x_2);
+x_8 = lean_ctor_get(x_6, 0);
+lean_inc(x_8);
+lean_dec(x_6);
+x_9 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__67___lambda__1___boxed), 3, 2);
+lean_closure_set(x_9, 0, x_7);
+lean_closure_set(x_9, 1, x_8);
+x_10 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__4___closed__1;
+x_11 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_11, 0, x_9);
+lean_ctor_set(x_11, 1, x_10);
+return x_11;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Over_forgetCocone___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__64(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; 
+x_3 = l_CategoryTheory_Over_forgetCocone___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__62___closed__1;
+x_4 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_4, 0, x_2);
+lean_ctor_set(x_4, 1, x_3);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__71___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+lean_inc(x_3);
+lean_inc(x_4);
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_5, 0, x_4);
+lean_closure_set(x_5, 1, x_3);
+x_6 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__60___rarg___lambda__1), 5, 2);
+lean_closure_set(x_6, 0, x_4);
+lean_closure_set(x_6, 1, x_3);
+x_7 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_7, 0, x_5);
+lean_ctor_set(x_7, 1, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__71(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__71___rarg___boxed), 4, 0);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__72___rarg(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+lean_inc(x_2);
+x_3 = l_CategoryTheory_instCategoryOver___rarg(x_2, x_1);
+x_4 = lean_ctor_get(x_2, 0);
+lean_inc(x_4);
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__70___rarg___lambda__2___boxed), 4, 3);
+lean_closure_set(x_5, 0, x_3);
+lean_closure_set(x_5, 1, x_2);
+lean_closure_set(x_5, 2, x_4);
+x_6 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__46___rarg___closed__1;
+x_7 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_7, 0, x_5);
+lean_ctor_set(x_7, 1, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__72(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__72___rarg), 2, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__74___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+lean_inc(x_3);
+lean_inc(x_4);
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_5, 0, x_4);
+lean_closure_set(x_5, 1, x_3);
+x_6 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__60___rarg___lambda__1), 5, 2);
+lean_closure_set(x_6, 0, x_4);
+lean_closure_set(x_6, 1, x_3);
+x_7 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_7, 0, x_5);
+lean_ctor_set(x_7, 1, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__74(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__74___rarg___boxed), 4, 0);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__75___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+lean_inc(x_3);
+lean_inc(x_4);
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_5, 0, x_4);
+lean_closure_set(x_5, 1, x_3);
+x_6 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__60___rarg___lambda__1), 5, 2);
+lean_closure_set(x_6, 0, x_4);
+lean_closure_set(x_6, 1, x_3);
+x_7 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_7, 0, x_5);
+lean_ctor_set(x_7, 1, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__75(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__75___rarg___boxed), 4, 0);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerLeft___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__73___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_whiskerLeft___elambda__1___rarg___boxed), 5, 4);
+lean_closure_set(x_5, 0, x_1);
+lean_closure_set(x_5, 1, x_2);
+lean_closure_set(x_5, 2, x_3);
+lean_closure_set(x_5, 3, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerLeft___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__73(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = lean_alloc_closure((void*)(l_CategoryTheory_whiskerLeft___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__73___rarg), 4, 0);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cocone_whisker___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__70(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8) {
+_start:
+{
+uint8_t x_9; 
+x_9 = !lean_is_exclusive(x_8);
+if (x_9 == 0)
+{
+lean_object* x_10; lean_object* x_11; lean_object* x_12; lean_object* x_13; lean_object* x_14; lean_object* x_15; 
+x_10 = lean_ctor_get(x_8, 0);
+x_11 = lean_ctor_get(x_8, 1);
+x_12 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__72___rarg(x_4, x_5);
+x_13 = lean_ctor_get(x_12, 0);
+lean_inc(x_13);
+lean_dec(x_12);
+lean_inc(x_10);
+x_14 = lean_apply_1(x_13, x_10);
+x_15 = lean_alloc_closure((void*)(l_CategoryTheory_whiskerLeft___elambda__1___rarg___boxed), 5, 4);
+lean_closure_set(x_15, 0, x_7);
+lean_closure_set(x_15, 1, x_6);
+lean_closure_set(x_15, 2, x_14);
+lean_closure_set(x_15, 3, x_11);
+lean_ctor_set(x_8, 1, x_15);
+return x_8;
+}
+else
+{
+lean_object* x_16; lean_object* x_17; lean_object* x_18; lean_object* x_19; lean_object* x_20; lean_object* x_21; lean_object* x_22; 
+x_16 = lean_ctor_get(x_8, 0);
+x_17 = lean_ctor_get(x_8, 1);
+lean_inc(x_17);
+lean_inc(x_16);
+lean_dec(x_8);
+x_18 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__72___rarg(x_4, x_5);
+x_19 = lean_ctor_get(x_18, 0);
+lean_inc(x_19);
+lean_dec(x_18);
+lean_inc(x_16);
+x_20 = lean_apply_1(x_19, x_16);
+x_21 = lean_alloc_closure((void*)(l_CategoryTheory_whiskerLeft___elambda__1___rarg___boxed), 5, 4);
+lean_closure_set(x_21, 0, x_7);
+lean_closure_set(x_21, 1, x_6);
+lean_closure_set(x_21, 2, x_20);
+lean_closure_set(x_21, 3, x_17);
+x_22 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_22, 0, x_16);
+lean_ctor_set(x_22, 1, x_21);
+return x_22;
+}
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__77(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; 
+x_6 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__2___lambda__1), 2, 1);
+lean_closure_set(x_6, 0, x_5);
+x_7 = l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__2___closed__1;
+x_8 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_8, 0, x_6);
+lean_ctor_set(x_8, 1, x_7);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__78(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; lean_object* x_11; lean_object* x_12; lean_object* x_13; lean_object* x_14; lean_object* x_15; 
+x_5 = l_TopologicalSpace_Opens_instCompleteLattice___rarg(x_1);
+x_6 = l_CompleteLattice_toCompleteSemilatticeInf___rarg(x_5);
+x_7 = lean_ctor_get(x_6, 0);
+lean_inc(x_7);
+lean_dec(x_6);
+x_8 = l_Preorder_smallCategory(lean_box(0), x_7);
+lean_dec(x_7);
+lean_inc(x_8);
+x_9 = l_CategoryTheory_instCategoryOver___rarg(x_8, x_4);
+x_10 = l_TopCat_Presheaf_SheafCondition_instCategoryOpensLeCover___closed__1;
+x_11 = l_CategoryTheory_InducedCategory_category___rarg(x_9, x_10);
+x_12 = lean_ctor_get(x_8, 0);
+lean_inc(x_12);
+lean_dec(x_8);
+x_13 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__67___lambda__1___boxed), 3, 2);
+lean_closure_set(x_13, 0, x_11);
+lean_closure_set(x_13, 1, x_12);
+x_14 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__4___closed__1;
+x_15 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_15, 0, x_13);
+lean_ctor_set(x_15, 1, x_14);
+return x_15;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__80(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; 
+x_6 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__2___lambda__1), 2, 1);
+lean_closure_set(x_6, 0, x_5);
+x_7 = l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__2___closed__1;
+x_8 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_8, 0, x_6);
+lean_ctor_set(x_8, 1, x_7);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__81(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; 
+x_6 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__2___lambda__1), 2, 1);
+lean_closure_set(x_6, 0, x_5);
+x_7 = l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__2___closed__1;
+x_8 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_8, 0, x_6);
+lean_ctor_set(x_8, 1, x_7);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__79___rarg(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_op___elambda__1___rarg), 2, 1);
+lean_closure_set(x_2, 0, x_1);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__79(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__79___rarg), 1, 0);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cocone_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__76(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+uint8_t x_7; 
+x_7 = !lean_is_exclusive(x_6);
+if (x_7 == 0)
+{
+lean_object* x_8; lean_object* x_9; 
+x_8 = lean_ctor_get(x_6, 1);
+x_9 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_op___elambda__1___rarg), 2, 1);
+lean_closure_set(x_9, 0, x_8);
+lean_ctor_set(x_6, 1, x_9);
+return x_6;
+}
+else
+{
+lean_object* x_10; lean_object* x_11; lean_object* x_12; lean_object* x_13; 
+x_10 = lean_ctor_get(x_6, 0);
+x_11 = lean_ctor_get(x_6, 1);
+lean_inc(x_11);
+lean_inc(x_10);
+lean_dec(x_6);
+x_12 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_op___elambda__1___rarg), 2, 1);
+lean_closure_set(x_12, 0, x_11);
+x_13 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_13, 0, x_10);
+lean_ctor_set(x_13, 1, x_12);
+return x_13;
+}
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__84___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; lean_object* x_9; lean_object* x_10; 
+lean_inc(x_6);
+lean_inc(x_7);
+x_8 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_8, 0, x_7);
+lean_closure_set(x_8, 1, x_6);
+x_9 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__2___lambda__2___boxed), 5, 2);
+lean_closure_set(x_9, 0, x_7);
+lean_closure_set(x_9, 1, x_6);
+x_10 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_10, 0, x_8);
+lean_ctor_set(x_10, 1, x_9);
+return x_10;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__84(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__84___rarg___boxed), 7, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__85___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; lean_object* x_11; lean_object* x_12; lean_object* x_13; lean_object* x_14; lean_object* x_15; lean_object* x_16; lean_object* x_17; 
+x_6 = l_TopologicalSpace_Opens_instCompleteLattice___rarg(x_2);
+x_7 = l_CompleteLattice_toCompleteSemilatticeInf___rarg(x_6);
+x_8 = lean_ctor_get(x_7, 0);
+lean_inc(x_8);
+lean_dec(x_7);
+x_9 = l_Preorder_smallCategory(lean_box(0), x_8);
+lean_dec(x_8);
+x_10 = l_CategoryTheory_instCategoryOver___rarg(x_9, x_5);
+x_11 = l_TopCat_Presheaf_SheafCondition_instCategoryOpensLeCover___closed__1;
+x_12 = l_CategoryTheory_InducedCategory_category___rarg(x_10, x_11);
+x_13 = l_CategoryTheory_Category_opposite___rarg(x_12);
+x_14 = lean_ctor_get(x_1, 0);
+lean_inc(x_14);
+x_15 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__70___rarg___lambda__2___boxed), 4, 3);
+lean_closure_set(x_15, 0, x_13);
+lean_closure_set(x_15, 1, x_1);
+lean_closure_set(x_15, 2, x_14);
+x_16 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__46___rarg___closed__1;
+x_17 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_17, 0, x_15);
+lean_ctor_set(x_17, 1, x_16);
+return x_17;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__85(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__85___rarg___boxed), 5, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__86___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; lean_object* x_11; lean_object* x_12; lean_object* x_13; lean_object* x_14; lean_object* x_15; lean_object* x_16; lean_object* x_17; 
+x_6 = l_TopologicalSpace_Opens_instCompleteLattice___rarg(x_2);
+x_7 = l_CompleteLattice_toCompleteSemilatticeInf___rarg(x_6);
+x_8 = lean_ctor_get(x_7, 0);
+lean_inc(x_8);
+lean_dec(x_7);
+x_9 = l_Preorder_smallCategory(lean_box(0), x_8);
+lean_dec(x_8);
+x_10 = l_CategoryTheory_instCategoryOver___rarg(x_9, x_5);
+x_11 = l_TopCat_Presheaf_SheafCondition_instCategoryOpensLeCover___closed__1;
+x_12 = l_CategoryTheory_InducedCategory_category___rarg(x_10, x_11);
+x_13 = l_CategoryTheory_Category_opposite___rarg(x_12);
+x_14 = lean_ctor_get(x_1, 0);
+lean_inc(x_14);
+x_15 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__70___rarg___lambda__2___boxed), 4, 3);
+lean_closure_set(x_15, 0, x_13);
+lean_closure_set(x_15, 1, x_1);
+lean_closure_set(x_15, 2, x_14);
+x_16 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__46___rarg___closed__1;
+x_17 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_17, 0, x_15);
+lean_ctor_set(x_17, 1, x_16);
+return x_17;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__86(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__86___rarg___boxed), 5, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cones_functoriality___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__83___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; lean_object* x_9; lean_object* x_10; lean_object* x_11; lean_object* x_12; lean_object* x_13; lean_object* x_14; lean_object* x_15; lean_object* x_16; lean_object* x_17; lean_object* x_18; lean_object* x_19; 
+lean_inc(x_2);
+x_8 = l_TopologicalSpace_Opens_instCompleteLattice___rarg(x_2);
+x_9 = l_CompleteLattice_toCompleteSemilatticeInf___rarg(x_8);
+x_10 = lean_ctor_get(x_9, 0);
+lean_inc(x_10);
+lean_dec(x_9);
+x_11 = l_Preorder_smallCategory(lean_box(0), x_10);
+lean_dec(x_10);
+lean_inc(x_5);
+x_12 = l_CategoryTheory_instCategoryOver___rarg(x_11, x_5);
+x_13 = l_TopCat_Presheaf_SheafCondition_instCategoryOpensLeCover___closed__1;
+x_14 = l_CategoryTheory_InducedCategory_category___rarg(x_12, x_13);
+x_15 = l_CategoryTheory_Category_opposite___rarg(x_14);
+lean_inc(x_7);
+lean_inc(x_6);
+x_16 = l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__84___rarg(x_1, x_2, lean_box(0), x_4, x_5, x_6, x_7);
+lean_dec(x_5);
+lean_dec(x_2);
+lean_inc(x_7);
+x_17 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_Cones_functoriality___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__44___rarg___lambda__2___boxed), 6, 5);
+lean_closure_set(x_17, 0, x_7);
+lean_closure_set(x_17, 1, x_6);
+lean_closure_set(x_17, 2, x_15);
+lean_closure_set(x_17, 3, x_1);
+lean_closure_set(x_17, 4, x_16);
+x_18 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_Cones_functoriality___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__44___rarg___lambda__3), 4, 1);
+lean_closure_set(x_18, 0, x_7);
+x_19 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_19, 0, x_17);
+lean_ctor_set(x_19, 1, x_18);
+return x_19;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cones_functoriality___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__83(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_Cones_functoriality___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__83___rarg___boxed), 7, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_mapCone___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__82___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8) {
+_start:
+{
+lean_object* x_9; lean_object* x_10; lean_object* x_11; 
+x_9 = l_CategoryTheory_Limits_Cones_functoriality___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__83___rarg(x_1, x_2, lean_box(0), x_4, x_5, x_7, x_6);
+x_10 = lean_ctor_get(x_9, 0);
+lean_inc(x_10);
+lean_dec(x_9);
+x_11 = lean_apply_1(x_10, x_8);
+return x_11;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_mapCone___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__82(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_mapCone___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__82___rarg___boxed), 8, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsLimit_equivIsoLimit___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__87___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8, lean_object* x_9) {
+_start:
+{
+lean_object* x_10; lean_object* x_11; lean_object* x_12; lean_object* x_13; lean_object* x_14; lean_object* x_15; lean_object* x_16; lean_object* x_17; lean_object* x_18; lean_object* x_19; lean_object* x_20; 
+x_10 = l_TopologicalSpace_Opens_instCompleteLattice___rarg(x_2);
+x_11 = l_CompleteLattice_toCompleteSemilatticeInf___rarg(x_10);
+x_12 = lean_ctor_get(x_11, 0);
+lean_inc(x_12);
+lean_dec(x_11);
+x_13 = l_Preorder_smallCategory(lean_box(0), x_12);
+lean_dec(x_12);
+x_14 = l_CategoryTheory_instCategoryOver___rarg(x_13, x_5);
+x_15 = l_TopCat_Presheaf_SheafCondition_instCategoryOpensLeCover___closed__1;
+x_16 = l_CategoryTheory_InducedCategory_category___rarg(x_14, x_15);
+x_17 = l_CategoryTheory_Category_opposite___rarg(x_16);
+lean_inc(x_9);
+lean_inc(x_8);
+lean_inc(x_7);
+lean_inc(x_6);
+lean_inc(x_1);
+lean_inc(x_17);
+x_18 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_IsLimit_equivIsoLimit___elambda__2___rarg___boxed), 8, 7);
+lean_closure_set(x_18, 0, x_17);
+lean_closure_set(x_18, 1, lean_box(0));
+lean_closure_set(x_18, 2, x_1);
+lean_closure_set(x_18, 3, x_6);
+lean_closure_set(x_18, 4, x_7);
+lean_closure_set(x_18, 5, x_8);
+lean_closure_set(x_18, 6, x_9);
+x_19 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_IsLimit_equivIsoLimit___elambda__1___rarg___boxed), 8, 7);
+lean_closure_set(x_19, 0, x_17);
+lean_closure_set(x_19, 1, lean_box(0));
+lean_closure_set(x_19, 2, x_1);
+lean_closure_set(x_19, 3, x_6);
+lean_closure_set(x_19, 4, x_7);
+lean_closure_set(x_19, 5, x_8);
+lean_closure_set(x_19, 6, x_9);
+x_20 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_20, 0, x_18);
+lean_ctor_set(x_20, 1, x_19);
+return x_20;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsLimit_equivIsoLimit___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__87(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_IsLimit_equivIsoLimit___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__87___rarg___boxed), 9, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__1___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; lean_object* x_9; lean_object* x_10; lean_object* x_11; lean_object* x_12; lean_object* x_13; lean_object* x_14; lean_object* x_15; lean_object* x_16; lean_object* x_17; lean_object* x_18; lean_object* x_19; lean_object* x_20; lean_object* x_21; lean_object* x_22; lean_object* x_23; lean_object* x_24; lean_object* x_25; lean_object* x_26; lean_object* x_27; lean_object* x_28; lean_object* x_29; lean_object* x_30; lean_object* x_31; lean_object* x_32; lean_object* x_33; lean_object* x_34; lean_object* x_35; 
+lean_inc(x_2);
+x_8 = l_TopologicalSpace_Opens_instCompleteLattice___rarg(x_2);
+x_9 = l_CompleteLattice_toCompleteSemilatticeInf___rarg(x_8);
+x_10 = lean_ctor_get(x_9, 0);
+lean_inc(x_10);
+lean_dec(x_9);
+x_11 = l_Preorder_smallCategory(lean_box(0), x_10);
+lean_dec(x_10);
+x_12 = lean_alloc_closure((void*)(l_CategoryTheory_fullSubcategoryInclusion___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__1___lambda__1___boxed), 1, 0);
+lean_inc(x_12);
+x_13 = l_CategoryTheory_inducedFunctor___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__3(x_2, lean_box(0), x_12);
+lean_inc(x_13);
+x_14 = l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__4(x_2, lean_box(0), x_5, x_13);
+lean_inc(x_3);
+lean_inc(x_14);
+x_15 = l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__5___rarg(x_1, x_2, lean_box(0), x_5, x_14, x_3);
+lean_inc(x_2);
+x_16 = l_TopCat_Presheaf_SheafCondition_opensLeCoverCocone(x_2, lean_box(0), x_5);
+x_17 = l_CategoryTheory_Limits_Cocone_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__6(x_2, lean_box(0), x_5, x_13, x_16);
+lean_dec(x_13);
+lean_inc(x_3);
+lean_inc(x_2);
+lean_inc(x_1);
+x_18 = l_CategoryTheory_Functor_mapCone___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__12___rarg(x_1, x_2, lean_box(0), x_5, x_3, x_14, x_17);
+lean_inc(x_6);
+lean_inc(x_2);
+x_19 = l_TopCat_Presheaf_generateEquivalenceOpensLe(x_2, lean_box(0), x_5, x_6, lean_box(0));
+x_20 = l_CategoryTheory_Equivalence_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__17(x_2, lean_box(0), x_5, x_6, x_19);
+lean_inc(x_20);
+lean_inc(x_18);
+lean_inc(x_15);
+lean_inc(x_6);
+lean_inc(x_2);
+lean_inc(x_1);
+x_21 = l_CategoryTheory_Limits_IsLimit_whiskerEquivalenceEquiv___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__48___rarg(x_1, x_2, lean_box(0), x_5, x_6, x_15, x_18, x_20);
+x_22 = lean_ctor_get(x_20, 0);
+lean_inc(x_22);
+lean_dec(x_20);
+lean_inc(x_15);
+lean_inc(x_22);
+x_23 = l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__49___rarg(x_1, x_2, lean_box(0), x_5, x_6, x_22, x_15);
+lean_inc(x_2);
+lean_inc(x_1);
+x_24 = l_CategoryTheory_Limits_Cone_whisker___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__50___rarg(x_1, x_2, lean_box(0), x_5, x_6, x_15, x_22, x_18);
+x_25 = l_CategoryTheory_inducedFunctor___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__57(x_2, x_6, lean_box(0), x_12);
+lean_inc(x_6);
+lean_inc(x_2);
+x_26 = l_CategoryTheory_Over_forget___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__58(x_2, x_6);
+lean_inc(x_26);
+lean_inc(x_25);
+x_27 = l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__62___rarg(x_6, x_11, x_25, x_26);
+lean_inc(x_27);
+x_28 = l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__63(x_2, lean_box(0), x_5, x_6, x_27);
+lean_inc(x_6);
+x_29 = l_CategoryTheory_Over_forgetCocone___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__64(x_2, x_6);
+lean_inc(x_6);
+x_30 = l_CategoryTheory_Limits_Cocone_whisker___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__70(x_2, lean_box(0), x_5, x_6, x_11, x_26, x_25, x_29);
+x_31 = l_CategoryTheory_Limits_Cocone_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__76(x_2, lean_box(0), x_5, x_6, x_27, x_30);
+lean_dec(x_27);
+lean_inc(x_3);
+lean_inc(x_6);
+lean_inc(x_2);
+lean_inc(x_1);
+x_32 = l_CategoryTheory_Functor_mapCone___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__82___rarg(x_1, x_2, lean_box(0), x_5, x_6, x_3, x_28, x_31);
+lean_inc(x_6);
+lean_inc(x_2);
+x_33 = l_TopCat_Presheaf_whiskerIsoMapGenerateCocone___rarg(x_1, x_2, x_3, lean_box(0), x_5, x_6, lean_box(0));
+x_34 = l_CategoryTheory_Limits_IsLimit_equivIsoLimit___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__87___rarg(x_1, x_2, lean_box(0), x_5, x_6, x_23, x_24, x_32, x_33);
+x_35 = l_Equiv_trans___rarg(x_21, x_34);
+return x_35;
+}
+}
+LEAN_EXPORT lean_object* l_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__1(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__1___rarg___boxed), 7, 0);
+return x_2;
+}
+}
+static lean_object* _init_l_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___rarg___closed__1() {
+_start:
+{
+lean_object* x_1; 
+x_1 = lean_alloc_closure((void*)(l_TopCat_Presheaf_coveringOfPresieve___rarg___boxed), 1, 0);
+return x_1;
+}
+}
+LEAN_EXPORT lean_object* l_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; lean_object* x_8; 
+x_7 = l_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___rarg___closed__1;
+x_8 = l_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__1___rarg(x_1, x_2, x_3, lean_box(0), x_7, x_4, lean_box(0));
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___rarg___boxed), 6, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_inducedFunctor___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__3___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_inducedFunctor___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__3(x_1, x_2, x_3);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_fullSubcategoryInclusion___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__2___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_CategoryTheory_fullSubcategoryInclusion___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__2(x_1, x_2);
+lean_dec(x_1);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__4___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__4(x_1, x_2, x_3, x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__5___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__5___rarg(x_1, x_2, x_3, x_4, x_5, x_6);
+lean_dec(x_4);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__7___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__7(x_1, x_2, x_3, x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__8___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__8(x_1, x_2, x_3);
+lean_dec(x_3);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__10___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__10(x_1, x_2, x_3, x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__11___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__11(x_1, x_2, x_3, x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__9___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__9(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cocone_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__6___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_Limits_Cocone_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__6(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__14___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__14___rarg(x_1, x_2, x_3, x_4, x_5, x_6);
+lean_dec(x_4);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__15___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__15___rarg(x_1, x_2, x_3, x_4);
+lean_dec(x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__16___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__16___rarg(x_1, x_2, x_3, x_4);
+lean_dec(x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cones_functoriality___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__13___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = l_CategoryTheory_Limits_Cones_functoriality___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__13___rarg(x_1, x_2, x_3, x_4, x_5, x_6);
+lean_dec(x_4);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_mapCone___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__12___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; 
+x_8 = l_CategoryTheory_Functor_mapCone___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__12___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7);
+lean_dec(x_4);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__18___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__18(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__19___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__19(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__20___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__20(x_1, x_2, x_3, x_4, x_5, x_6);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__21___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__21(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__22___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_Functor_id___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__22(x_1, x_2, x_3, x_4);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__23___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__23(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__25___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__25(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__26___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__26(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__28___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__28(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__29___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__29(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__27___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__27(x_1, x_2, x_3, x_4, x_5, x_6);
+lean_dec(x_6);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__31___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__31(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__32___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__32(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__30___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__30(x_1, x_2, x_3, x_4, x_5, x_6);
+lean_dec(x_6);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__24___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; 
+x_8 = l_CategoryTheory_NatIso_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__24(x_1, x_2, x_3, x_4, x_5, x_6, x_7);
+lean_dec(x_6);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_symm___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__33___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; 
+x_8 = l_CategoryTheory_Iso_symm___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__33(x_1, x_2, x_3, x_4, x_5, x_6, x_7);
+lean_dec(x_7);
+lean_dec(x_6);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__34___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Functor_id___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__34(x_1, x_2, x_3);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__35___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__35(x_1, x_2, x_3, x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__36___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__36(x_1, x_2, x_3, x_4, x_5, x_6);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__37___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__37(x_1, x_2, x_3, x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__39___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__39(x_1, x_2, x_3, x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__40___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__40(x_1, x_2, x_3, x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__42___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__42(x_1, x_2, x_3, x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__43___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__43(x_1, x_2, x_3, x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__41___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__41(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__45___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__45(x_1, x_2, x_3, x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__46___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__46(x_1, x_2, x_3, x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__44___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__44(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__38___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = l_CategoryTheory_NatIso_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__38(x_1, x_2, x_3, x_4, x_5, x_6);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_symm___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__47___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = l_CategoryTheory_Iso_symm___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__47(x_1, x_2, x_3, x_4, x_5, x_6);
+lean_dec(x_6);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Equivalence_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__17___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_Equivalence_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__17(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsLimit_whiskerEquivalenceEquiv___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__48___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8) {
+_start:
+{
+lean_object* x_9; 
+x_9 = l_CategoryTheory_Limits_IsLimit_whiskerEquivalenceEquiv___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__48___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8);
+lean_dec(x_4);
+return x_9;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__49___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; 
+x_8 = l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__49___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__51___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; 
+x_8 = l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__51___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__52___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__52___rarg(x_1, x_2, x_3, x_4);
+lean_dec(x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__54___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; 
+x_8 = l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__54___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__55___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; 
+x_8 = l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__55___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerLeft___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__53___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = l_CategoryTheory_whiskerLeft___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__53(x_1, x_2, x_3, x_4, x_5, x_6);
+lean_dec(x_6);
+lean_dec(x_5);
+lean_dec(x_3);
+lean_dec(x_2);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cone_whisker___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__50___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8) {
+_start:
+{
+lean_object* x_9; 
+x_9 = l_CategoryTheory_Limits_Cone_whisker___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__50___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8);
+lean_dec(x_5);
+lean_dec(x_4);
+return x_9;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_inducedFunctor___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__57___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_inducedFunctor___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__57(x_1, x_2, x_3, x_4);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_fullSubcategoryInclusion___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__56___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_fullSubcategoryInclusion___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__56(x_1, x_2, x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__59___boxed(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = l_CategoryTheory_Functor_id___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__59(x_1);
+lean_dec(x_1);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Comma_fst___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__61___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Comma_fst___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__61(x_1, x_2, x_3);
+lean_dec(x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__62___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__62___rarg(x_1, x_2, x_3, x_4);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__62___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__62(x_1, x_2, x_3);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__63___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__63(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__66___boxed(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = l_CategoryTheory_Functor_id___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__66(x_1);
+lean_dec(x_1);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Comma_fst___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__68___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Comma_fst___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__68(x_1, x_2, x_3);
+lean_dec(x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Over_forgetCocone___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__64___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_CategoryTheory_Over_forgetCocone___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__64(x_1, x_2);
+lean_dec(x_1);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__71___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__71___rarg(x_1, x_2, x_3, x_4);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__71___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__71(x_1, x_2, x_3);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__72___boxed(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__72(x_1);
+lean_dec(x_1);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__74___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__74___rarg(x_1, x_2, x_3, x_4);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__74___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__74(x_1, x_2, x_3);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__75___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__75___rarg(x_1, x_2, x_3, x_4);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__75___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__75(x_1, x_2, x_3);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerLeft___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__73___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_whiskerLeft___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__73(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cocone_whisker___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__70___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8) {
+_start:
+{
+lean_object* x_9; 
+x_9 = l_CategoryTheory_Limits_Cocone_whisker___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__70(x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_9;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__77___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__77(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__78___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__78(x_1, x_2, x_3, x_4);
+lean_dec(x_3);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__80___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__80(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__81___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_Functor_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__81(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__79___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = l_CategoryTheory_NatTrans_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__79(x_1, x_2, x_3, x_4, x_5, x_6);
+lean_dec(x_6);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cocone_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__76___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = l_CategoryTheory_Limits_Cocone_op___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__76(x_1, x_2, x_3, x_4, x_5, x_6);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__84___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; 
+x_8 = l_CategoryTheory_Functor_comp___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__84___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__85___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__85___rarg(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_4);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__86___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_Functor_const___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__86___rarg(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_4);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cones_functoriality___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__83___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; 
+x_8 = l_CategoryTheory_Limits_Cones_functoriality___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__83___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7);
+lean_dec(x_4);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_mapCone___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__82___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8) {
+_start:
+{
+lean_object* x_9; 
+x_9 = l_CategoryTheory_Functor_mapCone___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__82___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8);
+lean_dec(x_4);
+return x_9;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsLimit_equivIsoLimit___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__87___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8, lean_object* x_9) {
+_start:
+{
+lean_object* x_10; 
+x_10 = l_CategoryTheory_Limits_IsLimit_equivIsoLimit___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__87___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8, x_9);
+lean_dec(x_4);
+return x_10;
+}
+}
+LEAN_EXPORT lean_object* l_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__1___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; 
+x_8 = l_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2081___at_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___spec__1___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7);
+lean_dec(x_5);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = l_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___rarg(x_1, x_2, x_3, x_4, x_5, x_6);
+lean_dec(x_5);
+return x_7;
+}
+}
+lean_object* initialize_Init(uint8_t builtin, lean_object*);
+lean_object* initialize_Mathlib_Topology_Sheaves_SheafCondition_Sites(uint8_t builtin, lean_object*);
+static bool _G_initialized = false;
+LEAN_EXPORT lean_object* initialize_Mathlib_Topology_Sheaves_SheafCondition_OpensLeCover(uint8_t builtin, lean_object* w) {
+lean_object * res;
+if (_G_initialized) return lean_io_result_mk_ok(lean_box(0));
+_G_initialized = true;
+res = initialize_Init(builtin, lean_io_mk_world());
+if (lean_io_result_is_error(res)) return res;
+lean_dec_ref(res);
+res = initialize_Mathlib_Topology_Sheaves_SheafCondition_Sites(builtin, lean_io_mk_world());
+if (lean_io_result_is_error(res)) return res;
+lean_dec_ref(res);
+l_TopCat_Presheaf_SheafCondition_instCategoryOpensLeCover___closed__1 = _init_l_TopCat_Presheaf_SheafCondition_instCategoryOpensLeCover___closed__1();
+lean_mark_persistent(l_TopCat_Presheaf_SheafCondition_instCategoryOpensLeCover___closed__1);
+l_CategoryTheory_inducedFunctor___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__2___closed__1 = _init_l_CategoryTheory_inducedFunctor___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__2___closed__1();
+lean_mark_persistent(l_CategoryTheory_inducedFunctor___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__2___closed__1);
+l_CategoryTheory_fullSubcategoryInclusion___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__1___closed__1 = _init_l_CategoryTheory_fullSubcategoryInclusion___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__1___closed__1();
+lean_mark_persistent(l_CategoryTheory_fullSubcategoryInclusion___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__1___closed__1);
+l_CategoryTheory_Functor_const___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__4___lambda__3___closed__1 = _init_l_CategoryTheory_Functor_const___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__4___lambda__3___closed__1();
+lean_mark_persistent(l_CategoryTheory_Functor_const___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__4___lambda__3___closed__1);
+l_CategoryTheory_Functor_const___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__4___closed__1 = _init_l_CategoryTheory_Functor_const___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__4___closed__1();
+lean_mark_persistent(l_CategoryTheory_Functor_const___at_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___spec__4___closed__1);
+l_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___closed__1 = _init_l_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___closed__1();
+lean_mark_persistent(l_TopCat_Presheaf_SheafCondition_opensLeCoverCocone___closed__1);
+l_TopCat_Presheaf_generateEquivalenceOpensLe__functor_x27___closed__1 = _init_l_TopCat_Presheaf_generateEquivalenceOpensLe__functor_x27___closed__1();
+lean_mark_persistent(l_TopCat_Presheaf_generateEquivalenceOpensLe__functor_x27___closed__1);
+l_TopCat_Presheaf_generateEquivalenceOpensLe__functor_x27___closed__2 = _init_l_TopCat_Presheaf_generateEquivalenceOpensLe__functor_x27___closed__2();
+lean_mark_persistent(l_TopCat_Presheaf_generateEquivalenceOpensLe__functor_x27___closed__2);
+l_CategoryTheory_Functor_const___at_TopCat_Presheaf_generateEquivalenceOpensLe__inverse_x27___spec__2___closed__1 = _init_l_CategoryTheory_Functor_const___at_TopCat_Presheaf_generateEquivalenceOpensLe__inverse_x27___spec__2___closed__1();
+lean_mark_persistent(l_CategoryTheory_Functor_const___at_TopCat_Presheaf_generateEquivalenceOpensLe__inverse_x27___spec__2___closed__1);
+l_CategoryTheory_Functor_id___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__1___closed__1 = _init_l_CategoryTheory_Functor_id___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__1___closed__1();
+lean_mark_persistent(l_CategoryTheory_Functor_id___at_TopCat_Presheaf_generateEquivalenceOpensLe___spec__1___closed__1);
+l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__2___closed__1 = _init_l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__2___closed__1();
+lean_mark_persistent(l_CategoryTheory_Functor_op___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__2___closed__1);
+l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__46___rarg___closed__1 = _init_l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__46___rarg___closed__1();
+lean_mark_persistent(l_CategoryTheory_Functor_const___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__46___rarg___closed__1);
+l_CategoryTheory_Over_forgetCocone___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__62___closed__1 = _init_l_CategoryTheory_Over_forgetCocone___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__62___closed__1();
+lean_mark_persistent(l_CategoryTheory_Over_forgetCocone___at_TopCat_Presheaf_whiskerIsoMapGenerateCocone___spec__62___closed__1);
+l_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___rarg___closed__1 = _init_l_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___rarg___closed__1();
+lean_mark_persistent(l_TopCat_Presheaf_isLimitOpensLeEquivGenerate_u2082___rarg___closed__1);
+return lean_io_result_mk_ok(lean_box(0));
+}
+#ifdef __cplusplus
+}
+#endif

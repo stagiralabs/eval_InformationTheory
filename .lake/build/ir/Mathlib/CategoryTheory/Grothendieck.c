@@ -1,0 +1,10009 @@
+// Lean compiler output
+// Module: Mathlib.CategoryTheory.Grothendieck
+// Imports: Init Mathlib.CategoryTheory.Category.Cat.AsSmall Mathlib.CategoryTheory.Elements Mathlib.CategoryTheory.Comma.Over.Basic
+#include <lean/lean.h>
+#if defined(__clang__)
+#pragma clang diagnostic ignored "-Wunused-parameter"
+#pragma clang diagnostic ignored "-Wunused-label"
+#elif defined(__GNUC__) && !defined(__CLANG__)
+#pragma GCC diagnostic ignored "-Wunused-parameter"
+#pragma GCC diagnostic ignored "-Wunused-label"
+#pragma GCC diagnostic ignored "-Wunused-but-set-variable"
+#endif
+#ifdef __cplusplus
+extern "C" {
+#endif
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_symm___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__13___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_symm___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__13(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__4(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_mapIdIso___spec__2___rarg___boxed(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_compAsSmallFunctorEquivalence___spec__5___rarg(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToIso___at_CategoryTheory_Grothendieck_mapCompIso___spec__3(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck__u03b9CompMap___spec__1(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck__u03b9CompFunctorFrom(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck__u03b9___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_preEquivalence___spec__2___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+static lean_object* l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_mapIdIso___spec__2___rarg___closed__1;
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerRightAsSmallFunctor___spec__6___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Grothendieck_preEquivalence___spec__43___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__25(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_pre___spec__1(lean_object*, lean_object*, lean_object*);
+extern lean_object* l_CategoryTheory_Cat_category;
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToIso___at_CategoryTheory_Grothendieck_preEquivalence___spec__40___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_rightUnitor___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__10___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preUnitIso___spec__1(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__33___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__31(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_pre___rarg___lambda__2(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_compAsSmallFunctorEquivalenceFunctor___rarg(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_transport___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__14___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__31___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_symm___at_CategoryTheory_Grothendieck_preEquivalence___spec__54___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Grothendieck_preEquivalence___spec__47___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Over_mk___at_CategoryTheory_Grothendieck_functor___spec__1___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerRight___at_CategoryTheory_Grothendieck_preInv___spec__3___rarg(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerRightAsSmallFunctor___spec__5___rarg___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Grothendieck_grothendieckTypeToCat___spec__9(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerLeft___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__28(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__30___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__19___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_grothendieckTypeToCat___spec__3(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck__u03b9CompFunctorFrom___spec__2___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preUnitIso___spec__3(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_id___at_CategoryTheory_Grothendieck_mapIdIso___spec__7(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__33___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_id___at_CategoryTheory_Grothendieck_preEquivalence___spec__19___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_mapCompIso(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToIso___at_CategoryTheory_Grothendieck_mapIdIso___spec__3___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Grothendieck_preEquivalence___spec__43(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_forget___rarg___lambda__1___boxed(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__4___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_functorFrom___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preUnitIso___spec__1___rarg___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_symm___at_CategoryTheory_Grothendieck_preEquivalence___spec__54___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__32___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_compAsSmallFunctorEquivalence(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerRight___at_CategoryTheory_Grothendieck_preNatIso___spec__3(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__10(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_compAsSmallFunctorEquivalenceFunctor___spec__1___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preUnitIso___spec__6___rarg(lean_object*, lean_object*, lean_object*);
+lean_object* l_CategoryTheory_AsSmall_up___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_compAsSmallFunctorEquivalenceFunctor___rarg___lambda__1(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_transportIso___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__25(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__14___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_pre___rarg___lambda__2___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__10___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_functor___spec__6;
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_preInv(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck__u03b9(lean_object*);
+static lean_object* l_CategoryTheory_Grothendieck_grothendieckTypeToCatFunctor___rarg___closed__1;
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerRight___at_CategoryTheory_Grothendieck_preEquivalence___spec__5___boxed(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preNatIso___spec__1___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_id___at_CategoryTheory_Grothendieck_preEquivalence___spec__44___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__32___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_compAsSmallFunctorEquivalence___spec__5(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preUnitIso___spec__6(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_grothendieckTypeToCatInverse___rarg___lambda__1___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskeringLeft___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__18___rarg___lambda__1(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__14___rarg___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__13(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__12___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__32___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Grothendieck_functor___spec__4___lambda__4(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Grothendieck_mapIdIso___spec__6___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Over_mk___at_CategoryTheory_Grothendieck_functor___spec__1(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_id___at_CategoryTheory_Grothendieck_mapIdIso___spec__1___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_symm___at_CategoryTheory_Grothendieck_preNatIso___spec__7___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_mapIso___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__33(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_forget___rarg___lambda__2___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerRightAsSmallFunctor___spec__5___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preInv___spec__1___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_refl___at_CategoryTheory_Grothendieck_mapWhiskerRightAsSmallFunctor___spec__8___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskeringLeft___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__18___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_refl___at_CategoryTheory_Grothendieck__u03b9CompMap___spec__3(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_grothendieckTypeToCatInverse___rarg___lambda__2___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_grothendieckTypeToCat___spec__2(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__35___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck__u03b9NatTrans(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck__u03b9___rarg___lambda__2(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__22(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__32(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_compAsSmallFunctorEquivalence___spec__1___rarg___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_grothendieckTypeToCatInverse___rarg___lambda__1(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck__u03b9NatTrans___spec__1(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck__u03b9NatTrans___spec__1___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToIso___at_CategoryTheory_Grothendieck_mapIdIso___spec__3(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_compAsSmallFunctorEquivalenceFunctor(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__37___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_compAsSmallFunctorEquivalenceInverse___rarg___lambda__2___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Grothendieck_preEquivalence___spec__20___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskeringLeft___at_CategoryTheory_Grothendieck_preEquivalence___spec__24___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__27___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_grothendieckTypeToCat___spec__3___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_preUnitIso(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_grothendieckTypeToCatFunctor___spec__1___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__28___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__32___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_refl___at_CategoryTheory_Grothendieck_grothendieckTypeToCat___spec__8___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__5___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskeringLeft___at_CategoryTheory_Grothendieck_preEquivalence___spec__24(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_isoWhiskerLeft___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__17(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_id___at_CategoryTheory_Grothendieck_mapIdIso___spec__7___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__8(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__7___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_mapIdIso___spec__2(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_grothendieckTypeToCat___spec__7___rarg(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_trans___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__34___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_compAsSmallFunctorEquivalence___spec__1(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck__u03b9CompMap___spec__2___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_refl___at_CategoryTheory_Grothendieck_grothendieckTypeToCat___spec__8___rarg___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preInv___spec__6(lean_object*);
+lean_object* l_CategoryTheory_AsSmall_down___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__4___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__19___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_grothendieckTypeToCat___spec__6___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_compAsSmallFunctorEquivalence___spec__2___rarg(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__15___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_instInhabitedHom___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerRight___at_CategoryTheory_Grothendieck_preEquivalence___spec__5___rarg(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_mapWhiskerRightAsSmallFunctor___rarg___lambda__1(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Grothendieck_mapCompIso___spec__4___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preInv___spec__1___rarg___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_trans___at_CategoryTheory_Grothendieck_preEquivalence___spec__45___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__31___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToIso___at_CategoryTheory_Grothendieck_preEquivalence___spec__40___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_preInv___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_isoWhiskerLeft___at_CategoryTheory_Grothendieck_preEquivalence___spec__23(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_functorFrom___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_symm___at_CategoryTheory_Grothendieck_preUnitIso___spec__4___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__16___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__51___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_preEquivalence___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Grothendieck_preEquivalence___spec__47(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_grothendieckTypeToCatFunctor___spec__1___rarg___lambda__1___boxed(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_rightUnitor___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__10___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__3(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_map___rarg___lambda__2___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_pre___rarg___lambda__1(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_functorFrom___at_CategoryTheory_Grothendieck__u03b9CompFunctorFrom___spec__1___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__53(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Grothendieck_mapIdIso___spec__6(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__22___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__53___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerLeft___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__20___rarg(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Grothendieck_mapWhiskerRightAsSmallFunctor___spec__9___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__8___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Grothendieck_mapWhiskerRightAsSmallFunctor___spec__9___rarg___lambda__2(lean_object*, lean_object*);
+static lean_object* l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_mapIdIso___spec__2___rarg___closed__2;
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_grothendieckTypeToCat___spec__3___rarg(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerRightAsSmallFunctor___spec__1___rarg___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_id___at_CategoryTheory_Grothendieck_compAsSmallFunctorEquivalence___spec__4(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Grothendieck_mapIdIso___spec__4___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__6___rarg___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_mapIso___at_CategoryTheory_Grothendieck_preEquivalence___spec__39___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Grothendieck_mapIdIso___spec__4___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__1(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_symm___at_CategoryTheory_Grothendieck_preNatIso___spec__7(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerRight___at_CategoryTheory_Grothendieck_preEquivalence___spec__12___boxed(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preNatIso___spec__6(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__36___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preNatIso___spec__1(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__38___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_grothendieckTypeToCatInverse___rarg(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_grothendieckTypeToCatFunctor___spec__1___rarg___lambda__2(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+lean_object* l_CategoryTheory_NatTrans_id___elambda__1___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__7___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_mapIdIso___spec__2___rarg(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__35___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_id___at_CategoryTheory_Grothendieck_preEquivalence___spec__21(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_mapIdIso___spec__2___rarg___lambda__1___boxed(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__1___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_trans___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__34(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__26___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerRight___at_CategoryTheory_Grothendieck_preUnitIso___spec__5___rarg(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_pre___spec__1___rarg___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__13___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__15___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preUnitIso___spec__8(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerRightAsSmallFunctor___spec__4___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__38___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preNatIso___spec__5___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preNatIso___spec__6___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck__u03b9CompMap___rarg___lambda__1(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_symm___at_CategoryTheory_Grothendieck_preEquivalence___spec__52___rarg(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Grothendieck__u03b9CompFunctorFrom___spec__3___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_grothendieckTypeToCat___spec__7___rarg___boxed(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__30___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Grothendieck_grothendieckTypeToCat___spec__5___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerLeft___at_CategoryTheory_Grothendieck_preEquivalence___spec__8(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__29___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+extern lean_object* l_CategoryTheory_typeToCat;
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__28(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__21___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_CostructuredArrow_mk___at_CategoryTheory_Grothendieck_functor___spec__11___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__28___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_functorFrom___at_CategoryTheory_Grothendieck__u03b9CompFunctorFrom___spec__1___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerLeft___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__20(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_map___rarg(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__6___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Grothendieck_preEquivalence___spec__49___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_id___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Grothendieck_mapCompIso___spec__4___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_functor___spec__10;
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Grothendieck__u03b9CompFunctorFrom___spec__3(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__5(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerRight___at_CategoryTheory_Grothendieck_mapWhiskerRightAsSmallFunctor___spec__3___rarg(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preUnitIso___spec__8___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Grothendieck__u03b9CompFunctorFrom___spec__3___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerLeft___at_CategoryTheory_Grothendieck_preEquivalence___spec__30___rarg(lean_object*, lean_object*, lean_object*, lean_object*);
+static lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Grothendieck_functor___spec__4___closed__1;
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_trans___at_CategoryTheory_Grothendieck_preEquivalence___spec__45(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Grothendieck_preNatIso___spec__8(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__19(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Grothendieck_preEquivalence___spec__50___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_compAsSmallFunctorEquivalenceFunctor___rarg___lambda__1___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_pre(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__11(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__25___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_trans___at_CategoryTheory_Grothendieck_preEquivalence___spec__48(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_isoWhiskerLeft___at_CategoryTheory_Grothendieck_preEquivalence___spec__23___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__25___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Grothendieck_functor___spec__4___lambda__2(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_grothendieckTypeToCatInverse___spec__1___rarg___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_refl___at_CategoryTheory_Grothendieck_grothendieckTypeToCat___spec__4(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__23___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preInv___spec__4___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_toTransport___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerRight___at_CategoryTheory_Grothendieck_preUnitIso___spec__5___boxed(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_CostructuredArrow_mk___at_CategoryTheory_Grothendieck_functor___spec__3(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__37___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_compAsSmallFunctorEquivalence___spec__2___rarg___boxed(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Grothendieck_preEquivalence___spec__47___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preInv___spec__1(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck__u03b9NatTrans___elambda__1(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preNatIso___spec__2___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck__u03b9NatTrans___elambda__1___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+lean_object* l_CategoryTheory_NatTrans_vcomp___elambda__1___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__23___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Grothendieck_functor___spec__12;
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preInv___spec__2___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__1(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__21___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_refl___at_CategoryTheory_Grothendieck_compAsSmallFunctorEquivalence___spec__3___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__11___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preUnitIso___spec__2___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_grothendieckTypeToCatInverse___rarg___lambda__2(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Grothendieck_functor___spec__8;
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_mapWhiskerRightAsSmallFunctor(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Grothendieck_preEquivalence___spec__50(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preInv___spec__4___rarg___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerRightAsSmallFunctor___spec__2(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preUnitIso___spec__3___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preUnitIso___spec__2___rarg___boxed(lean_object*, lean_object*, lean_object*);
+static lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Grothendieck_functor___spec__4___closed__2;
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_grothendieckTypeToCat___spec__1___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_refl___at_CategoryTheory_Grothendieck__u03b9CompMap___spec__3___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Grothendieck_grothendieckTypeToCat___spec__5(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerRightAsSmallFunctor___spec__1___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_compAsSmallFunctorEquivalenceFunctor___rarg___lambda__2___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__51___rarg___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_refl___at_CategoryTheory_Grothendieck_compAsSmallFunctorEquivalence___spec__3(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__12(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preNatIso___spec__4___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preUnitIso___spec__6___rarg___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerLeft___at_CategoryTheory_Grothendieck_preEquivalence___spec__26___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Over_mk___at_CategoryTheory_Grothendieck_functor___spec__5(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Grothendieck_mapCompIso___spec__4(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_isoWhiskerLeft___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__17___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__22___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__6___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Over_mk___at_CategoryTheory_Grothendieck_functor___spec__5___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_id(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Over_mk___at_CategoryTheory_Grothendieck_functor___spec__9___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Grothendieck_mapIdIso___spec__4(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_id___at_CategoryTheory_Grothendieck_compAsSmallFunctorEquivalence___spec__7___rarg(lean_object*, lean_object*, lean_object*);
+lean_object* l_CategoryTheory_whiskerRight___elambda__1___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_grothendieckTypeToCatFunctor___spec__1___rarg___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__6(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_instInhabitedHom(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Grothendieck_map___spec__1(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__11(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerRightAsSmallFunctor___spec__7___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Grothendieck_preEquivalence___spec__41___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__6(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck__u03b9NatTrans___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__21(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__29___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__29___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__16___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+static lean_object* l_CategoryTheory_Grothendieck_forget___rarg___closed__2;
+lean_object* l_CategoryTheory_Functor_comp___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerRight___at_CategoryTheory_Grothendieck_preNatIso___spec__3___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_symm___at_CategoryTheory_Grothendieck_preNatIso___spec__7___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerLeft___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__3___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preNatIso___spec__4___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_preEquivalence(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_CostructuredArrow_mk___at_CategoryTheory_Grothendieck_functor___spec__7(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__22(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Grothendieck_preEquivalence___spec__18___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Grothendieck_mapCompIso___spec__6(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerLeft___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__24___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerRight___at_CategoryTheory_Grothendieck_preNatIso___spec__3___rarg(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__9___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Grothendieck_functor___spec__4___lambda__3___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Grothendieck_functor___spec__16;
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_toTransport(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preInv___spec__5___rarg___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Grothendieck_grothendieckTypeToCat___spec__9___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerRight___at_CategoryTheory_Grothendieck_mapWhiskerRightAsSmallFunctor___spec__3___boxed(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_forget___rarg(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_CostructuredArrow_mk___at_CategoryTheory_Grothendieck_functor___spec__11(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_grothendieckTypeToCat(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_preNatIso___rarg___lambda__1(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToIso___at_CategoryTheory_Grothendieck_preEquivalence___spec__40(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preNatIso___spec__5___rarg___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__27___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__30(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__1(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__16___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Grothendieck_grothendieckTypeToCat___spec__9___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck__u03b9CompMap(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_id___at_CategoryTheory_Grothendieck_preEquivalence___spec__19(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_refl___at_CategoryTheory_Grothendieck_compAsSmallFunctorEquivalence___spec__6___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_id___at_CategoryTheory_Grothendieck_preEquivalence___spec__44(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_pre___spec__1___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_compAsSmallFunctorEquivalence___spec__1___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__7(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck__u03b9CompMap___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__36___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_comp___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Grothendieck_preEquivalence___spec__46___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerLeft___at_CategoryTheory_Grothendieck_preEquivalence___spec__8___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_preNatIso___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_symm___at_CategoryTheory_Grothendieck_preEquivalence___spec__54(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_CostructuredArrow_homMk___at_CategoryTheory_Grothendieck_functor___spec__15(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Grothendieck_grothendieckTypeToCat___spec__5___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__23(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck__u03b9CompFunctorFrom___rarg___lambda__1(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_pre___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Grothendieck_mapCompIso___spec__6___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Grothendieck_preEquivalence___spec__43___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__27(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__36___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__33(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_symm___at_CategoryTheory_Grothendieck_preUnitIso___spec__4___rarg(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preUnitIso___spec__2(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__26___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskeringLeft___at_CategoryTheory_Grothendieck_preEquivalence___spec__24___rarg___lambda__1(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_mapIso___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__33___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__32(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_mapCompIso___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_rightUnitor___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__10(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__9___rarg___boxed(lean_object*, lean_object*, lean_object*);
+lean_object* l_CategoryTheory_eqToHom___rarg(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_CostructuredArrow_homMk___at_CategoryTheory_Grothendieck_functor___spec__15___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__2(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Grothendieck_preNatIso___spec__8___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preInv___spec__6___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preNatIso___spec__4(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Grothendieck_preEquivalence___spec__41___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__1___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_preUnitIso___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__11___rarg___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_symm___at_CategoryTheory_Grothendieck_preUnitIso___spec__9___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerRightAsSmallFunctor___spec__4___rarg___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_trans___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__34___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_id___at_CategoryTheory_Grothendieck_preEquivalence___spec__21___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_mapIdIso___spec__2___rarg___lambda__2___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_id___at_CategoryTheory_Grothendieck_mapIdIso___spec__1(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_refl___at_CategoryTheory_Grothendieck_compAsSmallFunctorEquivalence___spec__6(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToIso___at_CategoryTheory_Grothendieck_preEquivalence___spec__17___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_id___at_CategoryTheory_Grothendieck_mapIdIso___spec__5(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Grothendieck_mapCompIso___spec__1___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_mapIso___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__33___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Grothendieck__u03b9CompFunctorFrom___spec__3___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__53___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_preNatIso___rarg___lambda__1___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerRight___at_CategoryTheory_Grothendieck_mapWhiskerRightAsSmallFunctor___spec__3(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_symm___at_CategoryTheory_Grothendieck_preUnitIso___spec__9___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preInv___spec__4(lean_object*);
+lean_object* l_CategoryTheory_discreteCategory(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerRight___at_CategoryTheory_Grothendieck_preEquivalence___spec__12___rarg(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_functorFrom___rarg___lambda__2(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_isoMk___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__31___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_id___at_CategoryTheory_Grothendieck_mapCompIso___spec__7(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__8___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_symm___at_CategoryTheory_Grothendieck_transportIso___spec__1(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_isoMk___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__9___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__27___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_id___at_CategoryTheory_Grothendieck_mapCompIso___spec__5___rarg(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__14___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerLeft___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__20___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_grothendieckTypeToCat___rarg(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__9___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerRightAsSmallFunctor___spec__2___rarg___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_mapIdIso(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Grothendieck_preEquivalence___spec__46___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerRightAsSmallFunctor___spec__1(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__7___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__51(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_trans___at_CategoryTheory_Grothendieck_preEquivalence___spec__48___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_symm___at_CategoryTheory_Grothendieck_transportIso___spec__1___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__4___rarg___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_grothendieckTypeToCatFunctor___spec__1___rarg___lambda__1(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerRight___at_CategoryTheory_Grothendieck_preInv___spec__3___boxed(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Grothendieck_preEquivalence___spec__46(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck__u03b9CompMap___spec__1___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_compAsSmallFunctorEquivalence___spec__2(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__4___rarg___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__3___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Grothendieck_map___spec__1___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_compAsSmallFunctorEquivalenceFunctor___spec__1___rarg___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Grothendieck_functor___spec__4;
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck__u03b9CompMap___spec__1___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_compAsSmallFunctorEquivalenceInverse___spec__1___rarg___boxed(lean_object*, lean_object*, lean_object*);
+extern lean_object* l_CategoryTheory_Cat_asSmallFunctor;
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__9(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_map(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_pre___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_grothendieckTypeToCatFunctor___rarg___lambda__1(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_refl___at_CategoryTheory_Grothendieck_mapWhiskerRightAsSmallFunctor___spec__8(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preNatIso___spec__1___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__2(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerLeft___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__28___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__6___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Grothendieck_preEquivalence___spec__49(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_id___at_CategoryTheory_Grothendieck_preEquivalence___spec__42(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskeringLeft___at_CategoryTheory_Grothendieck_preEquivalence___spec__24___rarg___lambda__1___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__2___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Grothendieck_mapIdIso___spec__6___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_id___at_CategoryTheory_Grothendieck_preEquivalence___spec__19___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__14(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__26(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__11___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_grothendieckTypeToCat___rarg___lambda__1(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Grothendieck_functor___spec__4___lambda__2___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__22___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preNatIso___spec__5___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck__u03b9NatTrans___elambda__1___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_grothendieckTypeToCatFunctor___rarg___boxed(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToIso___at_CategoryTheory_Grothendieck_mapCompIso___spec__3___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_symm___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__13___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_symm___at_CategoryTheory_Grothendieck_preUnitIso___spec__9(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_compAsSmallFunctorEquivalenceFunctor___rarg___lambda__2(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_refl___at_CategoryTheory_Grothendieck_grothendieckTypeToCat___spec__4___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Grothendieck_mapCompIso___spec__6___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preNatIso___spec__2(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__14(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_compAsSmallFunctorEquivalenceInverse___rarg___lambda__1(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Grothendieck_preEquivalence___spec__20___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__7(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__25___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preInv___spec__2___rarg___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerLeft___at_CategoryTheory_Grothendieck_preEquivalence___spec__8___rarg(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__15(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerLeft___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__28___rarg(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_compAsSmallFunctorEquivalenceFunctor___spec__1(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_id___at_CategoryTheory_Grothendieck_preEquivalence___spec__42___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_mapIso___at_CategoryTheory_Grothendieck_preEquivalence___spec__39___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__1___rarg___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerLeft___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__3___rarg(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_pre___spec__1___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerLeft___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__3(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_id___at_CategoryTheory_Grothendieck_mapIdIso___spec__1___boxed(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Grothendieck_map___spec__1___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_grothendieckTypeToCat___spec__1___rarg___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_id___at_CategoryTheory_Grothendieck_mapCompIso___spec__7___rarg(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_transport___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_mapIso___at_CategoryTheory_Grothendieck_preEquivalence___spec__39(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_id___at_CategoryTheory_Grothendieck_mapCompIso___spec__7___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerRight___at_CategoryTheory_Grothendieck_preEquivalence___spec__5(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck__u03b9CompFunctorFrom___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerRightAsSmallFunctor___spec__6(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerRightAsSmallFunctor___spec__2___rarg(lean_object*, lean_object*, lean_object*);
+lean_object* l_CategoryTheory_Iso_refl___rarg(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__29(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Grothendieck_preEquivalence___spec__41(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_mapIdIso___rarg(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_CostructuredArrow_mk___at_CategoryTheory_Grothendieck_functor___spec__7___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_id___at_CategoryTheory_Grothendieck_mapCompIso___spec__5___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Grothendieck_functor___spec__4___lambda__4___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Grothendieck_preNatIso___spec__8___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerLeft___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__24___rarg(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Grothendieck_functor___spec__4___lambda__1(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_symm___at_CategoryTheory_Grothendieck_preEquivalence___spec__52(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_grothendieckTypeToCat___spec__2___rarg___boxed(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_grothendieckTypeToCatFunctor___spec__1(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preNatIso___spec__2___rarg___boxed(lean_object*, lean_object*, lean_object*);
+static lean_object* l_CategoryTheory_Grothendieck_forget___rarg___closed__1;
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Grothendieck_preEquivalence___spec__18(lean_object*);
+lean_object* l_CategoryTheory_Functor_category___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_trans___at_CategoryTheory_Grothendieck_preEquivalence___spec__48___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preInv___spec__5___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__1___rarg___boxed(lean_object*, lean_object*, lean_object*);
+static lean_object* l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_functor___spec__2___closed__1;
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_grothendieckTypeToCat___spec__1(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_CostructuredArrow_mk___at_CategoryTheory_Grothendieck_functor___spec__3___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Grothendieck_preEquivalence___spec__18___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_preEquivalence___spec__2(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_pre___rarg___lambda__1___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Grothendieck_mapCompIso___spec__1(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Grothendieck_functor___spec__4___lambda__3(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__5___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preInv___spec__2(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_toTransport___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_grothendieckTypeToCat___spec__2___rarg(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_transportIso(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__22___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__2___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__15___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__35___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_id___at_CategoryTheory_Grothendieck_preEquivalence___spec__44___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Grothendieck_preEquivalence___spec__49___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+lean_object* l_CategoryTheory_Functor_id___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerLeft___at_CategoryTheory_Grothendieck_preEquivalence___spec__34(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__9(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__36___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_preEquivalence___spec__2___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_id___at_CategoryTheory_Grothendieck_mapIdIso___spec__5___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_functor___lambda__2(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preUnitIso___spec__8___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_functorFrom___at_CategoryTheory_Grothendieck__u03b9CompFunctorFrom___spec__1(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__9___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preUnitIso___spec__1___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__27(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerLeft___at_CategoryTheory_Grothendieck_preEquivalence___spec__26___rarg(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck__u03b9CompMap___spec__2(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_functorFrom___rarg___lambda__1(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__29(lean_object*);
+static lean_object* l_CategoryTheory_whiskeringLeft___at_CategoryTheory_Grothendieck_preEquivalence___spec__24___rarg___closed__1;
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck__u03b9CompFunctorFrom___spec__2(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_mapIdIso___spec__2___rarg___lambda__2(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_forget(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__16(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_symm___at_CategoryTheory_Grothendieck_transportIso___spec__1___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__27___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck__u03b9___rarg___lambda__1(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__31___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preInv___spec__6___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preUnitIso___spec__7(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_id___at_CategoryTheory_Grothendieck_mapCompIso___spec__5(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskeringLeft___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__18(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToIso___at_CategoryTheory_Grothendieck_preEquivalence___spec__17(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__14___rarg___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Grothendieck__u03b9CompMap___spec__4___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_compAsSmallFunctorEquivalence___rarg(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preNatIso___spec__1___rarg___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Grothendieck_preEquivalence___spec__50___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preInv___spec__5(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Grothendieck__u03b9CompMap___spec__4___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_map___rarg___lambda__2(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Grothendieck_mapWhiskerRightAsSmallFunctor___spec__9___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Grothendieck_mapWhiskerRightAsSmallFunctor___spec__9___rarg___lambda__1(lean_object*, lean_object*);
+static lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Grothendieck_functor___spec__4___closed__3;
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preInv___spec__2___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerRightAsSmallFunctor___spec__7___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_trans___at_CategoryTheory_Grothendieck_preEquivalence___spec__45___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__36(lean_object*);
+lean_object* l_CategoryTheory_whiskerLeft___elambda__1___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preNatIso___spec__5(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_forget___rarg___boxed(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__12___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerRight___at_CategoryTheory_Grothendieck_preEquivalence___spec__12(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_symm___at_CategoryTheory_Grothendieck_preUnitIso___spec__4(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToIso___at_CategoryTheory_Grothendieck_mapCompIso___spec__3___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Over_mk___at_CategoryTheory_Grothendieck_functor___spec__9(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preNatIso___spec__2___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Grothendieck_preEquivalence___spec__20(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__2___rarg___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck__u03b9CompMap___spec__2___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preUnitIso___spec__7___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__29___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Grothendieck__u03b9CompMap___spec__4(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_id___at_CategoryTheory_Grothendieck_compAsSmallFunctorEquivalence___spec__4___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_grothendieckTypeToCatInverse(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__16___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_id___at_CategoryTheory_Grothendieck_preEquivalence___spec__21___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_grothendieckTypeToCatFunctor___rarg(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerRightAsSmallFunctor___spec__6___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerRightAsSmallFunctor___spec__4(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_map___rarg___lambda__1(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_map___rarg___lambda__1___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerLeft___at_CategoryTheory_Grothendieck_preEquivalence___spec__34___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__15(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_grothendieckTypeToCat___rarg___lambda__2___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Grothendieck_mapWhiskerRightAsSmallFunctor___spec__9(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_refl___at_CategoryTheory_Grothendieck_grothendieckTypeToCat___spec__8(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__7___rarg___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_grothendieckTypeToCatFunctor(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_compAsSmallFunctorEquivalence___spec__5___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__37(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_compAsSmallFunctorEquivalenceInverse___rarg___lambda__2(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_compAsSmallFunctorEquivalenceInverse___spec__1(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_forget___rarg___lambda__1(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerLeft___at_CategoryTheory_Grothendieck_preEquivalence___spec__26(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__5___rarg___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_mapWhiskerRightAsSmallFunctor___rarg(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_functor(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__15___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Grothendieck_mapCompIso___spec__1___boxed(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__1___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_rightUnitor___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__10___rarg___lambda__1(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck__u03b9CompFunctorFrom___spec__2___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Over_homMk___at_CategoryTheory_Grothendieck_functor___spec__13___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_id___at_CategoryTheory_Grothendieck_preEquivalence___spec__42___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_instCategory(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__13___rarg___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__4(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerRightAsSmallFunctor___spec__5(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToIso___at_CategoryTheory_Grothendieck_preEquivalence___spec__17___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preUnitIso___spec__1___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_preNatIso(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__36(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__10___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_compAsSmallFunctorEquivalenceInverse___rarg___lambda__1___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck__u03b9___rarg___lambda__1___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_compAsSmallFunctorEquivalenceInverse(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_instCategory___rarg(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__35(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck__u03b9NatTrans___spec__1___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__10___rarg___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_id___at_CategoryTheory_Grothendieck_compAsSmallFunctorEquivalence___spec__7(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Grothendieck_map___spec__1___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_isoMk(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__11___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskeringLeft___at_CategoryTheory_Grothendieck_preEquivalence___spec__24___rarg___lambda__2(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_compAsSmallFunctorEquivalenceInverse___rarg(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__3___rarg___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerLeft___at_CategoryTheory_Grothendieck_preEquivalence___spec__34___rarg(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_grothendieckTypeToCat___spec__7(lean_object*);
+lean_object* l_CategoryTheory_Iso_app___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_transportIso___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_comp(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_forget___rarg___lambda__2(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_preUnitIso___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_functorFrom(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__31(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__35___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_transport(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preUnitIso___spec__3___rarg___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__38(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Over_homMk___at_CategoryTheory_Grothendieck_functor___spec__13(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_functor___spec__14;
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerRight___at_CategoryTheory_Grothendieck_preUnitIso___spec__5(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck__u03b9CompFunctorFrom___spec__2___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__4___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_functor___lambda__1(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskeringLeft___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__18___rarg___lambda__1___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preNatIso___spec__4___rarg___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Grothendieck_functor___spec__4___lambda__1___boxed(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_grothendieckTypeToCat___spec__6___rarg(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_mapIdIso___spec__2___rarg___lambda__1(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_grothendieckTypeToCatInverse___spec__1___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_grothendieckTypeToCat___rarg___lambda__2(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preNatIso___spec__6___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_functor___spec__2;
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerLeft___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__24(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_grothendieckTypeToCatInverse___spec__1(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerRight___at_CategoryTheory_Grothendieck_preInv___spec__3(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__16(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__25___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerRightAsSmallFunctor___spec__7(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerLeft___at_CategoryTheory_Grothendieck_preEquivalence___spec__30___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__1___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preUnitIso___spec__7___rarg___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__35(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_grothendieckTypeToCat___spec__6(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_symm___at_CategoryTheory_Grothendieck_preEquivalence___spec__52___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_compAsSmallFunctorEquivalenceInverse___spec__1___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerLeft___at_CategoryTheory_Grothendieck_preEquivalence___spec__30(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_id___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; lean_object* x_6; lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; lean_object* x_11; lean_object* x_12; lean_object* x_13; lean_object* x_14; lean_object* x_15; 
+x_4 = lean_ctor_get(x_1, 1);
+lean_inc(x_4);
+lean_dec(x_1);
+x_5 = lean_ctor_get(x_3, 0);
+lean_inc(x_5);
+lean_inc(x_5);
+x_6 = lean_apply_1(x_4, x_5);
+x_7 = lean_ctor_get(x_2, 0);
+lean_inc(x_7);
+lean_inc(x_5);
+x_8 = lean_apply_1(x_7, x_5);
+x_9 = lean_ctor_get(x_2, 1);
+lean_inc(x_9);
+lean_dec(x_2);
+lean_inc(x_6);
+lean_inc(x_5);
+x_10 = lean_apply_3(x_9, x_5, x_5, x_6);
+x_11 = lean_ctor_get(x_10, 0);
+lean_inc(x_11);
+lean_dec(x_10);
+x_12 = lean_ctor_get(x_3, 1);
+lean_inc(x_12);
+lean_dec(x_3);
+lean_inc(x_12);
+x_13 = lean_apply_1(x_11, x_12);
+x_14 = l_CategoryTheory_eqToHom___rarg(x_8, x_13, x_12, lean_box(0));
+lean_dec(x_13);
+x_15 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_15, 0, x_6);
+lean_ctor_set(x_15, 1, x_14);
+return x_15;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_id(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Grothendieck_id___rarg), 3, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_instInhabitedHom___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Grothendieck_id___rarg(x_1, x_2, x_3);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_instInhabitedHom(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Grothendieck_instInhabitedHom___rarg), 3, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_comp___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; lean_object* x_9; lean_object* x_10; lean_object* x_11; lean_object* x_12; lean_object* x_13; lean_object* x_14; lean_object* x_15; lean_object* x_16; lean_object* x_17; lean_object* x_18; lean_object* x_19; lean_object* x_20; lean_object* x_21; lean_object* x_22; lean_object* x_23; lean_object* x_24; lean_object* x_25; lean_object* x_26; lean_object* x_27; lean_object* x_28; lean_object* x_29; lean_object* x_30; lean_object* x_31; lean_object* x_32; lean_object* x_33; lean_object* x_34; lean_object* x_35; lean_object* x_36; lean_object* x_37; lean_object* x_38; lean_object* x_39; 
+x_8 = lean_ctor_get(x_1, 2);
+lean_inc(x_8);
+lean_dec(x_1);
+x_9 = lean_ctor_get(x_3, 0);
+lean_inc(x_9);
+x_10 = lean_ctor_get(x_4, 0);
+lean_inc(x_10);
+x_11 = lean_ctor_get(x_5, 0);
+lean_inc(x_11);
+x_12 = lean_ctor_get(x_6, 0);
+lean_inc(x_12);
+x_13 = lean_ctor_get(x_7, 0);
+lean_inc(x_13);
+lean_inc(x_13);
+lean_inc(x_12);
+lean_inc(x_11);
+lean_inc(x_10);
+lean_inc(x_9);
+x_14 = lean_apply_5(x_8, x_9, x_10, x_11, x_12, x_13);
+x_15 = lean_ctor_get(x_2, 0);
+lean_inc(x_15);
+lean_inc(x_11);
+x_16 = lean_apply_1(x_15, x_11);
+x_17 = lean_ctor_get(x_16, 2);
+lean_inc(x_17);
+x_18 = lean_ctor_get(x_2, 1);
+lean_inc(x_18);
+lean_dec(x_2);
+lean_inc(x_18);
+lean_inc(x_14);
+lean_inc(x_11);
+lean_inc(x_9);
+x_19 = lean_apply_3(x_18, x_9, x_11, x_14);
+x_20 = lean_ctor_get(x_19, 0);
+lean_inc(x_20);
+lean_dec(x_19);
+x_21 = lean_ctor_get(x_3, 1);
+lean_inc(x_21);
+lean_dec(x_3);
+lean_inc(x_21);
+x_22 = lean_apply_1(x_20, x_21);
+lean_inc(x_18);
+lean_inc(x_10);
+x_23 = lean_apply_3(x_18, x_10, x_11, x_13);
+x_24 = lean_ctor_get(x_23, 0);
+lean_inc(x_24);
+x_25 = lean_apply_3(x_18, x_9, x_10, x_12);
+x_26 = lean_ctor_get(x_25, 0);
+lean_inc(x_26);
+lean_dec(x_25);
+x_27 = lean_apply_1(x_26, x_21);
+lean_inc(x_24);
+lean_inc(x_27);
+x_28 = lean_apply_1(x_24, x_27);
+x_29 = lean_ctor_get(x_5, 1);
+lean_inc(x_29);
+lean_dec(x_5);
+lean_inc(x_28);
+x_30 = l_CategoryTheory_eqToHom___rarg(x_16, x_22, x_28, lean_box(0));
+x_31 = lean_ctor_get(x_4, 1);
+lean_inc(x_31);
+lean_dec(x_4);
+lean_inc(x_31);
+x_32 = lean_apply_1(x_24, x_31);
+x_33 = lean_ctor_get(x_23, 1);
+lean_inc(x_33);
+lean_dec(x_23);
+x_34 = lean_ctor_get(x_6, 1);
+lean_inc(x_34);
+lean_dec(x_6);
+x_35 = lean_apply_3(x_33, x_27, x_31, x_34);
+x_36 = lean_ctor_get(x_7, 1);
+lean_inc(x_36);
+lean_dec(x_7);
+lean_inc(x_17);
+lean_inc(x_29);
+lean_inc(x_28);
+x_37 = lean_apply_5(x_17, x_28, x_32, x_29, x_35, x_36);
+x_38 = lean_apply_5(x_17, x_22, x_28, x_29, x_30, x_37);
+x_39 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_39, 0, x_14);
+lean_ctor_set(x_39, 1, x_38);
+return x_39;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_comp(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Grothendieck_comp___rarg), 7, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_instCategory___rarg(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; lean_object* x_6; 
+x_3 = lean_box(0);
+lean_inc(x_2);
+lean_inc(x_1);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Grothendieck_id___rarg), 3, 2);
+lean_closure_set(x_4, 0, x_1);
+lean_closure_set(x_4, 1, x_2);
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Grothendieck_comp___rarg), 7, 2);
+lean_closure_set(x_5, 0, x_1);
+lean_closure_set(x_5, 1, x_2);
+x_6 = lean_alloc_ctor(0, 3, 0);
+lean_ctor_set(x_6, 0, x_3);
+lean_ctor_set(x_6, 1, x_4);
+lean_ctor_set(x_6, 2, x_5);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_instCategory(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Grothendieck_instCategory___rarg), 2, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_transport___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; lean_object* x_11; lean_object* x_12; 
+x_6 = lean_ctor_get(x_2, 1);
+lean_inc(x_6);
+lean_dec(x_2);
+x_7 = lean_ctor_get(x_3, 0);
+lean_inc(x_7);
+lean_inc(x_4);
+x_8 = lean_apply_3(x_6, x_7, x_4, x_5);
+x_9 = lean_ctor_get(x_8, 0);
+lean_inc(x_9);
+lean_dec(x_8);
+x_10 = lean_ctor_get(x_3, 1);
+lean_inc(x_10);
+lean_dec(x_3);
+x_11 = lean_apply_1(x_9, x_10);
+x_12 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_12, 0, x_4);
+lean_ctor_set(x_12, 1, x_11);
+return x_12;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_transport(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Grothendieck_transport___rarg___boxed), 5, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_transport___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_Grothendieck_transport___rarg(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_1);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_toTransport___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; lean_object* x_11; lean_object* x_12; lean_object* x_13; lean_object* x_14; lean_object* x_15; lean_object* x_16; 
+x_6 = lean_ctor_get(x_2, 0);
+lean_inc(x_6);
+lean_inc(x_4);
+x_7 = lean_apply_1(x_6, x_4);
+x_8 = lean_ctor_get(x_7, 1);
+lean_inc(x_8);
+lean_dec(x_7);
+x_9 = lean_ctor_get(x_2, 1);
+lean_inc(x_9);
+lean_dec(x_2);
+x_10 = lean_ctor_get(x_3, 0);
+lean_inc(x_10);
+lean_inc(x_5);
+x_11 = lean_apply_3(x_9, x_10, x_4, x_5);
+x_12 = lean_ctor_get(x_11, 0);
+lean_inc(x_12);
+lean_dec(x_11);
+x_13 = lean_ctor_get(x_3, 1);
+lean_inc(x_13);
+lean_dec(x_3);
+x_14 = lean_apply_1(x_12, x_13);
+x_15 = lean_apply_1(x_8, x_14);
+x_16 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_16, 0, x_5);
+lean_ctor_set(x_16, 1, x_15);
+return x_16;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_toTransport(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Grothendieck_toTransport___rarg___boxed), 5, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_toTransport___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_Grothendieck_toTransport___rarg(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_1);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_isoMk___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+uint8_t x_7; 
+x_7 = !lean_is_exclusive(x_5);
+if (x_7 == 0)
+{
+lean_object* x_8; lean_object* x_9; lean_object* x_10; lean_object* x_11; lean_object* x_12; lean_object* x_13; lean_object* x_14; lean_object* x_15; lean_object* x_16; lean_object* x_17; lean_object* x_18; lean_object* x_19; lean_object* x_20; lean_object* x_21; lean_object* x_22; lean_object* x_23; lean_object* x_24; lean_object* x_25; lean_object* x_26; lean_object* x_27; lean_object* x_28; lean_object* x_29; lean_object* x_30; lean_object* x_31; lean_object* x_32; 
+x_8 = lean_ctor_get(x_5, 0);
+x_9 = lean_ctor_get(x_5, 1);
+x_10 = lean_ctor_get(x_6, 0);
+lean_inc(x_10);
+lean_inc(x_8);
+x_11 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_11, 0, x_8);
+lean_ctor_set(x_11, 1, x_10);
+x_12 = lean_ctor_get(x_2, 0);
+lean_inc(x_12);
+x_13 = lean_ctor_get(x_3, 0);
+lean_inc(x_13);
+lean_inc(x_13);
+x_14 = lean_apply_1(x_12, x_13);
+x_15 = lean_ctor_get(x_14, 2);
+lean_inc(x_15);
+x_16 = lean_ctor_get(x_2, 1);
+lean_inc(x_16);
+lean_dec(x_2);
+x_17 = lean_ctor_get(x_4, 0);
+lean_inc(x_17);
+lean_inc(x_16);
+lean_inc(x_9);
+lean_inc(x_13);
+lean_inc(x_17);
+x_18 = lean_apply_3(x_16, x_17, x_13, x_9);
+x_19 = lean_ctor_get(x_18, 0);
+lean_inc(x_19);
+x_20 = lean_ctor_get(x_4, 1);
+lean_inc(x_20);
+lean_dec(x_4);
+lean_inc(x_19);
+lean_inc(x_20);
+x_21 = lean_apply_1(x_19, x_20);
+x_22 = lean_apply_3(x_16, x_13, x_17, x_8);
+x_23 = lean_ctor_get(x_22, 0);
+lean_inc(x_23);
+lean_dec(x_22);
+x_24 = lean_ctor_get(x_3, 1);
+lean_inc(x_24);
+lean_dec(x_3);
+lean_inc(x_24);
+x_25 = lean_apply_1(x_23, x_24);
+lean_inc(x_25);
+x_26 = lean_apply_1(x_19, x_25);
+x_27 = lean_ctor_get(x_18, 1);
+lean_inc(x_27);
+lean_dec(x_18);
+x_28 = lean_ctor_get(x_6, 1);
+lean_inc(x_28);
+lean_dec(x_6);
+x_29 = lean_apply_3(x_27, x_20, x_25, x_28);
+lean_inc(x_24);
+x_30 = l_CategoryTheory_eqToHom___rarg(x_14, x_26, x_24, lean_box(0));
+x_31 = lean_apply_5(x_15, x_21, x_26, x_24, x_29, x_30);
+x_32 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_32, 0, x_9);
+lean_ctor_set(x_32, 1, x_31);
+lean_ctor_set(x_5, 1, x_32);
+lean_ctor_set(x_5, 0, x_11);
+return x_5;
+}
+else
+{
+lean_object* x_33; lean_object* x_34; lean_object* x_35; lean_object* x_36; lean_object* x_37; lean_object* x_38; lean_object* x_39; lean_object* x_40; lean_object* x_41; lean_object* x_42; lean_object* x_43; lean_object* x_44; lean_object* x_45; lean_object* x_46; lean_object* x_47; lean_object* x_48; lean_object* x_49; lean_object* x_50; lean_object* x_51; lean_object* x_52; lean_object* x_53; lean_object* x_54; lean_object* x_55; lean_object* x_56; lean_object* x_57; lean_object* x_58; 
+x_33 = lean_ctor_get(x_5, 0);
+x_34 = lean_ctor_get(x_5, 1);
+lean_inc(x_34);
+lean_inc(x_33);
+lean_dec(x_5);
+x_35 = lean_ctor_get(x_6, 0);
+lean_inc(x_35);
+lean_inc(x_33);
+x_36 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_36, 0, x_33);
+lean_ctor_set(x_36, 1, x_35);
+x_37 = lean_ctor_get(x_2, 0);
+lean_inc(x_37);
+x_38 = lean_ctor_get(x_3, 0);
+lean_inc(x_38);
+lean_inc(x_38);
+x_39 = lean_apply_1(x_37, x_38);
+x_40 = lean_ctor_get(x_39, 2);
+lean_inc(x_40);
+x_41 = lean_ctor_get(x_2, 1);
+lean_inc(x_41);
+lean_dec(x_2);
+x_42 = lean_ctor_get(x_4, 0);
+lean_inc(x_42);
+lean_inc(x_41);
+lean_inc(x_34);
+lean_inc(x_38);
+lean_inc(x_42);
+x_43 = lean_apply_3(x_41, x_42, x_38, x_34);
+x_44 = lean_ctor_get(x_43, 0);
+lean_inc(x_44);
+x_45 = lean_ctor_get(x_4, 1);
+lean_inc(x_45);
+lean_dec(x_4);
+lean_inc(x_44);
+lean_inc(x_45);
+x_46 = lean_apply_1(x_44, x_45);
+x_47 = lean_apply_3(x_41, x_38, x_42, x_33);
+x_48 = lean_ctor_get(x_47, 0);
+lean_inc(x_48);
+lean_dec(x_47);
+x_49 = lean_ctor_get(x_3, 1);
+lean_inc(x_49);
+lean_dec(x_3);
+lean_inc(x_49);
+x_50 = lean_apply_1(x_48, x_49);
+lean_inc(x_50);
+x_51 = lean_apply_1(x_44, x_50);
+x_52 = lean_ctor_get(x_43, 1);
+lean_inc(x_52);
+lean_dec(x_43);
+x_53 = lean_ctor_get(x_6, 1);
+lean_inc(x_53);
+lean_dec(x_6);
+x_54 = lean_apply_3(x_52, x_45, x_50, x_53);
+lean_inc(x_49);
+x_55 = l_CategoryTheory_eqToHom___rarg(x_39, x_51, x_49, lean_box(0));
+x_56 = lean_apply_5(x_40, x_46, x_51, x_49, x_54, x_55);
+x_57 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_57, 0, x_34);
+lean_ctor_set(x_57, 1, x_56);
+x_58 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_58, 0, x_36);
+lean_ctor_set(x_58, 1, x_57);
+return x_58;
+}
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_isoMk(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Grothendieck_isoMk___rarg___boxed), 6, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_isoMk___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = l_CategoryTheory_Grothendieck_isoMk___rarg(x_1, x_2, x_3, x_4, x_5, x_6);
+lean_dec(x_1);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_symm___at_CategoryTheory_Grothendieck_transportIso___spec__1___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; 
+x_6 = lean_ctor_get(x_5, 1);
+x_7 = lean_ctor_get(x_5, 0);
+lean_inc(x_7);
+lean_inc(x_6);
+x_8 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_8, 0, x_6);
+lean_ctor_set(x_8, 1, x_7);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_symm___at_CategoryTheory_Grothendieck_transportIso___spec__1(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Iso_symm___at_CategoryTheory_Grothendieck_transportIso___spec__1___rarg___boxed), 5, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_transportIso___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; lean_object* x_11; lean_object* x_12; lean_object* x_13; lean_object* x_14; lean_object* x_15; lean_object* x_16; lean_object* x_17; lean_object* x_18; 
+x_6 = lean_ctor_get(x_5, 0);
+lean_inc(x_6);
+lean_inc(x_6);
+lean_inc(x_4);
+lean_inc(x_3);
+lean_inc(x_2);
+x_7 = l_CategoryTheory_Grothendieck_transport___rarg(x_1, x_2, x_3, x_4, x_6);
+x_8 = lean_ctor_get(x_2, 0);
+lean_inc(x_8);
+lean_inc(x_4);
+x_9 = lean_apply_1(x_8, x_4);
+x_10 = lean_ctor_get(x_2, 1);
+lean_inc(x_10);
+x_11 = lean_ctor_get(x_3, 0);
+lean_inc(x_11);
+x_12 = lean_apply_3(x_10, x_11, x_4, x_6);
+x_13 = lean_ctor_get(x_12, 0);
+lean_inc(x_13);
+lean_dec(x_12);
+x_14 = lean_ctor_get(x_3, 1);
+lean_inc(x_14);
+x_15 = lean_apply_1(x_13, x_14);
+x_16 = l_CategoryTheory_Iso_refl___rarg(x_9, x_15);
+lean_inc(x_7);
+lean_inc(x_3);
+lean_inc(x_2);
+x_17 = l_CategoryTheory_Grothendieck_isoMk___rarg(x_1, x_2, x_3, x_7, x_5, x_16);
+x_18 = l_CategoryTheory_Iso_symm___at_CategoryTheory_Grothendieck_transportIso___spec__1___rarg(x_1, x_2, x_3, x_7, x_17);
+lean_dec(x_17);
+lean_dec(x_7);
+lean_dec(x_3);
+lean_dec(x_2);
+return x_18;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_transportIso(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Grothendieck_transportIso___rarg___boxed), 5, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_symm___at_CategoryTheory_Grothendieck_transportIso___spec__1___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_Iso_symm___at_CategoryTheory_Grothendieck_transportIso___spec__1___rarg(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_transportIso___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_Grothendieck_transportIso___rarg(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_1);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_forget___rarg___lambda__1(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_ctor_get(x_1, 0);
+lean_inc(x_2);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_forget___rarg___lambda__2(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = lean_ctor_get(x_3, 0);
+lean_inc(x_4);
+return x_4;
+}
+}
+static lean_object* _init_l_CategoryTheory_Grothendieck_forget___rarg___closed__1() {
+_start:
+{
+lean_object* x_1; 
+x_1 = lean_alloc_closure((void*)(l_CategoryTheory_Grothendieck_forget___rarg___lambda__1___boxed), 1, 0);
+return x_1;
+}
+}
+static lean_object* _init_l_CategoryTheory_Grothendieck_forget___rarg___closed__2() {
+_start:
+{
+lean_object* x_1; 
+x_1 = lean_alloc_closure((void*)(l_CategoryTheory_Grothendieck_forget___rarg___lambda__2___boxed), 3, 0);
+return x_1;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_forget___rarg(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+x_3 = l_CategoryTheory_Grothendieck_forget___rarg___closed__1;
+x_4 = l_CategoryTheory_Grothendieck_forget___rarg___closed__2;
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_forget(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Grothendieck_forget___rarg___boxed), 2, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_forget___rarg___lambda__1___boxed(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = l_CategoryTheory_Grothendieck_forget___rarg___lambda__1(x_1);
+lean_dec(x_1);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_forget___rarg___lambda__2___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Grothendieck_forget___rarg___lambda__2(x_1, x_2, x_3);
+lean_dec(x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_forget___rarg___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_CategoryTheory_Grothendieck_forget___rarg(x_1, x_2);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Grothendieck_map___spec__1___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; 
+x_7 = lean_ctor_get(x_1, 0);
+lean_inc(x_7);
+lean_dec(x_1);
+x_8 = lean_ctor_get(x_2, 0);
+lean_inc(x_8);
+lean_dec(x_2);
+x_9 = lean_apply_1(x_8, x_7);
+x_10 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_id___elambda__1___rarg), 3, 2);
+lean_closure_set(x_10, 0, x_9);
+lean_closure_set(x_10, 1, x_5);
+return x_10;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Grothendieck_map___spec__1(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = lean_alloc_closure((void*)(l_CategoryTheory_eqToHom___at_CategoryTheory_Grothendieck_map___spec__1___rarg___boxed), 6, 0);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_map___rarg___lambda__1(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+uint8_t x_5; 
+x_5 = !lean_is_exclusive(x_4);
+if (x_5 == 0)
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; 
+x_6 = lean_ctor_get(x_4, 0);
+x_7 = lean_ctor_get(x_4, 1);
+lean_inc(x_6);
+x_8 = lean_apply_1(x_1, x_6);
+x_9 = lean_ctor_get(x_8, 0);
+lean_inc(x_9);
+lean_dec(x_8);
+x_10 = lean_apply_1(x_9, x_7);
+lean_ctor_set(x_4, 1, x_10);
+return x_4;
+}
+else
+{
+lean_object* x_11; lean_object* x_12; lean_object* x_13; lean_object* x_14; lean_object* x_15; lean_object* x_16; 
+x_11 = lean_ctor_get(x_4, 0);
+x_12 = lean_ctor_get(x_4, 1);
+lean_inc(x_12);
+lean_inc(x_11);
+lean_dec(x_4);
+lean_inc(x_11);
+x_13 = lean_apply_1(x_1, x_11);
+x_14 = lean_ctor_get(x_13, 0);
+lean_inc(x_14);
+lean_dec(x_13);
+x_15 = lean_apply_1(x_14, x_12);
+x_16 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_16, 0, x_11);
+lean_ctor_set(x_16, 1, x_15);
+return x_16;
+}
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_map___rarg___lambda__2(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; lean_object* x_9; lean_object* x_10; lean_object* x_11; lean_object* x_12; lean_object* x_13; lean_object* x_14; lean_object* x_15; lean_object* x_16; lean_object* x_17; uint8_t x_18; 
+x_8 = lean_ctor_get(x_5, 0);
+lean_inc(x_8);
+x_9 = lean_ctor_get(x_5, 1);
+lean_inc(x_9);
+lean_dec(x_5);
+lean_inc(x_1);
+lean_inc(x_8);
+x_10 = lean_apply_1(x_1, x_8);
+x_11 = lean_ctor_get(x_10, 0);
+lean_inc(x_11);
+lean_inc(x_9);
+x_12 = lean_apply_1(x_11, x_9);
+x_13 = lean_ctor_get(x_6, 0);
+lean_inc(x_13);
+x_14 = lean_ctor_get(x_6, 1);
+lean_inc(x_14);
+lean_inc(x_13);
+x_15 = lean_apply_1(x_1, x_13);
+x_16 = lean_ctor_get(x_15, 0);
+lean_inc(x_16);
+lean_inc(x_14);
+x_17 = lean_apply_1(x_16, x_14);
+x_18 = !lean_is_exclusive(x_7);
+if (x_18 == 0)
+{
+lean_object* x_19; lean_object* x_20; lean_object* x_21; lean_object* x_22; lean_object* x_23; lean_object* x_24; lean_object* x_25; lean_object* x_26; lean_object* x_27; lean_object* x_28; lean_object* x_29; lean_object* x_30; lean_object* x_31; lean_object* x_32; lean_object* x_33; lean_object* x_34; lean_object* x_35; lean_object* x_36; lean_object* x_37; lean_object* x_38; lean_object* x_39; lean_object* x_40; lean_object* x_41; lean_object* x_42; lean_object* x_43; lean_object* x_44; 
+x_19 = lean_ctor_get(x_7, 0);
+x_20 = lean_ctor_get(x_7, 1);
+x_21 = lean_ctor_get(x_3, 0);
+lean_inc(x_21);
+lean_inc(x_21);
+lean_inc(x_13);
+x_22 = lean_apply_1(x_21, x_13);
+x_23 = lean_ctor_get(x_22, 2);
+lean_inc(x_23);
+x_24 = lean_ctor_get(x_3, 1);
+lean_inc(x_24);
+lean_inc(x_19);
+lean_inc(x_13);
+lean_inc(x_8);
+x_25 = lean_apply_3(x_24, x_8, x_13, x_19);
+x_26 = lean_ctor_get(x_25, 0);
+lean_inc(x_26);
+x_27 = lean_apply_1(x_26, x_12);
+x_28 = lean_ctor_get(x_4, 0);
+lean_inc(x_28);
+lean_inc(x_28);
+lean_inc(x_8);
+x_29 = lean_apply_1(x_28, x_8);
+lean_inc(x_13);
+x_30 = lean_apply_1(x_28, x_13);
+x_31 = lean_ctor_get(x_4, 1);
+lean_inc(x_31);
+lean_inc(x_19);
+lean_inc(x_8);
+x_32 = lean_apply_3(x_31, x_8, x_13, x_19);
+lean_inc(x_15);
+lean_inc(x_32);
+x_33 = l_CategoryTheory_Functor_comp___rarg(x_29, lean_box(0), x_30, lean_box(0), x_22, x_32, x_15);
+lean_dec(x_30);
+x_34 = lean_ctor_get(x_33, 0);
+lean_inc(x_34);
+lean_inc(x_9);
+x_35 = lean_apply_1(x_34, x_9);
+x_36 = lean_apply_1(x_21, x_8);
+x_37 = l_CategoryTheory_Functor_comp___rarg(x_29, lean_box(0), x_36, lean_box(0), x_22, x_10, x_25);
+lean_dec(x_22);
+lean_dec(x_36);
+lean_dec(x_29);
+x_38 = l_CategoryTheory_eqToHom___at_CategoryTheory_Grothendieck_map___spec__1___rarg(x_6, x_3, x_4, x_37, x_33, lean_box(0));
+lean_dec(x_37);
+lean_dec(x_4);
+lean_inc(x_9);
+x_39 = lean_apply_1(x_38, x_9);
+x_40 = lean_ctor_get(x_15, 1);
+lean_inc(x_40);
+lean_dec(x_15);
+x_41 = lean_ctor_get(x_32, 0);
+lean_inc(x_41);
+lean_dec(x_32);
+x_42 = lean_apply_1(x_41, x_9);
+x_43 = lean_apply_3(x_40, x_42, x_14, x_20);
+x_44 = lean_apply_5(x_23, x_27, x_35, x_17, x_39, x_43);
+lean_ctor_set(x_7, 1, x_44);
+return x_7;
+}
+else
+{
+lean_object* x_45; lean_object* x_46; lean_object* x_47; lean_object* x_48; lean_object* x_49; lean_object* x_50; lean_object* x_51; lean_object* x_52; lean_object* x_53; lean_object* x_54; lean_object* x_55; lean_object* x_56; lean_object* x_57; lean_object* x_58; lean_object* x_59; lean_object* x_60; lean_object* x_61; lean_object* x_62; lean_object* x_63; lean_object* x_64; lean_object* x_65; lean_object* x_66; lean_object* x_67; lean_object* x_68; lean_object* x_69; lean_object* x_70; lean_object* x_71; 
+x_45 = lean_ctor_get(x_7, 0);
+x_46 = lean_ctor_get(x_7, 1);
+lean_inc(x_46);
+lean_inc(x_45);
+lean_dec(x_7);
+x_47 = lean_ctor_get(x_3, 0);
+lean_inc(x_47);
+lean_inc(x_47);
+lean_inc(x_13);
+x_48 = lean_apply_1(x_47, x_13);
+x_49 = lean_ctor_get(x_48, 2);
+lean_inc(x_49);
+x_50 = lean_ctor_get(x_3, 1);
+lean_inc(x_50);
+lean_inc(x_45);
+lean_inc(x_13);
+lean_inc(x_8);
+x_51 = lean_apply_3(x_50, x_8, x_13, x_45);
+x_52 = lean_ctor_get(x_51, 0);
+lean_inc(x_52);
+x_53 = lean_apply_1(x_52, x_12);
+x_54 = lean_ctor_get(x_4, 0);
+lean_inc(x_54);
+lean_inc(x_54);
+lean_inc(x_8);
+x_55 = lean_apply_1(x_54, x_8);
+lean_inc(x_13);
+x_56 = lean_apply_1(x_54, x_13);
+x_57 = lean_ctor_get(x_4, 1);
+lean_inc(x_57);
+lean_inc(x_45);
+lean_inc(x_8);
+x_58 = lean_apply_3(x_57, x_8, x_13, x_45);
+lean_inc(x_15);
+lean_inc(x_58);
+x_59 = l_CategoryTheory_Functor_comp___rarg(x_55, lean_box(0), x_56, lean_box(0), x_48, x_58, x_15);
+lean_dec(x_56);
+x_60 = lean_ctor_get(x_59, 0);
+lean_inc(x_60);
+lean_inc(x_9);
+x_61 = lean_apply_1(x_60, x_9);
+x_62 = lean_apply_1(x_47, x_8);
+x_63 = l_CategoryTheory_Functor_comp___rarg(x_55, lean_box(0), x_62, lean_box(0), x_48, x_10, x_51);
+lean_dec(x_48);
+lean_dec(x_62);
+lean_dec(x_55);
+x_64 = l_CategoryTheory_eqToHom___at_CategoryTheory_Grothendieck_map___spec__1___rarg(x_6, x_3, x_4, x_63, x_59, lean_box(0));
+lean_dec(x_63);
+lean_dec(x_4);
+lean_inc(x_9);
+x_65 = lean_apply_1(x_64, x_9);
+x_66 = lean_ctor_get(x_15, 1);
+lean_inc(x_66);
+lean_dec(x_15);
+x_67 = lean_ctor_get(x_58, 0);
+lean_inc(x_67);
+lean_dec(x_58);
+x_68 = lean_apply_1(x_67, x_9);
+x_69 = lean_apply_3(x_66, x_68, x_14, x_46);
+x_70 = lean_apply_5(x_49, x_53, x_61, x_17, x_65, x_69);
+x_71 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_71, 0, x_45);
+lean_ctor_set(x_71, 1, x_70);
+return x_71;
+}
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_map___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+lean_inc(x_3);
+lean_inc(x_1);
+lean_inc(x_4);
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Grothendieck_map___rarg___lambda__1___boxed), 4, 3);
+lean_closure_set(x_5, 0, x_4);
+lean_closure_set(x_5, 1, x_1);
+lean_closure_set(x_5, 2, x_3);
+x_6 = lean_alloc_closure((void*)(l_CategoryTheory_Grothendieck_map___rarg___lambda__2___boxed), 7, 4);
+lean_closure_set(x_6, 0, x_4);
+lean_closure_set(x_6, 1, x_1);
+lean_closure_set(x_6, 2, x_3);
+lean_closure_set(x_6, 3, x_2);
+x_7 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_7, 0, x_5);
+lean_ctor_set(x_7, 1, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_map(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Grothendieck_map___rarg), 4, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Grothendieck_map___spec__1___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = l_CategoryTheory_eqToHom___at_CategoryTheory_Grothendieck_map___spec__1___rarg(x_1, x_2, x_3, x_4, x_5, x_6);
+lean_dec(x_4);
+lean_dec(x_3);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Grothendieck_map___spec__1___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_eqToHom___at_CategoryTheory_Grothendieck_map___spec__1(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_2);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_map___rarg___lambda__1___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_Grothendieck_map___rarg___lambda__1(x_1, x_2, x_3, x_4);
+lean_dec(x_3);
+lean_dec(x_2);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_map___rarg___lambda__2___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; 
+x_8 = l_CategoryTheory_Grothendieck_map___rarg___lambda__2(x_1, x_2, x_3, x_4, x_5, x_6, x_7);
+lean_dec(x_2);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_id___at_CategoryTheory_Grothendieck_mapIdIso___spec__1___rarg(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; lean_object* x_3; 
+x_2 = l_CategoryTheory_Cat_category;
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_id___elambda__1___rarg), 3, 2);
+lean_closure_set(x_3, 0, x_2);
+lean_closure_set(x_3, 1, x_1);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_id___at_CategoryTheory_Grothendieck_mapIdIso___spec__1(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_id___at_CategoryTheory_Grothendieck_mapIdIso___spec__1___rarg), 1, 0);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_mapIdIso___spec__2___rarg___lambda__1(lean_object* x_1) {
+_start:
+{
+lean_inc(x_1);
+return x_1;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_mapIdIso___spec__2___rarg___lambda__2(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_inc(x_3);
+return x_3;
+}
+}
+static lean_object* _init_l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_mapIdIso___spec__2___rarg___closed__1() {
+_start:
+{
+lean_object* x_1; 
+x_1 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_mapIdIso___spec__2___rarg___lambda__1___boxed), 1, 0);
+return x_1;
+}
+}
+static lean_object* _init_l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_mapIdIso___spec__2___rarg___closed__2() {
+_start:
+{
+lean_object* x_1; 
+x_1 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_mapIdIso___spec__2___rarg___lambda__2___boxed), 3, 0);
+return x_1;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_mapIdIso___spec__2___rarg(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+x_3 = l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_mapIdIso___spec__2___rarg___closed__1;
+x_4 = l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_mapIdIso___spec__2___rarg___closed__2;
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_mapIdIso___spec__2(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_mapIdIso___spec__2___rarg___boxed), 2, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_id___at_CategoryTheory_Grothendieck_mapIdIso___spec__5___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; 
+x_4 = l_CategoryTheory_Grothendieck_instCategory___rarg(x_1, x_2);
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_id___elambda__1___rarg), 3, 2);
+lean_closure_set(x_5, 0, x_4);
+lean_closure_set(x_5, 1, x_3);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_id___at_CategoryTheory_Grothendieck_mapIdIso___spec__5(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_id___at_CategoryTheory_Grothendieck_mapIdIso___spec__5___rarg), 3, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Grothendieck_mapIdIso___spec__4___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_NatTrans_id___at_CategoryTheory_Grothendieck_mapIdIso___spec__5___rarg(x_1, x_2, x_4);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Grothendieck_mapIdIso___spec__4(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_eqToHom___at_CategoryTheory_Grothendieck_mapIdIso___spec__4___rarg___boxed), 5, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_id___at_CategoryTheory_Grothendieck_mapIdIso___spec__7___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; 
+x_4 = l_CategoryTheory_Grothendieck_instCategory___rarg(x_1, x_2);
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_id___elambda__1___rarg), 3, 2);
+lean_closure_set(x_5, 0, x_4);
+lean_closure_set(x_5, 1, x_3);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_id___at_CategoryTheory_Grothendieck_mapIdIso___spec__7(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_id___at_CategoryTheory_Grothendieck_mapIdIso___spec__7___rarg), 3, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Grothendieck_mapIdIso___spec__6___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_NatTrans_id___at_CategoryTheory_Grothendieck_mapIdIso___spec__7___rarg(x_1, x_2, x_4);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Grothendieck_mapIdIso___spec__6(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_eqToHom___at_CategoryTheory_Grothendieck_mapIdIso___spec__6___rarg___boxed), 5, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToIso___at_CategoryTheory_Grothendieck_mapIdIso___spec__3___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; 
+lean_inc(x_2);
+lean_inc(x_1);
+x_6 = l_CategoryTheory_NatTrans_id___at_CategoryTheory_Grothendieck_mapIdIso___spec__5___rarg(x_1, x_2, x_4);
+x_7 = l_CategoryTheory_NatTrans_id___at_CategoryTheory_Grothendieck_mapIdIso___spec__7___rarg(x_1, x_2, x_3);
+x_8 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_8, 0, x_6);
+lean_ctor_set(x_8, 1, x_7);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToIso___at_CategoryTheory_Grothendieck_mapIdIso___spec__3(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_eqToIso___at_CategoryTheory_Grothendieck_mapIdIso___spec__3___rarg), 5, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_mapIdIso___rarg(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+x_3 = l_CategoryTheory_Cat_category;
+lean_inc(x_2);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_id___elambda__1___rarg), 3, 2);
+lean_closure_set(x_4, 0, x_3);
+lean_closure_set(x_4, 1, x_2);
+lean_inc_n(x_2, 2);
+lean_inc(x_1);
+x_5 = l_CategoryTheory_Grothendieck_map___rarg(x_1, x_2, x_2, x_4);
+x_6 = l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_mapIdIso___spec__2___rarg(x_1, x_2);
+x_7 = l_CategoryTheory_eqToIso___at_CategoryTheory_Grothendieck_mapIdIso___spec__3___rarg(x_1, x_2, x_5, x_6, lean_box(0));
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_mapIdIso(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Grothendieck_mapIdIso___rarg), 2, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_id___at_CategoryTheory_Grothendieck_mapIdIso___spec__1___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_CategoryTheory_NatTrans_id___at_CategoryTheory_Grothendieck_mapIdIso___spec__1(x_1, x_2);
+lean_dec(x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_mapIdIso___spec__2___rarg___lambda__1___boxed(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_mapIdIso___spec__2___rarg___lambda__1(x_1);
+lean_dec(x_1);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_mapIdIso___spec__2___rarg___lambda__2___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_mapIdIso___spec__2___rarg___lambda__2(x_1, x_2, x_3);
+lean_dec(x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_mapIdIso___spec__2___rarg___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_mapIdIso___spec__2___rarg(x_1, x_2);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Grothendieck_mapIdIso___spec__4___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_eqToHom___at_CategoryTheory_Grothendieck_mapIdIso___spec__4___rarg(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_3);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Grothendieck_mapIdIso___spec__6___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_eqToHom___at_CategoryTheory_Grothendieck_mapIdIso___spec__6___rarg(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_3);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Grothendieck_mapCompIso___spec__1___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; 
+x_6 = l_CategoryTheory_Cat_category;
+x_7 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_vcomp___elambda__1___rarg), 7, 6);
+lean_closure_set(x_7, 0, x_6);
+lean_closure_set(x_7, 1, x_1);
+lean_closure_set(x_7, 2, x_2);
+lean_closure_set(x_7, 3, x_3);
+lean_closure_set(x_7, 4, x_4);
+lean_closure_set(x_7, 5, x_5);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Grothendieck_mapCompIso___spec__1(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Grothendieck_mapCompIso___spec__1___rarg), 5, 0);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__1(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+x_4 = lean_ctor_get(x_1, 0);
+lean_inc(x_4);
+lean_dec(x_1);
+x_5 = lean_ctor_get(x_2, 0);
+lean_inc(x_5);
+lean_dec(x_2);
+x_6 = lean_apply_1(x_5, x_3);
+x_7 = lean_apply_1(x_4, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__2(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; lean_object* x_11; lean_object* x_12; 
+x_6 = lean_ctor_get(x_1, 1);
+lean_inc(x_6);
+lean_dec(x_1);
+x_7 = lean_ctor_get(x_2, 0);
+lean_inc(x_7);
+lean_inc(x_7);
+lean_inc(x_3);
+x_8 = lean_apply_1(x_7, x_3);
+lean_inc(x_4);
+x_9 = lean_apply_1(x_7, x_4);
+x_10 = lean_ctor_get(x_2, 1);
+lean_inc(x_10);
+lean_dec(x_2);
+x_11 = lean_apply_3(x_10, x_3, x_4, x_5);
+x_12 = lean_apply_3(x_6, x_8, x_9, x_11);
+return x_12;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; lean_object* x_8; lean_object* x_9; 
+lean_inc(x_5);
+lean_inc(x_6);
+x_7 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__1), 3, 2);
+lean_closure_set(x_7, 0, x_6);
+lean_closure_set(x_7, 1, x_5);
+x_8 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__2), 5, 2);
+lean_closure_set(x_8, 0, x_6);
+lean_closure_set(x_8, 1, x_5);
+x_9 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_9, 0, x_7);
+lean_ctor_set(x_9, 1, x_8);
+return x_9;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___boxed), 6, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_id___at_CategoryTheory_Grothendieck_mapCompIso___spec__5___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; 
+x_5 = l_CategoryTheory_Grothendieck_instCategory___rarg(x_1, x_3);
+x_6 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_id___elambda__1___rarg), 3, 2);
+lean_closure_set(x_6, 0, x_5);
+lean_closure_set(x_6, 1, x_4);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_id___at_CategoryTheory_Grothendieck_mapCompIso___spec__5(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_id___at_CategoryTheory_Grothendieck_mapCompIso___spec__5___rarg___boxed), 4, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Grothendieck_mapCompIso___spec__4___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = l_CategoryTheory_NatTrans_id___at_CategoryTheory_Grothendieck_mapCompIso___spec__5___rarg(x_1, x_2, x_3, x_5);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Grothendieck_mapCompIso___spec__4(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_eqToHom___at_CategoryTheory_Grothendieck_mapCompIso___spec__4___rarg___boxed), 6, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_id___at_CategoryTheory_Grothendieck_mapCompIso___spec__7___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; 
+x_5 = l_CategoryTheory_Grothendieck_instCategory___rarg(x_1, x_3);
+x_6 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_id___elambda__1___rarg), 3, 2);
+lean_closure_set(x_6, 0, x_5);
+lean_closure_set(x_6, 1, x_4);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_id___at_CategoryTheory_Grothendieck_mapCompIso___spec__7(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_id___at_CategoryTheory_Grothendieck_mapCompIso___spec__7___rarg___boxed), 4, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Grothendieck_mapCompIso___spec__6___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = l_CategoryTheory_NatTrans_id___at_CategoryTheory_Grothendieck_mapCompIso___spec__7___rarg(x_1, x_2, x_3, x_5);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Grothendieck_mapCompIso___spec__6(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_eqToHom___at_CategoryTheory_Grothendieck_mapCompIso___spec__6___rarg___boxed), 6, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToIso___at_CategoryTheory_Grothendieck_mapCompIso___spec__3___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; lean_object* x_8; lean_object* x_9; 
+lean_inc(x_3);
+lean_inc(x_1);
+x_7 = l_CategoryTheory_NatTrans_id___at_CategoryTheory_Grothendieck_mapCompIso___spec__5___rarg(x_1, x_2, x_3, x_5);
+x_8 = l_CategoryTheory_NatTrans_id___at_CategoryTheory_Grothendieck_mapCompIso___spec__7___rarg(x_1, x_2, x_3, x_4);
+x_9 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_9, 0, x_7);
+lean_ctor_set(x_9, 1, x_8);
+return x_9;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToIso___at_CategoryTheory_Grothendieck_mapCompIso___spec__3(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_eqToIso___at_CategoryTheory_Grothendieck_mapCompIso___spec__3___rarg___boxed), 6, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_mapCompIso___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; lean_object* x_11; lean_object* x_12; lean_object* x_13; 
+x_7 = l_CategoryTheory_Cat_category;
+lean_inc(x_6);
+lean_inc(x_5);
+lean_inc(x_4);
+lean_inc(x_3);
+lean_inc(x_2);
+x_8 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_vcomp___elambda__1___rarg), 7, 6);
+lean_closure_set(x_8, 0, x_7);
+lean_closure_set(x_8, 1, x_2);
+lean_closure_set(x_8, 2, x_3);
+lean_closure_set(x_8, 3, x_4);
+lean_closure_set(x_8, 4, x_5);
+lean_closure_set(x_8, 5, x_6);
+lean_inc(x_4);
+lean_inc(x_2);
+lean_inc(x_1);
+x_9 = l_CategoryTheory_Grothendieck_map___rarg(x_1, x_2, x_4, x_8);
+lean_inc(x_3);
+lean_inc(x_2);
+lean_inc(x_1);
+x_10 = l_CategoryTheory_Grothendieck_map___rarg(x_1, x_2, x_3, x_5);
+lean_inc(x_4);
+lean_inc(x_3);
+lean_inc(x_1);
+x_11 = l_CategoryTheory_Grothendieck_map___rarg(x_1, x_3, x_4, x_6);
+x_12 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg(x_1, x_2, x_3, x_4, x_10, x_11);
+lean_dec(x_3);
+x_13 = l_CategoryTheory_eqToIso___at_CategoryTheory_Grothendieck_mapCompIso___spec__3___rarg(x_1, x_2, x_4, x_9, x_12, lean_box(0));
+lean_dec(x_2);
+return x_13;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_mapCompIso(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Grothendieck_mapCompIso___rarg), 6, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Grothendieck_mapCompIso___spec__1___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Grothendieck_mapCompIso___spec__1(x_1, x_2);
+lean_dec(x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg(x_1, x_2, x_3, x_4, x_5, x_6);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_id___at_CategoryTheory_Grothendieck_mapCompIso___spec__5___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_NatTrans_id___at_CategoryTheory_Grothendieck_mapCompIso___spec__5___rarg(x_1, x_2, x_3, x_4);
+lean_dec(x_2);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Grothendieck_mapCompIso___spec__4___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = l_CategoryTheory_eqToHom___at_CategoryTheory_Grothendieck_mapCompIso___spec__4___rarg(x_1, x_2, x_3, x_4, x_5, x_6);
+lean_dec(x_4);
+lean_dec(x_2);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_id___at_CategoryTheory_Grothendieck_mapCompIso___spec__7___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_NatTrans_id___at_CategoryTheory_Grothendieck_mapCompIso___spec__7___rarg(x_1, x_2, x_3, x_4);
+lean_dec(x_2);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Grothendieck_mapCompIso___spec__6___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = l_CategoryTheory_eqToHom___at_CategoryTheory_Grothendieck_mapCompIso___spec__6___rarg(x_1, x_2, x_3, x_4, x_5, x_6);
+lean_dec(x_4);
+lean_dec(x_2);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToIso___at_CategoryTheory_Grothendieck_mapCompIso___spec__3___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = l_CategoryTheory_eqToIso___at_CategoryTheory_Grothendieck_mapCompIso___spec__3___rarg(x_1, x_2, x_3, x_4, x_5, x_6);
+lean_dec(x_2);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_compAsSmallFunctorEquivalenceInverse___spec__1___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; lean_object* x_6; 
+lean_inc(x_2);
+lean_inc(x_3);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__1), 3, 2);
+lean_closure_set(x_4, 0, x_3);
+lean_closure_set(x_4, 1, x_2);
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__2), 5, 2);
+lean_closure_set(x_5, 0, x_3);
+lean_closure_set(x_5, 1, x_2);
+x_6 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_6, 0, x_4);
+lean_ctor_set(x_6, 1, x_5);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_compAsSmallFunctorEquivalenceInverse___spec__1(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_compAsSmallFunctorEquivalenceInverse___spec__1___rarg___boxed), 3, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_compAsSmallFunctorEquivalenceInverse___rarg___lambda__1(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+uint8_t x_5; 
+x_5 = !lean_is_exclusive(x_4);
+if (x_5 == 0)
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; lean_object* x_11; lean_object* x_12; 
+x_6 = lean_ctor_get(x_4, 0);
+x_7 = lean_ctor_get(x_4, 1);
+x_8 = lean_ctor_get(x_1, 0);
+lean_inc(x_8);
+lean_dec(x_1);
+lean_inc(x_6);
+x_9 = lean_apply_1(x_8, x_6);
+x_10 = l_CategoryTheory_AsSmall_up___rarg(x_9);
+lean_dec(x_9);
+x_11 = lean_ctor_get(x_10, 0);
+lean_inc(x_11);
+lean_dec(x_10);
+x_12 = lean_apply_1(x_11, x_7);
+lean_ctor_set(x_4, 1, x_12);
+return x_4;
+}
+else
+{
+lean_object* x_13; lean_object* x_14; lean_object* x_15; lean_object* x_16; lean_object* x_17; lean_object* x_18; lean_object* x_19; lean_object* x_20; 
+x_13 = lean_ctor_get(x_4, 0);
+x_14 = lean_ctor_get(x_4, 1);
+lean_inc(x_14);
+lean_inc(x_13);
+lean_dec(x_4);
+x_15 = lean_ctor_get(x_1, 0);
+lean_inc(x_15);
+lean_dec(x_1);
+lean_inc(x_13);
+x_16 = lean_apply_1(x_15, x_13);
+x_17 = l_CategoryTheory_AsSmall_up___rarg(x_16);
+lean_dec(x_16);
+x_18 = lean_ctor_get(x_17, 0);
+lean_inc(x_18);
+lean_dec(x_17);
+x_19 = lean_apply_1(x_18, x_14);
+x_20 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_20, 0, x_13);
+lean_ctor_set(x_20, 1, x_19);
+return x_20;
+}
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_compAsSmallFunctorEquivalenceInverse___rarg___lambda__2(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; lean_object* x_11; lean_object* x_12; lean_object* x_13; lean_object* x_14; lean_object* x_15; lean_object* x_16; lean_object* x_17; uint8_t x_18; 
+x_7 = lean_ctor_get(x_4, 0);
+lean_inc(x_7);
+x_8 = lean_ctor_get(x_4, 1);
+lean_inc(x_8);
+lean_dec(x_4);
+x_9 = lean_ctor_get(x_1, 0);
+lean_inc(x_9);
+lean_inc(x_9);
+lean_inc(x_7);
+x_10 = lean_apply_1(x_9, x_7);
+x_11 = l_CategoryTheory_AsSmall_up___rarg(x_10);
+x_12 = lean_ctor_get(x_11, 0);
+lean_inc(x_12);
+lean_dec(x_11);
+x_13 = lean_apply_1(x_12, x_8);
+x_14 = lean_ctor_get(x_5, 0);
+lean_inc(x_14);
+x_15 = lean_ctor_get(x_5, 1);
+lean_inc(x_15);
+lean_dec(x_5);
+lean_inc(x_14);
+x_16 = lean_apply_1(x_9, x_14);
+x_17 = l_CategoryTheory_AsSmall_up___rarg(x_16);
+lean_dec(x_16);
+x_18 = !lean_is_exclusive(x_6);
+if (x_18 == 0)
+{
+lean_object* x_19; lean_object* x_20; lean_object* x_21; lean_object* x_22; lean_object* x_23; lean_object* x_24; lean_object* x_25; lean_object* x_26; lean_object* x_27; lean_object* x_28; lean_object* x_29; 
+x_19 = lean_ctor_get(x_6, 0);
+x_20 = lean_ctor_get(x_6, 1);
+x_21 = lean_ctor_get(x_17, 1);
+lean_inc(x_21);
+lean_dec(x_17);
+x_22 = lean_ctor_get(x_1, 1);
+lean_inc(x_22);
+lean_dec(x_1);
+lean_inc(x_19);
+x_23 = lean_apply_3(x_22, x_7, x_14, x_19);
+x_24 = lean_ctor_get(x_23, 0);
+lean_inc(x_24);
+lean_dec(x_23);
+x_25 = l_CategoryTheory_AsSmall_down___rarg(x_10);
+lean_dec(x_10);
+x_26 = lean_ctor_get(x_25, 0);
+lean_inc(x_26);
+lean_dec(x_25);
+x_27 = lean_apply_1(x_26, x_13);
+x_28 = lean_apply_1(x_24, x_27);
+x_29 = lean_apply_3(x_21, x_28, x_15, x_20);
+lean_ctor_set(x_6, 1, x_29);
+return x_6;
+}
+else
+{
+lean_object* x_30; lean_object* x_31; lean_object* x_32; lean_object* x_33; lean_object* x_34; lean_object* x_35; lean_object* x_36; lean_object* x_37; lean_object* x_38; lean_object* x_39; lean_object* x_40; lean_object* x_41; 
+x_30 = lean_ctor_get(x_6, 0);
+x_31 = lean_ctor_get(x_6, 1);
+lean_inc(x_31);
+lean_inc(x_30);
+lean_dec(x_6);
+x_32 = lean_ctor_get(x_17, 1);
+lean_inc(x_32);
+lean_dec(x_17);
+x_33 = lean_ctor_get(x_1, 1);
+lean_inc(x_33);
+lean_dec(x_1);
+lean_inc(x_30);
+x_34 = lean_apply_3(x_33, x_7, x_14, x_30);
+x_35 = lean_ctor_get(x_34, 0);
+lean_inc(x_35);
+lean_dec(x_34);
+x_36 = l_CategoryTheory_AsSmall_down___rarg(x_10);
+lean_dec(x_10);
+x_37 = lean_ctor_get(x_36, 0);
+lean_inc(x_37);
+lean_dec(x_36);
+x_38 = lean_apply_1(x_37, x_13);
+x_39 = lean_apply_1(x_35, x_38);
+x_40 = lean_apply_3(x_32, x_39, x_15, x_31);
+x_41 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_41, 0, x_30);
+lean_ctor_set(x_41, 1, x_40);
+return x_41;
+}
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_compAsSmallFunctorEquivalenceInverse___rarg(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+x_3 = l_CategoryTheory_Cat_asSmallFunctor;
+lean_inc(x_2);
+x_4 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_compAsSmallFunctorEquivalenceInverse___spec__1___rarg(x_1, x_2, x_3);
+lean_inc(x_4);
+lean_inc(x_1);
+lean_inc(x_2);
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Grothendieck_compAsSmallFunctorEquivalenceInverse___rarg___lambda__1___boxed), 4, 3);
+lean_closure_set(x_5, 0, x_2);
+lean_closure_set(x_5, 1, x_1);
+lean_closure_set(x_5, 2, x_4);
+x_6 = lean_alloc_closure((void*)(l_CategoryTheory_Grothendieck_compAsSmallFunctorEquivalenceInverse___rarg___lambda__2___boxed), 6, 3);
+lean_closure_set(x_6, 0, x_2);
+lean_closure_set(x_6, 1, x_1);
+lean_closure_set(x_6, 2, x_4);
+x_7 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_7, 0, x_5);
+lean_ctor_set(x_7, 1, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_compAsSmallFunctorEquivalenceInverse(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Grothendieck_compAsSmallFunctorEquivalenceInverse___rarg), 2, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_compAsSmallFunctorEquivalenceInverse___spec__1___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_compAsSmallFunctorEquivalenceInverse___spec__1___rarg(x_1, x_2, x_3);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_compAsSmallFunctorEquivalenceInverse___rarg___lambda__1___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_Grothendieck_compAsSmallFunctorEquivalenceInverse___rarg___lambda__1(x_1, x_2, x_3, x_4);
+lean_dec(x_3);
+lean_dec(x_2);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_compAsSmallFunctorEquivalenceInverse___rarg___lambda__2___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = l_CategoryTheory_Grothendieck_compAsSmallFunctorEquivalenceInverse___rarg___lambda__2(x_1, x_2, x_3, x_4, x_5, x_6);
+lean_dec(x_3);
+lean_dec(x_2);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_compAsSmallFunctorEquivalenceFunctor___spec__1___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; lean_object* x_6; 
+lean_inc(x_2);
+lean_inc(x_3);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__1), 3, 2);
+lean_closure_set(x_4, 0, x_3);
+lean_closure_set(x_4, 1, x_2);
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__2), 5, 2);
+lean_closure_set(x_5, 0, x_3);
+lean_closure_set(x_5, 1, x_2);
+x_6 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_6, 0, x_4);
+lean_ctor_set(x_6, 1, x_5);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_compAsSmallFunctorEquivalenceFunctor___spec__1(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_compAsSmallFunctorEquivalenceFunctor___spec__1___rarg___boxed), 3, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_compAsSmallFunctorEquivalenceFunctor___rarg___lambda__1(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+uint8_t x_4; 
+x_4 = !lean_is_exclusive(x_3);
+if (x_4 == 0)
+{
+lean_object* x_5; lean_object* x_6; lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; lean_object* x_11; 
+x_5 = lean_ctor_get(x_3, 0);
+x_6 = lean_ctor_get(x_3, 1);
+x_7 = lean_ctor_get(x_1, 0);
+lean_inc(x_7);
+lean_dec(x_1);
+lean_inc(x_5);
+x_8 = lean_apply_1(x_7, x_5);
+x_9 = l_CategoryTheory_AsSmall_down___rarg(x_8);
+lean_dec(x_8);
+x_10 = lean_ctor_get(x_9, 0);
+lean_inc(x_10);
+lean_dec(x_9);
+x_11 = lean_apply_1(x_10, x_6);
+lean_ctor_set(x_3, 1, x_11);
+return x_3;
+}
+else
+{
+lean_object* x_12; lean_object* x_13; lean_object* x_14; lean_object* x_15; lean_object* x_16; lean_object* x_17; lean_object* x_18; lean_object* x_19; 
+x_12 = lean_ctor_get(x_3, 0);
+x_13 = lean_ctor_get(x_3, 1);
+lean_inc(x_13);
+lean_inc(x_12);
+lean_dec(x_3);
+x_14 = lean_ctor_get(x_1, 0);
+lean_inc(x_14);
+lean_dec(x_1);
+lean_inc(x_12);
+x_15 = lean_apply_1(x_14, x_12);
+x_16 = l_CategoryTheory_AsSmall_down___rarg(x_15);
+lean_dec(x_15);
+x_17 = lean_ctor_get(x_16, 0);
+lean_inc(x_17);
+lean_dec(x_16);
+x_18 = lean_apply_1(x_17, x_13);
+x_19 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_19, 0, x_12);
+lean_ctor_set(x_19, 1, x_18);
+return x_19;
+}
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_compAsSmallFunctorEquivalenceFunctor___rarg___lambda__2(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; lean_object* x_11; lean_object* x_12; lean_object* x_13; lean_object* x_14; lean_object* x_15; lean_object* x_16; lean_object* x_17; lean_object* x_18; uint8_t x_19; 
+x_6 = lean_ctor_get(x_3, 0);
+lean_inc(x_6);
+x_7 = lean_ctor_get(x_3, 1);
+lean_inc(x_7);
+lean_dec(x_3);
+x_8 = lean_ctor_get(x_1, 0);
+lean_inc(x_8);
+lean_inc(x_8);
+lean_inc(x_6);
+x_9 = lean_apply_1(x_8, x_6);
+x_10 = l_CategoryTheory_AsSmall_down___rarg(x_9);
+lean_dec(x_9);
+x_11 = lean_ctor_get(x_10, 0);
+lean_inc(x_11);
+lean_dec(x_10);
+x_12 = lean_apply_1(x_11, x_7);
+x_13 = lean_ctor_get(x_4, 0);
+lean_inc(x_13);
+x_14 = lean_ctor_get(x_4, 1);
+lean_inc(x_14);
+lean_dec(x_4);
+lean_inc(x_13);
+x_15 = lean_apply_1(x_8, x_13);
+x_16 = l_CategoryTheory_AsSmall_down___rarg(x_15);
+lean_dec(x_15);
+x_17 = lean_ctor_get(x_16, 0);
+lean_inc(x_17);
+x_18 = lean_apply_1(x_17, x_14);
+x_19 = !lean_is_exclusive(x_5);
+if (x_19 == 0)
+{
+lean_object* x_20; lean_object* x_21; lean_object* x_22; lean_object* x_23; lean_object* x_24; lean_object* x_25; lean_object* x_26; lean_object* x_27; 
+x_20 = lean_ctor_get(x_5, 0);
+x_21 = lean_ctor_get(x_5, 1);
+x_22 = lean_ctor_get(x_16, 1);
+lean_inc(x_22);
+lean_dec(x_16);
+x_23 = lean_ctor_get(x_1, 1);
+lean_inc(x_23);
+lean_dec(x_1);
+lean_inc(x_20);
+x_24 = lean_apply_3(x_23, x_6, x_13, x_20);
+x_25 = lean_ctor_get(x_24, 0);
+lean_inc(x_25);
+lean_dec(x_24);
+x_26 = lean_apply_1(x_25, x_12);
+x_27 = lean_apply_3(x_22, x_26, x_18, x_21);
+lean_ctor_set(x_5, 1, x_27);
+return x_5;
+}
+else
+{
+lean_object* x_28; lean_object* x_29; lean_object* x_30; lean_object* x_31; lean_object* x_32; lean_object* x_33; lean_object* x_34; lean_object* x_35; lean_object* x_36; 
+x_28 = lean_ctor_get(x_5, 0);
+x_29 = lean_ctor_get(x_5, 1);
+lean_inc(x_29);
+lean_inc(x_28);
+lean_dec(x_5);
+x_30 = lean_ctor_get(x_16, 1);
+lean_inc(x_30);
+lean_dec(x_16);
+x_31 = lean_ctor_get(x_1, 1);
+lean_inc(x_31);
+lean_dec(x_1);
+lean_inc(x_28);
+x_32 = lean_apply_3(x_31, x_6, x_13, x_28);
+x_33 = lean_ctor_get(x_32, 0);
+lean_inc(x_33);
+lean_dec(x_32);
+x_34 = lean_apply_1(x_33, x_12);
+x_35 = lean_apply_3(x_30, x_34, x_18, x_29);
+x_36 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_36, 0, x_28);
+lean_ctor_set(x_36, 1, x_35);
+return x_36;
+}
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_compAsSmallFunctorEquivalenceFunctor___rarg(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+lean_inc(x_1);
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Grothendieck_compAsSmallFunctorEquivalenceFunctor___rarg___lambda__1___boxed), 3, 2);
+lean_closure_set(x_3, 0, x_2);
+lean_closure_set(x_3, 1, x_1);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Grothendieck_compAsSmallFunctorEquivalenceFunctor___rarg___lambda__2___boxed), 5, 2);
+lean_closure_set(x_4, 0, x_2);
+lean_closure_set(x_4, 1, x_1);
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_compAsSmallFunctorEquivalenceFunctor(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Grothendieck_compAsSmallFunctorEquivalenceFunctor___rarg), 2, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_compAsSmallFunctorEquivalenceFunctor___spec__1___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_compAsSmallFunctorEquivalenceFunctor___spec__1___rarg(x_1, x_2, x_3);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_compAsSmallFunctorEquivalenceFunctor___rarg___lambda__1___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Grothendieck_compAsSmallFunctorEquivalenceFunctor___rarg___lambda__1(x_1, x_2, x_3);
+lean_dec(x_2);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_compAsSmallFunctorEquivalenceFunctor___rarg___lambda__2___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_Grothendieck_compAsSmallFunctorEquivalenceFunctor___rarg___lambda__2(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_2);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_compAsSmallFunctorEquivalence___spec__1___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; lean_object* x_6; 
+lean_inc(x_2);
+lean_inc(x_3);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__1), 3, 2);
+lean_closure_set(x_4, 0, x_3);
+lean_closure_set(x_4, 1, x_2);
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__2), 5, 2);
+lean_closure_set(x_5, 0, x_3);
+lean_closure_set(x_5, 1, x_2);
+x_6 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_6, 0, x_4);
+lean_ctor_set(x_6, 1, x_5);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_compAsSmallFunctorEquivalence___spec__1(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_compAsSmallFunctorEquivalence___spec__1___rarg___boxed), 3, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_compAsSmallFunctorEquivalence___spec__2___rarg(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+x_3 = l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_mapIdIso___spec__2___rarg___closed__1;
+x_4 = l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_mapIdIso___spec__2___rarg___closed__2;
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_compAsSmallFunctorEquivalence___spec__2(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_compAsSmallFunctorEquivalence___spec__2___rarg___boxed), 2, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_id___at_CategoryTheory_Grothendieck_compAsSmallFunctorEquivalence___spec__4___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+x_4 = l_CategoryTheory_Cat_asSmallFunctor;
+x_5 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_compAsSmallFunctorEquivalence___spec__1___rarg(x_1, x_2, x_4);
+x_6 = l_CategoryTheory_Grothendieck_instCategory___rarg(x_1, x_5);
+x_7 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_id___elambda__1___rarg), 3, 2);
+lean_closure_set(x_7, 0, x_6);
+lean_closure_set(x_7, 1, x_3);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_id___at_CategoryTheory_Grothendieck_compAsSmallFunctorEquivalence___spec__4(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_id___at_CategoryTheory_Grothendieck_compAsSmallFunctorEquivalence___spec__4___rarg), 3, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_refl___at_CategoryTheory_Grothendieck_compAsSmallFunctorEquivalence___spec__3___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; 
+x_4 = l_CategoryTheory_NatTrans_id___at_CategoryTheory_Grothendieck_compAsSmallFunctorEquivalence___spec__4___rarg(x_1, x_2, x_3);
+lean_inc(x_4);
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_4);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_refl___at_CategoryTheory_Grothendieck_compAsSmallFunctorEquivalence___spec__3(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Iso_refl___at_CategoryTheory_Grothendieck_compAsSmallFunctorEquivalence___spec__3___rarg), 3, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_compAsSmallFunctorEquivalence___spec__5___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+lean_inc(x_3);
+lean_inc(x_4);
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__1), 3, 2);
+lean_closure_set(x_5, 0, x_4);
+lean_closure_set(x_5, 1, x_3);
+x_6 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__2), 5, 2);
+lean_closure_set(x_6, 0, x_4);
+lean_closure_set(x_6, 1, x_3);
+x_7 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_7, 0, x_5);
+lean_ctor_set(x_7, 1, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_compAsSmallFunctorEquivalence___spec__5(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_compAsSmallFunctorEquivalence___spec__5___rarg___boxed), 4, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_id___at_CategoryTheory_Grothendieck_compAsSmallFunctorEquivalence___spec__7___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; 
+x_4 = l_CategoryTheory_Grothendieck_instCategory___rarg(x_1, x_2);
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_id___elambda__1___rarg), 3, 2);
+lean_closure_set(x_5, 0, x_4);
+lean_closure_set(x_5, 1, x_3);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_id___at_CategoryTheory_Grothendieck_compAsSmallFunctorEquivalence___spec__7(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_id___at_CategoryTheory_Grothendieck_compAsSmallFunctorEquivalence___spec__7___rarg), 3, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_refl___at_CategoryTheory_Grothendieck_compAsSmallFunctorEquivalence___spec__6___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; 
+x_4 = l_CategoryTheory_NatTrans_id___at_CategoryTheory_Grothendieck_compAsSmallFunctorEquivalence___spec__7___rarg(x_1, x_2, x_3);
+lean_inc(x_4);
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_4);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_refl___at_CategoryTheory_Grothendieck_compAsSmallFunctorEquivalence___spec__6(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Iso_refl___at_CategoryTheory_Grothendieck_compAsSmallFunctorEquivalence___spec__6___rarg), 3, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_compAsSmallFunctorEquivalence___rarg(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; lean_object* x_6; lean_object* x_7; lean_object* x_8; lean_object* x_9; 
+lean_inc(x_2);
+lean_inc(x_1);
+x_3 = l_CategoryTheory_Grothendieck_compAsSmallFunctorEquivalenceFunctor___rarg(x_1, x_2);
+lean_inc(x_2);
+lean_inc(x_1);
+x_4 = l_CategoryTheory_Grothendieck_compAsSmallFunctorEquivalenceInverse___rarg(x_1, x_2);
+x_5 = l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_compAsSmallFunctorEquivalence___spec__2___rarg(x_1, x_2);
+lean_inc(x_2);
+lean_inc(x_1);
+x_6 = l_CategoryTheory_Iso_refl___at_CategoryTheory_Grothendieck_compAsSmallFunctorEquivalence___spec__3___rarg(x_1, x_2, x_5);
+lean_inc(x_3);
+lean_inc(x_4);
+x_7 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_compAsSmallFunctorEquivalence___spec__5___rarg(x_1, x_2, x_4, x_3);
+x_8 = l_CategoryTheory_Iso_refl___at_CategoryTheory_Grothendieck_compAsSmallFunctorEquivalence___spec__6___rarg(x_1, x_2, x_7);
+x_9 = lean_alloc_ctor(0, 4, 0);
+lean_ctor_set(x_9, 0, x_3);
+lean_ctor_set(x_9, 1, x_4);
+lean_ctor_set(x_9, 2, x_6);
+lean_ctor_set(x_9, 3, x_8);
+return x_9;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_compAsSmallFunctorEquivalence(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Grothendieck_compAsSmallFunctorEquivalence___rarg), 2, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_compAsSmallFunctorEquivalence___spec__1___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_compAsSmallFunctorEquivalence___spec__1___rarg(x_1, x_2, x_3);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_compAsSmallFunctorEquivalence___spec__2___rarg___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_compAsSmallFunctorEquivalence___spec__2___rarg(x_1, x_2);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_compAsSmallFunctorEquivalence___spec__5___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_compAsSmallFunctorEquivalence___spec__5___rarg(x_1, x_2, x_3, x_4);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerRightAsSmallFunctor___spec__1___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; lean_object* x_6; 
+lean_inc(x_2);
+lean_inc(x_3);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__1), 3, 2);
+lean_closure_set(x_4, 0, x_3);
+lean_closure_set(x_4, 1, x_2);
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__2), 5, 2);
+lean_closure_set(x_5, 0, x_3);
+lean_closure_set(x_5, 1, x_2);
+x_6 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_6, 0, x_4);
+lean_ctor_set(x_6, 1, x_5);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerRightAsSmallFunctor___spec__1(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerRightAsSmallFunctor___spec__1___rarg___boxed), 3, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerRightAsSmallFunctor___spec__2___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; lean_object* x_6; 
+lean_inc(x_2);
+lean_inc(x_3);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__1), 3, 2);
+lean_closure_set(x_4, 0, x_3);
+lean_closure_set(x_4, 1, x_2);
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__2), 5, 2);
+lean_closure_set(x_5, 0, x_3);
+lean_closure_set(x_5, 1, x_2);
+x_6 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_6, 0, x_4);
+lean_ctor_set(x_6, 1, x_5);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerRightAsSmallFunctor___spec__2(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerRightAsSmallFunctor___spec__2___rarg___boxed), 3, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerRightAsSmallFunctor___spec__4___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; lean_object* x_6; 
+lean_inc(x_2);
+lean_inc(x_3);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__1), 3, 2);
+lean_closure_set(x_4, 0, x_3);
+lean_closure_set(x_4, 1, x_2);
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__2), 5, 2);
+lean_closure_set(x_5, 0, x_3);
+lean_closure_set(x_5, 1, x_2);
+x_6 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_6, 0, x_4);
+lean_ctor_set(x_6, 1, x_5);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerRightAsSmallFunctor___spec__4(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerRightAsSmallFunctor___spec__4___rarg___boxed), 3, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerRightAsSmallFunctor___spec__5___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; lean_object* x_6; 
+lean_inc(x_2);
+lean_inc(x_3);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__1), 3, 2);
+lean_closure_set(x_4, 0, x_3);
+lean_closure_set(x_4, 1, x_2);
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__2), 5, 2);
+lean_closure_set(x_5, 0, x_3);
+lean_closure_set(x_5, 1, x_2);
+x_6 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_6, 0, x_4);
+lean_ctor_set(x_6, 1, x_5);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerRightAsSmallFunctor___spec__5(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerRightAsSmallFunctor___spec__5___rarg___boxed), 3, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerRight___at_CategoryTheory_Grothendieck_mapWhiskerRightAsSmallFunctor___spec__3___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_whiskerRight___elambda__1___rarg), 5, 4);
+lean_closure_set(x_5, 0, x_1);
+lean_closure_set(x_5, 1, x_2);
+lean_closure_set(x_5, 2, x_3);
+lean_closure_set(x_5, 3, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerRight___at_CategoryTheory_Grothendieck_mapWhiskerRightAsSmallFunctor___spec__3(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_whiskerRight___at_CategoryTheory_Grothendieck_mapWhiskerRightAsSmallFunctor___spec__3___rarg), 4, 0);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerRightAsSmallFunctor___spec__6___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; 
+lean_inc(x_4);
+lean_inc(x_5);
+x_6 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__1), 3, 2);
+lean_closure_set(x_6, 0, x_5);
+lean_closure_set(x_6, 1, x_4);
+x_7 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__2), 5, 2);
+lean_closure_set(x_7, 0, x_5);
+lean_closure_set(x_7, 1, x_4);
+x_8 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_8, 0, x_6);
+lean_ctor_set(x_8, 1, x_7);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerRightAsSmallFunctor___spec__6(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerRightAsSmallFunctor___spec__6___rarg___boxed), 5, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerRightAsSmallFunctor___spec__7___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; 
+lean_inc(x_4);
+lean_inc(x_5);
+x_6 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__1), 3, 2);
+lean_closure_set(x_6, 0, x_5);
+lean_closure_set(x_6, 1, x_4);
+x_7 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__2), 5, 2);
+lean_closure_set(x_7, 0, x_5);
+lean_closure_set(x_7, 1, x_4);
+x_8 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_8, 0, x_6);
+lean_ctor_set(x_8, 1, x_7);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerRightAsSmallFunctor___spec__7(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerRightAsSmallFunctor___spec__7___rarg___boxed), 5, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_refl___at_CategoryTheory_Grothendieck_mapWhiskerRightAsSmallFunctor___spec__8___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+x_4 = l_CategoryTheory_Cat_asSmallFunctor;
+x_5 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerRightAsSmallFunctor___spec__2___rarg(x_1, x_2, x_4);
+x_6 = l_CategoryTheory_Grothendieck_id___rarg(x_1, x_5, x_3);
+lean_inc(x_6);
+x_7 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_7, 0, x_6);
+lean_ctor_set(x_7, 1, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_refl___at_CategoryTheory_Grothendieck_mapWhiskerRightAsSmallFunctor___spec__8(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Iso_refl___at_CategoryTheory_Grothendieck_mapWhiskerRightAsSmallFunctor___spec__8___rarg), 3, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Grothendieck_mapWhiskerRightAsSmallFunctor___spec__9___rarg___lambda__1(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; 
+x_3 = lean_apply_1(x_1, x_2);
+x_4 = lean_ctor_get(x_3, 0);
+lean_inc(x_4);
+lean_dec(x_3);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Grothendieck_mapWhiskerRightAsSmallFunctor___spec__9___rarg___lambda__2(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; 
+x_3 = lean_apply_1(x_1, x_2);
+x_4 = lean_ctor_get(x_3, 1);
+lean_inc(x_4);
+lean_dec(x_3);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Grothendieck_mapWhiskerRightAsSmallFunctor___spec__9___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; lean_object* x_9; lean_object* x_10; 
+lean_inc(x_6);
+x_8 = lean_alloc_closure((void*)(l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Grothendieck_mapWhiskerRightAsSmallFunctor___spec__9___rarg___lambda__1), 2, 1);
+lean_closure_set(x_8, 0, x_6);
+x_9 = lean_alloc_closure((void*)(l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Grothendieck_mapWhiskerRightAsSmallFunctor___spec__9___rarg___lambda__2), 2, 1);
+lean_closure_set(x_9, 0, x_6);
+x_10 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_10, 0, x_8);
+lean_ctor_set(x_10, 1, x_9);
+return x_10;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Grothendieck_mapWhiskerRightAsSmallFunctor___spec__9(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Grothendieck_mapWhiskerRightAsSmallFunctor___spec__9___rarg___boxed), 7, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_mapWhiskerRightAsSmallFunctor___rarg___lambda__1(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+x_5 = lean_ctor_get(x_1, 0);
+lean_inc(x_5);
+lean_dec(x_1);
+x_6 = lean_apply_1(x_5, x_4);
+x_7 = l_CategoryTheory_Iso_refl___at_CategoryTheory_Grothendieck_mapWhiskerRightAsSmallFunctor___spec__8___rarg(x_2, x_3, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_mapWhiskerRightAsSmallFunctor___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; lean_object* x_11; lean_object* x_12; lean_object* x_13; lean_object* x_14; lean_object* x_15; lean_object* x_16; 
+x_5 = l_CategoryTheory_Cat_asSmallFunctor;
+lean_inc(x_2);
+x_6 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerRightAsSmallFunctor___spec__1___rarg(x_1, x_2, x_5);
+lean_inc(x_3);
+x_7 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerRightAsSmallFunctor___spec__2___rarg(x_1, x_3, x_5);
+lean_inc(x_4);
+lean_inc(x_3);
+lean_inc(x_2);
+x_8 = lean_alloc_closure((void*)(l_CategoryTheory_whiskerRight___elambda__1___rarg), 5, 4);
+lean_closure_set(x_8, 0, x_2);
+lean_closure_set(x_8, 1, x_3);
+lean_closure_set(x_8, 2, x_4);
+lean_closure_set(x_8, 3, x_5);
+lean_inc(x_1);
+x_9 = l_CategoryTheory_Grothendieck_map___rarg(x_1, x_6, x_7, x_8);
+lean_inc(x_2);
+lean_inc(x_1);
+x_10 = l_CategoryTheory_Grothendieck_compAsSmallFunctorEquivalenceFunctor___rarg(x_1, x_2);
+lean_inc(x_3);
+lean_inc(x_2);
+lean_inc(x_1);
+x_11 = l_CategoryTheory_Grothendieck_map___rarg(x_1, x_2, x_3, x_4);
+lean_inc(x_3);
+lean_inc(x_1);
+x_12 = l_CategoryTheory_Grothendieck_compAsSmallFunctorEquivalenceInverse___rarg(x_1, x_3);
+x_13 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerRightAsSmallFunctor___spec__6___rarg(x_1, x_2, x_3, x_11, x_12);
+x_14 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerRightAsSmallFunctor___spec__7___rarg(x_1, x_2, x_3, x_10, x_13);
+lean_inc(x_3);
+lean_inc(x_1);
+lean_inc(x_9);
+x_15 = lean_alloc_closure((void*)(l_CategoryTheory_Grothendieck_mapWhiskerRightAsSmallFunctor___rarg___lambda__1), 4, 3);
+lean_closure_set(x_15, 0, x_9);
+lean_closure_set(x_15, 1, x_1);
+lean_closure_set(x_15, 2, x_3);
+x_16 = l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Grothendieck_mapWhiskerRightAsSmallFunctor___spec__9___rarg(x_1, x_2, x_3, x_9, x_14, x_15, lean_box(0));
+lean_dec(x_14);
+lean_dec(x_9);
+lean_dec(x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_16;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_mapWhiskerRightAsSmallFunctor(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Grothendieck_mapWhiskerRightAsSmallFunctor___rarg), 4, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerRightAsSmallFunctor___spec__1___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerRightAsSmallFunctor___spec__1___rarg(x_1, x_2, x_3);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerRightAsSmallFunctor___spec__2___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerRightAsSmallFunctor___spec__2___rarg(x_1, x_2, x_3);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerRightAsSmallFunctor___spec__4___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerRightAsSmallFunctor___spec__4___rarg(x_1, x_2, x_3);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerRightAsSmallFunctor___spec__5___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerRightAsSmallFunctor___spec__5___rarg(x_1, x_2, x_3);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerRight___at_CategoryTheory_Grothendieck_mapWhiskerRightAsSmallFunctor___spec__3___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_CategoryTheory_whiskerRight___at_CategoryTheory_Grothendieck_mapWhiskerRightAsSmallFunctor___spec__3(x_1, x_2);
+lean_dec(x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerRightAsSmallFunctor___spec__6___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerRightAsSmallFunctor___spec__6___rarg(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerRightAsSmallFunctor___spec__7___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerRightAsSmallFunctor___spec__7___rarg(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Grothendieck_mapWhiskerRightAsSmallFunctor___spec__9___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; 
+x_8 = l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Grothendieck_mapWhiskerRightAsSmallFunctor___spec__9___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_8;
+}
+}
+static lean_object* _init_l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_functor___spec__2___closed__1() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; lean_object* x_3; 
+x_1 = l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_mapIdIso___spec__2___rarg___closed__1;
+x_2 = l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_mapIdIso___spec__2___rarg___closed__2;
+x_3 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_3, 0, x_1);
+lean_ctor_set(x_3, 1, x_2);
+return x_3;
+}
+}
+static lean_object* _init_l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_functor___spec__2() {
+_start:
+{
+lean_object* x_1; 
+x_1 = l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_functor___spec__2___closed__1;
+return x_1;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Grothendieck_functor___spec__4___lambda__1(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_inc(x_1);
+return x_1;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Grothendieck_functor___spec__4___lambda__2(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_Functor_id___rarg(x_1);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Grothendieck_functor___spec__4___lambda__3(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; lean_object* x_6; 
+lean_inc(x_3);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_CategoryTheory_Grothendieck_functor___spec__4___lambda__1___boxed), 2, 1);
+lean_closure_set(x_4, 0, x_3);
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_CategoryTheory_Grothendieck_functor___spec__4___lambda__2___boxed), 4, 1);
+lean_closure_set(x_5, 0, x_3);
+x_6 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_6, 0, x_4);
+lean_ctor_set(x_6, 1, x_5);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Grothendieck_functor___spec__4___lambda__4(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_inc(x_3);
+return x_3;
+}
+}
+static lean_object* _init_l_CategoryTheory_Functor_const___at_CategoryTheory_Grothendieck_functor___spec__4___closed__1() {
+_start:
+{
+lean_object* x_1; 
+x_1 = l_CategoryTheory_discreteCategory(lean_box(0));
+return x_1;
+}
+}
+static lean_object* _init_l_CategoryTheory_Functor_const___at_CategoryTheory_Grothendieck_functor___spec__4___closed__2() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; lean_object* x_3; 
+x_1 = l_CategoryTheory_Functor_const___at_CategoryTheory_Grothendieck_functor___spec__4___closed__1;
+x_2 = l_CategoryTheory_Cat_category;
+x_3 = l_CategoryTheory_Functor_category___rarg(x_1, lean_box(0), x_2);
+return x_3;
+}
+}
+static lean_object* _init_l_CategoryTheory_Functor_const___at_CategoryTheory_Grothendieck_functor___spec__4___closed__3() {
+_start:
+{
+lean_object* x_1; 
+x_1 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_CategoryTheory_Grothendieck_functor___spec__4___lambda__4___boxed), 4, 0);
+return x_1;
+}
+}
+static lean_object* _init_l_CategoryTheory_Functor_const___at_CategoryTheory_Grothendieck_functor___spec__4() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; lean_object* x_3; lean_object* x_4; lean_object* x_5; lean_object* x_6; 
+x_1 = l_CategoryTheory_Cat_category;
+x_2 = lean_ctor_get(x_1, 0);
+lean_inc(x_2);
+x_3 = l_CategoryTheory_Functor_const___at_CategoryTheory_Grothendieck_functor___spec__4___closed__1;
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_CategoryTheory_Grothendieck_functor___spec__4___lambda__3___boxed), 3, 2);
+lean_closure_set(x_4, 0, x_3);
+lean_closure_set(x_4, 1, x_2);
+x_5 = l_CategoryTheory_Functor_const___at_CategoryTheory_Grothendieck_functor___spec__4___closed__3;
+x_6 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_6, 0, x_4);
+lean_ctor_set(x_6, 1, x_5);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_CostructuredArrow_mk___at_CategoryTheory_Grothendieck_functor___spec__3(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; 
+x_5 = lean_box(0);
+x_6 = lean_alloc_ctor(0, 3, 0);
+lean_ctor_set(x_6, 0, x_2);
+lean_ctor_set(x_6, 1, x_5);
+lean_ctor_set(x_6, 2, x_4);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Over_mk___at_CategoryTheory_Grothendieck_functor___spec__1(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; 
+x_4 = l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_functor___spec__2;
+x_5 = l_CategoryTheory_CostructuredArrow_mk___at_CategoryTheory_Grothendieck_functor___spec__3(x_1, x_2, x_4, x_3);
+return x_5;
+}
+}
+static lean_object* _init_l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_functor___spec__6() {
+_start:
+{
+lean_object* x_1; 
+x_1 = l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_functor___spec__2___closed__1;
+return x_1;
+}
+}
+static lean_object* _init_l_CategoryTheory_Functor_const___at_CategoryTheory_Grothendieck_functor___spec__8() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; lean_object* x_3; lean_object* x_4; lean_object* x_5; lean_object* x_6; 
+x_1 = l_CategoryTheory_Cat_category;
+x_2 = lean_ctor_get(x_1, 0);
+lean_inc(x_2);
+x_3 = l_CategoryTheory_Functor_const___at_CategoryTheory_Grothendieck_functor___spec__4___closed__1;
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_CategoryTheory_Grothendieck_functor___spec__4___lambda__3___boxed), 3, 2);
+lean_closure_set(x_4, 0, x_3);
+lean_closure_set(x_4, 1, x_2);
+x_5 = l_CategoryTheory_Functor_const___at_CategoryTheory_Grothendieck_functor___spec__4___closed__3;
+x_6 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_6, 0, x_4);
+lean_ctor_set(x_6, 1, x_5);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_CostructuredArrow_mk___at_CategoryTheory_Grothendieck_functor___spec__7(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; 
+x_5 = lean_box(0);
+x_6 = lean_alloc_ctor(0, 3, 0);
+lean_ctor_set(x_6, 0, x_2);
+lean_ctor_set(x_6, 1, x_5);
+lean_ctor_set(x_6, 2, x_4);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Over_mk___at_CategoryTheory_Grothendieck_functor___spec__5(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; 
+x_4 = l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_functor___spec__6;
+x_5 = l_CategoryTheory_CostructuredArrow_mk___at_CategoryTheory_Grothendieck_functor___spec__7(x_1, x_2, x_4, x_3);
+return x_5;
+}
+}
+static lean_object* _init_l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_functor___spec__10() {
+_start:
+{
+lean_object* x_1; 
+x_1 = l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_functor___spec__2___closed__1;
+return x_1;
+}
+}
+static lean_object* _init_l_CategoryTheory_Functor_const___at_CategoryTheory_Grothendieck_functor___spec__12() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; lean_object* x_3; lean_object* x_4; lean_object* x_5; lean_object* x_6; 
+x_1 = l_CategoryTheory_Cat_category;
+x_2 = lean_ctor_get(x_1, 0);
+lean_inc(x_2);
+x_3 = l_CategoryTheory_Functor_const___at_CategoryTheory_Grothendieck_functor___spec__4___closed__1;
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_CategoryTheory_Grothendieck_functor___spec__4___lambda__3___boxed), 3, 2);
+lean_closure_set(x_4, 0, x_3);
+lean_closure_set(x_4, 1, x_2);
+x_5 = l_CategoryTheory_Functor_const___at_CategoryTheory_Grothendieck_functor___spec__4___closed__3;
+x_6 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_6, 0, x_4);
+lean_ctor_set(x_6, 1, x_5);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_CostructuredArrow_mk___at_CategoryTheory_Grothendieck_functor___spec__11(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; 
+x_5 = lean_box(0);
+x_6 = lean_alloc_ctor(0, 3, 0);
+lean_ctor_set(x_6, 0, x_2);
+lean_ctor_set(x_6, 1, x_5);
+lean_ctor_set(x_6, 2, x_4);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Over_mk___at_CategoryTheory_Grothendieck_functor___spec__9(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; 
+x_4 = l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_functor___spec__10;
+x_5 = l_CategoryTheory_CostructuredArrow_mk___at_CategoryTheory_Grothendieck_functor___spec__11(x_1, x_2, x_4, x_3);
+return x_5;
+}
+}
+static lean_object* _init_l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_functor___spec__14() {
+_start:
+{
+lean_object* x_1; 
+x_1 = l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_functor___spec__2___closed__1;
+return x_1;
+}
+}
+static lean_object* _init_l_CategoryTheory_Functor_const___at_CategoryTheory_Grothendieck_functor___spec__16() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; lean_object* x_3; lean_object* x_4; lean_object* x_5; lean_object* x_6; 
+x_1 = l_CategoryTheory_Cat_category;
+x_2 = lean_ctor_get(x_1, 0);
+lean_inc(x_2);
+x_3 = l_CategoryTheory_Functor_const___at_CategoryTheory_Grothendieck_functor___spec__4___closed__1;
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_CategoryTheory_Grothendieck_functor___spec__4___lambda__3___boxed), 3, 2);
+lean_closure_set(x_4, 0, x_3);
+lean_closure_set(x_4, 1, x_2);
+x_5 = l_CategoryTheory_Functor_const___at_CategoryTheory_Grothendieck_functor___spec__4___closed__3;
+x_6 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_6, 0, x_4);
+lean_ctor_set(x_6, 1, x_5);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_CostructuredArrow_homMk___at_CategoryTheory_Grothendieck_functor___spec__15(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_7, 0, x_5);
+lean_ctor_set(x_7, 1, lean_box(0));
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Over_homMk___at_CategoryTheory_Grothendieck_functor___spec__13(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; 
+x_6 = l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_functor___spec__14;
+x_7 = l_CategoryTheory_CostructuredArrow_homMk___at_CategoryTheory_Grothendieck_functor___spec__15(x_1, x_6, x_2, x_3, x_4, lean_box(0));
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_functor___lambda__1(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; lean_object* x_6; 
+lean_inc(x_2);
+lean_inc(x_1);
+x_3 = l_CategoryTheory_Grothendieck_instCategory___rarg(x_1, x_2);
+x_4 = l_CategoryTheory_Grothendieck_forget___rarg(x_1, x_2);
+lean_dec(x_2);
+x_5 = l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_functor___spec__2;
+x_6 = l_CategoryTheory_CostructuredArrow_mk___at_CategoryTheory_Grothendieck_functor___spec__3(x_1, x_3, x_5, x_4);
+lean_dec(x_1);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_functor___lambda__2(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; lean_object* x_11; lean_object* x_12; lean_object* x_13; lean_object* x_14; lean_object* x_15; 
+lean_inc(x_2);
+lean_inc(x_1);
+x_5 = l_CategoryTheory_Grothendieck_instCategory___rarg(x_1, x_2);
+x_6 = l_CategoryTheory_Grothendieck_forget___rarg(x_1, x_2);
+x_7 = l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_functor___spec__6;
+x_8 = l_CategoryTheory_CostructuredArrow_mk___at_CategoryTheory_Grothendieck_functor___spec__7(x_1, x_5, x_7, x_6);
+lean_inc(x_3);
+lean_inc(x_1);
+x_9 = l_CategoryTheory_Grothendieck_instCategory___rarg(x_1, x_3);
+x_10 = l_CategoryTheory_Grothendieck_forget___rarg(x_1, x_3);
+x_11 = l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_functor___spec__10;
+x_12 = l_CategoryTheory_CostructuredArrow_mk___at_CategoryTheory_Grothendieck_functor___spec__11(x_1, x_9, x_11, x_10);
+lean_inc(x_1);
+x_13 = l_CategoryTheory_Grothendieck_map___rarg(x_1, x_2, x_3, x_4);
+x_14 = l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_functor___spec__14;
+x_15 = l_CategoryTheory_CostructuredArrow_homMk___at_CategoryTheory_Grothendieck_functor___spec__15(x_1, x_14, x_8, x_12, x_13, lean_box(0));
+lean_dec(x_12);
+lean_dec(x_8);
+lean_dec(x_1);
+return x_15;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_functor(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; lean_object* x_3; lean_object* x_4; 
+lean_inc(x_1);
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Grothendieck_functor___lambda__1), 2, 1);
+lean_closure_set(x_2, 0, x_1);
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Grothendieck_functor___lambda__2), 4, 1);
+lean_closure_set(x_3, 0, x_1);
+x_4 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_4, 0, x_2);
+lean_ctor_set(x_4, 1, x_3);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Grothendieck_functor___spec__4___lambda__1___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_CategoryTheory_Functor_const___at_CategoryTheory_Grothendieck_functor___spec__4___lambda__1(x_1, x_2);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Grothendieck_functor___spec__4___lambda__2___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_Functor_const___at_CategoryTheory_Grothendieck_functor___spec__4___lambda__2(x_1, x_2, x_3, x_4);
+lean_dec(x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Grothendieck_functor___spec__4___lambda__3___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Functor_const___at_CategoryTheory_Grothendieck_functor___spec__4___lambda__3(x_1, x_2, x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Grothendieck_functor___spec__4___lambda__4___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_Functor_const___at_CategoryTheory_Grothendieck_functor___spec__4___lambda__4(x_1, x_2, x_3, x_4);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_CostructuredArrow_mk___at_CategoryTheory_Grothendieck_functor___spec__3___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_CostructuredArrow_mk___at_CategoryTheory_Grothendieck_functor___spec__3(x_1, x_2, x_3, x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Over_mk___at_CategoryTheory_Grothendieck_functor___spec__1___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Over_mk___at_CategoryTheory_Grothendieck_functor___spec__1(x_1, x_2, x_3);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_CostructuredArrow_mk___at_CategoryTheory_Grothendieck_functor___spec__7___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_CostructuredArrow_mk___at_CategoryTheory_Grothendieck_functor___spec__7(x_1, x_2, x_3, x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Over_mk___at_CategoryTheory_Grothendieck_functor___spec__5___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Over_mk___at_CategoryTheory_Grothendieck_functor___spec__5(x_1, x_2, x_3);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_CostructuredArrow_mk___at_CategoryTheory_Grothendieck_functor___spec__11___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_CostructuredArrow_mk___at_CategoryTheory_Grothendieck_functor___spec__11(x_1, x_2, x_3, x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Over_mk___at_CategoryTheory_Grothendieck_functor___spec__9___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Over_mk___at_CategoryTheory_Grothendieck_functor___spec__9(x_1, x_2, x_3);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_CostructuredArrow_homMk___at_CategoryTheory_Grothendieck_functor___spec__15___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = l_CategoryTheory_CostructuredArrow_homMk___at_CategoryTheory_Grothendieck_functor___spec__15(x_1, x_2, x_3, x_4, x_5, x_6);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Over_homMk___at_CategoryTheory_Grothendieck_functor___spec__13___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_Over_homMk___at_CategoryTheory_Grothendieck_functor___spec__13(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_grothendieckTypeToCatFunctor___spec__1___rarg___lambda__1(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; 
+x_3 = lean_ctor_get(x_1, 0);
+lean_inc(x_3);
+lean_dec(x_1);
+x_4 = lean_apply_1(x_3, lean_box(0));
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_grothendieckTypeToCatFunctor___spec__1___rarg___lambda__2(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; lean_object* x_9; 
+x_6 = lean_ctor_get(x_1, 1);
+lean_inc(x_6);
+lean_dec(x_1);
+x_7 = lean_ctor_get(x_2, 1);
+lean_inc(x_7);
+lean_dec(x_2);
+x_8 = lean_apply_3(x_7, x_3, x_4, x_5);
+x_9 = lean_apply_3(x_6, lean_box(0), lean_box(0), x_8);
+return x_9;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_grothendieckTypeToCatFunctor___spec__1___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; lean_object* x_6; 
+lean_inc(x_3);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_grothendieckTypeToCatFunctor___spec__1___rarg___lambda__1___boxed), 2, 1);
+lean_closure_set(x_4, 0, x_3);
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_grothendieckTypeToCatFunctor___spec__1___rarg___lambda__2), 5, 2);
+lean_closure_set(x_5, 0, x_3);
+lean_closure_set(x_5, 1, x_2);
+x_6 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_6, 0, x_4);
+lean_ctor_set(x_6, 1, x_5);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_grothendieckTypeToCatFunctor___spec__1(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_grothendieckTypeToCatFunctor___spec__1___rarg___boxed), 3, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_grothendieckTypeToCatFunctor___rarg___lambda__1(lean_object* x_1) {
+_start:
+{
+uint8_t x_2; 
+x_2 = !lean_is_exclusive(x_1);
+if (x_2 == 0)
+{
+return x_1;
+}
+else
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+x_3 = lean_ctor_get(x_1, 0);
+x_4 = lean_ctor_get(x_1, 1);
+lean_inc(x_4);
+lean_inc(x_3);
+lean_dec(x_1);
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+}
+static lean_object* _init_l_CategoryTheory_Grothendieck_grothendieckTypeToCatFunctor___rarg___closed__1() {
+_start:
+{
+lean_object* x_1; 
+x_1 = lean_alloc_closure((void*)(l_CategoryTheory_Grothendieck_grothendieckTypeToCatFunctor___rarg___lambda__1), 1, 0);
+return x_1;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_grothendieckTypeToCatFunctor___rarg(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+x_3 = l_CategoryTheory_Grothendieck_grothendieckTypeToCatFunctor___rarg___closed__1;
+x_4 = l_CategoryTheory_Grothendieck_forget___rarg___closed__2;
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_grothendieckTypeToCatFunctor(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Grothendieck_grothendieckTypeToCatFunctor___rarg___boxed), 2, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_grothendieckTypeToCatFunctor___spec__1___rarg___lambda__1___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_grothendieckTypeToCatFunctor___spec__1___rarg___lambda__1(x_1, x_2);
+lean_dec(x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_grothendieckTypeToCatFunctor___spec__1___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_grothendieckTypeToCatFunctor___spec__1___rarg(x_1, x_2, x_3);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_grothendieckTypeToCatFunctor___rarg___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_CategoryTheory_Grothendieck_grothendieckTypeToCatFunctor___rarg(x_1, x_2);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_grothendieckTypeToCatInverse___spec__1___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; lean_object* x_6; 
+lean_inc(x_3);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_grothendieckTypeToCatFunctor___spec__1___rarg___lambda__1___boxed), 2, 1);
+lean_closure_set(x_4, 0, x_3);
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_grothendieckTypeToCatFunctor___spec__1___rarg___lambda__2), 5, 2);
+lean_closure_set(x_5, 0, x_3);
+lean_closure_set(x_5, 1, x_2);
+x_6 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_6, 0, x_4);
+lean_ctor_set(x_6, 1, x_5);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_grothendieckTypeToCatInverse___spec__1(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_grothendieckTypeToCatInverse___spec__1___rarg___boxed), 3, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_grothendieckTypeToCatInverse___rarg___lambda__1(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+uint8_t x_4; 
+x_4 = !lean_is_exclusive(x_3);
+if (x_4 == 0)
+{
+return x_3;
+}
+else
+{
+lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+x_5 = lean_ctor_get(x_3, 0);
+x_6 = lean_ctor_get(x_3, 1);
+lean_inc(x_6);
+lean_inc(x_5);
+lean_dec(x_3);
+x_7 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_7, 0, x_5);
+lean_ctor_set(x_7, 1, x_6);
+return x_7;
+}
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_grothendieckTypeToCatInverse___rarg___lambda__2(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+uint8_t x_6; 
+x_6 = !lean_is_exclusive(x_4);
+if (x_6 == 0)
+{
+lean_object* x_7; lean_object* x_8; 
+x_7 = lean_ctor_get(x_4, 1);
+lean_dec(x_7);
+x_8 = lean_ctor_get(x_4, 0);
+lean_dec(x_8);
+lean_ctor_set(x_4, 1, lean_box(0));
+lean_ctor_set(x_4, 0, x_5);
+return x_4;
+}
+else
+{
+lean_object* x_9; 
+lean_dec(x_4);
+x_9 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_9, 0, x_5);
+lean_ctor_set(x_9, 1, lean_box(0));
+return x_9;
+}
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_grothendieckTypeToCatInverse___rarg(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+x_3 = l_CategoryTheory_typeToCat;
+x_4 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_grothendieckTypeToCatInverse___spec__1___rarg(x_1, x_2, x_3);
+lean_inc(x_4);
+lean_inc(x_1);
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Grothendieck_grothendieckTypeToCatInverse___rarg___lambda__1___boxed), 3, 2);
+lean_closure_set(x_5, 0, x_1);
+lean_closure_set(x_5, 1, x_4);
+x_6 = lean_alloc_closure((void*)(l_CategoryTheory_Grothendieck_grothendieckTypeToCatInverse___rarg___lambda__2___boxed), 5, 2);
+lean_closure_set(x_6, 0, x_1);
+lean_closure_set(x_6, 1, x_4);
+x_7 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_7, 0, x_5);
+lean_ctor_set(x_7, 1, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_grothendieckTypeToCatInverse(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Grothendieck_grothendieckTypeToCatInverse___rarg), 2, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_grothendieckTypeToCatInverse___spec__1___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_grothendieckTypeToCatInverse___spec__1___rarg(x_1, x_2, x_3);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_grothendieckTypeToCatInverse___rarg___lambda__1___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Grothendieck_grothendieckTypeToCatInverse___rarg___lambda__1(x_1, x_2, x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_grothendieckTypeToCatInverse___rarg___lambda__2___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_Grothendieck_grothendieckTypeToCatInverse___rarg___lambda__2(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_grothendieckTypeToCat___spec__1___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; lean_object* x_6; 
+lean_inc(x_3);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_grothendieckTypeToCatFunctor___spec__1___rarg___lambda__1___boxed), 2, 1);
+lean_closure_set(x_4, 0, x_3);
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_grothendieckTypeToCatFunctor___spec__1___rarg___lambda__2), 5, 2);
+lean_closure_set(x_5, 0, x_3);
+lean_closure_set(x_5, 1, x_2);
+x_6 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_6, 0, x_4);
+lean_ctor_set(x_6, 1, x_5);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_grothendieckTypeToCat___spec__1(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_grothendieckTypeToCat___spec__1___rarg___boxed), 3, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_grothendieckTypeToCat___spec__2___rarg(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+x_3 = l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_mapIdIso___spec__2___rarg___closed__1;
+x_4 = l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_mapIdIso___spec__2___rarg___closed__2;
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_grothendieckTypeToCat___spec__2(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_grothendieckTypeToCat___spec__2___rarg___boxed), 2, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_grothendieckTypeToCat___spec__3___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+lean_inc(x_3);
+lean_inc(x_4);
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__1), 3, 2);
+lean_closure_set(x_5, 0, x_4);
+lean_closure_set(x_5, 1, x_3);
+x_6 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__2), 5, 2);
+lean_closure_set(x_6, 0, x_4);
+lean_closure_set(x_6, 1, x_3);
+x_7 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_7, 0, x_5);
+lean_ctor_set(x_7, 1, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_grothendieckTypeToCat___spec__3(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_grothendieckTypeToCat___spec__3___rarg___boxed), 4, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_refl___at_CategoryTheory_Grothendieck_grothendieckTypeToCat___spec__4___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+x_4 = l_CategoryTheory_typeToCat;
+x_5 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_grothendieckTypeToCat___spec__1___rarg(x_1, x_2, x_4);
+x_6 = l_CategoryTheory_Grothendieck_id___rarg(x_1, x_5, x_3);
+lean_inc(x_6);
+x_7 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_7, 0, x_6);
+lean_ctor_set(x_7, 1, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_refl___at_CategoryTheory_Grothendieck_grothendieckTypeToCat___spec__4(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Iso_refl___at_CategoryTheory_Grothendieck_grothendieckTypeToCat___spec__4___rarg), 3, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Grothendieck_grothendieckTypeToCat___spec__5___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; lean_object* x_8; lean_object* x_9; 
+lean_inc(x_5);
+x_7 = lean_alloc_closure((void*)(l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Grothendieck_mapWhiskerRightAsSmallFunctor___spec__9___rarg___lambda__1), 2, 1);
+lean_closure_set(x_7, 0, x_5);
+x_8 = lean_alloc_closure((void*)(l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Grothendieck_mapWhiskerRightAsSmallFunctor___spec__9___rarg___lambda__2), 2, 1);
+lean_closure_set(x_8, 0, x_5);
+x_9 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_9, 0, x_7);
+lean_ctor_set(x_9, 1, x_8);
+return x_9;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Grothendieck_grothendieckTypeToCat___spec__5(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Grothendieck_grothendieckTypeToCat___spec__5___rarg___boxed), 6, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_grothendieckTypeToCat___spec__6___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+lean_inc(x_3);
+lean_inc(x_4);
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__1), 3, 2);
+lean_closure_set(x_5, 0, x_4);
+lean_closure_set(x_5, 1, x_3);
+x_6 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__2), 5, 2);
+lean_closure_set(x_6, 0, x_4);
+lean_closure_set(x_6, 1, x_3);
+x_7 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_7, 0, x_5);
+lean_ctor_set(x_7, 1, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_grothendieckTypeToCat___spec__6(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_grothendieckTypeToCat___spec__6___rarg___boxed), 4, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_grothendieckTypeToCat___spec__7___rarg(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+x_3 = l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_mapIdIso___spec__2___rarg___closed__1;
+x_4 = l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_mapIdIso___spec__2___rarg___closed__2;
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_grothendieckTypeToCat___spec__7(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_grothendieckTypeToCat___spec__7___rarg___boxed), 2, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_refl___at_CategoryTheory_Grothendieck_grothendieckTypeToCat___spec__8___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+x_4 = lean_ctor_get(x_1, 1);
+lean_inc(x_4);
+lean_dec(x_1);
+x_5 = lean_ctor_get(x_3, 0);
+lean_inc(x_5);
+lean_dec(x_3);
+x_6 = lean_apply_1(x_4, x_5);
+lean_inc(x_6);
+x_7 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_7, 0, x_6);
+lean_ctor_set(x_7, 1, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_refl___at_CategoryTheory_Grothendieck_grothendieckTypeToCat___spec__8(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Iso_refl___at_CategoryTheory_Grothendieck_grothendieckTypeToCat___spec__8___rarg___boxed), 3, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Grothendieck_grothendieckTypeToCat___spec__9___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; lean_object* x_8; lean_object* x_9; 
+lean_inc(x_5);
+x_7 = lean_alloc_closure((void*)(l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Grothendieck_mapWhiskerRightAsSmallFunctor___spec__9___rarg___lambda__1), 2, 1);
+lean_closure_set(x_7, 0, x_5);
+x_8 = lean_alloc_closure((void*)(l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Grothendieck_mapWhiskerRightAsSmallFunctor___spec__9___rarg___lambda__2), 2, 1);
+lean_closure_set(x_8, 0, x_5);
+x_9 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_9, 0, x_7);
+lean_ctor_set(x_9, 1, x_8);
+return x_9;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Grothendieck_grothendieckTypeToCat___spec__9(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Grothendieck_grothendieckTypeToCat___spec__9___rarg___boxed), 6, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_grothendieckTypeToCat___rarg___lambda__1(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+x_5 = lean_ctor_get(x_1, 0);
+lean_inc(x_5);
+lean_dec(x_1);
+x_6 = lean_apply_1(x_5, x_4);
+x_7 = l_CategoryTheory_Iso_refl___at_CategoryTheory_Grothendieck_grothendieckTypeToCat___spec__4___rarg(x_2, x_3, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_grothendieckTypeToCat___rarg___lambda__2(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+x_5 = lean_ctor_get(x_1, 0);
+lean_inc(x_5);
+lean_dec(x_1);
+x_6 = lean_apply_1(x_5, x_4);
+x_7 = l_CategoryTheory_Iso_refl___at_CategoryTheory_Grothendieck_grothendieckTypeToCat___spec__8___rarg(x_2, x_3, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_grothendieckTypeToCat___rarg(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; lean_object* x_6; lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; lean_object* x_11; lean_object* x_12; lean_object* x_13; 
+x_3 = l_CategoryTheory_Grothendieck_grothendieckTypeToCatFunctor___rarg(x_1, x_2);
+lean_inc(x_2);
+lean_inc(x_1);
+x_4 = l_CategoryTheory_Grothendieck_grothendieckTypeToCatInverse___rarg(x_1, x_2);
+x_5 = l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_grothendieckTypeToCat___spec__2___rarg(x_1, x_2);
+lean_inc(x_4);
+lean_inc(x_3);
+x_6 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_grothendieckTypeToCat___spec__3___rarg(x_1, x_2, x_3, x_4);
+lean_inc(x_2);
+lean_inc(x_1);
+lean_inc(x_5);
+x_7 = lean_alloc_closure((void*)(l_CategoryTheory_Grothendieck_grothendieckTypeToCat___rarg___lambda__1), 4, 3);
+lean_closure_set(x_7, 0, x_5);
+lean_closure_set(x_7, 1, x_1);
+lean_closure_set(x_7, 2, x_2);
+x_8 = l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Grothendieck_grothendieckTypeToCat___spec__5___rarg(x_1, x_2, x_5, x_6, x_7, lean_box(0));
+lean_dec(x_6);
+lean_dec(x_5);
+lean_inc(x_3);
+lean_inc(x_4);
+x_9 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_grothendieckTypeToCat___spec__6___rarg(x_1, x_2, x_4, x_3);
+x_10 = l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_grothendieckTypeToCat___spec__7___rarg(x_1, x_2);
+lean_inc(x_2);
+lean_inc(x_1);
+lean_inc(x_9);
+x_11 = lean_alloc_closure((void*)(l_CategoryTheory_Grothendieck_grothendieckTypeToCat___rarg___lambda__2___boxed), 4, 3);
+lean_closure_set(x_11, 0, x_9);
+lean_closure_set(x_11, 1, x_1);
+lean_closure_set(x_11, 2, x_2);
+x_12 = l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Grothendieck_grothendieckTypeToCat___spec__9___rarg(x_1, x_2, x_9, x_10, x_11, lean_box(0));
+lean_dec(x_10);
+lean_dec(x_9);
+lean_dec(x_2);
+lean_dec(x_1);
+x_13 = lean_alloc_ctor(0, 4, 0);
+lean_ctor_set(x_13, 0, x_3);
+lean_ctor_set(x_13, 1, x_4);
+lean_ctor_set(x_13, 2, x_8);
+lean_ctor_set(x_13, 3, x_12);
+return x_13;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_grothendieckTypeToCat(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Grothendieck_grothendieckTypeToCat___rarg), 2, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_grothendieckTypeToCat___spec__1___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_grothendieckTypeToCat___spec__1___rarg(x_1, x_2, x_3);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_grothendieckTypeToCat___spec__2___rarg___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_grothendieckTypeToCat___spec__2___rarg(x_1, x_2);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_grothendieckTypeToCat___spec__3___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_grothendieckTypeToCat___spec__3___rarg(x_1, x_2, x_3, x_4);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Grothendieck_grothendieckTypeToCat___spec__5___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Grothendieck_grothendieckTypeToCat___spec__5___rarg(x_1, x_2, x_3, x_4, x_5, x_6);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_grothendieckTypeToCat___spec__6___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_grothendieckTypeToCat___spec__6___rarg(x_1, x_2, x_3, x_4);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_grothendieckTypeToCat___spec__7___rarg___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_grothendieckTypeToCat___spec__7___rarg(x_1, x_2);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_refl___at_CategoryTheory_Grothendieck_grothendieckTypeToCat___spec__8___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Iso_refl___at_CategoryTheory_Grothendieck_grothendieckTypeToCat___spec__8___rarg(x_1, x_2, x_3);
+lean_dec(x_2);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Grothendieck_grothendieckTypeToCat___spec__9___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Grothendieck_grothendieckTypeToCat___spec__9___rarg(x_1, x_2, x_3, x_4, x_5, x_6);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_grothendieckTypeToCat___rarg___lambda__2___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_Grothendieck_grothendieckTypeToCat___rarg___lambda__2(x_1, x_2, x_3, x_4);
+lean_dec(x_3);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_pre___spec__1___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; lean_object* x_6; 
+lean_inc(x_2);
+lean_inc(x_3);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__1), 3, 2);
+lean_closure_set(x_4, 0, x_3);
+lean_closure_set(x_4, 1, x_2);
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__2), 5, 2);
+lean_closure_set(x_5, 0, x_3);
+lean_closure_set(x_5, 1, x_2);
+x_6 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_6, 0, x_4);
+lean_ctor_set(x_6, 1, x_5);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_pre___spec__1(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_pre___spec__1___rarg___boxed), 3, 0);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_pre___rarg___lambda__1(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; uint8_t x_6; 
+x_5 = lean_ctor_get(x_1, 0);
+lean_inc(x_5);
+lean_dec(x_1);
+x_6 = !lean_is_exclusive(x_4);
+if (x_6 == 0)
+{
+lean_object* x_7; lean_object* x_8; 
+x_7 = lean_ctor_get(x_4, 0);
+x_8 = lean_apply_1(x_5, x_7);
+lean_ctor_set(x_4, 0, x_8);
+return x_4;
+}
+else
+{
+lean_object* x_9; lean_object* x_10; lean_object* x_11; lean_object* x_12; 
+x_9 = lean_ctor_get(x_4, 0);
+x_10 = lean_ctor_get(x_4, 1);
+lean_inc(x_10);
+lean_inc(x_9);
+lean_dec(x_4);
+x_11 = lean_apply_1(x_5, x_9);
+x_12 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_12, 0, x_11);
+lean_ctor_set(x_12, 1, x_10);
+return x_12;
+}
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_pre___rarg___lambda__2(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; lean_object* x_8; lean_object* x_9; uint8_t x_10; 
+x_7 = lean_ctor_get(x_4, 0);
+lean_inc(x_7);
+lean_dec(x_4);
+x_8 = lean_ctor_get(x_5, 0);
+lean_inc(x_8);
+lean_dec(x_5);
+x_9 = lean_ctor_get(x_1, 1);
+lean_inc(x_9);
+lean_dec(x_1);
+x_10 = !lean_is_exclusive(x_6);
+if (x_10 == 0)
+{
+lean_object* x_11; lean_object* x_12; 
+x_11 = lean_ctor_get(x_6, 0);
+x_12 = lean_apply_3(x_9, x_7, x_8, x_11);
+lean_ctor_set(x_6, 0, x_12);
+return x_6;
+}
+else
+{
+lean_object* x_13; lean_object* x_14; lean_object* x_15; lean_object* x_16; 
+x_13 = lean_ctor_get(x_6, 0);
+x_14 = lean_ctor_get(x_6, 1);
+lean_inc(x_14);
+lean_inc(x_13);
+lean_dec(x_6);
+x_15 = lean_apply_3(x_9, x_7, x_8, x_13);
+x_16 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_16, 0, x_15);
+lean_ctor_set(x_16, 1, x_14);
+return x_16;
+}
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_pre___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; 
+lean_inc(x_4);
+lean_inc(x_1);
+lean_inc(x_5);
+x_6 = lean_alloc_closure((void*)(l_CategoryTheory_Grothendieck_pre___rarg___lambda__1___boxed), 4, 3);
+lean_closure_set(x_6, 0, x_5);
+lean_closure_set(x_6, 1, x_1);
+lean_closure_set(x_6, 2, x_4);
+x_7 = lean_alloc_closure((void*)(l_CategoryTheory_Grothendieck_pre___rarg___lambda__2___boxed), 6, 3);
+lean_closure_set(x_7, 0, x_5);
+lean_closure_set(x_7, 1, x_1);
+lean_closure_set(x_7, 2, x_4);
+x_8 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_8, 0, x_6);
+lean_ctor_set(x_8, 1, x_7);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_pre(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Grothendieck_pre___rarg___boxed), 5, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_pre___spec__1___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_pre___spec__1___rarg(x_1, x_2, x_3);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_pre___spec__1___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_pre___spec__1(x_1, x_2, x_3);
+lean_dec(x_2);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_pre___rarg___lambda__1___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_Grothendieck_pre___rarg___lambda__1(x_1, x_2, x_3, x_4);
+lean_dec(x_3);
+lean_dec(x_2);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_pre___rarg___lambda__2___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = l_CategoryTheory_Grothendieck_pre___rarg___lambda__2(x_1, x_2, x_3, x_4, x_5, x_6);
+lean_dec(x_3);
+lean_dec(x_2);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_pre___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_Grothendieck_pre___rarg(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_3);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preNatIso___spec__1___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; lean_object* x_6; 
+lean_inc(x_2);
+lean_inc(x_3);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__1), 3, 2);
+lean_closure_set(x_4, 0, x_3);
+lean_closure_set(x_4, 1, x_2);
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__2), 5, 2);
+lean_closure_set(x_5, 0, x_3);
+lean_closure_set(x_5, 1, x_2);
+x_6 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_6, 0, x_4);
+lean_ctor_set(x_6, 1, x_5);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preNatIso___spec__1(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preNatIso___spec__1___rarg___boxed), 3, 0);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preNatIso___spec__2___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; lean_object* x_6; 
+lean_inc(x_2);
+lean_inc(x_3);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__1), 3, 2);
+lean_closure_set(x_4, 0, x_3);
+lean_closure_set(x_4, 1, x_2);
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__2), 5, 2);
+lean_closure_set(x_5, 0, x_3);
+lean_closure_set(x_5, 1, x_2);
+x_6 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_6, 0, x_4);
+lean_ctor_set(x_6, 1, x_5);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preNatIso___spec__2(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preNatIso___spec__2___rarg___boxed), 3, 0);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preNatIso___spec__4___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; lean_object* x_6; 
+lean_inc(x_2);
+lean_inc(x_3);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__1), 3, 2);
+lean_closure_set(x_4, 0, x_3);
+lean_closure_set(x_4, 1, x_2);
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__2), 5, 2);
+lean_closure_set(x_5, 0, x_3);
+lean_closure_set(x_5, 1, x_2);
+x_6 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_6, 0, x_4);
+lean_ctor_set(x_6, 1, x_5);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preNatIso___spec__4(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preNatIso___spec__4___rarg___boxed), 3, 0);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preNatIso___spec__5___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; lean_object* x_6; 
+lean_inc(x_2);
+lean_inc(x_3);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__1), 3, 2);
+lean_closure_set(x_4, 0, x_3);
+lean_closure_set(x_4, 1, x_2);
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__2), 5, 2);
+lean_closure_set(x_5, 0, x_3);
+lean_closure_set(x_5, 1, x_2);
+x_6 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_6, 0, x_4);
+lean_ctor_set(x_6, 1, x_5);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preNatIso___spec__5(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preNatIso___spec__5___rarg___boxed), 3, 0);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerRight___at_CategoryTheory_Grothendieck_preNatIso___spec__3___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_whiskerRight___elambda__1___rarg), 5, 4);
+lean_closure_set(x_5, 0, x_1);
+lean_closure_set(x_5, 1, x_2);
+lean_closure_set(x_5, 2, x_3);
+lean_closure_set(x_5, 3, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerRight___at_CategoryTheory_Grothendieck_preNatIso___spec__3(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_whiskerRight___at_CategoryTheory_Grothendieck_preNatIso___spec__3___rarg), 4, 0);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preNatIso___spec__6___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8) {
+_start:
+{
+lean_object* x_9; lean_object* x_10; lean_object* x_11; 
+lean_inc(x_7);
+lean_inc(x_8);
+x_9 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__1), 3, 2);
+lean_closure_set(x_9, 0, x_8);
+lean_closure_set(x_9, 1, x_7);
+x_10 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__2), 5, 2);
+lean_closure_set(x_10, 0, x_8);
+lean_closure_set(x_10, 1, x_7);
+x_11 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_11, 0, x_9);
+lean_ctor_set(x_11, 1, x_10);
+return x_11;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preNatIso___spec__6(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preNatIso___spec__6___rarg___boxed), 8, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_symm___at_CategoryTheory_Grothendieck_preNatIso___spec__7___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; 
+x_6 = lean_ctor_get(x_5, 1);
+x_7 = lean_ctor_get(x_5, 0);
+lean_inc(x_7);
+lean_inc(x_6);
+x_8 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_8, 0, x_6);
+lean_ctor_set(x_8, 1, x_7);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_symm___at_CategoryTheory_Grothendieck_preNatIso___spec__7(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Iso_symm___at_CategoryTheory_Grothendieck_preNatIso___spec__7___rarg___boxed), 5, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Grothendieck_preNatIso___spec__8___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8, lean_object* x_9) {
+_start:
+{
+lean_object* x_10; lean_object* x_11; lean_object* x_12; 
+lean_inc(x_8);
+x_10 = lean_alloc_closure((void*)(l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Grothendieck_mapWhiskerRightAsSmallFunctor___spec__9___rarg___lambda__1), 2, 1);
+lean_closure_set(x_10, 0, x_8);
+x_11 = lean_alloc_closure((void*)(l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Grothendieck_mapWhiskerRightAsSmallFunctor___spec__9___rarg___lambda__2), 2, 1);
+lean_closure_set(x_11, 0, x_8);
+x_12 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_12, 0, x_10);
+lean_ctor_set(x_12, 1, x_11);
+return x_12;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Grothendieck_preNatIso___spec__8(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Grothendieck_preNatIso___spec__8___rarg___boxed), 9, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_preNatIso___rarg___lambda__1(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; uint8_t x_8; 
+x_7 = lean_ctor_get(x_1, 0);
+lean_inc(x_7);
+x_8 = !lean_is_exclusive(x_6);
+if (x_8 == 0)
+{
+lean_object* x_9; lean_object* x_10; lean_object* x_11; lean_object* x_12; lean_object* x_13; lean_object* x_14; lean_object* x_15; lean_object* x_16; lean_object* x_17; 
+x_9 = lean_ctor_get(x_6, 0);
+lean_inc(x_9);
+x_10 = lean_apply_1(x_7, x_9);
+lean_ctor_set(x_6, 0, x_10);
+x_11 = lean_ctor_get(x_4, 0);
+lean_inc(x_11);
+lean_inc(x_9);
+x_12 = lean_apply_1(x_11, x_9);
+x_13 = l_CategoryTheory_Iso_app___rarg(x_2, x_1, x_4, x_5, x_9);
+lean_dec(x_4);
+lean_dec(x_1);
+x_14 = lean_ctor_get(x_13, 0);
+lean_inc(x_14);
+lean_inc(x_12);
+lean_inc(x_6);
+lean_inc(x_3);
+x_15 = l_CategoryTheory_Grothendieck_transport___rarg(x_2, x_3, x_6, x_12, x_14);
+lean_inc(x_6);
+lean_inc(x_3);
+x_16 = l_CategoryTheory_Grothendieck_transportIso___rarg(x_2, x_3, x_6, x_12, x_13);
+x_17 = l_CategoryTheory_Iso_symm___at_CategoryTheory_Grothendieck_preNatIso___spec__7___rarg(x_2, x_3, x_15, x_6, x_16);
+lean_dec(x_16);
+lean_dec(x_6);
+lean_dec(x_15);
+lean_dec(x_3);
+return x_17;
+}
+else
+{
+lean_object* x_18; lean_object* x_19; lean_object* x_20; lean_object* x_21; lean_object* x_22; lean_object* x_23; lean_object* x_24; lean_object* x_25; lean_object* x_26; lean_object* x_27; lean_object* x_28; 
+x_18 = lean_ctor_get(x_6, 0);
+x_19 = lean_ctor_get(x_6, 1);
+lean_inc(x_19);
+lean_inc(x_18);
+lean_dec(x_6);
+lean_inc(x_18);
+x_20 = lean_apply_1(x_7, x_18);
+x_21 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_21, 0, x_20);
+lean_ctor_set(x_21, 1, x_19);
+x_22 = lean_ctor_get(x_4, 0);
+lean_inc(x_22);
+lean_inc(x_18);
+x_23 = lean_apply_1(x_22, x_18);
+x_24 = l_CategoryTheory_Iso_app___rarg(x_2, x_1, x_4, x_5, x_18);
+lean_dec(x_4);
+lean_dec(x_1);
+x_25 = lean_ctor_get(x_24, 0);
+lean_inc(x_25);
+lean_inc(x_23);
+lean_inc(x_21);
+lean_inc(x_3);
+x_26 = l_CategoryTheory_Grothendieck_transport___rarg(x_2, x_3, x_21, x_23, x_25);
+lean_inc(x_21);
+lean_inc(x_3);
+x_27 = l_CategoryTheory_Grothendieck_transportIso___rarg(x_2, x_3, x_21, x_23, x_24);
+x_28 = l_CategoryTheory_Iso_symm___at_CategoryTheory_Grothendieck_preNatIso___spec__7___rarg(x_2, x_3, x_26, x_21, x_27);
+lean_dec(x_27);
+lean_dec(x_21);
+lean_dec(x_26);
+lean_dec(x_3);
+return x_28;
+}
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_preNatIso___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; lean_object* x_9; lean_object* x_10; lean_object* x_11; lean_object* x_12; lean_object* x_13; lean_object* x_14; lean_object* x_15; lean_object* x_16; lean_object* x_17; 
+lean_inc(x_4);
+lean_inc(x_5);
+x_8 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preNatIso___spec__1___rarg(x_3, x_5, x_4);
+lean_inc(x_5);
+lean_inc(x_4);
+lean_inc(x_1);
+x_9 = l_CategoryTheory_Grothendieck_pre___rarg(x_1, lean_box(0), x_3, x_4, x_5);
+lean_inc(x_4);
+lean_inc(x_6);
+x_10 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preNatIso___spec__2___rarg(x_3, x_6, x_4);
+x_11 = lean_ctor_get(x_7, 0);
+lean_inc(x_11);
+lean_inc(x_4);
+lean_inc(x_6);
+lean_inc(x_5);
+x_12 = lean_alloc_closure((void*)(l_CategoryTheory_whiskerRight___elambda__1___rarg), 5, 4);
+lean_closure_set(x_12, 0, x_5);
+lean_closure_set(x_12, 1, x_6);
+lean_closure_set(x_12, 2, x_11);
+lean_closure_set(x_12, 3, x_4);
+lean_inc(x_3);
+x_13 = l_CategoryTheory_Grothendieck_map___rarg(x_3, x_8, x_10, x_12);
+lean_inc(x_6);
+lean_inc(x_4);
+lean_inc(x_1);
+x_14 = l_CategoryTheory_Grothendieck_pre___rarg(x_1, lean_box(0), x_3, x_4, x_6);
+x_15 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preNatIso___spec__6___rarg(x_1, lean_box(0), x_3, x_4, x_5, x_6, x_13, x_14);
+lean_inc(x_4);
+lean_inc(x_1);
+lean_inc(x_5);
+x_16 = lean_alloc_closure((void*)(l_CategoryTheory_Grothendieck_preNatIso___rarg___lambda__1___boxed), 6, 5);
+lean_closure_set(x_16, 0, x_5);
+lean_closure_set(x_16, 1, x_1);
+lean_closure_set(x_16, 2, x_4);
+lean_closure_set(x_16, 3, x_6);
+lean_closure_set(x_16, 4, x_7);
+x_17 = l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Grothendieck_preNatIso___spec__8___rarg(x_1, lean_box(0), x_3, x_4, x_5, x_9, x_15, x_16, lean_box(0));
+lean_dec(x_15);
+lean_dec(x_9);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_17;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_preNatIso(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Grothendieck_preNatIso___rarg), 7, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preNatIso___spec__1___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preNatIso___spec__1___rarg(x_1, x_2, x_3);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preNatIso___spec__1___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preNatIso___spec__1(x_1, x_2, x_3);
+lean_dec(x_2);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preNatIso___spec__2___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preNatIso___spec__2___rarg(x_1, x_2, x_3);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preNatIso___spec__2___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preNatIso___spec__2(x_1, x_2, x_3);
+lean_dec(x_2);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preNatIso___spec__4___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preNatIso___spec__4___rarg(x_1, x_2, x_3);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preNatIso___spec__4___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preNatIso___spec__4(x_1, x_2, x_3);
+lean_dec(x_2);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preNatIso___spec__5___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preNatIso___spec__5___rarg(x_1, x_2, x_3);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preNatIso___spec__5___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preNatIso___spec__5(x_1, x_2, x_3);
+lean_dec(x_2);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerRight___at_CategoryTheory_Grothendieck_preNatIso___spec__3___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_whiskerRight___at_CategoryTheory_Grothendieck_preNatIso___spec__3(x_1, x_2, x_3, x_4);
+lean_dec(x_4);
+lean_dec(x_2);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preNatIso___spec__6___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8) {
+_start:
+{
+lean_object* x_9; 
+x_9 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preNatIso___spec__6___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8);
+lean_dec(x_6);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_9;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_symm___at_CategoryTheory_Grothendieck_preNatIso___spec__7___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_Iso_symm___at_CategoryTheory_Grothendieck_preNatIso___spec__7___rarg(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Grothendieck_preNatIso___spec__8___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8, lean_object* x_9) {
+_start:
+{
+lean_object* x_10; 
+x_10 = l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Grothendieck_preNatIso___spec__8___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8, x_9);
+lean_dec(x_7);
+lean_dec(x_6);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_10;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_preNatIso___rarg___lambda__1___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = l_CategoryTheory_Grothendieck_preNatIso___rarg___lambda__1(x_1, x_2, x_3, x_4, x_5, x_6);
+lean_dec(x_2);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preInv___spec__1___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; lean_object* x_6; 
+lean_inc(x_2);
+lean_inc(x_3);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__1), 3, 2);
+lean_closure_set(x_4, 0, x_3);
+lean_closure_set(x_4, 1, x_2);
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__2), 5, 2);
+lean_closure_set(x_5, 0, x_3);
+lean_closure_set(x_5, 1, x_2);
+x_6 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_6, 0, x_4);
+lean_ctor_set(x_6, 1, x_5);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preInv___spec__1(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preInv___spec__1___rarg___boxed), 3, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preInv___spec__2___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; lean_object* x_6; 
+lean_inc(x_2);
+lean_inc(x_3);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__1), 3, 2);
+lean_closure_set(x_4, 0, x_3);
+lean_closure_set(x_4, 1, x_2);
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__2), 5, 2);
+lean_closure_set(x_5, 0, x_3);
+lean_closure_set(x_5, 1, x_2);
+x_6 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_6, 0, x_4);
+lean_ctor_set(x_6, 1, x_5);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preInv___spec__2(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preInv___spec__2___rarg___boxed), 3, 0);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preInv___spec__4___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; lean_object* x_6; 
+lean_inc(x_2);
+lean_inc(x_3);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__1), 3, 2);
+lean_closure_set(x_4, 0, x_3);
+lean_closure_set(x_4, 1, x_2);
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__2), 5, 2);
+lean_closure_set(x_5, 0, x_3);
+lean_closure_set(x_5, 1, x_2);
+x_6 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_6, 0, x_4);
+lean_ctor_set(x_6, 1, x_5);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preInv___spec__4(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preInv___spec__4___rarg___boxed), 3, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preInv___spec__5___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; lean_object* x_6; 
+lean_inc(x_2);
+lean_inc(x_3);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__1), 3, 2);
+lean_closure_set(x_4, 0, x_3);
+lean_closure_set(x_4, 1, x_2);
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__2), 5, 2);
+lean_closure_set(x_5, 0, x_3);
+lean_closure_set(x_5, 1, x_2);
+x_6 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_6, 0, x_4);
+lean_ctor_set(x_6, 1, x_5);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preInv___spec__5(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preInv___spec__5___rarg___boxed), 3, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerRight___at_CategoryTheory_Grothendieck_preInv___spec__3___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_whiskerRight___elambda__1___rarg), 5, 4);
+lean_closure_set(x_5, 0, x_1);
+lean_closure_set(x_5, 1, x_2);
+lean_closure_set(x_5, 2, x_3);
+lean_closure_set(x_5, 3, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerRight___at_CategoryTheory_Grothendieck_preInv___spec__3(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_whiskerRight___at_CategoryTheory_Grothendieck_preInv___spec__3___rarg), 4, 0);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preInv___spec__6___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; lean_object* x_9; lean_object* x_10; 
+lean_inc(x_6);
+lean_inc(x_7);
+x_8 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__1), 3, 2);
+lean_closure_set(x_8, 0, x_7);
+lean_closure_set(x_8, 1, x_6);
+x_9 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__2), 5, 2);
+lean_closure_set(x_9, 0, x_7);
+lean_closure_set(x_9, 1, x_6);
+x_10 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_10, 0, x_8);
+lean_ctor_set(x_10, 1, x_9);
+return x_10;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preInv___spec__6(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preInv___spec__6___rarg___boxed), 7, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_preInv___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; lean_object* x_11; lean_object* x_12; lean_object* x_13; lean_object* x_14; lean_object* x_15; lean_object* x_16; lean_object* x_17; 
+x_6 = lean_ctor_get(x_5, 1);
+lean_inc(x_6);
+x_7 = lean_ctor_get(x_5, 0);
+lean_inc(x_7);
+lean_inc(x_7);
+lean_inc(x_6);
+x_8 = l_CategoryTheory_Functor_comp___rarg(x_1, lean_box(0), x_3, lean_box(0), x_1, x_6, x_7);
+lean_inc(x_4);
+lean_inc(x_8);
+x_9 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preInv___spec__1___rarg(x_1, x_8, x_4);
+lean_inc(x_4);
+x_10 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preInv___spec__2___rarg(x_3, x_7, x_4);
+x_11 = l_CategoryTheory_Functor_id___rarg(x_1);
+x_12 = lean_ctor_get(x_5, 3);
+lean_inc(x_12);
+x_13 = lean_ctor_get(x_12, 1);
+lean_inc(x_13);
+lean_dec(x_12);
+lean_inc(x_4);
+x_14 = lean_alloc_closure((void*)(l_CategoryTheory_whiskerRight___elambda__1___rarg), 5, 4);
+lean_closure_set(x_14, 0, x_11);
+lean_closure_set(x_14, 1, x_8);
+lean_closure_set(x_14, 2, x_13);
+lean_closure_set(x_14, 3, x_4);
+lean_inc(x_4);
+lean_inc(x_1);
+x_15 = l_CategoryTheory_Grothendieck_map___rarg(x_1, x_4, x_9, x_14);
+lean_inc(x_3);
+x_16 = l_CategoryTheory_Grothendieck_pre___rarg(x_3, lean_box(0), x_1, x_10, x_6);
+x_17 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preInv___spec__6___rarg(x_1, lean_box(0), x_3, x_4, x_5, x_15, x_16);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_17;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_preInv(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Grothendieck_preInv___rarg), 5, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preInv___spec__1___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preInv___spec__1___rarg(x_1, x_2, x_3);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preInv___spec__2___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preInv___spec__2___rarg(x_1, x_2, x_3);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preInv___spec__2___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preInv___spec__2(x_1, x_2, x_3);
+lean_dec(x_2);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preInv___spec__4___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preInv___spec__4___rarg(x_1, x_2, x_3);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preInv___spec__5___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preInv___spec__5___rarg(x_1, x_2, x_3);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerRight___at_CategoryTheory_Grothendieck_preInv___spec__3___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_CategoryTheory_whiskerRight___at_CategoryTheory_Grothendieck_preInv___spec__3(x_1, x_2);
+lean_dec(x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preInv___spec__6___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; 
+x_8 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preInv___spec__6___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preUnitIso___spec__1___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; lean_object* x_6; 
+lean_inc(x_2);
+lean_inc(x_3);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__1), 3, 2);
+lean_closure_set(x_4, 0, x_3);
+lean_closure_set(x_4, 1, x_2);
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__2), 5, 2);
+lean_closure_set(x_5, 0, x_3);
+lean_closure_set(x_5, 1, x_2);
+x_6 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_6, 0, x_4);
+lean_ctor_set(x_6, 1, x_5);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preUnitIso___spec__1(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preUnitIso___spec__1___rarg___boxed), 3, 0);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preUnitIso___spec__2___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; lean_object* x_6; 
+lean_inc(x_2);
+lean_inc(x_3);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__1), 3, 2);
+lean_closure_set(x_4, 0, x_3);
+lean_closure_set(x_4, 1, x_2);
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__2), 5, 2);
+lean_closure_set(x_5, 0, x_3);
+lean_closure_set(x_5, 1, x_2);
+x_6 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_6, 0, x_4);
+lean_ctor_set(x_6, 1, x_5);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preUnitIso___spec__2(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preUnitIso___spec__2___rarg___boxed), 3, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preUnitIso___spec__3___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; lean_object* x_6; 
+lean_inc(x_2);
+lean_inc(x_3);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__1), 3, 2);
+lean_closure_set(x_4, 0, x_3);
+lean_closure_set(x_4, 1, x_2);
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__2), 5, 2);
+lean_closure_set(x_5, 0, x_3);
+lean_closure_set(x_5, 1, x_2);
+x_6 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_6, 0, x_4);
+lean_ctor_set(x_6, 1, x_5);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preUnitIso___spec__3(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preUnitIso___spec__3___rarg___boxed), 3, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_symm___at_CategoryTheory_Grothendieck_preUnitIso___spec__4___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+x_5 = lean_ctor_get(x_4, 1);
+x_6 = lean_ctor_get(x_4, 0);
+lean_inc(x_6);
+lean_inc(x_5);
+x_7 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_7, 0, x_5);
+lean_ctor_set(x_7, 1, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_symm___at_CategoryTheory_Grothendieck_preUnitIso___spec__4(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Iso_symm___at_CategoryTheory_Grothendieck_preUnitIso___spec__4___rarg___boxed), 4, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preUnitIso___spec__6___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; lean_object* x_6; 
+lean_inc(x_2);
+lean_inc(x_3);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__1), 3, 2);
+lean_closure_set(x_4, 0, x_3);
+lean_closure_set(x_4, 1, x_2);
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__2), 5, 2);
+lean_closure_set(x_5, 0, x_3);
+lean_closure_set(x_5, 1, x_2);
+x_6 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_6, 0, x_4);
+lean_ctor_set(x_6, 1, x_5);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preUnitIso___spec__6(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preUnitIso___spec__6___rarg___boxed), 3, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preUnitIso___spec__7___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; lean_object* x_6; 
+lean_inc(x_2);
+lean_inc(x_3);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__1), 3, 2);
+lean_closure_set(x_4, 0, x_3);
+lean_closure_set(x_4, 1, x_2);
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__2), 5, 2);
+lean_closure_set(x_5, 0, x_3);
+lean_closure_set(x_5, 1, x_2);
+x_6 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_6, 0, x_4);
+lean_ctor_set(x_6, 1, x_5);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preUnitIso___spec__7(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preUnitIso___spec__7___rarg___boxed), 3, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerRight___at_CategoryTheory_Grothendieck_preUnitIso___spec__5___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_whiskerRight___elambda__1___rarg), 5, 4);
+lean_closure_set(x_5, 0, x_1);
+lean_closure_set(x_5, 1, x_2);
+lean_closure_set(x_5, 2, x_3);
+lean_closure_set(x_5, 3, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerRight___at_CategoryTheory_Grothendieck_preUnitIso___spec__5(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_whiskerRight___at_CategoryTheory_Grothendieck_preUnitIso___spec__5___rarg), 4, 0);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preUnitIso___spec__8___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; lean_object* x_9; lean_object* x_10; 
+lean_inc(x_6);
+lean_inc(x_7);
+x_8 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__1), 3, 2);
+lean_closure_set(x_8, 0, x_7);
+lean_closure_set(x_8, 1, x_6);
+x_9 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__2), 5, 2);
+lean_closure_set(x_9, 0, x_7);
+lean_closure_set(x_9, 1, x_6);
+x_10 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_10, 0, x_8);
+lean_ctor_set(x_10, 1, x_9);
+return x_10;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preUnitIso___spec__8(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preUnitIso___spec__8___rarg___boxed), 7, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_symm___at_CategoryTheory_Grothendieck_preUnitIso___spec__9___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8) {
+_start:
+{
+lean_object* x_9; lean_object* x_10; lean_object* x_11; 
+x_9 = lean_ctor_get(x_8, 1);
+x_10 = lean_ctor_get(x_8, 0);
+lean_inc(x_10);
+lean_inc(x_9);
+x_11 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_11, 0, x_9);
+lean_ctor_set(x_11, 1, x_10);
+return x_11;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_symm___at_CategoryTheory_Grothendieck_preUnitIso___spec__9(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Iso_symm___at_CategoryTheory_Grothendieck_preUnitIso___spec__9___rarg___boxed), 8, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_preUnitIso___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; lean_object* x_11; lean_object* x_12; lean_object* x_13; lean_object* x_14; lean_object* x_15; lean_object* x_16; lean_object* x_17; lean_object* x_18; lean_object* x_19; lean_object* x_20; lean_object* x_21; lean_object* x_22; 
+x_6 = lean_ctor_get(x_5, 0);
+lean_inc(x_6);
+x_7 = lean_ctor_get(x_5, 1);
+lean_inc(x_7);
+lean_inc(x_6);
+x_8 = l_CategoryTheory_Functor_comp___rarg(x_3, lean_box(0), x_1, lean_box(0), x_3, x_6, x_7);
+lean_inc(x_4);
+x_9 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preUnitIso___spec__1___rarg(x_3, x_6, x_4);
+lean_inc(x_9);
+lean_inc(x_8);
+x_10 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preUnitIso___spec__2___rarg(x_3, x_8, x_9);
+lean_inc(x_8);
+lean_inc(x_9);
+lean_inc(x_3);
+x_11 = l_CategoryTheory_Grothendieck_pre___rarg(x_3, lean_box(0), x_3, x_9, x_8);
+x_12 = l_CategoryTheory_Functor_id___rarg(x_3);
+lean_inc(x_9);
+lean_inc(x_12);
+x_13 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preUnitIso___spec__3___rarg(x_3, x_12, x_9);
+x_14 = lean_ctor_get(x_5, 2);
+lean_inc(x_14);
+x_15 = l_CategoryTheory_Iso_symm___at_CategoryTheory_Grothendieck_preUnitIso___spec__4___rarg(x_3, x_12, x_8, x_14);
+x_16 = lean_ctor_get(x_14, 1);
+lean_inc(x_16);
+lean_dec(x_14);
+lean_inc(x_9);
+lean_inc(x_12);
+lean_inc(x_8);
+x_17 = lean_alloc_closure((void*)(l_CategoryTheory_whiskerRight___elambda__1___rarg), 5, 4);
+lean_closure_set(x_17, 0, x_8);
+lean_closure_set(x_17, 1, x_12);
+lean_closure_set(x_17, 2, x_16);
+lean_closure_set(x_17, 3, x_9);
+lean_inc(x_3);
+x_18 = l_CategoryTheory_Grothendieck_map___rarg(x_3, x_10, x_13, x_17);
+lean_inc(x_12);
+lean_inc(x_9);
+lean_inc(x_3);
+x_19 = l_CategoryTheory_Grothendieck_pre___rarg(x_3, lean_box(0), x_3, x_9, x_12);
+x_20 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preUnitIso___spec__8___rarg(x_1, lean_box(0), x_3, x_4, x_5, x_18, x_19);
+lean_inc_n(x_3, 2);
+x_21 = l_CategoryTheory_Grothendieck_preNatIso___rarg(x_3, lean_box(0), x_3, x_9, x_8, x_12, x_15);
+x_22 = l_CategoryTheory_Iso_symm___at_CategoryTheory_Grothendieck_preUnitIso___spec__9___rarg(x_1, lean_box(0), x_3, x_4, x_5, x_11, x_20, x_21);
+lean_dec(x_21);
+lean_dec(x_20);
+lean_dec(x_11);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+return x_22;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_preUnitIso(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Grothendieck_preUnitIso___rarg___boxed), 5, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preUnitIso___spec__1___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preUnitIso___spec__1___rarg(x_1, x_2, x_3);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preUnitIso___spec__1___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preUnitIso___spec__1(x_1, x_2, x_3);
+lean_dec(x_2);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preUnitIso___spec__2___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preUnitIso___spec__2___rarg(x_1, x_2, x_3);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preUnitIso___spec__3___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preUnitIso___spec__3___rarg(x_1, x_2, x_3);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_symm___at_CategoryTheory_Grothendieck_preUnitIso___spec__4___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_Iso_symm___at_CategoryTheory_Grothendieck_preUnitIso___spec__4___rarg(x_1, x_2, x_3, x_4);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preUnitIso___spec__6___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preUnitIso___spec__6___rarg(x_1, x_2, x_3);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preUnitIso___spec__7___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preUnitIso___spec__7___rarg(x_1, x_2, x_3);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerRight___at_CategoryTheory_Grothendieck_preUnitIso___spec__5___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_CategoryTheory_whiskerRight___at_CategoryTheory_Grothendieck_preUnitIso___spec__5(x_1, x_2);
+lean_dec(x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preUnitIso___spec__8___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; 
+x_8 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preUnitIso___spec__8___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_symm___at_CategoryTheory_Grothendieck_preUnitIso___spec__9___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8) {
+_start:
+{
+lean_object* x_9; 
+x_9 = l_CategoryTheory_Iso_symm___at_CategoryTheory_Grothendieck_preUnitIso___spec__9___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8);
+lean_dec(x_8);
+lean_dec(x_7);
+lean_dec(x_6);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_9;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_preUnitIso___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_Grothendieck_preUnitIso___rarg(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_1);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__1___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; lean_object* x_6; 
+lean_inc(x_2);
+lean_inc(x_3);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__1), 3, 2);
+lean_closure_set(x_4, 0, x_3);
+lean_closure_set(x_4, 1, x_2);
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__2), 5, 2);
+lean_closure_set(x_5, 0, x_3);
+lean_closure_set(x_5, 1, x_2);
+x_6 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_6, 0, x_4);
+lean_ctor_set(x_6, 1, x_5);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__1(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__1___rarg___boxed), 3, 0);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_preEquivalence___spec__2___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; 
+x_6 = l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_mapIdIso___spec__2___rarg___closed__1;
+x_7 = l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_mapIdIso___spec__2___rarg___closed__2;
+x_8 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_8, 0, x_6);
+lean_ctor_set(x_8, 1, x_7);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_preEquivalence___spec__2(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_preEquivalence___spec__2___rarg___boxed), 5, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__3___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; lean_object* x_6; 
+lean_inc(x_2);
+lean_inc(x_3);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__1), 3, 2);
+lean_closure_set(x_4, 0, x_3);
+lean_closure_set(x_4, 1, x_2);
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__2), 5, 2);
+lean_closure_set(x_5, 0, x_3);
+lean_closure_set(x_5, 1, x_2);
+x_6 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_6, 0, x_4);
+lean_ctor_set(x_6, 1, x_5);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__3(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__3___rarg___boxed), 3, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__4___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; lean_object* x_6; 
+lean_inc(x_2);
+lean_inc(x_3);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__1), 3, 2);
+lean_closure_set(x_4, 0, x_3);
+lean_closure_set(x_4, 1, x_2);
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__2), 5, 2);
+lean_closure_set(x_5, 0, x_3);
+lean_closure_set(x_5, 1, x_2);
+x_6 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_6, 0, x_4);
+lean_ctor_set(x_6, 1, x_5);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__4(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__4___rarg___boxed), 3, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__6___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; lean_object* x_6; 
+lean_inc(x_2);
+lean_inc(x_3);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__1), 3, 2);
+lean_closure_set(x_4, 0, x_3);
+lean_closure_set(x_4, 1, x_2);
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__2), 5, 2);
+lean_closure_set(x_5, 0, x_3);
+lean_closure_set(x_5, 1, x_2);
+x_6 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_6, 0, x_4);
+lean_ctor_set(x_6, 1, x_5);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__6(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__6___rarg___boxed), 3, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__7___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; lean_object* x_6; 
+lean_inc(x_2);
+lean_inc(x_3);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__1), 3, 2);
+lean_closure_set(x_4, 0, x_3);
+lean_closure_set(x_4, 1, x_2);
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__2), 5, 2);
+lean_closure_set(x_5, 0, x_3);
+lean_closure_set(x_5, 1, x_2);
+x_6 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_6, 0, x_4);
+lean_ctor_set(x_6, 1, x_5);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__7(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__7___rarg___boxed), 3, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerRight___at_CategoryTheory_Grothendieck_preEquivalence___spec__5___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_whiskerRight___elambda__1___rarg), 5, 4);
+lean_closure_set(x_5, 0, x_1);
+lean_closure_set(x_5, 1, x_2);
+lean_closure_set(x_5, 2, x_3);
+lean_closure_set(x_5, 3, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerRight___at_CategoryTheory_Grothendieck_preEquivalence___spec__5(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_whiskerRight___at_CategoryTheory_Grothendieck_preEquivalence___spec__5___rarg), 4, 0);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__9___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; lean_object* x_6; 
+lean_inc(x_2);
+lean_inc(x_3);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__1), 3, 2);
+lean_closure_set(x_4, 0, x_3);
+lean_closure_set(x_4, 1, x_2);
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__2), 5, 2);
+lean_closure_set(x_5, 0, x_3);
+lean_closure_set(x_5, 1, x_2);
+x_6 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_6, 0, x_4);
+lean_ctor_set(x_6, 1, x_5);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__9(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__9___rarg___boxed), 3, 0);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__10___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; lean_object* x_6; 
+lean_inc(x_2);
+lean_inc(x_3);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__1), 3, 2);
+lean_closure_set(x_4, 0, x_3);
+lean_closure_set(x_4, 1, x_2);
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__2), 5, 2);
+lean_closure_set(x_5, 0, x_3);
+lean_closure_set(x_5, 1, x_2);
+x_6 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_6, 0, x_4);
+lean_ctor_set(x_6, 1, x_5);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__10(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__10___rarg___boxed), 3, 0);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerLeft___at_CategoryTheory_Grothendieck_preEquivalence___spec__8___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_whiskerLeft___elambda__1___rarg___boxed), 5, 4);
+lean_closure_set(x_5, 0, x_1);
+lean_closure_set(x_5, 1, x_2);
+lean_closure_set(x_5, 2, x_3);
+lean_closure_set(x_5, 3, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerLeft___at_CategoryTheory_Grothendieck_preEquivalence___spec__8(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_whiskerLeft___at_CategoryTheory_Grothendieck_preEquivalence___spec__8___rarg), 4, 0);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__11___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; lean_object* x_6; 
+lean_inc(x_2);
+lean_inc(x_3);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__1), 3, 2);
+lean_closure_set(x_4, 0, x_3);
+lean_closure_set(x_4, 1, x_2);
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__2), 5, 2);
+lean_closure_set(x_5, 0, x_3);
+lean_closure_set(x_5, 1, x_2);
+x_6 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_6, 0, x_4);
+lean_ctor_set(x_6, 1, x_5);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__11(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__11___rarg___boxed), 3, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__13___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; lean_object* x_6; 
+lean_inc(x_2);
+lean_inc(x_3);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__1), 3, 2);
+lean_closure_set(x_4, 0, x_3);
+lean_closure_set(x_4, 1, x_2);
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__2), 5, 2);
+lean_closure_set(x_5, 0, x_3);
+lean_closure_set(x_5, 1, x_2);
+x_6 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_6, 0, x_4);
+lean_ctor_set(x_6, 1, x_5);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__13(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__13___rarg___boxed), 3, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__14___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; lean_object* x_6; 
+lean_inc(x_2);
+lean_inc(x_3);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__1), 3, 2);
+lean_closure_set(x_4, 0, x_3);
+lean_closure_set(x_4, 1, x_2);
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__2), 5, 2);
+lean_closure_set(x_5, 0, x_3);
+lean_closure_set(x_5, 1, x_2);
+x_6 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_6, 0, x_4);
+lean_ctor_set(x_6, 1, x_5);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__14(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__14___rarg___boxed), 3, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerRight___at_CategoryTheory_Grothendieck_preEquivalence___spec__12___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_whiskerRight___elambda__1___rarg), 5, 4);
+lean_closure_set(x_5, 0, x_1);
+lean_closure_set(x_5, 1, x_2);
+lean_closure_set(x_5, 2, x_3);
+lean_closure_set(x_5, 3, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerRight___at_CategoryTheory_Grothendieck_preEquivalence___spec__12(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_whiskerRight___at_CategoryTheory_Grothendieck_preEquivalence___spec__12___rarg), 4, 0);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__15___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; lean_object* x_9; lean_object* x_10; 
+lean_inc(x_6);
+lean_inc(x_7);
+x_8 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__1), 3, 2);
+lean_closure_set(x_8, 0, x_7);
+lean_closure_set(x_8, 1, x_6);
+x_9 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__2), 5, 2);
+lean_closure_set(x_9, 0, x_7);
+lean_closure_set(x_9, 1, x_6);
+x_10 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_10, 0, x_8);
+lean_ctor_set(x_10, 1, x_9);
+return x_10;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__15(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__15___rarg___boxed), 7, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__16___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; lean_object* x_9; lean_object* x_10; 
+lean_inc(x_6);
+lean_inc(x_7);
+x_8 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__1), 3, 2);
+lean_closure_set(x_8, 0, x_7);
+lean_closure_set(x_8, 1, x_6);
+x_9 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__2), 5, 2);
+lean_closure_set(x_9, 0, x_7);
+lean_closure_set(x_9, 1, x_6);
+x_10 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_10, 0, x_8);
+lean_ctor_set(x_10, 1, x_9);
+return x_10;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__16(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__16___rarg___boxed), 7, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_id___at_CategoryTheory_Grothendieck_preEquivalence___spec__19___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; 
+x_7 = lean_ctor_get(x_5, 0);
+lean_inc(x_7);
+lean_dec(x_5);
+x_8 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__1___rarg(x_3, x_7, x_4);
+x_9 = l_CategoryTheory_Grothendieck_instCategory___rarg(x_3, x_8);
+x_10 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_id___elambda__1___rarg), 3, 2);
+lean_closure_set(x_10, 0, x_9);
+lean_closure_set(x_10, 1, x_6);
+return x_10;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_id___at_CategoryTheory_Grothendieck_preEquivalence___spec__19(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_id___at_CategoryTheory_Grothendieck_preEquivalence___spec__19___rarg___boxed), 6, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Grothendieck_preEquivalence___spec__18___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8) {
+_start:
+{
+lean_object* x_9; 
+x_9 = l_CategoryTheory_NatTrans_id___at_CategoryTheory_Grothendieck_preEquivalence___spec__19___rarg(x_1, lean_box(0), x_3, x_4, x_5, x_7);
+return x_9;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Grothendieck_preEquivalence___spec__18(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_eqToHom___at_CategoryTheory_Grothendieck_preEquivalence___spec__18___rarg___boxed), 8, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_id___at_CategoryTheory_Grothendieck_preEquivalence___spec__21___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; 
+x_7 = lean_ctor_get(x_5, 0);
+lean_inc(x_7);
+lean_dec(x_5);
+x_8 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__1___rarg(x_3, x_7, x_4);
+x_9 = l_CategoryTheory_Grothendieck_instCategory___rarg(x_3, x_8);
+x_10 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_id___elambda__1___rarg), 3, 2);
+lean_closure_set(x_10, 0, x_9);
+lean_closure_set(x_10, 1, x_6);
+return x_10;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_id___at_CategoryTheory_Grothendieck_preEquivalence___spec__21(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_id___at_CategoryTheory_Grothendieck_preEquivalence___spec__21___rarg___boxed), 6, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Grothendieck_preEquivalence___spec__20___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8) {
+_start:
+{
+lean_object* x_9; 
+x_9 = l_CategoryTheory_NatTrans_id___at_CategoryTheory_Grothendieck_preEquivalence___spec__21___rarg(x_1, lean_box(0), x_3, x_4, x_5, x_7);
+return x_9;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Grothendieck_preEquivalence___spec__20(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_eqToHom___at_CategoryTheory_Grothendieck_preEquivalence___spec__20___rarg___boxed), 8, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToIso___at_CategoryTheory_Grothendieck_preEquivalence___spec__17___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8) {
+_start:
+{
+lean_object* x_9; lean_object* x_10; lean_object* x_11; 
+lean_inc(x_5);
+lean_inc(x_4);
+lean_inc(x_3);
+x_9 = l_CategoryTheory_NatTrans_id___at_CategoryTheory_Grothendieck_preEquivalence___spec__19___rarg(x_1, lean_box(0), x_3, x_4, x_5, x_7);
+x_10 = l_CategoryTheory_NatTrans_id___at_CategoryTheory_Grothendieck_preEquivalence___spec__21___rarg(x_1, lean_box(0), x_3, x_4, x_5, x_6);
+x_11 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_11, 0, x_9);
+lean_ctor_set(x_11, 1, x_10);
+return x_11;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToIso___at_CategoryTheory_Grothendieck_preEquivalence___spec__17(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_eqToIso___at_CategoryTheory_Grothendieck_preEquivalence___spec__17___rarg___boxed), 8, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__22___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; lean_object* x_9; lean_object* x_10; 
+lean_inc(x_6);
+lean_inc(x_7);
+x_8 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__1), 3, 2);
+lean_closure_set(x_8, 0, x_7);
+lean_closure_set(x_8, 1, x_6);
+x_9 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__2), 5, 2);
+lean_closure_set(x_9, 0, x_7);
+lean_closure_set(x_9, 1, x_6);
+x_10 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_10, 0, x_8);
+lean_ctor_set(x_10, 1, x_9);
+return x_10;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__22(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__22___rarg___boxed), 7, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__25___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; lean_object* x_9; lean_object* x_10; 
+lean_inc(x_6);
+lean_inc(x_7);
+x_8 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__1), 3, 2);
+lean_closure_set(x_8, 0, x_7);
+lean_closure_set(x_8, 1, x_6);
+x_9 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__2), 5, 2);
+lean_closure_set(x_9, 0, x_7);
+lean_closure_set(x_9, 1, x_6);
+x_10 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_10, 0, x_8);
+lean_ctor_set(x_10, 1, x_9);
+return x_10;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__25(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__25___rarg___boxed), 7, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__27___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; lean_object* x_9; lean_object* x_10; 
+lean_inc(x_6);
+lean_inc(x_7);
+x_8 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__1), 3, 2);
+lean_closure_set(x_8, 0, x_7);
+lean_closure_set(x_8, 1, x_6);
+x_9 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__2), 5, 2);
+lean_closure_set(x_9, 0, x_7);
+lean_closure_set(x_9, 1, x_6);
+x_10 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_10, 0, x_8);
+lean_ctor_set(x_10, 1, x_9);
+return x_10;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__27(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__27___rarg___boxed), 7, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__28___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; lean_object* x_9; lean_object* x_10; 
+lean_inc(x_6);
+lean_inc(x_7);
+x_8 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__1), 3, 2);
+lean_closure_set(x_8, 0, x_7);
+lean_closure_set(x_8, 1, x_6);
+x_9 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__2), 5, 2);
+lean_closure_set(x_9, 0, x_7);
+lean_closure_set(x_9, 1, x_6);
+x_10 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_10, 0, x_8);
+lean_ctor_set(x_10, 1, x_9);
+return x_10;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__28(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__28___rarg___boxed), 7, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerLeft___at_CategoryTheory_Grothendieck_preEquivalence___spec__26___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_whiskerLeft___elambda__1___rarg___boxed), 5, 4);
+lean_closure_set(x_5, 0, x_1);
+lean_closure_set(x_5, 1, x_2);
+lean_closure_set(x_5, 2, x_3);
+lean_closure_set(x_5, 3, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerLeft___at_CategoryTheory_Grothendieck_preEquivalence___spec__26(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = lean_alloc_closure((void*)(l_CategoryTheory_whiskerLeft___at_CategoryTheory_Grothendieck_preEquivalence___spec__26___rarg), 4, 0);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__29___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; lean_object* x_9; lean_object* x_10; 
+lean_inc(x_6);
+lean_inc(x_7);
+x_8 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__1), 3, 2);
+lean_closure_set(x_8, 0, x_7);
+lean_closure_set(x_8, 1, x_6);
+x_9 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__2), 5, 2);
+lean_closure_set(x_9, 0, x_7);
+lean_closure_set(x_9, 1, x_6);
+x_10 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_10, 0, x_8);
+lean_ctor_set(x_10, 1, x_9);
+return x_10;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__29(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__29___rarg___boxed), 7, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__31___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; lean_object* x_9; lean_object* x_10; 
+lean_inc(x_6);
+lean_inc(x_7);
+x_8 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__1), 3, 2);
+lean_closure_set(x_8, 0, x_7);
+lean_closure_set(x_8, 1, x_6);
+x_9 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__2), 5, 2);
+lean_closure_set(x_9, 0, x_7);
+lean_closure_set(x_9, 1, x_6);
+x_10 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_10, 0, x_8);
+lean_ctor_set(x_10, 1, x_9);
+return x_10;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__31(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__31___rarg___boxed), 7, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__32___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; lean_object* x_9; lean_object* x_10; 
+lean_inc(x_6);
+lean_inc(x_7);
+x_8 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__1), 3, 2);
+lean_closure_set(x_8, 0, x_7);
+lean_closure_set(x_8, 1, x_6);
+x_9 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__2), 5, 2);
+lean_closure_set(x_9, 0, x_7);
+lean_closure_set(x_9, 1, x_6);
+x_10 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_10, 0, x_8);
+lean_ctor_set(x_10, 1, x_9);
+return x_10;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__32(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__32___rarg___boxed), 7, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerLeft___at_CategoryTheory_Grothendieck_preEquivalence___spec__30___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_whiskerLeft___elambda__1___rarg___boxed), 5, 4);
+lean_closure_set(x_5, 0, x_1);
+lean_closure_set(x_5, 1, x_2);
+lean_closure_set(x_5, 2, x_3);
+lean_closure_set(x_5, 3, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerLeft___at_CategoryTheory_Grothendieck_preEquivalence___spec__30(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = lean_alloc_closure((void*)(l_CategoryTheory_whiskerLeft___at_CategoryTheory_Grothendieck_preEquivalence___spec__30___rarg), 4, 0);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__33___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; lean_object* x_9; lean_object* x_10; 
+lean_inc(x_6);
+lean_inc(x_7);
+x_8 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__1), 3, 2);
+lean_closure_set(x_8, 0, x_7);
+lean_closure_set(x_8, 1, x_6);
+x_9 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__2), 5, 2);
+lean_closure_set(x_9, 0, x_7);
+lean_closure_set(x_9, 1, x_6);
+x_10 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_10, 0, x_8);
+lean_ctor_set(x_10, 1, x_9);
+return x_10;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__33(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__33___rarg___boxed), 7, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__35___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; lean_object* x_9; lean_object* x_10; 
+lean_inc(x_6);
+lean_inc(x_7);
+x_8 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__1), 3, 2);
+lean_closure_set(x_8, 0, x_7);
+lean_closure_set(x_8, 1, x_6);
+x_9 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__2), 5, 2);
+lean_closure_set(x_9, 0, x_7);
+lean_closure_set(x_9, 1, x_6);
+x_10 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_10, 0, x_8);
+lean_ctor_set(x_10, 1, x_9);
+return x_10;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__35(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__35___rarg___boxed), 7, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__36___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; lean_object* x_9; lean_object* x_10; 
+lean_inc(x_6);
+lean_inc(x_7);
+x_8 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__1), 3, 2);
+lean_closure_set(x_8, 0, x_7);
+lean_closure_set(x_8, 1, x_6);
+x_9 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__2), 5, 2);
+lean_closure_set(x_9, 0, x_7);
+lean_closure_set(x_9, 1, x_6);
+x_10 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_10, 0, x_8);
+lean_ctor_set(x_10, 1, x_9);
+return x_10;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__36(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__36___rarg___boxed), 7, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerLeft___at_CategoryTheory_Grothendieck_preEquivalence___spec__34___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_whiskerLeft___elambda__1___rarg___boxed), 5, 4);
+lean_closure_set(x_5, 0, x_1);
+lean_closure_set(x_5, 1, x_2);
+lean_closure_set(x_5, 2, x_3);
+lean_closure_set(x_5, 3, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerLeft___at_CategoryTheory_Grothendieck_preEquivalence___spec__34(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = lean_alloc_closure((void*)(l_CategoryTheory_whiskerLeft___at_CategoryTheory_Grothendieck_preEquivalence___spec__34___rarg), 4, 0);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__37___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; lean_object* x_9; lean_object* x_10; 
+lean_inc(x_6);
+lean_inc(x_7);
+x_8 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__1), 3, 2);
+lean_closure_set(x_8, 0, x_7);
+lean_closure_set(x_8, 1, x_6);
+x_9 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__2), 5, 2);
+lean_closure_set(x_9, 0, x_7);
+lean_closure_set(x_9, 1, x_6);
+x_10 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_10, 0, x_8);
+lean_ctor_set(x_10, 1, x_9);
+return x_10;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__37(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__37___rarg___boxed), 7, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__38___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; lean_object* x_9; lean_object* x_10; 
+lean_inc(x_6);
+lean_inc(x_7);
+x_8 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__1), 3, 2);
+lean_closure_set(x_8, 0, x_7);
+lean_closure_set(x_8, 1, x_6);
+x_9 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__2), 5, 2);
+lean_closure_set(x_9, 0, x_7);
+lean_closure_set(x_9, 1, x_6);
+x_10 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_10, 0, x_8);
+lean_ctor_set(x_10, 1, x_9);
+return x_10;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__38(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__38___rarg___boxed), 7, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskeringLeft___at_CategoryTheory_Grothendieck_preEquivalence___spec__24___rarg___lambda__1(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; lean_object* x_9; lean_object* x_10; 
+lean_inc(x_7);
+x_8 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__25___rarg___boxed), 7, 6);
+lean_closure_set(x_8, 0, x_3);
+lean_closure_set(x_8, 1, lean_box(0));
+lean_closure_set(x_8, 2, x_4);
+lean_closure_set(x_8, 3, x_5);
+lean_closure_set(x_8, 4, x_6);
+lean_closure_set(x_8, 5, x_7);
+x_9 = lean_alloc_closure((void*)(l_CategoryTheory_whiskerLeft___at_CategoryTheory_Grothendieck_preEquivalence___spec__26___rarg), 4, 1);
+lean_closure_set(x_9, 0, x_7);
+x_10 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_10, 0, x_8);
+lean_ctor_set(x_10, 1, x_9);
+return x_10;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskeringLeft___at_CategoryTheory_Grothendieck_preEquivalence___spec__24___rarg___lambda__2(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; lean_object* x_11; lean_object* x_12; 
+x_6 = lean_ctor_get(x_4, 1);
+lean_inc(x_6);
+lean_dec(x_4);
+x_7 = lean_ctor_get(x_1, 0);
+lean_inc(x_7);
+lean_dec(x_1);
+lean_inc(x_5);
+x_8 = lean_apply_1(x_7, x_5);
+x_9 = lean_ctor_get(x_2, 0);
+lean_inc(x_9);
+lean_dec(x_2);
+lean_inc(x_5);
+x_10 = lean_apply_1(x_9, x_5);
+x_11 = lean_apply_1(x_3, x_5);
+x_12 = lean_apply_3(x_6, x_8, x_10, x_11);
+return x_12;
+}
+}
+static lean_object* _init_l_CategoryTheory_whiskeringLeft___at_CategoryTheory_Grothendieck_preEquivalence___spec__24___rarg___closed__1() {
+_start:
+{
+lean_object* x_1; 
+x_1 = lean_alloc_closure((void*)(l_CategoryTheory_whiskeringLeft___at_CategoryTheory_Grothendieck_preEquivalence___spec__24___rarg___lambda__2), 5, 0);
+return x_1;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskeringLeft___at_CategoryTheory_Grothendieck_preEquivalence___spec__24___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; lean_object* x_11; lean_object* x_12; lean_object* x_13; lean_object* x_14; lean_object* x_15; lean_object* x_16; lean_object* x_17; 
+x_6 = lean_ctor_get(x_5, 0);
+lean_inc(x_6);
+lean_inc(x_4);
+lean_inc(x_6);
+x_7 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__1___rarg(x_3, x_6, x_4);
+lean_inc(x_7);
+lean_inc(x_3);
+x_8 = l_CategoryTheory_Grothendieck_instCategory___rarg(x_3, x_7);
+x_9 = lean_ctor_get(x_5, 1);
+lean_inc(x_9);
+x_10 = l_CategoryTheory_Functor_comp___rarg(x_3, lean_box(0), x_1, lean_box(0), x_3, x_6, x_9);
+x_11 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__3___rarg(x_3, x_10, x_7);
+lean_inc(x_3);
+x_12 = l_CategoryTheory_Grothendieck_instCategory___rarg(x_3, x_11);
+lean_inc(x_8);
+x_13 = l_CategoryTheory_Functor_category___rarg(x_12, lean_box(0), x_8);
+lean_inc(x_8);
+x_14 = l_CategoryTheory_Functor_category___rarg(x_8, lean_box(0), x_8);
+x_15 = lean_alloc_closure((void*)(l_CategoryTheory_whiskeringLeft___at_CategoryTheory_Grothendieck_preEquivalence___spec__24___rarg___lambda__1___boxed), 7, 6);
+lean_closure_set(x_15, 0, x_13);
+lean_closure_set(x_15, 1, x_14);
+lean_closure_set(x_15, 2, x_1);
+lean_closure_set(x_15, 3, x_3);
+lean_closure_set(x_15, 4, x_4);
+lean_closure_set(x_15, 5, x_5);
+x_16 = l_CategoryTheory_whiskeringLeft___at_CategoryTheory_Grothendieck_preEquivalence___spec__24___rarg___closed__1;
+x_17 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_17, 0, x_15);
+lean_ctor_set(x_17, 1, x_16);
+return x_17;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskeringLeft___at_CategoryTheory_Grothendieck_preEquivalence___spec__24(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_whiskeringLeft___at_CategoryTheory_Grothendieck_preEquivalence___spec__24___rarg), 5, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_mapIso___at_CategoryTheory_Grothendieck_preEquivalence___spec__39___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8, lean_object* x_9) {
+_start:
+{
+lean_object* x_10; lean_object* x_11; lean_object* x_12; lean_object* x_13; lean_object* x_14; lean_object* x_15; 
+x_10 = lean_ctor_get(x_6, 1);
+lean_inc(x_10);
+lean_dec(x_6);
+x_11 = lean_ctor_get(x_9, 0);
+lean_inc(x_11);
+lean_inc(x_10);
+lean_inc(x_8);
+lean_inc(x_7);
+x_12 = lean_apply_3(x_10, x_7, x_8, x_11);
+x_13 = lean_ctor_get(x_9, 1);
+lean_inc(x_13);
+lean_dec(x_9);
+x_14 = lean_apply_3(x_10, x_8, x_7, x_13);
+x_15 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_15, 0, x_12);
+lean_ctor_set(x_15, 1, x_14);
+return x_15;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_mapIso___at_CategoryTheory_Grothendieck_preEquivalence___spec__39(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_mapIso___at_CategoryTheory_Grothendieck_preEquivalence___spec__39___rarg___boxed), 9, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_isoWhiskerLeft___at_CategoryTheory_Grothendieck_preEquivalence___spec__23___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8, lean_object* x_9) {
+_start:
+{
+lean_object* x_10; lean_object* x_11; lean_object* x_12; lean_object* x_13; 
+lean_inc(x_5);
+lean_inc(x_4);
+lean_inc(x_3);
+lean_inc(x_1);
+x_10 = l_CategoryTheory_whiskeringLeft___at_CategoryTheory_Grothendieck_preEquivalence___spec__24___rarg(x_1, lean_box(0), x_3, x_4, x_5);
+x_11 = lean_ctor_get(x_10, 0);
+lean_inc(x_11);
+lean_dec(x_10);
+x_12 = lean_apply_1(x_11, x_6);
+x_13 = l_CategoryTheory_Functor_mapIso___at_CategoryTheory_Grothendieck_preEquivalence___spec__39___rarg(x_1, lean_box(0), x_3, x_4, x_5, x_12, x_7, x_8, x_9);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_13;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_isoWhiskerLeft___at_CategoryTheory_Grothendieck_preEquivalence___spec__23(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_isoWhiskerLeft___at_CategoryTheory_Grothendieck_preEquivalence___spec__23___rarg), 9, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_id___at_CategoryTheory_Grothendieck_preEquivalence___spec__42___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; 
+x_7 = lean_ctor_get(x_5, 0);
+lean_inc(x_7);
+lean_dec(x_5);
+x_8 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__1___rarg(x_3, x_7, x_4);
+x_9 = l_CategoryTheory_Grothendieck_instCategory___rarg(x_3, x_8);
+x_10 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_id___elambda__1___rarg), 3, 2);
+lean_closure_set(x_10, 0, x_9);
+lean_closure_set(x_10, 1, x_6);
+return x_10;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_id___at_CategoryTheory_Grothendieck_preEquivalence___spec__42(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_id___at_CategoryTheory_Grothendieck_preEquivalence___spec__42___rarg___boxed), 6, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Grothendieck_preEquivalence___spec__41___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8) {
+_start:
+{
+lean_object* x_9; 
+x_9 = l_CategoryTheory_NatTrans_id___at_CategoryTheory_Grothendieck_preEquivalence___spec__42___rarg(x_1, lean_box(0), x_3, x_4, x_5, x_7);
+return x_9;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Grothendieck_preEquivalence___spec__41(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_eqToHom___at_CategoryTheory_Grothendieck_preEquivalence___spec__41___rarg___boxed), 8, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_id___at_CategoryTheory_Grothendieck_preEquivalence___spec__44___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; 
+x_7 = lean_ctor_get(x_5, 0);
+lean_inc(x_7);
+lean_dec(x_5);
+x_8 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__1___rarg(x_3, x_7, x_4);
+x_9 = l_CategoryTheory_Grothendieck_instCategory___rarg(x_3, x_8);
+x_10 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_id___elambda__1___rarg), 3, 2);
+lean_closure_set(x_10, 0, x_9);
+lean_closure_set(x_10, 1, x_6);
+return x_10;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_id___at_CategoryTheory_Grothendieck_preEquivalence___spec__44(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_id___at_CategoryTheory_Grothendieck_preEquivalence___spec__44___rarg___boxed), 6, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Grothendieck_preEquivalence___spec__43___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8) {
+_start:
+{
+lean_object* x_9; 
+x_9 = l_CategoryTheory_NatTrans_id___at_CategoryTheory_Grothendieck_preEquivalence___spec__44___rarg(x_1, lean_box(0), x_3, x_4, x_5, x_7);
+return x_9;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Grothendieck_preEquivalence___spec__43(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_eqToHom___at_CategoryTheory_Grothendieck_preEquivalence___spec__43___rarg___boxed), 8, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToIso___at_CategoryTheory_Grothendieck_preEquivalence___spec__40___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8) {
+_start:
+{
+lean_object* x_9; lean_object* x_10; lean_object* x_11; 
+lean_inc(x_5);
+lean_inc(x_4);
+lean_inc(x_3);
+x_9 = l_CategoryTheory_NatTrans_id___at_CategoryTheory_Grothendieck_preEquivalence___spec__42___rarg(x_1, lean_box(0), x_3, x_4, x_5, x_7);
+x_10 = l_CategoryTheory_NatTrans_id___at_CategoryTheory_Grothendieck_preEquivalence___spec__44___rarg(x_1, lean_box(0), x_3, x_4, x_5, x_6);
+x_11 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_11, 0, x_9);
+lean_ctor_set(x_11, 1, x_10);
+return x_11;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToIso___at_CategoryTheory_Grothendieck_preEquivalence___spec__40(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_eqToIso___at_CategoryTheory_Grothendieck_preEquivalence___spec__40___rarg___boxed), 8, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Grothendieck_preEquivalence___spec__46___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8, lean_object* x_9, lean_object* x_10) {
+_start:
+{
+lean_object* x_11; lean_object* x_12; lean_object* x_13; lean_object* x_14; 
+x_11 = lean_ctor_get(x_5, 0);
+lean_inc(x_11);
+lean_dec(x_5);
+x_12 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__1___rarg(x_3, x_11, x_4);
+x_13 = l_CategoryTheory_Grothendieck_instCategory___rarg(x_3, x_12);
+x_14 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_vcomp___elambda__1___rarg), 7, 6);
+lean_closure_set(x_14, 0, x_13);
+lean_closure_set(x_14, 1, x_6);
+lean_closure_set(x_14, 2, x_7);
+lean_closure_set(x_14, 3, x_8);
+lean_closure_set(x_14, 4, x_9);
+lean_closure_set(x_14, 5, x_10);
+return x_14;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Grothendieck_preEquivalence___spec__46(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Grothendieck_preEquivalence___spec__46___rarg___boxed), 10, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Grothendieck_preEquivalence___spec__47___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8, lean_object* x_9, lean_object* x_10) {
+_start:
+{
+lean_object* x_11; lean_object* x_12; lean_object* x_13; lean_object* x_14; 
+x_11 = lean_ctor_get(x_5, 0);
+lean_inc(x_11);
+lean_dec(x_5);
+x_12 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__1___rarg(x_3, x_11, x_4);
+x_13 = l_CategoryTheory_Grothendieck_instCategory___rarg(x_3, x_12);
+x_14 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_vcomp___elambda__1___rarg), 7, 6);
+lean_closure_set(x_14, 0, x_13);
+lean_closure_set(x_14, 1, x_6);
+lean_closure_set(x_14, 2, x_7);
+lean_closure_set(x_14, 3, x_8);
+lean_closure_set(x_14, 4, x_9);
+lean_closure_set(x_14, 5, x_10);
+return x_14;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Grothendieck_preEquivalence___spec__47(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Grothendieck_preEquivalence___spec__47___rarg___boxed), 10, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_trans___at_CategoryTheory_Grothendieck_preEquivalence___spec__45___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8, lean_object* x_9, lean_object* x_10) {
+_start:
+{
+lean_object* x_11; lean_object* x_12; lean_object* x_13; lean_object* x_14; lean_object* x_15; lean_object* x_16; lean_object* x_17; 
+x_11 = lean_ctor_get(x_9, 0);
+lean_inc(x_11);
+x_12 = lean_ctor_get(x_10, 0);
+lean_inc(x_12);
+lean_inc(x_8);
+lean_inc(x_7);
+lean_inc(x_6);
+lean_inc(x_5);
+lean_inc(x_4);
+lean_inc(x_3);
+x_13 = l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Grothendieck_preEquivalence___spec__46___rarg(x_1, lean_box(0), x_3, x_4, x_5, x_6, x_7, x_8, x_11, x_12);
+x_14 = lean_ctor_get(x_10, 1);
+lean_inc(x_14);
+lean_dec(x_10);
+x_15 = lean_ctor_get(x_9, 1);
+lean_inc(x_15);
+lean_dec(x_9);
+x_16 = l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Grothendieck_preEquivalence___spec__47___rarg(x_1, lean_box(0), x_3, x_4, x_5, x_8, x_7, x_6, x_14, x_15);
+x_17 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_17, 0, x_13);
+lean_ctor_set(x_17, 1, x_16);
+return x_17;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_trans___at_CategoryTheory_Grothendieck_preEquivalence___spec__45(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Iso_trans___at_CategoryTheory_Grothendieck_preEquivalence___spec__45___rarg___boxed), 10, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Grothendieck_preEquivalence___spec__49___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8, lean_object* x_9, lean_object* x_10) {
+_start:
+{
+lean_object* x_11; lean_object* x_12; lean_object* x_13; lean_object* x_14; 
+x_11 = lean_ctor_get(x_5, 0);
+lean_inc(x_11);
+lean_dec(x_5);
+x_12 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__1___rarg(x_3, x_11, x_4);
+x_13 = l_CategoryTheory_Grothendieck_instCategory___rarg(x_3, x_12);
+x_14 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_vcomp___elambda__1___rarg), 7, 6);
+lean_closure_set(x_14, 0, x_13);
+lean_closure_set(x_14, 1, x_6);
+lean_closure_set(x_14, 2, x_7);
+lean_closure_set(x_14, 3, x_8);
+lean_closure_set(x_14, 4, x_9);
+lean_closure_set(x_14, 5, x_10);
+return x_14;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Grothendieck_preEquivalence___spec__49(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Grothendieck_preEquivalence___spec__49___rarg___boxed), 10, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Grothendieck_preEquivalence___spec__50___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8, lean_object* x_9, lean_object* x_10) {
+_start:
+{
+lean_object* x_11; lean_object* x_12; lean_object* x_13; lean_object* x_14; 
+x_11 = lean_ctor_get(x_5, 0);
+lean_inc(x_11);
+lean_dec(x_5);
+x_12 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__1___rarg(x_3, x_11, x_4);
+x_13 = l_CategoryTheory_Grothendieck_instCategory___rarg(x_3, x_12);
+x_14 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_vcomp___elambda__1___rarg), 7, 6);
+lean_closure_set(x_14, 0, x_13);
+lean_closure_set(x_14, 1, x_6);
+lean_closure_set(x_14, 2, x_7);
+lean_closure_set(x_14, 3, x_8);
+lean_closure_set(x_14, 4, x_9);
+lean_closure_set(x_14, 5, x_10);
+return x_14;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Grothendieck_preEquivalence___spec__50(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Grothendieck_preEquivalence___spec__50___rarg___boxed), 10, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_trans___at_CategoryTheory_Grothendieck_preEquivalence___spec__48___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8, lean_object* x_9, lean_object* x_10) {
+_start:
+{
+lean_object* x_11; lean_object* x_12; lean_object* x_13; lean_object* x_14; lean_object* x_15; lean_object* x_16; lean_object* x_17; 
+x_11 = lean_ctor_get(x_9, 0);
+lean_inc(x_11);
+x_12 = lean_ctor_get(x_10, 0);
+lean_inc(x_12);
+lean_inc(x_8);
+lean_inc(x_7);
+lean_inc(x_6);
+lean_inc(x_5);
+lean_inc(x_4);
+lean_inc(x_3);
+x_13 = l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Grothendieck_preEquivalence___spec__49___rarg(x_1, lean_box(0), x_3, x_4, x_5, x_6, x_7, x_8, x_11, x_12);
+x_14 = lean_ctor_get(x_10, 1);
+lean_inc(x_14);
+lean_dec(x_10);
+x_15 = lean_ctor_get(x_9, 1);
+lean_inc(x_15);
+lean_dec(x_9);
+x_16 = l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Grothendieck_preEquivalence___spec__50___rarg(x_1, lean_box(0), x_3, x_4, x_5, x_8, x_7, x_6, x_14, x_15);
+x_17 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_17, 0, x_13);
+lean_ctor_set(x_17, 1, x_16);
+return x_17;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_trans___at_CategoryTheory_Grothendieck_preEquivalence___spec__48(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Iso_trans___at_CategoryTheory_Grothendieck_preEquivalence___spec__48___rarg___boxed), 10, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__51___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; lean_object* x_6; 
+lean_inc(x_2);
+lean_inc(x_3);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__1), 3, 2);
+lean_closure_set(x_4, 0, x_3);
+lean_closure_set(x_4, 1, x_2);
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__2), 5, 2);
+lean_closure_set(x_5, 0, x_3);
+lean_closure_set(x_5, 1, x_2);
+x_6 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_6, 0, x_4);
+lean_ctor_set(x_6, 1, x_5);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__51(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__51___rarg___boxed), 3, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_symm___at_CategoryTheory_Grothendieck_preEquivalence___spec__52___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+x_5 = lean_ctor_get(x_4, 1);
+x_6 = lean_ctor_get(x_4, 0);
+lean_inc(x_6);
+lean_inc(x_5);
+x_7 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_7, 0, x_5);
+lean_ctor_set(x_7, 1, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_symm___at_CategoryTheory_Grothendieck_preEquivalence___spec__52(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Iso_symm___at_CategoryTheory_Grothendieck_preEquivalence___spec__52___rarg___boxed), 4, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__53___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; lean_object* x_9; lean_object* x_10; 
+lean_inc(x_6);
+lean_inc(x_7);
+x_8 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__1), 3, 2);
+lean_closure_set(x_8, 0, x_7);
+lean_closure_set(x_8, 1, x_6);
+x_9 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__2), 5, 2);
+lean_closure_set(x_9, 0, x_7);
+lean_closure_set(x_9, 1, x_6);
+x_10 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_10, 0, x_8);
+lean_ctor_set(x_10, 1, x_9);
+return x_10;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__53(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__53___rarg___boxed), 7, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_symm___at_CategoryTheory_Grothendieck_preEquivalence___spec__54___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; 
+x_6 = lean_ctor_get(x_5, 1);
+x_7 = lean_ctor_get(x_5, 0);
+lean_inc(x_7);
+lean_inc(x_6);
+x_8 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_8, 0, x_6);
+lean_ctor_set(x_8, 1, x_7);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_symm___at_CategoryTheory_Grothendieck_preEquivalence___spec__54(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Iso_symm___at_CategoryTheory_Grothendieck_preEquivalence___spec__54___rarg___boxed), 5, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_preEquivalence___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; lean_object* x_11; lean_object* x_12; lean_object* x_13; lean_object* x_14; lean_object* x_15; lean_object* x_16; lean_object* x_17; lean_object* x_18; lean_object* x_19; lean_object* x_20; lean_object* x_21; lean_object* x_22; lean_object* x_23; lean_object* x_24; lean_object* x_25; lean_object* x_26; lean_object* x_27; lean_object* x_28; lean_object* x_29; lean_object* x_30; lean_object* x_31; lean_object* x_32; lean_object* x_33; lean_object* x_34; lean_object* x_35; lean_object* x_36; lean_object* x_37; lean_object* x_38; lean_object* x_39; lean_object* x_40; lean_object* x_41; lean_object* x_42; lean_object* x_43; lean_object* x_44; lean_object* x_45; lean_object* x_46; 
+x_6 = lean_ctor_get(x_5, 0);
+lean_inc(x_6);
+lean_inc(x_4);
+lean_inc(x_6);
+x_7 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__1___rarg(x_3, x_6, x_4);
+lean_inc(x_6);
+lean_inc(x_4);
+lean_inc(x_1);
+x_8 = l_CategoryTheory_Grothendieck_pre___rarg(x_1, lean_box(0), x_3, x_4, x_6);
+lean_inc(x_5);
+lean_inc(x_4);
+lean_inc(x_3);
+lean_inc(x_1);
+x_9 = l_CategoryTheory_Grothendieck_preInv___rarg(x_1, lean_box(0), x_3, x_4, x_5);
+x_10 = l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_preEquivalence___spec__2___rarg(x_1, lean_box(0), x_3, x_4, x_5);
+x_11 = lean_ctor_get(x_5, 1);
+lean_inc(x_11);
+lean_inc(x_11);
+lean_inc(x_6);
+x_12 = l_CategoryTheory_Functor_comp___rarg(x_3, lean_box(0), x_1, lean_box(0), x_3, x_6, x_11);
+lean_inc(x_7);
+lean_inc(x_12);
+x_13 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__3___rarg(x_3, x_12, x_7);
+lean_inc(x_6);
+x_14 = l_CategoryTheory_Functor_comp___rarg(x_1, lean_box(0), x_3, lean_box(0), x_1, x_11, x_6);
+lean_inc(x_4);
+lean_inc(x_14);
+x_15 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__4___rarg(x_1, x_14, x_4);
+x_16 = l_CategoryTheory_Functor_id___rarg(x_1);
+x_17 = lean_ctor_get(x_5, 3);
+lean_inc(x_17);
+x_18 = lean_ctor_get(x_17, 1);
+lean_inc(x_18);
+lean_inc(x_4);
+lean_inc(x_14);
+lean_inc(x_16);
+x_19 = lean_alloc_closure((void*)(l_CategoryTheory_whiskerRight___elambda__1___rarg), 5, 4);
+lean_closure_set(x_19, 0, x_16);
+lean_closure_set(x_19, 1, x_14);
+lean_closure_set(x_19, 2, x_18);
+lean_closure_set(x_19, 3, x_4);
+lean_inc(x_19);
+lean_inc(x_15);
+lean_inc(x_4);
+x_20 = lean_alloc_closure((void*)(l_CategoryTheory_whiskerLeft___elambda__1___rarg___boxed), 5, 4);
+lean_closure_set(x_20, 0, x_6);
+lean_closure_set(x_20, 1, x_4);
+lean_closure_set(x_20, 2, x_15);
+lean_closure_set(x_20, 3, x_19);
+lean_inc(x_13);
+lean_inc(x_7);
+lean_inc(x_3);
+x_21 = l_CategoryTheory_Grothendieck_map___rarg(x_3, x_7, x_13, x_20);
+x_22 = l_CategoryTheory_Functor_id___rarg(x_3);
+lean_inc(x_7);
+lean_inc(x_22);
+x_23 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__11___rarg(x_3, x_22, x_7);
+x_24 = lean_ctor_get(x_5, 2);
+lean_inc(x_24);
+x_25 = lean_ctor_get(x_24, 1);
+lean_inc(x_25);
+lean_dec(x_24);
+lean_inc(x_7);
+lean_inc(x_12);
+x_26 = lean_alloc_closure((void*)(l_CategoryTheory_whiskerRight___elambda__1___rarg), 5, 4);
+lean_closure_set(x_26, 0, x_12);
+lean_closure_set(x_26, 1, x_22);
+lean_closure_set(x_26, 2, x_25);
+lean_closure_set(x_26, 3, x_7);
+lean_inc(x_3);
+x_27 = l_CategoryTheory_Grothendieck_map___rarg(x_3, x_13, x_23, x_26);
+lean_inc(x_27);
+lean_inc(x_21);
+x_28 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__15___rarg(x_1, lean_box(0), x_3, x_4, x_5, x_21, x_27);
+lean_inc(x_9);
+lean_inc(x_8);
+x_29 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__16___rarg(x_1, lean_box(0), x_3, x_4, x_5, x_8, x_9);
+lean_inc(x_28);
+lean_inc(x_10);
+lean_inc(x_5);
+lean_inc(x_4);
+lean_inc(x_3);
+x_30 = l_CategoryTheory_eqToIso___at_CategoryTheory_Grothendieck_preEquivalence___spec__17___rarg(x_1, lean_box(0), x_3, x_4, x_5, x_10, x_28, lean_box(0));
+lean_inc(x_3);
+x_31 = l_CategoryTheory_Grothendieck_pre___rarg(x_3, lean_box(0), x_3, x_7, x_12);
+lean_inc(x_31);
+lean_inc(x_21);
+x_32 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__22___rarg(x_1, lean_box(0), x_3, x_4, x_5, x_21, x_31);
+lean_inc(x_5);
+lean_inc(x_4);
+lean_inc(x_3);
+x_33 = l_CategoryTheory_Grothendieck_preUnitIso___rarg(x_1, lean_box(0), x_3, x_4, x_5);
+lean_inc(x_5);
+lean_inc(x_4);
+lean_inc(x_3);
+lean_inc(x_1);
+x_34 = l_CategoryTheory_isoWhiskerLeft___at_CategoryTheory_Grothendieck_preEquivalence___spec__23___rarg(x_1, lean_box(0), x_3, x_4, x_5, x_21, x_27, x_31, x_33);
+lean_inc(x_29);
+lean_inc(x_32);
+lean_inc(x_5);
+lean_inc(x_4);
+lean_inc(x_3);
+x_35 = l_CategoryTheory_eqToIso___at_CategoryTheory_Grothendieck_preEquivalence___spec__40___rarg(x_1, lean_box(0), x_3, x_4, x_5, x_32, x_29, lean_box(0));
+lean_inc(x_29);
+lean_inc(x_28);
+lean_inc(x_5);
+lean_inc(x_4);
+lean_inc(x_3);
+x_36 = l_CategoryTheory_Iso_trans___at_CategoryTheory_Grothendieck_preEquivalence___spec__45___rarg(x_1, lean_box(0), x_3, x_4, x_5, x_28, x_32, x_29, x_34, x_35);
+lean_inc(x_5);
+lean_inc(x_4);
+lean_inc(x_3);
+x_37 = l_CategoryTheory_Iso_trans___at_CategoryTheory_Grothendieck_preEquivalence___spec__48___rarg(x_1, lean_box(0), x_3, x_4, x_5, x_10, x_28, x_29, x_30, x_36);
+lean_inc(x_4);
+lean_inc(x_16);
+x_38 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__51___rarg(x_1, x_16, x_4);
+lean_inc(x_16);
+lean_inc(x_4);
+lean_inc(x_1);
+x_39 = l_CategoryTheory_Grothendieck_pre___rarg(x_1, lean_box(0), x_1, x_4, x_16);
+x_40 = l_CategoryTheory_Iso_symm___at_CategoryTheory_Grothendieck_preEquivalence___spec__52___rarg(x_1, x_14, x_16, x_17);
+lean_dec(x_17);
+lean_inc(x_1);
+x_41 = l_CategoryTheory_Grothendieck_map___rarg(x_1, x_38, x_15, x_19);
+lean_inc(x_14);
+lean_inc(x_4);
+lean_inc(x_1);
+x_42 = l_CategoryTheory_Grothendieck_pre___rarg(x_1, lean_box(0), x_1, x_4, x_14);
+x_43 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__53___rarg(x_1, lean_box(0), x_3, x_4, x_5, x_41, x_42);
+lean_dec(x_5);
+lean_dec(x_3);
+lean_inc(x_4);
+lean_inc_n(x_1, 2);
+x_44 = l_CategoryTheory_Grothendieck_preNatIso___rarg(x_1, lean_box(0), x_1, x_4, x_16, x_14, x_40);
+x_45 = l_CategoryTheory_Iso_symm___at_CategoryTheory_Grothendieck_preEquivalence___spec__54___rarg(x_1, x_4, x_39, x_43, x_44);
+lean_dec(x_44);
+lean_dec(x_43);
+lean_dec(x_39);
+lean_dec(x_4);
+lean_dec(x_1);
+x_46 = lean_alloc_ctor(0, 4, 0);
+lean_ctor_set(x_46, 0, x_8);
+lean_ctor_set(x_46, 1, x_9);
+lean_ctor_set(x_46, 2, x_37);
+lean_ctor_set(x_46, 3, x_45);
+return x_46;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_preEquivalence(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Grothendieck_preEquivalence___rarg), 5, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__1___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__1___rarg(x_1, x_2, x_3);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__1___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__1(x_1, x_2, x_3);
+lean_dec(x_2);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_preEquivalence___spec__2___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_preEquivalence___spec__2___rarg(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__3___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__3___rarg(x_1, x_2, x_3);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__4___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__4___rarg(x_1, x_2, x_3);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__6___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__6___rarg(x_1, x_2, x_3);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__7___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__7___rarg(x_1, x_2, x_3);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerRight___at_CategoryTheory_Grothendieck_preEquivalence___spec__5___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_CategoryTheory_whiskerRight___at_CategoryTheory_Grothendieck_preEquivalence___spec__5(x_1, x_2);
+lean_dec(x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__9___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__9___rarg(x_1, x_2, x_3);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__9___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__9(x_1, x_2, x_3);
+lean_dec(x_2);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__10___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__10___rarg(x_1, x_2, x_3);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__10___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__10(x_1, x_2, x_3);
+lean_dec(x_2);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerLeft___at_CategoryTheory_Grothendieck_preEquivalence___spec__8___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_whiskerLeft___at_CategoryTheory_Grothendieck_preEquivalence___spec__8(x_1, x_2, x_3, x_4);
+lean_dec(x_4);
+lean_dec(x_2);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__11___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__11___rarg(x_1, x_2, x_3);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__13___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__13___rarg(x_1, x_2, x_3);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__14___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__14___rarg(x_1, x_2, x_3);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerRight___at_CategoryTheory_Grothendieck_preEquivalence___spec__12___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_CategoryTheory_whiskerRight___at_CategoryTheory_Grothendieck_preEquivalence___spec__12(x_1, x_2);
+lean_dec(x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__15___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; 
+x_8 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__15___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__16___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; 
+x_8 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__16___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_id___at_CategoryTheory_Grothendieck_preEquivalence___spec__19___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = l_CategoryTheory_NatTrans_id___at_CategoryTheory_Grothendieck_preEquivalence___spec__19___rarg(x_1, x_2, x_3, x_4, x_5, x_6);
+lean_dec(x_1);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Grothendieck_preEquivalence___spec__18___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8) {
+_start:
+{
+lean_object* x_9; 
+x_9 = l_CategoryTheory_eqToHom___at_CategoryTheory_Grothendieck_preEquivalence___spec__18___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8);
+lean_dec(x_6);
+lean_dec(x_1);
+return x_9;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_id___at_CategoryTheory_Grothendieck_preEquivalence___spec__21___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = l_CategoryTheory_NatTrans_id___at_CategoryTheory_Grothendieck_preEquivalence___spec__21___rarg(x_1, x_2, x_3, x_4, x_5, x_6);
+lean_dec(x_1);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Grothendieck_preEquivalence___spec__20___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8) {
+_start:
+{
+lean_object* x_9; 
+x_9 = l_CategoryTheory_eqToHom___at_CategoryTheory_Grothendieck_preEquivalence___spec__20___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8);
+lean_dec(x_6);
+lean_dec(x_1);
+return x_9;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToIso___at_CategoryTheory_Grothendieck_preEquivalence___spec__17___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8) {
+_start:
+{
+lean_object* x_9; 
+x_9 = l_CategoryTheory_eqToIso___at_CategoryTheory_Grothendieck_preEquivalence___spec__17___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8);
+lean_dec(x_1);
+return x_9;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__22___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; 
+x_8 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__22___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__25___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; 
+x_8 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__25___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__27___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; 
+x_8 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__27___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__28___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; 
+x_8 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__28___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerLeft___at_CategoryTheory_Grothendieck_preEquivalence___spec__26___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = l_CategoryTheory_whiskerLeft___at_CategoryTheory_Grothendieck_preEquivalence___spec__26(x_1, x_2, x_3, x_4, x_5, x_6);
+lean_dec(x_6);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_2);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__29___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; 
+x_8 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__29___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__31___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; 
+x_8 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__31___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__32___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; 
+x_8 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__32___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerLeft___at_CategoryTheory_Grothendieck_preEquivalence___spec__30___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = l_CategoryTheory_whiskerLeft___at_CategoryTheory_Grothendieck_preEquivalence___spec__30(x_1, x_2, x_3, x_4, x_5, x_6);
+lean_dec(x_6);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_2);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__33___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; 
+x_8 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__33___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__35___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; 
+x_8 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__35___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__36___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; 
+x_8 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__36___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerLeft___at_CategoryTheory_Grothendieck_preEquivalence___spec__34___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = l_CategoryTheory_whiskerLeft___at_CategoryTheory_Grothendieck_preEquivalence___spec__34(x_1, x_2, x_3, x_4, x_5, x_6);
+lean_dec(x_6);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_2);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__37___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; 
+x_8 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__37___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__38___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; 
+x_8 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__38___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskeringLeft___at_CategoryTheory_Grothendieck_preEquivalence___spec__24___rarg___lambda__1___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; 
+x_8 = l_CategoryTheory_whiskeringLeft___at_CategoryTheory_Grothendieck_preEquivalence___spec__24___rarg___lambda__1(x_1, x_2, x_3, x_4, x_5, x_6, x_7);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_mapIso___at_CategoryTheory_Grothendieck_preEquivalence___spec__39___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8, lean_object* x_9) {
+_start:
+{
+lean_object* x_10; 
+x_10 = l_CategoryTheory_Functor_mapIso___at_CategoryTheory_Grothendieck_preEquivalence___spec__39___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8, x_9);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_10;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_id___at_CategoryTheory_Grothendieck_preEquivalence___spec__42___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = l_CategoryTheory_NatTrans_id___at_CategoryTheory_Grothendieck_preEquivalence___spec__42___rarg(x_1, x_2, x_3, x_4, x_5, x_6);
+lean_dec(x_1);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Grothendieck_preEquivalence___spec__41___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8) {
+_start:
+{
+lean_object* x_9; 
+x_9 = l_CategoryTheory_eqToHom___at_CategoryTheory_Grothendieck_preEquivalence___spec__41___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8);
+lean_dec(x_6);
+lean_dec(x_1);
+return x_9;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_id___at_CategoryTheory_Grothendieck_preEquivalence___spec__44___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = l_CategoryTheory_NatTrans_id___at_CategoryTheory_Grothendieck_preEquivalence___spec__44___rarg(x_1, x_2, x_3, x_4, x_5, x_6);
+lean_dec(x_1);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Grothendieck_preEquivalence___spec__43___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8) {
+_start:
+{
+lean_object* x_9; 
+x_9 = l_CategoryTheory_eqToHom___at_CategoryTheory_Grothendieck_preEquivalence___spec__43___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8);
+lean_dec(x_6);
+lean_dec(x_1);
+return x_9;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToIso___at_CategoryTheory_Grothendieck_preEquivalence___spec__40___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8) {
+_start:
+{
+lean_object* x_9; 
+x_9 = l_CategoryTheory_eqToIso___at_CategoryTheory_Grothendieck_preEquivalence___spec__40___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8);
+lean_dec(x_1);
+return x_9;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Grothendieck_preEquivalence___spec__46___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8, lean_object* x_9, lean_object* x_10) {
+_start:
+{
+lean_object* x_11; 
+x_11 = l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Grothendieck_preEquivalence___spec__46___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8, x_9, x_10);
+lean_dec(x_1);
+return x_11;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Grothendieck_preEquivalence___spec__47___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8, lean_object* x_9, lean_object* x_10) {
+_start:
+{
+lean_object* x_11; 
+x_11 = l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Grothendieck_preEquivalence___spec__47___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8, x_9, x_10);
+lean_dec(x_1);
+return x_11;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_trans___at_CategoryTheory_Grothendieck_preEquivalence___spec__45___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8, lean_object* x_9, lean_object* x_10) {
+_start:
+{
+lean_object* x_11; 
+x_11 = l_CategoryTheory_Iso_trans___at_CategoryTheory_Grothendieck_preEquivalence___spec__45___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8, x_9, x_10);
+lean_dec(x_1);
+return x_11;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Grothendieck_preEquivalence___spec__49___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8, lean_object* x_9, lean_object* x_10) {
+_start:
+{
+lean_object* x_11; 
+x_11 = l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Grothendieck_preEquivalence___spec__49___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8, x_9, x_10);
+lean_dec(x_1);
+return x_11;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Grothendieck_preEquivalence___spec__50___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8, lean_object* x_9, lean_object* x_10) {
+_start:
+{
+lean_object* x_11; 
+x_11 = l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Grothendieck_preEquivalence___spec__50___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8, x_9, x_10);
+lean_dec(x_1);
+return x_11;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_trans___at_CategoryTheory_Grothendieck_preEquivalence___spec__48___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8, lean_object* x_9, lean_object* x_10) {
+_start:
+{
+lean_object* x_11; 
+x_11 = l_CategoryTheory_Iso_trans___at_CategoryTheory_Grothendieck_preEquivalence___spec__48___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8, x_9, x_10);
+lean_dec(x_1);
+return x_11;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__51___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__51___rarg(x_1, x_2, x_3);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_symm___at_CategoryTheory_Grothendieck_preEquivalence___spec__52___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_Iso_symm___at_CategoryTheory_Grothendieck_preEquivalence___spec__52___rarg(x_1, x_2, x_3, x_4);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__53___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; 
+x_8 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_preEquivalence___spec__53___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_symm___at_CategoryTheory_Grothendieck_preEquivalence___spec__54___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_Iso_symm___at_CategoryTheory_Grothendieck_preEquivalence___spec__54___rarg(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__1___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; lean_object* x_6; 
+lean_inc(x_2);
+lean_inc(x_3);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__1), 3, 2);
+lean_closure_set(x_4, 0, x_3);
+lean_closure_set(x_4, 1, x_2);
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__2), 5, 2);
+lean_closure_set(x_5, 0, x_3);
+lean_closure_set(x_5, 1, x_2);
+x_6 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_6, 0, x_4);
+lean_ctor_set(x_6, 1, x_5);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__1(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__1___rarg___boxed), 3, 0);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__2___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; lean_object* x_6; 
+lean_inc(x_2);
+lean_inc(x_3);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__1), 3, 2);
+lean_closure_set(x_4, 0, x_3);
+lean_closure_set(x_4, 1, x_2);
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__2), 5, 2);
+lean_closure_set(x_5, 0, x_3);
+lean_closure_set(x_5, 1, x_2);
+x_6 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_6, 0, x_4);
+lean_ctor_set(x_6, 1, x_5);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__2(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__2___rarg___boxed), 3, 0);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__4___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; lean_object* x_6; 
+lean_inc(x_2);
+lean_inc(x_3);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__1), 3, 2);
+lean_closure_set(x_4, 0, x_3);
+lean_closure_set(x_4, 1, x_2);
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__2), 5, 2);
+lean_closure_set(x_5, 0, x_3);
+lean_closure_set(x_5, 1, x_2);
+x_6 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_6, 0, x_4);
+lean_ctor_set(x_6, 1, x_5);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__4(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__4___rarg___boxed), 3, 0);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__5___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; lean_object* x_6; 
+lean_inc(x_2);
+lean_inc(x_3);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__1), 3, 2);
+lean_closure_set(x_4, 0, x_3);
+lean_closure_set(x_4, 1, x_2);
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__2), 5, 2);
+lean_closure_set(x_5, 0, x_3);
+lean_closure_set(x_5, 1, x_2);
+x_6 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_6, 0, x_4);
+lean_ctor_set(x_6, 1, x_5);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__5(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__5___rarg___boxed), 3, 0);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerLeft___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__3___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_whiskerLeft___elambda__1___rarg___boxed), 5, 4);
+lean_closure_set(x_5, 0, x_1);
+lean_closure_set(x_5, 1, x_2);
+lean_closure_set(x_5, 2, x_3);
+lean_closure_set(x_5, 3, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerLeft___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__3(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_whiskerLeft___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__3___rarg), 4, 0);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__6___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; 
+x_6 = l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_mapIdIso___spec__2___rarg___closed__1;
+x_7 = l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_mapIdIso___spec__2___rarg___closed__2;
+x_8 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_8, 0, x_6);
+lean_ctor_set(x_8, 1, x_7);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__6(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__6___rarg___boxed), 5, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__7___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8) {
+_start:
+{
+lean_object* x_9; lean_object* x_10; lean_object* x_11; 
+lean_inc(x_7);
+lean_inc(x_8);
+x_9 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__1), 3, 2);
+lean_closure_set(x_9, 0, x_8);
+lean_closure_set(x_9, 1, x_7);
+x_10 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__2), 5, 2);
+lean_closure_set(x_10, 0, x_8);
+lean_closure_set(x_10, 1, x_7);
+x_11 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_11, 0, x_9);
+lean_ctor_set(x_11, 1, x_10);
+return x_11;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__7(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__7___rarg___boxed), 8, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__8___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8) {
+_start:
+{
+lean_object* x_9; lean_object* x_10; lean_object* x_11; 
+lean_inc(x_7);
+lean_inc(x_8);
+x_9 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__1), 3, 2);
+lean_closure_set(x_9, 0, x_8);
+lean_closure_set(x_9, 1, x_7);
+x_10 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__2), 5, 2);
+lean_closure_set(x_10, 0, x_8);
+lean_closure_set(x_10, 1, x_7);
+x_11 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_11, 0, x_9);
+lean_ctor_set(x_11, 1, x_10);
+return x_11;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__8(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__8___rarg___boxed), 8, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__9___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8) {
+_start:
+{
+lean_object* x_9; lean_object* x_10; lean_object* x_11; 
+lean_inc(x_7);
+lean_inc(x_8);
+x_9 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__1), 3, 2);
+lean_closure_set(x_9, 0, x_8);
+lean_closure_set(x_9, 1, x_7);
+x_10 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__2), 5, 2);
+lean_closure_set(x_10, 0, x_8);
+lean_closure_set(x_10, 1, x_7);
+x_11 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_11, 0, x_9);
+lean_ctor_set(x_11, 1, x_10);
+return x_11;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__9(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__9___rarg___boxed), 8, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__11___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; 
+x_6 = l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_mapIdIso___spec__2___rarg___closed__1;
+x_7 = l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_mapIdIso___spec__2___rarg___closed__2;
+x_8 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_8, 0, x_6);
+lean_ctor_set(x_8, 1, x_7);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__11(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__11___rarg___boxed), 5, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__12___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8) {
+_start:
+{
+lean_object* x_9; lean_object* x_10; lean_object* x_11; 
+lean_inc(x_7);
+lean_inc(x_8);
+x_9 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__1), 3, 2);
+lean_closure_set(x_9, 0, x_8);
+lean_closure_set(x_9, 1, x_7);
+x_10 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__2), 5, 2);
+lean_closure_set(x_10, 0, x_8);
+lean_closure_set(x_10, 1, x_7);
+x_11 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_11, 0, x_9);
+lean_ctor_set(x_11, 1, x_10);
+return x_11;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__12(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__12___rarg___boxed), 8, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_rightUnitor___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__10___rarg___lambda__1(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+x_5 = lean_ctor_get(x_1, 0);
+lean_inc(x_5);
+lean_dec(x_1);
+x_6 = lean_apply_1(x_5, x_4);
+x_7 = l_CategoryTheory_Grothendieck_id___rarg(x_2, x_3, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_rightUnitor___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__10___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; lean_object* x_9; lean_object* x_10; lean_object* x_11; 
+x_8 = lean_ctor_get(x_6, 0);
+lean_inc(x_8);
+lean_dec(x_6);
+x_9 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__2___rarg(x_3, x_8, x_5);
+x_10 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_rightUnitor___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__10___rarg___lambda__1), 4, 3);
+lean_closure_set(x_10, 0, x_7);
+lean_closure_set(x_10, 1, x_3);
+lean_closure_set(x_10, 2, x_9);
+lean_inc(x_10);
+x_11 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_11, 0, x_10);
+lean_ctor_set(x_11, 1, x_10);
+return x_11;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_rightUnitor___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__10(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_rightUnitor___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__10___rarg___boxed), 7, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_symm___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__13___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8, lean_object* x_9) {
+_start:
+{
+lean_object* x_10; lean_object* x_11; lean_object* x_12; 
+x_10 = lean_ctor_get(x_9, 1);
+x_11 = lean_ctor_get(x_9, 0);
+lean_inc(x_11);
+lean_inc(x_10);
+x_12 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_12, 0, x_10);
+lean_ctor_set(x_12, 1, x_11);
+return x_12;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_symm___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__13(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Iso_symm___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__13___rarg___boxed), 9, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__14___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; lean_object* x_6; 
+lean_inc(x_2);
+lean_inc(x_3);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__1), 3, 2);
+lean_closure_set(x_4, 0, x_3);
+lean_closure_set(x_4, 1, x_2);
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__2), 5, 2);
+lean_closure_set(x_5, 0, x_3);
+lean_closure_set(x_5, 1, x_2);
+x_6 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_6, 0, x_4);
+lean_ctor_set(x_6, 1, x_5);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__14(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__14___rarg___boxed), 3, 0);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__15___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; 
+x_6 = l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_mapIdIso___spec__2___rarg___closed__1;
+x_7 = l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_mapIdIso___spec__2___rarg___closed__2;
+x_8 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_8, 0, x_6);
+lean_ctor_set(x_8, 1, x_7);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__15(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__15___rarg___boxed), 5, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__16___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; lean_object* x_9; lean_object* x_10; 
+lean_inc(x_6);
+lean_inc(x_7);
+x_8 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__1), 3, 2);
+lean_closure_set(x_8, 0, x_7);
+lean_closure_set(x_8, 1, x_6);
+x_9 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__2), 5, 2);
+lean_closure_set(x_9, 0, x_7);
+lean_closure_set(x_9, 1, x_6);
+x_10 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_10, 0, x_8);
+lean_ctor_set(x_10, 1, x_9);
+return x_10;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__16(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__16___rarg___boxed), 7, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__19___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8) {
+_start:
+{
+lean_object* x_9; lean_object* x_10; lean_object* x_11; 
+lean_inc(x_7);
+lean_inc(x_8);
+x_9 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__1), 3, 2);
+lean_closure_set(x_9, 0, x_8);
+lean_closure_set(x_9, 1, x_7);
+x_10 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__2), 5, 2);
+lean_closure_set(x_10, 0, x_8);
+lean_closure_set(x_10, 1, x_7);
+x_11 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_11, 0, x_9);
+lean_ctor_set(x_11, 1, x_10);
+return x_11;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__19(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__19___rarg___boxed), 8, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__21___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8) {
+_start:
+{
+lean_object* x_9; lean_object* x_10; lean_object* x_11; 
+lean_inc(x_7);
+lean_inc(x_8);
+x_9 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__1), 3, 2);
+lean_closure_set(x_9, 0, x_8);
+lean_closure_set(x_9, 1, x_7);
+x_10 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__2), 5, 2);
+lean_closure_set(x_10, 0, x_8);
+lean_closure_set(x_10, 1, x_7);
+x_11 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_11, 0, x_9);
+lean_ctor_set(x_11, 1, x_10);
+return x_11;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__21(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__21___rarg___boxed), 8, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__22___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8) {
+_start:
+{
+lean_object* x_9; lean_object* x_10; lean_object* x_11; 
+lean_inc(x_7);
+lean_inc(x_8);
+x_9 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__1), 3, 2);
+lean_closure_set(x_9, 0, x_8);
+lean_closure_set(x_9, 1, x_7);
+x_10 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__2), 5, 2);
+lean_closure_set(x_10, 0, x_8);
+lean_closure_set(x_10, 1, x_7);
+x_11 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_11, 0, x_9);
+lean_ctor_set(x_11, 1, x_10);
+return x_11;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__22(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__22___rarg___boxed), 8, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerLeft___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__20___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_whiskerLeft___elambda__1___rarg___boxed), 5, 4);
+lean_closure_set(x_5, 0, x_1);
+lean_closure_set(x_5, 1, x_2);
+lean_closure_set(x_5, 2, x_3);
+lean_closure_set(x_5, 3, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerLeft___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__20(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; 
+x_8 = lean_alloc_closure((void*)(l_CategoryTheory_whiskerLeft___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__20___rarg), 4, 0);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__23___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8) {
+_start:
+{
+lean_object* x_9; lean_object* x_10; lean_object* x_11; 
+lean_inc(x_7);
+lean_inc(x_8);
+x_9 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__1), 3, 2);
+lean_closure_set(x_9, 0, x_8);
+lean_closure_set(x_9, 1, x_7);
+x_10 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__2), 5, 2);
+lean_closure_set(x_10, 0, x_8);
+lean_closure_set(x_10, 1, x_7);
+x_11 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_11, 0, x_9);
+lean_ctor_set(x_11, 1, x_10);
+return x_11;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__23(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__23___rarg___boxed), 8, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__25___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8) {
+_start:
+{
+lean_object* x_9; lean_object* x_10; lean_object* x_11; 
+lean_inc(x_7);
+lean_inc(x_8);
+x_9 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__1), 3, 2);
+lean_closure_set(x_9, 0, x_8);
+lean_closure_set(x_9, 1, x_7);
+x_10 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__2), 5, 2);
+lean_closure_set(x_10, 0, x_8);
+lean_closure_set(x_10, 1, x_7);
+x_11 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_11, 0, x_9);
+lean_ctor_set(x_11, 1, x_10);
+return x_11;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__25(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__25___rarg___boxed), 8, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__26___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8) {
+_start:
+{
+lean_object* x_9; lean_object* x_10; lean_object* x_11; 
+lean_inc(x_7);
+lean_inc(x_8);
+x_9 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__1), 3, 2);
+lean_closure_set(x_9, 0, x_8);
+lean_closure_set(x_9, 1, x_7);
+x_10 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__2), 5, 2);
+lean_closure_set(x_10, 0, x_8);
+lean_closure_set(x_10, 1, x_7);
+x_11 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_11, 0, x_9);
+lean_ctor_set(x_11, 1, x_10);
+return x_11;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__26(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__26___rarg___boxed), 8, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerLeft___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__24___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_whiskerLeft___elambda__1___rarg___boxed), 5, 4);
+lean_closure_set(x_5, 0, x_1);
+lean_closure_set(x_5, 1, x_2);
+lean_closure_set(x_5, 2, x_3);
+lean_closure_set(x_5, 3, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerLeft___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__24(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; 
+x_8 = lean_alloc_closure((void*)(l_CategoryTheory_whiskerLeft___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__24___rarg), 4, 0);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__27___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8) {
+_start:
+{
+lean_object* x_9; lean_object* x_10; lean_object* x_11; 
+lean_inc(x_7);
+lean_inc(x_8);
+x_9 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__1), 3, 2);
+lean_closure_set(x_9, 0, x_8);
+lean_closure_set(x_9, 1, x_7);
+x_10 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__2), 5, 2);
+lean_closure_set(x_10, 0, x_8);
+lean_closure_set(x_10, 1, x_7);
+x_11 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_11, 0, x_9);
+lean_ctor_set(x_11, 1, x_10);
+return x_11;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__27(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__27___rarg___boxed), 8, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__29___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8) {
+_start:
+{
+lean_object* x_9; lean_object* x_10; lean_object* x_11; 
+lean_inc(x_7);
+lean_inc(x_8);
+x_9 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__1), 3, 2);
+lean_closure_set(x_9, 0, x_8);
+lean_closure_set(x_9, 1, x_7);
+x_10 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__2), 5, 2);
+lean_closure_set(x_10, 0, x_8);
+lean_closure_set(x_10, 1, x_7);
+x_11 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_11, 0, x_9);
+lean_ctor_set(x_11, 1, x_10);
+return x_11;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__29(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__29___rarg___boxed), 8, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__30___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8) {
+_start:
+{
+lean_object* x_9; lean_object* x_10; lean_object* x_11; 
+lean_inc(x_7);
+lean_inc(x_8);
+x_9 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__1), 3, 2);
+lean_closure_set(x_9, 0, x_8);
+lean_closure_set(x_9, 1, x_7);
+x_10 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__2), 5, 2);
+lean_closure_set(x_10, 0, x_8);
+lean_closure_set(x_10, 1, x_7);
+x_11 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_11, 0, x_9);
+lean_ctor_set(x_11, 1, x_10);
+return x_11;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__30(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__30___rarg___boxed), 8, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerLeft___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__28___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_whiskerLeft___elambda__1___rarg___boxed), 5, 4);
+lean_closure_set(x_5, 0, x_1);
+lean_closure_set(x_5, 1, x_2);
+lean_closure_set(x_5, 2, x_3);
+lean_closure_set(x_5, 3, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerLeft___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__28(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; 
+x_8 = lean_alloc_closure((void*)(l_CategoryTheory_whiskerLeft___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__28___rarg), 4, 0);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__31___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8) {
+_start:
+{
+lean_object* x_9; lean_object* x_10; lean_object* x_11; 
+lean_inc(x_7);
+lean_inc(x_8);
+x_9 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__1), 3, 2);
+lean_closure_set(x_9, 0, x_8);
+lean_closure_set(x_9, 1, x_7);
+x_10 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__2), 5, 2);
+lean_closure_set(x_10, 0, x_8);
+lean_closure_set(x_10, 1, x_7);
+x_11 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_11, 0, x_9);
+lean_ctor_set(x_11, 1, x_10);
+return x_11;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__31(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__31___rarg___boxed), 8, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__32___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8) {
+_start:
+{
+lean_object* x_9; lean_object* x_10; lean_object* x_11; 
+lean_inc(x_7);
+lean_inc(x_8);
+x_9 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__1), 3, 2);
+lean_closure_set(x_9, 0, x_8);
+lean_closure_set(x_9, 1, x_7);
+x_10 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__2), 5, 2);
+lean_closure_set(x_10, 0, x_8);
+lean_closure_set(x_10, 1, x_7);
+x_11 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_11, 0, x_9);
+lean_ctor_set(x_11, 1, x_10);
+return x_11;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__32(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__32___rarg___boxed), 8, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskeringLeft___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__18___rarg___lambda__1(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8) {
+_start:
+{
+lean_object* x_9; lean_object* x_10; lean_object* x_11; 
+lean_inc(x_8);
+x_9 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__19___rarg___boxed), 8, 7);
+lean_closure_set(x_9, 0, x_2);
+lean_closure_set(x_9, 1, lean_box(0));
+lean_closure_set(x_9, 2, x_3);
+lean_closure_set(x_9, 3, x_4);
+lean_closure_set(x_9, 4, x_5);
+lean_closure_set(x_9, 5, x_6);
+lean_closure_set(x_9, 6, x_8);
+x_10 = lean_alloc_closure((void*)(l_CategoryTheory_whiskerLeft___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__20___rarg), 4, 1);
+lean_closure_set(x_10, 0, x_8);
+x_11 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_11, 0, x_9);
+lean_ctor_set(x_11, 1, x_10);
+return x_11;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskeringLeft___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__18___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; lean_object* x_11; lean_object* x_12; lean_object* x_13; lean_object* x_14; lean_object* x_15; lean_object* x_16; lean_object* x_17; 
+x_7 = lean_ctor_get(x_6, 0);
+lean_inc(x_7);
+lean_inc(x_4);
+lean_inc(x_7);
+x_8 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__1___rarg(x_3, x_7, x_4);
+lean_inc(x_3);
+x_9 = l_CategoryTheory_Grothendieck_instCategory___rarg(x_3, x_8);
+lean_inc(x_5);
+x_10 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__14___rarg(x_3, x_7, x_5);
+lean_inc(x_3);
+x_11 = l_CategoryTheory_Grothendieck_instCategory___rarg(x_3, x_10);
+lean_inc(x_11);
+x_12 = l_CategoryTheory_Functor_category___rarg(x_9, lean_box(0), x_11);
+lean_inc(x_11);
+x_13 = l_CategoryTheory_Functor_category___rarg(x_11, lean_box(0), x_11);
+x_14 = lean_ctor_get(x_12, 0);
+lean_inc(x_14);
+lean_dec(x_12);
+x_15 = lean_alloc_closure((void*)(l_CategoryTheory_whiskeringLeft___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__18___rarg___lambda__1___boxed), 8, 7);
+lean_closure_set(x_15, 0, x_13);
+lean_closure_set(x_15, 1, x_1);
+lean_closure_set(x_15, 2, x_3);
+lean_closure_set(x_15, 3, x_4);
+lean_closure_set(x_15, 4, x_5);
+lean_closure_set(x_15, 5, x_6);
+lean_closure_set(x_15, 6, x_14);
+x_16 = l_CategoryTheory_whiskeringLeft___at_CategoryTheory_Grothendieck_preEquivalence___spec__24___rarg___closed__1;
+x_17 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_17, 0, x_15);
+lean_ctor_set(x_17, 1, x_16);
+return x_17;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskeringLeft___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__18(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_whiskeringLeft___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__18___rarg), 6, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_mapIso___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__33___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8, lean_object* x_9, lean_object* x_10) {
+_start:
+{
+lean_object* x_11; lean_object* x_12; lean_object* x_13; lean_object* x_14; lean_object* x_15; lean_object* x_16; 
+x_11 = lean_ctor_get(x_7, 1);
+lean_inc(x_11);
+lean_dec(x_7);
+x_12 = lean_ctor_get(x_10, 0);
+lean_inc(x_12);
+lean_inc(x_11);
+lean_inc(x_9);
+lean_inc(x_8);
+x_13 = lean_apply_3(x_11, x_8, x_9, x_12);
+x_14 = lean_ctor_get(x_10, 1);
+lean_inc(x_14);
+lean_dec(x_10);
+x_15 = lean_apply_3(x_11, x_9, x_8, x_14);
+x_16 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_16, 0, x_13);
+lean_ctor_set(x_16, 1, x_15);
+return x_16;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_mapIso___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__33(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_mapIso___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__33___rarg___boxed), 10, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_isoWhiskerLeft___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__17___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8, lean_object* x_9, lean_object* x_10) {
+_start:
+{
+lean_object* x_11; lean_object* x_12; lean_object* x_13; lean_object* x_14; 
+lean_inc(x_6);
+lean_inc(x_5);
+lean_inc(x_4);
+lean_inc(x_3);
+lean_inc(x_1);
+x_11 = l_CategoryTheory_whiskeringLeft___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__18___rarg(x_1, lean_box(0), x_3, x_4, x_5, x_6);
+x_12 = lean_ctor_get(x_11, 0);
+lean_inc(x_12);
+lean_dec(x_11);
+x_13 = lean_apply_1(x_12, x_7);
+x_14 = l_CategoryTheory_Functor_mapIso___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__33___rarg(x_1, lean_box(0), x_3, x_4, x_5, x_6, x_13, x_8, x_9, x_10);
+lean_dec(x_6);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_14;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_isoWhiskerLeft___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__17(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_isoWhiskerLeft___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__17___rarg), 10, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__35___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8, lean_object* x_9, lean_object* x_10, lean_object* x_11) {
+_start:
+{
+lean_object* x_12; lean_object* x_13; lean_object* x_14; lean_object* x_15; 
+x_12 = lean_ctor_get(x_6, 0);
+lean_inc(x_12);
+lean_dec(x_6);
+x_13 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__2___rarg(x_3, x_12, x_5);
+x_14 = l_CategoryTheory_Grothendieck_instCategory___rarg(x_3, x_13);
+x_15 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_vcomp___elambda__1___rarg), 7, 6);
+lean_closure_set(x_15, 0, x_14);
+lean_closure_set(x_15, 1, x_7);
+lean_closure_set(x_15, 2, x_8);
+lean_closure_set(x_15, 3, x_9);
+lean_closure_set(x_15, 4, x_10);
+lean_closure_set(x_15, 5, x_11);
+return x_15;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__35(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__35___rarg___boxed), 11, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__36___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8, lean_object* x_9, lean_object* x_10, lean_object* x_11) {
+_start:
+{
+lean_object* x_12; lean_object* x_13; lean_object* x_14; lean_object* x_15; 
+x_12 = lean_ctor_get(x_6, 0);
+lean_inc(x_12);
+lean_dec(x_6);
+x_13 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__2___rarg(x_3, x_12, x_5);
+x_14 = l_CategoryTheory_Grothendieck_instCategory___rarg(x_3, x_13);
+x_15 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_vcomp___elambda__1___rarg), 7, 6);
+lean_closure_set(x_15, 0, x_14);
+lean_closure_set(x_15, 1, x_7);
+lean_closure_set(x_15, 2, x_8);
+lean_closure_set(x_15, 3, x_9);
+lean_closure_set(x_15, 4, x_10);
+lean_closure_set(x_15, 5, x_11);
+return x_15;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__36(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__36___rarg___boxed), 11, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_trans___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__34___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8, lean_object* x_9, lean_object* x_10, lean_object* x_11) {
+_start:
+{
+lean_object* x_12; lean_object* x_13; lean_object* x_14; lean_object* x_15; lean_object* x_16; lean_object* x_17; lean_object* x_18; 
+x_12 = lean_ctor_get(x_10, 0);
+lean_inc(x_12);
+x_13 = lean_ctor_get(x_11, 0);
+lean_inc(x_13);
+lean_inc(x_9);
+lean_inc(x_8);
+lean_inc(x_7);
+lean_inc(x_6);
+lean_inc(x_5);
+lean_inc(x_3);
+x_14 = l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__35___rarg(x_1, lean_box(0), x_3, x_4, x_5, x_6, x_7, x_8, x_9, x_12, x_13);
+x_15 = lean_ctor_get(x_11, 1);
+lean_inc(x_15);
+lean_dec(x_11);
+x_16 = lean_ctor_get(x_10, 1);
+lean_inc(x_16);
+lean_dec(x_10);
+x_17 = l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__36___rarg(x_1, lean_box(0), x_3, x_4, x_5, x_6, x_9, x_8, x_7, x_15, x_16);
+x_18 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_18, 0, x_14);
+lean_ctor_set(x_18, 1, x_17);
+return x_18;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_trans___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__34(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Iso_trans___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__34___rarg___boxed), 11, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; lean_object* x_9; lean_object* x_10; lean_object* x_11; lean_object* x_12; lean_object* x_13; lean_object* x_14; lean_object* x_15; lean_object* x_16; lean_object* x_17; lean_object* x_18; lean_object* x_19; lean_object* x_20; lean_object* x_21; lean_object* x_22; lean_object* x_23; lean_object* x_24; lean_object* x_25; lean_object* x_26; lean_object* x_27; lean_object* x_28; lean_object* x_29; 
+x_8 = lean_ctor_get(x_6, 0);
+lean_inc(x_8);
+lean_inc(x_4);
+lean_inc(x_8);
+x_9 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__1___rarg(x_3, x_8, x_4);
+lean_inc(x_5);
+lean_inc(x_8);
+x_10 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__2___rarg(x_3, x_8, x_5);
+lean_inc(x_7);
+lean_inc(x_5);
+lean_inc(x_4);
+x_11 = lean_alloc_closure((void*)(l_CategoryTheory_whiskerLeft___elambda__1___rarg___boxed), 5, 4);
+lean_closure_set(x_11, 0, x_8);
+lean_closure_set(x_11, 1, x_4);
+lean_closure_set(x_11, 2, x_5);
+lean_closure_set(x_11, 3, x_7);
+lean_inc(x_3);
+x_12 = l_CategoryTheory_Grothendieck_map___rarg(x_3, x_9, x_10, x_11);
+x_13 = l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__6___rarg(x_1, lean_box(0), x_3, x_5, x_6);
+lean_inc(x_12);
+x_14 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__7___rarg(x_1, lean_box(0), x_3, x_4, x_5, x_6, x_12, x_13);
+lean_inc(x_6);
+lean_inc(x_4);
+lean_inc(x_3);
+lean_inc(x_1);
+x_15 = l_CategoryTheory_Grothendieck_preEquivalence___rarg(x_1, lean_box(0), x_3, x_4, x_6);
+x_16 = lean_ctor_get(x_15, 0);
+lean_inc(x_16);
+lean_dec(x_15);
+lean_inc(x_5);
+lean_inc(x_4);
+lean_inc(x_1);
+x_17 = l_CategoryTheory_Grothendieck_map___rarg(x_1, x_4, x_5, x_7);
+lean_inc(x_6);
+lean_inc(x_5);
+lean_inc(x_3);
+lean_inc(x_1);
+x_18 = l_CategoryTheory_Grothendieck_preEquivalence___rarg(x_1, lean_box(0), x_3, x_5, x_6);
+lean_inc(x_6);
+lean_inc(x_5);
+lean_inc(x_3);
+lean_inc(x_1);
+x_19 = l_CategoryTheory_Grothendieck_preInv___rarg(x_1, lean_box(0), x_3, x_5, x_6);
+lean_inc(x_19);
+x_20 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__8___rarg(x_1, lean_box(0), x_3, x_4, x_5, x_6, x_17, x_19);
+x_21 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__9___rarg(x_1, lean_box(0), x_3, x_4, x_5, x_6, x_16, x_20);
+lean_inc(x_12);
+lean_inc(x_6);
+lean_inc(x_5);
+lean_inc(x_3);
+x_22 = l_CategoryTheory_Functor_rightUnitor___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__10___rarg(x_1, lean_box(0), x_3, x_4, x_5, x_6, x_12);
+x_23 = l_CategoryTheory_Iso_symm___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__13___rarg(x_1, lean_box(0), x_3, x_4, x_5, x_6, x_14, x_12, x_22);
+lean_dec(x_22);
+x_24 = l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__15___rarg(x_1, lean_box(0), x_3, x_5, x_6);
+x_25 = lean_ctor_get(x_18, 0);
+lean_inc(x_25);
+x_26 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__16___rarg(x_1, lean_box(0), x_3, x_5, x_6, x_25, x_19);
+x_27 = lean_ctor_get(x_18, 2);
+lean_inc(x_27);
+lean_dec(x_18);
+lean_inc(x_12);
+lean_inc(x_6);
+lean_inc(x_5);
+lean_inc(x_4);
+lean_inc(x_3);
+lean_inc(x_1);
+x_28 = l_CategoryTheory_isoWhiskerLeft___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__17___rarg(x_1, lean_box(0), x_3, x_4, x_5, x_6, x_12, x_24, x_26, x_27);
+x_29 = l_CategoryTheory_Iso_trans___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__34___rarg(x_1, lean_box(0), x_3, x_4, x_5, x_6, x_12, x_14, x_21, x_23, x_28);
+lean_dec(x_4);
+lean_dec(x_1);
+return x_29;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___rarg), 7, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__1___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__1___rarg(x_1, x_2, x_3);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__1___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__1(x_1, x_2, x_3);
+lean_dec(x_2);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__2___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__2___rarg(x_1, x_2, x_3);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__2___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__2(x_1, x_2, x_3);
+lean_dec(x_2);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__4___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__4___rarg(x_1, x_2, x_3);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__4___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__4(x_1, x_2, x_3);
+lean_dec(x_2);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__5___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__5___rarg(x_1, x_2, x_3);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__5___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__5(x_1, x_2, x_3);
+lean_dec(x_2);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerLeft___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__3___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_whiskerLeft___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__3(x_1, x_2, x_3, x_4);
+lean_dec(x_4);
+lean_dec(x_2);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__6___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__6___rarg(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__7___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8) {
+_start:
+{
+lean_object* x_9; 
+x_9 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__7___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8);
+lean_dec(x_6);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_9;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__8___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8) {
+_start:
+{
+lean_object* x_9; 
+x_9 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__8___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8);
+lean_dec(x_6);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_9;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__9___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8) {
+_start:
+{
+lean_object* x_9; 
+x_9 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__9___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8);
+lean_dec(x_6);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_9;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__11___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__11___rarg(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__12___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8) {
+_start:
+{
+lean_object* x_9; 
+x_9 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__12___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8);
+lean_dec(x_6);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_9;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_rightUnitor___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__10___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; 
+x_8 = l_CategoryTheory_Functor_rightUnitor___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__10___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7);
+lean_dec(x_4);
+lean_dec(x_1);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_symm___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__13___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8, lean_object* x_9) {
+_start:
+{
+lean_object* x_10; 
+x_10 = l_CategoryTheory_Iso_symm___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__13___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8, x_9);
+lean_dec(x_9);
+lean_dec(x_8);
+lean_dec(x_7);
+lean_dec(x_6);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_10;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__14___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__14___rarg(x_1, x_2, x_3);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__14___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__14(x_1, x_2, x_3);
+lean_dec(x_2);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__15___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__15___rarg(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__16___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; 
+x_8 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__16___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__19___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8) {
+_start:
+{
+lean_object* x_9; 
+x_9 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__19___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8);
+lean_dec(x_6);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_9;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__21___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8) {
+_start:
+{
+lean_object* x_9; 
+x_9 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__21___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8);
+lean_dec(x_6);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_9;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__22___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8) {
+_start:
+{
+lean_object* x_9; 
+x_9 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__22___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8);
+lean_dec(x_6);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_9;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerLeft___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__20___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; 
+x_8 = l_CategoryTheory_whiskerLeft___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__20(x_1, x_2, x_3, x_4, x_5, x_6, x_7);
+lean_dec(x_7);
+lean_dec(x_6);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_2);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__23___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8) {
+_start:
+{
+lean_object* x_9; 
+x_9 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__23___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8);
+lean_dec(x_6);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_9;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__25___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8) {
+_start:
+{
+lean_object* x_9; 
+x_9 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__25___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8);
+lean_dec(x_6);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_9;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__26___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8) {
+_start:
+{
+lean_object* x_9; 
+x_9 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__26___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8);
+lean_dec(x_6);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_9;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerLeft___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__24___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; 
+x_8 = l_CategoryTheory_whiskerLeft___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__24(x_1, x_2, x_3, x_4, x_5, x_6, x_7);
+lean_dec(x_7);
+lean_dec(x_6);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_2);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__27___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8) {
+_start:
+{
+lean_object* x_9; 
+x_9 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__27___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8);
+lean_dec(x_6);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_9;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__29___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8) {
+_start:
+{
+lean_object* x_9; 
+x_9 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__29___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8);
+lean_dec(x_6);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_9;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__30___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8) {
+_start:
+{
+lean_object* x_9; 
+x_9 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__30___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8);
+lean_dec(x_6);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_9;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerLeft___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__28___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; 
+x_8 = l_CategoryTheory_whiskerLeft___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__28(x_1, x_2, x_3, x_4, x_5, x_6, x_7);
+lean_dec(x_7);
+lean_dec(x_6);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_2);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__31___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8) {
+_start:
+{
+lean_object* x_9; 
+x_9 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__31___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8);
+lean_dec(x_6);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_9;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__32___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8) {
+_start:
+{
+lean_object* x_9; 
+x_9 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__32___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8);
+lean_dec(x_6);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_9;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskeringLeft___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__18___rarg___lambda__1___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8) {
+_start:
+{
+lean_object* x_9; 
+x_9 = l_CategoryTheory_whiskeringLeft___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__18___rarg___lambda__1(x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8);
+lean_dec(x_7);
+lean_dec(x_1);
+return x_9;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_mapIso___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__33___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8, lean_object* x_9, lean_object* x_10) {
+_start:
+{
+lean_object* x_11; 
+x_11 = l_CategoryTheory_Functor_mapIso___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__33___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8, x_9, x_10);
+lean_dec(x_6);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_11;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__35___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8, lean_object* x_9, lean_object* x_10, lean_object* x_11) {
+_start:
+{
+lean_object* x_12; 
+x_12 = l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__35___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8, x_9, x_10, x_11);
+lean_dec(x_4);
+lean_dec(x_1);
+return x_12;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__36___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8, lean_object* x_9, lean_object* x_10, lean_object* x_11) {
+_start:
+{
+lean_object* x_12; 
+x_12 = l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__36___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8, x_9, x_10, x_11);
+lean_dec(x_4);
+lean_dec(x_1);
+return x_12;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_trans___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__34___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8, lean_object* x_9, lean_object* x_10, lean_object* x_11) {
+_start:
+{
+lean_object* x_12; 
+x_12 = l_CategoryTheory_Iso_trans___at_CategoryTheory_Grothendieck_mapWhiskerLeftIsoConjPreMap___spec__34___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8, x_9, x_10, x_11);
+lean_dec(x_4);
+lean_dec(x_1);
+return x_12;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck__u03b9___rarg___lambda__1(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck__u03b9___rarg___lambda__2(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; lean_object* x_9; lean_object* x_10; lean_object* x_11; lean_object* x_12; lean_object* x_13; lean_object* x_14; lean_object* x_15; lean_object* x_16; lean_object* x_17; 
+x_8 = lean_ctor_get(x_1, 1);
+lean_inc(x_8);
+lean_dec(x_1);
+lean_inc(x_3);
+x_9 = lean_apply_1(x_8, x_3);
+x_10 = lean_ctor_get(x_4, 2);
+lean_inc(x_10);
+x_11 = lean_ctor_get(x_2, 1);
+lean_inc(x_11);
+lean_dec(x_2);
+lean_inc(x_9);
+lean_inc(x_3);
+x_12 = lean_apply_3(x_11, x_3, x_3, x_9);
+x_13 = lean_ctor_get(x_12, 0);
+lean_inc(x_13);
+lean_dec(x_12);
+lean_inc(x_5);
+x_14 = lean_apply_1(x_13, x_5);
+lean_inc(x_5);
+x_15 = l_CategoryTheory_eqToHom___rarg(x_4, x_14, x_5, lean_box(0));
+x_16 = lean_apply_5(x_10, x_14, x_5, x_6, x_15, x_7);
+x_17 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_17, 0, x_9);
+lean_ctor_set(x_17, 1, x_16);
+return x_17;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck__u03b9___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; lean_object* x_6; lean_object* x_7; lean_object* x_8; 
+x_4 = lean_ctor_get(x_2, 0);
+lean_inc(x_4);
+lean_inc(x_3);
+x_5 = lean_apply_1(x_4, x_3);
+lean_inc(x_3);
+lean_inc(x_2);
+lean_inc(x_1);
+x_6 = lean_alloc_closure((void*)(l_CategoryTheory_Grothendieck__u03b9___rarg___lambda__1___boxed), 4, 3);
+lean_closure_set(x_6, 0, x_1);
+lean_closure_set(x_6, 1, x_2);
+lean_closure_set(x_6, 2, x_3);
+x_7 = lean_alloc_closure((void*)(l_CategoryTheory_Grothendieck__u03b9___rarg___lambda__2), 7, 4);
+lean_closure_set(x_7, 0, x_1);
+lean_closure_set(x_7, 1, x_2);
+lean_closure_set(x_7, 2, x_3);
+lean_closure_set(x_7, 3, x_5);
+x_8 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_8, 0, x_6);
+lean_ctor_set(x_8, 1, x_7);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck__u03b9(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Grothendieck__u03b9___rarg), 3, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck__u03b9___rarg___lambda__1___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_Grothendieck__u03b9___rarg___lambda__1(x_1, x_2, x_3, x_4);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck__u03b9NatTrans___elambda__1___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8, lean_object* x_9, lean_object* x_10, lean_object* x_11, lean_object* x_12, lean_object* x_13, lean_object* x_14) {
+_start:
+{
+lean_object* x_15; lean_object* x_16; lean_object* x_17; lean_object* x_18; lean_object* x_19; lean_object* x_20; lean_object* x_21; lean_object* x_22; lean_object* x_23; lean_object* x_24; lean_object* x_25; lean_object* x_26; lean_object* x_27; lean_object* x_28; 
+x_15 = lean_ctor_get(x_11, 0);
+lean_inc(x_15);
+lean_dec(x_11);
+lean_inc(x_14);
+x_16 = lean_apply_1(x_15, x_14);
+x_17 = lean_ctor_get(x_13, 0);
+lean_inc(x_17);
+lean_dec(x_13);
+x_18 = lean_apply_1(x_17, x_14);
+x_19 = lean_ctor_get(x_18, 0);
+lean_inc(x_19);
+lean_dec(x_18);
+lean_inc(x_19);
+x_20 = lean_apply_1(x_7, x_19);
+x_21 = lean_ctor_get(x_20, 1);
+lean_inc(x_21);
+lean_dec(x_20);
+x_22 = lean_ctor_get(x_16, 0);
+lean_inc(x_22);
+lean_inc(x_5);
+x_23 = lean_apply_3(x_12, x_22, x_19, x_5);
+x_24 = lean_ctor_get(x_23, 0);
+lean_inc(x_24);
+lean_dec(x_23);
+x_25 = lean_ctor_get(x_16, 1);
+lean_inc(x_25);
+lean_dec(x_16);
+x_26 = lean_apply_1(x_24, x_25);
+x_27 = lean_apply_1(x_21, x_26);
+x_28 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_28, 0, x_5);
+lean_ctor_set(x_28, 1, x_27);
+return x_28;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck__u03b9NatTrans___elambda__1(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Grothendieck__u03b9NatTrans___elambda__1___rarg___boxed), 14, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck__u03b9NatTrans___spec__1___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; lean_object* x_9; lean_object* x_10; 
+lean_inc(x_6);
+lean_inc(x_7);
+x_8 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__1), 3, 2);
+lean_closure_set(x_8, 0, x_7);
+lean_closure_set(x_8, 1, x_6);
+x_9 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__2), 5, 2);
+lean_closure_set(x_9, 0, x_7);
+lean_closure_set(x_9, 1, x_6);
+x_10 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_10, 0, x_8);
+lean_ctor_set(x_10, 1, x_9);
+return x_10;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck__u03b9NatTrans___spec__1(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck__u03b9NatTrans___spec__1___rarg___boxed), 7, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck__u03b9NatTrans___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; lean_object* x_11; lean_object* x_12; lean_object* x_13; lean_object* x_14; 
+x_6 = lean_ctor_get(x_2, 0);
+lean_inc(x_6);
+lean_inc(x_6);
+lean_inc(x_3);
+x_7 = lean_apply_1(x_6, x_3);
+lean_inc(x_2);
+lean_inc(x_1);
+x_8 = l_CategoryTheory_Grothendieck_instCategory___rarg(x_1, x_2);
+lean_inc(x_3);
+lean_inc(x_2);
+lean_inc(x_1);
+x_9 = l_CategoryTheory_Grothendieck__u03b9___rarg(x_1, x_2, x_3);
+x_10 = lean_ctor_get(x_2, 1);
+lean_inc(x_10);
+lean_inc(x_10);
+lean_inc(x_5);
+lean_inc(x_4);
+lean_inc(x_3);
+x_11 = lean_apply_3(x_10, x_3, x_4, x_5);
+lean_inc(x_4);
+lean_inc(x_2);
+lean_inc(x_1);
+x_12 = l_CategoryTheory_Grothendieck__u03b9___rarg(x_1, x_2, x_4);
+x_13 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck__u03b9NatTrans___spec__1___rarg(x_1, x_2, x_3, x_4, x_2, x_11, x_12);
+lean_inc(x_7);
+lean_inc(x_2);
+x_14 = lean_alloc_closure((void*)(l_CategoryTheory_Grothendieck__u03b9NatTrans___elambda__1___rarg___boxed), 14, 13);
+lean_closure_set(x_14, 0, x_1);
+lean_closure_set(x_14, 1, x_2);
+lean_closure_set(x_14, 2, x_3);
+lean_closure_set(x_14, 3, x_4);
+lean_closure_set(x_14, 4, x_5);
+lean_closure_set(x_14, 5, x_2);
+lean_closure_set(x_14, 6, x_6);
+lean_closure_set(x_14, 7, x_7);
+lean_closure_set(x_14, 8, x_7);
+lean_closure_set(x_14, 9, x_8);
+lean_closure_set(x_14, 10, x_9);
+lean_closure_set(x_14, 11, x_10);
+lean_closure_set(x_14, 12, x_13);
+return x_14;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck__u03b9NatTrans(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Grothendieck__u03b9NatTrans___rarg), 5, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck__u03b9NatTrans___elambda__1___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8, lean_object* x_9, lean_object* x_10, lean_object* x_11, lean_object* x_12, lean_object* x_13, lean_object* x_14) {
+_start:
+{
+lean_object* x_15; 
+x_15 = l_CategoryTheory_Grothendieck__u03b9NatTrans___elambda__1___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8, x_9, x_10, x_11, x_12, x_13, x_14);
+lean_dec(x_10);
+lean_dec(x_9);
+lean_dec(x_8);
+lean_dec(x_6);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_15;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck__u03b9NatTrans___spec__1___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; 
+x_8 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck__u03b9NatTrans___spec__1___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_functorFrom___rarg___lambda__1(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+x_3 = lean_ctor_get(x_2, 0);
+lean_inc(x_3);
+x_4 = lean_apply_1(x_1, x_3);
+x_5 = lean_ctor_get(x_4, 0);
+lean_inc(x_5);
+lean_dec(x_4);
+x_6 = lean_ctor_get(x_2, 1);
+lean_inc(x_6);
+lean_dec(x_2);
+x_7 = lean_apply_1(x_5, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_functorFrom___rarg___lambda__2(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; lean_object* x_9; lean_object* x_10; lean_object* x_11; lean_object* x_12; lean_object* x_13; lean_object* x_14; lean_object* x_15; lean_object* x_16; lean_object* x_17; lean_object* x_18; lean_object* x_19; lean_object* x_20; lean_object* x_21; lean_object* x_22; lean_object* x_23; lean_object* x_24; lean_object* x_25; lean_object* x_26; lean_object* x_27; lean_object* x_28; lean_object* x_29; lean_object* x_30; lean_object* x_31; lean_object* x_32; lean_object* x_33; lean_object* x_34; 
+x_8 = lean_ctor_get(x_1, 2);
+lean_inc(x_8);
+x_9 = lean_ctor_get(x_5, 0);
+lean_inc(x_9);
+lean_inc(x_2);
+lean_inc(x_9);
+x_10 = lean_apply_1(x_2, x_9);
+x_11 = lean_ctor_get(x_10, 0);
+lean_inc(x_11);
+lean_dec(x_10);
+x_12 = lean_ctor_get(x_5, 1);
+lean_inc(x_12);
+lean_dec(x_5);
+lean_inc(x_12);
+x_13 = lean_apply_1(x_11, x_12);
+x_14 = lean_ctor_get(x_3, 0);
+lean_inc(x_14);
+lean_inc(x_14);
+lean_inc(x_9);
+x_15 = lean_apply_1(x_14, x_9);
+x_16 = lean_ctor_get(x_6, 0);
+lean_inc(x_16);
+lean_inc(x_16);
+x_17 = lean_apply_1(x_14, x_16);
+x_18 = lean_ctor_get(x_3, 1);
+lean_inc(x_18);
+lean_dec(x_3);
+x_19 = lean_ctor_get(x_7, 0);
+lean_inc(x_19);
+lean_inc(x_19);
+lean_inc(x_16);
+lean_inc(x_9);
+x_20 = lean_apply_3(x_18, x_9, x_16, x_19);
+lean_inc(x_16);
+x_21 = lean_apply_1(x_2, x_16);
+lean_inc(x_21);
+lean_inc(x_20);
+x_22 = l_CategoryTheory_Functor_comp___rarg(x_15, lean_box(0), x_17, lean_box(0), x_1, x_20, x_21);
+lean_dec(x_1);
+lean_dec(x_17);
+lean_dec(x_15);
+x_23 = lean_ctor_get(x_22, 0);
+lean_inc(x_23);
+lean_dec(x_22);
+lean_inc(x_12);
+x_24 = lean_apply_1(x_23, x_12);
+x_25 = lean_ctor_get(x_21, 0);
+lean_inc(x_25);
+x_26 = lean_ctor_get(x_6, 1);
+lean_inc(x_26);
+lean_dec(x_6);
+lean_inc(x_26);
+x_27 = lean_apply_1(x_25, x_26);
+lean_inc(x_12);
+x_28 = lean_apply_4(x_4, x_9, x_16, x_19, x_12);
+x_29 = lean_ctor_get(x_21, 1);
+lean_inc(x_29);
+lean_dec(x_21);
+x_30 = lean_ctor_get(x_20, 0);
+lean_inc(x_30);
+lean_dec(x_20);
+x_31 = lean_apply_1(x_30, x_12);
+x_32 = lean_ctor_get(x_7, 1);
+lean_inc(x_32);
+lean_dec(x_7);
+x_33 = lean_apply_3(x_29, x_31, x_26, x_32);
+x_34 = lean_apply_5(x_8, x_13, x_24, x_27, x_28, x_33);
+return x_34;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_functorFrom___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8) {
+_start:
+{
+lean_object* x_9; lean_object* x_10; lean_object* x_11; 
+lean_inc(x_5);
+x_9 = lean_alloc_closure((void*)(l_CategoryTheory_Grothendieck_functorFrom___rarg___lambda__1), 2, 1);
+lean_closure_set(x_9, 0, x_5);
+x_10 = lean_alloc_closure((void*)(l_CategoryTheory_Grothendieck_functorFrom___rarg___lambda__2), 7, 4);
+lean_closure_set(x_10, 0, x_4);
+lean_closure_set(x_10, 1, x_5);
+lean_closure_set(x_10, 2, x_2);
+lean_closure_set(x_10, 3, x_6);
+x_11 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_11, 0, x_9);
+lean_ctor_set(x_11, 1, x_10);
+return x_11;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_functorFrom(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Grothendieck_functorFrom___rarg___boxed), 8, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_functorFrom___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8) {
+_start:
+{
+lean_object* x_9; 
+x_9 = l_CategoryTheory_Grothendieck_functorFrom___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8);
+lean_dec(x_1);
+return x_9;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_functorFrom___at_CategoryTheory_Grothendieck__u03b9CompFunctorFrom___spec__1___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8) {
+_start:
+{
+lean_object* x_9; lean_object* x_10; lean_object* x_11; 
+lean_inc(x_5);
+x_9 = lean_alloc_closure((void*)(l_CategoryTheory_Grothendieck_functorFrom___rarg___lambda__1), 2, 1);
+lean_closure_set(x_9, 0, x_5);
+x_10 = lean_alloc_closure((void*)(l_CategoryTheory_Grothendieck_functorFrom___rarg___lambda__2), 7, 4);
+lean_closure_set(x_10, 0, x_3);
+lean_closure_set(x_10, 1, x_5);
+lean_closure_set(x_10, 2, x_4);
+lean_closure_set(x_10, 3, x_6);
+x_11 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_11, 0, x_9);
+lean_ctor_set(x_11, 1, x_10);
+return x_11;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_functorFrom___at_CategoryTheory_Grothendieck__u03b9CompFunctorFrom___spec__1(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Grothendieck_functorFrom___at_CategoryTheory_Grothendieck__u03b9CompFunctorFrom___spec__1___rarg___boxed), 8, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck__u03b9CompFunctorFrom___spec__2___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; 
+lean_inc(x_4);
+lean_inc(x_5);
+x_6 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__1), 3, 2);
+lean_closure_set(x_6, 0, x_5);
+lean_closure_set(x_6, 1, x_4);
+x_7 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__2), 5, 2);
+lean_closure_set(x_7, 0, x_5);
+lean_closure_set(x_7, 1, x_4);
+x_8 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_8, 0, x_6);
+lean_ctor_set(x_8, 1, x_7);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck__u03b9CompFunctorFrom___spec__2(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck__u03b9CompFunctorFrom___spec__2___rarg___boxed), 5, 0);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Grothendieck__u03b9CompFunctorFrom___spec__3___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; lean_object* x_9; lean_object* x_10; 
+lean_inc(x_6);
+x_8 = lean_alloc_closure((void*)(l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Grothendieck_mapWhiskerRightAsSmallFunctor___spec__9___rarg___lambda__1), 2, 1);
+lean_closure_set(x_8, 0, x_6);
+x_9 = lean_alloc_closure((void*)(l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Grothendieck_mapWhiskerRightAsSmallFunctor___spec__9___rarg___lambda__2), 2, 1);
+lean_closure_set(x_9, 0, x_6);
+x_10 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_10, 0, x_8);
+lean_ctor_set(x_10, 1, x_9);
+return x_10;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Grothendieck__u03b9CompFunctorFrom___spec__3(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Grothendieck__u03b9CompFunctorFrom___spec__3___rarg___boxed), 7, 0);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck__u03b9CompFunctorFrom___rarg___lambda__1(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; lean_object* x_6; 
+x_4 = lean_ctor_get(x_1, 0);
+lean_inc(x_4);
+lean_dec(x_1);
+x_5 = lean_apply_1(x_4, x_3);
+x_6 = l_CategoryTheory_Iso_refl___rarg(x_2, x_5);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck__u03b9CompFunctorFrom___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8, lean_object* x_9) {
+_start:
+{
+lean_object* x_10; lean_object* x_11; lean_object* x_12; lean_object* x_13; lean_object* x_14; lean_object* x_15; 
+lean_inc(x_9);
+lean_inc(x_2);
+lean_inc(x_1);
+x_10 = l_CategoryTheory_Grothendieck__u03b9___rarg(x_1, x_2, x_9);
+lean_inc(x_5);
+lean_inc(x_2);
+lean_inc(x_4);
+x_11 = l_CategoryTheory_Grothendieck_functorFrom___at_CategoryTheory_Grothendieck__u03b9CompFunctorFrom___spec__1___rarg(x_1, lean_box(0), x_4, x_2, x_5, x_6, lean_box(0), lean_box(0));
+lean_dec(x_1);
+x_12 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck__u03b9CompFunctorFrom___spec__2___rarg(x_4, x_9, x_2, x_10, x_11);
+lean_inc(x_9);
+x_13 = lean_apply_1(x_5, x_9);
+lean_inc(x_4);
+lean_inc(x_12);
+x_14 = lean_alloc_closure((void*)(l_CategoryTheory_Grothendieck__u03b9CompFunctorFrom___rarg___lambda__1), 3, 2);
+lean_closure_set(x_14, 0, x_12);
+lean_closure_set(x_14, 1, x_4);
+x_15 = l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Grothendieck__u03b9CompFunctorFrom___spec__3___rarg(x_4, x_9, x_2, x_12, x_13, x_14, lean_box(0));
+lean_dec(x_13);
+lean_dec(x_12);
+lean_dec(x_2);
+lean_dec(x_9);
+lean_dec(x_4);
+return x_15;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck__u03b9CompFunctorFrom(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Grothendieck__u03b9CompFunctorFrom___rarg), 9, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck_functorFrom___at_CategoryTheory_Grothendieck__u03b9CompFunctorFrom___spec__1___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8) {
+_start:
+{
+lean_object* x_9; 
+x_9 = l_CategoryTheory_Grothendieck_functorFrom___at_CategoryTheory_Grothendieck__u03b9CompFunctorFrom___spec__1___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8);
+lean_dec(x_1);
+return x_9;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck__u03b9CompFunctorFrom___spec__2___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck__u03b9CompFunctorFrom___spec__2___rarg(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck__u03b9CompFunctorFrom___spec__2___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck__u03b9CompFunctorFrom___spec__2(x_1, x_2, x_3, x_4);
+lean_dec(x_3);
+lean_dec(x_2);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Grothendieck__u03b9CompFunctorFrom___spec__3___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; 
+x_8 = l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Grothendieck__u03b9CompFunctorFrom___spec__3___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Grothendieck__u03b9CompFunctorFrom___spec__3___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Grothendieck__u03b9CompFunctorFrom___spec__3(x_1, x_2, x_3, x_4);
+lean_dec(x_3);
+lean_dec(x_2);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck__u03b9CompMap___spec__1___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; lean_object* x_9; lean_object* x_10; 
+lean_inc(x_6);
+lean_inc(x_7);
+x_8 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__1), 3, 2);
+lean_closure_set(x_8, 0, x_7);
+lean_closure_set(x_8, 1, x_6);
+x_9 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__2), 5, 2);
+lean_closure_set(x_9, 0, x_7);
+lean_closure_set(x_9, 1, x_6);
+x_10 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_10, 0, x_8);
+lean_ctor_set(x_10, 1, x_9);
+return x_10;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck__u03b9CompMap___spec__1(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck__u03b9CompMap___spec__1___rarg___boxed), 7, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck__u03b9CompMap___spec__2___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8) {
+_start:
+{
+lean_object* x_9; lean_object* x_10; lean_object* x_11; 
+lean_inc(x_7);
+lean_inc(x_8);
+x_9 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__1), 3, 2);
+lean_closure_set(x_9, 0, x_8);
+lean_closure_set(x_9, 1, x_7);
+x_10 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck_mapCompIso___spec__2___rarg___lambda__2), 5, 2);
+lean_closure_set(x_10, 0, x_8);
+lean_closure_set(x_10, 1, x_7);
+x_11 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_11, 0, x_9);
+lean_ctor_set(x_11, 1, x_10);
+return x_11;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck__u03b9CompMap___spec__2(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck__u03b9CompMap___spec__2___rarg___boxed), 8, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_refl___at_CategoryTheory_Grothendieck__u03b9CompMap___spec__3___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; 
+x_4 = l_CategoryTheory_Grothendieck_id___rarg(x_1, x_2, x_3);
+lean_inc(x_4);
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_4);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_refl___at_CategoryTheory_Grothendieck__u03b9CompMap___spec__3(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Iso_refl___at_CategoryTheory_Grothendieck__u03b9CompMap___spec__3___rarg), 3, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Grothendieck__u03b9CompMap___spec__4___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8, lean_object* x_9) {
+_start:
+{
+lean_object* x_10; lean_object* x_11; lean_object* x_12; 
+lean_inc(x_8);
+x_10 = lean_alloc_closure((void*)(l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Grothendieck_mapWhiskerRightAsSmallFunctor___spec__9___rarg___lambda__1), 2, 1);
+lean_closure_set(x_10, 0, x_8);
+x_11 = lean_alloc_closure((void*)(l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Grothendieck_mapWhiskerRightAsSmallFunctor___spec__9___rarg___lambda__2), 2, 1);
+lean_closure_set(x_11, 0, x_8);
+x_12 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_12, 0, x_10);
+lean_ctor_set(x_12, 1, x_11);
+return x_12;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Grothendieck__u03b9CompMap___spec__4(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Grothendieck__u03b9CompMap___spec__4___rarg___boxed), 9, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck__u03b9CompMap___rarg___lambda__1(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+x_5 = lean_ctor_get(x_1, 0);
+lean_inc(x_5);
+lean_dec(x_1);
+x_6 = lean_apply_1(x_5, x_4);
+x_7 = l_CategoryTheory_Iso_refl___at_CategoryTheory_Grothendieck__u03b9CompMap___spec__3___rarg(x_2, x_3, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck__u03b9CompMap___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; lean_object* x_11; lean_object* x_12; lean_object* x_13; 
+lean_inc(x_5);
+lean_inc(x_2);
+lean_inc(x_1);
+x_6 = l_CategoryTheory_Grothendieck__u03b9___rarg(x_1, x_2, x_5);
+lean_inc(x_4);
+lean_inc(x_3);
+lean_inc(x_2);
+lean_inc(x_1);
+x_7 = l_CategoryTheory_Grothendieck_map___rarg(x_1, x_2, x_3, x_4);
+x_8 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck__u03b9CompMap___spec__1___rarg(x_1, x_2, x_3, x_5, x_2, x_6, x_7);
+lean_inc(x_5);
+x_9 = lean_apply_1(x_4, x_5);
+lean_inc(x_5);
+lean_inc(x_3);
+lean_inc(x_1);
+x_10 = l_CategoryTheory_Grothendieck__u03b9___rarg(x_1, x_3, x_5);
+x_11 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck__u03b9CompMap___spec__2___rarg(x_1, x_2, x_3, x_5, x_2, x_3, x_9, x_10);
+lean_inc(x_3);
+lean_inc(x_1);
+lean_inc(x_8);
+x_12 = lean_alloc_closure((void*)(l_CategoryTheory_Grothendieck__u03b9CompMap___rarg___lambda__1), 4, 3);
+lean_closure_set(x_12, 0, x_8);
+lean_closure_set(x_12, 1, x_1);
+lean_closure_set(x_12, 2, x_3);
+x_13 = l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Grothendieck__u03b9CompMap___spec__4___rarg(x_1, x_2, x_3, x_5, x_2, x_8, x_11, x_12, lean_box(0));
+lean_dec(x_11);
+lean_dec(x_8);
+lean_dec(x_5);
+lean_dec(x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_13;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Grothendieck__u03b9CompMap(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Grothendieck__u03b9CompMap___rarg), 5, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck__u03b9CompMap___spec__1___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; 
+x_8 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck__u03b9CompMap___spec__1___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck__u03b9CompMap___spec__2___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8) {
+_start:
+{
+lean_object* x_9; 
+x_9 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Grothendieck__u03b9CompMap___spec__2___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8);
+lean_dec(x_6);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_9;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Grothendieck__u03b9CompMap___spec__4___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8, lean_object* x_9) {
+_start:
+{
+lean_object* x_10; 
+x_10 = l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Grothendieck__u03b9CompMap___spec__4___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8, x_9);
+lean_dec(x_7);
+lean_dec(x_6);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_10;
+}
+}
+lean_object* initialize_Init(uint8_t builtin, lean_object*);
+lean_object* initialize_Mathlib_CategoryTheory_Category_Cat_AsSmall(uint8_t builtin, lean_object*);
+lean_object* initialize_Mathlib_CategoryTheory_Elements(uint8_t builtin, lean_object*);
+lean_object* initialize_Mathlib_CategoryTheory_Comma_Over_Basic(uint8_t builtin, lean_object*);
+static bool _G_initialized = false;
+LEAN_EXPORT lean_object* initialize_Mathlib_CategoryTheory_Grothendieck(uint8_t builtin, lean_object* w) {
+lean_object * res;
+if (_G_initialized) return lean_io_result_mk_ok(lean_box(0));
+_G_initialized = true;
+res = initialize_Init(builtin, lean_io_mk_world());
+if (lean_io_result_is_error(res)) return res;
+lean_dec_ref(res);
+res = initialize_Mathlib_CategoryTheory_Category_Cat_AsSmall(builtin, lean_io_mk_world());
+if (lean_io_result_is_error(res)) return res;
+lean_dec_ref(res);
+res = initialize_Mathlib_CategoryTheory_Elements(builtin, lean_io_mk_world());
+if (lean_io_result_is_error(res)) return res;
+lean_dec_ref(res);
+res = initialize_Mathlib_CategoryTheory_Comma_Over_Basic(builtin, lean_io_mk_world());
+if (lean_io_result_is_error(res)) return res;
+lean_dec_ref(res);
+l_CategoryTheory_Grothendieck_forget___rarg___closed__1 = _init_l_CategoryTheory_Grothendieck_forget___rarg___closed__1();
+lean_mark_persistent(l_CategoryTheory_Grothendieck_forget___rarg___closed__1);
+l_CategoryTheory_Grothendieck_forget___rarg___closed__2 = _init_l_CategoryTheory_Grothendieck_forget___rarg___closed__2();
+lean_mark_persistent(l_CategoryTheory_Grothendieck_forget___rarg___closed__2);
+l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_mapIdIso___spec__2___rarg___closed__1 = _init_l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_mapIdIso___spec__2___rarg___closed__1();
+lean_mark_persistent(l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_mapIdIso___spec__2___rarg___closed__1);
+l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_mapIdIso___spec__2___rarg___closed__2 = _init_l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_mapIdIso___spec__2___rarg___closed__2();
+lean_mark_persistent(l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_mapIdIso___spec__2___rarg___closed__2);
+l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_functor___spec__2___closed__1 = _init_l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_functor___spec__2___closed__1();
+lean_mark_persistent(l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_functor___spec__2___closed__1);
+l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_functor___spec__2 = _init_l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_functor___spec__2();
+lean_mark_persistent(l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_functor___spec__2);
+l_CategoryTheory_Functor_const___at_CategoryTheory_Grothendieck_functor___spec__4___closed__1 = _init_l_CategoryTheory_Functor_const___at_CategoryTheory_Grothendieck_functor___spec__4___closed__1();
+lean_mark_persistent(l_CategoryTheory_Functor_const___at_CategoryTheory_Grothendieck_functor___spec__4___closed__1);
+l_CategoryTheory_Functor_const___at_CategoryTheory_Grothendieck_functor___spec__4___closed__2 = _init_l_CategoryTheory_Functor_const___at_CategoryTheory_Grothendieck_functor___spec__4___closed__2();
+lean_mark_persistent(l_CategoryTheory_Functor_const___at_CategoryTheory_Grothendieck_functor___spec__4___closed__2);
+l_CategoryTheory_Functor_const___at_CategoryTheory_Grothendieck_functor___spec__4___closed__3 = _init_l_CategoryTheory_Functor_const___at_CategoryTheory_Grothendieck_functor___spec__4___closed__3();
+lean_mark_persistent(l_CategoryTheory_Functor_const___at_CategoryTheory_Grothendieck_functor___spec__4___closed__3);
+l_CategoryTheory_Functor_const___at_CategoryTheory_Grothendieck_functor___spec__4 = _init_l_CategoryTheory_Functor_const___at_CategoryTheory_Grothendieck_functor___spec__4();
+lean_mark_persistent(l_CategoryTheory_Functor_const___at_CategoryTheory_Grothendieck_functor___spec__4);
+l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_functor___spec__6 = _init_l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_functor___spec__6();
+lean_mark_persistent(l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_functor___spec__6);
+l_CategoryTheory_Functor_const___at_CategoryTheory_Grothendieck_functor___spec__8 = _init_l_CategoryTheory_Functor_const___at_CategoryTheory_Grothendieck_functor___spec__8();
+lean_mark_persistent(l_CategoryTheory_Functor_const___at_CategoryTheory_Grothendieck_functor___spec__8);
+l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_functor___spec__10 = _init_l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_functor___spec__10();
+lean_mark_persistent(l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_functor___spec__10);
+l_CategoryTheory_Functor_const___at_CategoryTheory_Grothendieck_functor___spec__12 = _init_l_CategoryTheory_Functor_const___at_CategoryTheory_Grothendieck_functor___spec__12();
+lean_mark_persistent(l_CategoryTheory_Functor_const___at_CategoryTheory_Grothendieck_functor___spec__12);
+l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_functor___spec__14 = _init_l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_functor___spec__14();
+lean_mark_persistent(l_CategoryTheory_Functor_id___at_CategoryTheory_Grothendieck_functor___spec__14);
+l_CategoryTheory_Functor_const___at_CategoryTheory_Grothendieck_functor___spec__16 = _init_l_CategoryTheory_Functor_const___at_CategoryTheory_Grothendieck_functor___spec__16();
+lean_mark_persistent(l_CategoryTheory_Functor_const___at_CategoryTheory_Grothendieck_functor___spec__16);
+l_CategoryTheory_Grothendieck_grothendieckTypeToCatFunctor___rarg___closed__1 = _init_l_CategoryTheory_Grothendieck_grothendieckTypeToCatFunctor___rarg___closed__1();
+lean_mark_persistent(l_CategoryTheory_Grothendieck_grothendieckTypeToCatFunctor___rarg___closed__1);
+l_CategoryTheory_whiskeringLeft___at_CategoryTheory_Grothendieck_preEquivalence___spec__24___rarg___closed__1 = _init_l_CategoryTheory_whiskeringLeft___at_CategoryTheory_Grothendieck_preEquivalence___spec__24___rarg___closed__1();
+lean_mark_persistent(l_CategoryTheory_whiskeringLeft___at_CategoryTheory_Grothendieck_preEquivalence___spec__24___rarg___closed__1);
+return lean_io_result_mk_ok(lean_box(0));
+}
+#ifdef __cplusplus
+}
+#endif

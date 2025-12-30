@@ -1,0 +1,6900 @@
+// Lean compiler output
+// Module: Mathlib.CategoryTheory.Limits.Shapes.Equalizers
+// Imports: Init Mathlib.CategoryTheory.EpiMono Mathlib.CategoryTheory.Limits.HasLimits
+#include <lean/lean.h>
+#if defined(__clang__)
+#pragma clang diagnostic ignored "-Wunused-parameter"
+#pragma clang diagnostic ignored "-Wunused-label"
+#elif defined(__GNUC__) && !defined(__CLANG__)
+#pragma GCC diagnostic ignored "-Wunused-parameter"
+#pragma GCC diagnostic ignored "-Wunused-label"
+#pragma GCC diagnostic ignored "-Wunused-but-set-variable"
+#endif
+#ifdef __cplusplus
+extern "C" {
+#endif
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_of_u03b9___spec__1___rarg___lambda__2(lean_object*, lean_object*, uint8_t, uint8_t, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cones_ext___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__24(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_of_u03b9___spec__1___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork_IsLimit_mk___at_CategoryTheory_Limits_isEqualizerCompMono___spec__3___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_parallelPairHom___elambda__1___rarg(lean_object*, lean_object*, uint8_t);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isLimitIdFork___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cofork_IsColimit_mk___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__15(lean_object*);
+static lean_object* l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__13;
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__14___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_isoForkOf_u03b9___spec__1___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__32___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cocone_ofCofork___rarg___lambda__1(lean_object*, lean_object*, lean_object*, lean_object*, uint8_t);
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__5(uint8_t);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_splitMonoOfIdempotentOfIsLimitFork(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__21(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cofork_IsColimit_mk_x27(lean_object*);
+lean_object* lean_mk_empty_array_with_capacity(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__13(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cones_postcompose___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__39___rarg___lambda__1(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork__u03b9___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT uint8_t l_CategoryTheory_Limits_WalkingParallelPair_ofNat(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_splitEpiOfCoequalizer___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_parallelPair___rarg___lambda__1(lean_object*, lean_object*, uint8_t);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__3(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__32___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_7531_;
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__6___lambda__1___boxed(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cofork_IsColimit_mk_x27___at_CategoryTheory_Limits_isCoequalizerEpiComp___spec__2___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cones_postcomposeEquivalence___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__9___rarg___lambda__1(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__25___rarg___lambda__1(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork_IsLimit_homIso___elambda__2(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cofork_IsColimit_mk(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT uint8_t l_CategoryTheory_Limits_instDecidableEqWalkingParallelPairHom___rarg(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cofork_isoCoforkOf_u03c0(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork_IsLimit_lift_x27(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Equivalence_toAdjunction___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__38___rarg(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork_of_u03b9(lean_object*);
+lean_object* l_CategoryTheory_eqToIso___rarg(lean_object*, lean_object*, lean_object*, lean_object*);
+static lean_object* l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__16;
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_parallelPairHom___elambda__1(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork_IsLimit_mk___rarg___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_diagramIsoParallelPair___rarg(lean_object*, lean_object*);
+static lean_object* l_CategoryTheory_Functor_id___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__2___closed__2;
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cofork_IsColimit_mk___at_CategoryTheory_Limits_isColimitIdCofork___spec__1(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cofork_IsColimit_mk___rarg___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__6___lambda__1(lean_object*, uint8_t);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cofork_IsColimit_mk___at_CategoryTheory_Limits_isColimitIdCofork___spec__1___rarg___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_parallelPair___rarg___lambda__2(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, uint8_t, uint8_t, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__6___lambda__2___boxed(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l___private_Mathlib_CategoryTheory_Limits_Shapes_Equalizers_0__CategoryTheory_Limits_parallelPair_match__1_splitter___rarg(uint8_t, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cones_ext___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__28___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+lean_object* lean_array_push(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cones_ext___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__28___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_of_u03b9___spec__1___rarg___lambda__1(lean_object*, uint8_t);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork_IsLimit_lift___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsLimit_equivOfNatIsoOfIso___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__7___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT uint8_t l_CategoryTheory_Limits_instDecidableEqWalkingParallelPair(uint8_t, uint8_t);
+static lean_object* l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__22;
+static lean_object* l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__12;
+static lean_object* l_CategoryTheory_Limits_isLimitIdFork___rarg___closed__1;
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork_ext___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cofork_IsColimit_homIso___elambda__2___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cofork_of_u03c0___rarg___lambda__1(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, uint8_t);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_of_u03b9___spec__1___rarg___lambda__4(lean_object*, lean_object*, lean_object*, uint8_t);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__23___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+lean_object* l_CategoryTheory_Limits_IsLimit_ofConeEquiv___elambda__1___rarg___boxed(lean_object**);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cofork__u03c0___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_parallelPairHom(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_WalkingParallelPairHom_comp___rarg___boxed(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_walkingParallelPairOpEquiv___lambda__1___boxed(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__27___rarg(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork_IsLimit_lift(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork_IsLimit_mk(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__3___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+static lean_object* l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__23;
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cofork_IsColimit_desc_x27___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cofork_IsColimit_homIso___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cones_postcomposeEquivalence___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__9___rarg(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cones_postcompose___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__1___rarg___lambda__2___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__15___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+static lean_object* l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__15;
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToIso___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__9___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Equivalence_symm___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__31___rarg(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT uint8_t l_CategoryTheory_Limits_instInhabitedWalkingParallelPair;
+static lean_object* l_CategoryTheory_Functor_id___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__2___closed__1;
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__2___rarg(lean_object*);
+static lean_object* l_CategoryTheory_Limits_walkingParallelPairOp___closed__2;
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__26___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cofork_IsColimit_mk___at_CategoryTheory_Limits_Cofork_IsColimit_mk_x27___spec__1___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__40___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_splitEpiOfCoequalizer___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Cofork_of_u03c0___spec__1___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cofork_IsColimit_mk___at_CategoryTheory_Limits_Cofork_IsColimit_mk_x27___spec__1___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cones_postcompose___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__1___rarg___lambda__2(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cones_postcomposeEquivalence___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__9(lean_object*);
+static lean_object* l_CategoryTheory_Limits_walkingParallelPairOp___closed__3;
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork_IsLimit_homIso(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_parallelPairHom___elambda__1___rarg___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__6(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__6___lambda__2(lean_object*, uint8_t);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_walkingParallelPairOpEquiv___lambda__2___boxed(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__11___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_walkingParallelPairHomCategory___lambda__1___boxed(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__22___rarg(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork_mkHom(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__23___rarg___lambda__2(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isColimitIdCofork___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToIso___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__4___boxed(lean_object*, lean_object*, lean_object*);
+static lean_object* l_CategoryTheory_Limits_walkingParallelPairHomCategory___closed__2;
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_instDecidableEqWalkingParallelPairHom___boxed(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_walkingParallelPairOp___lambda__2(uint8_t, uint8_t, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork_of_u03b9___rarg___lambda__1(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, uint8_t);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__21___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Limits_diagramIsoParallelPair___spec__1___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__43(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_splitMonoOfEqualizer(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+static lean_object* l_CategoryTheory_Limits_WalkingParallelPair_noConfusion___rarg___closed__1;
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork_IsLimit_mk_x27___at_CategoryTheory_Limits_isEqualizerCompMono___spec__2___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_walkingParallelPairHomCategory___lambda__1(uint8_t);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__14(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__4___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Limits_parallelPair_ext___spec__1___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork_IsLimit_mk___at_CategoryTheory_Limits_isEqualizerCompMono___spec__3___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__25(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork_of_u03b9___rarg___lambda__1___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsLimit_postcomposeHomEquiv___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__8(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cones_postcompose___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__39(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork_IsLimit_mk___at_CategoryTheory_Limits_Fork_IsLimit_mk_x27___spec__1___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_splitEpiOfCoequalizer(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork_IsLimit_homIso___elambda__2___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l___private_Mathlib_CategoryTheory_Limits_Shapes_Equalizers_0__CategoryTheory_Limits_decEqWalkingParallelPairHom____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_144____rarg___boxed(lean_object*, lean_object*);
+static lean_object* l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__3;
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__10___boxed(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isCoequalizerEpiComp___rarg___lambda__1(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__19___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cone_ofFork___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cofork__u03c0___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork_IsLimit_lift_x27___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_symm___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__37___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cofork_IsColimit_mk___at_CategoryTheory_Limits_isCoequalizerEpiComp___spec__3___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_walkingParallelPairHomCategory;
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork_IsLimit_mk_x27___at_CategoryTheory_Limits_isEqualizerCompMono___spec__2(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsLimit_postcomposeHomEquiv___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__8___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_WalkingParallelPair_toCtorIdx(uint8_t);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_diagramIsoParallelPair___rarg___lambda__1___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+static lean_object* l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__18;
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_symm___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__34___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cones_postcompose___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__10___rarg(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__42(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__6___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__40(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__12___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cofork_IsColimit_mk_x27___at_CategoryTheory_Limits_isCoequalizerEpiComp___spec__2(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cones_ext___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__24___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Equivalence_symm___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__31(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cofork_IsColimit_mk___at_CategoryTheory_Limits_isCoequalizerEpiComp___spec__3___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cofork_ext___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__32(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork_IsLimit_mk___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToIso___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__9(uint8_t, uint8_t, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_splitMonoOfIdempotentOfIsLimitFork___spec__1___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_splitEpiOfCoequalizer___rarg___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_walkingParallelPairOp;
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_symm___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__37(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cones_postcomposeEquivalence___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__9___rarg___lambda__1___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__33___rarg(lean_object*, lean_object*);
+uint8_t lean_nat_dec_eq(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__18(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_of_u03b9___spec__1___rarg___lambda__3(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__7(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__36(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork_IsLimit_mk___at_CategoryTheory_Limits_isEqualizerCompMono___spec__3(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_diagramIsoParallelPair(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork_of_u03b9___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+lean_object* l_CategoryTheory_NatTrans_vcomp___elambda__1___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_splitMonoOfIdempotentOfIsLimitFork___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cones_ext___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__24___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT uint8_t l___private_Mathlib_CategoryTheory_Limits_Shapes_Equalizers_0__CategoryTheory_Limits_decEqWalkingParallelPairHom____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_144____rarg(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cofork_IsColimit_mk___at_CategoryTheory_Limits_isCoequalizerEpiComp___spec__3(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cofork_ofCocone___rarg___lambda__1(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, uint8_t);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_WalkingParallelPair_noConfusion___rarg___lambda__1___boxed(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__35(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Limits_diagramIsoParallelPair___spec__1___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork_IsLimit_homIso___elambda__1___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cofork_ext___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_parallelPair_ext___rarg___lambda__1___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Cofork_isoCoforkOf_u03c0___spec__1(lean_object*);
+static lean_object* l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__6___closed__1;
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork_IsLimit_mk___at_CategoryTheory_Limits_Fork_IsLimit_mk_x27___spec__1___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__10___rarg(uint8_t, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cones_postcompose___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__16___rarg___lambda__1(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cones_postcompose___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__1___rarg___lambda__1(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+lean_object* l_CategoryTheory_Limits_IsLimit_ofConeEquiv___elambda__2___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork_IsLimit_lift___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cofork_mkHom(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__2;
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToIso___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__4(uint8_t, uint8_t, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_parallelPairHom___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Cone_ofFork___spec__1(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_WalkingParallelPairHom_comp___rarg(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Cofork_IsColimit_homIso___elambda__2___spec__1(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cofork_IsColimit_homIso___elambda__2(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__3___lambda__2(lean_object*, lean_object*, uint8_t, uint8_t, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Cofork_ofCocone___spec__1___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork_IsLimit_mk___at_CategoryTheory_Limits_Fork_IsLimit_mk_x27___spec__1___rarg___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_instDecidableEqWalkingParallelPairHom(uint8_t, uint8_t);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsLimit_equivIsoLimit___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__45___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_leftOp___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__1___lambda__1(lean_object*, uint8_t);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__23(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork_mkHom___rarg(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cofork_of_u03c0___rarg___lambda__1___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_7244_;
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork_IsLimit_homIso___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_WalkingParallelPairHom_comp___boxed(lean_object*, lean_object*, lean_object*);
+static lean_object* l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__6;
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_WalkingParallelPair_ofNat___boxed(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__17___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork_IsLimit_lift_x27___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__11(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cofork_IsColimit_homIso___elambda__1___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_diagramIsoParallelPair___rarg___lambda__1(lean_object*, lean_object*, lean_object*, uint8_t);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__26___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isCoequalizerEpiComp(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_ofCone___spec__1(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork_IsLimit_mk___at_CategoryTheory_Limits_isLimitIdFork___spec__1___rarg___boxed(lean_object*, lean_object*, lean_object*);
+static lean_object* l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__19;
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Cone_ofFork___spec__1___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__12(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_parallelPair_ext___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cofork_mkHom___rarg(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_isCoequalizerEpiComp___spec__1(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_walkingParallelPairHomCategory___lambda__2___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cofork_of_u03c0(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__26(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__11(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__6(lean_object*, lean_object*, lean_object*, lean_object*);
+lean_object* l_Equiv_trans___rarg(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork_IsLimit_mk_x27___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork_isLimitOfIsos(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_parallelPair_eqOfHomEq___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Cocone_ofCofork___spec__1___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork__u03b9___rarg(lean_object*);
+static lean_object* l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__17;
+static lean_object* l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__11;
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_walkingParallelPairOpEquiv___lambda__2(lean_object*, uint8_t);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__41(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__2(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_symm___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__34___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cone_ofFork___rarg___lambda__1___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_splitMonoOfIdempotentOfIsLimitFork___spec__1(lean_object*);
+static lean_object* l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__7;
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_splitEpiOfIdempotentOfIsColimitCofork___spec__1___rarg(lean_object*);
+static lean_object* l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__9;
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cocone_ofCofork___rarg___lambda__1___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+static lean_object* l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__4;
+lean_object* l_Lean_Name_str___override(lean_object*, lean_object*);
+static lean_object* l_CategoryTheory_Limits_Cones_postcompose___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__1___rarg___closed__1;
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cones_postcompose___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__10(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Limits_parallelPair_ext___spec__1(lean_object*);
+lean_object* l_CategoryTheory_eqToHom___rarg(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_WalkingParallelPair_noConfusion___rarg___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__25___rarg___lambda__2(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Limits_diagramIsoParallelPair___spec__1(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__33(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Cocone_ofCofork___spec__1(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cofork_IsColimit_desc_x27___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+static lean_object* l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__1;
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_WalkingParallelPair_noConfusion___rarg___lambda__1(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isCoequalizerEpiComp___rarg___lambda__1___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_of_u03b9___spec__1___rarg___lambda__4___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_parallelPair_ext___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cofork_ofCocone___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__5___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork_IsLimit_mk___at_CategoryTheory_Limits_isEqualizerCompMono___spec__3___rarg___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isCoequalizerEpiComp___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+static lean_object* l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__5;
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__5(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__3___lambda__1___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l___private_Mathlib_CategoryTheory_Limits_Shapes_Equalizers_0__CategoryTheory_Limits_parallelPair_match__1_splitter___rarg___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork_IsLimit_homIso___elambda__2___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Cofork_isoCoforkOf_u03c0___spec__1___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__4(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Equivalence_toAdjunction___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__38(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork_isLimitOfIsos___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_7216_;
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsLimit_equivOfNatIsoOfIso___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__7(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork_mkHom___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_ForkOf_u03b9_ext___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__6___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_walkingParallelPairOp___lambda__1___boxed(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__20___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l___private_Mathlib_CategoryTheory_Limits_Shapes_Equalizers_0__CategoryTheory_Limits_decEqWalkingParallelPairHom____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_144____boxed(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cones_ext___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__28(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cofork_ofCocone(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork_isLimitOfIsos___rarg___boxed(lean_object**);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__3(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Limits_parallelPair_ext___spec__1___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cofork_IsColimit_mk_x27___at_CategoryTheory_Limits_isCoequalizerEpiComp___spec__2___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Equivalence_toAdjunction___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__38___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__25___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_of_u03b9___spec__1___rarg___lambda__3___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__36___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_splitMonoOfIdempotentOfIsLimitFork___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_leftOp___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__1___lambda__2(lean_object*, uint8_t, uint8_t, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cofork_mkHom___rarg___boxed(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork_IsLimit_mk_x27___at_CategoryTheory_Limits_isEqualizerCompMono___spec__2___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork_IsLimit_mk___at_CategoryTheory_Limits_Fork_IsLimit_mk_x27___spec__1(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+static lean_object* l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__2;
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork_IsLimit_homIso___elambda__1___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__29(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cocone_ofCofork(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork__u03b9(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_instDecidableEqWalkingParallelPair___boxed(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_of_u03b9___spec__1(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cones_postcomposeEquivalence___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__9___rarg___lambda__2___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__20(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_WalkingParallelPair_toCtorIdx___boxed(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork_isoForkOf_u03b9___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cone_ofFork___rarg___lambda__1(lean_object*, lean_object*, lean_object*, lean_object*, uint8_t);
+LEAN_EXPORT lean_object* l_CategoryTheory_Equivalence_symm___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__31___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+lean_object* l_Equiv_symm___rarg(lean_object*);
+static lean_object* l_CategoryTheory_Limits_isColimitIdCofork___rarg___closed__1;
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__2___lambda__1___boxed(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork_IsLimit_mk___at_CategoryTheory_Limits_isLimitIdFork___spec__1___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Cofork_ofCocone___spec__1(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cofork_isoCoforkOf_u03c0___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__19(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cone_ofFork(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cofork_IsColimit_mk___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cones_postcomposeEquivalence___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__9___rarg___lambda__2(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT uint8_t l_CategoryTheory_Limits_walkingParallelPairOp___lambda__1(uint8_t);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork_IsLimit_mk___at_CategoryTheory_Limits_isLimitIdFork___spec__1___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Cofork_IsColimit_homIso___elambda__2___spec__1___rarg(lean_object*);
+uint8_t lean_nat_dec_eq(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__29___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+static lean_object* l_CategoryTheory_Limits_walkingParallelPairOp___lambda__2___closed__1;
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__42___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_symm___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__37___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cofork_ext(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork_ext(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__5___rarg(uint8_t, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cofork_mkHom___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cofork_IsColimit_mk___at_CategoryTheory_Limits_isCoequalizerEpiComp___spec__3___rarg___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_idCofork___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+static lean_object* l_CategoryTheory_Limits_walkingParallelPairHomCategory___closed__1;
+lean_object* l_CategoryTheory_Limits_IsLimit_equivIsoLimit___elambda__2___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_of_u03b9___spec__1___rarg___lambda__1___boxed(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__13___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isLimitIdFork___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+lean_object* l_Lean_Name_mkStr2(lean_object*, lean_object*);
+lean_object* l_CategoryTheory_Iso_refl___rarg(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917_;
+LEAN_EXPORT lean_object* l___private_Mathlib_CategoryTheory_Limits_Shapes_Equalizers_0__CategoryTheory_Limits_decEqWalkingParallelPairHom____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_144_(uint8_t, uint8_t);
+LEAN_EXPORT lean_object* l___private_Mathlib_CategoryTheory_Limits_Shapes_Equalizers_0__CategoryTheory_Limits_parallelPair_match__1_splitter(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_splitMonoOfEqualizer___rarg___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__5___boxed(lean_object*);
+lean_object* l_CategoryTheory_Limits_Cone_category___rarg(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_leftOp___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__1___lambda__2___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__25___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__23___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_parallelPair_eqOfHomEq(lean_object*);
+lean_object* l_CategoryTheory_Functor_category___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isLimitIdFork(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_parallelPair_ext(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork_ext___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_idFork___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cofork_IsColimit_desc___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cofork_of_u03c0___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_leftOp___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__1___lambda__1___boxed(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_instInhabitedWalkingParallelPairHomZeroOne;
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cofork_IsColimit_desc_x27(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_idFork(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__23___rarg___lambda__1(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork_IsLimit_mk_x27(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_parallelPairHom___elambda__1___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__18___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_instDecidableEqWalkingParallelPairHom___rarg___boxed(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_idCofork(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isColimitIdCofork___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cofork_IsColimit_homIso___elambda__1(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__43___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsLimit_equivIsoLimit___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__45(lean_object*);
+LEAN_EXPORT uint8_t l_CategoryTheory_Functor_id___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__2___lambda__1(uint8_t);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_parallelPair___rarg___lambda__2___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_walkingParallelPairOp___lambda__2___boxed(lean_object*, lean_object*, lean_object*);
+static lean_object* l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__14;
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_leftOp___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__1(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__29___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_parallelPair___rarg___lambda__1___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork_IsLimit_homIso___elambda__1(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork_ofCone___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_isoForkOf_u03b9___spec__1(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsLimit_ofConeEquiv___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__30(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__27(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_symm___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__34(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_WalkingParallelPair_noConfusion___rarg(uint8_t, uint8_t, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__27___rarg___boxed(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_isEqualizerCompMono___spec__1(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cofork_IsColimit_desc___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork_ofCone___rarg___lambda__1___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cones_postcompose___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__16(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cones_postcompose___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__16___rarg(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isEqualizerCompMono___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cocone_ofCofork___rarg(lean_object*, lean_object*, lean_object*);
+static lean_object* l_CategoryTheory_Limits_walkingParallelPairHomCategory___closed__3;
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isEqualizerCompMono___rarg___lambda__1___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+static lean_object* l_CategoryTheory_Functor_id___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__8___closed__1;
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__35___rarg___boxed(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork_IsLimit_mk___at_CategoryTheory_Limits_isLimitIdFork___spec__1(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_ForkOf_u03b9_ext(lean_object*);
+lean_object* l_CategoryTheory_Category_opposite___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork_IsLimit_mk_x27___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+static lean_object* l_CategoryTheory_Limits_walkingParallelPairOp___closed__4;
+static lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_of_u03b9___spec__1___rarg___closed__1;
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork_ofCone(lean_object*);
+static lean_object* l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__10;
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__11___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cofork_IsColimit_homIso___elambda__2___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_splitEpiOfIdempotentOfIsColimitCofork___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__5___rarg___boxed(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cofork_IsColimit_mk_x27___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isEqualizerCompMono(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__44(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__10(uint8_t);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsLimit_ofConeEquiv___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__30___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_walkingParallelPairOpEquiv___lambda__1(lean_object*, uint8_t);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__35___rarg(lean_object*, lean_object*);
+lean_object* l_Lean_Name_mkStr4(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__3___lambda__2___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_WalkingParallelPair_noConfusion(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cofork_IsColimit_mk___at_CategoryTheory_Limits_Cofork_IsColimit_mk_x27___spec__1___rarg___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_parallelPair(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_isCoequalizerEpiComp___spec__1___rarg(lean_object*);
+static lean_object* l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__24;
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_isEqualizerCompMono___spec__1___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__36___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__33___rarg___boxed(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_parallelPair___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+static lean_object* l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__21;
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isEqualizerCompMono___rarg___lambda__1(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_WalkingParallelPairHom_comp(uint8_t, uint8_t, uint8_t);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__8;
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cofork_ofCocone___rarg___lambda__1___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__44___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_splitEpiOfIdempotentOfIsColimitCofork(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_splitMonoOfEqualizer___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__2___lambda__2(uint8_t, uint8_t, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__22___rarg___boxed(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cofork_IsColimit_mk___at_CategoryTheory_Limits_isColimitIdCofork___spec__1___rarg(lean_object*, lean_object*, lean_object*);
+static lean_object* l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__20;
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_splitEpiOfIdempotentOfIsColimitCofork___spec__1(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__10___rarg___boxed(lean_object*, lean_object*);
+static lean_object* l_CategoryTheory_Functor_id___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__2___closed__3;
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cones_postcompose___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__1(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_walkingParallelPairHomCategory___lambda__2(uint8_t, uint8_t, uint8_t, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cones_postcompose___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__39___rarg(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isColimitIdCofork(lean_object*);
+lean_object* l_CategoryTheory_Limits_IsLimit_equivIsoLimit___elambda__1___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__17(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_splitEpiOfIdempotentOfIsColimitCofork___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_parallelPair_ext___rarg___lambda__1(lean_object*, lean_object*, uint8_t);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cofork_IsColimit_homIso___elambda__1___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__2___lambda__2___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_walkingParallelPairOpEquiv;
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cones_postcompose___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__10___rarg___lambda__1(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isEqualizerCompMono___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+static lean_object* l_CategoryTheory_Limits_walkingParallelPairOp___lambda__2___closed__2;
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__41___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_7230_;
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Cofork_of_u03c0___spec__1(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork_IsLimit_mk___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork_isoForkOf_u03b9(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cofork_IsColimit_homIso(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_of_u03b9___spec__1___rarg___lambda__2___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+static lean_object* l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__11___closed__1;
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cofork_IsColimit_desc(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cofork__u03c0(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+static lean_object* l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__8;
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork_ofCone___rarg___lambda__1(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, uint8_t);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isCoequalizerEpiComp___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_ofCone___spec__1___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork_mkHom___rarg___boxed(lean_object*, lean_object*);
+static lean_object* l_CategoryTheory_Limits_walkingParallelPairOp___closed__1;
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__22(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cones_postcompose___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__1___rarg(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cofork_IsColimit_mk___at_CategoryTheory_Limits_isColimitIdCofork___spec__1___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_splitMonoOfEqualizer___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cofork_IsColimit_mk_x27___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cofork_IsColimit_mk___at_CategoryTheory_Limits_Cofork_IsColimit_mk_x27___spec__1(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__3___lambda__1(lean_object*, lean_object*, uint8_t);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_parallelPairHom___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_WalkingParallelPair_toCtorIdx(uint8_t x_1) {
+_start:
+{
+if (x_1 == 0)
+{
+lean_object* x_2; 
+x_2 = lean_unsigned_to_nat(0u);
+return x_2;
+}
+else
+{
+lean_object* x_3; 
+x_3 = lean_unsigned_to_nat(1u);
+return x_3;
+}
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_WalkingParallelPair_toCtorIdx___boxed(lean_object* x_1) {
+_start:
+{
+uint8_t x_2; lean_object* x_3; 
+x_2 = lean_unbox(x_1);
+lean_dec(x_1);
+x_3 = l_CategoryTheory_Limits_WalkingParallelPair_toCtorIdx(x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_WalkingParallelPair_noConfusion___rarg___lambda__1(lean_object* x_1) {
+_start:
+{
+lean_inc(x_1);
+return x_1;
+}
+}
+static lean_object* _init_l_CategoryTheory_Limits_WalkingParallelPair_noConfusion___rarg___closed__1() {
+_start:
+{
+lean_object* x_1; 
+x_1 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_WalkingParallelPair_noConfusion___rarg___lambda__1___boxed), 1, 0);
+return x_1;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_WalkingParallelPair_noConfusion___rarg(uint8_t x_1, uint8_t x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Limits_WalkingParallelPair_noConfusion___rarg___closed__1;
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_WalkingParallelPair_noConfusion(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_WalkingParallelPair_noConfusion___rarg___boxed), 3, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_WalkingParallelPair_noConfusion___rarg___lambda__1___boxed(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = l_CategoryTheory_Limits_WalkingParallelPair_noConfusion___rarg___lambda__1(x_1);
+lean_dec(x_1);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_WalkingParallelPair_noConfusion___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+uint8_t x_4; uint8_t x_5; lean_object* x_6; 
+x_4 = lean_unbox(x_1);
+lean_dec(x_1);
+x_5 = lean_unbox(x_2);
+lean_dec(x_2);
+x_6 = l_CategoryTheory_Limits_WalkingParallelPair_noConfusion___rarg(x_4, x_5, x_3);
+return x_6;
+}
+}
+LEAN_EXPORT uint8_t l_CategoryTheory_Limits_WalkingParallelPair_ofNat(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; uint8_t x_3; 
+x_2 = lean_unsigned_to_nat(0u);
+x_3 = lean_nat_dec_eq(x_1, x_2);
+if (x_3 == 0)
+{
+uint8_t x_4; 
+x_4 = 1;
+return x_4;
+}
+else
+{
+uint8_t x_5; 
+x_5 = 0;
+return x_5;
+}
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_WalkingParallelPair_ofNat___boxed(lean_object* x_1) {
+_start:
+{
+uint8_t x_2; lean_object* x_3; 
+x_2 = l_CategoryTheory_Limits_WalkingParallelPair_ofNat(x_1);
+lean_dec(x_1);
+x_3 = lean_box(x_2);
+return x_3;
+}
+}
+LEAN_EXPORT uint8_t l_CategoryTheory_Limits_instDecidableEqWalkingParallelPair(uint8_t x_1, uint8_t x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; uint8_t x_5; 
+x_3 = l_CategoryTheory_Limits_WalkingParallelPair_toCtorIdx(x_1);
+x_4 = l_CategoryTheory_Limits_WalkingParallelPair_toCtorIdx(x_2);
+x_5 = lean_nat_dec_eq(x_3, x_4);
+lean_dec(x_4);
+lean_dec(x_3);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_instDecidableEqWalkingParallelPair___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+uint8_t x_3; uint8_t x_4; uint8_t x_5; lean_object* x_6; 
+x_3 = lean_unbox(x_1);
+lean_dec(x_1);
+x_4 = lean_unbox(x_2);
+lean_dec(x_2);
+x_5 = l_CategoryTheory_Limits_instDecidableEqWalkingParallelPair(x_3, x_4);
+x_6 = lean_box(x_5);
+return x_6;
+}
+}
+static uint8_t _init_l_CategoryTheory_Limits_instInhabitedWalkingParallelPair() {
+_start:
+{
+uint8_t x_1; 
+x_1 = 0;
+return x_1;
+}
+}
+LEAN_EXPORT uint8_t l___private_Mathlib_CategoryTheory_Limits_Shapes_Equalizers_0__CategoryTheory_Limits_decEqWalkingParallelPairHom____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_144____rarg(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+switch (lean_obj_tag(x_1)) {
+case 0:
+{
+uint8_t x_3; 
+x_3 = lean_unbox(x_2);
+if (x_3 == 0)
+{
+uint8_t x_4; 
+x_4 = 1;
+return x_4;
+}
+else
+{
+uint8_t x_5; 
+x_5 = 0;
+return x_5;
+}
+}
+case 1:
+{
+uint8_t x_6; 
+x_6 = lean_unbox(x_2);
+if (x_6 == 0)
+{
+uint8_t x_7; 
+x_7 = 0;
+return x_7;
+}
+else
+{
+uint8_t x_8; 
+x_8 = 1;
+return x_8;
+}
+}
+default: 
+{
+uint8_t x_9; 
+x_9 = 1;
+return x_9;
+}
+}
+}
+}
+LEAN_EXPORT lean_object* l___private_Mathlib_CategoryTheory_Limits_Shapes_Equalizers_0__CategoryTheory_Limits_decEqWalkingParallelPairHom____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_144_(uint8_t x_1, uint8_t x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = lean_alloc_closure((void*)(l___private_Mathlib_CategoryTheory_Limits_Shapes_Equalizers_0__CategoryTheory_Limits_decEqWalkingParallelPairHom____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_144____rarg___boxed), 2, 0);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l___private_Mathlib_CategoryTheory_Limits_Shapes_Equalizers_0__CategoryTheory_Limits_decEqWalkingParallelPairHom____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_144____rarg___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+uint8_t x_3; lean_object* x_4; 
+x_3 = l___private_Mathlib_CategoryTheory_Limits_Shapes_Equalizers_0__CategoryTheory_Limits_decEqWalkingParallelPairHom____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_144____rarg(x_1, x_2);
+lean_dec(x_2);
+lean_dec(x_1);
+x_4 = lean_box(x_3);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l___private_Mathlib_CategoryTheory_Limits_Shapes_Equalizers_0__CategoryTheory_Limits_decEqWalkingParallelPairHom____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_144____boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+uint8_t x_3; uint8_t x_4; lean_object* x_5; 
+x_3 = lean_unbox(x_1);
+lean_dec(x_1);
+x_4 = lean_unbox(x_2);
+lean_dec(x_2);
+x_5 = l___private_Mathlib_CategoryTheory_Limits_Shapes_Equalizers_0__CategoryTheory_Limits_decEqWalkingParallelPairHom____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_144_(x_3, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT uint8_t l_CategoryTheory_Limits_instDecidableEqWalkingParallelPairHom___rarg(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+uint8_t x_3; 
+x_3 = l___private_Mathlib_CategoryTheory_Limits_Shapes_Equalizers_0__CategoryTheory_Limits_decEqWalkingParallelPairHom____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_144____rarg(x_1, x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_instDecidableEqWalkingParallelPairHom(uint8_t x_1, uint8_t x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_instDecidableEqWalkingParallelPairHom___rarg___boxed), 2, 0);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_instDecidableEqWalkingParallelPairHom___rarg___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+uint8_t x_3; lean_object* x_4; 
+x_3 = l_CategoryTheory_Limits_instDecidableEqWalkingParallelPairHom___rarg(x_1, x_2);
+lean_dec(x_2);
+lean_dec(x_1);
+x_4 = lean_box(x_3);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_instDecidableEqWalkingParallelPairHom___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+uint8_t x_3; uint8_t x_4; lean_object* x_5; 
+x_3 = lean_unbox(x_1);
+lean_dec(x_1);
+x_4 = lean_unbox(x_2);
+lean_dec(x_2);
+x_5 = l_CategoryTheory_Limits_instDecidableEqWalkingParallelPairHom(x_3, x_4);
+return x_5;
+}
+}
+static lean_object* _init_l_CategoryTheory_Limits_instInhabitedWalkingParallelPairHomZeroOne() {
+_start:
+{
+lean_object* x_1; 
+x_1 = lean_box(0);
+return x_1;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_WalkingParallelPairHom_comp___rarg(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+switch (lean_obj_tag(x_1)) {
+case 0:
+{
+lean_object* x_3; 
+x_3 = lean_box(0);
+return x_3;
+}
+case 1:
+{
+lean_object* x_4; 
+x_4 = lean_box(1);
+return x_4;
+}
+default: 
+{
+lean_inc(x_2);
+return x_2;
+}
+}
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_WalkingParallelPairHom_comp(uint8_t x_1, uint8_t x_2, uint8_t x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_WalkingParallelPairHom_comp___rarg___boxed), 2, 0);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_WalkingParallelPairHom_comp___rarg___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_CategoryTheory_Limits_WalkingParallelPairHom_comp___rarg(x_1, x_2);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_WalkingParallelPairHom_comp___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+uint8_t x_4; uint8_t x_5; uint8_t x_6; lean_object* x_7; 
+x_4 = lean_unbox(x_1);
+lean_dec(x_1);
+x_5 = lean_unbox(x_2);
+lean_dec(x_2);
+x_6 = lean_unbox(x_3);
+lean_dec(x_3);
+x_7 = l_CategoryTheory_Limits_WalkingParallelPairHom_comp(x_4, x_5, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_walkingParallelPairHomCategory___lambda__1(uint8_t x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_ctor(2, 0, 1);
+lean_ctor_set_uint8(x_2, 0, x_1);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_walkingParallelPairHomCategory___lambda__2(uint8_t x_1, uint8_t x_2, uint8_t x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_Limits_WalkingParallelPairHom_comp___rarg(x_4, x_5);
+return x_6;
+}
+}
+static lean_object* _init_l_CategoryTheory_Limits_walkingParallelPairHomCategory___closed__1() {
+_start:
+{
+lean_object* x_1; 
+x_1 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_walkingParallelPairHomCategory___lambda__1___boxed), 1, 0);
+return x_1;
+}
+}
+static lean_object* _init_l_CategoryTheory_Limits_walkingParallelPairHomCategory___closed__2() {
+_start:
+{
+lean_object* x_1; 
+x_1 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_walkingParallelPairHomCategory___lambda__2___boxed), 5, 0);
+return x_1;
+}
+}
+static lean_object* _init_l_CategoryTheory_Limits_walkingParallelPairHomCategory___closed__3() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; lean_object* x_3; lean_object* x_4; 
+x_1 = lean_box(0);
+x_2 = l_CategoryTheory_Limits_walkingParallelPairHomCategory___closed__1;
+x_3 = l_CategoryTheory_Limits_walkingParallelPairHomCategory___closed__2;
+x_4 = lean_alloc_ctor(0, 3, 0);
+lean_ctor_set(x_4, 0, x_1);
+lean_ctor_set(x_4, 1, x_2);
+lean_ctor_set(x_4, 2, x_3);
+return x_4;
+}
+}
+static lean_object* _init_l_CategoryTheory_Limits_walkingParallelPairHomCategory() {
+_start:
+{
+lean_object* x_1; 
+x_1 = l_CategoryTheory_Limits_walkingParallelPairHomCategory___closed__3;
+return x_1;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_walkingParallelPairHomCategory___lambda__1___boxed(lean_object* x_1) {
+_start:
+{
+uint8_t x_2; lean_object* x_3; 
+x_2 = lean_unbox(x_1);
+lean_dec(x_1);
+x_3 = l_CategoryTheory_Limits_walkingParallelPairHomCategory___lambda__1(x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_walkingParallelPairHomCategory___lambda__2___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+uint8_t x_6; uint8_t x_7; uint8_t x_8; lean_object* x_9; 
+x_6 = lean_unbox(x_1);
+lean_dec(x_1);
+x_7 = lean_unbox(x_2);
+lean_dec(x_2);
+x_8 = lean_unbox(x_3);
+lean_dec(x_3);
+x_9 = l_CategoryTheory_Limits_walkingParallelPairHomCategory___lambda__2(x_6, x_7, x_8, x_4, x_5);
+lean_dec(x_5);
+lean_dec(x_4);
+return x_9;
+}
+}
+LEAN_EXPORT uint8_t l_CategoryTheory_Limits_walkingParallelPairOp___lambda__1(uint8_t x_1) {
+_start:
+{
+if (x_1 == 0)
+{
+uint8_t x_2; 
+x_2 = 1;
+return x_2;
+}
+else
+{
+uint8_t x_3; 
+x_3 = 0;
+return x_3;
+}
+}
+}
+static lean_object* _init_l_CategoryTheory_Limits_walkingParallelPairOp___lambda__2___closed__1() {
+_start:
+{
+uint8_t x_1; lean_object* x_2; 
+x_1 = 1;
+x_2 = lean_alloc_ctor(2, 0, 1);
+lean_ctor_set_uint8(x_2, 0, x_1);
+return x_2;
+}
+}
+static lean_object* _init_l_CategoryTheory_Limits_walkingParallelPairOp___lambda__2___closed__2() {
+_start:
+{
+uint8_t x_1; lean_object* x_2; 
+x_1 = 0;
+x_2 = lean_alloc_ctor(2, 0, 1);
+lean_ctor_set_uint8(x_2, 0, x_1);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_walkingParallelPairOp___lambda__2(uint8_t x_1, uint8_t x_2, lean_object* x_3) {
+_start:
+{
+if (lean_obj_tag(x_3) == 2)
+{
+if (x_1 == 0)
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Limits_walkingParallelPairOp___lambda__2___closed__1;
+return x_4;
+}
+else
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_Limits_walkingParallelPairOp___lambda__2___closed__2;
+return x_5;
+}
+}
+else
+{
+lean_inc(x_3);
+return x_3;
+}
+}
+}
+static lean_object* _init_l_CategoryTheory_Limits_walkingParallelPairOp___closed__1() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; 
+x_1 = l_CategoryTheory_Limits_walkingParallelPairHomCategory;
+x_2 = l_CategoryTheory_Category_opposite___rarg(x_1);
+return x_2;
+}
+}
+static lean_object* _init_l_CategoryTheory_Limits_walkingParallelPairOp___closed__2() {
+_start:
+{
+lean_object* x_1; 
+x_1 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_walkingParallelPairOp___lambda__1___boxed), 1, 0);
+return x_1;
+}
+}
+static lean_object* _init_l_CategoryTheory_Limits_walkingParallelPairOp___closed__3() {
+_start:
+{
+lean_object* x_1; 
+x_1 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_walkingParallelPairOp___lambda__2___boxed), 3, 0);
+return x_1;
+}
+}
+static lean_object* _init_l_CategoryTheory_Limits_walkingParallelPairOp___closed__4() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; lean_object* x_3; 
+x_1 = l_CategoryTheory_Limits_walkingParallelPairOp___closed__2;
+x_2 = l_CategoryTheory_Limits_walkingParallelPairOp___closed__3;
+x_3 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_3, 0, x_1);
+lean_ctor_set(x_3, 1, x_2);
+return x_3;
+}
+}
+static lean_object* _init_l_CategoryTheory_Limits_walkingParallelPairOp() {
+_start:
+{
+lean_object* x_1; 
+x_1 = l_CategoryTheory_Limits_walkingParallelPairOp___closed__4;
+return x_1;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_walkingParallelPairOp___lambda__1___boxed(lean_object* x_1) {
+_start:
+{
+uint8_t x_2; uint8_t x_3; lean_object* x_4; 
+x_2 = lean_unbox(x_1);
+lean_dec(x_1);
+x_3 = l_CategoryTheory_Limits_walkingParallelPairOp___lambda__1(x_2);
+x_4 = lean_box(x_3);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_walkingParallelPairOp___lambda__2___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+uint8_t x_4; uint8_t x_5; lean_object* x_6; 
+x_4 = lean_unbox(x_1);
+lean_dec(x_1);
+x_5 = lean_unbox(x_2);
+lean_dec(x_2);
+x_6 = l_CategoryTheory_Limits_walkingParallelPairOp___lambda__2(x_4, x_5, x_3);
+lean_dec(x_3);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_leftOp___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__1___lambda__1(lean_object* x_1, uint8_t x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+x_3 = lean_ctor_get(x_1, 0);
+lean_inc(x_3);
+lean_dec(x_1);
+x_4 = lean_box(x_2);
+x_5 = lean_apply_1(x_3, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_leftOp___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__1___lambda__2(lean_object* x_1, uint8_t x_2, uint8_t x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; lean_object* x_7; lean_object* x_8; 
+x_5 = lean_ctor_get(x_1, 1);
+lean_inc(x_5);
+lean_dec(x_1);
+x_6 = lean_box(x_3);
+x_7 = lean_box(x_2);
+x_8 = lean_apply_3(x_5, x_6, x_7, x_4);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_leftOp___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__1(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; lean_object* x_3; lean_object* x_4; 
+lean_inc(x_1);
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_leftOp___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__1___lambda__1___boxed), 2, 1);
+lean_closure_set(x_2, 0, x_1);
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_leftOp___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__1___lambda__2___boxed), 4, 1);
+lean_closure_set(x_3, 0, x_1);
+x_4 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_4, 0, x_2);
+lean_ctor_set(x_4, 1, x_3);
+return x_4;
+}
+}
+LEAN_EXPORT uint8_t l_CategoryTheory_Functor_id___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__2___lambda__1(uint8_t x_1) {
+_start:
+{
+return x_1;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__2___lambda__2(uint8_t x_1, uint8_t x_2, lean_object* x_3) {
+_start:
+{
+lean_inc(x_3);
+return x_3;
+}
+}
+static lean_object* _init_l_CategoryTheory_Functor_id___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__2___closed__1() {
+_start:
+{
+lean_object* x_1; 
+x_1 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_id___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__2___lambda__1___boxed), 1, 0);
+return x_1;
+}
+}
+static lean_object* _init_l_CategoryTheory_Functor_id___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__2___closed__2() {
+_start:
+{
+lean_object* x_1; 
+x_1 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_id___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__2___lambda__2___boxed), 3, 0);
+return x_1;
+}
+}
+static lean_object* _init_l_CategoryTheory_Functor_id___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__2___closed__3() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; lean_object* x_3; 
+x_1 = l_CategoryTheory_Functor_id___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__2___closed__1;
+x_2 = l_CategoryTheory_Functor_id___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__2___closed__2;
+x_3 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_3, 0, x_1);
+lean_ctor_set(x_3, 1, x_2);
+return x_3;
+}
+}
+static lean_object* _init_l_CategoryTheory_Functor_id___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__2() {
+_start:
+{
+lean_object* x_1; 
+x_1 = l_CategoryTheory_Functor_id___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__2___closed__3;
+return x_1;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__3___lambda__1(lean_object* x_1, lean_object* x_2, uint8_t x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; lean_object* x_6; lean_object* x_7; uint8_t x_8; lean_object* x_9; lean_object* x_10; 
+x_4 = lean_ctor_get(x_1, 0);
+lean_inc(x_4);
+lean_dec(x_1);
+x_5 = lean_ctor_get(x_2, 0);
+lean_inc(x_5);
+lean_dec(x_2);
+x_6 = lean_box(x_3);
+x_7 = lean_apply_1(x_5, x_6);
+x_8 = lean_unbox(x_7);
+lean_dec(x_7);
+x_9 = lean_box(x_8);
+x_10 = lean_apply_1(x_4, x_9);
+return x_10;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__3___lambda__2(lean_object* x_1, lean_object* x_2, uint8_t x_3, uint8_t x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; lean_object* x_9; uint8_t x_10; lean_object* x_11; lean_object* x_12; uint8_t x_13; lean_object* x_14; lean_object* x_15; lean_object* x_16; lean_object* x_17; lean_object* x_18; lean_object* x_19; lean_object* x_20; 
+x_6 = lean_ctor_get(x_1, 1);
+lean_inc(x_6);
+lean_dec(x_1);
+x_7 = lean_ctor_get(x_2, 0);
+lean_inc(x_7);
+x_8 = lean_box(x_3);
+lean_inc(x_7);
+x_9 = lean_apply_1(x_7, x_8);
+x_10 = lean_unbox(x_9);
+lean_dec(x_9);
+x_11 = lean_box(x_4);
+x_12 = lean_apply_1(x_7, x_11);
+x_13 = lean_unbox(x_12);
+lean_dec(x_12);
+x_14 = lean_ctor_get(x_2, 1);
+lean_inc(x_14);
+lean_dec(x_2);
+x_15 = lean_box(x_3);
+x_16 = lean_box(x_4);
+x_17 = lean_apply_3(x_14, x_15, x_16, x_5);
+x_18 = lean_box(x_10);
+x_19 = lean_box(x_13);
+x_20 = lean_apply_3(x_6, x_18, x_19, x_17);
+return x_20;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__3(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+lean_inc(x_1);
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__3___lambda__1___boxed), 3, 2);
+lean_closure_set(x_3, 0, x_2);
+lean_closure_set(x_3, 1, x_1);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__3___lambda__2___boxed), 5, 2);
+lean_closure_set(x_4, 0, x_2);
+lean_closure_set(x_4, 1, x_1);
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__5___rarg(uint8_t x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = lean_alloc_ctor(2, 0, 1);
+lean_ctor_set_uint8(x_3, 0, x_1);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__5(uint8_t x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_eqToHom___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__5___rarg___boxed), 2, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToIso___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__4(uint8_t x_1, uint8_t x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; lean_object* x_6; 
+x_4 = lean_alloc_ctor(2, 0, 1);
+lean_ctor_set_uint8(x_4, 0, x_2);
+x_5 = lean_alloc_ctor(2, 0, 1);
+lean_ctor_set_uint8(x_5, 0, x_1);
+x_6 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_6, 0, x_4);
+lean_ctor_set(x_6, 1, x_5);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__6___lambda__1(lean_object* x_1, uint8_t x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+x_3 = lean_box(x_2);
+x_4 = lean_apply_1(x_1, x_3);
+x_5 = lean_ctor_get(x_4, 0);
+lean_inc(x_5);
+lean_dec(x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__6___lambda__2(lean_object* x_1, uint8_t x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+x_3 = lean_box(x_2);
+x_4 = lean_apply_1(x_1, x_3);
+x_5 = lean_ctor_get(x_4, 1);
+lean_inc(x_5);
+lean_dec(x_4);
+return x_5;
+}
+}
+static lean_object* _init_l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__6___closed__1() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; 
+x_1 = l_CategoryTheory_Limits_walkingParallelPairHomCategory;
+x_2 = l_CategoryTheory_Functor_category___rarg(x_1, lean_box(0), x_1);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__6(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+lean_inc(x_3);
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__6___lambda__1___boxed), 2, 1);
+lean_closure_set(x_5, 0, x_3);
+x_6 = lean_alloc_closure((void*)(l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__6___lambda__2___boxed), 2, 1);
+lean_closure_set(x_6, 0, x_3);
+x_7 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_7, 0, x_5);
+lean_ctor_set(x_7, 1, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__7(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+lean_inc(x_1);
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__3___lambda__1___boxed), 3, 2);
+lean_closure_set(x_3, 0, x_2);
+lean_closure_set(x_3, 1, x_1);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__3___lambda__2___boxed), 5, 2);
+lean_closure_set(x_4, 0, x_2);
+lean_closure_set(x_4, 1, x_1);
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+static lean_object* _init_l_CategoryTheory_Functor_id___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__8___closed__1() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; lean_object* x_3; 
+x_1 = l_CategoryTheory_Functor_id___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__2___closed__1;
+x_2 = l_CategoryTheory_Functor_id___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__2___closed__2;
+x_3 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_3, 0, x_1);
+lean_ctor_set(x_3, 1, x_2);
+return x_3;
+}
+}
+static lean_object* _init_l_CategoryTheory_Functor_id___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__8() {
+_start:
+{
+lean_object* x_1; 
+x_1 = l_CategoryTheory_Functor_id___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__8___closed__1;
+return x_1;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__10___rarg(uint8_t x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = lean_alloc_ctor(2, 0, 1);
+lean_ctor_set_uint8(x_3, 0, x_1);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__10(uint8_t x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_eqToHom___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__10___rarg___boxed), 2, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToIso___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__9(uint8_t x_1, uint8_t x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; lean_object* x_6; 
+x_4 = lean_alloc_ctor(2, 0, 1);
+lean_ctor_set_uint8(x_4, 0, x_2);
+x_5 = lean_alloc_ctor(2, 0, 1);
+lean_ctor_set_uint8(x_5, 0, x_1);
+x_6 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_6, 0, x_4);
+lean_ctor_set(x_6, 1, x_5);
+return x_6;
+}
+}
+static lean_object* _init_l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__11___closed__1() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; 
+x_1 = l_CategoryTheory_Limits_walkingParallelPairOp___closed__1;
+x_2 = l_CategoryTheory_Functor_category___rarg(x_1, lean_box(0), x_1);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__11(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+lean_inc(x_3);
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__6___lambda__1___boxed), 2, 1);
+lean_closure_set(x_5, 0, x_3);
+x_6 = lean_alloc_closure((void*)(l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__6___lambda__2___boxed), 2, 1);
+lean_closure_set(x_6, 0, x_3);
+x_7 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_7, 0, x_5);
+lean_ctor_set(x_7, 1, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_walkingParallelPairOpEquiv___lambda__1(lean_object* x_1, uint8_t x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; lean_object* x_6; uint8_t x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; uint8_t x_11; lean_object* x_12; 
+x_3 = l_CategoryTheory_Functor_id___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__2;
+x_4 = lean_ctor_get(x_3, 0);
+lean_inc(x_4);
+x_5 = lean_box(x_2);
+x_6 = lean_apply_1(x_4, x_5);
+x_7 = lean_unbox(x_6);
+lean_dec(x_6);
+x_8 = lean_ctor_get(x_1, 0);
+lean_inc(x_8);
+lean_dec(x_1);
+x_9 = lean_box(x_2);
+x_10 = lean_apply_1(x_8, x_9);
+x_11 = lean_unbox(x_10);
+lean_dec(x_10);
+x_12 = l_CategoryTheory_eqToIso___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__4(x_7, x_11, lean_box(0));
+return x_12;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_walkingParallelPairOpEquiv___lambda__2(lean_object* x_1, uint8_t x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; uint8_t x_6; lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; uint8_t x_11; lean_object* x_12; 
+x_3 = lean_ctor_get(x_1, 0);
+lean_inc(x_3);
+lean_dec(x_1);
+x_4 = lean_box(x_2);
+x_5 = lean_apply_1(x_3, x_4);
+x_6 = lean_unbox(x_5);
+lean_dec(x_5);
+x_7 = l_CategoryTheory_Functor_id___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__8;
+x_8 = lean_ctor_get(x_7, 0);
+lean_inc(x_8);
+x_9 = lean_box(x_2);
+x_10 = lean_apply_1(x_8, x_9);
+x_11 = lean_unbox(x_10);
+lean_dec(x_10);
+x_12 = l_CategoryTheory_eqToIso___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__9(x_6, x_11, lean_box(0));
+return x_12;
+}
+}
+static lean_object* _init_l_CategoryTheory_Limits_walkingParallelPairOpEquiv() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; lean_object* x_3; lean_object* x_4; lean_object* x_5; lean_object* x_6; lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; lean_object* x_11; 
+x_1 = l_CategoryTheory_Limits_walkingParallelPairOp;
+x_2 = l_CategoryTheory_Functor_leftOp___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__1(x_1);
+lean_inc(x_2);
+x_3 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__3(x_1, x_2);
+lean_inc(x_3);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_walkingParallelPairOpEquiv___lambda__1___boxed), 2, 1);
+lean_closure_set(x_4, 0, x_3);
+x_5 = l_CategoryTheory_Functor_id___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__2;
+x_6 = l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__6(x_5, x_3, x_4, lean_box(0));
+lean_dec(x_3);
+lean_inc(x_2);
+x_7 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__7(x_2, x_1);
+lean_inc(x_7);
+x_8 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_walkingParallelPairOpEquiv___lambda__2___boxed), 2, 1);
+lean_closure_set(x_8, 0, x_7);
+x_9 = l_CategoryTheory_Functor_id___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__8;
+x_10 = l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__11(x_7, x_9, x_8, lean_box(0));
+lean_dec(x_7);
+x_11 = lean_alloc_ctor(0, 4, 0);
+lean_ctor_set(x_11, 0, x_1);
+lean_ctor_set(x_11, 1, x_2);
+lean_ctor_set(x_11, 2, x_6);
+lean_ctor_set(x_11, 3, x_10);
+return x_11;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_leftOp___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__1___lambda__1___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+uint8_t x_3; lean_object* x_4; 
+x_3 = lean_unbox(x_2);
+lean_dec(x_2);
+x_4 = l_CategoryTheory_Functor_leftOp___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__1___lambda__1(x_1, x_3);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_leftOp___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__1___lambda__2___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+uint8_t x_5; uint8_t x_6; lean_object* x_7; 
+x_5 = lean_unbox(x_2);
+lean_dec(x_2);
+x_6 = lean_unbox(x_3);
+lean_dec(x_3);
+x_7 = l_CategoryTheory_Functor_leftOp___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__1___lambda__2(x_1, x_5, x_6, x_4);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__2___lambda__1___boxed(lean_object* x_1) {
+_start:
+{
+uint8_t x_2; uint8_t x_3; lean_object* x_4; 
+x_2 = lean_unbox(x_1);
+lean_dec(x_1);
+x_3 = l_CategoryTheory_Functor_id___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__2___lambda__1(x_2);
+x_4 = lean_box(x_3);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__2___lambda__2___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+uint8_t x_4; uint8_t x_5; lean_object* x_6; 
+x_4 = lean_unbox(x_1);
+lean_dec(x_1);
+x_5 = lean_unbox(x_2);
+lean_dec(x_2);
+x_6 = l_CategoryTheory_Functor_id___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__2___lambda__2(x_4, x_5, x_3);
+lean_dec(x_3);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__3___lambda__1___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+uint8_t x_4; lean_object* x_5; 
+x_4 = lean_unbox(x_3);
+lean_dec(x_3);
+x_5 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__3___lambda__1(x_1, x_2, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__3___lambda__2___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+uint8_t x_6; uint8_t x_7; lean_object* x_8; 
+x_6 = lean_unbox(x_3);
+lean_dec(x_3);
+x_7 = lean_unbox(x_4);
+lean_dec(x_4);
+x_8 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__3___lambda__2(x_1, x_2, x_6, x_7, x_5);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__5___rarg___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+uint8_t x_3; lean_object* x_4; 
+x_3 = lean_unbox(x_1);
+lean_dec(x_1);
+x_4 = l_CategoryTheory_eqToHom___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__5___rarg(x_3, x_2);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__5___boxed(lean_object* x_1) {
+_start:
+{
+uint8_t x_2; lean_object* x_3; 
+x_2 = lean_unbox(x_1);
+lean_dec(x_1);
+x_3 = l_CategoryTheory_eqToHom___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__5(x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToIso___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__4___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+uint8_t x_4; uint8_t x_5; lean_object* x_6; 
+x_4 = lean_unbox(x_1);
+lean_dec(x_1);
+x_5 = lean_unbox(x_2);
+lean_dec(x_2);
+x_6 = l_CategoryTheory_eqToIso___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__4(x_4, x_5, x_3);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__6___lambda__1___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+uint8_t x_3; lean_object* x_4; 
+x_3 = lean_unbox(x_2);
+lean_dec(x_2);
+x_4 = l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__6___lambda__1(x_1, x_3);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__6___lambda__2___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+uint8_t x_3; lean_object* x_4; 
+x_3 = lean_unbox(x_2);
+lean_dec(x_2);
+x_4 = l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__6___lambda__2(x_1, x_3);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__6___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__6(x_1, x_2, x_3, x_4);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__10___rarg___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+uint8_t x_3; lean_object* x_4; 
+x_3 = lean_unbox(x_1);
+lean_dec(x_1);
+x_4 = l_CategoryTheory_eqToHom___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__10___rarg(x_3, x_2);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToHom___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__10___boxed(lean_object* x_1) {
+_start:
+{
+uint8_t x_2; lean_object* x_3; 
+x_2 = lean_unbox(x_1);
+lean_dec(x_1);
+x_3 = l_CategoryTheory_eqToHom___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__10(x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_eqToIso___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__9___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+uint8_t x_4; uint8_t x_5; lean_object* x_6; 
+x_4 = lean_unbox(x_1);
+lean_dec(x_1);
+x_5 = lean_unbox(x_2);
+lean_dec(x_2);
+x_6 = l_CategoryTheory_eqToIso___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__9(x_4, x_5, x_3);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__11___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__11(x_1, x_2, x_3, x_4);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_walkingParallelPairOpEquiv___lambda__1___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+uint8_t x_3; lean_object* x_4; 
+x_3 = lean_unbox(x_2);
+lean_dec(x_2);
+x_4 = l_CategoryTheory_Limits_walkingParallelPairOpEquiv___lambda__1(x_1, x_3);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_walkingParallelPairOpEquiv___lambda__2___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+uint8_t x_3; lean_object* x_4; 
+x_3 = lean_unbox(x_2);
+lean_dec(x_2);
+x_4 = l_CategoryTheory_Limits_walkingParallelPairOpEquiv___lambda__2(x_1, x_3);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_parallelPair___rarg___lambda__1(lean_object* x_1, lean_object* x_2, uint8_t x_3) {
+_start:
+{
+if (x_3 == 0)
+{
+lean_inc(x_1);
+return x_1;
+}
+else
+{
+lean_inc(x_2);
+return x_2;
+}
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_parallelPair___rarg___lambda__2(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, uint8_t x_6, uint8_t x_7, lean_object* x_8) {
+_start:
+{
+switch (lean_obj_tag(x_8)) {
+case 0:
+{
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_inc(x_1);
+return x_1;
+}
+case 1:
+{
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_inc(x_2);
+return x_2;
+}
+default: 
+{
+if (x_6 == 0)
+{
+lean_object* x_9; lean_object* x_10; 
+lean_dec(x_5);
+x_9 = lean_ctor_get(x_3, 1);
+lean_inc(x_9);
+lean_dec(x_3);
+x_10 = lean_apply_1(x_9, x_4);
+return x_10;
+}
+else
+{
+lean_object* x_11; lean_object* x_12; 
+lean_dec(x_4);
+x_11 = lean_ctor_get(x_3, 1);
+lean_inc(x_11);
+lean_dec(x_3);
+x_12 = lean_apply_1(x_11, x_5);
+return x_12;
+}
+}
+}
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_parallelPair___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; 
+lean_inc(x_3);
+lean_inc(x_2);
+x_6 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_parallelPair___rarg___lambda__1___boxed), 3, 2);
+lean_closure_set(x_6, 0, x_2);
+lean_closure_set(x_6, 1, x_3);
+x_7 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_parallelPair___rarg___lambda__2___boxed), 8, 5);
+lean_closure_set(x_7, 0, x_4);
+lean_closure_set(x_7, 1, x_5);
+lean_closure_set(x_7, 2, x_1);
+lean_closure_set(x_7, 3, x_2);
+lean_closure_set(x_7, 4, x_3);
+x_8 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_8, 0, x_6);
+lean_ctor_set(x_8, 1, x_7);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_parallelPair(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_parallelPair___rarg), 5, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_parallelPair___rarg___lambda__1___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+uint8_t x_4; lean_object* x_5; 
+x_4 = lean_unbox(x_3);
+lean_dec(x_3);
+x_5 = l_CategoryTheory_Limits_parallelPair___rarg___lambda__1(x_1, x_2, x_4);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_parallelPair___rarg___lambda__2___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8) {
+_start:
+{
+uint8_t x_9; uint8_t x_10; lean_object* x_11; 
+x_9 = lean_unbox(x_6);
+lean_dec(x_6);
+x_10 = lean_unbox(x_7);
+lean_dec(x_7);
+x_11 = l_CategoryTheory_Limits_parallelPair___rarg___lambda__2(x_1, x_2, x_3, x_4, x_5, x_9, x_10, x_8);
+lean_dec(x_8);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_11;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Limits_diagramIsoParallelPair___spec__1___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; 
+lean_inc(x_4);
+x_6 = lean_alloc_closure((void*)(l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__6___lambda__1___boxed), 2, 1);
+lean_closure_set(x_6, 0, x_4);
+x_7 = lean_alloc_closure((void*)(l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__6___lambda__2___boxed), 2, 1);
+lean_closure_set(x_7, 0, x_4);
+x_8 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_8, 0, x_6);
+lean_ctor_set(x_8, 1, x_7);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Limits_diagramIsoParallelPair___spec__1(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Limits_diagramIsoParallelPair___spec__1___rarg___boxed), 5, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_diagramIsoParallelPair___rarg___lambda__1(lean_object* x_1, lean_object* x_2, lean_object* x_3, uint8_t x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; 
+x_5 = lean_box(x_4);
+x_6 = lean_apply_1(x_1, x_5);
+x_7 = lean_ctor_get(x_2, 0);
+lean_inc(x_7);
+lean_dec(x_2);
+x_8 = lean_box(x_4);
+x_9 = lean_apply_1(x_7, x_8);
+x_10 = l_CategoryTheory_eqToIso___rarg(x_3, x_6, x_9, lean_box(0));
+return x_10;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_diagramIsoParallelPair___rarg(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; uint8_t x_4; lean_object* x_5; lean_object* x_6; uint8_t x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; lean_object* x_11; lean_object* x_12; lean_object* x_13; lean_object* x_14; lean_object* x_15; lean_object* x_16; lean_object* x_17; lean_object* x_18; lean_object* x_19; lean_object* x_20; lean_object* x_21; 
+x_3 = lean_ctor_get(x_2, 0);
+lean_inc(x_3);
+x_4 = 0;
+x_5 = lean_box(x_4);
+lean_inc(x_3);
+x_6 = lean_apply_1(x_3, x_5);
+x_7 = 1;
+x_8 = lean_box(x_7);
+lean_inc(x_3);
+x_9 = lean_apply_1(x_3, x_8);
+x_10 = lean_ctor_get(x_2, 1);
+lean_inc(x_10);
+x_11 = lean_box(0);
+x_12 = lean_box(x_4);
+x_13 = lean_box(x_7);
+lean_inc(x_10);
+x_14 = lean_apply_3(x_10, x_12, x_13, x_11);
+x_15 = lean_box(1);
+x_16 = lean_box(x_4);
+x_17 = lean_box(x_7);
+x_18 = lean_apply_3(x_10, x_16, x_17, x_15);
+lean_inc(x_1);
+x_19 = l_CategoryTheory_Limits_parallelPair___rarg(x_1, x_6, x_9, x_14, x_18);
+lean_inc(x_1);
+lean_inc(x_19);
+x_20 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_diagramIsoParallelPair___rarg___lambda__1___boxed), 4, 3);
+lean_closure_set(x_20, 0, x_3);
+lean_closure_set(x_20, 1, x_19);
+lean_closure_set(x_20, 2, x_1);
+x_21 = l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Limits_diagramIsoParallelPair___spec__1___rarg(x_1, x_2, x_19, x_20, lean_box(0));
+lean_dec(x_19);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_21;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_diagramIsoParallelPair(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_diagramIsoParallelPair___rarg), 2, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Limits_diagramIsoParallelPair___spec__1___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Limits_diagramIsoParallelPair___spec__1___rarg(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_diagramIsoParallelPair___rarg___lambda__1___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+uint8_t x_5; lean_object* x_6; 
+x_5 = lean_unbox(x_4);
+lean_dec(x_4);
+x_6 = l_CategoryTheory_Limits_diagramIsoParallelPair___rarg___lambda__1(x_1, x_2, x_3, x_5);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l___private_Mathlib_CategoryTheory_Limits_Shapes_Equalizers_0__CategoryTheory_Limits_parallelPair_match__1_splitter___rarg(uint8_t x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+if (x_1 == 0)
+{
+lean_inc(x_2);
+return x_2;
+}
+else
+{
+lean_inc(x_3);
+return x_3;
+}
+}
+}
+LEAN_EXPORT lean_object* l___private_Mathlib_CategoryTheory_Limits_Shapes_Equalizers_0__CategoryTheory_Limits_parallelPair_match__1_splitter(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l___private_Mathlib_CategoryTheory_Limits_Shapes_Equalizers_0__CategoryTheory_Limits_parallelPair_match__1_splitter___rarg___boxed), 3, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l___private_Mathlib_CategoryTheory_Limits_Shapes_Equalizers_0__CategoryTheory_Limits_parallelPair_match__1_splitter___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+uint8_t x_4; lean_object* x_5; 
+x_4 = lean_unbox(x_1);
+lean_dec(x_1);
+x_5 = l___private_Mathlib_CategoryTheory_Limits_Shapes_Equalizers_0__CategoryTheory_Limits_parallelPair_match__1_splitter___rarg(x_4, x_2, x_3);
+lean_dec(x_3);
+lean_dec(x_2);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_parallelPairHom___elambda__1___rarg(lean_object* x_1, lean_object* x_2, uint8_t x_3) {
+_start:
+{
+if (x_3 == 0)
+{
+lean_inc(x_1);
+return x_1;
+}
+else
+{
+lean_inc(x_2);
+return x_2;
+}
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_parallelPairHom___elambda__1(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8, lean_object* x_9, lean_object* x_10) {
+_start:
+{
+lean_object* x_11; 
+x_11 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_parallelPairHom___elambda__1___rarg___boxed), 3, 0);
+return x_11;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_parallelPairHom___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8, lean_object* x_9, lean_object* x_10, lean_object* x_11, lean_object* x_12, lean_object* x_13) {
+_start:
+{
+lean_object* x_14; 
+x_14 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_parallelPairHom___elambda__1___rarg___boxed), 3, 2);
+lean_closure_set(x_14, 0, x_10);
+lean_closure_set(x_14, 1, x_11);
+return x_14;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_parallelPairHom(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_parallelPairHom___rarg___boxed), 13, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_parallelPairHom___elambda__1___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+uint8_t x_4; lean_object* x_5; 
+x_4 = lean_unbox(x_3);
+lean_dec(x_3);
+x_5 = l_CategoryTheory_Limits_parallelPairHom___elambda__1___rarg(x_1, x_2, x_4);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_parallelPairHom___elambda__1___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8, lean_object* x_9, lean_object* x_10) {
+_start:
+{
+lean_object* x_11; 
+x_11 = l_CategoryTheory_Limits_parallelPairHom___elambda__1(x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8, x_9, x_10);
+lean_dec(x_10);
+lean_dec(x_9);
+lean_dec(x_8);
+lean_dec(x_7);
+lean_dec(x_6);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_2);
+return x_11;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_parallelPairHom___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8, lean_object* x_9, lean_object* x_10, lean_object* x_11, lean_object* x_12, lean_object* x_13) {
+_start:
+{
+lean_object* x_14; 
+x_14 = l_CategoryTheory_Limits_parallelPairHom___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8, x_9, x_10, x_11, x_12, x_13);
+lean_dec(x_9);
+lean_dec(x_8);
+lean_dec(x_7);
+lean_dec(x_6);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_14;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Limits_parallelPair_ext___spec__1___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; 
+lean_inc(x_4);
+x_6 = lean_alloc_closure((void*)(l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__6___lambda__1___boxed), 2, 1);
+lean_closure_set(x_6, 0, x_4);
+x_7 = lean_alloc_closure((void*)(l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__6___lambda__2___boxed), 2, 1);
+lean_closure_set(x_7, 0, x_4);
+x_8 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_8, 0, x_6);
+lean_ctor_set(x_8, 1, x_7);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Limits_parallelPair_ext___spec__1(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Limits_parallelPair_ext___spec__1___rarg___boxed), 5, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_parallelPair_ext___rarg___lambda__1(lean_object* x_1, lean_object* x_2, uint8_t x_3) {
+_start:
+{
+if (x_3 == 0)
+{
+lean_inc(x_1);
+return x_1;
+}
+else
+{
+lean_inc(x_2);
+return x_2;
+}
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_parallelPair_ext___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; lean_object* x_9; 
+x_8 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_parallelPair_ext___rarg___lambda__1___boxed), 3, 2);
+lean_closure_set(x_8, 0, x_4);
+lean_closure_set(x_8, 1, x_5);
+x_9 = l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Limits_parallelPair_ext___spec__1___rarg(x_1, x_2, x_3, x_8, lean_box(0));
+return x_9;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_parallelPair_ext(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_parallelPair_ext___rarg___boxed), 7, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Limits_parallelPair_ext___spec__1___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Limits_parallelPair_ext___spec__1___rarg(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_parallelPair_ext___rarg___lambda__1___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+uint8_t x_4; lean_object* x_5; 
+x_4 = lean_unbox(x_3);
+lean_dec(x_3);
+x_5 = l_CategoryTheory_Limits_parallelPair_ext___rarg___lambda__1(x_1, x_2, x_4);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_parallelPair_ext___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; 
+x_8 = l_CategoryTheory_Limits_parallelPair_ext___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7);
+lean_dec(x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_parallelPair_eqOfHomEq___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8, lean_object* x_9) {
+_start:
+{
+lean_object* x_10; lean_object* x_11; lean_object* x_12; uint8_t x_13; lean_object* x_14; lean_object* x_15; lean_object* x_16; uint8_t x_17; lean_object* x_18; lean_object* x_19; lean_object* x_20; lean_object* x_21; 
+lean_inc(x_3);
+lean_inc(x_2);
+lean_inc(x_1);
+x_10 = l_CategoryTheory_Limits_parallelPair___rarg(x_1, x_2, x_3, x_4, x_5);
+lean_inc(x_1);
+x_11 = l_CategoryTheory_Limits_parallelPair___rarg(x_1, x_2, x_3, x_6, x_7);
+x_12 = lean_ctor_get(x_10, 0);
+lean_inc(x_12);
+x_13 = 0;
+x_14 = lean_box(x_13);
+lean_inc(x_12);
+x_15 = lean_apply_1(x_12, x_14);
+lean_inc(x_1);
+x_16 = l_CategoryTheory_Iso_refl___rarg(x_1, x_15);
+x_17 = 1;
+x_18 = lean_box(x_17);
+x_19 = lean_apply_1(x_12, x_18);
+lean_inc(x_1);
+x_20 = l_CategoryTheory_Iso_refl___rarg(x_1, x_19);
+x_21 = l_CategoryTheory_Limits_parallelPair_ext___rarg(x_1, x_10, x_11, x_16, x_20, lean_box(0), lean_box(0));
+lean_dec(x_11);
+lean_dec(x_10);
+lean_dec(x_1);
+return x_21;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_parallelPair_eqOfHomEq(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_parallelPair_eqOfHomEq___rarg), 9, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork__u03b9___rarg(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; uint8_t x_3; lean_object* x_4; lean_object* x_5; 
+x_2 = lean_ctor_get(x_1, 1);
+lean_inc(x_2);
+lean_dec(x_1);
+x_3 = 0;
+x_4 = lean_box(x_3);
+x_5 = lean_apply_1(x_2, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork__u03b9(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_Fork__u03b9___rarg), 1, 0);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork__u03b9___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = l_CategoryTheory_Limits_Fork__u03b9(x_1, x_2, x_3, x_4, x_5, x_6);
+lean_dec(x_6);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_2);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cofork__u03c0___rarg(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; uint8_t x_3; lean_object* x_4; lean_object* x_5; 
+x_2 = lean_ctor_get(x_1, 1);
+lean_inc(x_2);
+lean_dec(x_1);
+x_3 = 1;
+x_4 = lean_box(x_3);
+x_5 = lean_apply_1(x_2, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cofork__u03c0(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_Cofork__u03c0___rarg), 1, 0);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cofork__u03c0___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = l_CategoryTheory_Limits_Cofork__u03c0(x_1, x_2, x_3, x_4, x_5, x_6);
+lean_dec(x_6);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_2);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_of_u03b9___spec__1___rarg___lambda__1(lean_object* x_1, uint8_t x_2) {
+_start:
+{
+lean_inc(x_1);
+return x_1;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_of_u03b9___spec__1___rarg___lambda__2(lean_object* x_1, lean_object* x_2, uint8_t x_3, uint8_t x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; 
+x_6 = lean_ctor_get(x_1, 1);
+lean_inc(x_6);
+lean_dec(x_1);
+x_7 = lean_apply_1(x_6, x_2);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_of_u03b9___spec__1___rarg___lambda__3(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; lean_object* x_6; 
+lean_inc(x_3);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_of_u03b9___spec__1___rarg___lambda__1___boxed), 2, 1);
+lean_closure_set(x_4, 0, x_3);
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_of_u03b9___spec__1___rarg___lambda__2___boxed), 5, 2);
+lean_closure_set(x_5, 0, x_1);
+lean_closure_set(x_5, 1, x_3);
+x_6 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_6, 0, x_4);
+lean_ctor_set(x_6, 1, x_5);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_of_u03b9___spec__1___rarg___lambda__4(lean_object* x_1, lean_object* x_2, lean_object* x_3, uint8_t x_4) {
+_start:
+{
+lean_inc(x_3);
+return x_3;
+}
+}
+static lean_object* _init_l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_of_u03b9___spec__1___rarg___closed__1() {
+_start:
+{
+lean_object* x_1; 
+x_1 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_of_u03b9___spec__1___rarg___lambda__4___boxed), 4, 0);
+return x_1;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_of_u03b9___spec__1___rarg(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+x_2 = lean_ctor_get(x_1, 0);
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_of_u03b9___spec__1___rarg___lambda__3___boxed), 3, 2);
+lean_closure_set(x_3, 0, x_1);
+lean_closure_set(x_3, 1, x_2);
+x_4 = l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_of_u03b9___spec__1___rarg___closed__1;
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_of_u03b9___spec__1(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_of_u03b9___spec__1___rarg), 1, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork_of_u03b9___rarg___lambda__1(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, uint8_t x_7) {
+_start:
+{
+if (x_7 == 0)
+{
+lean_dec(x_6);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_2);
+return x_1;
+}
+else
+{
+lean_object* x_8; lean_object* x_9; lean_object* x_10; lean_object* x_11; lean_object* x_12; lean_object* x_13; lean_object* x_14; lean_object* x_15; 
+x_8 = lean_ctor_get(x_2, 2);
+lean_inc(x_8);
+lean_dec(x_2);
+x_9 = lean_ctor_get(x_3, 0);
+lean_inc(x_9);
+lean_dec(x_3);
+x_10 = lean_box(x_7);
+x_11 = lean_apply_1(x_9, x_10);
+x_12 = lean_ctor_get(x_4, 0);
+lean_inc(x_12);
+lean_dec(x_4);
+x_13 = lean_box(x_7);
+x_14 = lean_apply_1(x_12, x_13);
+x_15 = lean_apply_5(x_8, x_11, x_5, x_14, x_1, x_6);
+return x_15;
+}
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork_of_u03b9___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8) {
+_start:
+{
+lean_object* x_9; lean_object* x_10; lean_object* x_11; lean_object* x_12; lean_object* x_13; lean_object* x_14; 
+lean_inc(x_4);
+lean_inc(x_2);
+lean_inc(x_1);
+x_9 = l_CategoryTheory_Limits_parallelPair___rarg(x_1, x_2, x_3, x_4, x_5);
+lean_inc(x_1);
+x_10 = l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_of_u03b9___spec__1___rarg(x_1);
+x_11 = lean_ctor_get(x_10, 0);
+lean_inc(x_11);
+lean_dec(x_10);
+lean_inc(x_6);
+x_12 = lean_apply_1(x_11, x_6);
+x_13 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_Fork_of_u03b9___rarg___lambda__1___boxed), 7, 6);
+lean_closure_set(x_13, 0, x_7);
+lean_closure_set(x_13, 1, x_1);
+lean_closure_set(x_13, 2, x_12);
+lean_closure_set(x_13, 3, x_9);
+lean_closure_set(x_13, 4, x_2);
+lean_closure_set(x_13, 5, x_4);
+x_14 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_14, 0, x_6);
+lean_ctor_set(x_14, 1, x_13);
+return x_14;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork_of_u03b9(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_Fork_of_u03b9___rarg), 8, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_of_u03b9___spec__1___rarg___lambda__1___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+uint8_t x_3; lean_object* x_4; 
+x_3 = lean_unbox(x_2);
+lean_dec(x_2);
+x_4 = l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_of_u03b9___spec__1___rarg___lambda__1(x_1, x_3);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_of_u03b9___spec__1___rarg___lambda__2___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+uint8_t x_6; uint8_t x_7; lean_object* x_8; 
+x_6 = lean_unbox(x_3);
+lean_dec(x_3);
+x_7 = lean_unbox(x_4);
+lean_dec(x_4);
+x_8 = l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_of_u03b9___spec__1___rarg___lambda__2(x_1, x_2, x_6, x_7, x_5);
+lean_dec(x_5);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_of_u03b9___spec__1___rarg___lambda__3___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_of_u03b9___spec__1___rarg___lambda__3(x_1, x_2, x_3);
+lean_dec(x_2);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_of_u03b9___spec__1___rarg___lambda__4___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+uint8_t x_5; lean_object* x_6; 
+x_5 = lean_unbox(x_4);
+lean_dec(x_4);
+x_6 = l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_of_u03b9___spec__1___rarg___lambda__4(x_1, x_2, x_3, x_5);
+lean_dec(x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork_of_u03b9___rarg___lambda__1___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+uint8_t x_8; lean_object* x_9; 
+x_8 = lean_unbox(x_7);
+lean_dec(x_7);
+x_9 = l_CategoryTheory_Limits_Fork_of_u03b9___rarg___lambda__1(x_1, x_2, x_3, x_4, x_5, x_6, x_8);
+return x_9;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Cofork_of_u03c0___spec__1___rarg(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+x_2 = lean_ctor_get(x_1, 0);
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_of_u03b9___spec__1___rarg___lambda__3___boxed), 3, 2);
+lean_closure_set(x_3, 0, x_1);
+lean_closure_set(x_3, 1, x_2);
+x_4 = l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_of_u03b9___spec__1___rarg___closed__1;
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Cofork_of_u03c0___spec__1(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Cofork_of_u03c0___spec__1___rarg), 1, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cofork_of_u03c0___rarg___lambda__1(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, uint8_t x_7) {
+_start:
+{
+if (x_7 == 0)
+{
+lean_object* x_8; lean_object* x_9; lean_object* x_10; lean_object* x_11; lean_object* x_12; lean_object* x_13; lean_object* x_14; lean_object* x_15; 
+x_8 = lean_ctor_get(x_1, 2);
+lean_inc(x_8);
+lean_dec(x_1);
+x_9 = lean_ctor_get(x_2, 0);
+lean_inc(x_9);
+lean_dec(x_2);
+x_10 = lean_box(x_7);
+x_11 = lean_apply_1(x_9, x_10);
+x_12 = lean_ctor_get(x_3, 0);
+lean_inc(x_12);
+lean_dec(x_3);
+x_13 = lean_box(x_7);
+x_14 = lean_apply_1(x_12, x_13);
+x_15 = lean_apply_5(x_8, x_11, x_4, x_14, x_5, x_6);
+return x_15;
+}
+else
+{
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_6;
+}
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cofork_of_u03c0___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8) {
+_start:
+{
+lean_object* x_9; lean_object* x_10; lean_object* x_11; lean_object* x_12; lean_object* x_13; lean_object* x_14; 
+lean_inc(x_4);
+lean_inc(x_3);
+lean_inc(x_1);
+x_9 = l_CategoryTheory_Limits_parallelPair___rarg(x_1, x_2, x_3, x_4, x_5);
+lean_inc(x_1);
+x_10 = l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Cofork_of_u03c0___spec__1___rarg(x_1);
+x_11 = lean_ctor_get(x_10, 0);
+lean_inc(x_11);
+lean_dec(x_10);
+lean_inc(x_6);
+x_12 = lean_apply_1(x_11, x_6);
+x_13 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_Cofork_of_u03c0___rarg___lambda__1___boxed), 7, 6);
+lean_closure_set(x_13, 0, x_1);
+lean_closure_set(x_13, 1, x_9);
+lean_closure_set(x_13, 2, x_12);
+lean_closure_set(x_13, 3, x_3);
+lean_closure_set(x_13, 4, x_4);
+lean_closure_set(x_13, 5, x_7);
+x_14 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_14, 0, x_6);
+lean_ctor_set(x_14, 1, x_13);
+return x_14;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cofork_of_u03c0(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_Cofork_of_u03c0___rarg), 8, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cofork_of_u03c0___rarg___lambda__1___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+uint8_t x_8; lean_object* x_9; 
+x_8 = lean_unbox(x_7);
+lean_dec(x_7);
+x_9 = l_CategoryTheory_Limits_Cofork_of_u03c0___rarg___lambda__1(x_1, x_2, x_3, x_4, x_5, x_6, x_8);
+return x_9;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork_IsLimit_lift___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8, lean_object* x_9, lean_object* x_10) {
+_start:
+{
+lean_object* x_11; lean_object* x_12; 
+x_11 = l_CategoryTheory_Limits_Fork_of_u03b9___rarg(x_1, x_2, x_3, x_4, x_5, x_8, x_9, lean_box(0));
+x_12 = lean_apply_1(x_7, x_11);
+return x_12;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork_IsLimit_lift(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_Fork_IsLimit_lift___rarg___boxed), 10, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork_IsLimit_lift___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8, lean_object* x_9, lean_object* x_10) {
+_start:
+{
+lean_object* x_11; 
+x_11 = l_CategoryTheory_Limits_Fork_IsLimit_lift___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8, x_9, x_10);
+lean_dec(x_6);
+return x_11;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork_IsLimit_lift_x27___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8, lean_object* x_9, lean_object* x_10) {
+_start:
+{
+lean_object* x_11; 
+x_11 = l_CategoryTheory_Limits_Fork_IsLimit_lift___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8, x_9, lean_box(0));
+return x_11;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork_IsLimit_lift_x27(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_Fork_IsLimit_lift_x27___rarg___boxed), 10, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork_IsLimit_lift_x27___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8, lean_object* x_9, lean_object* x_10) {
+_start:
+{
+lean_object* x_11; 
+x_11 = l_CategoryTheory_Limits_Fork_IsLimit_lift_x27___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8, x_9, x_10);
+lean_dec(x_6);
+return x_11;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cofork_IsColimit_desc___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8, lean_object* x_9, lean_object* x_10) {
+_start:
+{
+lean_object* x_11; lean_object* x_12; 
+x_11 = l_CategoryTheory_Limits_Cofork_of_u03c0___rarg(x_1, x_2, x_3, x_4, x_5, x_8, x_9, lean_box(0));
+x_12 = lean_apply_1(x_7, x_11);
+return x_12;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cofork_IsColimit_desc(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_Cofork_IsColimit_desc___rarg___boxed), 10, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cofork_IsColimit_desc___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8, lean_object* x_9, lean_object* x_10) {
+_start:
+{
+lean_object* x_11; 
+x_11 = l_CategoryTheory_Limits_Cofork_IsColimit_desc___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8, x_9, x_10);
+lean_dec(x_6);
+return x_11;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cofork_IsColimit_desc_x27___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8, lean_object* x_9, lean_object* x_10) {
+_start:
+{
+lean_object* x_11; 
+x_11 = l_CategoryTheory_Limits_Cofork_IsColimit_desc___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8, x_9, lean_box(0));
+return x_11;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cofork_IsColimit_desc_x27(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_Cofork_IsColimit_desc_x27___rarg___boxed), 10, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cofork_IsColimit_desc_x27___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8, lean_object* x_9, lean_object* x_10) {
+_start:
+{
+lean_object* x_11; 
+x_11 = l_CategoryTheory_Limits_Cofork_IsColimit_desc_x27___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8, x_9, x_10);
+lean_dec(x_6);
+return x_11;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork_IsLimit_mk___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_inc(x_1);
+return x_1;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork_IsLimit_mk(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; 
+x_8 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_Fork_IsLimit_mk___rarg___boxed), 3, 0);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork_IsLimit_mk___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Limits_Fork_IsLimit_mk___rarg(x_1, x_2, x_3);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork_IsLimit_mk___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; 
+x_8 = l_CategoryTheory_Limits_Fork_IsLimit_mk(x_1, x_2, x_3, x_4, x_5, x_6, x_7);
+lean_dec(x_7);
+lean_dec(x_6);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_2);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork_IsLimit_mk___at_CategoryTheory_Limits_Fork_IsLimit_mk_x27___spec__1___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_inc(x_1);
+return x_1;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork_IsLimit_mk___at_CategoryTheory_Limits_Fork_IsLimit_mk_x27___spec__1(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; 
+x_8 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_Fork_IsLimit_mk___at_CategoryTheory_Limits_Fork_IsLimit_mk_x27___spec__1___rarg___boxed), 3, 0);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork_IsLimit_mk_x27___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_inc(x_7);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork_IsLimit_mk_x27(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_Fork_IsLimit_mk_x27___rarg___boxed), 7, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork_IsLimit_mk___at_CategoryTheory_Limits_Fork_IsLimit_mk_x27___spec__1___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Limits_Fork_IsLimit_mk___at_CategoryTheory_Limits_Fork_IsLimit_mk_x27___spec__1___rarg(x_1, x_2, x_3);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork_IsLimit_mk___at_CategoryTheory_Limits_Fork_IsLimit_mk_x27___spec__1___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; 
+x_8 = l_CategoryTheory_Limits_Fork_IsLimit_mk___at_CategoryTheory_Limits_Fork_IsLimit_mk_x27___spec__1(x_1, x_2, x_3, x_4, x_5, x_6, x_7);
+lean_dec(x_7);
+lean_dec(x_6);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_2);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork_IsLimit_mk_x27___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; 
+x_8 = l_CategoryTheory_Limits_Fork_IsLimit_mk_x27___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7);
+lean_dec(x_7);
+lean_dec(x_6);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cofork_IsColimit_mk___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_inc(x_1);
+return x_1;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cofork_IsColimit_mk(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; 
+x_8 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_Cofork_IsColimit_mk___rarg___boxed), 3, 0);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cofork_IsColimit_mk___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Limits_Cofork_IsColimit_mk___rarg(x_1, x_2, x_3);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cofork_IsColimit_mk___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; 
+x_8 = l_CategoryTheory_Limits_Cofork_IsColimit_mk(x_1, x_2, x_3, x_4, x_5, x_6, x_7);
+lean_dec(x_7);
+lean_dec(x_6);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_2);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cofork_IsColimit_mk___at_CategoryTheory_Limits_Cofork_IsColimit_mk_x27___spec__1___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_inc(x_1);
+return x_1;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cofork_IsColimit_mk___at_CategoryTheory_Limits_Cofork_IsColimit_mk_x27___spec__1(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; 
+x_8 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_Cofork_IsColimit_mk___at_CategoryTheory_Limits_Cofork_IsColimit_mk_x27___spec__1___rarg___boxed), 3, 0);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cofork_IsColimit_mk_x27___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_inc(x_7);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cofork_IsColimit_mk_x27(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_Cofork_IsColimit_mk_x27___rarg___boxed), 7, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cofork_IsColimit_mk___at_CategoryTheory_Limits_Cofork_IsColimit_mk_x27___spec__1___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Limits_Cofork_IsColimit_mk___at_CategoryTheory_Limits_Cofork_IsColimit_mk_x27___spec__1___rarg(x_1, x_2, x_3);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cofork_IsColimit_mk___at_CategoryTheory_Limits_Cofork_IsColimit_mk_x27___spec__1___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; 
+x_8 = l_CategoryTheory_Limits_Cofork_IsColimit_mk___at_CategoryTheory_Limits_Cofork_IsColimit_mk_x27___spec__1(x_1, x_2, x_3, x_4, x_5, x_6, x_7);
+lean_dec(x_7);
+lean_dec(x_6);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_2);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cofork_IsColimit_mk_x27___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; 
+x_8 = l_CategoryTheory_Limits_Cofork_IsColimit_mk_x27___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7);
+lean_dec(x_7);
+lean_dec(x_6);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork_IsLimit_homIso___elambda__1___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8, lean_object* x_9) {
+_start:
+{
+lean_object* x_10; 
+x_10 = l_CategoryTheory_Limits_Fork_IsLimit_lift___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8, x_9, lean_box(0));
+return x_10;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork_IsLimit_homIso___elambda__1(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_Fork_IsLimit_homIso___elambda__1___rarg___boxed), 9, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork_IsLimit_homIso___elambda__2___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8) {
+_start:
+{
+lean_object* x_9; lean_object* x_10; lean_object* x_11; lean_object* x_12; 
+x_9 = lean_ctor_get(x_1, 2);
+lean_inc(x_9);
+lean_dec(x_1);
+x_10 = lean_ctor_get(x_6, 0);
+lean_inc(x_10);
+x_11 = l_CategoryTheory_Limits_Fork__u03b9___rarg(x_6);
+x_12 = lean_apply_5(x_9, x_7, x_10, x_2, x_8, x_11);
+return x_12;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork_IsLimit_homIso___elambda__2(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_Fork_IsLimit_homIso___elambda__2___rarg___boxed), 8, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork_IsLimit_homIso___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8) {
+_start:
+{
+lean_object* x_9; lean_object* x_10; lean_object* x_11; 
+lean_inc(x_8);
+lean_inc(x_6);
+lean_inc(x_5);
+lean_inc(x_4);
+lean_inc(x_3);
+lean_inc(x_2);
+lean_inc(x_1);
+x_9 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_Fork_IsLimit_homIso___elambda__2___rarg___boxed), 8, 7);
+lean_closure_set(x_9, 0, x_1);
+lean_closure_set(x_9, 1, x_2);
+lean_closure_set(x_9, 2, x_3);
+lean_closure_set(x_9, 3, x_4);
+lean_closure_set(x_9, 4, x_5);
+lean_closure_set(x_9, 5, x_6);
+lean_closure_set(x_9, 6, x_8);
+x_10 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_Fork_IsLimit_homIso___elambda__1___rarg___boxed), 9, 8);
+lean_closure_set(x_10, 0, x_1);
+lean_closure_set(x_10, 1, x_2);
+lean_closure_set(x_10, 2, x_3);
+lean_closure_set(x_10, 3, x_4);
+lean_closure_set(x_10, 4, x_5);
+lean_closure_set(x_10, 5, x_6);
+lean_closure_set(x_10, 6, x_7);
+lean_closure_set(x_10, 7, x_8);
+x_11 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_11, 0, x_9);
+lean_ctor_set(x_11, 1, x_10);
+return x_11;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork_IsLimit_homIso(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_Fork_IsLimit_homIso___rarg), 8, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork_IsLimit_homIso___elambda__1___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8, lean_object* x_9) {
+_start:
+{
+lean_object* x_10; 
+x_10 = l_CategoryTheory_Limits_Fork_IsLimit_homIso___elambda__1___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8, x_9);
+lean_dec(x_6);
+return x_10;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork_IsLimit_homIso___elambda__2___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8) {
+_start:
+{
+lean_object* x_9; 
+x_9 = l_CategoryTheory_Limits_Fork_IsLimit_homIso___elambda__2___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+return x_9;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cofork_IsColimit_homIso___elambda__1___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8, lean_object* x_9) {
+_start:
+{
+lean_object* x_10; 
+x_10 = l_CategoryTheory_Limits_Cofork_IsColimit_desc___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8, x_9, lean_box(0));
+return x_10;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cofork_IsColimit_homIso___elambda__1(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_Cofork_IsColimit_homIso___elambda__1___rarg___boxed), 9, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Cofork_IsColimit_homIso___elambda__2___spec__1___rarg(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+x_2 = lean_ctor_get(x_1, 0);
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_of_u03b9___spec__1___rarg___lambda__3___boxed), 3, 2);
+lean_closure_set(x_3, 0, x_1);
+lean_closure_set(x_3, 1, x_2);
+x_4 = l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_of_u03b9___spec__1___rarg___closed__1;
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Cofork_IsColimit_homIso___elambda__2___spec__1(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Cofork_IsColimit_homIso___elambda__2___spec__1___rarg), 1, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cofork_IsColimit_homIso___elambda__2___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8) {
+_start:
+{
+lean_object* x_9; lean_object* x_10; lean_object* x_11; lean_object* x_12; lean_object* x_13; lean_object* x_14; uint8_t x_15; lean_object* x_16; lean_object* x_17; lean_object* x_18; lean_object* x_19; 
+x_9 = lean_ctor_get(x_1, 2);
+lean_inc(x_9);
+x_10 = l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Cofork_IsColimit_homIso___elambda__2___spec__1___rarg(x_1);
+x_11 = lean_ctor_get(x_10, 0);
+lean_inc(x_11);
+lean_dec(x_10);
+x_12 = lean_ctor_get(x_6, 0);
+lean_inc(x_12);
+x_13 = lean_apply_1(x_11, x_12);
+x_14 = lean_ctor_get(x_13, 0);
+lean_inc(x_14);
+lean_dec(x_13);
+x_15 = 1;
+x_16 = lean_box(x_15);
+x_17 = lean_apply_1(x_14, x_16);
+x_18 = l_CategoryTheory_Limits_Cofork__u03c0___rarg(x_6);
+x_19 = lean_apply_5(x_9, x_3, x_17, x_7, x_18, x_8);
+return x_19;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cofork_IsColimit_homIso___elambda__2(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_Cofork_IsColimit_homIso___elambda__2___rarg___boxed), 8, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cofork_IsColimit_homIso___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8) {
+_start:
+{
+lean_object* x_9; lean_object* x_10; lean_object* x_11; 
+lean_inc(x_8);
+lean_inc(x_6);
+lean_inc(x_5);
+lean_inc(x_4);
+lean_inc(x_3);
+lean_inc(x_2);
+lean_inc(x_1);
+x_9 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_Cofork_IsColimit_homIso___elambda__2___rarg___boxed), 8, 7);
+lean_closure_set(x_9, 0, x_1);
+lean_closure_set(x_9, 1, x_2);
+lean_closure_set(x_9, 2, x_3);
+lean_closure_set(x_9, 3, x_4);
+lean_closure_set(x_9, 4, x_5);
+lean_closure_set(x_9, 5, x_6);
+lean_closure_set(x_9, 6, x_8);
+x_10 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_Cofork_IsColimit_homIso___elambda__1___rarg___boxed), 9, 8);
+lean_closure_set(x_10, 0, x_1);
+lean_closure_set(x_10, 1, x_2);
+lean_closure_set(x_10, 2, x_3);
+lean_closure_set(x_10, 3, x_4);
+lean_closure_set(x_10, 4, x_5);
+lean_closure_set(x_10, 5, x_6);
+lean_closure_set(x_10, 6, x_7);
+lean_closure_set(x_10, 7, x_8);
+x_11 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_11, 0, x_9);
+lean_ctor_set(x_11, 1, x_10);
+return x_11;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cofork_IsColimit_homIso(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_Cofork_IsColimit_homIso___rarg), 8, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cofork_IsColimit_homIso___elambda__1___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8, lean_object* x_9) {
+_start:
+{
+lean_object* x_10; 
+x_10 = l_CategoryTheory_Limits_Cofork_IsColimit_homIso___elambda__1___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8, x_9);
+lean_dec(x_6);
+return x_10;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cofork_IsColimit_homIso___elambda__2___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8) {
+_start:
+{
+lean_object* x_9; 
+x_9 = l_CategoryTheory_Limits_Cofork_IsColimit_homIso___elambda__2___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_2);
+return x_9;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Cone_ofFork___spec__1___rarg(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+x_2 = lean_ctor_get(x_1, 0);
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_of_u03b9___spec__1___rarg___lambda__3___boxed), 3, 2);
+lean_closure_set(x_3, 0, x_1);
+lean_closure_set(x_3, 1, x_2);
+x_4 = l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_of_u03b9___spec__1___rarg___closed__1;
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Cone_ofFork___spec__1(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Cone_ofFork___spec__1___rarg), 1, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cone_ofFork___rarg___lambda__1(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, uint8_t x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; uint8_t x_11; lean_object* x_12; lean_object* x_13; uint8_t x_14; lean_object* x_15; lean_object* x_16; lean_object* x_17; lean_object* x_18; lean_object* x_19; lean_object* x_20; lean_object* x_21; lean_object* x_22; lean_object* x_23; lean_object* x_24; lean_object* x_25; lean_object* x_26; lean_object* x_27; lean_object* x_28; lean_object* x_29; lean_object* x_30; lean_object* x_31; lean_object* x_32; lean_object* x_33; lean_object* x_34; lean_object* x_35; lean_object* x_36; 
+x_6 = lean_ctor_get(x_1, 2);
+lean_inc(x_6);
+x_7 = lean_ctor_get(x_2, 0);
+lean_inc(x_7);
+lean_dec(x_2);
+x_8 = lean_box(x_5);
+x_9 = lean_apply_1(x_7, x_8);
+x_10 = lean_ctor_get(x_3, 0);
+lean_inc(x_10);
+x_11 = 0;
+x_12 = lean_box(x_11);
+lean_inc(x_10);
+x_13 = lean_apply_1(x_10, x_12);
+x_14 = 1;
+x_15 = lean_box(x_14);
+lean_inc(x_10);
+x_16 = lean_apply_1(x_10, x_15);
+x_17 = lean_ctor_get(x_3, 1);
+lean_inc(x_17);
+lean_dec(x_3);
+x_18 = lean_box(0);
+x_19 = lean_box(x_11);
+x_20 = lean_box(x_14);
+lean_inc(x_17);
+x_21 = lean_apply_3(x_17, x_19, x_20, x_18);
+x_22 = lean_box(1);
+x_23 = lean_box(x_11);
+x_24 = lean_box(x_14);
+x_25 = lean_apply_3(x_17, x_23, x_24, x_22);
+lean_inc(x_1);
+x_26 = l_CategoryTheory_Limits_parallelPair___rarg(x_1, x_13, x_16, x_21, x_25);
+x_27 = lean_ctor_get(x_26, 0);
+lean_inc(x_27);
+lean_dec(x_26);
+x_28 = lean_box(x_5);
+x_29 = lean_apply_1(x_27, x_28);
+x_30 = lean_box(x_5);
+x_31 = lean_apply_1(x_10, x_30);
+x_32 = lean_ctor_get(x_4, 1);
+lean_inc(x_32);
+lean_dec(x_4);
+x_33 = lean_box(x_5);
+x_34 = lean_apply_1(x_32, x_33);
+lean_inc(x_31);
+x_35 = l_CategoryTheory_eqToHom___rarg(x_1, x_29, x_31, lean_box(0));
+x_36 = lean_apply_5(x_6, x_9, x_29, x_31, x_34, x_35);
+return x_36;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cone_ofFork___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; lean_object* x_6; lean_object* x_7; lean_object* x_8; uint8_t x_9; 
+x_4 = lean_ctor_get(x_3, 0);
+lean_inc(x_4);
+lean_inc(x_1);
+x_5 = l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Cone_ofFork___spec__1___rarg(x_1);
+x_6 = lean_ctor_get(x_5, 0);
+lean_inc(x_6);
+lean_dec(x_5);
+lean_inc(x_4);
+x_7 = lean_apply_1(x_6, x_4);
+lean_inc(x_3);
+x_8 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_Cone_ofFork___rarg___lambda__1___boxed), 5, 4);
+lean_closure_set(x_8, 0, x_1);
+lean_closure_set(x_8, 1, x_7);
+lean_closure_set(x_8, 2, x_2);
+lean_closure_set(x_8, 3, x_3);
+x_9 = !lean_is_exclusive(x_3);
+if (x_9 == 0)
+{
+lean_object* x_10; lean_object* x_11; 
+x_10 = lean_ctor_get(x_3, 1);
+lean_dec(x_10);
+x_11 = lean_ctor_get(x_3, 0);
+lean_dec(x_11);
+lean_ctor_set(x_3, 1, x_8);
+return x_3;
+}
+else
+{
+lean_object* x_12; 
+lean_dec(x_3);
+x_12 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_12, 0, x_4);
+lean_ctor_set(x_12, 1, x_8);
+return x_12;
+}
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cone_ofFork(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_Cone_ofFork___rarg), 3, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cone_ofFork___rarg___lambda__1___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+uint8_t x_6; lean_object* x_7; 
+x_6 = lean_unbox(x_5);
+lean_dec(x_5);
+x_7 = l_CategoryTheory_Limits_Cone_ofFork___rarg___lambda__1(x_1, x_2, x_3, x_4, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Cocone_ofCofork___spec__1___rarg(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+x_2 = lean_ctor_get(x_1, 0);
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_of_u03b9___spec__1___rarg___lambda__3___boxed), 3, 2);
+lean_closure_set(x_3, 0, x_1);
+lean_closure_set(x_3, 1, x_2);
+x_4 = l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_of_u03b9___spec__1___rarg___closed__1;
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Cocone_ofCofork___spec__1(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Cocone_ofCofork___spec__1___rarg), 1, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cocone_ofCofork___rarg___lambda__1(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, uint8_t x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; lean_object* x_9; uint8_t x_10; lean_object* x_11; lean_object* x_12; uint8_t x_13; lean_object* x_14; lean_object* x_15; lean_object* x_16; lean_object* x_17; lean_object* x_18; lean_object* x_19; lean_object* x_20; lean_object* x_21; lean_object* x_22; lean_object* x_23; lean_object* x_24; lean_object* x_25; lean_object* x_26; lean_object* x_27; lean_object* x_28; lean_object* x_29; lean_object* x_30; lean_object* x_31; lean_object* x_32; lean_object* x_33; lean_object* x_34; lean_object* x_35; lean_object* x_36; 
+x_6 = lean_ctor_get(x_1, 2);
+lean_inc(x_6);
+x_7 = lean_ctor_get(x_2, 0);
+lean_inc(x_7);
+x_8 = lean_box(x_5);
+lean_inc(x_7);
+x_9 = lean_apply_1(x_7, x_8);
+x_10 = 0;
+x_11 = lean_box(x_10);
+lean_inc(x_7);
+x_12 = lean_apply_1(x_7, x_11);
+x_13 = 1;
+x_14 = lean_box(x_13);
+x_15 = lean_apply_1(x_7, x_14);
+x_16 = lean_ctor_get(x_2, 1);
+lean_inc(x_16);
+lean_dec(x_2);
+x_17 = lean_box(0);
+x_18 = lean_box(x_10);
+x_19 = lean_box(x_13);
+lean_inc(x_16);
+x_20 = lean_apply_3(x_16, x_18, x_19, x_17);
+x_21 = lean_box(1);
+x_22 = lean_box(x_10);
+x_23 = lean_box(x_13);
+x_24 = lean_apply_3(x_16, x_22, x_23, x_21);
+lean_inc(x_1);
+x_25 = l_CategoryTheory_Limits_parallelPair___rarg(x_1, x_12, x_15, x_20, x_24);
+x_26 = lean_ctor_get(x_25, 0);
+lean_inc(x_26);
+lean_dec(x_25);
+x_27 = lean_box(x_5);
+x_28 = lean_apply_1(x_26, x_27);
+x_29 = lean_ctor_get(x_3, 0);
+lean_inc(x_29);
+lean_dec(x_3);
+x_30 = lean_box(x_5);
+x_31 = lean_apply_1(x_29, x_30);
+lean_inc(x_28);
+x_32 = l_CategoryTheory_eqToHom___rarg(x_1, x_9, x_28, lean_box(0));
+x_33 = lean_ctor_get(x_4, 1);
+lean_inc(x_33);
+lean_dec(x_4);
+x_34 = lean_box(x_5);
+x_35 = lean_apply_1(x_33, x_34);
+x_36 = lean_apply_5(x_6, x_9, x_28, x_31, x_32, x_35);
+return x_36;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cocone_ofCofork___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; lean_object* x_6; lean_object* x_7; lean_object* x_8; uint8_t x_9; 
+x_4 = lean_ctor_get(x_3, 0);
+lean_inc(x_4);
+lean_inc(x_1);
+x_5 = l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Cocone_ofCofork___spec__1___rarg(x_1);
+x_6 = lean_ctor_get(x_5, 0);
+lean_inc(x_6);
+lean_dec(x_5);
+lean_inc(x_4);
+x_7 = lean_apply_1(x_6, x_4);
+lean_inc(x_3);
+x_8 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_Cocone_ofCofork___rarg___lambda__1___boxed), 5, 4);
+lean_closure_set(x_8, 0, x_1);
+lean_closure_set(x_8, 1, x_2);
+lean_closure_set(x_8, 2, x_7);
+lean_closure_set(x_8, 3, x_3);
+x_9 = !lean_is_exclusive(x_3);
+if (x_9 == 0)
+{
+lean_object* x_10; lean_object* x_11; 
+x_10 = lean_ctor_get(x_3, 1);
+lean_dec(x_10);
+x_11 = lean_ctor_get(x_3, 0);
+lean_dec(x_11);
+lean_ctor_set(x_3, 1, x_8);
+return x_3;
+}
+else
+{
+lean_object* x_12; 
+lean_dec(x_3);
+x_12 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_12, 0, x_4);
+lean_ctor_set(x_12, 1, x_8);
+return x_12;
+}
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cocone_ofCofork(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_Cocone_ofCofork___rarg), 3, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cocone_ofCofork___rarg___lambda__1___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+uint8_t x_6; lean_object* x_7; 
+x_6 = lean_unbox(x_5);
+lean_dec(x_5);
+x_7 = l_CategoryTheory_Limits_Cocone_ofCofork___rarg___lambda__1(x_1, x_2, x_3, x_4, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_ofCone___spec__1___rarg(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+x_2 = lean_ctor_get(x_1, 0);
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_of_u03b9___spec__1___rarg___lambda__3___boxed), 3, 2);
+lean_closure_set(x_3, 0, x_1);
+lean_closure_set(x_3, 1, x_2);
+x_4 = l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_of_u03b9___spec__1___rarg___closed__1;
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_ofCone___spec__1(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_ofCone___spec__1___rarg), 1, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork_ofCone___rarg___lambda__1(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, uint8_t x_6) {
+_start:
+{
+lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; lean_object* x_11; lean_object* x_12; lean_object* x_13; lean_object* x_14; lean_object* x_15; lean_object* x_16; lean_object* x_17; lean_object* x_18; lean_object* x_19; lean_object* x_20; 
+x_7 = lean_ctor_get(x_1, 2);
+lean_inc(x_7);
+x_8 = lean_ctor_get(x_2, 0);
+lean_inc(x_8);
+lean_dec(x_2);
+x_9 = lean_box(x_6);
+x_10 = lean_apply_1(x_8, x_9);
+x_11 = lean_box(x_6);
+x_12 = lean_apply_1(x_3, x_11);
+x_13 = lean_ctor_get(x_4, 0);
+lean_inc(x_13);
+lean_dec(x_4);
+x_14 = lean_box(x_6);
+x_15 = lean_apply_1(x_13, x_14);
+x_16 = lean_ctor_get(x_5, 1);
+lean_inc(x_16);
+lean_dec(x_5);
+x_17 = lean_box(x_6);
+x_18 = lean_apply_1(x_16, x_17);
+lean_inc(x_15);
+x_19 = l_CategoryTheory_eqToHom___rarg(x_1, x_12, x_15, lean_box(0));
+x_20 = lean_apply_5(x_7, x_10, x_12, x_15, x_18, x_19);
+return x_20;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork_ofCone___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; uint8_t x_5; lean_object* x_6; lean_object* x_7; uint8_t x_8; lean_object* x_9; lean_object* x_10; lean_object* x_11; lean_object* x_12; lean_object* x_13; lean_object* x_14; lean_object* x_15; lean_object* x_16; lean_object* x_17; lean_object* x_18; lean_object* x_19; lean_object* x_20; lean_object* x_21; lean_object* x_22; lean_object* x_23; lean_object* x_24; lean_object* x_25; uint8_t x_26; 
+x_4 = lean_ctor_get(x_2, 0);
+lean_inc(x_4);
+x_5 = 0;
+x_6 = lean_box(x_5);
+lean_inc(x_4);
+x_7 = lean_apply_1(x_4, x_6);
+x_8 = 1;
+x_9 = lean_box(x_8);
+lean_inc(x_4);
+x_10 = lean_apply_1(x_4, x_9);
+x_11 = lean_ctor_get(x_2, 1);
+lean_inc(x_11);
+lean_dec(x_2);
+x_12 = lean_box(0);
+x_13 = lean_box(x_5);
+x_14 = lean_box(x_8);
+lean_inc(x_11);
+x_15 = lean_apply_3(x_11, x_13, x_14, x_12);
+x_16 = lean_box(1);
+x_17 = lean_box(x_5);
+x_18 = lean_box(x_8);
+x_19 = lean_apply_3(x_11, x_17, x_18, x_16);
+lean_inc(x_1);
+x_20 = l_CategoryTheory_Limits_parallelPair___rarg(x_1, x_7, x_10, x_15, x_19);
+x_21 = lean_ctor_get(x_3, 0);
+lean_inc(x_21);
+lean_inc(x_1);
+x_22 = l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_ofCone___spec__1___rarg(x_1);
+x_23 = lean_ctor_get(x_22, 0);
+lean_inc(x_23);
+lean_dec(x_22);
+lean_inc(x_21);
+x_24 = lean_apply_1(x_23, x_21);
+lean_inc(x_3);
+x_25 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_Fork_ofCone___rarg___lambda__1___boxed), 6, 5);
+lean_closure_set(x_25, 0, x_1);
+lean_closure_set(x_25, 1, x_24);
+lean_closure_set(x_25, 2, x_4);
+lean_closure_set(x_25, 3, x_20);
+lean_closure_set(x_25, 4, x_3);
+x_26 = !lean_is_exclusive(x_3);
+if (x_26 == 0)
+{
+lean_object* x_27; lean_object* x_28; 
+x_27 = lean_ctor_get(x_3, 1);
+lean_dec(x_27);
+x_28 = lean_ctor_get(x_3, 0);
+lean_dec(x_28);
+lean_ctor_set(x_3, 1, x_25);
+return x_3;
+}
+else
+{
+lean_object* x_29; 
+lean_dec(x_3);
+x_29 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_29, 0, x_21);
+lean_ctor_set(x_29, 1, x_25);
+return x_29;
+}
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork_ofCone(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_Fork_ofCone___rarg), 3, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork_ofCone___rarg___lambda__1___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+uint8_t x_7; lean_object* x_8; 
+x_7 = lean_unbox(x_6);
+lean_dec(x_6);
+x_8 = l_CategoryTheory_Limits_Fork_ofCone___rarg___lambda__1(x_1, x_2, x_3, x_4, x_5, x_7);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Cofork_ofCocone___spec__1___rarg(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+x_2 = lean_ctor_get(x_1, 0);
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_of_u03b9___spec__1___rarg___lambda__3___boxed), 3, 2);
+lean_closure_set(x_3, 0, x_1);
+lean_closure_set(x_3, 1, x_2);
+x_4 = l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_of_u03b9___spec__1___rarg___closed__1;
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Cofork_ofCocone___spec__1(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Cofork_ofCocone___spec__1___rarg), 1, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cofork_ofCocone___rarg___lambda__1(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, uint8_t x_6) {
+_start:
+{
+lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; lean_object* x_11; lean_object* x_12; lean_object* x_13; lean_object* x_14; lean_object* x_15; lean_object* x_16; lean_object* x_17; lean_object* x_18; lean_object* x_19; lean_object* x_20; 
+x_7 = lean_ctor_get(x_1, 2);
+lean_inc(x_7);
+x_8 = lean_ctor_get(x_2, 0);
+lean_inc(x_8);
+lean_dec(x_2);
+x_9 = lean_box(x_6);
+x_10 = lean_apply_1(x_8, x_9);
+x_11 = lean_box(x_6);
+x_12 = lean_apply_1(x_3, x_11);
+x_13 = lean_ctor_get(x_4, 0);
+lean_inc(x_13);
+lean_dec(x_4);
+x_14 = lean_box(x_6);
+x_15 = lean_apply_1(x_13, x_14);
+lean_inc(x_12);
+x_16 = l_CategoryTheory_eqToHom___rarg(x_1, x_10, x_12, lean_box(0));
+x_17 = lean_ctor_get(x_5, 1);
+lean_inc(x_17);
+lean_dec(x_5);
+x_18 = lean_box(x_6);
+x_19 = lean_apply_1(x_17, x_18);
+x_20 = lean_apply_5(x_7, x_10, x_12, x_15, x_16, x_19);
+return x_20;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cofork_ofCocone___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; uint8_t x_5; lean_object* x_6; lean_object* x_7; uint8_t x_8; lean_object* x_9; lean_object* x_10; lean_object* x_11; lean_object* x_12; lean_object* x_13; lean_object* x_14; lean_object* x_15; lean_object* x_16; lean_object* x_17; lean_object* x_18; lean_object* x_19; lean_object* x_20; lean_object* x_21; lean_object* x_22; lean_object* x_23; lean_object* x_24; lean_object* x_25; uint8_t x_26; 
+x_4 = lean_ctor_get(x_2, 0);
+lean_inc(x_4);
+x_5 = 0;
+x_6 = lean_box(x_5);
+lean_inc(x_4);
+x_7 = lean_apply_1(x_4, x_6);
+x_8 = 1;
+x_9 = lean_box(x_8);
+lean_inc(x_4);
+x_10 = lean_apply_1(x_4, x_9);
+x_11 = lean_ctor_get(x_2, 1);
+lean_inc(x_11);
+lean_dec(x_2);
+x_12 = lean_box(0);
+x_13 = lean_box(x_5);
+x_14 = lean_box(x_8);
+lean_inc(x_11);
+x_15 = lean_apply_3(x_11, x_13, x_14, x_12);
+x_16 = lean_box(1);
+x_17 = lean_box(x_5);
+x_18 = lean_box(x_8);
+x_19 = lean_apply_3(x_11, x_17, x_18, x_16);
+lean_inc(x_1);
+x_20 = l_CategoryTheory_Limits_parallelPair___rarg(x_1, x_7, x_10, x_15, x_19);
+x_21 = lean_ctor_get(x_3, 0);
+lean_inc(x_21);
+lean_inc(x_1);
+x_22 = l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Cofork_ofCocone___spec__1___rarg(x_1);
+x_23 = lean_ctor_get(x_22, 0);
+lean_inc(x_23);
+lean_dec(x_22);
+lean_inc(x_21);
+x_24 = lean_apply_1(x_23, x_21);
+lean_inc(x_3);
+x_25 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_Cofork_ofCocone___rarg___lambda__1___boxed), 6, 5);
+lean_closure_set(x_25, 0, x_1);
+lean_closure_set(x_25, 1, x_20);
+lean_closure_set(x_25, 2, x_4);
+lean_closure_set(x_25, 3, x_24);
+lean_closure_set(x_25, 4, x_3);
+x_26 = !lean_is_exclusive(x_3);
+if (x_26 == 0)
+{
+lean_object* x_27; lean_object* x_28; 
+x_27 = lean_ctor_get(x_3, 1);
+lean_dec(x_27);
+x_28 = lean_ctor_get(x_3, 0);
+lean_dec(x_28);
+lean_ctor_set(x_3, 1, x_25);
+return x_3;
+}
+else
+{
+lean_object* x_29; 
+lean_dec(x_3);
+x_29 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_29, 0, x_21);
+lean_ctor_set(x_29, 1, x_25);
+return x_29;
+}
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cofork_ofCocone(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_Cofork_ofCocone___rarg), 3, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cofork_ofCocone___rarg___lambda__1___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+uint8_t x_7; lean_object* x_8; 
+x_7 = lean_unbox(x_6);
+lean_dec(x_6);
+x_8 = l_CategoryTheory_Limits_Cofork_ofCocone___rarg___lambda__1(x_1, x_2, x_3, x_4, x_5, x_7);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork_mkHom___rarg(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_inc(x_1);
+return x_1;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork_mkHom(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8) {
+_start:
+{
+lean_object* x_9; 
+x_9 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_Fork_mkHom___rarg___boxed), 2, 0);
+return x_9;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork_mkHom___rarg___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_CategoryTheory_Limits_Fork_mkHom___rarg(x_1, x_2);
+lean_dec(x_1);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork_mkHom___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8) {
+_start:
+{
+lean_object* x_9; 
+x_9 = l_CategoryTheory_Limits_Fork_mkHom(x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8);
+lean_dec(x_8);
+lean_dec(x_7);
+lean_dec(x_6);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_2);
+return x_9;
+}
+}
+static lean_object* _init_l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__1() {
+_start:
+{
+lean_object* x_1; 
+x_1 = lean_mk_string_unchecked("Lean", 4, 4);
+return x_1;
+}
+}
+static lean_object* _init_l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__2() {
+_start:
+{
+lean_object* x_1; 
+x_1 = lean_mk_string_unchecked("Parser", 6, 6);
+return x_1;
+}
+}
+static lean_object* _init_l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__3() {
+_start:
+{
+lean_object* x_1; 
+x_1 = lean_mk_string_unchecked("Tactic", 6, 6);
+return x_1;
+}
+}
+static lean_object* _init_l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__4() {
+_start:
+{
+lean_object* x_1; 
+x_1 = lean_mk_string_unchecked("tacticSeq", 9, 9);
+return x_1;
+}
+}
+static lean_object* _init_l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__5() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+x_1 = l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__1;
+x_2 = l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__2;
+x_3 = l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__3;
+x_4 = l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__4;
+x_5 = l_Lean_Name_mkStr4(x_1, x_2, x_3, x_4);
+return x_5;
+}
+}
+static lean_object* _init_l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__6() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; 
+x_1 = lean_unsigned_to_nat(0u);
+x_2 = lean_mk_empty_array_with_capacity(x_1);
+return x_2;
+}
+}
+static lean_object* _init_l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__7() {
+_start:
+{
+lean_object* x_1; 
+x_1 = lean_mk_string_unchecked("tacticSeq1Indented", 18, 18);
+return x_1;
+}
+}
+static lean_object* _init_l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__8() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+x_1 = l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__1;
+x_2 = l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__2;
+x_3 = l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__3;
+x_4 = l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__7;
+x_5 = l_Lean_Name_mkStr4(x_1, x_2, x_3, x_4);
+return x_5;
+}
+}
+static lean_object* _init_l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__9() {
+_start:
+{
+lean_object* x_1; 
+x_1 = lean_mk_string_unchecked("null", 4, 4);
+return x_1;
+}
+}
+static lean_object* _init_l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__10() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; lean_object* x_3; 
+x_1 = lean_box(0);
+x_2 = l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__9;
+x_3 = l_Lean_Name_str___override(x_1, x_2);
+return x_3;
+}
+}
+static lean_object* _init_l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__11() {
+_start:
+{
+lean_object* x_1; 
+x_1 = lean_mk_string_unchecked("CategoryTheory", 14, 14);
+return x_1;
+}
+}
+static lean_object* _init_l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__12() {
+_start:
+{
+lean_object* x_1; 
+x_1 = lean_mk_string_unchecked("aesop_cat", 9, 9);
+return x_1;
+}
+}
+static lean_object* _init_l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__13() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; lean_object* x_3; 
+x_1 = l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__11;
+x_2 = l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__12;
+x_3 = l_Lean_Name_mkStr2(x_1, x_2);
+return x_3;
+}
+}
+static lean_object* _init_l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__14() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; lean_object* x_3; 
+x_1 = lean_box(2);
+x_2 = l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__12;
+x_3 = lean_alloc_ctor(2, 2, 0);
+lean_ctor_set(x_3, 0, x_1);
+lean_ctor_set(x_3, 1, x_2);
+return x_3;
+}
+}
+static lean_object* _init_l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__15() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; lean_object* x_3; 
+x_1 = l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__6;
+x_2 = l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__14;
+x_3 = lean_array_push(x_1, x_2);
+return x_3;
+}
+}
+static lean_object* _init_l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__16() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; lean_object* x_3; lean_object* x_4; 
+x_1 = lean_box(2);
+x_2 = l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__10;
+x_3 = l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__6;
+x_4 = lean_alloc_ctor(1, 3, 0);
+lean_ctor_set(x_4, 0, x_1);
+lean_ctor_set(x_4, 1, x_2);
+lean_ctor_set(x_4, 2, x_3);
+return x_4;
+}
+}
+static lean_object* _init_l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__17() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; lean_object* x_3; 
+x_1 = l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__15;
+x_2 = l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__16;
+x_3 = lean_array_push(x_1, x_2);
+return x_3;
+}
+}
+static lean_object* _init_l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__18() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; lean_object* x_3; lean_object* x_4; 
+x_1 = lean_box(2);
+x_2 = l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__13;
+x_3 = l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__17;
+x_4 = lean_alloc_ctor(1, 3, 0);
+lean_ctor_set(x_4, 0, x_1);
+lean_ctor_set(x_4, 1, x_2);
+lean_ctor_set(x_4, 2, x_3);
+return x_4;
+}
+}
+static lean_object* _init_l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__19() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; lean_object* x_3; 
+x_1 = l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__6;
+x_2 = l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__18;
+x_3 = lean_array_push(x_1, x_2);
+return x_3;
+}
+}
+static lean_object* _init_l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__20() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; lean_object* x_3; lean_object* x_4; 
+x_1 = lean_box(2);
+x_2 = l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__10;
+x_3 = l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__19;
+x_4 = lean_alloc_ctor(1, 3, 0);
+lean_ctor_set(x_4, 0, x_1);
+lean_ctor_set(x_4, 1, x_2);
+lean_ctor_set(x_4, 2, x_3);
+return x_4;
+}
+}
+static lean_object* _init_l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__21() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; lean_object* x_3; 
+x_1 = l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__6;
+x_2 = l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__20;
+x_3 = lean_array_push(x_1, x_2);
+return x_3;
+}
+}
+static lean_object* _init_l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__22() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; lean_object* x_3; lean_object* x_4; 
+x_1 = lean_box(2);
+x_2 = l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__8;
+x_3 = l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__21;
+x_4 = lean_alloc_ctor(1, 3, 0);
+lean_ctor_set(x_4, 0, x_1);
+lean_ctor_set(x_4, 1, x_2);
+lean_ctor_set(x_4, 2, x_3);
+return x_4;
+}
+}
+static lean_object* _init_l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__23() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; lean_object* x_3; 
+x_1 = l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__6;
+x_2 = l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__22;
+x_3 = lean_array_push(x_1, x_2);
+return x_3;
+}
+}
+static lean_object* _init_l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__24() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; lean_object* x_3; lean_object* x_4; 
+x_1 = lean_box(2);
+x_2 = l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__5;
+x_3 = l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__23;
+x_4 = lean_alloc_ctor(1, 3, 0);
+lean_ctor_set(x_4, 0, x_1);
+lean_ctor_set(x_4, 1, x_2);
+lean_ctor_set(x_4, 2, x_3);
+return x_4;
+}
+}
+static lean_object* _init_l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917_() {
+_start:
+{
+lean_object* x_1; 
+x_1 = l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__24;
+return x_1;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork_ext___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8, lean_object* x_9) {
+_start:
+{
+lean_object* x_10; lean_object* x_11; lean_object* x_12; 
+x_10 = lean_ctor_get(x_8, 0);
+x_11 = lean_ctor_get(x_8, 1);
+lean_inc(x_11);
+lean_inc(x_10);
+x_12 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_12, 0, x_10);
+lean_ctor_set(x_12, 1, x_11);
+return x_12;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork_ext(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_Fork_ext___rarg___boxed), 9, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork_ext___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8, lean_object* x_9) {
+_start:
+{
+lean_object* x_10; 
+x_10 = l_CategoryTheory_Limits_Fork_ext___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8, x_9);
+lean_dec(x_8);
+lean_dec(x_7);
+lean_dec(x_6);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_10;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_ForkOf_u03b9_ext___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8, lean_object* x_9, lean_object* x_10, lean_object* x_11) {
+_start:
+{
+lean_object* x_12; lean_object* x_13; lean_object* x_14; lean_object* x_15; 
+lean_inc(x_6);
+lean_inc(x_5);
+lean_inc(x_4);
+lean_inc(x_3);
+lean_inc(x_2);
+lean_inc(x_1);
+x_12 = l_CategoryTheory_Limits_Fork_of_u03b9___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7, lean_box(0));
+lean_inc(x_6);
+lean_inc(x_5);
+lean_inc(x_4);
+lean_inc(x_3);
+lean_inc(x_2);
+lean_inc(x_1);
+x_13 = l_CategoryTheory_Limits_Fork_of_u03b9___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_8, lean_box(0));
+lean_inc(x_1);
+x_14 = l_CategoryTheory_Iso_refl___rarg(x_1, x_6);
+x_15 = l_CategoryTheory_Limits_Fork_ext___rarg(x_1, x_2, x_3, x_4, x_5, x_12, x_13, x_14, lean_box(0));
+lean_dec(x_14);
+lean_dec(x_13);
+lean_dec(x_12);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_15;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_ForkOf_u03b9_ext(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_ForkOf_u03b9_ext___rarg), 11, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_isoForkOf_u03b9___spec__1___rarg(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+x_2 = lean_ctor_get(x_1, 0);
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_of_u03b9___spec__1___rarg___lambda__3___boxed), 3, 2);
+lean_closure_set(x_3, 0, x_1);
+lean_closure_set(x_3, 1, x_2);
+x_4 = l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_of_u03b9___spec__1___rarg___closed__1;
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_isoForkOf_u03b9___spec__1(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_isoForkOf_u03b9___spec__1___rarg), 1, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork_isoForkOf_u03b9___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; lean_object* x_11; uint8_t x_12; lean_object* x_13; lean_object* x_14; lean_object* x_15; lean_object* x_16; lean_object* x_17; lean_object* x_18; 
+lean_inc(x_1);
+x_7 = l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_isoForkOf_u03b9___spec__1___rarg(x_1);
+x_8 = lean_ctor_get(x_7, 0);
+lean_inc(x_8);
+lean_dec(x_7);
+x_9 = lean_ctor_get(x_6, 0);
+lean_inc(x_9);
+lean_inc(x_9);
+x_10 = lean_apply_1(x_8, x_9);
+x_11 = lean_ctor_get(x_10, 0);
+lean_inc(x_11);
+lean_dec(x_10);
+x_12 = 0;
+x_13 = lean_box(x_12);
+x_14 = lean_apply_1(x_11, x_13);
+lean_inc(x_6);
+x_15 = l_CategoryTheory_Limits_Fork__u03b9___rarg(x_6);
+lean_inc(x_5);
+lean_inc(x_4);
+lean_inc(x_3);
+lean_inc(x_2);
+lean_inc(x_1);
+x_16 = l_CategoryTheory_Limits_Fork_of_u03b9___rarg(x_1, x_2, x_3, x_4, x_5, x_14, x_15, lean_box(0));
+lean_inc(x_1);
+x_17 = l_CategoryTheory_Iso_refl___rarg(x_1, x_9);
+x_18 = l_CategoryTheory_Limits_Fork_ext___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_16, x_17, lean_box(0));
+lean_dec(x_17);
+lean_dec(x_16);
+lean_dec(x_6);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_18;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork_isoForkOf_u03b9(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_Fork_isoForkOf_u03b9___rarg), 6, 0);
+return x_2;
+}
+}
+static lean_object* _init_l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_7216_() {
+_start:
+{
+lean_object* x_1; 
+x_1 = l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__24;
+return x_1;
+}
+}
+static lean_object* _init_l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_7230_() {
+_start:
+{
+lean_object* x_1; 
+x_1 = l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__24;
+return x_1;
+}
+}
+static lean_object* _init_l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_7244_() {
+_start:
+{
+lean_object* x_1; 
+x_1 = l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__24;
+return x_1;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__2___rarg(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+x_2 = lean_ctor_get(x_1, 0);
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_of_u03b9___spec__1___rarg___lambda__3___boxed), 3, 2);
+lean_closure_set(x_3, 0, x_1);
+lean_closure_set(x_3, 1, x_2);
+x_4 = l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_of_u03b9___spec__1___rarg___closed__1;
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__2(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__2___rarg), 1, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__3___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_vcomp___elambda__1___rarg), 7, 6);
+lean_closure_set(x_7, 0, x_1);
+lean_closure_set(x_7, 1, x_2);
+lean_closure_set(x_7, 2, x_3);
+lean_closure_set(x_7, 3, x_4);
+lean_closure_set(x_7, 4, x_5);
+lean_closure_set(x_7, 5, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__3(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__3___rarg), 6, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__4___rarg(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+x_2 = lean_ctor_get(x_1, 0);
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_of_u03b9___spec__1___rarg___lambda__3___boxed), 3, 2);
+lean_closure_set(x_3, 0, x_1);
+lean_closure_set(x_3, 1, x_2);
+x_4 = l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_of_u03b9___spec__1___rarg___closed__1;
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__4(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__4___rarg), 1, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__5___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_vcomp___elambda__1___rarg), 7, 6);
+lean_closure_set(x_7, 0, x_1);
+lean_closure_set(x_7, 1, x_2);
+lean_closure_set(x_7, 2, x_3);
+lean_closure_set(x_7, 3, x_4);
+lean_closure_set(x_7, 4, x_5);
+lean_closure_set(x_7, 5, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__5(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__5___rarg), 6, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__6___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_vcomp___elambda__1___rarg), 7, 6);
+lean_closure_set(x_7, 0, x_1);
+lean_closure_set(x_7, 1, x_2);
+lean_closure_set(x_7, 2, x_3);
+lean_closure_set(x_7, 3, x_4);
+lean_closure_set(x_7, 4, x_5);
+lean_closure_set(x_7, 5, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__6(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__6___rarg), 6, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cones_postcompose___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__1___rarg___lambda__1(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+uint8_t x_6; 
+x_6 = !lean_is_exclusive(x_5);
+if (x_6 == 0)
+{
+lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; lean_object* x_11; lean_object* x_12; 
+x_7 = lean_ctor_get(x_5, 0);
+x_8 = lean_ctor_get(x_5, 1);
+lean_inc(x_1);
+x_9 = l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__2___rarg(x_1);
+x_10 = lean_ctor_get(x_9, 0);
+lean_inc(x_10);
+lean_dec(x_9);
+lean_inc(x_7);
+x_11 = lean_apply_1(x_10, x_7);
+x_12 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_vcomp___elambda__1___rarg), 7, 6);
+lean_closure_set(x_12, 0, x_1);
+lean_closure_set(x_12, 1, x_11);
+lean_closure_set(x_12, 2, x_2);
+lean_closure_set(x_12, 3, x_3);
+lean_closure_set(x_12, 4, x_8);
+lean_closure_set(x_12, 5, x_4);
+lean_ctor_set(x_5, 1, x_12);
+return x_5;
+}
+else
+{
+lean_object* x_13; lean_object* x_14; lean_object* x_15; lean_object* x_16; lean_object* x_17; lean_object* x_18; lean_object* x_19; 
+x_13 = lean_ctor_get(x_5, 0);
+x_14 = lean_ctor_get(x_5, 1);
+lean_inc(x_14);
+lean_inc(x_13);
+lean_dec(x_5);
+lean_inc(x_1);
+x_15 = l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__2___rarg(x_1);
+x_16 = lean_ctor_get(x_15, 0);
+lean_inc(x_16);
+lean_dec(x_15);
+lean_inc(x_13);
+x_17 = lean_apply_1(x_16, x_13);
+x_18 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_vcomp___elambda__1___rarg), 7, 6);
+lean_closure_set(x_18, 0, x_1);
+lean_closure_set(x_18, 1, x_17);
+lean_closure_set(x_18, 2, x_2);
+lean_closure_set(x_18, 3, x_3);
+lean_closure_set(x_18, 4, x_14);
+lean_closure_set(x_18, 5, x_4);
+x_19 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_19, 0, x_13);
+lean_ctor_set(x_19, 1, x_18);
+return x_19;
+}
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cones_postcompose___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__1___rarg___lambda__2(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_inc(x_3);
+return x_3;
+}
+}
+static lean_object* _init_l_CategoryTheory_Limits_Cones_postcompose___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__1___rarg___closed__1() {
+_start:
+{
+lean_object* x_1; 
+x_1 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_Cones_postcompose___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__1___rarg___lambda__2___boxed), 3, 0);
+return x_1;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cones_postcompose___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__1___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_Cones_postcompose___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__1___rarg___lambda__1), 5, 4);
+lean_closure_set(x_5, 0, x_1);
+lean_closure_set(x_5, 1, x_2);
+lean_closure_set(x_5, 2, x_3);
+lean_closure_set(x_5, 3, x_4);
+x_6 = l_CategoryTheory_Limits_Cones_postcompose___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__1___rarg___closed__1;
+x_7 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_7, 0, x_5);
+lean_ctor_set(x_7, 1, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cones_postcompose___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__1(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_Cones_postcompose___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__1___rarg), 4, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__11___rarg(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+x_2 = lean_ctor_get(x_1, 0);
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_of_u03b9___spec__1___rarg___lambda__3___boxed), 3, 2);
+lean_closure_set(x_3, 0, x_1);
+lean_closure_set(x_3, 1, x_2);
+x_4 = l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_of_u03b9___spec__1___rarg___closed__1;
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__11(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__11___rarg), 1, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__12___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_vcomp___elambda__1___rarg), 7, 6);
+lean_closure_set(x_7, 0, x_1);
+lean_closure_set(x_7, 1, x_2);
+lean_closure_set(x_7, 2, x_3);
+lean_closure_set(x_7, 3, x_4);
+lean_closure_set(x_7, 4, x_5);
+lean_closure_set(x_7, 5, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__12(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__12___rarg), 6, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__13___rarg(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+x_2 = lean_ctor_get(x_1, 0);
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_of_u03b9___spec__1___rarg___lambda__3___boxed), 3, 2);
+lean_closure_set(x_3, 0, x_1);
+lean_closure_set(x_3, 1, x_2);
+x_4 = l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_of_u03b9___spec__1___rarg___closed__1;
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__13(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__13___rarg), 1, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__14___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_vcomp___elambda__1___rarg), 7, 6);
+lean_closure_set(x_7, 0, x_1);
+lean_closure_set(x_7, 1, x_2);
+lean_closure_set(x_7, 2, x_3);
+lean_closure_set(x_7, 3, x_4);
+lean_closure_set(x_7, 4, x_5);
+lean_closure_set(x_7, 5, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__14(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__14___rarg), 6, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__15___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_vcomp___elambda__1___rarg), 7, 6);
+lean_closure_set(x_7, 0, x_1);
+lean_closure_set(x_7, 1, x_2);
+lean_closure_set(x_7, 2, x_3);
+lean_closure_set(x_7, 3, x_4);
+lean_closure_set(x_7, 4, x_5);
+lean_closure_set(x_7, 5, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__15(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__15___rarg), 6, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cones_postcompose___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__10___rarg___lambda__1(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+uint8_t x_6; 
+x_6 = !lean_is_exclusive(x_5);
+if (x_6 == 0)
+{
+lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; lean_object* x_11; lean_object* x_12; 
+x_7 = lean_ctor_get(x_5, 0);
+x_8 = lean_ctor_get(x_5, 1);
+lean_inc(x_1);
+x_9 = l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__11___rarg(x_1);
+x_10 = lean_ctor_get(x_9, 0);
+lean_inc(x_10);
+lean_dec(x_9);
+lean_inc(x_7);
+x_11 = lean_apply_1(x_10, x_7);
+x_12 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_vcomp___elambda__1___rarg), 7, 6);
+lean_closure_set(x_12, 0, x_1);
+lean_closure_set(x_12, 1, x_11);
+lean_closure_set(x_12, 2, x_2);
+lean_closure_set(x_12, 3, x_3);
+lean_closure_set(x_12, 4, x_8);
+lean_closure_set(x_12, 5, x_4);
+lean_ctor_set(x_5, 1, x_12);
+return x_5;
+}
+else
+{
+lean_object* x_13; lean_object* x_14; lean_object* x_15; lean_object* x_16; lean_object* x_17; lean_object* x_18; lean_object* x_19; 
+x_13 = lean_ctor_get(x_5, 0);
+x_14 = lean_ctor_get(x_5, 1);
+lean_inc(x_14);
+lean_inc(x_13);
+lean_dec(x_5);
+lean_inc(x_1);
+x_15 = l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__11___rarg(x_1);
+x_16 = lean_ctor_get(x_15, 0);
+lean_inc(x_16);
+lean_dec(x_15);
+lean_inc(x_13);
+x_17 = lean_apply_1(x_16, x_13);
+x_18 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_vcomp___elambda__1___rarg), 7, 6);
+lean_closure_set(x_18, 0, x_1);
+lean_closure_set(x_18, 1, x_17);
+lean_closure_set(x_18, 2, x_2);
+lean_closure_set(x_18, 3, x_3);
+lean_closure_set(x_18, 4, x_14);
+lean_closure_set(x_18, 5, x_4);
+x_19 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_19, 0, x_13);
+lean_ctor_set(x_19, 1, x_18);
+return x_19;
+}
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cones_postcompose___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__10___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_Cones_postcompose___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__10___rarg___lambda__1), 5, 4);
+lean_closure_set(x_5, 0, x_1);
+lean_closure_set(x_5, 1, x_2);
+lean_closure_set(x_5, 2, x_3);
+lean_closure_set(x_5, 3, x_4);
+x_6 = l_CategoryTheory_Limits_Cones_postcompose___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__1___rarg___closed__1;
+x_7 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_7, 0, x_5);
+lean_ctor_set(x_7, 1, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cones_postcompose___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__10(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_Cones_postcompose___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__10___rarg), 4, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__17___rarg(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+x_2 = lean_ctor_get(x_1, 0);
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_of_u03b9___spec__1___rarg___lambda__3___boxed), 3, 2);
+lean_closure_set(x_3, 0, x_1);
+lean_closure_set(x_3, 1, x_2);
+x_4 = l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_of_u03b9___spec__1___rarg___closed__1;
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__17(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__17___rarg), 1, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__18___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_vcomp___elambda__1___rarg), 7, 6);
+lean_closure_set(x_7, 0, x_1);
+lean_closure_set(x_7, 1, x_2);
+lean_closure_set(x_7, 2, x_3);
+lean_closure_set(x_7, 3, x_4);
+lean_closure_set(x_7, 4, x_5);
+lean_closure_set(x_7, 5, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__18(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__18___rarg), 6, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__19___rarg(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+x_2 = lean_ctor_get(x_1, 0);
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_of_u03b9___spec__1___rarg___lambda__3___boxed), 3, 2);
+lean_closure_set(x_3, 0, x_1);
+lean_closure_set(x_3, 1, x_2);
+x_4 = l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_of_u03b9___spec__1___rarg___closed__1;
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__19(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__19___rarg), 1, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__20___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_vcomp___elambda__1___rarg), 7, 6);
+lean_closure_set(x_7, 0, x_1);
+lean_closure_set(x_7, 1, x_2);
+lean_closure_set(x_7, 2, x_3);
+lean_closure_set(x_7, 3, x_4);
+lean_closure_set(x_7, 4, x_5);
+lean_closure_set(x_7, 5, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__20(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__20___rarg), 6, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__21___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_vcomp___elambda__1___rarg), 7, 6);
+lean_closure_set(x_7, 0, x_1);
+lean_closure_set(x_7, 1, x_2);
+lean_closure_set(x_7, 2, x_3);
+lean_closure_set(x_7, 3, x_4);
+lean_closure_set(x_7, 4, x_5);
+lean_closure_set(x_7, 5, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__21(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__21___rarg), 6, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cones_postcompose___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__16___rarg___lambda__1(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+uint8_t x_6; 
+x_6 = !lean_is_exclusive(x_5);
+if (x_6 == 0)
+{
+lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; lean_object* x_11; lean_object* x_12; 
+x_7 = lean_ctor_get(x_5, 0);
+x_8 = lean_ctor_get(x_5, 1);
+lean_inc(x_1);
+x_9 = l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__17___rarg(x_1);
+x_10 = lean_ctor_get(x_9, 0);
+lean_inc(x_10);
+lean_dec(x_9);
+lean_inc(x_7);
+x_11 = lean_apply_1(x_10, x_7);
+x_12 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_vcomp___elambda__1___rarg), 7, 6);
+lean_closure_set(x_12, 0, x_1);
+lean_closure_set(x_12, 1, x_11);
+lean_closure_set(x_12, 2, x_2);
+lean_closure_set(x_12, 3, x_3);
+lean_closure_set(x_12, 4, x_8);
+lean_closure_set(x_12, 5, x_4);
+lean_ctor_set(x_5, 1, x_12);
+return x_5;
+}
+else
+{
+lean_object* x_13; lean_object* x_14; lean_object* x_15; lean_object* x_16; lean_object* x_17; lean_object* x_18; lean_object* x_19; 
+x_13 = lean_ctor_get(x_5, 0);
+x_14 = lean_ctor_get(x_5, 1);
+lean_inc(x_14);
+lean_inc(x_13);
+lean_dec(x_5);
+lean_inc(x_1);
+x_15 = l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__17___rarg(x_1);
+x_16 = lean_ctor_get(x_15, 0);
+lean_inc(x_16);
+lean_dec(x_15);
+lean_inc(x_13);
+x_17 = lean_apply_1(x_16, x_13);
+x_18 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_vcomp___elambda__1___rarg), 7, 6);
+lean_closure_set(x_18, 0, x_1);
+lean_closure_set(x_18, 1, x_17);
+lean_closure_set(x_18, 2, x_2);
+lean_closure_set(x_18, 3, x_3);
+lean_closure_set(x_18, 4, x_14);
+lean_closure_set(x_18, 5, x_4);
+x_19 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_19, 0, x_13);
+lean_ctor_set(x_19, 1, x_18);
+return x_19;
+}
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cones_postcompose___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__16___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_Cones_postcompose___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__16___rarg___lambda__1), 5, 4);
+lean_closure_set(x_5, 0, x_1);
+lean_closure_set(x_5, 1, x_2);
+lean_closure_set(x_5, 2, x_3);
+lean_closure_set(x_5, 3, x_4);
+x_6 = l_CategoryTheory_Limits_Cones_postcompose___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__1___rarg___closed__1;
+x_7 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_7, 0, x_5);
+lean_ctor_set(x_7, 1, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cones_postcompose___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__16(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_Cones_postcompose___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__16___rarg), 4, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__22___rarg(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+x_3 = l_CategoryTheory_Limits_WalkingParallelPair_noConfusion___rarg___closed__1;
+x_4 = l_CategoryTheory_Limits_Cones_postcompose___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__1___rarg___closed__1;
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__22(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_id___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__22___rarg___boxed), 2, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__23___rarg___lambda__1(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+x_4 = lean_ctor_get(x_1, 0);
+lean_inc(x_4);
+lean_dec(x_1);
+x_5 = lean_ctor_get(x_2, 0);
+lean_inc(x_5);
+lean_dec(x_2);
+x_6 = lean_apply_1(x_5, x_3);
+x_7 = lean_apply_1(x_4, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__23___rarg___lambda__2(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; lean_object* x_11; lean_object* x_12; 
+x_6 = lean_ctor_get(x_1, 1);
+lean_inc(x_6);
+lean_dec(x_1);
+x_7 = lean_ctor_get(x_2, 0);
+lean_inc(x_7);
+lean_inc(x_7);
+lean_inc(x_3);
+x_8 = lean_apply_1(x_7, x_3);
+lean_inc(x_4);
+x_9 = lean_apply_1(x_7, x_4);
+x_10 = lean_ctor_get(x_2, 1);
+lean_inc(x_10);
+lean_dec(x_2);
+x_11 = lean_apply_3(x_10, x_3, x_4, x_5);
+x_12 = lean_apply_3(x_6, x_8, x_9, x_11);
+return x_12;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__23___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; 
+lean_inc(x_4);
+lean_inc(x_5);
+x_6 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__23___rarg___lambda__1), 3, 2);
+lean_closure_set(x_6, 0, x_5);
+lean_closure_set(x_6, 1, x_4);
+x_7 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__23___rarg___lambda__2), 5, 2);
+lean_closure_set(x_7, 0, x_5);
+lean_closure_set(x_7, 1, x_4);
+x_8 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_8, 0, x_6);
+lean_ctor_set(x_8, 1, x_7);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__23(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__23___rarg___boxed), 5, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cones_ext___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__24___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+uint8_t x_7; 
+x_7 = !lean_is_exclusive(x_5);
+if (x_7 == 0)
+{
+return x_5;
+}
+else
+{
+lean_object* x_8; lean_object* x_9; lean_object* x_10; 
+x_8 = lean_ctor_get(x_5, 0);
+x_9 = lean_ctor_get(x_5, 1);
+lean_inc(x_9);
+lean_inc(x_8);
+lean_dec(x_5);
+x_10 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_10, 0, x_8);
+lean_ctor_set(x_10, 1, x_9);
+return x_10;
+}
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cones_ext___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__24(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_Cones_ext___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__24___rarg___boxed), 6, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__25___rarg___lambda__1(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; 
+x_3 = lean_apply_1(x_1, x_2);
+x_4 = lean_ctor_get(x_3, 0);
+lean_inc(x_4);
+lean_dec(x_3);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__25___rarg___lambda__2(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; 
+x_3 = lean_apply_1(x_1, x_2);
+x_4 = lean_ctor_get(x_3, 1);
+lean_inc(x_4);
+lean_dec(x_3);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__25___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; lean_object* x_8; lean_object* x_9; 
+lean_inc(x_5);
+x_7 = lean_alloc_closure((void*)(l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__25___rarg___lambda__1), 2, 1);
+lean_closure_set(x_7, 0, x_5);
+x_8 = lean_alloc_closure((void*)(l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__25___rarg___lambda__2), 2, 1);
+lean_closure_set(x_8, 0, x_5);
+x_9 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_9, 0, x_7);
+lean_ctor_set(x_9, 1, x_8);
+return x_9;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__25(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__25___rarg___boxed), 6, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__26___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; 
+lean_inc(x_4);
+lean_inc(x_5);
+x_6 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__23___rarg___lambda__1), 3, 2);
+lean_closure_set(x_6, 0, x_5);
+lean_closure_set(x_6, 1, x_4);
+x_7 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__23___rarg___lambda__2), 5, 2);
+lean_closure_set(x_7, 0, x_5);
+lean_closure_set(x_7, 1, x_4);
+x_8 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_8, 0, x_6);
+lean_ctor_set(x_8, 1, x_7);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__26(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__26___rarg___boxed), 5, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__27___rarg(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+x_3 = l_CategoryTheory_Limits_WalkingParallelPair_noConfusion___rarg___closed__1;
+x_4 = l_CategoryTheory_Limits_Cones_postcompose___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__1___rarg___closed__1;
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__27(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_id___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__27___rarg___boxed), 2, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cones_ext___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__28___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+uint8_t x_7; 
+x_7 = !lean_is_exclusive(x_5);
+if (x_7 == 0)
+{
+return x_5;
+}
+else
+{
+lean_object* x_8; lean_object* x_9; lean_object* x_10; 
+x_8 = lean_ctor_get(x_5, 0);
+x_9 = lean_ctor_get(x_5, 1);
+lean_inc(x_9);
+lean_inc(x_8);
+lean_dec(x_5);
+x_10 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_10, 0, x_8);
+lean_ctor_set(x_10, 1, x_9);
+return x_10;
+}
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cones_ext___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__28(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_Cones_ext___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__28___rarg___boxed), 6, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__29___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; lean_object* x_8; lean_object* x_9; 
+lean_inc(x_5);
+x_7 = lean_alloc_closure((void*)(l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__25___rarg___lambda__1), 2, 1);
+lean_closure_set(x_7, 0, x_5);
+x_8 = lean_alloc_closure((void*)(l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__25___rarg___lambda__2), 2, 1);
+lean_closure_set(x_8, 0, x_5);
+x_9 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_9, 0, x_7);
+lean_ctor_set(x_9, 1, x_8);
+return x_9;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__29(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__29___rarg___boxed), 6, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cones_postcomposeEquivalence___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__9___rarg___lambda__1(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; lean_object* x_11; lean_object* x_12; 
+x_6 = lean_ctor_get(x_1, 0);
+lean_inc(x_6);
+lean_dec(x_1);
+lean_inc(x_5);
+x_7 = lean_apply_1(x_6, x_5);
+x_8 = lean_ctor_get(x_2, 0);
+lean_inc(x_8);
+lean_dec(x_2);
+x_9 = lean_apply_1(x_8, x_5);
+x_10 = lean_ctor_get(x_7, 0);
+lean_inc(x_10);
+lean_inc(x_3);
+x_11 = l_CategoryTheory_Iso_refl___rarg(x_3, x_10);
+x_12 = l_CategoryTheory_Limits_Cones_ext___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__24___rarg(x_3, x_4, x_7, x_9, x_11, lean_box(0));
+lean_dec(x_9);
+lean_dec(x_7);
+lean_dec(x_3);
+return x_12;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cones_postcomposeEquivalence___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__9___rarg___lambda__2(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; lean_object* x_11; lean_object* x_12; 
+x_6 = lean_ctor_get(x_1, 0);
+lean_inc(x_6);
+lean_dec(x_1);
+lean_inc(x_5);
+x_7 = lean_apply_1(x_6, x_5);
+x_8 = lean_ctor_get(x_2, 0);
+lean_inc(x_8);
+lean_dec(x_2);
+x_9 = lean_apply_1(x_8, x_5);
+x_10 = lean_ctor_get(x_7, 0);
+lean_inc(x_10);
+lean_inc(x_3);
+x_11 = l_CategoryTheory_Iso_refl___rarg(x_3, x_10);
+x_12 = l_CategoryTheory_Limits_Cones_ext___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__28___rarg(x_3, x_4, x_7, x_9, x_11, lean_box(0));
+lean_dec(x_9);
+lean_dec(x_7);
+lean_dec(x_3);
+return x_12;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cones_postcomposeEquivalence___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__9___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; lean_object* x_11; lean_object* x_12; lean_object* x_13; lean_object* x_14; lean_object* x_15; lean_object* x_16; lean_object* x_17; 
+x_5 = lean_ctor_get(x_4, 0);
+lean_inc(x_5);
+lean_inc(x_3);
+lean_inc(x_2);
+lean_inc(x_1);
+x_6 = l_CategoryTheory_Limits_Cones_postcompose___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__10___rarg(x_1, x_2, x_3, x_5);
+x_7 = lean_ctor_get(x_4, 1);
+lean_inc(x_7);
+lean_dec(x_4);
+lean_inc(x_2);
+lean_inc(x_3);
+lean_inc(x_1);
+x_8 = l_CategoryTheory_Limits_Cones_postcompose___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__16___rarg(x_1, x_3, x_2, x_7);
+x_9 = l_CategoryTheory_Functor_id___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__22___rarg(x_1, x_2);
+lean_inc(x_8);
+lean_inc(x_6);
+x_10 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__23___rarg(x_1, x_2, x_3, x_6, x_8);
+lean_inc(x_2);
+lean_inc(x_1);
+lean_inc(x_10);
+lean_inc(x_9);
+x_11 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_Cones_postcomposeEquivalence___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__9___rarg___lambda__1___boxed), 5, 4);
+lean_closure_set(x_11, 0, x_9);
+lean_closure_set(x_11, 1, x_10);
+lean_closure_set(x_11, 2, x_1);
+lean_closure_set(x_11, 3, x_2);
+x_12 = l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__25___rarg(x_1, x_2, x_9, x_10, x_11, lean_box(0));
+lean_dec(x_10);
+lean_dec(x_9);
+lean_inc(x_6);
+lean_inc(x_8);
+x_13 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__26___rarg(x_1, x_2, x_3, x_8, x_6);
+lean_dec(x_2);
+x_14 = l_CategoryTheory_Functor_id___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__27___rarg(x_1, x_3);
+lean_inc(x_3);
+lean_inc(x_1);
+lean_inc(x_14);
+lean_inc(x_13);
+x_15 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_Cones_postcomposeEquivalence___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__9___rarg___lambda__2___boxed), 5, 4);
+lean_closure_set(x_15, 0, x_13);
+lean_closure_set(x_15, 1, x_14);
+lean_closure_set(x_15, 2, x_1);
+lean_closure_set(x_15, 3, x_3);
+x_16 = l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__29___rarg(x_1, x_3, x_13, x_14, x_15, lean_box(0));
+lean_dec(x_14);
+lean_dec(x_13);
+lean_dec(x_3);
+lean_dec(x_1);
+x_17 = lean_alloc_ctor(0, 4, 0);
+lean_ctor_set(x_17, 0, x_6);
+lean_ctor_set(x_17, 1, x_8);
+lean_ctor_set(x_17, 2, x_12);
+lean_ctor_set(x_17, 3, x_16);
+return x_17;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cones_postcomposeEquivalence___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__9(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_Cones_postcomposeEquivalence___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__9___rarg), 4, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__32___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; 
+lean_inc(x_4);
+lean_inc(x_5);
+x_6 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__23___rarg___lambda__1), 3, 2);
+lean_closure_set(x_6, 0, x_5);
+lean_closure_set(x_6, 1, x_4);
+x_7 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__23___rarg___lambda__2), 5, 2);
+lean_closure_set(x_7, 0, x_5);
+lean_closure_set(x_7, 1, x_4);
+x_8 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_8, 0, x_6);
+lean_ctor_set(x_8, 1, x_7);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__32(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__32___rarg___boxed), 5, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__33___rarg(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+x_3 = l_CategoryTheory_Limits_WalkingParallelPair_noConfusion___rarg___closed__1;
+x_4 = l_CategoryTheory_Limits_Cones_postcompose___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__1___rarg___closed__1;
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__33(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_id___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__33___rarg___boxed), 2, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_symm___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__34___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; 
+x_6 = lean_ctor_get(x_5, 1);
+x_7 = lean_ctor_get(x_5, 0);
+lean_inc(x_7);
+lean_inc(x_6);
+x_8 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_8, 0, x_6);
+lean_ctor_set(x_8, 1, x_7);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_symm___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__34(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Iso_symm___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__34___rarg___boxed), 5, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__35___rarg(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+x_3 = l_CategoryTheory_Limits_WalkingParallelPair_noConfusion___rarg___closed__1;
+x_4 = l_CategoryTheory_Limits_Cones_postcompose___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__1___rarg___closed__1;
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__35(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_id___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__35___rarg___boxed), 2, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__36___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; 
+lean_inc(x_4);
+lean_inc(x_5);
+x_6 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__23___rarg___lambda__1), 3, 2);
+lean_closure_set(x_6, 0, x_5);
+lean_closure_set(x_6, 1, x_4);
+x_7 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__23___rarg___lambda__2), 5, 2);
+lean_closure_set(x_7, 0, x_5);
+lean_closure_set(x_7, 1, x_4);
+x_8 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_8, 0, x_6);
+lean_ctor_set(x_8, 1, x_7);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__36(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__36___rarg___boxed), 5, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_symm___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__37___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; 
+x_6 = lean_ctor_get(x_5, 1);
+x_7 = lean_ctor_get(x_5, 0);
+lean_inc(x_7);
+lean_inc(x_6);
+x_8 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_8, 0, x_6);
+lean_ctor_set(x_8, 1, x_7);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_symm___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__37(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Iso_symm___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__37___rarg___boxed), 5, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Equivalence_symm___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__31___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; lean_object* x_11; lean_object* x_12; lean_object* x_13; lean_object* x_14; lean_object* x_15; 
+x_5 = lean_ctor_get(x_4, 1);
+lean_inc(x_5);
+x_6 = lean_ctor_get(x_4, 0);
+lean_inc(x_6);
+lean_inc(x_6);
+lean_inc(x_5);
+x_7 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__32___rarg(x_1, x_2, x_3, x_5, x_6);
+x_8 = l_CategoryTheory_Functor_id___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__33___rarg(x_1, x_2);
+x_9 = lean_ctor_get(x_4, 3);
+lean_inc(x_9);
+x_10 = l_CategoryTheory_Iso_symm___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__34___rarg(x_1, x_2, x_7, x_8, x_9);
+lean_dec(x_9);
+lean_dec(x_8);
+lean_dec(x_7);
+x_11 = l_CategoryTheory_Functor_id___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__35___rarg(x_1, x_3);
+lean_inc(x_5);
+lean_inc(x_6);
+x_12 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__36___rarg(x_1, x_2, x_3, x_6, x_5);
+x_13 = lean_ctor_get(x_4, 2);
+lean_inc(x_13);
+lean_dec(x_4);
+x_14 = l_CategoryTheory_Iso_symm___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__37___rarg(x_1, x_3, x_11, x_12, x_13);
+lean_dec(x_13);
+lean_dec(x_12);
+lean_dec(x_11);
+x_15 = lean_alloc_ctor(0, 4, 0);
+lean_ctor_set(x_15, 0, x_5);
+lean_ctor_set(x_15, 1, x_6);
+lean_ctor_set(x_15, 2, x_10);
+lean_ctor_set(x_15, 3, x_14);
+return x_15;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Equivalence_symm___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__31(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Equivalence_symm___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__31___rarg___boxed), 4, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Equivalence_toAdjunction___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__38___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; uint8_t x_6; 
+x_5 = lean_ctor_get(x_4, 2);
+lean_inc(x_5);
+x_6 = !lean_is_exclusive(x_5);
+if (x_6 == 0)
+{
+lean_object* x_7; lean_object* x_8; lean_object* x_9; 
+x_7 = lean_ctor_get(x_5, 1);
+lean_dec(x_7);
+x_8 = lean_ctor_get(x_4, 3);
+lean_inc(x_8);
+lean_dec(x_4);
+x_9 = lean_ctor_get(x_8, 0);
+lean_inc(x_9);
+lean_dec(x_8);
+lean_ctor_set(x_5, 1, x_9);
+return x_5;
+}
+else
+{
+lean_object* x_10; lean_object* x_11; lean_object* x_12; lean_object* x_13; 
+x_10 = lean_ctor_get(x_5, 0);
+lean_inc(x_10);
+lean_dec(x_5);
+x_11 = lean_ctor_get(x_4, 3);
+lean_inc(x_11);
+lean_dec(x_4);
+x_12 = lean_ctor_get(x_11, 0);
+lean_inc(x_12);
+lean_dec(x_11);
+x_13 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_13, 0, x_10);
+lean_ctor_set(x_13, 1, x_12);
+return x_13;
+}
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Equivalence_toAdjunction___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__38(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Equivalence_toAdjunction___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__38___rarg___boxed), 4, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsLimit_ofConeEquiv___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__30___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; lean_object* x_11; lean_object* x_12; lean_object* x_13; lean_object* x_14; lean_object* x_15; 
+x_6 = l_CategoryTheory_Limits_walkingParallelPairHomCategory;
+lean_inc(x_5);
+lean_inc(x_4);
+lean_inc(x_3);
+lean_inc(x_2);
+lean_inc_n(x_1, 2);
+x_7 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_IsLimit_ofConeEquiv___elambda__2___rarg___boxed), 12, 11);
+lean_closure_set(x_7, 0, x_6);
+lean_closure_set(x_7, 1, lean_box(0));
+lean_closure_set(x_7, 2, x_6);
+lean_closure_set(x_7, 3, lean_box(0));
+lean_closure_set(x_7, 4, x_1);
+lean_closure_set(x_7, 5, x_2);
+lean_closure_set(x_7, 6, lean_box(0));
+lean_closure_set(x_7, 7, x_1);
+lean_closure_set(x_7, 8, x_3);
+lean_closure_set(x_7, 9, x_4);
+lean_closure_set(x_7, 10, x_5);
+lean_inc(x_1);
+x_8 = l_CategoryTheory_Limits_Cone_category___rarg(x_1, x_3);
+lean_inc(x_1);
+x_9 = l_CategoryTheory_Limits_Cone_category___rarg(x_1, x_2);
+lean_inc(x_4);
+x_10 = l_CategoryTheory_Equivalence_symm___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__31___rarg(x_1, x_2, x_3, x_4);
+x_11 = lean_ctor_get(x_4, 1);
+lean_inc(x_11);
+x_12 = lean_ctor_get(x_4, 0);
+lean_inc(x_12);
+lean_dec(x_4);
+lean_inc(x_10);
+x_13 = l_CategoryTheory_Equivalence_toAdjunction___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__38___rarg(x_1, x_2, x_3, x_10);
+lean_inc(x_1);
+x_14 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_IsLimit_ofConeEquiv___elambda__1___rarg___boxed), 17, 16);
+lean_closure_set(x_14, 0, x_6);
+lean_closure_set(x_14, 1, lean_box(0));
+lean_closure_set(x_14, 2, x_6);
+lean_closure_set(x_14, 3, lean_box(0));
+lean_closure_set(x_14, 4, x_1);
+lean_closure_set(x_14, 5, x_2);
+lean_closure_set(x_14, 6, lean_box(0));
+lean_closure_set(x_14, 7, x_1);
+lean_closure_set(x_14, 8, x_3);
+lean_closure_set(x_14, 9, x_5);
+lean_closure_set(x_14, 10, x_8);
+lean_closure_set(x_14, 11, x_9);
+lean_closure_set(x_14, 12, x_10);
+lean_closure_set(x_14, 13, x_11);
+lean_closure_set(x_14, 14, x_12);
+lean_closure_set(x_14, 15, x_13);
+x_15 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_15, 0, x_7);
+lean_ctor_set(x_15, 1, x_14);
+return x_15;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsLimit_ofConeEquiv___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__30(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_IsLimit_ofConeEquiv___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__30___rarg), 5, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsLimit_postcomposeHomEquiv___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__8___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; 
+lean_inc(x_3);
+lean_inc(x_2);
+lean_inc(x_1);
+x_6 = l_CategoryTheory_Limits_Cones_postcomposeEquivalence___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__9___rarg(x_1, x_2, x_3, x_4);
+x_7 = l_CategoryTheory_Limits_IsLimit_ofConeEquiv___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__30___rarg(x_1, x_3, x_2, x_6, x_5);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsLimit_postcomposeHomEquiv___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__8(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_IsLimit_postcomposeHomEquiv___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__8___rarg), 5, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__40___rarg(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+x_2 = lean_ctor_get(x_1, 0);
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_of_u03b9___spec__1___rarg___lambda__3___boxed), 3, 2);
+lean_closure_set(x_3, 0, x_1);
+lean_closure_set(x_3, 1, x_2);
+x_4 = l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_of_u03b9___spec__1___rarg___closed__1;
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__40(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__40___rarg), 1, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__41___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_vcomp___elambda__1___rarg), 7, 6);
+lean_closure_set(x_7, 0, x_1);
+lean_closure_set(x_7, 1, x_2);
+lean_closure_set(x_7, 2, x_3);
+lean_closure_set(x_7, 3, x_4);
+lean_closure_set(x_7, 4, x_5);
+lean_closure_set(x_7, 5, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__41(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__41___rarg), 6, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__42___rarg(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+x_2 = lean_ctor_get(x_1, 0);
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_of_u03b9___spec__1___rarg___lambda__3___boxed), 3, 2);
+lean_closure_set(x_3, 0, x_1);
+lean_closure_set(x_3, 1, x_2);
+x_4 = l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_of_u03b9___spec__1___rarg___closed__1;
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__42(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__42___rarg), 1, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__43___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_vcomp___elambda__1___rarg), 7, 6);
+lean_closure_set(x_7, 0, x_1);
+lean_closure_set(x_7, 1, x_2);
+lean_closure_set(x_7, 2, x_3);
+lean_closure_set(x_7, 3, x_4);
+lean_closure_set(x_7, 4, x_5);
+lean_closure_set(x_7, 5, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__43(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__43___rarg), 6, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__44___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_vcomp___elambda__1___rarg), 7, 6);
+lean_closure_set(x_7, 0, x_1);
+lean_closure_set(x_7, 1, x_2);
+lean_closure_set(x_7, 2, x_3);
+lean_closure_set(x_7, 3, x_4);
+lean_closure_set(x_7, 4, x_5);
+lean_closure_set(x_7, 5, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__44(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_vcomp___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__44___rarg), 6, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cones_postcompose___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__39___rarg___lambda__1(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+uint8_t x_6; 
+x_6 = !lean_is_exclusive(x_5);
+if (x_6 == 0)
+{
+lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; lean_object* x_11; lean_object* x_12; 
+x_7 = lean_ctor_get(x_5, 0);
+x_8 = lean_ctor_get(x_5, 1);
+lean_inc(x_1);
+x_9 = l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__40___rarg(x_1);
+x_10 = lean_ctor_get(x_9, 0);
+lean_inc(x_10);
+lean_dec(x_9);
+lean_inc(x_7);
+x_11 = lean_apply_1(x_10, x_7);
+x_12 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_vcomp___elambda__1___rarg), 7, 6);
+lean_closure_set(x_12, 0, x_1);
+lean_closure_set(x_12, 1, x_11);
+lean_closure_set(x_12, 2, x_2);
+lean_closure_set(x_12, 3, x_3);
+lean_closure_set(x_12, 4, x_8);
+lean_closure_set(x_12, 5, x_4);
+lean_ctor_set(x_5, 1, x_12);
+return x_5;
+}
+else
+{
+lean_object* x_13; lean_object* x_14; lean_object* x_15; lean_object* x_16; lean_object* x_17; lean_object* x_18; lean_object* x_19; 
+x_13 = lean_ctor_get(x_5, 0);
+x_14 = lean_ctor_get(x_5, 1);
+lean_inc(x_14);
+lean_inc(x_13);
+lean_dec(x_5);
+lean_inc(x_1);
+x_15 = l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__40___rarg(x_1);
+x_16 = lean_ctor_get(x_15, 0);
+lean_inc(x_16);
+lean_dec(x_15);
+lean_inc(x_13);
+x_17 = lean_apply_1(x_16, x_13);
+x_18 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_vcomp___elambda__1___rarg), 7, 6);
+lean_closure_set(x_18, 0, x_1);
+lean_closure_set(x_18, 1, x_17);
+lean_closure_set(x_18, 2, x_2);
+lean_closure_set(x_18, 3, x_3);
+lean_closure_set(x_18, 4, x_14);
+lean_closure_set(x_18, 5, x_4);
+x_19 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_19, 0, x_13);
+lean_ctor_set(x_19, 1, x_18);
+return x_19;
+}
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cones_postcompose___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__39___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_Cones_postcompose___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__39___rarg___lambda__1), 5, 4);
+lean_closure_set(x_5, 0, x_1);
+lean_closure_set(x_5, 1, x_2);
+lean_closure_set(x_5, 2, x_3);
+lean_closure_set(x_5, 3, x_4);
+x_6 = l_CategoryTheory_Limits_Cones_postcompose___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__1___rarg___closed__1;
+x_7 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_7, 0, x_5);
+lean_ctor_set(x_7, 1, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cones_postcompose___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__39(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_Cones_postcompose___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__39___rarg), 4, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsLimit_equivIsoLimit___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__45___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; lean_object* x_9; 
+x_6 = l_CategoryTheory_Limits_walkingParallelPairHomCategory;
+lean_inc(x_5);
+lean_inc(x_4);
+lean_inc(x_3);
+lean_inc(x_2);
+lean_inc(x_1);
+x_7 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_IsLimit_equivIsoLimit___elambda__2___rarg___boxed), 8, 7);
+lean_closure_set(x_7, 0, x_6);
+lean_closure_set(x_7, 1, lean_box(0));
+lean_closure_set(x_7, 2, x_1);
+lean_closure_set(x_7, 3, x_2);
+lean_closure_set(x_7, 4, x_3);
+lean_closure_set(x_7, 5, x_4);
+lean_closure_set(x_7, 6, x_5);
+x_8 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_IsLimit_equivIsoLimit___elambda__1___rarg___boxed), 8, 7);
+lean_closure_set(x_8, 0, x_6);
+lean_closure_set(x_8, 1, lean_box(0));
+lean_closure_set(x_8, 2, x_1);
+lean_closure_set(x_8, 3, x_2);
+lean_closure_set(x_8, 4, x_3);
+lean_closure_set(x_8, 5, x_4);
+lean_closure_set(x_8, 6, x_5);
+x_9 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_9, 0, x_7);
+lean_ctor_set(x_9, 1, x_8);
+return x_9;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsLimit_equivIsoLimit___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__45(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_IsLimit_equivIsoLimit___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__45___rarg), 5, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsLimit_equivOfNatIsoOfIso___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__7___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; lean_object* x_9; lean_object* x_10; lean_object* x_11; lean_object* x_12; lean_object* x_13; lean_object* x_14; lean_object* x_15; 
+lean_inc(x_5);
+lean_inc(x_4);
+lean_inc(x_3);
+lean_inc(x_2);
+lean_inc(x_1);
+x_8 = l_CategoryTheory_Limits_IsLimit_postcomposeHomEquiv___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__8___rarg(x_1, x_2, x_3, x_4, x_5);
+x_9 = l_Equiv_symm___rarg(x_8);
+x_10 = lean_ctor_get(x_4, 0);
+lean_inc(x_10);
+lean_dec(x_4);
+lean_inc(x_3);
+lean_inc(x_1);
+x_11 = l_CategoryTheory_Limits_Cones_postcompose___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__39___rarg(x_1, x_2, x_3, x_10);
+x_12 = lean_ctor_get(x_11, 0);
+lean_inc(x_12);
+lean_dec(x_11);
+x_13 = lean_apply_1(x_12, x_5);
+x_14 = l_CategoryTheory_Limits_IsLimit_equivIsoLimit___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__45___rarg(x_1, x_3, x_13, x_6, x_7);
+x_15 = l_Equiv_trans___rarg(x_9, x_14);
+return x_15;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_IsLimit_equivOfNatIsoOfIso___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__7(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_IsLimit_equivOfNatIsoOfIso___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__7___rarg), 7, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork_isLimitOfIsos___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8, lean_object* x_9, lean_object* x_10, lean_object* x_11, lean_object* x_12, lean_object* x_13, lean_object* x_14, lean_object* x_15, lean_object* x_16, lean_object* x_17, lean_object* x_18) {
+_start:
+{
+lean_object* x_19; lean_object* x_20; lean_object* x_21; lean_object* x_22; lean_object* x_23; lean_object* x_24; lean_object* x_25; lean_object* x_26; lean_object* x_27; lean_object* x_28; lean_object* x_29; 
+lean_inc(x_1);
+x_19 = l_CategoryTheory_Limits_parallelPair___rarg(x_1, x_2, x_3, x_4, x_5);
+lean_inc(x_11);
+lean_inc(x_10);
+lean_inc(x_7);
+lean_inc(x_6);
+lean_inc(x_1);
+x_20 = l_CategoryTheory_Limits_parallelPair___rarg(x_1, x_6, x_7, x_10, x_11);
+x_21 = l_CategoryTheory_Limits_parallelPair_ext___rarg(x_1, x_19, x_20, x_13, x_14, lean_box(0), lean_box(0));
+x_22 = lean_ctor_get(x_21, 0);
+lean_inc(x_22);
+lean_inc(x_20);
+lean_inc(x_19);
+lean_inc(x_1);
+x_23 = l_CategoryTheory_Limits_Cones_postcompose___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__1___rarg(x_1, x_19, x_20, x_22);
+x_24 = lean_ctor_get(x_23, 0);
+lean_inc(x_24);
+lean_dec(x_23);
+lean_inc(x_8);
+x_25 = lean_apply_1(x_24, x_8);
+x_26 = l_CategoryTheory_Limits_Fork_ext___rarg(x_1, x_6, x_7, x_10, x_11, x_25, x_12, x_15, lean_box(0));
+lean_dec(x_25);
+lean_dec(x_11);
+lean_dec(x_10);
+lean_dec(x_7);
+lean_dec(x_6);
+x_27 = l_CategoryTheory_Limits_IsLimit_equivOfNatIsoOfIso___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__7___rarg(x_1, x_19, x_20, x_21, x_8, x_12, x_26);
+x_28 = lean_ctor_get(x_27, 0);
+lean_inc(x_28);
+lean_dec(x_27);
+x_29 = lean_apply_1(x_28, x_9);
+return x_29;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork_isLimitOfIsos(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_Fork_isLimitOfIsos___rarg___boxed), 18, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cones_postcompose___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__1___rarg___lambda__2___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Limits_Cones_postcompose___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__1___rarg___lambda__2(x_1, x_2, x_3);
+lean_dec(x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__22___rarg___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_CategoryTheory_Functor_id___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__22___rarg(x_1, x_2);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__23___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__23___rarg(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cones_ext___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__24___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = l_CategoryTheory_Limits_Cones_ext___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__24___rarg(x_1, x_2, x_3, x_4, x_5, x_6);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__25___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__25___rarg(x_1, x_2, x_3, x_4, x_5, x_6);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__26___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__26___rarg(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__27___rarg___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_CategoryTheory_Functor_id___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__27___rarg(x_1, x_2);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cones_ext___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__28___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = l_CategoryTheory_Limits_Cones_ext___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__28___rarg(x_1, x_2, x_3, x_4, x_5, x_6);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__29___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__29___rarg(x_1, x_2, x_3, x_4, x_5, x_6);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cones_postcomposeEquivalence___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__9___rarg___lambda__1___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_Limits_Cones_postcomposeEquivalence___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__9___rarg___lambda__1(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_4);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cones_postcomposeEquivalence___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__9___rarg___lambda__2___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_Limits_Cones_postcomposeEquivalence___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__9___rarg___lambda__2(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_4);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__32___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__32___rarg(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__33___rarg___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_CategoryTheory_Functor_id___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__33___rarg(x_1, x_2);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_symm___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__34___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_Iso_symm___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__34___rarg(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__35___rarg___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_CategoryTheory_Functor_id___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__35___rarg(x_1, x_2);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__36___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_Functor_comp___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__36___rarg(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_symm___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__37___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_Iso_symm___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__37___rarg(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Equivalence_symm___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__31___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_Equivalence_symm___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__31___rarg(x_1, x_2, x_3, x_4);
+lean_dec(x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Equivalence_toAdjunction___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__38___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_Equivalence_toAdjunction___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__38___rarg(x_1, x_2, x_3, x_4);
+lean_dec(x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork_isLimitOfIsos___rarg___boxed(lean_object** _args) {
+lean_object* x_1 = _args[0];
+lean_object* x_2 = _args[1];
+lean_object* x_3 = _args[2];
+lean_object* x_4 = _args[3];
+lean_object* x_5 = _args[4];
+lean_object* x_6 = _args[5];
+lean_object* x_7 = _args[6];
+lean_object* x_8 = _args[7];
+lean_object* x_9 = _args[8];
+lean_object* x_10 = _args[9];
+lean_object* x_11 = _args[10];
+lean_object* x_12 = _args[11];
+lean_object* x_13 = _args[12];
+lean_object* x_14 = _args[13];
+lean_object* x_15 = _args[14];
+lean_object* x_16 = _args[15];
+lean_object* x_17 = _args[16];
+lean_object* x_18 = _args[17];
+_start:
+{
+lean_object* x_19; 
+x_19 = l_CategoryTheory_Limits_Fork_isLimitOfIsos___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8, x_9, x_10, x_11, x_12, x_13, x_14, x_15, x_16, x_17, x_18);
+lean_dec(x_15);
+return x_19;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cofork_mkHom___rarg(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_inc(x_1);
+return x_1;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cofork_mkHom(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8) {
+_start:
+{
+lean_object* x_9; 
+x_9 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_Cofork_mkHom___rarg___boxed), 2, 0);
+return x_9;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cofork_mkHom___rarg___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_CategoryTheory_Limits_Cofork_mkHom___rarg(x_1, x_2);
+lean_dec(x_1);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cofork_mkHom___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8) {
+_start:
+{
+lean_object* x_9; 
+x_9 = l_CategoryTheory_Limits_Cofork_mkHom(x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8);
+lean_dec(x_8);
+lean_dec(x_7);
+lean_dec(x_6);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_2);
+return x_9;
+}
+}
+static lean_object* _init_l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_7531_() {
+_start:
+{
+lean_object* x_1; 
+x_1 = l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__24;
+return x_1;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cofork_ext___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8, lean_object* x_9) {
+_start:
+{
+lean_object* x_10; lean_object* x_11; lean_object* x_12; 
+x_10 = lean_ctor_get(x_8, 0);
+x_11 = lean_ctor_get(x_8, 1);
+lean_inc(x_11);
+lean_inc(x_10);
+x_12 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_12, 0, x_10);
+lean_ctor_set(x_12, 1, x_11);
+return x_12;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cofork_ext(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_Cofork_ext___rarg___boxed), 9, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cofork_ext___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8, lean_object* x_9) {
+_start:
+{
+lean_object* x_10; 
+x_10 = l_CategoryTheory_Limits_Cofork_ext___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8, x_9);
+lean_dec(x_8);
+lean_dec(x_7);
+lean_dec(x_6);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_10;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Cofork_isoCoforkOf_u03c0___spec__1___rarg(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+x_2 = lean_ctor_get(x_1, 0);
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_of_u03b9___spec__1___rarg___lambda__3___boxed), 3, 2);
+lean_closure_set(x_3, 0, x_1);
+lean_closure_set(x_3, 1, x_2);
+x_4 = l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_of_u03b9___spec__1___rarg___closed__1;
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Cofork_isoCoforkOf_u03c0___spec__1(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Cofork_isoCoforkOf_u03c0___spec__1___rarg), 1, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cofork_isoCoforkOf_u03c0___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; lean_object* x_11; uint8_t x_12; lean_object* x_13; lean_object* x_14; lean_object* x_15; lean_object* x_16; lean_object* x_17; lean_object* x_18; 
+lean_inc(x_1);
+x_7 = l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Cofork_isoCoforkOf_u03c0___spec__1___rarg(x_1);
+x_8 = lean_ctor_get(x_7, 0);
+lean_inc(x_8);
+lean_dec(x_7);
+x_9 = lean_ctor_get(x_6, 0);
+lean_inc(x_9);
+lean_inc(x_9);
+x_10 = lean_apply_1(x_8, x_9);
+x_11 = lean_ctor_get(x_10, 0);
+lean_inc(x_11);
+lean_dec(x_10);
+x_12 = 1;
+x_13 = lean_box(x_12);
+x_14 = lean_apply_1(x_11, x_13);
+lean_inc(x_6);
+x_15 = l_CategoryTheory_Limits_Cofork__u03c0___rarg(x_6);
+lean_inc(x_5);
+lean_inc(x_4);
+lean_inc(x_3);
+lean_inc(x_2);
+lean_inc(x_1);
+x_16 = l_CategoryTheory_Limits_Cofork_of_u03c0___rarg(x_1, x_2, x_3, x_4, x_5, x_14, x_15, lean_box(0));
+lean_inc(x_1);
+x_17 = l_CategoryTheory_Iso_refl___rarg(x_1, x_9);
+x_18 = l_CategoryTheory_Limits_Cofork_ext___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_16, x_17, lean_box(0));
+lean_dec(x_17);
+lean_dec(x_16);
+lean_dec(x_6);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_18;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cofork_isoCoforkOf_u03c0(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_Cofork_isoCoforkOf_u03c0___rarg), 6, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_idFork___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; lean_object* x_8; lean_object* x_9; 
+x_7 = lean_ctor_get(x_1, 1);
+lean_inc(x_7);
+lean_inc(x_2);
+x_8 = lean_apply_1(x_7, x_2);
+lean_inc(x_2);
+x_9 = l_CategoryTheory_Limits_Fork_of_u03b9___rarg(x_1, x_2, x_3, x_4, x_5, x_2, x_8, lean_box(0));
+return x_9;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_idFork(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_idFork___rarg), 6, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork_IsLimit_mk___at_CategoryTheory_Limits_isLimitIdFork___spec__1___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_inc(x_1);
+return x_1;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork_IsLimit_mk___at_CategoryTheory_Limits_isLimitIdFork___spec__1(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; 
+x_8 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_Fork_IsLimit_mk___at_CategoryTheory_Limits_isLimitIdFork___spec__1___rarg___boxed), 3, 0);
+return x_8;
+}
+}
+static lean_object* _init_l_CategoryTheory_Limits_isLimitIdFork___rarg___closed__1() {
+_start:
+{
+lean_object* x_1; 
+x_1 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_Fork__u03b9___rarg), 1, 0);
+return x_1;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isLimitIdFork___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = l_CategoryTheory_Limits_isLimitIdFork___rarg___closed__1;
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isLimitIdFork(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_isLimitIdFork___rarg___boxed), 6, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork_IsLimit_mk___at_CategoryTheory_Limits_isLimitIdFork___spec__1___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Limits_Fork_IsLimit_mk___at_CategoryTheory_Limits_isLimitIdFork___spec__1___rarg(x_1, x_2, x_3);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork_IsLimit_mk___at_CategoryTheory_Limits_isLimitIdFork___spec__1___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; 
+x_8 = l_CategoryTheory_Limits_Fork_IsLimit_mk___at_CategoryTheory_Limits_isLimitIdFork___spec__1(x_1, x_2, x_3, x_4, x_5, x_6, x_7);
+lean_dec(x_7);
+lean_dec(x_6);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_2);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isLimitIdFork___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = l_CategoryTheory_Limits_isLimitIdFork___rarg(x_1, x_2, x_3, x_4, x_5, x_6);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_idCofork___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; lean_object* x_8; lean_object* x_9; 
+x_7 = lean_ctor_get(x_1, 1);
+lean_inc(x_7);
+lean_inc(x_3);
+x_8 = lean_apply_1(x_7, x_3);
+lean_inc(x_3);
+x_9 = l_CategoryTheory_Limits_Cofork_of_u03c0___rarg(x_1, x_2, x_3, x_4, x_5, x_3, x_8, lean_box(0));
+return x_9;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_idCofork(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_idCofork___rarg), 6, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cofork_IsColimit_mk___at_CategoryTheory_Limits_isColimitIdCofork___spec__1___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_inc(x_1);
+return x_1;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cofork_IsColimit_mk___at_CategoryTheory_Limits_isColimitIdCofork___spec__1(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; 
+x_8 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_Cofork_IsColimit_mk___at_CategoryTheory_Limits_isColimitIdCofork___spec__1___rarg___boxed), 3, 0);
+return x_8;
+}
+}
+static lean_object* _init_l_CategoryTheory_Limits_isColimitIdCofork___rarg___closed__1() {
+_start:
+{
+lean_object* x_1; 
+x_1 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_Cofork__u03c0___rarg), 1, 0);
+return x_1;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isColimitIdCofork___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = l_CategoryTheory_Limits_isColimitIdCofork___rarg___closed__1;
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isColimitIdCofork(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_isColimitIdCofork___rarg___boxed), 6, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cofork_IsColimit_mk___at_CategoryTheory_Limits_isColimitIdCofork___spec__1___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Limits_Cofork_IsColimit_mk___at_CategoryTheory_Limits_isColimitIdCofork___spec__1___rarg(x_1, x_2, x_3);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cofork_IsColimit_mk___at_CategoryTheory_Limits_isColimitIdCofork___spec__1___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; 
+x_8 = l_CategoryTheory_Limits_Cofork_IsColimit_mk___at_CategoryTheory_Limits_isColimitIdCofork___spec__1(x_1, x_2, x_3, x_4, x_5, x_6, x_7);
+lean_dec(x_7);
+lean_dec(x_6);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_2);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isColimitIdCofork___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = l_CategoryTheory_Limits_isColimitIdCofork___rarg(x_1, x_2, x_3, x_4, x_5, x_6);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_splitMonoOfEqualizer___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_inc(x_1);
+return x_1;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_splitMonoOfEqualizer(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_splitMonoOfEqualizer___rarg___boxed), 3, 0);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_splitMonoOfEqualizer___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Limits_splitMonoOfEqualizer___rarg(x_1, x_2, x_3);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_splitMonoOfEqualizer___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_Limits_splitMonoOfEqualizer(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_2);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_isEqualizerCompMono___spec__1___rarg(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+x_2 = lean_ctor_get(x_1, 0);
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_of_u03b9___spec__1___rarg___lambda__3___boxed), 3, 2);
+lean_closure_set(x_3, 0, x_1);
+lean_closure_set(x_3, 1, x_2);
+x_4 = l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_of_u03b9___spec__1___rarg___closed__1;
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_isEqualizerCompMono___spec__1(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_isEqualizerCompMono___spec__1___rarg), 1, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork_IsLimit_mk___at_CategoryTheory_Limits_isEqualizerCompMono___spec__3___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_inc(x_1);
+return x_1;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork_IsLimit_mk___at_CategoryTheory_Limits_isEqualizerCompMono___spec__3(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; 
+x_8 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_Fork_IsLimit_mk___at_CategoryTheory_Limits_isEqualizerCompMono___spec__3___rarg___boxed), 3, 0);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork_IsLimit_mk_x27___at_CategoryTheory_Limits_isEqualizerCompMono___spec__2___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_inc(x_7);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork_IsLimit_mk_x27___at_CategoryTheory_Limits_isEqualizerCompMono___spec__2(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_Fork_IsLimit_mk_x27___at_CategoryTheory_Limits_isEqualizerCompMono___spec__2___rarg___boxed), 7, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isEqualizerCompMono___rarg___lambda__1(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8, lean_object* x_9) {
+_start:
+{
+lean_object* x_10; lean_object* x_11; lean_object* x_12; uint8_t x_13; lean_object* x_14; lean_object* x_15; lean_object* x_16; lean_object* x_17; lean_object* x_18; lean_object* x_19; lean_object* x_20; lean_object* x_21; lean_object* x_22; lean_object* x_23; 
+x_10 = lean_ctor_get(x_9, 0);
+lean_inc(x_10);
+lean_inc(x_1);
+x_11 = lean_apply_1(x_1, x_10);
+x_12 = lean_ctor_get(x_11, 0);
+lean_inc(x_12);
+lean_dec(x_11);
+x_13 = 0;
+x_14 = lean_box(x_13);
+x_15 = lean_apply_1(x_12, x_14);
+x_16 = l_CategoryTheory_Limits_Fork__u03b9___rarg(x_9);
+lean_inc(x_15);
+lean_inc(x_6);
+lean_inc(x_5);
+lean_inc(x_4);
+lean_inc(x_3);
+lean_inc(x_2);
+x_17 = l_CategoryTheory_Limits_Fork_of_u03b9___rarg(x_2, x_3, x_4, x_5, x_6, x_15, x_16, lean_box(0));
+x_18 = lean_apply_1(x_1, x_15);
+x_19 = lean_ctor_get(x_18, 0);
+lean_inc(x_19);
+lean_dec(x_18);
+x_20 = lean_box(x_13);
+x_21 = lean_apply_1(x_19, x_20);
+x_22 = l_CategoryTheory_Limits_Fork__u03b9___rarg(x_17);
+x_23 = l_CategoryTheory_Limits_Fork_IsLimit_lift___rarg(x_2, x_3, x_4, x_5, x_6, x_7, x_8, x_21, x_22, lean_box(0));
+return x_23;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isEqualizerCompMono___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8, lean_object* x_9, lean_object* x_10) {
+_start:
+{
+lean_object* x_11; lean_object* x_12; lean_object* x_13; 
+lean_inc(x_1);
+x_11 = l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_isEqualizerCompMono___spec__1___rarg(x_1);
+x_12 = lean_ctor_get(x_11, 0);
+lean_inc(x_12);
+lean_dec(x_11);
+x_13 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_isEqualizerCompMono___rarg___lambda__1___boxed), 9, 8);
+lean_closure_set(x_13, 0, x_12);
+lean_closure_set(x_13, 1, x_1);
+lean_closure_set(x_13, 2, x_2);
+lean_closure_set(x_13, 3, x_3);
+lean_closure_set(x_13, 4, x_4);
+lean_closure_set(x_13, 5, x_5);
+lean_closure_set(x_13, 6, x_6);
+lean_closure_set(x_13, 7, x_7);
+return x_13;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isEqualizerCompMono(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_isEqualizerCompMono___rarg___boxed), 10, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork_IsLimit_mk___at_CategoryTheory_Limits_isEqualizerCompMono___spec__3___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Limits_Fork_IsLimit_mk___at_CategoryTheory_Limits_isEqualizerCompMono___spec__3___rarg(x_1, x_2, x_3);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork_IsLimit_mk___at_CategoryTheory_Limits_isEqualizerCompMono___spec__3___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; 
+x_8 = l_CategoryTheory_Limits_Fork_IsLimit_mk___at_CategoryTheory_Limits_isEqualizerCompMono___spec__3(x_1, x_2, x_3, x_4, x_5, x_6, x_7);
+lean_dec(x_7);
+lean_dec(x_6);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_2);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Fork_IsLimit_mk_x27___at_CategoryTheory_Limits_isEqualizerCompMono___spec__2___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; 
+x_8 = l_CategoryTheory_Limits_Fork_IsLimit_mk_x27___at_CategoryTheory_Limits_isEqualizerCompMono___spec__2___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7);
+lean_dec(x_7);
+lean_dec(x_6);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isEqualizerCompMono___rarg___lambda__1___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8, lean_object* x_9) {
+_start:
+{
+lean_object* x_10; 
+x_10 = l_CategoryTheory_Limits_isEqualizerCompMono___rarg___lambda__1(x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8, x_9);
+lean_dec(x_7);
+return x_10;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isEqualizerCompMono___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8, lean_object* x_9, lean_object* x_10) {
+_start:
+{
+lean_object* x_11; 
+x_11 = l_CategoryTheory_Limits_isEqualizerCompMono___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8, x_9, x_10);
+lean_dec(x_9);
+lean_dec(x_8);
+return x_11;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_splitMonoOfIdempotentOfIsLimitFork___spec__1___rarg(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+x_2 = lean_ctor_get(x_1, 0);
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_of_u03b9___spec__1___rarg___lambda__3___boxed), 3, 2);
+lean_closure_set(x_3, 0, x_1);
+lean_closure_set(x_3, 1, x_2);
+x_4 = l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_of_u03b9___spec__1___rarg___closed__1;
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_splitMonoOfIdempotentOfIsLimitFork___spec__1(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_splitMonoOfIdempotentOfIsLimitFork___spec__1___rarg), 1, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_splitMonoOfIdempotentOfIsLimitFork___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; 
+x_7 = lean_ctor_get(x_1, 1);
+lean_inc(x_7);
+lean_inc(x_2);
+x_8 = lean_apply_1(x_7, x_2);
+lean_inc(x_3);
+lean_inc_n(x_2, 2);
+x_9 = l_CategoryTheory_Limits_Fork_of_u03b9___rarg(x_1, x_2, x_2, x_8, x_3, x_2, x_3, lean_box(0));
+x_10 = lean_apply_1(x_6, x_9);
+return x_10;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_splitMonoOfIdempotentOfIsLimitFork(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_splitMonoOfIdempotentOfIsLimitFork___rarg___boxed), 6, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_splitMonoOfIdempotentOfIsLimitFork___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = l_CategoryTheory_Limits_splitMonoOfIdempotentOfIsLimitFork___rarg(x_1, x_2, x_3, x_4, x_5, x_6);
+lean_dec(x_5);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_splitEpiOfCoequalizer___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_inc(x_1);
+return x_1;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_splitEpiOfCoequalizer(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_splitEpiOfCoequalizer___rarg___boxed), 3, 0);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_splitEpiOfCoequalizer___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Limits_splitEpiOfCoequalizer___rarg(x_1, x_2, x_3);
+lean_dec(x_3);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_splitEpiOfCoequalizer___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_CategoryTheory_Limits_splitEpiOfCoequalizer(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_2);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_isCoequalizerEpiComp___spec__1___rarg(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+x_2 = lean_ctor_get(x_1, 0);
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_of_u03b9___spec__1___rarg___lambda__3___boxed), 3, 2);
+lean_closure_set(x_3, 0, x_1);
+lean_closure_set(x_3, 1, x_2);
+x_4 = l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_of_u03b9___spec__1___rarg___closed__1;
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_isCoequalizerEpiComp___spec__1(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_isCoequalizerEpiComp___spec__1___rarg), 1, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cofork_IsColimit_mk___at_CategoryTheory_Limits_isCoequalizerEpiComp___spec__3___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_inc(x_1);
+return x_1;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cofork_IsColimit_mk___at_CategoryTheory_Limits_isCoequalizerEpiComp___spec__3(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; 
+x_8 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_Cofork_IsColimit_mk___at_CategoryTheory_Limits_isCoequalizerEpiComp___spec__3___rarg___boxed), 3, 0);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cofork_IsColimit_mk_x27___at_CategoryTheory_Limits_isCoequalizerEpiComp___spec__2___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_inc(x_7);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cofork_IsColimit_mk_x27___at_CategoryTheory_Limits_isCoequalizerEpiComp___spec__2(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_Cofork_IsColimit_mk_x27___at_CategoryTheory_Limits_isCoequalizerEpiComp___spec__2___rarg___boxed), 7, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isCoequalizerEpiComp___rarg___lambda__1(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8, lean_object* x_9) {
+_start:
+{
+lean_object* x_10; lean_object* x_11; lean_object* x_12; uint8_t x_13; lean_object* x_14; lean_object* x_15; lean_object* x_16; lean_object* x_17; lean_object* x_18; lean_object* x_19; lean_object* x_20; lean_object* x_21; lean_object* x_22; lean_object* x_23; 
+x_10 = lean_ctor_get(x_9, 0);
+lean_inc(x_10);
+lean_inc(x_1);
+x_11 = lean_apply_1(x_1, x_10);
+x_12 = lean_ctor_get(x_11, 0);
+lean_inc(x_12);
+lean_dec(x_11);
+x_13 = 1;
+x_14 = lean_box(x_13);
+x_15 = lean_apply_1(x_12, x_14);
+x_16 = l_CategoryTheory_Limits_Cofork__u03c0___rarg(x_9);
+lean_inc(x_15);
+lean_inc(x_6);
+lean_inc(x_5);
+lean_inc(x_4);
+lean_inc(x_3);
+lean_inc(x_2);
+x_17 = l_CategoryTheory_Limits_Cofork_of_u03c0___rarg(x_2, x_3, x_4, x_5, x_6, x_15, x_16, lean_box(0));
+x_18 = lean_apply_1(x_1, x_15);
+x_19 = lean_ctor_get(x_18, 0);
+lean_inc(x_19);
+lean_dec(x_18);
+x_20 = lean_box(x_13);
+x_21 = lean_apply_1(x_19, x_20);
+x_22 = l_CategoryTheory_Limits_Cofork__u03c0___rarg(x_17);
+x_23 = l_CategoryTheory_Limits_Cofork_IsColimit_desc___rarg(x_2, x_3, x_4, x_5, x_6, x_7, x_8, x_21, x_22, lean_box(0));
+return x_23;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isCoequalizerEpiComp___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8, lean_object* x_9, lean_object* x_10) {
+_start:
+{
+lean_object* x_11; lean_object* x_12; lean_object* x_13; 
+lean_inc(x_1);
+x_11 = l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_isCoequalizerEpiComp___spec__1___rarg(x_1);
+x_12 = lean_ctor_get(x_11, 0);
+lean_inc(x_12);
+lean_dec(x_11);
+x_13 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_isCoequalizerEpiComp___rarg___lambda__1___boxed), 9, 8);
+lean_closure_set(x_13, 0, x_12);
+lean_closure_set(x_13, 1, x_1);
+lean_closure_set(x_13, 2, x_2);
+lean_closure_set(x_13, 3, x_3);
+lean_closure_set(x_13, 4, x_4);
+lean_closure_set(x_13, 5, x_5);
+lean_closure_set(x_13, 6, x_6);
+lean_closure_set(x_13, 7, x_7);
+return x_13;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isCoequalizerEpiComp(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_isCoequalizerEpiComp___rarg___boxed), 10, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cofork_IsColimit_mk___at_CategoryTheory_Limits_isCoequalizerEpiComp___spec__3___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Limits_Cofork_IsColimit_mk___at_CategoryTheory_Limits_isCoequalizerEpiComp___spec__3___rarg(x_1, x_2, x_3);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cofork_IsColimit_mk___at_CategoryTheory_Limits_isCoequalizerEpiComp___spec__3___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; 
+x_8 = l_CategoryTheory_Limits_Cofork_IsColimit_mk___at_CategoryTheory_Limits_isCoequalizerEpiComp___spec__3(x_1, x_2, x_3, x_4, x_5, x_6, x_7);
+lean_dec(x_7);
+lean_dec(x_6);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_2);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_Cofork_IsColimit_mk_x27___at_CategoryTheory_Limits_isCoequalizerEpiComp___spec__2___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7) {
+_start:
+{
+lean_object* x_8; 
+x_8 = l_CategoryTheory_Limits_Cofork_IsColimit_mk_x27___at_CategoryTheory_Limits_isCoequalizerEpiComp___spec__2___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7);
+lean_dec(x_7);
+lean_dec(x_6);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isCoequalizerEpiComp___rarg___lambda__1___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8, lean_object* x_9) {
+_start:
+{
+lean_object* x_10; 
+x_10 = l_CategoryTheory_Limits_isCoequalizerEpiComp___rarg___lambda__1(x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8, x_9);
+lean_dec(x_7);
+return x_10;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_isCoequalizerEpiComp___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8, lean_object* x_9, lean_object* x_10) {
+_start:
+{
+lean_object* x_11; 
+x_11 = l_CategoryTheory_Limits_isCoequalizerEpiComp___rarg(x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8, x_9, x_10);
+lean_dec(x_9);
+lean_dec(x_8);
+return x_11;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_splitEpiOfIdempotentOfIsColimitCofork___spec__1___rarg(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+x_2 = lean_ctor_get(x_1, 0);
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_of_u03b9___spec__1___rarg___lambda__3___boxed), 3, 2);
+lean_closure_set(x_3, 0, x_1);
+lean_closure_set(x_3, 1, x_2);
+x_4 = l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_of_u03b9___spec__1___rarg___closed__1;
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_splitEpiOfIdempotentOfIsColimitCofork___spec__1(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_splitEpiOfIdempotentOfIsColimitCofork___spec__1___rarg), 1, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_splitEpiOfIdempotentOfIsColimitCofork___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; 
+x_7 = lean_ctor_get(x_1, 1);
+lean_inc(x_7);
+lean_inc(x_2);
+x_8 = lean_apply_1(x_7, x_2);
+lean_inc(x_3);
+lean_inc_n(x_2, 2);
+x_9 = l_CategoryTheory_Limits_Cofork_of_u03c0___rarg(x_1, x_2, x_2, x_8, x_3, x_2, x_3, lean_box(0));
+x_10 = lean_apply_1(x_6, x_9);
+return x_10;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_splitEpiOfIdempotentOfIsColimitCofork(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_CategoryTheory_Limits_splitEpiOfIdempotentOfIsColimitCofork___rarg___boxed), 6, 0);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Limits_splitEpiOfIdempotentOfIsColimitCofork___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = l_CategoryTheory_Limits_splitEpiOfIdempotentOfIsColimitCofork___rarg(x_1, x_2, x_3, x_4, x_5, x_6);
+lean_dec(x_5);
+return x_7;
+}
+}
+lean_object* initialize_Init(uint8_t builtin, lean_object*);
+lean_object* initialize_Mathlib_CategoryTheory_EpiMono(uint8_t builtin, lean_object*);
+lean_object* initialize_Mathlib_CategoryTheory_Limits_HasLimits(uint8_t builtin, lean_object*);
+static bool _G_initialized = false;
+LEAN_EXPORT lean_object* initialize_Mathlib_CategoryTheory_Limits_Shapes_Equalizers(uint8_t builtin, lean_object* w) {
+lean_object * res;
+if (_G_initialized) return lean_io_result_mk_ok(lean_box(0));
+_G_initialized = true;
+res = initialize_Init(builtin, lean_io_mk_world());
+if (lean_io_result_is_error(res)) return res;
+lean_dec_ref(res);
+res = initialize_Mathlib_CategoryTheory_EpiMono(builtin, lean_io_mk_world());
+if (lean_io_result_is_error(res)) return res;
+lean_dec_ref(res);
+res = initialize_Mathlib_CategoryTheory_Limits_HasLimits(builtin, lean_io_mk_world());
+if (lean_io_result_is_error(res)) return res;
+lean_dec_ref(res);
+l_CategoryTheory_Limits_WalkingParallelPair_noConfusion___rarg___closed__1 = _init_l_CategoryTheory_Limits_WalkingParallelPair_noConfusion___rarg___closed__1();
+lean_mark_persistent(l_CategoryTheory_Limits_WalkingParallelPair_noConfusion___rarg___closed__1);
+l_CategoryTheory_Limits_instInhabitedWalkingParallelPair = _init_l_CategoryTheory_Limits_instInhabitedWalkingParallelPair();
+l_CategoryTheory_Limits_instInhabitedWalkingParallelPairHomZeroOne = _init_l_CategoryTheory_Limits_instInhabitedWalkingParallelPairHomZeroOne();
+lean_mark_persistent(l_CategoryTheory_Limits_instInhabitedWalkingParallelPairHomZeroOne);
+l_CategoryTheory_Limits_walkingParallelPairHomCategory___closed__1 = _init_l_CategoryTheory_Limits_walkingParallelPairHomCategory___closed__1();
+lean_mark_persistent(l_CategoryTheory_Limits_walkingParallelPairHomCategory___closed__1);
+l_CategoryTheory_Limits_walkingParallelPairHomCategory___closed__2 = _init_l_CategoryTheory_Limits_walkingParallelPairHomCategory___closed__2();
+lean_mark_persistent(l_CategoryTheory_Limits_walkingParallelPairHomCategory___closed__2);
+l_CategoryTheory_Limits_walkingParallelPairHomCategory___closed__3 = _init_l_CategoryTheory_Limits_walkingParallelPairHomCategory___closed__3();
+lean_mark_persistent(l_CategoryTheory_Limits_walkingParallelPairHomCategory___closed__3);
+l_CategoryTheory_Limits_walkingParallelPairHomCategory = _init_l_CategoryTheory_Limits_walkingParallelPairHomCategory();
+lean_mark_persistent(l_CategoryTheory_Limits_walkingParallelPairHomCategory);
+l_CategoryTheory_Limits_walkingParallelPairOp___lambda__2___closed__1 = _init_l_CategoryTheory_Limits_walkingParallelPairOp___lambda__2___closed__1();
+lean_mark_persistent(l_CategoryTheory_Limits_walkingParallelPairOp___lambda__2___closed__1);
+l_CategoryTheory_Limits_walkingParallelPairOp___lambda__2___closed__2 = _init_l_CategoryTheory_Limits_walkingParallelPairOp___lambda__2___closed__2();
+lean_mark_persistent(l_CategoryTheory_Limits_walkingParallelPairOp___lambda__2___closed__2);
+l_CategoryTheory_Limits_walkingParallelPairOp___closed__1 = _init_l_CategoryTheory_Limits_walkingParallelPairOp___closed__1();
+lean_mark_persistent(l_CategoryTheory_Limits_walkingParallelPairOp___closed__1);
+l_CategoryTheory_Limits_walkingParallelPairOp___closed__2 = _init_l_CategoryTheory_Limits_walkingParallelPairOp___closed__2();
+lean_mark_persistent(l_CategoryTheory_Limits_walkingParallelPairOp___closed__2);
+l_CategoryTheory_Limits_walkingParallelPairOp___closed__3 = _init_l_CategoryTheory_Limits_walkingParallelPairOp___closed__3();
+lean_mark_persistent(l_CategoryTheory_Limits_walkingParallelPairOp___closed__3);
+l_CategoryTheory_Limits_walkingParallelPairOp___closed__4 = _init_l_CategoryTheory_Limits_walkingParallelPairOp___closed__4();
+lean_mark_persistent(l_CategoryTheory_Limits_walkingParallelPairOp___closed__4);
+l_CategoryTheory_Limits_walkingParallelPairOp = _init_l_CategoryTheory_Limits_walkingParallelPairOp();
+lean_mark_persistent(l_CategoryTheory_Limits_walkingParallelPairOp);
+l_CategoryTheory_Functor_id___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__2___closed__1 = _init_l_CategoryTheory_Functor_id___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__2___closed__1();
+lean_mark_persistent(l_CategoryTheory_Functor_id___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__2___closed__1);
+l_CategoryTheory_Functor_id___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__2___closed__2 = _init_l_CategoryTheory_Functor_id___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__2___closed__2();
+lean_mark_persistent(l_CategoryTheory_Functor_id___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__2___closed__2);
+l_CategoryTheory_Functor_id___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__2___closed__3 = _init_l_CategoryTheory_Functor_id___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__2___closed__3();
+lean_mark_persistent(l_CategoryTheory_Functor_id___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__2___closed__3);
+l_CategoryTheory_Functor_id___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__2 = _init_l_CategoryTheory_Functor_id___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__2();
+lean_mark_persistent(l_CategoryTheory_Functor_id___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__2);
+l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__6___closed__1 = _init_l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__6___closed__1();
+lean_mark_persistent(l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__6___closed__1);
+l_CategoryTheory_Functor_id___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__8___closed__1 = _init_l_CategoryTheory_Functor_id___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__8___closed__1();
+lean_mark_persistent(l_CategoryTheory_Functor_id___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__8___closed__1);
+l_CategoryTheory_Functor_id___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__8 = _init_l_CategoryTheory_Functor_id___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__8();
+lean_mark_persistent(l_CategoryTheory_Functor_id___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__8);
+l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__11___closed__1 = _init_l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__11___closed__1();
+lean_mark_persistent(l_CategoryTheory_NatIso_ofComponents___at_CategoryTheory_Limits_walkingParallelPairOpEquiv___spec__11___closed__1);
+l_CategoryTheory_Limits_walkingParallelPairOpEquiv = _init_l_CategoryTheory_Limits_walkingParallelPairOpEquiv();
+lean_mark_persistent(l_CategoryTheory_Limits_walkingParallelPairOpEquiv);
+l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_of_u03b9___spec__1___rarg___closed__1 = _init_l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_of_u03b9___spec__1___rarg___closed__1();
+lean_mark_persistent(l_CategoryTheory_Functor_const___at_CategoryTheory_Limits_Fork_of_u03b9___spec__1___rarg___closed__1);
+l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__1 = _init_l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__1();
+lean_mark_persistent(l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__1);
+l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__2 = _init_l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__2();
+lean_mark_persistent(l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__2);
+l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__3 = _init_l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__3();
+lean_mark_persistent(l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__3);
+l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__4 = _init_l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__4();
+lean_mark_persistent(l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__4);
+l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__5 = _init_l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__5();
+lean_mark_persistent(l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__5);
+l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__6 = _init_l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__6();
+lean_mark_persistent(l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__6);
+l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__7 = _init_l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__7();
+lean_mark_persistent(l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__7);
+l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__8 = _init_l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__8();
+lean_mark_persistent(l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__8);
+l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__9 = _init_l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__9();
+lean_mark_persistent(l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__9);
+l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__10 = _init_l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__10();
+lean_mark_persistent(l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__10);
+l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__11 = _init_l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__11();
+lean_mark_persistent(l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__11);
+l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__12 = _init_l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__12();
+lean_mark_persistent(l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__12);
+l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__13 = _init_l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__13();
+lean_mark_persistent(l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__13);
+l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__14 = _init_l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__14();
+lean_mark_persistent(l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__14);
+l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__15 = _init_l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__15();
+lean_mark_persistent(l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__15);
+l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__16 = _init_l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__16();
+lean_mark_persistent(l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__16);
+l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__17 = _init_l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__17();
+lean_mark_persistent(l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__17);
+l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__18 = _init_l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__18();
+lean_mark_persistent(l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__18);
+l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__19 = _init_l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__19();
+lean_mark_persistent(l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__19);
+l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__20 = _init_l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__20();
+lean_mark_persistent(l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__20);
+l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__21 = _init_l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__21();
+lean_mark_persistent(l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__21);
+l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__22 = _init_l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__22();
+lean_mark_persistent(l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__22);
+l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__23 = _init_l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__23();
+lean_mark_persistent(l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__23);
+l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__24 = _init_l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__24();
+lean_mark_persistent(l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917____closed__24);
+l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917_ = _init_l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917_();
+lean_mark_persistent(l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_6917_);
+l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_7216_ = _init_l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_7216_();
+lean_mark_persistent(l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_7216_);
+l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_7230_ = _init_l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_7230_();
+lean_mark_persistent(l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_7230_);
+l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_7244_ = _init_l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_7244_();
+lean_mark_persistent(l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_7244_);
+l_CategoryTheory_Limits_Cones_postcompose___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__1___rarg___closed__1 = _init_l_CategoryTheory_Limits_Cones_postcompose___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__1___rarg___closed__1();
+lean_mark_persistent(l_CategoryTheory_Limits_Cones_postcompose___at_CategoryTheory_Limits_Fork_isLimitOfIsos___spec__1___rarg___closed__1);
+l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_7531_ = _init_l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_7531_();
+lean_mark_persistent(l___auto____x40_Mathlib_CategoryTheory_Limits_Shapes_Equalizers___hyg_7531_);
+l_CategoryTheory_Limits_isLimitIdFork___rarg___closed__1 = _init_l_CategoryTheory_Limits_isLimitIdFork___rarg___closed__1();
+lean_mark_persistent(l_CategoryTheory_Limits_isLimitIdFork___rarg___closed__1);
+l_CategoryTheory_Limits_isColimitIdCofork___rarg___closed__1 = _init_l_CategoryTheory_Limits_isColimitIdCofork___rarg___closed__1();
+lean_mark_persistent(l_CategoryTheory_Limits_isColimitIdCofork___rarg___closed__1);
+return lean_io_result_mk_ok(lean_box(0));
+}
+#ifdef __cplusplus
+}
+#endif

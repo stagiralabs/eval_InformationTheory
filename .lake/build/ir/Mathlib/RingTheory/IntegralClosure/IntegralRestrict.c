@@ -1,0 +1,45 @@
+// Lean compiler output
+// Module: Mathlib.RingTheory.IntegralClosure.IntegralRestrict
+// Imports: Init Mathlib.RingTheory.DedekindDomain.IntegralClosure Mathlib.RingTheory.RingHom.Finite Mathlib.RingTheory.Localization.LocalizationLocalization Mathlib.RingTheory.Localization.NormTrace
+#include <lean/lean.h>
+#if defined(__clang__)
+#pragma clang diagnostic ignored "-Wunused-parameter"
+#pragma clang diagnostic ignored "-Wunused-label"
+#elif defined(__GNUC__) && !defined(__CLANG__)
+#pragma GCC diagnostic ignored "-Wunused-parameter"
+#pragma GCC diagnostic ignored "-Wunused-label"
+#pragma GCC diagnostic ignored "-Wunused-but-set-variable"
+#endif
+#ifdef __cplusplus
+extern "C" {
+#endif
+lean_object* initialize_Init(uint8_t builtin, lean_object*);
+lean_object* initialize_Mathlib_RingTheory_DedekindDomain_IntegralClosure(uint8_t builtin, lean_object*);
+lean_object* initialize_Mathlib_RingTheory_RingHom_Finite(uint8_t builtin, lean_object*);
+lean_object* initialize_Mathlib_RingTheory_Localization_LocalizationLocalization(uint8_t builtin, lean_object*);
+lean_object* initialize_Mathlib_RingTheory_Localization_NormTrace(uint8_t builtin, lean_object*);
+static bool _G_initialized = false;
+LEAN_EXPORT lean_object* initialize_Mathlib_RingTheory_IntegralClosure_IntegralRestrict(uint8_t builtin, lean_object* w) {
+lean_object * res;
+if (_G_initialized) return lean_io_result_mk_ok(lean_box(0));
+_G_initialized = true;
+res = initialize_Init(builtin, lean_io_mk_world());
+if (lean_io_result_is_error(res)) return res;
+lean_dec_ref(res);
+res = initialize_Mathlib_RingTheory_DedekindDomain_IntegralClosure(builtin, lean_io_mk_world());
+if (lean_io_result_is_error(res)) return res;
+lean_dec_ref(res);
+res = initialize_Mathlib_RingTheory_RingHom_Finite(builtin, lean_io_mk_world());
+if (lean_io_result_is_error(res)) return res;
+lean_dec_ref(res);
+res = initialize_Mathlib_RingTheory_Localization_LocalizationLocalization(builtin, lean_io_mk_world());
+if (lean_io_result_is_error(res)) return res;
+lean_dec_ref(res);
+res = initialize_Mathlib_RingTheory_Localization_NormTrace(builtin, lean_io_mk_world());
+if (lean_io_result_is_error(res)) return res;
+lean_dec_ref(res);
+return lean_io_result_mk_ok(lean_box(0));
+}
+#ifdef __cplusplus
+}
+#endif

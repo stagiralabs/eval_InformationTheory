@@ -1,0 +1,4759 @@
+// Lean compiler output
+// Module: Mathlib.Order.Category.BddLat
+// Imports: Init Mathlib.CategoryTheory.Adjunction.Unique Mathlib.Order.Category.BddOrd Mathlib.Order.Category.Lat Mathlib.Order.Category.Semilat
+#include <lean/lean.h>
+#if defined(__clang__)
+#pragma clang diagnostic ignored "-Wunused-parameter"
+#pragma clang diagnostic ignored "-Wunused-label"
+#elif defined(__GNUC__) && !defined(__CLANG__)
+#pragma GCC diagnostic ignored "-Wunused-parameter"
+#pragma GCC diagnostic ignored "-Wunused-label"
+#pragma GCC diagnostic ignored "-Wunused-but-set-variable"
+#endif
+#ifdef __cplusplus
+extern "C" {
+#endif
+lean_object* l_CategoryTheory_conjugateIsoEquiv___elambda__2___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_BddLat_dualEquiv___lambda__1(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__105(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__109(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Adjunction_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__74___lambda__1(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_BddLat_dual___lambda__2___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__57(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_associator___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__45(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__138(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__27(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_associator___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__122___boxed(lean_object*, lean_object*, lean_object*);
+static lean_object* l_BddLat_dualEquiv___lambda__1___closed__1;
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__106(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_BddLat_hasForgetToLat___lambda__1___boxed(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__120(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_ofComponents___at_BddLat_dualEquiv___spec__3___lambda__1(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__1(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_latToBddLat___lambda__1(lean_object*);
+LEAN_EXPORT lean_object* l_BddLat_Hom_Simps_hom___rarg(lean_object*);
+static lean_object* l_BddLat_hasForgetToLat___closed__2;
+LEAN_EXPORT lean_object* l_BddLat_dualEquiv___lambda__2(lean_object*, lean_object*);
+static lean_object* l_latToBddLat___closed__3;
+LEAN_EXPORT lean_object* l_BddLat_hasForgetToBddOrd___lambda__1(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__6(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_associator___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__45___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__47(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__43(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__115(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__88(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__18;
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__130(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_rightUnitor___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__17(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Adjunction_mk_x27___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__72(lean_object*, lean_object*, lean_object*);
+static lean_object* l_CategoryTheory_Functor_id___at_BddLat_dualEquiv___spec__1___closed__2;
+LEAN_EXPORT lean_object* l_latToBddLatForgetAdjunction___lambda__1(lean_object*);
+LEAN_EXPORT lean_object* l_BddLat_hasForgetToLat___lambda__1(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__87(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__58(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__3(lean_object*, lean_object*);
+static lean_object* l_BddLat_instConcreteCategoryBoundedLatticeHomCarrier___lambda__1___closed__1;
+LEAN_EXPORT lean_object* l_BddLat_instLargeCategory___lambda__2___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__92(lean_object*, lean_object*);
+lean_object* l_WithBot_lattice___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__125(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Equivalence_toAdjunction___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__73(lean_object*);
+lean_object* l_SupHom_comp___elambda__1___rarg(lean_object*, lean_object*, lean_object*);
+lean_object* l_Lattice_toSemilatticeInf___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__36(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_BddLat_of___rarg(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_associator___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__53___boxed(lean_object*, lean_object*, lean_object*);
+static lean_object* l_BddLat_hasForgetToSemilatSup___closed__1;
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatForgetAdjunction___spec__4(lean_object*, lean_object*);
+static lean_object* l_BddLat_hasForgetToBddOrd___closed__1;
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatForgetAdjunction___spec__3(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Adjunction_mk_x27___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__141(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_BddLat_of(lean_object*);
+LEAN_EXPORT lean_object* l_BddLat_dual;
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_ofComponents___at_BddLat_dualEquiv___spec__3(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_BddLat_dual___lambda__2(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Adjunction_homEquiv___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__8(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+lean_object* l_CompleteLattice_toBoundedOrder___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__86;
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_associator___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__93(lean_object*, lean_object*, lean_object*);
+lean_object* l_CategoryTheory_NatTrans_id___elambda__1___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__2(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__83(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerRight___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__100(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__52(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__38(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_rightUnitor___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__85___boxed(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__12(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__124(lean_object*, lean_object*);
+static lean_object* l_BddLat_dual___closed__3;
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__11(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__65(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__44(lean_object*, lean_object*);
+static lean_object* l_BddLat_instConcreteCategoryBoundedLatticeHomCarrier___closed__2;
+LEAN_EXPORT lean_object* l_CategoryTheory_Adjunction_mk_x27___at_latToBddLatForgetAdjunction___spec__6(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_id___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__145(lean_object*);
+LEAN_EXPORT lean_object* l_BddLat_instLargeCategory___lambda__2(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__55(lean_object*, lean_object*);
+static lean_object* l_BddLat_dual___closed__1;
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__21(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_associator___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__35(lean_object*, lean_object*, lean_object*);
+lean_object* l_OrderDual_instLattice___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__81(lean_object*, lean_object*);
+static lean_object* l_BddLat_instLargeCategory___closed__3;
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__70(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+lean_object* l_CategoryTheory_NatTrans_vcomp___elambda__1___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_latToBddLatForgetAdjunction___spec__2;
+lean_object* l_WithTop_boundedOrder___rarg(lean_object*);
+static lean_object* l_latToBddLatForgetAdjunction___lambda__2___closed__1;
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_associator___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__114(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_BddLat_hasForgetToSemilatInf___lambda__1(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__91(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_latToBddLatForgetAdjunction___spec__5;
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_BddLat_dualEquiv___spec__1;
+static lean_object* l_latToBddLat___closed__1;
+static lean_object* l_CategoryTheory_NatIso_ofComponents___at_BddLat_dualEquiv___spec__3___closed__1;
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__118(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__89(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__140(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Adjunction_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__5(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+static lean_object* l_BddLat_hasForgetToLat___closed__1;
+LEAN_EXPORT lean_object* l_BddLat_hasForgetToLat;
+LEAN_EXPORT lean_object* l_BddLat_ofHom___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__42(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__15;
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__7(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_BddLat_dualEquiv;
+static lean_object* l_CategoryTheory_Functor_rightUnitor___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__17___closed__1;
+LEAN_EXPORT lean_object* l_CategoryTheory_Adjunction_mkOfHomEquiv___at_latToBddLatForgetAdjunction___spec__1___lambda__1(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerLeft___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__90(lean_object*, lean_object*, lean_object*, lean_object*);
+lean_object* l_CategoryTheory_whiskerRight___elambda__1___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__61(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_BddLat_Hom_Simps_hom(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__117(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerLeft___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__128(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__16(lean_object*, lean_object*);
+extern lean_object* l_Lat_instCategory;
+LEAN_EXPORT lean_object* l_BddLat_ofHom___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__54(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_associator___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__122(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__49(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__116(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__34(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_symm___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__146(lean_object*, lean_object*, lean_object*);
+lean_object* l_OrderDual_instBoundedOrder___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__37(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__79;
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__66(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__31(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__82(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_BddLat_instLargeCategory;
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__137(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_BddLat_Hom_hom___boxed(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Adjunction_mkOfHomEquiv___at_latToBddLatForgetAdjunction___spec__1(lean_object*, lean_object*, lean_object*);
+lean_object* l_Equiv_trans___rarg(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__63;
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__30(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__10;
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_rightUnitor___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__17___boxed(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__2(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+lean_object* l_LatticeHom_withTopWithBot_x27___rarg(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_associator___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__53(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__14(lean_object*, lean_object*);
+extern lean_object* l_Lat_dualEquiv;
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_ofComponents___at_BddLat_dualEquiv___spec__3___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_BddLat_Hom_hom___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__94(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__19(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__121(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__29(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_rightUnitor___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__62(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__108(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_BddLat_hasForgetToSemilatSup___lambda__1(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_refl___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__144(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Adjunction_homEquiv___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__78(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_latToBddLatForgetAdjunction___lambda__3___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__76(lean_object*, lean_object*);
+static lean_object* l_BddLat_hasForgetToBddOrd___closed__2;
+static lean_object* l_latToBddLat___closed__2;
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__28(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_BddLat_dual___lambda__1(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__107(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerRight___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__32(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_BddLat_instConcreteCategoryBoundedLatticeHomCarrier___lambda__1___boxed(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__99(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_latToBddLat;
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_ofComponents___at_BddLat_dualEquiv___spec__4(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__39(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__111(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_symm___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__146___boxed(lean_object*, lean_object*, lean_object*);
+lean_object* l_Equiv_symm___elambda__2___rarg(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_latToBddLatForgetAdjunction___lambda__4(lean_object*, lean_object*);
+static lean_object* l_CategoryTheory_Functor_associator___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__122___closed__1;
+LEAN_EXPORT lean_object* l_BddLat_instConcreteCategoryBoundedLatticeHomCarrier;
+LEAN_EXPORT lean_object* l_CategoryTheory_Adjunction_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__5___lambda__1(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+extern lean_object* l_Lat_dual;
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__112(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_BddLat_dualEquiv___spec__1___lambda__1(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_ofComponents___at_BddLat_dualEquiv___spec__4___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Adjunction_homEquiv___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__77(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_BddLat_Hom_hom(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__96(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__134(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+lean_object* l_Equiv_symm___rarg(lean_object*);
+lean_object* l_CategoryTheory_Adjunction_homEquiv___elambda__1___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__20(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_BddLat_Iso_mk___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_conjugateIsoEquiv___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__143(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+static lean_object* l_BddLat_instInhabited___closed__2;
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerLeft___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__59(lean_object*, lean_object*, lean_object*, lean_object*);
+lean_object* l_CategoryTheory_conjugateIsoEquiv___elambda__1___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_BddLat_Hom_hom___rarg___boxed(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__68(lean_object*, lean_object*);
+static lean_object* l_BddLat_hasForgetToSemilatSup___closed__2;
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__97(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_BddLat_instConcreteCategoryBoundedLatticeHomCarrier___lambda__2___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__48(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_BddLat_Iso_mk(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_ofComponents___at_BddLat_dualEquiv___spec__3___lambda__2(lean_object*, lean_object*);
+static lean_object* l_BddLat_instInhabited___closed__1;
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_rightUnitor___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__85(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__104(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__139(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__51(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_associator___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__93___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_rightUnitor___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__131(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Adjunction_leftAdjointUniq___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__142(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_BddLat_Hom_Simps_hom___rarg___boxed(lean_object*);
+lean_object* l_id___rarg___boxed(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_BddLat_dualEquiv___spec__1___lambda__1___boxed(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_associator___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__103(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__80(lean_object*, lean_object*);
+static lean_object* l_BddLat_hasForgetToSemilatInf___closed__2;
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__46(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_BddLat_instInhabited;
+lean_object* l_CategoryTheory_Functor_category___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__26(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_BddLat_instCoeSortType;
+static lean_object* l_BddLat_instConcreteCategoryBoundedLatticeHomCarrier___closed__1;
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__24(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__33(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__95(lean_object*, lean_object*);
+extern lean_object* l_PUnit_instCompleteAtomicBooleanAlgebra;
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerRight___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__136(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__110(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__98(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__1(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__69(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__41(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+static lean_object* l_latToBddLat___lambda__1___closed__1;
+lean_object* l_Equiv_toEmbedding___elambda__1___rarg(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_associator___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__103___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__40(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+static lean_object* l_BddLat_dual___closed__2;
+static lean_object* l_CategoryTheory_Functor_associator___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__35___closed__1;
+LEAN_EXPORT lean_object* l_BddLat_ofHom___rarg___boxed(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__60(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__84(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__123(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_BddLat_instConcreteCategoryBoundedLatticeHomCarrier___lambda__2(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__101(lean_object*, lean_object*);
+lean_object* l_Function_comp___rarg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__64(lean_object*, lean_object*);
+lean_object* l_CategoryTheory_whiskerLeft___elambda__1___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_latToBddLatForgetAdjunction;
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__23(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_associator___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__35___boxed(lean_object*, lean_object*, lean_object*);
+lean_object* l_Equiv_refl(lean_object*);
+LEAN_EXPORT lean_object* l_BddLat_instLargeCategory___lambda__1___boxed(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_rightUnitor___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__131___boxed(lean_object*);
+static lean_object* l_BddLat_instConcreteCategoryBoundedLatticeHomCarrier___closed__3;
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__56(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Equivalence_toAdjunction___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__4(lean_object*);
+static lean_object* l_latToBddLatForgetAdjunction___closed__1;
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__50(lean_object*, lean_object*);
+static lean_object* l_BddLat_instLargeCategory___closed__2;
+LEAN_EXPORT lean_object* l_BddLat_hasForgetToBddOrd;
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__135(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__119(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Adjunction_mk_x27___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__72___boxed(lean_object*, lean_object*, lean_object*);
+static lean_object* l_latToBddLatForgetAdjunction___lambda__2___closed__2;
+lean_object* l_LatticeHom_dual___elambda__2___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_BddLat_hasForgetToSemilatSup;
+static lean_object* l_latToBddLatForgetAdjunction___lambda__4___closed__1;
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__132;
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__127(lean_object*, lean_object*);
+static lean_object* l_BddLat_hasForgetToSemilatInf___closed__1;
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_associator___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__25___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Adjunction_mkOfHomEquiv___at_latToBddLatForgetAdjunction___spec__1___lambda__2(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_BddLat_ofHom(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__126(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Adjunction_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__74(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Adjunction_mk_x27___at_latToBddLatForgetAdjunction___spec__6___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerRight___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__67(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_BddLat_hasForgetToSemilatSup___lambda__1___boxed(lean_object*);
+static lean_object* l_CategoryTheory_Functor_id___at_BddLat_dualEquiv___spec__1___closed__1;
+static lean_object* l_BddLat_instLargeCategory___closed__1;
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_rightUnitor___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__62___boxed(lean_object*);
+LEAN_EXPORT lean_object* l_BddLat_Hom_Simps_hom___boxed(lean_object*, lean_object*);
+lean_object* l_CategoryTheory_Adjunction_homEquiv___elambda__2___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+lean_object* l_BoundedLatticeHom_instFunLike___rarg(lean_object*, lean_object*);
+lean_object* l_WithTop_lattice___rarg(lean_object*);
+lean_object* l_LatticeHom_withTopWithBot___rarg___boxed(lean_object*, lean_object*, lean_object*);
+static lean_object* l_BddLat_instLargeCategory___lambda__1___closed__1;
+LEAN_EXPORT lean_object* l_latToBddLatForgetAdjunction___lambda__3(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerLeft___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__22(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Adjunction_homEquiv___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__9(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_BddLat_hasForgetToSemilatInf;
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__133(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Adjunction_mk_x27___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__141___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_latToBddLatForgetAdjunction___lambda__2(lean_object*);
+LEAN_EXPORT lean_object* l_latToBddLatCompDualIsoDualCompLatToBddLat;
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__75(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_BddLat_instLargeCategory___lambda__1(lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_associator___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__114___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__13(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__129(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__71(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_BddLat_instConcreteCategoryBoundedLatticeHomCarrier___lambda__1(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__102(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_associator___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__25(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__113;
+static lean_object* l_CategoryTheory_Functor_id___at_latToBddLatForgetAdjunction___spec__2___closed__1;
+static lean_object* _init_l_BddLat_instCoeSortType() {
+_start:
+{
+return lean_box(0);
+}
+}
+LEAN_EXPORT lean_object* l_BddLat_of___rarg(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_3, 0, x_1);
+lean_ctor_set(x_3, 1, x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_BddLat_of(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_closure((void*)(l_BddLat_of___rarg), 2, 0);
+return x_2;
+}
+}
+static lean_object* _init_l_BddLat_instInhabited___closed__1() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; lean_object* x_3; 
+x_1 = l_PUnit_instCompleteAtomicBooleanAlgebra;
+x_2 = lean_ctor_get(x_1, 0);
+lean_inc(x_2);
+x_3 = l_CompleteLattice_toBoundedOrder___rarg(x_2);
+lean_dec(x_2);
+return x_3;
+}
+}
+static lean_object* _init_l_BddLat_instInhabited___closed__2() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+x_1 = l_PUnit_instCompleteAtomicBooleanAlgebra;
+x_2 = lean_ctor_get(x_1, 0);
+lean_inc(x_2);
+x_3 = lean_ctor_get(x_2, 0);
+lean_inc(x_3);
+lean_dec(x_2);
+x_4 = l_BddLat_instInhabited___closed__1;
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+static lean_object* _init_l_BddLat_instInhabited() {
+_start:
+{
+lean_object* x_1; 
+x_1 = l_BddLat_instInhabited___closed__2;
+return x_1;
+}
+}
+static lean_object* _init_l_BddLat_instLargeCategory___lambda__1___closed__1() {
+_start:
+{
+lean_object* x_1; 
+x_1 = lean_alloc_closure((void*)(l_id___rarg___boxed), 1, 0);
+return x_1;
+}
+}
+LEAN_EXPORT lean_object* l_BddLat_instLargeCategory___lambda__1(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = l_BddLat_instLargeCategory___lambda__1___closed__1;
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_BddLat_instLargeCategory___lambda__2(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = lean_alloc_closure((void*)(l_SupHom_comp___elambda__1___rarg), 3, 2);
+lean_closure_set(x_6, 0, x_5);
+lean_closure_set(x_6, 1, x_4);
+return x_6;
+}
+}
+static lean_object* _init_l_BddLat_instLargeCategory___closed__1() {
+_start:
+{
+lean_object* x_1; 
+x_1 = lean_alloc_closure((void*)(l_BddLat_instLargeCategory___lambda__1___boxed), 1, 0);
+return x_1;
+}
+}
+static lean_object* _init_l_BddLat_instLargeCategory___closed__2() {
+_start:
+{
+lean_object* x_1; 
+x_1 = lean_alloc_closure((void*)(l_BddLat_instLargeCategory___lambda__2___boxed), 5, 0);
+return x_1;
+}
+}
+static lean_object* _init_l_BddLat_instLargeCategory___closed__3() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; lean_object* x_3; lean_object* x_4; 
+x_1 = lean_box(0);
+x_2 = l_BddLat_instLargeCategory___closed__1;
+x_3 = l_BddLat_instLargeCategory___closed__2;
+x_4 = lean_alloc_ctor(0, 3, 0);
+lean_ctor_set(x_4, 0, x_1);
+lean_ctor_set(x_4, 1, x_2);
+lean_ctor_set(x_4, 2, x_3);
+return x_4;
+}
+}
+static lean_object* _init_l_BddLat_instLargeCategory() {
+_start:
+{
+lean_object* x_1; 
+x_1 = l_BddLat_instLargeCategory___closed__3;
+return x_1;
+}
+}
+LEAN_EXPORT lean_object* l_BddLat_instLargeCategory___lambda__1___boxed(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = l_BddLat_instLargeCategory___lambda__1(x_1);
+lean_dec(x_1);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_BddLat_instLargeCategory___lambda__2___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; 
+x_6 = l_BddLat_instLargeCategory___lambda__2(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_6;
+}
+}
+static lean_object* _init_l_BddLat_instConcreteCategoryBoundedLatticeHomCarrier___lambda__1___closed__1() {
+_start:
+{
+lean_object* x_1; 
+x_1 = lean_alloc_closure((void*)(l_BoundedLatticeHom_instFunLike___rarg), 2, 0);
+return x_1;
+}
+}
+LEAN_EXPORT lean_object* l_BddLat_instConcreteCategoryBoundedLatticeHomCarrier___lambda__1(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_BddLat_instConcreteCategoryBoundedLatticeHomCarrier___lambda__1___closed__1;
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_BddLat_instConcreteCategoryBoundedLatticeHomCarrier___lambda__2(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_inc(x_3);
+return x_3;
+}
+}
+static lean_object* _init_l_BddLat_instConcreteCategoryBoundedLatticeHomCarrier___closed__1() {
+_start:
+{
+lean_object* x_1; 
+x_1 = lean_alloc_closure((void*)(l_BddLat_instConcreteCategoryBoundedLatticeHomCarrier___lambda__1___boxed), 2, 0);
+return x_1;
+}
+}
+static lean_object* _init_l_BddLat_instConcreteCategoryBoundedLatticeHomCarrier___closed__2() {
+_start:
+{
+lean_object* x_1; 
+x_1 = lean_alloc_closure((void*)(l_BddLat_instConcreteCategoryBoundedLatticeHomCarrier___lambda__2___boxed), 3, 0);
+return x_1;
+}
+}
+static lean_object* _init_l_BddLat_instConcreteCategoryBoundedLatticeHomCarrier___closed__3() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; 
+x_1 = l_BddLat_instConcreteCategoryBoundedLatticeHomCarrier___closed__2;
+x_2 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_2, 0, x_1);
+lean_ctor_set(x_2, 1, x_1);
+return x_2;
+}
+}
+static lean_object* _init_l_BddLat_instConcreteCategoryBoundedLatticeHomCarrier() {
+_start:
+{
+lean_object* x_1; 
+x_1 = l_BddLat_instConcreteCategoryBoundedLatticeHomCarrier___closed__3;
+return x_1;
+}
+}
+LEAN_EXPORT lean_object* l_BddLat_instConcreteCategoryBoundedLatticeHomCarrier___lambda__1___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_BddLat_instConcreteCategoryBoundedLatticeHomCarrier___lambda__1(x_1, x_2);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_BddLat_instConcreteCategoryBoundedLatticeHomCarrier___lambda__2___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_BddLat_instConcreteCategoryBoundedLatticeHomCarrier___lambda__2(x_1, x_2, x_3);
+lean_dec(x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_BddLat_Hom_hom___rarg(lean_object* x_1) {
+_start:
+{
+lean_inc(x_1);
+return x_1;
+}
+}
+LEAN_EXPORT lean_object* l_BddLat_Hom_hom(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = lean_alloc_closure((void*)(l_BddLat_Hom_hom___rarg___boxed), 1, 0);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_BddLat_Hom_hom___rarg___boxed(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = l_BddLat_Hom_hom___rarg(x_1);
+lean_dec(x_1);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_BddLat_Hom_hom___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_BddLat_Hom_hom(x_1, x_2);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_BddLat_ofHom___rarg(lean_object* x_1) {
+_start:
+{
+lean_inc(x_1);
+return x_1;
+}
+}
+LEAN_EXPORT lean_object* l_BddLat_ofHom(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = lean_alloc_closure((void*)(l_BddLat_ofHom___rarg___boxed), 1, 0);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_BddLat_ofHom___rarg___boxed(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = l_BddLat_ofHom___rarg(x_1);
+lean_dec(x_1);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_BddLat_ofHom___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; 
+x_7 = l_BddLat_ofHom(x_1, x_2, x_3, x_4, x_5, x_6);
+lean_dec(x_6);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_BddLat_Hom_Simps_hom___rarg(lean_object* x_1) {
+_start:
+{
+lean_inc(x_1);
+return x_1;
+}
+}
+LEAN_EXPORT lean_object* l_BddLat_Hom_Simps_hom(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = lean_alloc_closure((void*)(l_BddLat_Hom_Simps_hom___rarg___boxed), 1, 0);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_BddLat_Hom_Simps_hom___rarg___boxed(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = l_BddLat_Hom_Simps_hom___rarg(x_1);
+lean_dec(x_1);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_BddLat_Hom_Simps_hom___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_BddLat_Hom_Simps_hom(x_1, x_2);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_BddLat_hasForgetToBddOrd___lambda__1(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; lean_object* x_3; lean_object* x_4; uint8_t x_5; 
+x_2 = lean_ctor_get(x_1, 0);
+lean_inc(x_2);
+x_3 = lean_ctor_get(x_1, 1);
+lean_inc(x_3);
+lean_dec(x_1);
+x_4 = l_Lattice_toSemilatticeInf___rarg(x_2);
+x_5 = !lean_is_exclusive(x_4);
+if (x_5 == 0)
+{
+lean_object* x_6; 
+x_6 = lean_ctor_get(x_4, 1);
+lean_dec(x_6);
+lean_ctor_set(x_4, 1, x_3);
+return x_4;
+}
+else
+{
+lean_object* x_7; lean_object* x_8; 
+x_7 = lean_ctor_get(x_4, 0);
+lean_inc(x_7);
+lean_dec(x_4);
+x_8 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_8, 0, x_7);
+lean_ctor_set(x_8, 1, x_3);
+return x_8;
+}
+}
+}
+static lean_object* _init_l_BddLat_hasForgetToBddOrd___closed__1() {
+_start:
+{
+lean_object* x_1; 
+x_1 = lean_alloc_closure((void*)(l_BddLat_hasForgetToBddOrd___lambda__1), 1, 0);
+return x_1;
+}
+}
+static lean_object* _init_l_BddLat_hasForgetToBddOrd___closed__2() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; lean_object* x_3; 
+x_1 = l_BddLat_hasForgetToBddOrd___closed__1;
+x_2 = l_BddLat_instConcreteCategoryBoundedLatticeHomCarrier___closed__2;
+x_3 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_3, 0, x_1);
+lean_ctor_set(x_3, 1, x_2);
+return x_3;
+}
+}
+static lean_object* _init_l_BddLat_hasForgetToBddOrd() {
+_start:
+{
+lean_object* x_1; 
+x_1 = l_BddLat_hasForgetToBddOrd___closed__2;
+return x_1;
+}
+}
+LEAN_EXPORT lean_object* l_BddLat_hasForgetToLat___lambda__1(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_ctor_get(x_1, 0);
+lean_inc(x_2);
+return x_2;
+}
+}
+static lean_object* _init_l_BddLat_hasForgetToLat___closed__1() {
+_start:
+{
+lean_object* x_1; 
+x_1 = lean_alloc_closure((void*)(l_BddLat_hasForgetToLat___lambda__1___boxed), 1, 0);
+return x_1;
+}
+}
+static lean_object* _init_l_BddLat_hasForgetToLat___closed__2() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; lean_object* x_3; 
+x_1 = l_BddLat_hasForgetToLat___closed__1;
+x_2 = l_BddLat_instConcreteCategoryBoundedLatticeHomCarrier___closed__2;
+x_3 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_3, 0, x_1);
+lean_ctor_set(x_3, 1, x_2);
+return x_3;
+}
+}
+static lean_object* _init_l_BddLat_hasForgetToLat() {
+_start:
+{
+lean_object* x_1; 
+x_1 = l_BddLat_hasForgetToLat___closed__2;
+return x_1;
+}
+}
+LEAN_EXPORT lean_object* l_BddLat_hasForgetToLat___lambda__1___boxed(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = l_BddLat_hasForgetToLat___lambda__1(x_1);
+lean_dec(x_1);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_BddLat_hasForgetToSemilatSup___lambda__1(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; lean_object* x_3; lean_object* x_4; lean_object* x_5; lean_object* x_6; 
+x_2 = lean_ctor_get(x_1, 0);
+x_3 = lean_ctor_get(x_2, 0);
+x_4 = lean_ctor_get(x_1, 1);
+x_5 = lean_ctor_get(x_4, 1);
+lean_inc(x_5);
+lean_inc(x_3);
+x_6 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_6, 0, x_3);
+lean_ctor_set(x_6, 1, x_5);
+return x_6;
+}
+}
+static lean_object* _init_l_BddLat_hasForgetToSemilatSup___closed__1() {
+_start:
+{
+lean_object* x_1; 
+x_1 = lean_alloc_closure((void*)(l_BddLat_hasForgetToSemilatSup___lambda__1___boxed), 1, 0);
+return x_1;
+}
+}
+static lean_object* _init_l_BddLat_hasForgetToSemilatSup___closed__2() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; lean_object* x_3; 
+x_1 = l_BddLat_hasForgetToSemilatSup___closed__1;
+x_2 = l_BddLat_instConcreteCategoryBoundedLatticeHomCarrier___closed__2;
+x_3 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_3, 0, x_1);
+lean_ctor_set(x_3, 1, x_2);
+return x_3;
+}
+}
+static lean_object* _init_l_BddLat_hasForgetToSemilatSup() {
+_start:
+{
+lean_object* x_1; 
+x_1 = l_BddLat_hasForgetToSemilatSup___closed__2;
+return x_1;
+}
+}
+LEAN_EXPORT lean_object* l_BddLat_hasForgetToSemilatSup___lambda__1___boxed(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = l_BddLat_hasForgetToSemilatSup___lambda__1(x_1);
+lean_dec(x_1);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_BddLat_hasForgetToSemilatInf___lambda__1(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; lean_object* x_3; lean_object* x_4; lean_object* x_5; lean_object* x_6; 
+x_2 = lean_ctor_get(x_1, 0);
+lean_inc(x_2);
+x_3 = l_Lattice_toSemilatticeInf___rarg(x_2);
+x_4 = lean_ctor_get(x_1, 1);
+lean_inc(x_4);
+lean_dec(x_1);
+x_5 = lean_ctor_get(x_4, 0);
+lean_inc(x_5);
+lean_dec(x_4);
+x_6 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_6, 0, x_3);
+lean_ctor_set(x_6, 1, x_5);
+return x_6;
+}
+}
+static lean_object* _init_l_BddLat_hasForgetToSemilatInf___closed__1() {
+_start:
+{
+lean_object* x_1; 
+x_1 = lean_alloc_closure((void*)(l_BddLat_hasForgetToSemilatInf___lambda__1), 1, 0);
+return x_1;
+}
+}
+static lean_object* _init_l_BddLat_hasForgetToSemilatInf___closed__2() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; lean_object* x_3; 
+x_1 = l_BddLat_hasForgetToSemilatInf___closed__1;
+x_2 = l_BddLat_instConcreteCategoryBoundedLatticeHomCarrier___closed__2;
+x_3 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_3, 0, x_1);
+lean_ctor_set(x_3, 1, x_2);
+return x_3;
+}
+}
+static lean_object* _init_l_BddLat_hasForgetToSemilatInf() {
+_start:
+{
+lean_object* x_1; 
+x_1 = l_BddLat_hasForgetToSemilatInf___closed__2;
+return x_1;
+}
+}
+LEAN_EXPORT lean_object* l_BddLat_Iso_mk(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+lean_inc(x_3);
+x_4 = lean_alloc_closure((void*)(l_Equiv_toEmbedding___elambda__1___rarg), 2, 1);
+lean_closure_set(x_4, 0, x_3);
+x_5 = l_Equiv_symm___rarg(x_3);
+x_6 = lean_alloc_closure((void*)(l_Equiv_toEmbedding___elambda__1___rarg), 2, 1);
+lean_closure_set(x_6, 0, x_5);
+x_7 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_7, 0, x_4);
+lean_ctor_set(x_7, 1, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_BddLat_Iso_mk___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_BddLat_Iso_mk(x_1, x_2, x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_BddLat_dual___lambda__1(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; lean_object* x_3; lean_object* x_4; lean_object* x_5; lean_object* x_6; 
+x_2 = lean_ctor_get(x_1, 0);
+lean_inc(x_2);
+x_3 = l_OrderDual_instLattice___rarg(x_2);
+x_4 = lean_ctor_get(x_1, 1);
+lean_inc(x_4);
+lean_dec(x_1);
+x_5 = l_OrderDual_instBoundedOrder___rarg(x_4);
+lean_dec(x_4);
+x_6 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_6, 0, x_3);
+lean_ctor_set(x_6, 1, x_5);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_BddLat_dual___lambda__2(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_LatticeHom_dual___elambda__2___rarg(x_3);
+return x_4;
+}
+}
+static lean_object* _init_l_BddLat_dual___closed__1() {
+_start:
+{
+lean_object* x_1; 
+x_1 = lean_alloc_closure((void*)(l_BddLat_dual___lambda__1), 1, 0);
+return x_1;
+}
+}
+static lean_object* _init_l_BddLat_dual___closed__2() {
+_start:
+{
+lean_object* x_1; 
+x_1 = lean_alloc_closure((void*)(l_BddLat_dual___lambda__2___boxed), 3, 0);
+return x_1;
+}
+}
+static lean_object* _init_l_BddLat_dual___closed__3() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; lean_object* x_3; 
+x_1 = l_BddLat_dual___closed__1;
+x_2 = l_BddLat_dual___closed__2;
+x_3 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_3, 0, x_1);
+lean_ctor_set(x_3, 1, x_2);
+return x_3;
+}
+}
+static lean_object* _init_l_BddLat_dual() {
+_start:
+{
+lean_object* x_1; 
+x_1 = l_BddLat_dual___closed__3;
+return x_1;
+}
+}
+LEAN_EXPORT lean_object* l_BddLat_dual___lambda__2___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_BddLat_dual___lambda__2(x_1, x_2, x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_BddLat_dualEquiv___spec__1___lambda__1(lean_object* x_1) {
+_start:
+{
+lean_inc(x_1);
+return x_1;
+}
+}
+static lean_object* _init_l_CategoryTheory_Functor_id___at_BddLat_dualEquiv___spec__1___closed__1() {
+_start:
+{
+lean_object* x_1; 
+x_1 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_id___at_BddLat_dualEquiv___spec__1___lambda__1___boxed), 1, 0);
+return x_1;
+}
+}
+static lean_object* _init_l_CategoryTheory_Functor_id___at_BddLat_dualEquiv___spec__1___closed__2() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; lean_object* x_3; 
+x_1 = l_CategoryTheory_Functor_id___at_BddLat_dualEquiv___spec__1___closed__1;
+x_2 = l_BddLat_instConcreteCategoryBoundedLatticeHomCarrier___closed__2;
+x_3 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_3, 0, x_1);
+lean_ctor_set(x_3, 1, x_2);
+return x_3;
+}
+}
+static lean_object* _init_l_CategoryTheory_Functor_id___at_BddLat_dualEquiv___spec__1() {
+_start:
+{
+lean_object* x_1; 
+x_1 = l_CategoryTheory_Functor_id___at_BddLat_dualEquiv___spec__1___closed__2;
+return x_1;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__1(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+x_4 = lean_ctor_get(x_1, 0);
+lean_inc(x_4);
+lean_dec(x_1);
+x_5 = lean_ctor_get(x_2, 0);
+lean_inc(x_5);
+lean_dec(x_2);
+x_6 = lean_apply_1(x_5, x_3);
+x_7 = lean_apply_1(x_4, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__2(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; lean_object* x_11; lean_object* x_12; 
+x_6 = lean_ctor_get(x_1, 1);
+lean_inc(x_6);
+lean_dec(x_1);
+x_7 = lean_ctor_get(x_2, 0);
+lean_inc(x_7);
+lean_inc(x_7);
+lean_inc(x_3);
+x_8 = lean_apply_1(x_7, x_3);
+lean_inc(x_4);
+x_9 = lean_apply_1(x_7, x_4);
+x_10 = lean_ctor_get(x_2, 1);
+lean_inc(x_10);
+lean_dec(x_2);
+x_11 = lean_apply_3(x_10, x_3, x_4, x_5);
+x_12 = lean_apply_3(x_6, x_8, x_9, x_11);
+return x_12;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+lean_inc(x_1);
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_3, 0, x_2);
+lean_closure_set(x_3, 1, x_1);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__2), 5, 2);
+lean_closure_set(x_4, 0, x_2);
+lean_closure_set(x_4, 1, x_1);
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_ofComponents___at_BddLat_dualEquiv___spec__3___lambda__1(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; 
+x_3 = lean_apply_1(x_1, x_2);
+x_4 = lean_ctor_get(x_3, 0);
+lean_inc(x_4);
+lean_dec(x_3);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_ofComponents___at_BddLat_dualEquiv___spec__3___lambda__2(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; 
+x_3 = lean_apply_1(x_1, x_2);
+x_4 = lean_ctor_get(x_3, 1);
+lean_inc(x_4);
+lean_dec(x_3);
+return x_4;
+}
+}
+static lean_object* _init_l_CategoryTheory_NatIso_ofComponents___at_BddLat_dualEquiv___spec__3___closed__1() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; 
+x_1 = l_BddLat_instLargeCategory;
+x_2 = l_CategoryTheory_Functor_category___rarg(x_1, lean_box(0), x_1);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_ofComponents___at_BddLat_dualEquiv___spec__3(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+lean_inc(x_3);
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_NatIso_ofComponents___at_BddLat_dualEquiv___spec__3___lambda__1), 2, 1);
+lean_closure_set(x_5, 0, x_3);
+x_6 = lean_alloc_closure((void*)(l_CategoryTheory_NatIso_ofComponents___at_BddLat_dualEquiv___spec__3___lambda__2), 2, 1);
+lean_closure_set(x_6, 0, x_3);
+x_7 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_7, 0, x_5);
+lean_ctor_set(x_7, 1, x_6);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_ofComponents___at_BddLat_dualEquiv___spec__4(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+lean_inc(x_3);
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_NatIso_ofComponents___at_BddLat_dualEquiv___spec__3___lambda__1), 2, 1);
+lean_closure_set(x_5, 0, x_3);
+x_6 = lean_alloc_closure((void*)(l_CategoryTheory_NatIso_ofComponents___at_BddLat_dualEquiv___spec__3___lambda__2), 2, 1);
+lean_closure_set(x_6, 0, x_3);
+x_7 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_7, 0, x_5);
+lean_ctor_set(x_7, 1, x_6);
+return x_7;
+}
+}
+static lean_object* _init_l_BddLat_dualEquiv___lambda__1___closed__1() {
+_start:
+{
+lean_object* x_1; 
+x_1 = l_Equiv_refl(lean_box(0));
+return x_1;
+}
+}
+LEAN_EXPORT lean_object* l_BddLat_dualEquiv___lambda__1(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; lean_object* x_6; lean_object* x_7; lean_object* x_8; lean_object* x_9; 
+x_3 = l_CategoryTheory_Functor_id___at_BddLat_dualEquiv___spec__1;
+x_4 = lean_ctor_get(x_3, 0);
+lean_inc(x_4);
+lean_inc(x_2);
+x_5 = lean_apply_1(x_4, x_2);
+x_6 = lean_ctor_get(x_1, 0);
+lean_inc(x_6);
+lean_dec(x_1);
+x_7 = lean_apply_1(x_6, x_2);
+x_8 = l_BddLat_dualEquiv___lambda__1___closed__1;
+x_9 = l_BddLat_Iso_mk(x_5, x_7, x_8);
+lean_dec(x_7);
+lean_dec(x_5);
+return x_9;
+}
+}
+LEAN_EXPORT lean_object* l_BddLat_dualEquiv___lambda__2(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; lean_object* x_6; lean_object* x_7; lean_object* x_8; lean_object* x_9; 
+x_3 = lean_ctor_get(x_1, 0);
+lean_inc(x_3);
+lean_dec(x_1);
+lean_inc(x_2);
+x_4 = lean_apply_1(x_3, x_2);
+x_5 = l_CategoryTheory_Functor_id___at_BddLat_dualEquiv___spec__1;
+x_6 = lean_ctor_get(x_5, 0);
+lean_inc(x_6);
+x_7 = lean_apply_1(x_6, x_2);
+x_8 = l_BddLat_dualEquiv___lambda__1___closed__1;
+x_9 = l_BddLat_Iso_mk(x_4, x_7, x_8);
+lean_dec(x_7);
+lean_dec(x_4);
+return x_9;
+}
+}
+static lean_object* _init_l_BddLat_dualEquiv() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; lean_object* x_3; lean_object* x_4; lean_object* x_5; lean_object* x_6; lean_object* x_7; lean_object* x_8; 
+x_1 = l_BddLat_dual;
+x_2 = l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2(x_1, x_1);
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_BddLat_dualEquiv___lambda__1), 2, 1);
+lean_closure_set(x_3, 0, x_2);
+x_4 = l_CategoryTheory_Functor_id___at_BddLat_dualEquiv___spec__1;
+x_5 = l_CategoryTheory_NatIso_ofComponents___at_BddLat_dualEquiv___spec__3(x_4, x_2, x_3, lean_box(0));
+lean_inc(x_2);
+x_6 = lean_alloc_closure((void*)(l_BddLat_dualEquiv___lambda__2), 2, 1);
+lean_closure_set(x_6, 0, x_2);
+x_7 = l_CategoryTheory_NatIso_ofComponents___at_BddLat_dualEquiv___spec__4(x_2, x_4, x_6, lean_box(0));
+lean_dec(x_2);
+x_8 = lean_alloc_ctor(0, 4, 0);
+lean_ctor_set(x_8, 0, x_1);
+lean_ctor_set(x_8, 1, x_1);
+lean_ctor_set(x_8, 2, x_5);
+lean_ctor_set(x_8, 3, x_7);
+return x_8;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_id___at_BddLat_dualEquiv___spec__1___lambda__1___boxed(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = l_CategoryTheory_Functor_id___at_BddLat_dualEquiv___spec__1___lambda__1(x_1);
+lean_dec(x_1);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_ofComponents___at_BddLat_dualEquiv___spec__3___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_NatIso_ofComponents___at_BddLat_dualEquiv___spec__3(x_1, x_2, x_3, x_4);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatIso_ofComponents___at_BddLat_dualEquiv___spec__4___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_CategoryTheory_NatIso_ofComponents___at_BddLat_dualEquiv___spec__4(x_1, x_2, x_3, x_4);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_5;
+}
+}
+static lean_object* _init_l_latToBddLat___lambda__1___closed__1() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; 
+x_1 = lean_box(0);
+x_2 = l_WithTop_boundedOrder___rarg(x_1);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_latToBddLat___lambda__1(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+x_2 = l_WithBot_lattice___rarg(x_1);
+x_3 = l_WithTop_lattice___rarg(x_2);
+x_4 = l_latToBddLat___lambda__1___closed__1;
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+static lean_object* _init_l_latToBddLat___closed__1() {
+_start:
+{
+lean_object* x_1; 
+x_1 = lean_alloc_closure((void*)(l_latToBddLat___lambda__1), 1, 0);
+return x_1;
+}
+}
+static lean_object* _init_l_latToBddLat___closed__2() {
+_start:
+{
+lean_object* x_1; 
+x_1 = lean_alloc_closure((void*)(l_LatticeHom_withTopWithBot___rarg___boxed), 3, 0);
+return x_1;
+}
+}
+static lean_object* _init_l_latToBddLat___closed__3() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; lean_object* x_3; 
+x_1 = l_latToBddLat___closed__1;
+x_2 = l_latToBddLat___closed__2;
+x_3 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_3, 0, x_1);
+lean_ctor_set(x_3, 1, x_2);
+return x_3;
+}
+}
+static lean_object* _init_l_latToBddLat() {
+_start:
+{
+lean_object* x_1; 
+x_1 = l_latToBddLat___closed__3;
+return x_1;
+}
+}
+static lean_object* _init_l_CategoryTheory_Functor_id___at_latToBddLatForgetAdjunction___spec__2___closed__1() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; lean_object* x_3; 
+x_1 = l_CategoryTheory_Functor_id___at_BddLat_dualEquiv___spec__1___closed__1;
+x_2 = l_BddLat_instConcreteCategoryBoundedLatticeHomCarrier___closed__2;
+x_3 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_3, 0, x_1);
+lean_ctor_set(x_3, 1, x_2);
+return x_3;
+}
+}
+static lean_object* _init_l_CategoryTheory_Functor_id___at_latToBddLatForgetAdjunction___spec__2() {
+_start:
+{
+lean_object* x_1; 
+x_1 = l_CategoryTheory_Functor_id___at_latToBddLatForgetAdjunction___spec__2___closed__1;
+return x_1;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatForgetAdjunction___spec__3(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+lean_inc(x_1);
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_3, 0, x_2);
+lean_closure_set(x_3, 1, x_1);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__2), 5, 2);
+lean_closure_set(x_4, 0, x_2);
+lean_closure_set(x_4, 1, x_1);
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatForgetAdjunction___spec__4(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+lean_inc(x_1);
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_3, 0, x_2);
+lean_closure_set(x_3, 1, x_1);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__2), 5, 2);
+lean_closure_set(x_4, 0, x_2);
+lean_closure_set(x_4, 1, x_1);
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+static lean_object* _init_l_CategoryTheory_Functor_id___at_latToBddLatForgetAdjunction___spec__5() {
+_start:
+{
+lean_object* x_1; 
+x_1 = l_CategoryTheory_Functor_id___at_BddLat_dualEquiv___spec__1___closed__2;
+return x_1;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Adjunction_mk_x27___at_latToBddLatForgetAdjunction___spec__6(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; lean_object* x_6; 
+x_4 = lean_ctor_get(x_3, 1);
+x_5 = lean_ctor_get(x_3, 2);
+lean_inc(x_5);
+lean_inc(x_4);
+x_6 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_6, 0, x_4);
+lean_ctor_set(x_6, 1, x_5);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Adjunction_mkOfHomEquiv___at_latToBddLatForgetAdjunction___spec__1___lambda__1(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; lean_object* x_6; lean_object* x_7; lean_object* x_8; lean_object* x_9; 
+x_4 = lean_ctor_get(x_1, 0);
+lean_inc(x_4);
+lean_dec(x_1);
+lean_inc(x_3);
+x_5 = lean_apply_1(x_4, x_3);
+x_6 = lean_apply_2(x_2, x_3, x_5);
+x_7 = lean_ctor_get(x_6, 0);
+lean_inc(x_7);
+lean_dec(x_6);
+x_8 = l_BddLat_instLargeCategory___lambda__1___closed__1;
+x_9 = lean_apply_1(x_7, x_8);
+return x_9;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Adjunction_mkOfHomEquiv___at_latToBddLatForgetAdjunction___spec__1___lambda__2(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; lean_object* x_6; lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; lean_object* x_11; lean_object* x_12; 
+x_4 = lean_ctor_get(x_1, 0);
+lean_inc(x_4);
+lean_dec(x_1);
+lean_inc(x_3);
+x_5 = lean_apply_1(x_4, x_3);
+x_6 = l_CategoryTheory_Functor_id___at_latToBddLatForgetAdjunction___spec__5;
+x_7 = lean_ctor_get(x_6, 0);
+lean_inc(x_7);
+x_8 = lean_apply_1(x_7, x_3);
+x_9 = lean_apply_2(x_2, x_5, x_8);
+x_10 = lean_ctor_get(x_9, 1);
+lean_inc(x_10);
+lean_dec(x_9);
+x_11 = l_BddLat_instLargeCategory___lambda__1___closed__1;
+x_12 = lean_apply_1(x_10, x_11);
+return x_12;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Adjunction_mkOfHomEquiv___at_latToBddLatForgetAdjunction___spec__1(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; lean_object* x_6; lean_object* x_7; 
+lean_inc(x_3);
+lean_inc(x_1);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Adjunction_mkOfHomEquiv___at_latToBddLatForgetAdjunction___spec__1___lambda__1), 3, 2);
+lean_closure_set(x_4, 0, x_1);
+lean_closure_set(x_4, 1, x_3);
+lean_inc(x_3);
+lean_inc(x_2);
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_Adjunction_mkOfHomEquiv___at_latToBddLatForgetAdjunction___spec__1___lambda__2), 3, 2);
+lean_closure_set(x_5, 0, x_2);
+lean_closure_set(x_5, 1, x_3);
+x_6 = lean_alloc_ctor(0, 3, 0);
+lean_ctor_set(x_6, 0, x_3);
+lean_ctor_set(x_6, 1, x_4);
+lean_ctor_set(x_6, 2, x_5);
+x_7 = l_CategoryTheory_Adjunction_mk_x27___at_latToBddLatForgetAdjunction___spec__6(x_1, x_2, x_6);
+lean_dec(x_6);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_latToBddLatForgetAdjunction___lambda__1(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = lean_alloc_ctor(1, 1, 0);
+lean_ctor_set(x_2, 0, x_1);
+return x_2;
+}
+}
+static lean_object* _init_l_latToBddLatForgetAdjunction___lambda__2___closed__1() {
+_start:
+{
+lean_object* x_1; 
+x_1 = lean_alloc_closure((void*)(l_latToBddLatForgetAdjunction___lambda__1), 1, 0);
+return x_1;
+}
+}
+static lean_object* _init_l_latToBddLatForgetAdjunction___lambda__2___closed__2() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; 
+x_1 = l_latToBddLatForgetAdjunction___lambda__2___closed__1;
+x_2 = lean_alloc_closure((void*)(l_Function_comp___rarg), 3, 2);
+lean_closure_set(x_2, 0, x_1);
+lean_closure_set(x_2, 1, x_1);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_latToBddLatForgetAdjunction___lambda__2(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; lean_object* x_3; 
+x_2 = l_latToBddLatForgetAdjunction___lambda__2___closed__2;
+x_3 = lean_alloc_closure((void*)(l_Function_comp___rarg), 3, 2);
+lean_closure_set(x_3, 0, x_1);
+lean_closure_set(x_3, 1, x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_latToBddLatForgetAdjunction___lambda__3(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; lean_object* x_6; 
+x_4 = lean_ctor_get(x_1, 0);
+lean_inc(x_4);
+x_5 = lean_ctor_get(x_1, 1);
+lean_inc(x_5);
+lean_dec(x_1);
+x_6 = l_LatticeHom_withTopWithBot_x27___rarg(x_2, x_4, x_5, x_3);
+lean_dec(x_4);
+return x_6;
+}
+}
+static lean_object* _init_l_latToBddLatForgetAdjunction___lambda__4___closed__1() {
+_start:
+{
+lean_object* x_1; 
+x_1 = lean_alloc_closure((void*)(l_latToBddLatForgetAdjunction___lambda__2), 1, 0);
+return x_1;
+}
+}
+LEAN_EXPORT lean_object* l_latToBddLatForgetAdjunction___lambda__4(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+x_3 = lean_alloc_closure((void*)(l_latToBddLatForgetAdjunction___lambda__3___boxed), 3, 2);
+lean_closure_set(x_3, 0, x_2);
+lean_closure_set(x_3, 1, x_1);
+x_4 = l_latToBddLatForgetAdjunction___lambda__4___closed__1;
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_4);
+lean_ctor_set(x_5, 1, x_3);
+return x_5;
+}
+}
+static lean_object* _init_l_latToBddLatForgetAdjunction___closed__1() {
+_start:
+{
+lean_object* x_1; 
+x_1 = lean_alloc_closure((void*)(l_latToBddLatForgetAdjunction___lambda__4), 2, 0);
+return x_1;
+}
+}
+static lean_object* _init_l_latToBddLatForgetAdjunction() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; lean_object* x_3; lean_object* x_4; 
+x_1 = l_latToBddLat;
+x_2 = l_BddLat_hasForgetToLat___closed__2;
+x_3 = l_latToBddLatForgetAdjunction___closed__1;
+x_4 = l_CategoryTheory_Adjunction_mkOfHomEquiv___at_latToBddLatForgetAdjunction___spec__1(x_1, x_2, x_3);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Adjunction_mk_x27___at_latToBddLatForgetAdjunction___spec__6___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Adjunction_mk_x27___at_latToBddLatForgetAdjunction___spec__6(x_1, x_2, x_3);
+lean_dec(x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_latToBddLatForgetAdjunction___lambda__3___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_latToBddLatForgetAdjunction___lambda__3(x_1, x_2, x_3);
+lean_dec(x_2);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__1(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+lean_inc(x_1);
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_3, 0, x_2);
+lean_closure_set(x_3, 1, x_1);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__2), 5, 2);
+lean_closure_set(x_4, 0, x_2);
+lean_closure_set(x_4, 1, x_1);
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__2(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+lean_inc(x_1);
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_3, 0, x_2);
+lean_closure_set(x_3, 1, x_1);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__2), 5, 2);
+lean_closure_set(x_4, 0, x_2);
+lean_closure_set(x_4, 1, x_1);
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__3(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+lean_inc(x_1);
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_3, 0, x_2);
+lean_closure_set(x_3, 1, x_1);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__2), 5, 2);
+lean_closure_set(x_4, 0, x_2);
+lean_closure_set(x_4, 1, x_1);
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Equivalence_toAdjunction___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__4(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; uint8_t x_3; 
+x_2 = lean_ctor_get(x_1, 2);
+lean_inc(x_2);
+x_3 = !lean_is_exclusive(x_2);
+if (x_3 == 0)
+{
+lean_object* x_4; lean_object* x_5; lean_object* x_6; 
+x_4 = lean_ctor_get(x_2, 1);
+lean_dec(x_4);
+x_5 = lean_ctor_get(x_1, 3);
+lean_inc(x_5);
+lean_dec(x_1);
+x_6 = lean_ctor_get(x_5, 0);
+lean_inc(x_6);
+lean_dec(x_5);
+lean_ctor_set(x_2, 1, x_6);
+return x_2;
+}
+else
+{
+lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; 
+x_7 = lean_ctor_get(x_2, 0);
+lean_inc(x_7);
+lean_dec(x_2);
+x_8 = lean_ctor_get(x_1, 3);
+lean_inc(x_8);
+lean_dec(x_1);
+x_9 = lean_ctor_get(x_8, 0);
+lean_inc(x_9);
+lean_dec(x_8);
+x_10 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_10, 0, x_7);
+lean_ctor_set(x_10, 1, x_9);
+return x_10;
+}
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__6(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+lean_inc(x_1);
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_3, 0, x_2);
+lean_closure_set(x_3, 1, x_1);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__2), 5, 2);
+lean_closure_set(x_4, 0, x_2);
+lean_closure_set(x_4, 1, x_1);
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__7(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+lean_inc(x_1);
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_3, 0, x_2);
+lean_closure_set(x_3, 1, x_1);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__2), 5, 2);
+lean_closure_set(x_4, 0, x_2);
+lean_closure_set(x_4, 1, x_1);
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Adjunction_homEquiv___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__8(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; lean_object* x_9; 
+x_6 = l_BddLat_instLargeCategory;
+lean_inc(x_5);
+lean_inc(x_4);
+lean_inc(x_3);
+lean_inc(x_2);
+lean_inc(x_1);
+x_7 = lean_alloc_closure((void*)(l_CategoryTheory_Adjunction_homEquiv___elambda__2___rarg___boxed), 9, 8);
+lean_closure_set(x_7, 0, x_6);
+lean_closure_set(x_7, 1, lean_box(0));
+lean_closure_set(x_7, 2, x_6);
+lean_closure_set(x_7, 3, x_1);
+lean_closure_set(x_7, 4, x_2);
+lean_closure_set(x_7, 5, x_3);
+lean_closure_set(x_7, 6, x_4);
+lean_closure_set(x_7, 7, x_5);
+x_8 = lean_alloc_closure((void*)(l_CategoryTheory_Adjunction_homEquiv___elambda__1___rarg), 7, 6);
+lean_closure_set(x_8, 0, x_6);
+lean_closure_set(x_8, 1, x_1);
+lean_closure_set(x_8, 2, x_2);
+lean_closure_set(x_8, 3, x_3);
+lean_closure_set(x_8, 4, x_4);
+lean_closure_set(x_8, 5, x_5);
+x_9 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_9, 0, x_7);
+lean_ctor_set(x_9, 1, x_8);
+return x_9;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Adjunction_homEquiv___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__9(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; 
+x_6 = l_Lat_instCategory;
+x_7 = l_BddLat_instLargeCategory;
+lean_inc(x_5);
+lean_inc(x_4);
+lean_inc(x_3);
+lean_inc(x_2);
+lean_inc(x_1);
+x_8 = lean_alloc_closure((void*)(l_CategoryTheory_Adjunction_homEquiv___elambda__2___rarg___boxed), 9, 8);
+lean_closure_set(x_8, 0, x_6);
+lean_closure_set(x_8, 1, lean_box(0));
+lean_closure_set(x_8, 2, x_7);
+lean_closure_set(x_8, 3, x_1);
+lean_closure_set(x_8, 4, x_2);
+lean_closure_set(x_8, 5, x_3);
+lean_closure_set(x_8, 6, x_4);
+lean_closure_set(x_8, 7, x_5);
+x_9 = lean_alloc_closure((void*)(l_CategoryTheory_Adjunction_homEquiv___elambda__1___rarg), 7, 6);
+lean_closure_set(x_9, 0, x_7);
+lean_closure_set(x_9, 1, x_1);
+lean_closure_set(x_9, 2, x_2);
+lean_closure_set(x_9, 3, x_3);
+lean_closure_set(x_9, 4, x_4);
+lean_closure_set(x_9, 5, x_5);
+x_10 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_10, 0, x_8);
+lean_ctor_set(x_10, 1, x_9);
+return x_10;
+}
+}
+static lean_object* _init_l_CategoryTheory_Functor_id___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__10() {
+_start:
+{
+lean_object* x_1; 
+x_1 = l_CategoryTheory_Functor_id___at_latToBddLatForgetAdjunction___spec__2___closed__1;
+return x_1;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__11(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+lean_inc(x_1);
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_3, 0, x_2);
+lean_closure_set(x_3, 1, x_1);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__2), 5, 2);
+lean_closure_set(x_4, 0, x_2);
+lean_closure_set(x_4, 1, x_1);
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__12(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+lean_inc(x_1);
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_3, 0, x_2);
+lean_closure_set(x_3, 1, x_1);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__2), 5, 2);
+lean_closure_set(x_4, 0, x_2);
+lean_closure_set(x_4, 1, x_1);
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__13(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+lean_inc(x_1);
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_3, 0, x_2);
+lean_closure_set(x_3, 1, x_1);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__2), 5, 2);
+lean_closure_set(x_4, 0, x_2);
+lean_closure_set(x_4, 1, x_1);
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__14(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+lean_inc(x_1);
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_3, 0, x_2);
+lean_closure_set(x_3, 1, x_1);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__2), 5, 2);
+lean_closure_set(x_4, 0, x_2);
+lean_closure_set(x_4, 1, x_1);
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+static lean_object* _init_l_CategoryTheory_Functor_id___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__15() {
+_start:
+{
+lean_object* x_1; 
+x_1 = l_CategoryTheory_Functor_id___at_BddLat_dualEquiv___spec__1___closed__2;
+return x_1;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__16(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+lean_inc(x_1);
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_3, 0, x_2);
+lean_closure_set(x_3, 1, x_1);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__2), 5, 2);
+lean_closure_set(x_4, 0, x_2);
+lean_closure_set(x_4, 1, x_1);
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+static lean_object* _init_l_CategoryTheory_Functor_id___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__18() {
+_start:
+{
+lean_object* x_1; 
+x_1 = l_CategoryTheory_Functor_id___at_BddLat_dualEquiv___spec__1___closed__2;
+return x_1;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__19(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+lean_inc(x_1);
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_3, 0, x_2);
+lean_closure_set(x_3, 1, x_1);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__2), 5, 2);
+lean_closure_set(x_4, 0, x_2);
+lean_closure_set(x_4, 1, x_1);
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+static lean_object* _init_l_CategoryTheory_Functor_rightUnitor___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__17___closed__1() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; lean_object* x_3; 
+x_1 = l_Lat_instCategory;
+x_2 = l_BddLat_instLargeCategory;
+x_3 = l_CategoryTheory_Functor_category___rarg(x_1, lean_box(0), x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_rightUnitor___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__17(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; lean_object* x_3; 
+x_2 = l_BddLat_instLargeCategory___closed__1;
+x_3 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_3, 0, x_2);
+lean_ctor_set(x_3, 1, x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__20(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+lean_inc(x_1);
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_3, 0, x_2);
+lean_closure_set(x_3, 1, x_1);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__2), 5, 2);
+lean_closure_set(x_4, 0, x_2);
+lean_closure_set(x_4, 1, x_1);
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__21(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+lean_inc(x_1);
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_3, 0, x_2);
+lean_closure_set(x_3, 1, x_1);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__2), 5, 2);
+lean_closure_set(x_4, 0, x_2);
+lean_closure_set(x_4, 1, x_1);
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__23(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+lean_inc(x_1);
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_3, 0, x_2);
+lean_closure_set(x_3, 1, x_1);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__2), 5, 2);
+lean_closure_set(x_4, 0, x_2);
+lean_closure_set(x_4, 1, x_1);
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__24(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+lean_inc(x_1);
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_3, 0, x_2);
+lean_closure_set(x_3, 1, x_1);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__2), 5, 2);
+lean_closure_set(x_4, 0, x_2);
+lean_closure_set(x_4, 1, x_1);
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerLeft___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__22(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_whiskerLeft___elambda__1___rarg___boxed), 5, 4);
+lean_closure_set(x_5, 0, x_1);
+lean_closure_set(x_5, 1, x_2);
+lean_closure_set(x_5, 2, x_3);
+lean_closure_set(x_5, 3, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__26(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+lean_inc(x_1);
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_3, 0, x_2);
+lean_closure_set(x_3, 1, x_1);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__2), 5, 2);
+lean_closure_set(x_4, 0, x_2);
+lean_closure_set(x_4, 1, x_1);
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__27(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+lean_inc(x_1);
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_3, 0, x_2);
+lean_closure_set(x_3, 1, x_1);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__2), 5, 2);
+lean_closure_set(x_4, 0, x_2);
+lean_closure_set(x_4, 1, x_1);
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__28(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+lean_inc(x_1);
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_3, 0, x_2);
+lean_closure_set(x_3, 1, x_1);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__2), 5, 2);
+lean_closure_set(x_4, 0, x_2);
+lean_closure_set(x_4, 1, x_1);
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__29(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+lean_inc(x_1);
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_3, 0, x_2);
+lean_closure_set(x_3, 1, x_1);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__2), 5, 2);
+lean_closure_set(x_4, 0, x_2);
+lean_closure_set(x_4, 1, x_1);
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_associator___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__25(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; 
+x_4 = l_BddLat_instLargeCategory___closed__1;
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_4);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__30(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; 
+x_6 = l_BddLat_instLargeCategory;
+x_7 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_vcomp___elambda__1___rarg), 7, 6);
+lean_closure_set(x_7, 0, x_6);
+lean_closure_set(x_7, 1, x_1);
+lean_closure_set(x_7, 2, x_2);
+lean_closure_set(x_7, 3, x_3);
+lean_closure_set(x_7, 4, x_4);
+lean_closure_set(x_7, 5, x_5);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__31(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; 
+x_6 = l_BddLat_instLargeCategory;
+x_7 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_vcomp___elambda__1___rarg), 7, 6);
+lean_closure_set(x_7, 0, x_6);
+lean_closure_set(x_7, 1, x_1);
+lean_closure_set(x_7, 2, x_2);
+lean_closure_set(x_7, 3, x_3);
+lean_closure_set(x_7, 4, x_4);
+lean_closure_set(x_7, 5, x_5);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__33(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+lean_inc(x_1);
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_3, 0, x_2);
+lean_closure_set(x_3, 1, x_1);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__2), 5, 2);
+lean_closure_set(x_4, 0, x_2);
+lean_closure_set(x_4, 1, x_1);
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__34(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+lean_inc(x_1);
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_3, 0, x_2);
+lean_closure_set(x_3, 1, x_1);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__2), 5, 2);
+lean_closure_set(x_4, 0, x_2);
+lean_closure_set(x_4, 1, x_1);
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerRight___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__32(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_whiskerRight___elambda__1___rarg), 5, 4);
+lean_closure_set(x_5, 0, x_1);
+lean_closure_set(x_5, 1, x_2);
+lean_closure_set(x_5, 2, x_3);
+lean_closure_set(x_5, 3, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__36(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+lean_inc(x_1);
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_3, 0, x_2);
+lean_closure_set(x_3, 1, x_1);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__2), 5, 2);
+lean_closure_set(x_4, 0, x_2);
+lean_closure_set(x_4, 1, x_1);
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__37(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+lean_inc(x_1);
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_3, 0, x_2);
+lean_closure_set(x_3, 1, x_1);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__2), 5, 2);
+lean_closure_set(x_4, 0, x_2);
+lean_closure_set(x_4, 1, x_1);
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__38(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+lean_inc(x_1);
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_3, 0, x_2);
+lean_closure_set(x_3, 1, x_1);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__2), 5, 2);
+lean_closure_set(x_4, 0, x_2);
+lean_closure_set(x_4, 1, x_1);
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__39(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+lean_inc(x_1);
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_3, 0, x_2);
+lean_closure_set(x_3, 1, x_1);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__2), 5, 2);
+lean_closure_set(x_4, 0, x_2);
+lean_closure_set(x_4, 1, x_1);
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+static lean_object* _init_l_CategoryTheory_Functor_associator___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__35___closed__1() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; 
+x_1 = l_Lat_instCategory;
+x_2 = l_CategoryTheory_Functor_category___rarg(x_1, lean_box(0), x_1);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_associator___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__35(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; 
+x_4 = l_BddLat_instLargeCategory___closed__1;
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_4);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__40(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; 
+x_6 = l_Lat_instCategory;
+x_7 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_vcomp___elambda__1___rarg), 7, 6);
+lean_closure_set(x_7, 0, x_6);
+lean_closure_set(x_7, 1, x_1);
+lean_closure_set(x_7, 2, x_2);
+lean_closure_set(x_7, 3, x_3);
+lean_closure_set(x_7, 4, x_4);
+lean_closure_set(x_7, 5, x_5);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__41(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; 
+x_6 = l_Lat_instCategory;
+x_7 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_vcomp___elambda__1___rarg), 7, 6);
+lean_closure_set(x_7, 0, x_6);
+lean_closure_set(x_7, 1, x_1);
+lean_closure_set(x_7, 2, x_2);
+lean_closure_set(x_7, 3, x_3);
+lean_closure_set(x_7, 4, x_4);
+lean_closure_set(x_7, 5, x_5);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__42(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+lean_inc(x_1);
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_3, 0, x_2);
+lean_closure_set(x_3, 1, x_1);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__2), 5, 2);
+lean_closure_set(x_4, 0, x_2);
+lean_closure_set(x_4, 1, x_1);
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__43(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+lean_inc(x_1);
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_3, 0, x_2);
+lean_closure_set(x_3, 1, x_1);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__2), 5, 2);
+lean_closure_set(x_4, 0, x_2);
+lean_closure_set(x_4, 1, x_1);
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__44(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+lean_inc(x_1);
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_3, 0, x_2);
+lean_closure_set(x_3, 1, x_1);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__2), 5, 2);
+lean_closure_set(x_4, 0, x_2);
+lean_closure_set(x_4, 1, x_1);
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__46(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+lean_inc(x_1);
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_3, 0, x_2);
+lean_closure_set(x_3, 1, x_1);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__2), 5, 2);
+lean_closure_set(x_4, 0, x_2);
+lean_closure_set(x_4, 1, x_1);
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__47(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+lean_inc(x_1);
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_3, 0, x_2);
+lean_closure_set(x_3, 1, x_1);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__2), 5, 2);
+lean_closure_set(x_4, 0, x_2);
+lean_closure_set(x_4, 1, x_1);
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__48(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+lean_inc(x_1);
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_3, 0, x_2);
+lean_closure_set(x_3, 1, x_1);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__2), 5, 2);
+lean_closure_set(x_4, 0, x_2);
+lean_closure_set(x_4, 1, x_1);
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__49(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+lean_inc(x_1);
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_3, 0, x_2);
+lean_closure_set(x_3, 1, x_1);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__2), 5, 2);
+lean_closure_set(x_4, 0, x_2);
+lean_closure_set(x_4, 1, x_1);
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_associator___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__45(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; 
+x_4 = l_BddLat_instLargeCategory___closed__1;
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_4);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__50(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+lean_inc(x_1);
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_3, 0, x_2);
+lean_closure_set(x_3, 1, x_1);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__2), 5, 2);
+lean_closure_set(x_4, 0, x_2);
+lean_closure_set(x_4, 1, x_1);
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__51(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+lean_inc(x_1);
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_3, 0, x_2);
+lean_closure_set(x_3, 1, x_1);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__2), 5, 2);
+lean_closure_set(x_4, 0, x_2);
+lean_closure_set(x_4, 1, x_1);
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__52(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+lean_inc(x_1);
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_3, 0, x_2);
+lean_closure_set(x_3, 1, x_1);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__2), 5, 2);
+lean_closure_set(x_4, 0, x_2);
+lean_closure_set(x_4, 1, x_1);
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__54(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+lean_inc(x_1);
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_3, 0, x_2);
+lean_closure_set(x_3, 1, x_1);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__2), 5, 2);
+lean_closure_set(x_4, 0, x_2);
+lean_closure_set(x_4, 1, x_1);
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__55(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+lean_inc(x_1);
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_3, 0, x_2);
+lean_closure_set(x_3, 1, x_1);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__2), 5, 2);
+lean_closure_set(x_4, 0, x_2);
+lean_closure_set(x_4, 1, x_1);
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__56(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+lean_inc(x_1);
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_3, 0, x_2);
+lean_closure_set(x_3, 1, x_1);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__2), 5, 2);
+lean_closure_set(x_4, 0, x_2);
+lean_closure_set(x_4, 1, x_1);
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__57(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+lean_inc(x_1);
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_3, 0, x_2);
+lean_closure_set(x_3, 1, x_1);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__2), 5, 2);
+lean_closure_set(x_4, 0, x_2);
+lean_closure_set(x_4, 1, x_1);
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_associator___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__53(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; 
+x_4 = l_BddLat_instLargeCategory___closed__1;
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_4);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__58(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+lean_inc(x_1);
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_3, 0, x_2);
+lean_closure_set(x_3, 1, x_1);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__2), 5, 2);
+lean_closure_set(x_4, 0, x_2);
+lean_closure_set(x_4, 1, x_1);
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__60(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+lean_inc(x_1);
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_3, 0, x_2);
+lean_closure_set(x_3, 1, x_1);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__2), 5, 2);
+lean_closure_set(x_4, 0, x_2);
+lean_closure_set(x_4, 1, x_1);
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__61(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+lean_inc(x_1);
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_3, 0, x_2);
+lean_closure_set(x_3, 1, x_1);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__2), 5, 2);
+lean_closure_set(x_4, 0, x_2);
+lean_closure_set(x_4, 1, x_1);
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerLeft___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__59(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_whiskerLeft___elambda__1___rarg___boxed), 5, 4);
+lean_closure_set(x_5, 0, x_1);
+lean_closure_set(x_5, 1, x_2);
+lean_closure_set(x_5, 2, x_3);
+lean_closure_set(x_5, 3, x_4);
+return x_5;
+}
+}
+static lean_object* _init_l_CategoryTheory_Functor_id___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__63() {
+_start:
+{
+lean_object* x_1; 
+x_1 = l_CategoryTheory_Functor_id___at_BddLat_dualEquiv___spec__1___closed__2;
+return x_1;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__64(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+lean_inc(x_1);
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_3, 0, x_2);
+lean_closure_set(x_3, 1, x_1);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__2), 5, 2);
+lean_closure_set(x_4, 0, x_2);
+lean_closure_set(x_4, 1, x_1);
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_rightUnitor___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__62(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; lean_object* x_3; 
+x_2 = l_BddLat_instLargeCategory___closed__1;
+x_3 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_3, 0, x_2);
+lean_ctor_set(x_3, 1, x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__65(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; 
+x_6 = l_BddLat_instLargeCategory;
+x_7 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_vcomp___elambda__1___rarg), 7, 6);
+lean_closure_set(x_7, 0, x_6);
+lean_closure_set(x_7, 1, x_1);
+lean_closure_set(x_7, 2, x_2);
+lean_closure_set(x_7, 3, x_3);
+lean_closure_set(x_7, 4, x_4);
+lean_closure_set(x_7, 5, x_5);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__66(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; 
+x_6 = l_BddLat_instLargeCategory;
+x_7 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_vcomp___elambda__1___rarg), 7, 6);
+lean_closure_set(x_7, 0, x_6);
+lean_closure_set(x_7, 1, x_1);
+lean_closure_set(x_7, 2, x_2);
+lean_closure_set(x_7, 3, x_3);
+lean_closure_set(x_7, 4, x_4);
+lean_closure_set(x_7, 5, x_5);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__68(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+lean_inc(x_1);
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_3, 0, x_2);
+lean_closure_set(x_3, 1, x_1);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__2), 5, 2);
+lean_closure_set(x_4, 0, x_2);
+lean_closure_set(x_4, 1, x_1);
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__69(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+lean_inc(x_1);
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_3, 0, x_2);
+lean_closure_set(x_3, 1, x_1);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__2), 5, 2);
+lean_closure_set(x_4, 0, x_2);
+lean_closure_set(x_4, 1, x_1);
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerRight___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__67(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_whiskerRight___elambda__1___rarg), 5, 4);
+lean_closure_set(x_5, 0, x_1);
+lean_closure_set(x_5, 1, x_2);
+lean_closure_set(x_5, 2, x_3);
+lean_closure_set(x_5, 3, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__70(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; 
+x_6 = l_BddLat_instLargeCategory;
+x_7 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_vcomp___elambda__1___rarg), 7, 6);
+lean_closure_set(x_7, 0, x_6);
+lean_closure_set(x_7, 1, x_1);
+lean_closure_set(x_7, 2, x_2);
+lean_closure_set(x_7, 3, x_3);
+lean_closure_set(x_7, 4, x_4);
+lean_closure_set(x_7, 5, x_5);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__71(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; 
+x_6 = l_BddLat_instLargeCategory;
+x_7 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_vcomp___elambda__1___rarg), 7, 6);
+lean_closure_set(x_7, 0, x_6);
+lean_closure_set(x_7, 1, x_1);
+lean_closure_set(x_7, 2, x_2);
+lean_closure_set(x_7, 3, x_3);
+lean_closure_set(x_7, 4, x_4);
+lean_closure_set(x_7, 5, x_5);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Adjunction_mk_x27___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__72(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; lean_object* x_6; 
+x_4 = lean_ctor_get(x_3, 1);
+x_5 = lean_ctor_get(x_3, 2);
+lean_inc(x_5);
+lean_inc(x_4);
+x_6 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_6, 0, x_4);
+lean_ctor_set(x_6, 1, x_5);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Adjunction_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__5___lambda__1(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8) {
+_start:
+{
+lean_object* x_9; lean_object* x_10; lean_object* x_11; lean_object* x_12; lean_object* x_13; lean_object* x_14; lean_object* x_15; 
+x_9 = lean_ctor_get(x_1, 0);
+lean_inc(x_9);
+lean_inc(x_7);
+x_10 = lean_apply_1(x_9, x_7);
+lean_inc(x_8);
+lean_inc(x_3);
+x_11 = l_CategoryTheory_Adjunction_homEquiv___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__8(x_2, x_3, x_4, x_10, x_8);
+x_12 = lean_ctor_get(x_3, 0);
+lean_inc(x_12);
+lean_dec(x_3);
+x_13 = lean_apply_1(x_12, x_8);
+x_14 = l_CategoryTheory_Adjunction_homEquiv___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__9(x_1, x_5, x_6, x_7, x_13);
+x_15 = l_Equiv_trans___rarg(x_11, x_14);
+return x_15;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Adjunction_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__5(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; lean_object* x_11; lean_object* x_12; lean_object* x_13; lean_object* x_14; lean_object* x_15; lean_object* x_16; lean_object* x_17; lean_object* x_18; lean_object* x_19; lean_object* x_20; lean_object* x_21; lean_object* x_22; lean_object* x_23; lean_object* x_24; lean_object* x_25; lean_object* x_26; lean_object* x_27; lean_object* x_28; lean_object* x_29; lean_object* x_30; lean_object* x_31; lean_object* x_32; lean_object* x_33; lean_object* x_34; lean_object* x_35; lean_object* x_36; lean_object* x_37; lean_object* x_38; lean_object* x_39; lean_object* x_40; lean_object* x_41; lean_object* x_42; lean_object* x_43; lean_object* x_44; lean_object* x_45; lean_object* x_46; lean_object* x_47; lean_object* x_48; lean_object* x_49; lean_object* x_50; lean_object* x_51; lean_object* x_52; lean_object* x_53; lean_object* x_54; lean_object* x_55; lean_object* x_56; lean_object* x_57; 
+lean_inc(x_3);
+lean_inc(x_1);
+x_7 = l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__6(x_1, x_3);
+lean_inc(x_2);
+lean_inc(x_4);
+x_8 = l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__7(x_4, x_2);
+lean_inc(x_5);
+lean_inc(x_2);
+lean_inc(x_6);
+lean_inc(x_4);
+lean_inc(x_3);
+lean_inc(x_1);
+x_9 = lean_alloc_closure((void*)(l_CategoryTheory_Adjunction_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__5___lambda__1), 8, 6);
+lean_closure_set(x_9, 0, x_1);
+lean_closure_set(x_9, 1, x_3);
+lean_closure_set(x_9, 2, x_4);
+lean_closure_set(x_9, 3, x_6);
+lean_closure_set(x_9, 4, x_2);
+lean_closure_set(x_9, 5, x_5);
+lean_inc(x_2);
+lean_inc(x_1);
+x_10 = l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__11(x_1, x_2);
+lean_inc(x_8);
+lean_inc(x_7);
+x_11 = l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__12(x_7, x_8);
+x_12 = lean_ctor_get(x_5, 0);
+lean_inc(x_12);
+lean_inc(x_4);
+lean_inc(x_7);
+x_13 = l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__13(x_7, x_4);
+lean_inc(x_2);
+lean_inc(x_13);
+x_14 = l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__14(x_13, x_2);
+x_15 = l_CategoryTheory_Functor_id___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__15;
+lean_inc(x_1);
+x_16 = l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__16(x_1, x_15);
+x_17 = l_CategoryTheory_Functor_rightUnitor___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__17(x_1);
+x_18 = lean_ctor_get(x_17, 1);
+lean_inc(x_18);
+lean_dec(x_17);
+lean_inc(x_4);
+lean_inc(x_3);
+x_19 = l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__20(x_3, x_4);
+lean_inc(x_19);
+lean_inc(x_1);
+x_20 = l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__21(x_1, x_19);
+x_21 = lean_ctor_get(x_6, 0);
+lean_inc(x_21);
+lean_inc(x_1);
+x_22 = lean_alloc_closure((void*)(l_CategoryTheory_whiskerLeft___elambda__1___rarg___boxed), 5, 4);
+lean_closure_set(x_22, 0, x_1);
+lean_closure_set(x_22, 1, x_15);
+lean_closure_set(x_22, 2, x_19);
+lean_closure_set(x_22, 3, x_21);
+x_23 = l_CategoryTheory_Functor_associator___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__25(x_1, x_3, x_4);
+x_24 = lean_ctor_get(x_23, 1);
+lean_inc(x_24);
+lean_dec(x_23);
+x_25 = l_BddLat_instLargeCategory;
+lean_inc(x_13);
+lean_inc(x_16);
+x_26 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_vcomp___elambda__1___rarg), 7, 6);
+lean_closure_set(x_26, 0, x_25);
+lean_closure_set(x_26, 1, x_16);
+lean_closure_set(x_26, 2, x_20);
+lean_closure_set(x_26, 3, x_13);
+lean_closure_set(x_26, 4, x_22);
+lean_closure_set(x_26, 5, x_24);
+lean_inc(x_13);
+lean_inc(x_1);
+x_27 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_vcomp___elambda__1___rarg), 7, 6);
+lean_closure_set(x_27, 0, x_25);
+lean_closure_set(x_27, 1, x_1);
+lean_closure_set(x_27, 2, x_16);
+lean_closure_set(x_27, 3, x_13);
+lean_closure_set(x_27, 4, x_18);
+lean_closure_set(x_27, 5, x_26);
+lean_inc(x_2);
+lean_inc(x_1);
+x_28 = lean_alloc_closure((void*)(l_CategoryTheory_whiskerRight___elambda__1___rarg), 5, 4);
+lean_closure_set(x_28, 0, x_1);
+lean_closure_set(x_28, 1, x_13);
+lean_closure_set(x_28, 2, x_27);
+lean_closure_set(x_28, 3, x_2);
+x_29 = l_CategoryTheory_Functor_associator___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__35(x_7, x_4, x_2);
+x_30 = lean_ctor_get(x_29, 0);
+lean_inc(x_30);
+lean_dec(x_29);
+x_31 = l_Lat_instCategory;
+lean_inc(x_11);
+lean_inc(x_10);
+x_32 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_vcomp___elambda__1___rarg), 7, 6);
+lean_closure_set(x_32, 0, x_31);
+lean_closure_set(x_32, 1, x_10);
+lean_closure_set(x_32, 2, x_14);
+lean_closure_set(x_32, 3, x_11);
+lean_closure_set(x_32, 4, x_28);
+lean_closure_set(x_32, 5, x_30);
+x_33 = l_CategoryTheory_Functor_id___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__10;
+x_34 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_vcomp___elambda__1___rarg), 7, 6);
+lean_closure_set(x_34, 0, x_31);
+lean_closure_set(x_34, 1, x_33);
+lean_closure_set(x_34, 2, x_10);
+lean_closure_set(x_34, 3, x_11);
+lean_closure_set(x_34, 4, x_12);
+lean_closure_set(x_34, 5, x_32);
+lean_inc(x_7);
+lean_inc(x_8);
+x_35 = l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__42(x_8, x_7);
+lean_inc(x_1);
+lean_inc(x_8);
+x_36 = l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__43(x_8, x_1);
+lean_inc(x_3);
+lean_inc(x_36);
+x_37 = l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__44(x_36, x_3);
+x_38 = l_CategoryTheory_Functor_associator___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__45(x_8, x_1, x_3);
+x_39 = lean_ctor_get(x_38, 1);
+lean_inc(x_39);
+lean_dec(x_38);
+lean_inc(x_3);
+lean_inc(x_4);
+x_40 = l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__50(x_4, x_3);
+lean_inc(x_1);
+lean_inc(x_2);
+x_41 = l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__51(x_2, x_1);
+lean_inc(x_41);
+lean_inc(x_4);
+x_42 = l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__52(x_4, x_41);
+x_43 = l_CategoryTheory_Functor_associator___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__53(x_4, x_2, x_1);
+lean_dec(x_1);
+lean_dec(x_2);
+x_44 = lean_ctor_get(x_43, 0);
+lean_inc(x_44);
+lean_dec(x_43);
+lean_inc(x_4);
+x_45 = l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__58(x_4, x_15);
+x_46 = lean_ctor_get(x_5, 1);
+lean_inc(x_46);
+lean_dec(x_5);
+lean_inc(x_4);
+x_47 = lean_alloc_closure((void*)(l_CategoryTheory_whiskerLeft___elambda__1___rarg___boxed), 5, 4);
+lean_closure_set(x_47, 0, x_4);
+lean_closure_set(x_47, 1, x_41);
+lean_closure_set(x_47, 2, x_15);
+lean_closure_set(x_47, 3, x_46);
+x_48 = l_CategoryTheory_Functor_rightUnitor___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__62(x_4);
+x_49 = lean_ctor_get(x_48, 0);
+lean_inc(x_49);
+lean_dec(x_48);
+lean_inc(x_4);
+lean_inc(x_42);
+x_50 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_vcomp___elambda__1___rarg), 7, 6);
+lean_closure_set(x_50, 0, x_25);
+lean_closure_set(x_50, 1, x_42);
+lean_closure_set(x_50, 2, x_45);
+lean_closure_set(x_50, 3, x_4);
+lean_closure_set(x_50, 4, x_47);
+lean_closure_set(x_50, 5, x_49);
+lean_inc(x_4);
+lean_inc(x_36);
+x_51 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_vcomp___elambda__1___rarg), 7, 6);
+lean_closure_set(x_51, 0, x_25);
+lean_closure_set(x_51, 1, x_36);
+lean_closure_set(x_51, 2, x_42);
+lean_closure_set(x_51, 3, x_4);
+lean_closure_set(x_51, 4, x_44);
+lean_closure_set(x_51, 5, x_50);
+x_52 = lean_alloc_closure((void*)(l_CategoryTheory_whiskerRight___elambda__1___rarg), 5, 4);
+lean_closure_set(x_52, 0, x_36);
+lean_closure_set(x_52, 1, x_4);
+lean_closure_set(x_52, 2, x_51);
+lean_closure_set(x_52, 3, x_3);
+x_53 = lean_ctor_get(x_6, 1);
+lean_inc(x_53);
+lean_dec(x_6);
+lean_inc(x_37);
+x_54 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_vcomp___elambda__1___rarg), 7, 6);
+lean_closure_set(x_54, 0, x_25);
+lean_closure_set(x_54, 1, x_37);
+lean_closure_set(x_54, 2, x_40);
+lean_closure_set(x_54, 3, x_15);
+lean_closure_set(x_54, 4, x_52);
+lean_closure_set(x_54, 5, x_53);
+x_55 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_vcomp___elambda__1___rarg), 7, 6);
+lean_closure_set(x_55, 0, x_25);
+lean_closure_set(x_55, 1, x_35);
+lean_closure_set(x_55, 2, x_37);
+lean_closure_set(x_55, 3, x_15);
+lean_closure_set(x_55, 4, x_39);
+lean_closure_set(x_55, 5, x_54);
+x_56 = lean_alloc_ctor(0, 3, 0);
+lean_ctor_set(x_56, 0, x_9);
+lean_ctor_set(x_56, 1, x_34);
+lean_ctor_set(x_56, 2, x_55);
+x_57 = l_CategoryTheory_Adjunction_mk_x27___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__72(x_7, x_8, x_56);
+lean_dec(x_56);
+lean_dec(x_8);
+lean_dec(x_7);
+return x_57;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Equivalence_toAdjunction___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__73(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; uint8_t x_3; 
+x_2 = lean_ctor_get(x_1, 2);
+lean_inc(x_2);
+x_3 = !lean_is_exclusive(x_2);
+if (x_3 == 0)
+{
+lean_object* x_4; lean_object* x_5; lean_object* x_6; 
+x_4 = lean_ctor_get(x_2, 1);
+lean_dec(x_4);
+x_5 = lean_ctor_get(x_1, 3);
+lean_inc(x_5);
+lean_dec(x_1);
+x_6 = lean_ctor_get(x_5, 0);
+lean_inc(x_6);
+lean_dec(x_5);
+lean_ctor_set(x_2, 1, x_6);
+return x_2;
+}
+else
+{
+lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; 
+x_7 = lean_ctor_get(x_2, 0);
+lean_inc(x_7);
+lean_dec(x_2);
+x_8 = lean_ctor_get(x_1, 3);
+lean_inc(x_8);
+lean_dec(x_1);
+x_9 = lean_ctor_get(x_8, 0);
+lean_inc(x_9);
+lean_dec(x_8);
+x_10 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_10, 0, x_7);
+lean_ctor_set(x_10, 1, x_9);
+return x_10;
+}
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__75(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+lean_inc(x_1);
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_3, 0, x_2);
+lean_closure_set(x_3, 1, x_1);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__2), 5, 2);
+lean_closure_set(x_4, 0, x_2);
+lean_closure_set(x_4, 1, x_1);
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__76(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+lean_inc(x_1);
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_3, 0, x_2);
+lean_closure_set(x_3, 1, x_1);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__2), 5, 2);
+lean_closure_set(x_4, 0, x_2);
+lean_closure_set(x_4, 1, x_1);
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Adjunction_homEquiv___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__77(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; 
+x_6 = l_Lat_instCategory;
+x_7 = l_BddLat_instLargeCategory;
+lean_inc(x_5);
+lean_inc(x_4);
+lean_inc(x_3);
+lean_inc(x_2);
+lean_inc(x_1);
+x_8 = lean_alloc_closure((void*)(l_CategoryTheory_Adjunction_homEquiv___elambda__2___rarg___boxed), 9, 8);
+lean_closure_set(x_8, 0, x_6);
+lean_closure_set(x_8, 1, lean_box(0));
+lean_closure_set(x_8, 2, x_7);
+lean_closure_set(x_8, 3, x_1);
+lean_closure_set(x_8, 4, x_2);
+lean_closure_set(x_8, 5, x_3);
+lean_closure_set(x_8, 6, x_4);
+lean_closure_set(x_8, 7, x_5);
+x_9 = lean_alloc_closure((void*)(l_CategoryTheory_Adjunction_homEquiv___elambda__1___rarg), 7, 6);
+lean_closure_set(x_9, 0, x_7);
+lean_closure_set(x_9, 1, x_1);
+lean_closure_set(x_9, 2, x_2);
+lean_closure_set(x_9, 3, x_3);
+lean_closure_set(x_9, 4, x_4);
+lean_closure_set(x_9, 5, x_5);
+x_10 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_10, 0, x_8);
+lean_ctor_set(x_10, 1, x_9);
+return x_10;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Adjunction_homEquiv___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__78(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; lean_object* x_9; 
+x_6 = l_Lat_instCategory;
+lean_inc(x_5);
+lean_inc(x_4);
+lean_inc(x_3);
+lean_inc(x_2);
+lean_inc(x_1);
+x_7 = lean_alloc_closure((void*)(l_CategoryTheory_Adjunction_homEquiv___elambda__2___rarg___boxed), 9, 8);
+lean_closure_set(x_7, 0, x_6);
+lean_closure_set(x_7, 1, lean_box(0));
+lean_closure_set(x_7, 2, x_6);
+lean_closure_set(x_7, 3, x_1);
+lean_closure_set(x_7, 4, x_2);
+lean_closure_set(x_7, 5, x_3);
+lean_closure_set(x_7, 6, x_4);
+lean_closure_set(x_7, 7, x_5);
+x_8 = lean_alloc_closure((void*)(l_CategoryTheory_Adjunction_homEquiv___elambda__1___rarg), 7, 6);
+lean_closure_set(x_8, 0, x_6);
+lean_closure_set(x_8, 1, x_1);
+lean_closure_set(x_8, 2, x_2);
+lean_closure_set(x_8, 3, x_3);
+lean_closure_set(x_8, 4, x_4);
+lean_closure_set(x_8, 5, x_5);
+x_9 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_9, 0, x_7);
+lean_ctor_set(x_9, 1, x_8);
+return x_9;
+}
+}
+static lean_object* _init_l_CategoryTheory_Functor_id___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__79() {
+_start:
+{
+lean_object* x_1; 
+x_1 = l_CategoryTheory_Functor_id___at_latToBddLatForgetAdjunction___spec__2___closed__1;
+return x_1;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__80(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+lean_inc(x_1);
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_3, 0, x_2);
+lean_closure_set(x_3, 1, x_1);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__2), 5, 2);
+lean_closure_set(x_4, 0, x_2);
+lean_closure_set(x_4, 1, x_1);
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__81(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+lean_inc(x_1);
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_3, 0, x_2);
+lean_closure_set(x_3, 1, x_1);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__2), 5, 2);
+lean_closure_set(x_4, 0, x_2);
+lean_closure_set(x_4, 1, x_1);
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__82(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+lean_inc(x_1);
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_3, 0, x_2);
+lean_closure_set(x_3, 1, x_1);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__2), 5, 2);
+lean_closure_set(x_4, 0, x_2);
+lean_closure_set(x_4, 1, x_1);
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__83(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+lean_inc(x_1);
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_3, 0, x_2);
+lean_closure_set(x_3, 1, x_1);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__2), 5, 2);
+lean_closure_set(x_4, 0, x_2);
+lean_closure_set(x_4, 1, x_1);
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__84(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+lean_inc(x_1);
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_3, 0, x_2);
+lean_closure_set(x_3, 1, x_1);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__2), 5, 2);
+lean_closure_set(x_4, 0, x_2);
+lean_closure_set(x_4, 1, x_1);
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+static lean_object* _init_l_CategoryTheory_Functor_id___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__86() {
+_start:
+{
+lean_object* x_1; 
+x_1 = l_CategoryTheory_Functor_id___at_latToBddLatForgetAdjunction___spec__2___closed__1;
+return x_1;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__87(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+lean_inc(x_1);
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_3, 0, x_2);
+lean_closure_set(x_3, 1, x_1);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__2), 5, 2);
+lean_closure_set(x_4, 0, x_2);
+lean_closure_set(x_4, 1, x_1);
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_rightUnitor___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__85(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; lean_object* x_3; 
+x_2 = l_BddLat_instLargeCategory___closed__1;
+x_3 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_3, 0, x_2);
+lean_ctor_set(x_3, 1, x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__88(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+lean_inc(x_1);
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_3, 0, x_2);
+lean_closure_set(x_3, 1, x_1);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__2), 5, 2);
+lean_closure_set(x_4, 0, x_2);
+lean_closure_set(x_4, 1, x_1);
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__89(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+lean_inc(x_1);
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_3, 0, x_2);
+lean_closure_set(x_3, 1, x_1);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__2), 5, 2);
+lean_closure_set(x_4, 0, x_2);
+lean_closure_set(x_4, 1, x_1);
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__91(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+lean_inc(x_1);
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_3, 0, x_2);
+lean_closure_set(x_3, 1, x_1);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__2), 5, 2);
+lean_closure_set(x_4, 0, x_2);
+lean_closure_set(x_4, 1, x_1);
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__92(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+lean_inc(x_1);
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_3, 0, x_2);
+lean_closure_set(x_3, 1, x_1);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__2), 5, 2);
+lean_closure_set(x_4, 0, x_2);
+lean_closure_set(x_4, 1, x_1);
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerLeft___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__90(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_whiskerLeft___elambda__1___rarg___boxed), 5, 4);
+lean_closure_set(x_5, 0, x_1);
+lean_closure_set(x_5, 1, x_2);
+lean_closure_set(x_5, 2, x_3);
+lean_closure_set(x_5, 3, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__94(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+lean_inc(x_1);
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_3, 0, x_2);
+lean_closure_set(x_3, 1, x_1);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__2), 5, 2);
+lean_closure_set(x_4, 0, x_2);
+lean_closure_set(x_4, 1, x_1);
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__95(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+lean_inc(x_1);
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_3, 0, x_2);
+lean_closure_set(x_3, 1, x_1);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__2), 5, 2);
+lean_closure_set(x_4, 0, x_2);
+lean_closure_set(x_4, 1, x_1);
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__96(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+lean_inc(x_1);
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_3, 0, x_2);
+lean_closure_set(x_3, 1, x_1);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__2), 5, 2);
+lean_closure_set(x_4, 0, x_2);
+lean_closure_set(x_4, 1, x_1);
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__97(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+lean_inc(x_1);
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_3, 0, x_2);
+lean_closure_set(x_3, 1, x_1);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__2), 5, 2);
+lean_closure_set(x_4, 0, x_2);
+lean_closure_set(x_4, 1, x_1);
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_associator___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__93(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; 
+x_4 = l_BddLat_instLargeCategory___closed__1;
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_4);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__98(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; 
+x_6 = l_Lat_instCategory;
+x_7 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_vcomp___elambda__1___rarg), 7, 6);
+lean_closure_set(x_7, 0, x_6);
+lean_closure_set(x_7, 1, x_1);
+lean_closure_set(x_7, 2, x_2);
+lean_closure_set(x_7, 3, x_3);
+lean_closure_set(x_7, 4, x_4);
+lean_closure_set(x_7, 5, x_5);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__99(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; 
+x_6 = l_Lat_instCategory;
+x_7 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_vcomp___elambda__1___rarg), 7, 6);
+lean_closure_set(x_7, 0, x_6);
+lean_closure_set(x_7, 1, x_1);
+lean_closure_set(x_7, 2, x_2);
+lean_closure_set(x_7, 3, x_3);
+lean_closure_set(x_7, 4, x_4);
+lean_closure_set(x_7, 5, x_5);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__101(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+lean_inc(x_1);
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_3, 0, x_2);
+lean_closure_set(x_3, 1, x_1);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__2), 5, 2);
+lean_closure_set(x_4, 0, x_2);
+lean_closure_set(x_4, 1, x_1);
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__102(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+lean_inc(x_1);
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_3, 0, x_2);
+lean_closure_set(x_3, 1, x_1);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__2), 5, 2);
+lean_closure_set(x_4, 0, x_2);
+lean_closure_set(x_4, 1, x_1);
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerRight___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__100(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_whiskerRight___elambda__1___rarg), 5, 4);
+lean_closure_set(x_5, 0, x_1);
+lean_closure_set(x_5, 1, x_2);
+lean_closure_set(x_5, 2, x_3);
+lean_closure_set(x_5, 3, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__104(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+lean_inc(x_1);
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_3, 0, x_2);
+lean_closure_set(x_3, 1, x_1);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__2), 5, 2);
+lean_closure_set(x_4, 0, x_2);
+lean_closure_set(x_4, 1, x_1);
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__105(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+lean_inc(x_1);
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_3, 0, x_2);
+lean_closure_set(x_3, 1, x_1);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__2), 5, 2);
+lean_closure_set(x_4, 0, x_2);
+lean_closure_set(x_4, 1, x_1);
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__106(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+lean_inc(x_1);
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_3, 0, x_2);
+lean_closure_set(x_3, 1, x_1);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__2), 5, 2);
+lean_closure_set(x_4, 0, x_2);
+lean_closure_set(x_4, 1, x_1);
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__107(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+lean_inc(x_1);
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_3, 0, x_2);
+lean_closure_set(x_3, 1, x_1);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__2), 5, 2);
+lean_closure_set(x_4, 0, x_2);
+lean_closure_set(x_4, 1, x_1);
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_associator___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__103(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; 
+x_4 = l_BddLat_instLargeCategory___closed__1;
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_4);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__108(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; 
+x_6 = l_Lat_instCategory;
+x_7 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_vcomp___elambda__1___rarg), 7, 6);
+lean_closure_set(x_7, 0, x_6);
+lean_closure_set(x_7, 1, x_1);
+lean_closure_set(x_7, 2, x_2);
+lean_closure_set(x_7, 3, x_3);
+lean_closure_set(x_7, 4, x_4);
+lean_closure_set(x_7, 5, x_5);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__109(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; 
+x_6 = l_Lat_instCategory;
+x_7 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_vcomp___elambda__1___rarg), 7, 6);
+lean_closure_set(x_7, 0, x_6);
+lean_closure_set(x_7, 1, x_1);
+lean_closure_set(x_7, 2, x_2);
+lean_closure_set(x_7, 3, x_3);
+lean_closure_set(x_7, 4, x_4);
+lean_closure_set(x_7, 5, x_5);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__110(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+lean_inc(x_1);
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_3, 0, x_2);
+lean_closure_set(x_3, 1, x_1);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__2), 5, 2);
+lean_closure_set(x_4, 0, x_2);
+lean_closure_set(x_4, 1, x_1);
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__111(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+lean_inc(x_1);
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_3, 0, x_2);
+lean_closure_set(x_3, 1, x_1);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__2), 5, 2);
+lean_closure_set(x_4, 0, x_2);
+lean_closure_set(x_4, 1, x_1);
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__112(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+lean_inc(x_1);
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_3, 0, x_2);
+lean_closure_set(x_3, 1, x_1);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__2), 5, 2);
+lean_closure_set(x_4, 0, x_2);
+lean_closure_set(x_4, 1, x_1);
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+static lean_object* _init_l_CategoryTheory_Functor_id___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__113() {
+_start:
+{
+lean_object* x_1; 
+x_1 = l_CategoryTheory_Functor_id___at_BddLat_dualEquiv___spec__1___closed__2;
+return x_1;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__115(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+lean_inc(x_1);
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_3, 0, x_2);
+lean_closure_set(x_3, 1, x_1);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__2), 5, 2);
+lean_closure_set(x_4, 0, x_2);
+lean_closure_set(x_4, 1, x_1);
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__116(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+lean_inc(x_1);
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_3, 0, x_2);
+lean_closure_set(x_3, 1, x_1);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__2), 5, 2);
+lean_closure_set(x_4, 0, x_2);
+lean_closure_set(x_4, 1, x_1);
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__117(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+lean_inc(x_1);
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_3, 0, x_2);
+lean_closure_set(x_3, 1, x_1);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__2), 5, 2);
+lean_closure_set(x_4, 0, x_2);
+lean_closure_set(x_4, 1, x_1);
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__118(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+lean_inc(x_1);
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_3, 0, x_2);
+lean_closure_set(x_3, 1, x_1);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__2), 5, 2);
+lean_closure_set(x_4, 0, x_2);
+lean_closure_set(x_4, 1, x_1);
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_associator___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__114(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; 
+x_4 = l_BddLat_instLargeCategory___closed__1;
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_4);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__119(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+lean_inc(x_1);
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_3, 0, x_2);
+lean_closure_set(x_3, 1, x_1);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__2), 5, 2);
+lean_closure_set(x_4, 0, x_2);
+lean_closure_set(x_4, 1, x_1);
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__120(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+lean_inc(x_1);
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_3, 0, x_2);
+lean_closure_set(x_3, 1, x_1);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__2), 5, 2);
+lean_closure_set(x_4, 0, x_2);
+lean_closure_set(x_4, 1, x_1);
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__121(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+lean_inc(x_1);
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_3, 0, x_2);
+lean_closure_set(x_3, 1, x_1);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__2), 5, 2);
+lean_closure_set(x_4, 0, x_2);
+lean_closure_set(x_4, 1, x_1);
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__123(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+lean_inc(x_1);
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_3, 0, x_2);
+lean_closure_set(x_3, 1, x_1);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__2), 5, 2);
+lean_closure_set(x_4, 0, x_2);
+lean_closure_set(x_4, 1, x_1);
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__124(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+lean_inc(x_1);
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_3, 0, x_2);
+lean_closure_set(x_3, 1, x_1);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__2), 5, 2);
+lean_closure_set(x_4, 0, x_2);
+lean_closure_set(x_4, 1, x_1);
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__125(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+lean_inc(x_1);
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_3, 0, x_2);
+lean_closure_set(x_3, 1, x_1);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__2), 5, 2);
+lean_closure_set(x_4, 0, x_2);
+lean_closure_set(x_4, 1, x_1);
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__126(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+lean_inc(x_1);
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_3, 0, x_2);
+lean_closure_set(x_3, 1, x_1);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__2), 5, 2);
+lean_closure_set(x_4, 0, x_2);
+lean_closure_set(x_4, 1, x_1);
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+static lean_object* _init_l_CategoryTheory_Functor_associator___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__122___closed__1() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; lean_object* x_3; 
+x_1 = l_BddLat_instLargeCategory;
+x_2 = l_Lat_instCategory;
+x_3 = l_CategoryTheory_Functor_category___rarg(x_1, lean_box(0), x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_associator___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__122(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; 
+x_4 = l_BddLat_instLargeCategory___closed__1;
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_4);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__127(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+lean_inc(x_1);
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_3, 0, x_2);
+lean_closure_set(x_3, 1, x_1);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__2), 5, 2);
+lean_closure_set(x_4, 0, x_2);
+lean_closure_set(x_4, 1, x_1);
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__129(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+lean_inc(x_1);
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_3, 0, x_2);
+lean_closure_set(x_3, 1, x_1);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__2), 5, 2);
+lean_closure_set(x_4, 0, x_2);
+lean_closure_set(x_4, 1, x_1);
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__130(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+lean_inc(x_1);
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_3, 0, x_2);
+lean_closure_set(x_3, 1, x_1);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__2), 5, 2);
+lean_closure_set(x_4, 0, x_2);
+lean_closure_set(x_4, 1, x_1);
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerLeft___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__128(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_whiskerLeft___elambda__1___rarg___boxed), 5, 4);
+lean_closure_set(x_5, 0, x_1);
+lean_closure_set(x_5, 1, x_2);
+lean_closure_set(x_5, 2, x_3);
+lean_closure_set(x_5, 3, x_4);
+return x_5;
+}
+}
+static lean_object* _init_l_CategoryTheory_Functor_id___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__132() {
+_start:
+{
+lean_object* x_1; 
+x_1 = l_CategoryTheory_Functor_id___at_latToBddLatForgetAdjunction___spec__2___closed__1;
+return x_1;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__133(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+lean_inc(x_1);
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_3, 0, x_2);
+lean_closure_set(x_3, 1, x_1);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__2), 5, 2);
+lean_closure_set(x_4, 0, x_2);
+lean_closure_set(x_4, 1, x_1);
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_rightUnitor___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__131(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; lean_object* x_3; 
+x_2 = l_BddLat_instLargeCategory___closed__1;
+x_3 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_3, 0, x_2);
+lean_ctor_set(x_3, 1, x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__134(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; 
+x_6 = l_Lat_instCategory;
+x_7 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_vcomp___elambda__1___rarg), 7, 6);
+lean_closure_set(x_7, 0, x_6);
+lean_closure_set(x_7, 1, x_1);
+lean_closure_set(x_7, 2, x_2);
+lean_closure_set(x_7, 3, x_3);
+lean_closure_set(x_7, 4, x_4);
+lean_closure_set(x_7, 5, x_5);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__135(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; 
+x_6 = l_Lat_instCategory;
+x_7 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_vcomp___elambda__1___rarg), 7, 6);
+lean_closure_set(x_7, 0, x_6);
+lean_closure_set(x_7, 1, x_1);
+lean_closure_set(x_7, 2, x_2);
+lean_closure_set(x_7, 3, x_3);
+lean_closure_set(x_7, 4, x_4);
+lean_closure_set(x_7, 5, x_5);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__137(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+lean_inc(x_1);
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_3, 0, x_2);
+lean_closure_set(x_3, 1, x_1);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__2), 5, 2);
+lean_closure_set(x_4, 0, x_2);
+lean_closure_set(x_4, 1, x_1);
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__138(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+lean_inc(x_1);
+lean_inc(x_2);
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__1), 3, 2);
+lean_closure_set(x_3, 0, x_2);
+lean_closure_set(x_3, 1, x_1);
+x_4 = lean_alloc_closure((void*)(l_CategoryTheory_Functor_comp___at_BddLat_dualEquiv___spec__2___lambda__2), 5, 2);
+lean_closure_set(x_4, 0, x_2);
+lean_closure_set(x_4, 1, x_1);
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_whiskerRight___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__136(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = lean_alloc_closure((void*)(l_CategoryTheory_whiskerRight___elambda__1___rarg), 5, 4);
+lean_closure_set(x_5, 0, x_1);
+lean_closure_set(x_5, 1, x_2);
+lean_closure_set(x_5, 2, x_3);
+lean_closure_set(x_5, 3, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__139(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; 
+x_6 = l_BddLat_instLargeCategory;
+x_7 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_vcomp___elambda__1___rarg), 7, 6);
+lean_closure_set(x_7, 0, x_6);
+lean_closure_set(x_7, 1, x_1);
+lean_closure_set(x_7, 2, x_2);
+lean_closure_set(x_7, 3, x_3);
+lean_closure_set(x_7, 4, x_4);
+lean_closure_set(x_7, 5, x_5);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_vcomp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__140(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; 
+x_6 = l_BddLat_instLargeCategory;
+x_7 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_vcomp___elambda__1___rarg), 7, 6);
+lean_closure_set(x_7, 0, x_6);
+lean_closure_set(x_7, 1, x_1);
+lean_closure_set(x_7, 2, x_2);
+lean_closure_set(x_7, 3, x_3);
+lean_closure_set(x_7, 4, x_4);
+lean_closure_set(x_7, 5, x_5);
+return x_7;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Adjunction_mk_x27___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__141(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; lean_object* x_6; 
+x_4 = lean_ctor_get(x_3, 1);
+x_5 = lean_ctor_get(x_3, 2);
+lean_inc(x_5);
+lean_inc(x_4);
+x_6 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_6, 0, x_4);
+lean_ctor_set(x_6, 1, x_5);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Adjunction_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__74___lambda__1(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6, lean_object* x_7, lean_object* x_8) {
+_start:
+{
+lean_object* x_9; lean_object* x_10; lean_object* x_11; lean_object* x_12; lean_object* x_13; lean_object* x_14; lean_object* x_15; 
+x_9 = lean_ctor_get(x_1, 0);
+lean_inc(x_9);
+lean_inc(x_7);
+x_10 = lean_apply_1(x_9, x_7);
+lean_inc(x_8);
+lean_inc(x_3);
+x_11 = l_CategoryTheory_Adjunction_homEquiv___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__77(x_2, x_3, x_4, x_10, x_8);
+x_12 = lean_ctor_get(x_3, 0);
+lean_inc(x_12);
+lean_dec(x_3);
+x_13 = lean_apply_1(x_12, x_8);
+x_14 = l_CategoryTheory_Adjunction_homEquiv___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__78(x_1, x_5, x_6, x_7, x_13);
+x_15 = l_Equiv_trans___rarg(x_11, x_14);
+return x_15;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Adjunction_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__74(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; lean_object* x_11; lean_object* x_12; lean_object* x_13; lean_object* x_14; lean_object* x_15; lean_object* x_16; lean_object* x_17; lean_object* x_18; lean_object* x_19; lean_object* x_20; lean_object* x_21; lean_object* x_22; lean_object* x_23; lean_object* x_24; lean_object* x_25; lean_object* x_26; lean_object* x_27; lean_object* x_28; lean_object* x_29; lean_object* x_30; lean_object* x_31; lean_object* x_32; lean_object* x_33; lean_object* x_34; lean_object* x_35; lean_object* x_36; lean_object* x_37; lean_object* x_38; lean_object* x_39; lean_object* x_40; lean_object* x_41; lean_object* x_42; lean_object* x_43; lean_object* x_44; lean_object* x_45; lean_object* x_46; lean_object* x_47; lean_object* x_48; lean_object* x_49; lean_object* x_50; lean_object* x_51; lean_object* x_52; lean_object* x_53; lean_object* x_54; lean_object* x_55; lean_object* x_56; lean_object* x_57; 
+lean_inc(x_3);
+lean_inc(x_1);
+x_7 = l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__75(x_1, x_3);
+lean_inc(x_2);
+lean_inc(x_4);
+x_8 = l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__76(x_4, x_2);
+lean_inc(x_5);
+lean_inc(x_2);
+lean_inc(x_6);
+lean_inc(x_4);
+lean_inc(x_3);
+lean_inc(x_1);
+x_9 = lean_alloc_closure((void*)(l_CategoryTheory_Adjunction_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__74___lambda__1), 8, 6);
+lean_closure_set(x_9, 0, x_1);
+lean_closure_set(x_9, 1, x_3);
+lean_closure_set(x_9, 2, x_4);
+lean_closure_set(x_9, 3, x_6);
+lean_closure_set(x_9, 4, x_2);
+lean_closure_set(x_9, 5, x_5);
+lean_inc(x_2);
+lean_inc(x_1);
+x_10 = l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__80(x_1, x_2);
+lean_inc(x_8);
+lean_inc(x_7);
+x_11 = l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__81(x_7, x_8);
+x_12 = lean_ctor_get(x_5, 0);
+lean_inc(x_12);
+lean_inc(x_4);
+lean_inc(x_7);
+x_13 = l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__82(x_7, x_4);
+lean_inc(x_2);
+lean_inc(x_13);
+x_14 = l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__83(x_13, x_2);
+x_15 = l_CategoryTheory_Functor_id___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__79;
+lean_inc(x_1);
+x_16 = l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__84(x_1, x_15);
+x_17 = l_CategoryTheory_Functor_rightUnitor___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__85(x_1);
+x_18 = lean_ctor_get(x_17, 1);
+lean_inc(x_18);
+lean_dec(x_17);
+lean_inc(x_4);
+lean_inc(x_3);
+x_19 = l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__88(x_3, x_4);
+lean_inc(x_19);
+lean_inc(x_1);
+x_20 = l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__89(x_1, x_19);
+x_21 = lean_ctor_get(x_6, 0);
+lean_inc(x_21);
+lean_inc(x_1);
+x_22 = lean_alloc_closure((void*)(l_CategoryTheory_whiskerLeft___elambda__1___rarg___boxed), 5, 4);
+lean_closure_set(x_22, 0, x_1);
+lean_closure_set(x_22, 1, x_15);
+lean_closure_set(x_22, 2, x_19);
+lean_closure_set(x_22, 3, x_21);
+x_23 = l_CategoryTheory_Functor_associator___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__93(x_1, x_3, x_4);
+x_24 = lean_ctor_get(x_23, 1);
+lean_inc(x_24);
+lean_dec(x_23);
+x_25 = l_Lat_instCategory;
+lean_inc(x_13);
+lean_inc(x_16);
+x_26 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_vcomp___elambda__1___rarg), 7, 6);
+lean_closure_set(x_26, 0, x_25);
+lean_closure_set(x_26, 1, x_16);
+lean_closure_set(x_26, 2, x_20);
+lean_closure_set(x_26, 3, x_13);
+lean_closure_set(x_26, 4, x_22);
+lean_closure_set(x_26, 5, x_24);
+lean_inc(x_13);
+lean_inc(x_1);
+x_27 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_vcomp___elambda__1___rarg), 7, 6);
+lean_closure_set(x_27, 0, x_25);
+lean_closure_set(x_27, 1, x_1);
+lean_closure_set(x_27, 2, x_16);
+lean_closure_set(x_27, 3, x_13);
+lean_closure_set(x_27, 4, x_18);
+lean_closure_set(x_27, 5, x_26);
+lean_inc(x_2);
+lean_inc(x_1);
+x_28 = lean_alloc_closure((void*)(l_CategoryTheory_whiskerRight___elambda__1___rarg), 5, 4);
+lean_closure_set(x_28, 0, x_1);
+lean_closure_set(x_28, 1, x_13);
+lean_closure_set(x_28, 2, x_27);
+lean_closure_set(x_28, 3, x_2);
+x_29 = l_CategoryTheory_Functor_associator___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__103(x_7, x_4, x_2);
+x_30 = lean_ctor_get(x_29, 0);
+lean_inc(x_30);
+lean_dec(x_29);
+lean_inc(x_11);
+lean_inc(x_10);
+x_31 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_vcomp___elambda__1___rarg), 7, 6);
+lean_closure_set(x_31, 0, x_25);
+lean_closure_set(x_31, 1, x_10);
+lean_closure_set(x_31, 2, x_14);
+lean_closure_set(x_31, 3, x_11);
+lean_closure_set(x_31, 4, x_28);
+lean_closure_set(x_31, 5, x_30);
+x_32 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_vcomp___elambda__1___rarg), 7, 6);
+lean_closure_set(x_32, 0, x_25);
+lean_closure_set(x_32, 1, x_15);
+lean_closure_set(x_32, 2, x_10);
+lean_closure_set(x_32, 3, x_11);
+lean_closure_set(x_32, 4, x_12);
+lean_closure_set(x_32, 5, x_31);
+lean_inc(x_7);
+lean_inc(x_8);
+x_33 = l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__110(x_8, x_7);
+lean_inc(x_1);
+lean_inc(x_8);
+x_34 = l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__111(x_8, x_1);
+lean_inc(x_3);
+lean_inc(x_34);
+x_35 = l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__112(x_34, x_3);
+x_36 = l_CategoryTheory_Functor_associator___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__114(x_8, x_1, x_3);
+x_37 = lean_ctor_get(x_36, 1);
+lean_inc(x_37);
+lean_dec(x_36);
+lean_inc(x_3);
+lean_inc(x_4);
+x_38 = l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__119(x_4, x_3);
+lean_inc(x_1);
+lean_inc(x_2);
+x_39 = l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__120(x_2, x_1);
+lean_inc(x_39);
+lean_inc(x_4);
+x_40 = l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__121(x_4, x_39);
+x_41 = l_CategoryTheory_Functor_associator___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__122(x_4, x_2, x_1);
+lean_dec(x_1);
+lean_dec(x_2);
+x_42 = lean_ctor_get(x_41, 0);
+lean_inc(x_42);
+lean_dec(x_41);
+lean_inc(x_4);
+x_43 = l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__127(x_4, x_15);
+x_44 = lean_ctor_get(x_5, 1);
+lean_inc(x_44);
+lean_dec(x_5);
+lean_inc(x_4);
+x_45 = lean_alloc_closure((void*)(l_CategoryTheory_whiskerLeft___elambda__1___rarg___boxed), 5, 4);
+lean_closure_set(x_45, 0, x_4);
+lean_closure_set(x_45, 1, x_39);
+lean_closure_set(x_45, 2, x_15);
+lean_closure_set(x_45, 3, x_44);
+x_46 = l_CategoryTheory_Functor_rightUnitor___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__131(x_4);
+x_47 = lean_ctor_get(x_46, 0);
+lean_inc(x_47);
+lean_dec(x_46);
+lean_inc(x_4);
+lean_inc(x_40);
+x_48 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_vcomp___elambda__1___rarg), 7, 6);
+lean_closure_set(x_48, 0, x_25);
+lean_closure_set(x_48, 1, x_40);
+lean_closure_set(x_48, 2, x_43);
+lean_closure_set(x_48, 3, x_4);
+lean_closure_set(x_48, 4, x_45);
+lean_closure_set(x_48, 5, x_47);
+lean_inc(x_4);
+lean_inc(x_34);
+x_49 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_vcomp___elambda__1___rarg), 7, 6);
+lean_closure_set(x_49, 0, x_25);
+lean_closure_set(x_49, 1, x_34);
+lean_closure_set(x_49, 2, x_40);
+lean_closure_set(x_49, 3, x_4);
+lean_closure_set(x_49, 4, x_42);
+lean_closure_set(x_49, 5, x_48);
+x_50 = lean_alloc_closure((void*)(l_CategoryTheory_whiskerRight___elambda__1___rarg), 5, 4);
+lean_closure_set(x_50, 0, x_34);
+lean_closure_set(x_50, 1, x_4);
+lean_closure_set(x_50, 2, x_49);
+lean_closure_set(x_50, 3, x_3);
+x_51 = lean_ctor_get(x_6, 1);
+lean_inc(x_51);
+lean_dec(x_6);
+x_52 = l_BddLat_instLargeCategory;
+x_53 = l_CategoryTheory_Functor_id___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__113;
+lean_inc(x_35);
+x_54 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_vcomp___elambda__1___rarg), 7, 6);
+lean_closure_set(x_54, 0, x_52);
+lean_closure_set(x_54, 1, x_35);
+lean_closure_set(x_54, 2, x_38);
+lean_closure_set(x_54, 3, x_53);
+lean_closure_set(x_54, 4, x_50);
+lean_closure_set(x_54, 5, x_51);
+x_55 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_vcomp___elambda__1___rarg), 7, 6);
+lean_closure_set(x_55, 0, x_52);
+lean_closure_set(x_55, 1, x_33);
+lean_closure_set(x_55, 2, x_35);
+lean_closure_set(x_55, 3, x_53);
+lean_closure_set(x_55, 4, x_37);
+lean_closure_set(x_55, 5, x_54);
+x_56 = lean_alloc_ctor(0, 3, 0);
+lean_ctor_set(x_56, 0, x_9);
+lean_ctor_set(x_56, 1, x_32);
+lean_ctor_set(x_56, 2, x_55);
+x_57 = l_CategoryTheory_Adjunction_mk_x27___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__141(x_7, x_8, x_56);
+lean_dec(x_56);
+lean_dec(x_8);
+lean_dec(x_7);
+return x_57;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_conjugateIsoEquiv___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__143(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5, lean_object* x_6) {
+_start:
+{
+lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; lean_object* x_11; 
+x_7 = l_Lat_instCategory;
+x_8 = l_BddLat_instLargeCategory;
+lean_inc(x_6);
+lean_inc(x_5);
+lean_inc(x_4);
+lean_inc(x_3);
+lean_inc(x_2);
+lean_inc(x_1);
+x_9 = lean_alloc_closure((void*)(l_CategoryTheory_conjugateIsoEquiv___elambda__2___rarg), 9, 8);
+lean_closure_set(x_9, 0, x_7);
+lean_closure_set(x_9, 1, x_8);
+lean_closure_set(x_9, 2, x_1);
+lean_closure_set(x_9, 3, x_2);
+lean_closure_set(x_9, 4, x_3);
+lean_closure_set(x_9, 5, x_4);
+lean_closure_set(x_9, 6, x_5);
+lean_closure_set(x_9, 7, x_6);
+x_10 = lean_alloc_closure((void*)(l_CategoryTheory_conjugateIsoEquiv___elambda__1___rarg), 9, 8);
+lean_closure_set(x_10, 0, x_7);
+lean_closure_set(x_10, 1, x_8);
+lean_closure_set(x_10, 2, x_1);
+lean_closure_set(x_10, 3, x_2);
+lean_closure_set(x_10, 4, x_3);
+lean_closure_set(x_10, 5, x_4);
+lean_closure_set(x_10, 6, x_5);
+lean_closure_set(x_10, 7, x_6);
+x_11 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_11, 0, x_9);
+lean_ctor_set(x_11, 1, x_10);
+return x_11;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_NatTrans_id___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__145(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; lean_object* x_3; 
+x_2 = l_Lat_instCategory;
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_id___elambda__1___rarg), 3, 2);
+lean_closure_set(x_3, 0, x_2);
+lean_closure_set(x_3, 1, x_1);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_refl___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__144(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; lean_object* x_3; lean_object* x_4; 
+x_2 = l_Lat_instCategory;
+x_3 = lean_alloc_closure((void*)(l_CategoryTheory_NatTrans_id___elambda__1___rarg), 3, 2);
+lean_closure_set(x_3, 0, x_2);
+lean_closure_set(x_3, 1, x_1);
+lean_inc(x_3);
+x_4 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_4, 0, x_3);
+lean_ctor_set(x_4, 1, x_3);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_symm___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__146(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; lean_object* x_5; lean_object* x_6; 
+x_4 = lean_ctor_get(x_3, 1);
+x_5 = lean_ctor_get(x_3, 0);
+lean_inc(x_5);
+lean_inc(x_4);
+x_6 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_6, 0, x_4);
+lean_ctor_set(x_6, 1, x_5);
+return x_6;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Adjunction_leftAdjointUniq___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__142(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4, lean_object* x_5) {
+_start:
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; lean_object* x_9; 
+lean_inc_n(x_3, 2);
+lean_inc(x_2);
+lean_inc(x_1);
+x_6 = l_CategoryTheory_conjugateIsoEquiv___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__143(x_1, x_2, x_3, x_3, x_4, x_5);
+x_7 = l_CategoryTheory_Iso_refl___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__144(x_3);
+x_8 = l_Equiv_symm___elambda__2___rarg(x_6, x_7);
+x_9 = l_CategoryTheory_Iso_symm___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__146(x_2, x_1, x_8);
+lean_dec(x_8);
+lean_dec(x_1);
+lean_dec(x_2);
+return x_9;
+}
+}
+static lean_object* _init_l_latToBddLatCompDualIsoDualCompLatToBddLat() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; lean_object* x_3; lean_object* x_4; lean_object* x_5; lean_object* x_6; lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; lean_object* x_11; lean_object* x_12; lean_object* x_13; lean_object* x_14; lean_object* x_15; 
+x_1 = l_latToBddLat;
+x_2 = l_BddLat_dual;
+x_3 = l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__1(x_1, x_2);
+x_4 = l_Lat_dual;
+x_5 = l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__2(x_4, x_1);
+x_6 = l_BddLat_hasForgetToLat___closed__2;
+x_7 = l_CategoryTheory_Functor_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__3(x_2, x_6);
+x_8 = l_BddLat_dualEquiv;
+x_9 = l_CategoryTheory_Equivalence_toAdjunction___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__4(x_8);
+x_10 = l_latToBddLatForgetAdjunction;
+x_11 = l_CategoryTheory_Adjunction_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__5(x_1, x_6, x_2, x_2, x_10, x_9);
+x_12 = l_Lat_dualEquiv;
+x_13 = l_CategoryTheory_Equivalence_toAdjunction___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__73(x_12);
+x_14 = l_CategoryTheory_Adjunction_comp___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__74(x_4, x_4, x_1, x_6, x_13, x_10);
+x_15 = l_CategoryTheory_Adjunction_leftAdjointUniq___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__142(x_3, x_5, x_7, x_11, x_14);
+return x_15;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_rightUnitor___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__17___boxed(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = l_CategoryTheory_Functor_rightUnitor___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__17(x_1);
+lean_dec(x_1);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_associator___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__25___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Functor_associator___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__25(x_1, x_2, x_3);
+lean_dec(x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_associator___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__35___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Functor_associator___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__35(x_1, x_2, x_3);
+lean_dec(x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_associator___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__45___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Functor_associator___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__45(x_1, x_2, x_3);
+lean_dec(x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_associator___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__53___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Functor_associator___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__53(x_1, x_2, x_3);
+lean_dec(x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_rightUnitor___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__62___boxed(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = l_CategoryTheory_Functor_rightUnitor___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__62(x_1);
+lean_dec(x_1);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Adjunction_mk_x27___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__72___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Adjunction_mk_x27___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__72(x_1, x_2, x_3);
+lean_dec(x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_rightUnitor___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__85___boxed(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = l_CategoryTheory_Functor_rightUnitor___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__85(x_1);
+lean_dec(x_1);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_associator___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__93___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Functor_associator___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__93(x_1, x_2, x_3);
+lean_dec(x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_associator___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__103___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Functor_associator___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__103(x_1, x_2, x_3);
+lean_dec(x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_associator___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__114___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Functor_associator___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__114(x_1, x_2, x_3);
+lean_dec(x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_associator___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__122___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Functor_associator___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__122(x_1, x_2, x_3);
+lean_dec(x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Functor_rightUnitor___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__131___boxed(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = l_CategoryTheory_Functor_rightUnitor___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__131(x_1);
+lean_dec(x_1);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Adjunction_mk_x27___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__141___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Adjunction_mk_x27___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__141(x_1, x_2, x_3);
+lean_dec(x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_CategoryTheory_Iso_symm___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__146___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_CategoryTheory_Iso_symm___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__146(x_1, x_2, x_3);
+lean_dec(x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_4;
+}
+}
+lean_object* initialize_Init(uint8_t builtin, lean_object*);
+lean_object* initialize_Mathlib_CategoryTheory_Adjunction_Unique(uint8_t builtin, lean_object*);
+lean_object* initialize_Mathlib_Order_Category_BddOrd(uint8_t builtin, lean_object*);
+lean_object* initialize_Mathlib_Order_Category_Lat(uint8_t builtin, lean_object*);
+lean_object* initialize_Mathlib_Order_Category_Semilat(uint8_t builtin, lean_object*);
+static bool _G_initialized = false;
+LEAN_EXPORT lean_object* initialize_Mathlib_Order_Category_BddLat(uint8_t builtin, lean_object* w) {
+lean_object * res;
+if (_G_initialized) return lean_io_result_mk_ok(lean_box(0));
+_G_initialized = true;
+res = initialize_Init(builtin, lean_io_mk_world());
+if (lean_io_result_is_error(res)) return res;
+lean_dec_ref(res);
+res = initialize_Mathlib_CategoryTheory_Adjunction_Unique(builtin, lean_io_mk_world());
+if (lean_io_result_is_error(res)) return res;
+lean_dec_ref(res);
+res = initialize_Mathlib_Order_Category_BddOrd(builtin, lean_io_mk_world());
+if (lean_io_result_is_error(res)) return res;
+lean_dec_ref(res);
+res = initialize_Mathlib_Order_Category_Lat(builtin, lean_io_mk_world());
+if (lean_io_result_is_error(res)) return res;
+lean_dec_ref(res);
+res = initialize_Mathlib_Order_Category_Semilat(builtin, lean_io_mk_world());
+if (lean_io_result_is_error(res)) return res;
+lean_dec_ref(res);
+l_BddLat_instCoeSortType = _init_l_BddLat_instCoeSortType();
+l_BddLat_instInhabited___closed__1 = _init_l_BddLat_instInhabited___closed__1();
+lean_mark_persistent(l_BddLat_instInhabited___closed__1);
+l_BddLat_instInhabited___closed__2 = _init_l_BddLat_instInhabited___closed__2();
+lean_mark_persistent(l_BddLat_instInhabited___closed__2);
+l_BddLat_instInhabited = _init_l_BddLat_instInhabited();
+lean_mark_persistent(l_BddLat_instInhabited);
+l_BddLat_instLargeCategory___lambda__1___closed__1 = _init_l_BddLat_instLargeCategory___lambda__1___closed__1();
+lean_mark_persistent(l_BddLat_instLargeCategory___lambda__1___closed__1);
+l_BddLat_instLargeCategory___closed__1 = _init_l_BddLat_instLargeCategory___closed__1();
+lean_mark_persistent(l_BddLat_instLargeCategory___closed__1);
+l_BddLat_instLargeCategory___closed__2 = _init_l_BddLat_instLargeCategory___closed__2();
+lean_mark_persistent(l_BddLat_instLargeCategory___closed__2);
+l_BddLat_instLargeCategory___closed__3 = _init_l_BddLat_instLargeCategory___closed__3();
+lean_mark_persistent(l_BddLat_instLargeCategory___closed__3);
+l_BddLat_instLargeCategory = _init_l_BddLat_instLargeCategory();
+lean_mark_persistent(l_BddLat_instLargeCategory);
+l_BddLat_instConcreteCategoryBoundedLatticeHomCarrier___lambda__1___closed__1 = _init_l_BddLat_instConcreteCategoryBoundedLatticeHomCarrier___lambda__1___closed__1();
+lean_mark_persistent(l_BddLat_instConcreteCategoryBoundedLatticeHomCarrier___lambda__1___closed__1);
+l_BddLat_instConcreteCategoryBoundedLatticeHomCarrier___closed__1 = _init_l_BddLat_instConcreteCategoryBoundedLatticeHomCarrier___closed__1();
+lean_mark_persistent(l_BddLat_instConcreteCategoryBoundedLatticeHomCarrier___closed__1);
+l_BddLat_instConcreteCategoryBoundedLatticeHomCarrier___closed__2 = _init_l_BddLat_instConcreteCategoryBoundedLatticeHomCarrier___closed__2();
+lean_mark_persistent(l_BddLat_instConcreteCategoryBoundedLatticeHomCarrier___closed__2);
+l_BddLat_instConcreteCategoryBoundedLatticeHomCarrier___closed__3 = _init_l_BddLat_instConcreteCategoryBoundedLatticeHomCarrier___closed__3();
+lean_mark_persistent(l_BddLat_instConcreteCategoryBoundedLatticeHomCarrier___closed__3);
+l_BddLat_instConcreteCategoryBoundedLatticeHomCarrier = _init_l_BddLat_instConcreteCategoryBoundedLatticeHomCarrier();
+lean_mark_persistent(l_BddLat_instConcreteCategoryBoundedLatticeHomCarrier);
+l_BddLat_hasForgetToBddOrd___closed__1 = _init_l_BddLat_hasForgetToBddOrd___closed__1();
+lean_mark_persistent(l_BddLat_hasForgetToBddOrd___closed__1);
+l_BddLat_hasForgetToBddOrd___closed__2 = _init_l_BddLat_hasForgetToBddOrd___closed__2();
+lean_mark_persistent(l_BddLat_hasForgetToBddOrd___closed__2);
+l_BddLat_hasForgetToBddOrd = _init_l_BddLat_hasForgetToBddOrd();
+lean_mark_persistent(l_BddLat_hasForgetToBddOrd);
+l_BddLat_hasForgetToLat___closed__1 = _init_l_BddLat_hasForgetToLat___closed__1();
+lean_mark_persistent(l_BddLat_hasForgetToLat___closed__1);
+l_BddLat_hasForgetToLat___closed__2 = _init_l_BddLat_hasForgetToLat___closed__2();
+lean_mark_persistent(l_BddLat_hasForgetToLat___closed__2);
+l_BddLat_hasForgetToLat = _init_l_BddLat_hasForgetToLat();
+lean_mark_persistent(l_BddLat_hasForgetToLat);
+l_BddLat_hasForgetToSemilatSup___closed__1 = _init_l_BddLat_hasForgetToSemilatSup___closed__1();
+lean_mark_persistent(l_BddLat_hasForgetToSemilatSup___closed__1);
+l_BddLat_hasForgetToSemilatSup___closed__2 = _init_l_BddLat_hasForgetToSemilatSup___closed__2();
+lean_mark_persistent(l_BddLat_hasForgetToSemilatSup___closed__2);
+l_BddLat_hasForgetToSemilatSup = _init_l_BddLat_hasForgetToSemilatSup();
+lean_mark_persistent(l_BddLat_hasForgetToSemilatSup);
+l_BddLat_hasForgetToSemilatInf___closed__1 = _init_l_BddLat_hasForgetToSemilatInf___closed__1();
+lean_mark_persistent(l_BddLat_hasForgetToSemilatInf___closed__1);
+l_BddLat_hasForgetToSemilatInf___closed__2 = _init_l_BddLat_hasForgetToSemilatInf___closed__2();
+lean_mark_persistent(l_BddLat_hasForgetToSemilatInf___closed__2);
+l_BddLat_hasForgetToSemilatInf = _init_l_BddLat_hasForgetToSemilatInf();
+lean_mark_persistent(l_BddLat_hasForgetToSemilatInf);
+l_BddLat_dual___closed__1 = _init_l_BddLat_dual___closed__1();
+lean_mark_persistent(l_BddLat_dual___closed__1);
+l_BddLat_dual___closed__2 = _init_l_BddLat_dual___closed__2();
+lean_mark_persistent(l_BddLat_dual___closed__2);
+l_BddLat_dual___closed__3 = _init_l_BddLat_dual___closed__3();
+lean_mark_persistent(l_BddLat_dual___closed__3);
+l_BddLat_dual = _init_l_BddLat_dual();
+lean_mark_persistent(l_BddLat_dual);
+l_CategoryTheory_Functor_id___at_BddLat_dualEquiv___spec__1___closed__1 = _init_l_CategoryTheory_Functor_id___at_BddLat_dualEquiv___spec__1___closed__1();
+lean_mark_persistent(l_CategoryTheory_Functor_id___at_BddLat_dualEquiv___spec__1___closed__1);
+l_CategoryTheory_Functor_id___at_BddLat_dualEquiv___spec__1___closed__2 = _init_l_CategoryTheory_Functor_id___at_BddLat_dualEquiv___spec__1___closed__2();
+lean_mark_persistent(l_CategoryTheory_Functor_id___at_BddLat_dualEquiv___spec__1___closed__2);
+l_CategoryTheory_Functor_id___at_BddLat_dualEquiv___spec__1 = _init_l_CategoryTheory_Functor_id___at_BddLat_dualEquiv___spec__1();
+lean_mark_persistent(l_CategoryTheory_Functor_id___at_BddLat_dualEquiv___spec__1);
+l_CategoryTheory_NatIso_ofComponents___at_BddLat_dualEquiv___spec__3___closed__1 = _init_l_CategoryTheory_NatIso_ofComponents___at_BddLat_dualEquiv___spec__3___closed__1();
+lean_mark_persistent(l_CategoryTheory_NatIso_ofComponents___at_BddLat_dualEquiv___spec__3___closed__1);
+l_BddLat_dualEquiv___lambda__1___closed__1 = _init_l_BddLat_dualEquiv___lambda__1___closed__1();
+lean_mark_persistent(l_BddLat_dualEquiv___lambda__1___closed__1);
+l_BddLat_dualEquiv = _init_l_BddLat_dualEquiv();
+lean_mark_persistent(l_BddLat_dualEquiv);
+l_latToBddLat___lambda__1___closed__1 = _init_l_latToBddLat___lambda__1___closed__1();
+lean_mark_persistent(l_latToBddLat___lambda__1___closed__1);
+l_latToBddLat___closed__1 = _init_l_latToBddLat___closed__1();
+lean_mark_persistent(l_latToBddLat___closed__1);
+l_latToBddLat___closed__2 = _init_l_latToBddLat___closed__2();
+lean_mark_persistent(l_latToBddLat___closed__2);
+l_latToBddLat___closed__3 = _init_l_latToBddLat___closed__3();
+lean_mark_persistent(l_latToBddLat___closed__3);
+l_latToBddLat = _init_l_latToBddLat();
+lean_mark_persistent(l_latToBddLat);
+l_CategoryTheory_Functor_id___at_latToBddLatForgetAdjunction___spec__2___closed__1 = _init_l_CategoryTheory_Functor_id___at_latToBddLatForgetAdjunction___spec__2___closed__1();
+lean_mark_persistent(l_CategoryTheory_Functor_id___at_latToBddLatForgetAdjunction___spec__2___closed__1);
+l_CategoryTheory_Functor_id___at_latToBddLatForgetAdjunction___spec__2 = _init_l_CategoryTheory_Functor_id___at_latToBddLatForgetAdjunction___spec__2();
+lean_mark_persistent(l_CategoryTheory_Functor_id___at_latToBddLatForgetAdjunction___spec__2);
+l_CategoryTheory_Functor_id___at_latToBddLatForgetAdjunction___spec__5 = _init_l_CategoryTheory_Functor_id___at_latToBddLatForgetAdjunction___spec__5();
+lean_mark_persistent(l_CategoryTheory_Functor_id___at_latToBddLatForgetAdjunction___spec__5);
+l_latToBddLatForgetAdjunction___lambda__2___closed__1 = _init_l_latToBddLatForgetAdjunction___lambda__2___closed__1();
+lean_mark_persistent(l_latToBddLatForgetAdjunction___lambda__2___closed__1);
+l_latToBddLatForgetAdjunction___lambda__2___closed__2 = _init_l_latToBddLatForgetAdjunction___lambda__2___closed__2();
+lean_mark_persistent(l_latToBddLatForgetAdjunction___lambda__2___closed__2);
+l_latToBddLatForgetAdjunction___lambda__4___closed__1 = _init_l_latToBddLatForgetAdjunction___lambda__4___closed__1();
+lean_mark_persistent(l_latToBddLatForgetAdjunction___lambda__4___closed__1);
+l_latToBddLatForgetAdjunction___closed__1 = _init_l_latToBddLatForgetAdjunction___closed__1();
+lean_mark_persistent(l_latToBddLatForgetAdjunction___closed__1);
+l_latToBddLatForgetAdjunction = _init_l_latToBddLatForgetAdjunction();
+lean_mark_persistent(l_latToBddLatForgetAdjunction);
+l_CategoryTheory_Functor_id___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__10 = _init_l_CategoryTheory_Functor_id___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__10();
+lean_mark_persistent(l_CategoryTheory_Functor_id___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__10);
+l_CategoryTheory_Functor_id___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__15 = _init_l_CategoryTheory_Functor_id___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__15();
+lean_mark_persistent(l_CategoryTheory_Functor_id___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__15);
+l_CategoryTheory_Functor_id___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__18 = _init_l_CategoryTheory_Functor_id___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__18();
+lean_mark_persistent(l_CategoryTheory_Functor_id___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__18);
+l_CategoryTheory_Functor_rightUnitor___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__17___closed__1 = _init_l_CategoryTheory_Functor_rightUnitor___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__17___closed__1();
+lean_mark_persistent(l_CategoryTheory_Functor_rightUnitor___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__17___closed__1);
+l_CategoryTheory_Functor_associator___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__35___closed__1 = _init_l_CategoryTheory_Functor_associator___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__35___closed__1();
+lean_mark_persistent(l_CategoryTheory_Functor_associator___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__35___closed__1);
+l_CategoryTheory_Functor_id___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__63 = _init_l_CategoryTheory_Functor_id___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__63();
+lean_mark_persistent(l_CategoryTheory_Functor_id___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__63);
+l_CategoryTheory_Functor_id___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__79 = _init_l_CategoryTheory_Functor_id___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__79();
+lean_mark_persistent(l_CategoryTheory_Functor_id___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__79);
+l_CategoryTheory_Functor_id___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__86 = _init_l_CategoryTheory_Functor_id___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__86();
+lean_mark_persistent(l_CategoryTheory_Functor_id___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__86);
+l_CategoryTheory_Functor_id___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__113 = _init_l_CategoryTheory_Functor_id___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__113();
+lean_mark_persistent(l_CategoryTheory_Functor_id___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__113);
+l_CategoryTheory_Functor_associator___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__122___closed__1 = _init_l_CategoryTheory_Functor_associator___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__122___closed__1();
+lean_mark_persistent(l_CategoryTheory_Functor_associator___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__122___closed__1);
+l_CategoryTheory_Functor_id___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__132 = _init_l_CategoryTheory_Functor_id___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__132();
+lean_mark_persistent(l_CategoryTheory_Functor_id___at_latToBddLatCompDualIsoDualCompLatToBddLat___spec__132);
+l_latToBddLatCompDualIsoDualCompLatToBddLat = _init_l_latToBddLatCompDualIsoDualCompLatToBddLat();
+lean_mark_persistent(l_latToBddLatCompDualIsoDualCompLatToBddLat);
+return lean_io_result_mk_ok(lean_box(0));
+}
+#ifdef __cplusplus
+}
+#endif

@@ -1,0 +1,49 @@
+// Lean compiler output
+// Module: Mathlib.RingTheory.Etale.Kaehler
+// Imports: Init Mathlib.RingTheory.Etale.Basic Mathlib.RingTheory.Kaehler.JacobiZariski Mathlib.RingTheory.Localization.BaseChange Mathlib.RingTheory.Smooth.Kaehler Mathlib.RingTheory.Flat.Localization
+#include <lean/lean.h>
+#if defined(__clang__)
+#pragma clang diagnostic ignored "-Wunused-parameter"
+#pragma clang diagnostic ignored "-Wunused-label"
+#elif defined(__GNUC__) && !defined(__CLANG__)
+#pragma GCC diagnostic ignored "-Wunused-parameter"
+#pragma GCC diagnostic ignored "-Wunused-label"
+#pragma GCC diagnostic ignored "-Wunused-but-set-variable"
+#endif
+#ifdef __cplusplus
+extern "C" {
+#endif
+lean_object* initialize_Init(uint8_t builtin, lean_object*);
+lean_object* initialize_Mathlib_RingTheory_Etale_Basic(uint8_t builtin, lean_object*);
+lean_object* initialize_Mathlib_RingTheory_Kaehler_JacobiZariski(uint8_t builtin, lean_object*);
+lean_object* initialize_Mathlib_RingTheory_Localization_BaseChange(uint8_t builtin, lean_object*);
+lean_object* initialize_Mathlib_RingTheory_Smooth_Kaehler(uint8_t builtin, lean_object*);
+lean_object* initialize_Mathlib_RingTheory_Flat_Localization(uint8_t builtin, lean_object*);
+static bool _G_initialized = false;
+LEAN_EXPORT lean_object* initialize_Mathlib_RingTheory_Etale_Kaehler(uint8_t builtin, lean_object* w) {
+lean_object * res;
+if (_G_initialized) return lean_io_result_mk_ok(lean_box(0));
+_G_initialized = true;
+res = initialize_Init(builtin, lean_io_mk_world());
+if (lean_io_result_is_error(res)) return res;
+lean_dec_ref(res);
+res = initialize_Mathlib_RingTheory_Etale_Basic(builtin, lean_io_mk_world());
+if (lean_io_result_is_error(res)) return res;
+lean_dec_ref(res);
+res = initialize_Mathlib_RingTheory_Kaehler_JacobiZariski(builtin, lean_io_mk_world());
+if (lean_io_result_is_error(res)) return res;
+lean_dec_ref(res);
+res = initialize_Mathlib_RingTheory_Localization_BaseChange(builtin, lean_io_mk_world());
+if (lean_io_result_is_error(res)) return res;
+lean_dec_ref(res);
+res = initialize_Mathlib_RingTheory_Smooth_Kaehler(builtin, lean_io_mk_world());
+if (lean_io_result_is_error(res)) return res;
+lean_dec_ref(res);
+res = initialize_Mathlib_RingTheory_Flat_Localization(builtin, lean_io_mk_world());
+if (lean_io_result_is_error(res)) return res;
+lean_dec_ref(res);
+return lean_io_result_mk_ok(lean_box(0));
+}
+#ifdef __cplusplus
+}
+#endif
