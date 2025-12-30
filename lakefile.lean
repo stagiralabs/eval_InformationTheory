@@ -7,17 +7,18 @@ open Lake DSL
 ## Mathlib dependencies on upstream projects
 -/
 
-require "leanprover-community" / "batteries" @ git "main"
-require "leanprover-community" / "Qq" @ git "master"
-require "leanprover-community" / "aesop" @ git "master"
+-- Pinned to specific commits from Mathlib v4.17.0 release (Lean 4.17.0 compatible)
+require "leanprover-community" / "batteries" @ git "efcc7d9bd9936ecdc625baf0d033b60866565cd5"
+require "leanprover-community" / "Qq" @ git "95561f7a5811fae6a309e4a1bbe22a0a4a98bf03"
+require "leanprover-community" / "aesop" @ git "56a2c80b209c253e0281ac4562a92122b457dcc0"
 require "leanprover-community" / "proofwidgets" @ git "v0.0.52" -- ProofWidgets should always be pinned to a specific version
   with NameMap.empty.insert `errorOnBuild
     "ProofWidgets not up-to-date. \
     Please run `lake exe cache get` to fetch the latest ProofWidgets. \
     If this does not work, report your issue on the Lean Zulip."
-require "leanprover-community" / "importGraph" @ git "main"
-require "leanprover-community" / "LeanSearchClient" @ git "main"
-require "leanprover-community" / "plausible" @ git "main"
+require "leanprover-community" / "importGraph" @ git "0447b0a7b7f41f0a1749010db3f222e4a96f9d30"
+require "leanprover-community" / "LeanSearchClient" @ git "0c169a0d55fef3763cfb3099eafd7b884ec7e41d"
+require "leanprover-community" / "plausible" @ git "c708be04267e3e995a14ac0d08b1530579c1525a"
 
 require VerifiedAgora from git
   "https://github.com/stagiralabs/VerifiedAgora.git" @ "v4.17.0"
@@ -57,7 +58,7 @@ abbrev mathlibLeanOptions := #[
   ] ++ -- options that are used in `lake build`
     mathlibOnlyLinters.map fun s ↦ { s with name := `weak ++ s.name }
 
-package mathlib where
+package eval_InformationTheory where
   testDriver := "MathlibTest"
   -- These are additional settings which do not affect the lake hash,
   -- so they can be enabled in CI and disabled locally or vice versa.
