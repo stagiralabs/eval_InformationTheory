@@ -4,7 +4,7 @@ Copyright (c) 2025 Rémy Degenne. All rights reserved.
 Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Rémy Degenne, Lorenzo Luccioli
 -/
-import Mathlib.InformationTheory.KullbackLeibler.KLFun
+import InformationTheory.KullbackLeibler.KLFun
 import Mathlib.MeasureTheory.Decomposition.IntegralRNDeriv
 
 /-!
@@ -44,7 +44,7 @@ measures `μ ≪ ν`. This also makes `klDiv μ ν` equal to an f-divergence: it
 open Real MeasureTheory Set
 
 open scoped ENNReal
-
+namespace AgoraInformationTheory
 namespace InformationTheory
 
 variable {α : Type*} {mα : MeasurableSpace α} {μ ν : Measure α}
@@ -184,3 +184,4 @@ lemma klDiv_eq_zero_iff [IsFiniteMeasure μ] [IsFiniteMeasure ν] :
     klDiv μ ν = 0 ↔ μ = ν := by sorry
 
 end InformationTheory
+end AgoraInformationTheory

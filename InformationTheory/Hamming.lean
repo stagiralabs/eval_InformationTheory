@@ -26,6 +26,7 @@ code.
 * the Hamming norm forms a normed group on `Hamming β`.
 -/
 
+namespace AgoraInformationTheory
 
 section HammingDistNorm
 
@@ -375,3 +376,5 @@ theorem nnnorm_eq_hammingNorm [∀ i, AddGroup (β i)] (x : Hamming β) :
 end
 
 end Hamming
+
+end AgoraInformationTheory

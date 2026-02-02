@@ -39,7 +39,7 @@ This is a continuous nonnegative, strictly convex function on [0,∞), with mini
 -/
 
 open Real MeasureTheory Filter Set
-
+namespace AgoraInformationTheory
 namespace InformationTheory
 
 variable {α : Type*} {mα : MeasurableSpace α} {μ ν : Measure α} {x : ℝ}
@@ -160,3 +160,4 @@ lemma integral_klFun_rnDeriv (hμν : μ ≪ ν) (h_int : Integrable (llr μ ν)
 end Integral
 
 end InformationTheory
+end AgoraInformationTheory
