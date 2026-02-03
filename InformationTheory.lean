@@ -3,6 +3,7 @@ import InformationTheory.Hamming
 import InformationTheory.Hard
 import InformationTheory.KullbackLeibler.Basic
 import InformationTheory.KullbackLeibler.KLFun
+import InformationTheory.Market2
 import InformationTheory.MoreTargets
 import InformationTheory.QuickWins
 import InformationTheory.SimpleTargets
