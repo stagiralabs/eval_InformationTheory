@@ -3,4 +3,5 @@ import InformationTheory.Hamming
 import InformationTheory.Hard
 import InformationTheory.KullbackLeibler.Basic
 import InformationTheory.KullbackLeibler.KLFun
+import InformationTheory.QuickWins
 import InformationTheory.Trading
