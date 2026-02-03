@@ -1,0 +1,1 @@
+{"version":3,"references":{"{\"c\":{\"n\":\"rfl\",\"m\":\"Init.Prelude\"}}":{"usages":[[6,36,6,39,"AgoraInformationTheory.test_theorem",5,0,6,39,6,8,6,20]],"definition":null},"{\"c\":{\"n\":\"AgoraInformationTheory.test_theorem\",\"m\":\"InformationTheory.Test\"}}":{"usages":[],"definition":[6,8,6,20]}},"module":"InformationTheory.Test"}
