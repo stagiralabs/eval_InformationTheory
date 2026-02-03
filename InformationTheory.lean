@@ -4,4 +4,5 @@ import InformationTheory.Hard
 import InformationTheory.KullbackLeibler.Basic
 import InformationTheory.KullbackLeibler.KLFun
 import InformationTheory.QuickWins
+import InformationTheory.SimpleTargets
 import InformationTheory.Trading
