@@ -1,20 +1,5 @@
 {"log":
  [{"message":
    ".> LEAN_PATH=././.lake/packages/Cli/.lake/build/lib:././.lake/packages/batteries/.lake/build/lib:././.lake/packages/Qq/.lake/build/lib:././.lake/packages/aesop/.lake/build/lib:././.lake/packages/proofwidgets/.lake/build/lib:././.lake/packages/importGraph/.lake/build/lib:././.lake/packages/LeanSearchClient/.lake/build/lib:././.lake/packages/plausible/.lake/build/lib:././.lake/packages/SafeVerify/.lake/build/lib:././.lake/packages/mathlib/.lake/build/lib:././.lake/packages/VerifiedAgora/.lake/build/lib:././.lake/build/lib LD_LIBRARY_PATH= /shared/elan/toolchains/leanprover--lean4---v4.17.0/bin/lean ././././InformationTheory/SimpleTargets.lean -R ./././. -o ././.lake/build/lib/InformationTheory/SimpleTargets.olean -i ././.lake/build/lib/InformationTheory/SimpleTargets.ilean -c ././.lake/build/ir/InformationTheory/SimpleTargets.c --json",
-   "level": "trace"},
-  {"message":
-   "././././InformationTheory/SimpleTargets.lean:8:8: declaration uses 'sorry'",
-   "level": "warning"},
-  {"message":
-   "././././InformationTheory/SimpleTargets.lean:11:8: declaration uses 'sorry'",
-   "level": "warning"},
-  {"message":
-   "././././InformationTheory/SimpleTargets.lean:14:8: declaration uses 'sorry'",
-   "level": "warning"},
-  {"message":
-   "././././InformationTheory/SimpleTargets.lean:17:8: declaration uses 'sorry'",
-   "level": "warning"},
-  {"message":
-   "././././InformationTheory/SimpleTargets.lean:20:8: declaration uses 'sorry'",
-   "level": "warning"}],
- "depHash": "18367327791088371625"}
+   "level": "trace"}],
+ "depHash": "10211342805821847829"}
