@@ -1,0 +1,17 @@
+{"log":
+ [{"message":
+   ".> LEAN_PATH=././.lake/packages/Cli/.lake/build/lib:././.lake/packages/batteries/.lake/build/lib:././.lake/packages/Qq/.lake/build/lib:././.lake/packages/aesop/.lake/build/lib:././.lake/packages/proofwidgets/.lake/build/lib:././.lake/packages/importGraph/.lake/build/lib:././.lake/packages/LeanSearchClient/.lake/build/lib:././.lake/packages/plausible/.lake/build/lib:././.lake/packages/SafeVerify/.lake/build/lib:././.lake/packages/mathlib/.lake/build/lib:././.lake/packages/VerifiedAgora/.lake/build/lib:././.lake/build/lib LD_LIBRARY_PATH= /shared/elan/toolchains/leanprover--lean4---v4.17.0/bin/lean ././././InformationTheory/Trading.lean -R ./././. -o ././.lake/build/lib/InformationTheory/Trading.olean -i ././.lake/build/lib/InformationTheory/Trading.ilean -c ././.lake/build/ir/InformationTheory/Trading.c --json",
+   "level": "trace"},
+  {"message":
+   "././././InformationTheory/Trading.lean:6:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././././InformationTheory/Trading.lean:9:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././././InformationTheory/Trading.lean:12:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././././InformationTheory/Trading.lean:15:8: declaration uses 'sorry'",
+   "level": "warning"}],
+ "depHash": "3695287068513546645"}
