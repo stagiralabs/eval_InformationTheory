@@ -319,35 +319,20 @@ instance : Dist (Hamming β) :=
 theorem dist_eq_hammingDist (x y : Hamming β) :
     dist x y = hammingDist (ofHamming x) (ofHamming y) := by sorry
 
+@[target]
 instance : PseudoMetricSpace (Hamming β) where
   dist_self := by
-    push_cast
-    exact mod_cast hammingDist_self
+    sorry
   dist_comm := by
-    push_cast
-    exact mod_cast hammingDist_comm
+    sorry
   dist_triangle := by
-    push_cast
-    exact mod_cast hammingDist_triangle
+    sorry
   toUniformSpace := ⊥
   uniformity_dist := uniformity_dist_of_mem_uniformity _ _ fun s => by
-    push_cast
-    constructor
-    · refine fun hs => ⟨1, zero_lt_one, fun hab => ?_⟩
-      rw_mod_cast [hammingDist_lt_one] at hab
-      rw [ofHamming_inj, ← mem_idRel] at hab
-      exact hs hab
-    · rintro ⟨_, hε, hs⟩ ⟨_, _⟩ hab
-      rw [mem_idRel] at hab
-      rw [hab]
-      refine hs (lt_of_eq_of_lt ?_ hε)
-      exact mod_cast hammingDist_self _
-  toBornology := ⟨⊥, bot_le⟩
+    sorry
+  toBornology := sorry
   cobounded_sets := by
-    ext
-    push_cast
-    refine iff_of_true (Filter.mem_sets.mpr Filter.mem_bot) ⟨Fintype.card ι, fun _ _ _ _ => ?_⟩
-    exact mod_cast hammingDist_le_card_fintype
+    sorry
 
 @[target, simp, push_cast]
 theorem nndist_eq_hammingDist (x y : Hamming β) :
