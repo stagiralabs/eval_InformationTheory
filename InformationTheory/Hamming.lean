@@ -52,9 +52,9 @@ theorem hammingDist_nonneg {x y : ∀ i, β i} : 0 ≤ hammingDist x y :=
 @[target]
 theorem hammingDist_comm (x y : ∀ i, β i) : hammingDist x y = hammingDist y x := by
   unfold hammingDist
-  congr
+  congr 1
   ext i
-  exact ne_comm
+  simp [ne_comm]
 
 /-- Corresponds to `dist_triangle`. -/
 @[target]
@@ -75,7 +75,9 @@ theorem hammingDist_triangle_right (x y z : ∀ i, β i) :
 
 /-- Corresponds to `swap_dist`. -/
 @[target]
-theorem swap_hammingDist : swap (@hammingDist _ β _ _) = hammingDist := by sorry
+theorem swap_hammingDist : swap (@hammingDist _ β _ _) = hammingDist := by
+  funext x y
+  exact hammingDist_comm y x
 
 /-- Corresponds to `eq_of_dist_eq_zero`. -/
 @[target]
