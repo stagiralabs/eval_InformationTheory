@@ -50,7 +50,7 @@ theorem hammingDist_nonneg {x y : ∀ i, β i} : 0 ≤ hammingDist x y :=
 /-- Corresponds to `dist_comm`. -/
 @[target]
 theorem hammingDist_comm (x y : ∀ i, β i) : hammingDist x y = hammingDist y x := by
-  simpa [hammingDist, ne_comm]
+  simp [hammingDist, ne_comm]
 
 /-- Corresponds to `dist_triangle`. -/
 @[target]
@@ -134,7 +134,10 @@ def hammingNorm (x : ∀ i, β i) : ℕ := #{i | x i ≠ 0}
 
 /-- Corresponds to `dist_zero_right`. -/
 @[target, simp]
-theorem hammingDist_zero_right (x : ∀ i, β i) : hammingDist x 0 = hammingNorm x := by sorry
+theorem hammingDist_zero_right (x : ∀ i, β i) : hammingDist x 0 = hammingNorm x := by
+  classical
+  unfold hammingDist hammingNorm
+  simp
 
 /-- Corresponds to `dist_zero_left`. -/
 @[target, simp]
