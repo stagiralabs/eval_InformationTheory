@@ -4,3 +4,4 @@ import InformationTheory.HammingExtra
 import InformationTheory.HammingExtra2
 import InformationTheory.KullbackLeibler.Basic
 import InformationTheory.KullbackLeibler.KLFun
+import InformationTheory.NewTarget
