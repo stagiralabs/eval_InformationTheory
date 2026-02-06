@@ -3,3 +3,4 @@ import InformationTheory.Hamming
 import InformationTheory.KullbackLeibler.Basic
 import InformationTheory.KullbackLeibler.KLFun
 import InformationTheory.Trivial
+import InformationTheory.Trivial2
