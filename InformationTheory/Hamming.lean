@@ -52,9 +52,9 @@ theorem hammingDist_nonneg {x y : ∀ i, β i} : 0 ≤ hammingDist x y :=
 @[target]
 theorem hammingDist_comm (x y : ∀ i, β i) : hammingDist x y = hammingDist y x := by
   unfold hammingDist
-  congr 1
+  congr
   ext i
-  simp [ne_comm]
+  exact ne_comm
 
 /-- Corresponds to `dist_triangle`. -/
 @[target]
