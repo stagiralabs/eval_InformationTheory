@@ -138,7 +138,8 @@ theorem hammingDist_zero_left : hammingDist (0 : ∀ i, β i) = hammingNorm := b
 
 /-- Corresponds to `norm_nonneg`. -/
 @[target]
-theorem hammingNorm_nonneg {x : ∀ i, β i} : 0 ≤ hammingNorm x := by sorry
+theorem hammingNorm_nonneg {x : ∀ i, β i} : 0 ≤ hammingNorm x :=
+  zero_le _
 
 /-- Corresponds to `norm_zero`. -/
 @[target, simp]
@@ -158,7 +159,8 @@ theorem hammingNorm_ne_zero_iff {x : ∀ i, β i} : hammingNorm x ≠ 0 ↔ x �
 theorem hammingNorm_pos_iff {x : ∀ i, β i} : 0 < hammingNorm x ↔ x ≠ 0 := by sorry
 
 @[target]
-theorem hammingNorm_lt_one {x : ∀ i, β i} : hammingNorm x < 1 ↔ x = 0 := by sorry
+theorem hammingNorm_lt_one {x : ∀ i, β i} : hammingNorm x < 1 ↔ x = 0 := by
+  simp [Nat.lt_one_iff, hammingNorm_eq_zero]
 
 @[target]
 theorem hammingNorm_le_card_fintype {x : ∀ i, β i} : hammingNorm x ≤ Fintype.card ι := by sorry
