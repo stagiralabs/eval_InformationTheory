@@ -123,7 +123,11 @@ theorem hammingDist_smul_le_hammingDist [∀ i, SMul α (β i)] {k : α} {x y : 
 /-- Corresponds to `dist_smul` with the discrete norm on `α`. -/
 @[target]
 theorem hammingDist_smul [∀ i, SMul α (β i)] {k : α} {x y : ∀ i, β i}
-    (hk : ∀ i, IsSMulRegular (β i) k) : hammingDist (k • x) (k • y) = hammingDist x y := by sorry
+    (hk : ∀ i, IsSMulRegular (β i) k) : hammingDist (k • x) (k • y) = hammingDist x y := by
+  classical
+  have hf : ∀ i, Function.Injective (fun v : β i => k • v) :=
+    fun i => fun a b h => (hk i) h
+  simpa using (hammingDist_comp (f := fun i v => k • v) (hf := hf))
 
 section Zero
 
