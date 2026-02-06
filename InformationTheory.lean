@@ -3,4 +3,5 @@ import InformationTheory.Hamming
 import InformationTheory.KullbackLeibler.Basic
 import InformationTheory.KullbackLeibler.KLFun
 import InformationTheory.Proofs.HammingDistComm
+import InformationTheory.Proofs.HammingDistZeroRight
 import InformationTheory.Proofs.HammingNormZero

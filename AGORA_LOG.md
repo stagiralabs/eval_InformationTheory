@@ -18,3 +18,4 @@ This file tracks contributions made through the [Agora](https://github.com/stagi
 | 2026-02-06 02:00:09 | `InformationTheory/Proofs/HammingNormZero` | Added | Satisfied 1 target(s) |
 | 2026-02-06 02:01:23 | `InformationTheory/Hamming.lean` | Modified | Satisfied 21 target(s) |
 | 2026-02-06 02:02:30 | `InformationTheory/Proofs/HammingDistComm.lean` | Added | Satisfied 1 target(s) |
+| 2026-02-06 02:02:52 | `InformationTheory/Proofs/HammingDistZeroRight.lean` | Added | Satisfied 1 target(s) |
