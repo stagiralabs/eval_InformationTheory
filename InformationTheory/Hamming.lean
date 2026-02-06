@@ -202,6 +202,7 @@ variable {α ι : Type*} {β : ι → Type*}
 
 /-! Instances inherited from normal Pi types. -/
 
+
 instance [∀ i, Inhabited (β i)] : Inhabited (Hamming β) :=
   ⟨fun _ => default⟩
 
@@ -279,40 +280,50 @@ theorem toHamming_inj {x y : ∀ i, β i} : toHamming x = toHamming y ↔ x = y 
 theorem ofHamming_inj {x y : Hamming β} : ofHamming x = ofHamming y ↔ x = y := by sorry
 
 @[target, simp]
-theorem toHamming_zero [∀ i, Zero (β i)] : toHamming (0 : ∀ i, β i) = 0 := by sorry
+theorem toHamming_zero [∀ i, Zero (β i)] : toHamming (0 : ∀ i, β i) = 0 := by
+  rfl
 
 @[target, simp]
-theorem ofHamming_zero [∀ i, Zero (β i)] : ofHamming (0 : Hamming β) = 0 := by sorry
+theorem ofHamming_zero [∀ i, Zero (β i)] : ofHamming (0 : Hamming β) = 0 := by
+  rfl
 
 @[target, simp]
-theorem toHamming_neg [∀ i, Neg (β i)] {x : ∀ i, β i} : toHamming (-x) = -toHamming x := by sorry
+theorem toHamming_neg [∀ i, Neg (β i)] {x : ∀ i, β i} : toHamming (-x) = -toHamming x := by
+  rfl
 
 @[target, simp]
-theorem ofHamming_neg [∀ i, Neg (β i)] {x : Hamming β} : ofHamming (-x) = -ofHamming x := by sorry
+theorem ofHamming_neg [∀ i, Neg (β i)] {x : Hamming β} : ofHamming (-x) = -ofHamming x := by
+  rfl
 
 @[target, simp]
 theorem toHamming_add [∀ i, Add (β i)] {x y : ∀ i, β i} :
-    toHamming (x + y) = toHamming x + toHamming y := by sorry
+    toHamming (x + y) = toHamming x + toHamming y := by
+  rfl
 
 @[target, simp]
 theorem ofHamming_add [∀ i, Add (β i)] {x y : Hamming β} :
-    ofHamming (x + y) = ofHamming x + ofHamming y := by sorry
+    ofHamming (x + y) = ofHamming x + ofHamming y := by
+  rfl
 
 @[target, simp]
 theorem toHamming_sub [∀ i, Sub (β i)] {x y : ∀ i, β i} :
-    toHamming (x - y) = toHamming x - toHamming y := by sorry
+    toHamming (x - y) = toHamming x - toHamming y := by
+  rfl
 
 @[target, simp]
 theorem ofHamming_sub [∀ i, Sub (β i)] {x y : Hamming β} :
-    ofHamming (x - y) = ofHamming x - ofHamming y := by sorry
+    ofHamming (x - y) = ofHamming x - ofHamming y := by
+  rfl
 
 @[target, simp]
 theorem toHamming_smul [∀ i, SMul α (β i)] {r : α} {x : ∀ i, β i} :
-    toHamming (r • x) = r • toHamming x := by sorry
+    toHamming (r • x) = r • toHamming x := by
+  rfl
 
 @[target, simp]
 theorem ofHamming_smul [∀ i, SMul α (β i)] {r : α} {x : Hamming β} :
-    ofHamming (r • x) = r • ofHamming x := by sorry
+    ofHamming (r • x) = r • ofHamming x := by
+  rfl
 
 section
 
