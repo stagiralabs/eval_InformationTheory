@@ -2,3 +2,4 @@
 import InformationTheory.Hamming
 import InformationTheory.KullbackLeibler.Basic
 import InformationTheory.KullbackLeibler.KLFun
+import InformationTheory.Proofs.HammingNormZero
