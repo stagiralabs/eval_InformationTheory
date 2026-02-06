@@ -198,8 +198,8 @@ end HammingDistNorm
 
 /-- Type synonym for a Pi type which inherits the usual algebraic instances, but is equipped with
 the Hamming metric and norm, instead of `Pi.normedAddCommGroup` which uses the sup norm. -/
-def Hamming {ι : Type*} (beta : ι → Type*) : Type _ :=
-  ∀ i, beta i
+def Hamming {ι : Type*} (β : ι → Type*) : Type _ :=
+  ∀ i, β i
 
 namespace Hamming
 
