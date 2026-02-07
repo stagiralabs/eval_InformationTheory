@@ -77,7 +77,13 @@ theorem eq_of_hammingDist_eq_zero {x y : ∀ i, β i} : hammingDist x y = 0 → 
 
 /-- Corresponds to `dist_eq_zero`. -/
 @[target, simp]
-theorem hammingDist_eq_zero {x y : ∀ i, β i} : hammingDist x y = 0 ↔ x = y := by sorry
+theorem hammingDist_eq_zero {x y : ∀ i, β i} : hammingDist x y = 0 ↔ x = y := by
+  constructor
+  · intro h
+    exact eq_of_hammingDist_eq_zero h
+  · intro h
+    cases h
+    simpa using hammingDist_self x
 
 /-- Corresponds to `zero_eq_dist`. -/
 @[target, simp]
