@@ -1,28 +1,30 @@
 import VerifiedAgora.tagger
+
 /-
 Copyright (c) 2022 Wrenna Robson. All rights reserved.
 Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Wrenna Robson
 -/
+
 import Mathlib.Analysis.Normed.Group.Basic
 
 /-!
 # Hamming spaces
 
 The Hamming metric counts the number of places two members of a (finite) Pi type
-differ. The Hamming norm is the same as the Hamming metric over additive groups, and
-counts the number of places a member of a (finite) Pi type differs from zero.
+ differ. The Hamming norm is the same as the Hamming metric over additive groups, and
+ counts the number of places a member of a (finite) Pi type differs from zero.
 
 This is a useful notion in various applications, but in particular it is relevant
-in coding theory, in which it is fundamental for defining the minimum distance of a
-code.
+ in coding theory, in which it is fundamental for defining the minimum distance of a
+ code.
 
 ## Main definitions
 * `hammingDist x y`: the Hamming distance between `x` and `y`, the number of entries which differ.
 * `hammingNorm x`: the Hamming norm of `x`, the number of non-zero entries.
 * `Hamming β`: a type synonym for `Π i, β i` with `dist` and `norm` provided by the above.
 * `Hamming.toHamming`, `Hamming.ofHamming`: functions for casting between `Hamming β` and
-`Π i, β i`.
+ `Π i, β i`.
 * the Hamming norm forms a normed group on `Hamming β`.
 -/
 
@@ -123,7 +125,7 @@ def hammingNorm (x : ∀ i, β i) : ℕ := #{i | x i ≠ 0}
 
 /-- Corresponds to `dist_zero_right`. -/
 @[target, simp]
-theorem hammingDist_zero_right (x : ∀ i, β i) : hammingDist x 0 = hammingNorm x := by sorry
+theorem hammingDist_zero_right (x : ∀ i, β i) : hammingDist x 0 = hammingNorm x := by rfl
 
 /-- Corresponds to `dist_zero_left`. -/
 @[target, simp]
@@ -182,9 +184,8 @@ end HammingDistNorm
 
 /-! ### The `Hamming` type synonym -/
 
-
 /-- Type synonym for a Pi type which inherits the usual algebraic instances, but is equipped with
-the Hamming metric and norm, instead of `Pi.normedAddCommGroup` which uses the sup norm. -/
+ the Hamming metric and norm, instead of `Pi.normedAddCommGroup` which uses the sup norm. -/
 def Hamming {ι : Type*} (β : ι → Type*) : Type _ :=
   ∀ i, β i
 
@@ -241,13 +242,10 @@ instance (α) [Semiring α] (β : ι → Type*) [∀ i, AddCommMonoid (β i)] [�
 
 /-! API to/from the type synonym. -/
 
-
-/-- `Hamming.toHamming` is the identity function to the `Hamming` of a type. -/
 @[match_pattern]
 def toHamming : (∀ i, β i) ≃ Hamming β :=
   Equiv.refl _
 
-/-- `Hamming.ofHamming` is the identity function from the `Hamming` of a type. -/
 @[match_pattern]
 def ofHamming : Hamming β ≃ ∀ i, β i :=
   Equiv.refl _
@@ -307,8 +305,6 @@ theorem ofHamming_smul [∀ i, SMul α (β i)] {r : α} {x : Hamming β} :
     ofHamming (r • x) = r • ofHamming x := by sorry
 
 section
-
-/-! Instances equipping `Hamming` with `hammingNorm` and `hammingDist`. -/
 
 variable [Fintype ι] [∀ i, DecidableEq (β i)]
 
