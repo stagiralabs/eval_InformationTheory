@@ -77,13 +77,7 @@ theorem eq_of_hammingDist_eq_zero {x y : ∀ i, β i} : hammingDist x y = 0 → 
 
 /-- Corresponds to `dist_eq_zero`. -/
 @[target, simp]
-theorem hammingDist_eq_zero {x y : ∀ i, β i} : hammingDist x y = 0 ↔ x = y := by
-  constructor
-  · intro h
-    exact eq_of_hammingDist_eq_zero h
-  · intro h
-    cases h
-    simpa using hammingDist_self x
+theorem hammingDist_eq_zero {x y : ∀ i, β i} : hammingDist x y = 0 ↔ x = y := by sorry
 
 /-- Corresponds to `zero_eq_dist`. -/
 @[target, simp]
@@ -188,7 +182,6 @@ end HammingDistNorm
 
 /-! ### The `Hamming` type synonym -/
 
-
 /-- Type synonym for a Pi type which inherits the usual algebraic instances, but is equipped with
 the Hamming metric and norm, instead of `Pi.normedAddCommGroup` which uses the sup norm. -/
 def Hamming {ι : Type*} (β : ι → Type*) : Type _ :=
@@ -246,7 +239,6 @@ instance (α) [Semiring α] (β : ι → Type*) [∀ i, AddCommMonoid (β i)] [�
   Pi.module _ _ _
 
 /-! API to/from the type synonym. -/
-
 
 /-- `Hamming.toHamming` is the identity function to the `Hamming` of a type. -/
 @[match_pattern]
