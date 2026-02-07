@@ -22,7 +22,7 @@ code.
 * `hammingNorm x`: the Hamming norm of `x`, the number of non-zero entries.
 * `Hamming β`: a type synonym for `Π i, β i` with `dist` and `norm` provided by the above.
 * `Hamming.toHamming`, `Hamming.ofHamming`: functions for casting between `Hamming β` and
-`Π i, β i`
+`Π i, β i`.
 * the Hamming norm forms a normed group on `Hamming β`.
 -/
 
@@ -49,7 +49,9 @@ theorem hammingDist_nonneg {x y : ∀ i, β i} : 0 ≤ hammingDist x y :=
 
 /-- Corresponds to `dist_comm`. -/
 @[target]
-theorem hammingDist_comm (x y : ∀ i, β i) : hammingDist x y = hammingDist y x := by sorry
+theorem hammingDist_comm (x y : ∀ i, β i) : hammingDist x y = hammingDist y x := by
+  unfold hammingDist
+  simpa [ne_comm]
 
 /-- Corresponds to `dist_triangle`. -/
 @[target]
@@ -183,6 +185,7 @@ end HammingDistNorm
 
 /-! ### The `Hamming` type synonym -/
 
+
 /-- Type synonym for a Pi type which inherits the usual algebraic instances, but is equipped with
 the Hamming metric and norm, instead of `Pi.normedAddCommGroup` which uses the sup norm. -/
 def Hamming {ι : Type*} (β : ι → Type*) : Type _ :=
@@ -240,6 +243,7 @@ instance (α) [Semiring α] (β : ι → Type*) [∀ i, AddCommMonoid (β i)] [�
   Pi.module _ _ _
 
 /-! API to/from the type synonym. -/
+
 
 /-- `Hamming.toHamming` is the identity function to the `Hamming` of a type. -/
 @[match_pattern]
