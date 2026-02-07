@@ -2,5 +2,6 @@
 import InformationTheory.Hamming
 import InformationTheory.KullbackLeibler.Basic
 import InformationTheory.KullbackLeibler.KLFun
+import InformationTheory.SimpleAdd
 import InformationTheory.SimpleTarget
 import InformationTheory.TrivialTwo
