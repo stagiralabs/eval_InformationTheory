@@ -58,7 +58,7 @@ noncomputable irreducible_def klDiv (μ ν : Measure α) : ℝ≥0∞ :=
 
 @[target]
 lemma klDiv_of_ac_of_integrable (h1 : μ ≪ ν) (h2 : Integrable (llr μ ν) μ) :
-    klDiv μ ν = ENNReal.ofReal (∫ x, llr μ ν x ∂μ + (ν univ).toReal - (μ univ).toReal) := by sorry
+    klDiv μ ν = ENNReal.ofReal (∫ x, llr μ ν x ∂μ + (ν univ).toReal - (μ univ).toReal) := by rw [klDiv_def]; exact if_pos ⟨h1, h2⟩
 
 @[simp]
 lemma klDiv_of_not_ac (h : ¬ μ ≪ ν) : klDiv μ ν = ∞ := by
@@ -120,7 +120,7 @@ lemma integral_llr_add_sub_measure_univ_nonneg (hμν : μ ≪ ν) (h_int : Inte
 
 @[target]
 lemma toReal_klDiv (h : μ ≪ ν) (h_int : Integrable (llr μ ν) μ) :
-    (klDiv μ ν).toReal = ∫ a, llr μ ν a ∂μ + (ν univ).toReal - (μ univ).toReal := by sorry
+    (klDiv μ ν).toReal = ∫ a, llr μ ν a ∂μ + (ν univ).toReal - (μ univ).toReal := by rw [klDiv_of_ac_of_integrable h h_int]; exact ENNReal.toReal_ofReal (integral_llr_add_sub_measure_univ_nonneg h h_int)
 
 /-- If `μ ≪ ν` and `μ univ = ν univ`, then `toReal` of the Kullback-Leibler divergence is equal to
 an integral, without any integrability condition. -/
