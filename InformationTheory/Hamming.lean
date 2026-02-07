@@ -69,7 +69,7 @@ theorem hammingDist_triangle_right (x y z : ∀ i, β i) :
 
 /-- Corresponds to `swap_dist`. -/
 @[target]
-theorem swap_hammingDist : swap (@hammingDist _ β _ _) = hammingDist := by sorry
+theorem swap_hammingDist : swap (@hammingDist _ β _ _) = hammingDist := by funext x y; exact hammingDist_comm y x
 
 /-- Corresponds to `eq_of_dist_eq_zero`. -/
 @[target]
@@ -123,11 +123,11 @@ def hammingNorm (x : ∀ i, β i) : ℕ := #{i | x i ≠ 0}
 
 /-- Corresponds to `dist_zero_right`. -/
 @[target, simp]
-theorem hammingDist_zero_right (x : ∀ i, β i) : hammingDist x 0 = hammingNorm x := by sorry
+theorem hammingDist_zero_right (x : ∀ i, β i) : hammingDist x 0 = hammingNorm x := by simp [hammingDist, hammingNorm]
 
 /-- Corresponds to `dist_zero_left`. -/
 @[target, simp]
-theorem hammingDist_zero_left : hammingDist (0 : ∀ i, β i) = hammingNorm := by sorry
+theorem hammingDist_zero_left : hammingDist (0 : ∀ i, β i) = hammingNorm := by funext i; simp [hammingDist, hammingNorm, ne_comm]
 
 /-- Corresponds to `norm_nonneg`. -/
 @[target]
@@ -176,7 +176,7 @@ end Zero
 /-- Corresponds to `dist_eq_norm`. -/
 @[target]
 theorem hammingDist_eq_hammingNorm [∀ i, AddGroup (β i)] (x y : ∀ i, β i) :
-    hammingDist x y = hammingNorm (x - y) := by sorry
+    hammingDist x y = hammingNorm (x - y) := by simp [hammingDist, hammingNorm, Pi.sub_apply, sub_ne_zero]
 
 end HammingDistNorm
 
@@ -253,25 +253,25 @@ def ofHamming : Hamming β ≃ ∀ i, β i :=
   Equiv.refl _
 
 @[target, simp]
-theorem toHamming_symm_eq : (@toHamming _ β).symm = ofHamming := by sorry
+theorem toHamming_symm_eq : (@toHamming _ β).symm = ofHamming := rfl
 
 @[target, simp]
-theorem ofHamming_symm_eq : (@ofHamming _ β).symm = toHamming := by sorry
+theorem ofHamming_symm_eq : (@ofHamming _ β).symm = toHamming := rfl
 
 @[target, simp]
-theorem toHamming_ofHamming (x : Hamming β) : toHamming (ofHamming x) = x := by sorry
+theorem toHamming_ofHamming (x : Hamming β) : toHamming (ofHamming x) = x := rfl
 
 @[target, simp]
-theorem ofHamming_toHamming (x : ∀ i, β i) : ofHamming (toHamming x) = x := by sorry
+theorem ofHamming_toHamming (x : ∀ i, β i) : ofHamming (toHamming x) = x := rfl
 
 @[target]
-theorem toHamming_inj {x y : ∀ i, β i} : toHamming x = toHamming y ↔ x = y := by sorry
+theorem toHamming_inj {x y : ∀ i, β i} : toHamming x = toHamming y ↔ x = y := Iff.rfl
 
 @[target]
 theorem ofHamming_inj {x y : Hamming β} : ofHamming x = ofHamming y ↔ x = y := by sorry
 
 @[target, simp]
-theorem toHamming_zero [∀ i, Zero (β i)] : toHamming (0 : ∀ i, β i) = 0 := by sorry
+theorem toHamming_zero [∀ i, Zero (β i)] : toHamming (0 : ∀ i, β i) = 0 := rfl
 
 @[target, simp]
 theorem ofHamming_zero [∀ i, Zero (β i)] : ofHamming (0 : Hamming β) = 0 := by sorry
@@ -317,7 +317,7 @@ instance : Dist (Hamming β) :=
 
 @[target, simp, push_cast]
 theorem dist_eq_hammingDist (x y : Hamming β) :
-    dist x y = hammingDist (ofHamming x) (ofHamming y) := by sorry
+    dist x y = hammingDist (ofHamming x) (ofHamming y) := rfl
 
 @[target]
 instance : PseudoMetricSpace (Hamming β) where
@@ -346,7 +346,7 @@ instance [∀ i, Zero (β i)] : Norm (Hamming β) :=
   ⟨fun x => hammingNorm (ofHamming x)⟩
 
 @[target, simp, push_cast]
-theorem norm_eq_hammingNorm [∀ i, Zero (β i)] (x : Hamming β) : ‖x‖ = hammingNorm (ofHamming x) := by sorry
+theorem norm_eq_hammingNorm [∀ i, Zero (β i)] (x : Hamming β) : ‖x‖ = hammingNorm (ofHamming x) := rfl
 
 instance [∀ i, AddGroup (β i)] : NormedAddGroup (Hamming β) where
   dist_eq := by push_cast; exact mod_cast hammingDist_eq_hammingNorm
