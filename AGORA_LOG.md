@@ -1,0 +1,16 @@
+# Agora Contribution Log
+
+This file tracks contributions made through the [Agora](https://github.com/stagiralabs/agora) platform.
+
+**Original Repository:** https://github.com/stagiralabs/eval_InformationTheory
+**Tracking Branch:** main
+**Initialized:** 2026-02-07 14:10:39 UTC
+
+---
+
+## Contributions
+
+| Date | File | Action | Description |
+|------|------|--------|-------------|
+| 2026-02-07 14:14:37 | `InformationTheory/Hamming.lean` | Modified | Satisfied 5 target(s) |
+| 2026-02-07 14:21:11 | `InformationTheory/Hamming.lean` | Modified | Satisfied 12 target(s) |
