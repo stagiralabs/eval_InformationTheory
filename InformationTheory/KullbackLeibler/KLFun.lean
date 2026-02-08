@@ -49,7 +49,7 @@ The Kullback-Leibler divergence is an f-divergence for this function. -/
 noncomputable def klFun (x : ℝ) : ℝ := x * log x + 1 - x
 
 @[target]
-lemma klFun_apply (x : ℝ) : klFun x = x * log x + 1 - x := by sorry
+lemma klFun_apply (x : ℝ) : klFun x = x * log x + 1 - x := by rfl
 
 lemma klFun_zero : klFun 0 = 1 := by simp [klFun]
 
