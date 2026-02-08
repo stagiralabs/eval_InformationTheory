@@ -304,7 +304,7 @@ theorem toHamming_smul [∀ i, SMul α (β i)] {r : α} {x : ∀ i, β i} :
 
 @[target, simp]
 theorem ofHamming_smul [∀ i, SMul α (β i)] {r : α} {x : Hamming β} :
-    ofHamming (r • x) = r • ofHamming x := by sorry
+    ofHamming (r • x) = r • ofHamming x := by rfl
 
 section
 
