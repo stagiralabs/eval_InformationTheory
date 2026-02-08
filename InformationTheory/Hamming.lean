@@ -182,7 +182,6 @@ end HammingDistNorm
 
 /-! ### The `Hamming` type synonym -/
 
-
 /-- Type synonym for a Pi type which inherits the usual algebraic instances, but is equipped with
 the Hamming metric and norm, instead of `Pi.normedAddCommGroup` which uses the sup norm. -/
 def Hamming {ι : Type*} (β : ι → Type*) : Type _ :=
@@ -241,19 +240,16 @@ instance (α) [Semiring α] (β : ι → Type*) [∀ i, AddCommMonoid (β i)] [�
 
 /-! API to/from the type synonym. -/
 
-
-/-- `Hamming.toHamming` is the identity function to the `Hamming` of a type. -/
 @[match_pattern]
 def toHamming : (∀ i, β i) ≃ Hamming β :=
   Equiv.refl _
 
-/-- `Hamming.ofHamming` is the identity function from the `Hamming` of a type. -/
 @[match_pattern]
 def ofHamming : Hamming β ≃ ∀ i, β i :=
   Equiv.refl _
 
 @[target, simp]
-theorem toHamming_symm_eq : (@toHamming _ β).symm = ofHamming := by sorry
+theorem toHamming_symm_eq : (@toHamming _ β).symm = ofHamming := rfl
 
 @[target, simp]
 theorem ofHamming_symm_eq : (@ofHamming _ β).symm = toHamming := by sorry
