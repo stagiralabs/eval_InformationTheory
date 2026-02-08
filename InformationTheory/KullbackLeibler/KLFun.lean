@@ -121,7 +121,8 @@ lemma leftDeriv_klFun_one : derivWithin klFun (Iio 1) 1 = 0 := by simp
 
 @[target]
 lemma tendsto_rightDeriv_klFun_atTop :
-    Tendsto (fun x ↦ derivWithin klFun (Ioi x) x) atTop atTop := by sorry
+    Tendsto (fun x ↦ derivWithin klFun (Ioi x) x) atTop atTop := by
+  simpa [rightDeriv_klFun] using tendsto_log_atTop
 
 end Derivatives
 
