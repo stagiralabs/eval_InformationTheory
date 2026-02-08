@@ -10,7 +10,7 @@ import Mathlib.Analysis.Normed.Group.Basic
 # Hamming spaces
 
 The Hamming metric counts the number of places two members of a (finite) Pi type
- differ. The Hamming norm is the same as the Hamming metric over additive groups, and
+differ. The Hamming norm is the same as the Hamming metric over additive groups, and
 counts the number of places a member of a (finite) Pi type differs from zero.
 
 This is a useful notion in various applications, but in particular it is relevant
@@ -267,7 +267,7 @@ theorem toHamming_inj {x y : ∀ i, β i} : toHamming x = toHamming y ↔ x = y 
 theorem ofHamming_inj {x y : Hamming β} : ofHamming x = ofHamming y ↔ x = y := by sorry
 
 @[target, simp]
-theorem toHamming_zero [∀ i, Zero (β i)] : toHamming (0 : ∀ i, β i) = 0 := by sorry
+theorem toHamming_zero [∀ i, Zero (β i)] : toHamming (0 : ∀ i, β i) = 0 := by rfl
 
 @[target, simp]
 theorem ofHamming_zero [∀ i, Zero (β i)] : ofHamming (0 : Hamming β) = 0 := by rfl
