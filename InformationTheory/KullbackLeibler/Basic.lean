@@ -58,7 +58,8 @@ noncomputable irreducible_def klDiv (μ ν : Measure α) : ℝ≥0∞ :=
 
 @[target]
 lemma klDiv_of_ac_of_integrable (h1 : μ ≪ ν) (h2 : Integrable (llr μ ν) μ) :
-    klDiv μ ν = ENNReal.ofReal (∫ x, llr μ ν x ∂μ + (ν univ).toReal - (μ univ).toReal) := by sorry
+    klDiv μ ν = ENNReal.ofReal (∫ x, llr μ ν x ∂μ + (ν univ).toReal - (μ univ).toReal) := by
+  simp [klDiv, h1, h2]
 
 @[simp]
 lemma klDiv_of_not_ac (h : ¬ μ ≪ ν) : klDiv μ ν = ∞ := by
