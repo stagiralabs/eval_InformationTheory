@@ -1,4 +1,5 @@
 import VerifiedAgora.tagger
+
 /-
 Copyright (c) 2022 Wrenna Robson. All rights reserved.
 Released under Apache 2.0 license as described in the file LICENSE.
@@ -40,7 +41,9 @@ def hammingDist (x y : ∀ i, β i) : ℕ := #{i | x i ≠ y i}
 
 /-- Corresponds to `dist_self`. -/
 @[target, simp]
-theorem hammingDist_self (x : ∀ i, β i) : hammingDist x x = 0 := by sorry
+theorem hammingDist_self (x : ∀ i, β i) : hammingDist x x = 0 := by
+  unfold hammingDist
+  simp
 
 /-- Corresponds to `dist_nonneg`. -/
 theorem hammingDist_nonneg {x y : ∀ i, β i} : 0 ≤ hammingDist x y :=
@@ -262,7 +265,7 @@ theorem ofHamming_symm_eq : (@ofHamming _ β).symm = toHamming := by sorry
 theorem toHamming_ofHamming (x : Hamming β) : toHamming (ofHamming x) = x := by sorry
 
 @[target, simp]
-theorem ofHamming_toHamming (x : ∀ i, β i) : ofHamming (toHamming x) = x := by sorry
+theorem ofHamming_toHamming (x : ∀ i, β i) : ofHamming (toHamming x) = x := by rfl
 
 @[target]
 theorem toHamming_inj {x y : ∀ i, β i} : toHamming x = toHamming y ↔ x = y := by sorry
@@ -274,7 +277,7 @@ theorem ofHamming_inj {x y : Hamming β} : ofHamming x = ofHamming y ↔ x = y :
 theorem toHamming_zero [∀ i, Zero (β i)] : toHamming (0 : ∀ i, β i) = 0 := by sorry
 
 @[target, simp]
-theorem ofHamming_zero [∀ i, Zero (β i)] : ofHamming (0 : Hamming β) = 0 := by sorry
+theorem ofHamming_zero [∀ i, Zero (β i)] : ofHamming (0 : Hamming β) = 0 := by rfl
 
 @[target, simp]
 theorem toHamming_neg [∀ i, Neg (β i)] {x : ∀ i, β i} : toHamming (-x) = -toHamming x := by sorry
