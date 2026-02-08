@@ -32,7 +32,7 @@ def hammingDist (x y : ∀ i, β i) : ℕ := #{i | x i ≠ y i}
 
 /-- Corresponds to `dist_self`. -/
 @[target, simp]
-theorem hammingDist_self (x : ∀ i, β i) : hammingDist x x = 0 := by sorry
+theorem hammingDist_self (x : ∀ i, β i) : hammingDist x x = 0 := by simpa [hammingDist]
 
 /-- Corresponds to `dist_nonneg`. -/
 theorem hammingDist_nonneg {x y : ∀ i, β i} : 0 ≤ hammingDist x y :=
@@ -40,7 +40,7 @@ theorem hammingDist_nonneg {x y : ∀ i, β i} : 0 ≤ hammingDist x y :=
 
 /-- Corresponds to `dist_comm`. -/
 @[target]
-theorem hammingDist_comm (x y : ∀ i, β i) : hammingDist x y = hammingDist y x := by sorry
+theorem hammingDist_comm (x y : ∀ i, β i) : hammingDist x y = hammingDist y x := by simpa [hammingDist, ne_comm]
 
 /-- Corresponds to `dist_triangle`. -/
 @[target]
@@ -127,7 +127,7 @@ theorem hammingNorm_nonneg {x : ∀ i, β i} : 0 ≤ hammingNorm x := by sorry
 
 /-- Corresponds to `norm_zero`. -/
 @[target, simp]
-theorem hammingNorm_zero : hammingNorm (0 : ∀ i, β i) = 0 := by sorry
+theorem hammingNorm_zero : hammingNorm (0 : ∀ i, β i) = 0 := by simp [hammingNorm]
 
 /-- Corresponds to `norm_eq_zero`. -/
 @[target, simp]
@@ -232,12 +232,10 @@ instance (α) [Semiring α] (β : ι → Type*) [∀ i, AddCommMonoid (β i)] [�
 
 /-! API to/from the type synonym. -/
 
-/-- `Hamming.toHamming` is the identity function to the `Hamming` of a type. -/
 @[match_pattern]
 def toHamming : (∀ i, β i) ≃ Hamming β :=
   Equiv.refl _
 
-/-- `Hamming.ofHamming` is the identity function from the `Hamming` of a type. -/
 @[match_pattern]
 def ofHamming : Hamming β ≃ ∀ i, β i :=
   Equiv.refl _
@@ -297,8 +295,6 @@ theorem ofHamming_smul [∀ i, SMul α (β i)] {r : α} {x : Hamming β} :
     ofHamming (r • x) = r • ofHamming x := by sorry
 
 section
-
-/-! Instances equipping `Hamming` with `hammingNorm` and `hammingDist`. -/
 
 variable [Fintype ι] [∀ i, DecidableEq (β i)]
 
