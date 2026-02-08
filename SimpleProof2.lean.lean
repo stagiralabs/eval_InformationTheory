@@ -1,0 +1,1 @@
+-- Auto-generated import file for SimpleProof2.lean
