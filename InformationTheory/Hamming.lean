@@ -10,7 +10,6 @@ import Mathlib.Analysis.Normed.Group.Basic
 # Hamming spaces
 
 The Hamming metric counts the number of places two members of a (finite) Pi type
-
 differ. The Hamming norm is the same as the Hamming metric over additive groups, and
 counts the number of places a member of a (finite) Pi type differs from zero.
 
@@ -41,7 +40,7 @@ def hammingDist (x y : ∀ i, β i) : ℕ := #{i | x i ≠ y i}
 
 /-- Corresponds to `dist_self`. -/
 @[target, simp]
-theorem hammingDist_self (x : ∀ i, β i) : hammingDist x x = 0 := by sorry
+theorem hammingDist_self (x : ∀ i, β i) : hammingDist x x = 0 := by simp [hammingDist]
 
 /-- Corresponds to `dist_nonneg`. -/
 theorem hammingDist_nonneg {x y : ∀ i, β i} : 0 ≤ hammingDist x y :=
@@ -64,7 +63,8 @@ theorem hammingDist_triangle_left (x y z : ∀ i, β i) :
 /-- Corresponds to `dist_triangle_right`. -/
 @[target]
 theorem hammingDist_triangle_right (x y z : ∀ i, β i) :
-    hammingDist x y ≤ hammingDist x z + hammingDist y z := by
+    hammingDist x y ≤ hammingDist x z + hammingDist y z :=
+  by
   rw [hammingDist_comm y]
   exact hammingDist_triangle _ _ _
 
@@ -78,12 +78,7 @@ theorem eq_of_hammingDist_eq_zero {x y : ∀ i, β i} : hammingDist x y = 0 → 
 
 /-- Corresponds to `dist_eq_zero`. -/
 @[target, simp]
-theorem hammingDist_eq_zero {x y : ∀ i, β i} : hammingDist x y = 0 ↔ x = y := by
-  constructor
-  · intro h
-    exact eq_of_hammingDist_eq_zero h
-  · intro h
-    simpa [h] using hammingDist_self x
+theorem hammingDist_eq_zero {x y : ∀ i, β i} : hammingDist x y = 0 ↔ x = y := by sorry
 
 /-- Corresponds to `zero_eq_dist`. -/
 @[target, simp]
@@ -127,31 +122,24 @@ variable [∀ i, Zero (β i)] [∀ i, Zero (γ i)]
 /-- The Hamming weight function to the naturals. -/
 def hammingNorm (x : ∀ i, β i) : ℕ := #{i | x i ≠ 0}
 
-/-- Corresponds to `dist_zero_right`. -/
 @[target, simp]
 theorem hammingDist_zero_right (x : ∀ i, β i) : hammingDist x 0 = hammingNorm x := by sorry
 
-/-- Corresponds to `dist_zero_left`. -/
 @[target, simp]
 theorem hammingDist_zero_left : hammingDist (0 : ∀ i, β i) = hammingNorm := by sorry
 
-/-- Corresponds to `norm_nonneg`. -/
 @[target]
 theorem hammingNorm_nonneg {x : ∀ i, β i} : 0 ≤ hammingNorm x := by sorry
 
-/-- Corresponds to `norm_zero`. -/
 @[target, simp]
 theorem hammingNorm_zero : hammingNorm (0 : ∀ i, β i) = 0 := by sorry
 
-/-- Corresponds to `norm_eq_zero`. -/
 @[target, simp]
 theorem hammingNorm_eq_zero {x : ∀ i, β i} : hammingNorm x = 0 ↔ x = 0 := by sorry
 
-/-- Corresponds to `norm_ne_zero_iff`. -/
 @[target]
 theorem hammingNorm_ne_zero_iff {x : ∀ i, β i} : hammingNorm x ≠ 0 ↔ x ≠ 0 := by sorry
 
-/-- Corresponds to `norm_pos_iff`. -/
 @[target, simp]
 theorem hammingNorm_pos_iff {x : ∀ i, β i} : 0 < hammingNorm x ↔ x ≠ 0 := by sorry
 
@@ -179,7 +167,6 @@ theorem hammingNorm_smul [Zero α] [∀ i, SMulWithZero α (β i)] {k : α}
 
 end Zero
 
-/-- Corresponds to `dist_eq_norm`. -/
 @[target]
 theorem hammingDist_eq_hammingNorm [∀ i, AddGroup (β i)] (x y : ∀ i, β i) :
     hammingDist x y = hammingNorm (x - y) := by sorry
@@ -196,8 +183,6 @@ def Hamming {ι : Type*} (β : ι → Type*) : Type _ :=
 namespace Hamming
 
 variable {α ι : Type*} {β : ι → Type*}
-
-/-! Instances inherited from normal Pi types. -/
 
 instance [∀ i, Inhabited (β i)] : Inhabited (Hamming β) :=
   ⟨fun _ => default⟩
@@ -244,12 +229,12 @@ instance (α) [Semiring α] (β : ι → Type*) [∀ i, AddCommMonoid (β i)] [�
     Module α (Hamming β) :=
   Pi.module _ _ _
 
-/-! API to/from the type synonym. -/
-
+/-- `Hamming.toHamming` is the identity function to the `Hamming` of a type. -/
 @[match_pattern]
 def toHamming : (∀ i, β i) ≃ Hamming β :=
   Equiv.refl _
 
+/-- `Hamming.ofHamming` is the identity function from the `Hamming` of a type. -/
 @[match_pattern]
 def ofHamming : Hamming β ≃ ∀ i, β i :=
   Equiv.refl _
