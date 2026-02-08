@@ -54,7 +54,7 @@ lemma klFun_apply (x : ℝ) : klFun x = x * log x + 1 - x := by sorry
 lemma klFun_zero : klFun 0 = 1 := by simp [klFun]
 
 @[target]
-lemma klFun_one : klFun 1 = 0 := by sorry
+lemma klFun_one : klFun 1 = 0 := by simp [klFun]
 
 /-- `klFun` is strictly convex on [0,∞). -/
 lemma strictConvexOn_klFun : StrictConvexOn ℝ (Ici 0) klFun :=
@@ -91,7 +91,7 @@ lemma not_differentiableAt_klFun_zero : ¬ DifferentiableAt ℝ klFun 0 := by
   unfold klFun; simpa using not_DifferentiableAt_log_mul_zero
 
 /-- The derivative of `klFun` is `log x`. This also holds at `x = 0` although `klFun` is not
-differentiable there since the default value of `deriv` in that case is 0. -/
+Differentiable there since the default value of `deriv` in that case is 0. -/
 @[target, simp]
 lemma deriv_klFun : deriv klFun = log := by sorry
 
@@ -102,12 +102,12 @@ lemma not_differentiableWithinAt_klFun_Ioi_zero : ¬ DifferentiableWithinAt ℝ 
 lemma not_differentiableWithinAt_klFun_Iio_zero : ¬ DifferentiableWithinAt ℝ klFun (Iio 0) 0 := by sorry
 
 /-- The right derivative of `klFun` is `log x`. This also holds at `x = 0` although `klFun` is not
-differentiable there since the default value of `derivWithin` in that case is 0. -/
+Differentiable there since the default value of `derivWithin` in that case is 0. -/
 @[target, simp]
 lemma rightDeriv_klFun : derivWithin klFun (Ioi x) x = log x := by sorry
 
 /-- The left derivative of `klFun` is `log x`. This also holds at `x = 0` although `klFun` is not
-differentiable there since the default value of `derivWithin` in that case is 0. -/
+Differentiable there since the default value of `derivWithin` in that case is 0. -/
 @[target, simp]
 lemma leftDeriv_klFun : derivWithin klFun (Iio x) x = log x := by sorry
 
