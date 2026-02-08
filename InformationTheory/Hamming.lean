@@ -10,7 +10,7 @@ import Mathlib.Analysis.Normed.Group.Basic
 # Hamming spaces
 
 The Hamming metric counts the number of places two members of a (finite) Pi type
-differ. The Hamming norm is the same as the Hamming metric over additive groups, and
+ differ. The Hamming norm is the same as the Hamming metric over additive groups, and
 counts the number of places a member of a (finite) Pi type differs from zero.
 
 This is a useful notion in various applications, but in particular it is relevant
@@ -182,7 +182,6 @@ end HammingDistNorm
 
 /-! ### The `Hamming` type synonym -/
 
-
 /-- Type synonym for a Pi type which inherits the usual algebraic instances, but is equipped with
 the Hamming metric and norm, instead of `Pi.normedAddCommGroup` which uses the sup norm. -/
 def Hamming {ι : Type*} (β : ι → Type*) : Type _ :=
@@ -241,13 +240,10 @@ instance (α) [Semiring α] (β : ι → Type*) [∀ i, AddCommMonoid (β i)] [�
 
 /-! API to/from the type synonym. -/
 
-
-/-- `Hamming.toHamming` is the identity function to the `Hamming` of a type. -/
 @[match_pattern]
 def toHamming : (∀ i, β i) ≃ Hamming β :=
   Equiv.refl _
 
-/-- `Hamming.ofHamming` is the identity function from the `Hamming` of a type. -/
 @[match_pattern]
 def ofHamming : Hamming β ≃ ∀ i, β i :=
   Equiv.refl _
@@ -274,7 +270,7 @@ theorem ofHamming_inj {x y : Hamming β} : ofHamming x = ofHamming y ↔ x = y :
 theorem toHamming_zero [∀ i, Zero (β i)] : toHamming (0 : ∀ i, β i) = 0 := by sorry
 
 @[target, simp]
-theorem ofHamming_zero [∀ i, Zero (β i)] : ofHamming (0 : Hamming β) = 0 := by sorry
+theorem ofHamming_zero [∀ i, Zero (β i)] : ofHamming (0 : Hamming β) = 0 := by rfl
 
 @[target, simp]
 theorem toHamming_neg [∀ i, Neg (β i)] {x : ∀ i, β i} : toHamming (-x) = -toHamming x := by sorry
@@ -307,8 +303,6 @@ theorem ofHamming_smul [∀ i, SMul α (β i)] {r : α} {x : Hamming β} :
     ofHamming (r • x) = r • ofHamming x := by sorry
 
 section
-
-/-! Instances equipping `Hamming` with `hammingNorm` and `hammingDist`. -/
 
 variable [Fintype ι] [∀ i, DecidableEq (β i)]
 
