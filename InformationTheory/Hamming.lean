@@ -16,14 +16,6 @@ counts the number of places a member of a (finite) Pi type differs from zero.
 This is a useful notion in various applications, but in particular it is relevant
 in coding theory, in which it is fundamental for defining the minimum distance of a
 code.
-
-## Main definitions
-* `hammingDist x y`: the Hamming distance between `x` and `y`, the number of entries which differ.
-* `hammingNorm x`: the Hamming norm of `x`, the number of non-zero entries.
-* `Hamming β`: a type synonym for `Π i, β i` with `dist` and `norm` provided by the above.
-* `Hamming.toHamming`, `Hamming.ofHamming`: functions for casting between `Hamming β` and
-`Π i, β i`.
-* the Hamming norm forms a normed group on `Hamming β`.
 -/
 
 namespace AgoraInformationTheory
@@ -40,7 +32,7 @@ def hammingDist (x y : ∀ i, β i) : ℕ := #{i | x i ≠ y i}
 
 /-- Corresponds to `dist_self`. -/
 @[target, simp]
-theorem hammingDist_self (x : ∀ i, β i) : hammingDist x x = 0 := by sorry
+theorem hammingDist_self (x : ∀ i, β i) : hammingDist x x = 0 := by simpa [hammingDist]
 
 /-- Corresponds to `dist_nonneg`. -/
 theorem hammingDist_nonneg {x y : ∀ i, β i} : 0 ≤ hammingDist x y :=
@@ -48,7 +40,7 @@ theorem hammingDist_nonneg {x y : ∀ i, β i} : 0 ≤ hammingDist x y :=
 
 /-- Corresponds to `dist_comm`. -/
 @[target]
-theorem hammingDist_comm (x y : ∀ i, β i) : hammingDist x y = hammingDist y x := by sorry
+theorem hammingDist_comm (x y : ∀ i, β i) : hammingDist x y = hammingDist y x := by simpa [hammingDist, ne_comm]
 
 /-- Corresponds to `dist_triangle`. -/
 @[target]
@@ -135,7 +127,7 @@ theorem hammingNorm_nonneg {x : ∀ i, β i} : 0 ≤ hammingNorm x := by sorry
 
 /-- Corresponds to `norm_zero`. -/
 @[target, simp]
-theorem hammingNorm_zero : hammingNorm (0 : ∀ i, β i) = 0 := by sorry
+theorem hammingNorm_zero : hammingNorm (0 : ∀ i, β i) = 0 := by simp [hammingNorm]
 
 /-- Corresponds to `norm_eq_zero`. -/
 @[target, simp]
@@ -181,7 +173,6 @@ theorem hammingDist_eq_hammingNorm [∀ i, AddGroup (β i)] (x y : ∀ i, β i) 
 end HammingDistNorm
 
 /-! ### The `Hamming` type synonym -/
-
 
 /-- Type synonym for a Pi type which inherits the usual algebraic instances, but is equipped with
 the Hamming metric and norm, instead of `Pi.normedAddCommGroup` which uses the sup norm. -/
@@ -241,13 +232,10 @@ instance (α) [Semiring α] (β : ι → Type*) [∀ i, AddCommMonoid (β i)] [�
 
 /-! API to/from the type synonym. -/
 
-
-/-- `Hamming.toHamming` is the identity function to the `Hamming` of a type. -/
 @[match_pattern]
 def toHamming : (∀ i, β i) ≃ Hamming β :=
   Equiv.refl _
 
-/-- `Hamming.ofHamming` is the identity function from the `Hamming` of a type. -/
 @[match_pattern]
 def ofHamming : Hamming β ≃ ∀ i, β i :=
   Equiv.refl _
@@ -284,7 +272,7 @@ theorem ofHamming_neg [∀ i, Neg (β i)] {x : Hamming β} : ofHamming (-x) = -o
 
 @[target, simp]
 theorem toHamming_add [∀ i, Add (β i)] {x y : ∀ i, β i} :
-    toHamming (x + y) = toHamming x + toHamming y := by sorry
+    toHamming (x + y) = toHamming x + toHamming y := by rfl
 
 @[target, simp]
 theorem ofHamming_add [∀ i, Add (β i)] {x y : Hamming β} :
@@ -307,8 +295,6 @@ theorem ofHamming_smul [∀ i, SMul α (β i)] {r : α} {x : Hamming β} :
     ofHamming (r • x) = r • ofHamming x := by sorry
 
 section
-
-/-! Instances equipping `Hamming` with `hammingNorm` and `hammingDist`. -/
 
 variable [Fintype ι] [∀ i, DecidableEq (β i)]
 
