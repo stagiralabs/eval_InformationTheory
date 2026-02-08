@@ -48,7 +48,7 @@ theorem hammingDist_nonneg {x y : ∀ i, β i} : 0 ≤ hammingDist x y :=
 
 /-- Corresponds to `dist_comm`. -/
 @[target]
-theorem hammingDist_comm (x y : ∀ i, β i) : hammingDist x y = hammingDist y x := by sorry
+theorem hammingDist_comm (x y : ∀ i, β i) : hammingDist x y = hammingDist y x := by simpa [hammingDist, ne_comm]
 
 /-- Corresponds to `dist_triangle`. -/
 @[target]
@@ -121,31 +121,24 @@ variable [∀ i, Zero (β i)] [∀ i, Zero (γ i)]
 /-- The Hamming weight function to the naturals. -/
 def hammingNorm (x : ∀ i, β i) : ℕ := #{i | x i ≠ 0}
 
-/-- Corresponds to `dist_zero_right`. -/
 @[target, simp]
 theorem hammingDist_zero_right (x : ∀ i, β i) : hammingDist x 0 = hammingNorm x := by sorry
 
-/-- Corresponds to `dist_zero_left`. -/
 @[target, simp]
 theorem hammingDist_zero_left : hammingDist (0 : ∀ i, β i) = hammingNorm := by sorry
 
-/-- Corresponds to `norm_nonneg`. -/
 @[target]
 theorem hammingNorm_nonneg {x : ∀ i, β i} : 0 ≤ hammingNorm x := by sorry
 
-/-- Corresponds to `norm_zero`. -/
 @[target, simp]
 theorem hammingNorm_zero : hammingNorm (0 : ∀ i, β i) = 0 := by sorry
 
-/-- Corresponds to `norm_eq_zero`. -/
 @[target, simp]
 theorem hammingNorm_eq_zero {x : ∀ i, β i} : hammingNorm x = 0 ↔ x = 0 := by sorry
 
-/-- Corresponds to `norm_ne_zero_iff`. -/
 @[target]
 theorem hammingNorm_ne_zero_iff {x : ∀ i, β i} : hammingNorm x ≠ 0 ↔ x ≠ 0 := by sorry
 
-/-- Corresponds to `norm_pos_iff`. -/
 @[target, simp]
 theorem hammingNorm_pos_iff {x : ∀ i, β i} : 0 < hammingNorm x ↔ x ≠ 0 := by sorry
 
@@ -169,7 +162,7 @@ theorem hammingNorm_smul_le_hammingNorm [Zero α] [∀ i, SMulWithZero α (β i)
 
 @[target]
 theorem hammingNorm_smul [Zero α] [∀ i, SMulWithZero α (β i)] {k : α}
-    (hk : ∀ i, IsSMulRegular (β i) k) (x : ∀ i, β i) : hammingNorm (k • x) = hammingNorm x := by sorry
+    (hk : ∀ i, IsSMulRegular (β i) k) {x : ∀ i, β i} : hammingNorm (k • x) = hammingNorm x := by sorry
 
 end Zero
 
@@ -183,8 +176,6 @@ end HammingDistNorm
 /-! ### The `Hamming` type synonym -/
 
 
-/-- Type synonym for a Pi type which inherits the usual algebraic instances, but is equipped with
-the Hamming metric and norm, instead of `Pi.normedAddCommGroup` which uses the sup norm. -/
 def Hamming {ι : Type*} (β : ι → Type*) : Type _ :=
   ∀ i, β i
 
@@ -241,13 +232,10 @@ instance (α) [Semiring α] (β : ι → Type*) [∀ i, AddCommMonoid (β i)] [�
 
 /-! API to/from the type synonym. -/
 
-
-/-- `Hamming.toHamming` is the identity function to the `Hamming` of a type. -/
 @[match_pattern]
 def toHamming : (∀ i, β i) ≃ Hamming β :=
   Equiv.refl _
 
-/-- `Hamming.ofHamming` is the identity function from the `Hamming` of a type. -/
 @[match_pattern]
 def ofHamming : Hamming β ≃ ∀ i, β i :=
   Equiv.refl _
@@ -307,8 +295,6 @@ theorem ofHamming_smul [∀ i, SMul α (β i)] {r : α} {x : Hamming β} :
     ofHamming (r • x) = r • ofHamming x := by sorry
 
 section
-
-/-! Instances equipping `Hamming` with `hammingNorm` and `hammingDist`. -/
 
 variable [Fintype ι] [∀ i, DecidableEq (β i)]
 
