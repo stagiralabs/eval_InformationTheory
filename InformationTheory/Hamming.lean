@@ -263,7 +263,7 @@ theorem ofHamming_symm_eq : (@ofHamming _ β).symm = toHamming := by sorry
 theorem toHamming_ofHamming (x : Hamming β) : toHamming (ofHamming x) = x := by sorry
 
 @[target, simp]
-theorem ofHamming_toHamming (x : ∀ i, β i) : ofHamming (toHamming x) = x := by sorry
+theorem ofHamming_toHamming (x : ∀ i, β i) : ofHamming (toHamming x) = x := by rfl
 
 @[target]
 theorem toHamming_inj {x y : ∀ i, β i} : toHamming x = toHamming y ↔ x = y := by sorry
