@@ -56,7 +56,45 @@ theorem hammingDist_comm (x y : ∀ i, β i) : hammingDist x y = hammingDist y x
 /-- Corresponds to `dist_triangle`. -/
 @[target]
 theorem hammingDist_triangle (x y z : ∀ i, β i) :
-    hammingDist x z ≤ hammingDist x y + hammingDist y z := by sorry
+    hammingDist x z ≤ hammingDist x y + hammingDist y z := by
+  classical
+  have hsubset :
+      (Finset.univ.filter fun i => x i ≠ z i) ⊆
+        (Finset.univ.filter fun i => x i ≠ y i) ∪
+        (Finset.univ.filter fun i => y i ≠ z i) := by
+    intro i hi
+    rcases Finset.mem_filter.mp hi with ⟨_, hneq⟩
+    dsimp at hneq
+    by_cases hxy : x i = y i
+    · have hyz : y i ≠ z i := by
+        intro h
+        apply hneq
+        simpa [hxy] using h
+      have : i ∈ Finset.univ.filter fun i => y i ≠ z i :=
+        Finset.mem_filter.mpr ⟨by trivial, hyz⟩
+      exact Finset.mem_union.mpr (Or.inr this)
+    · have : i ∈ Finset.univ.filter fun i => x i ≠ y i :=
+        Finset.mem_filter.mpr ⟨by trivial, hxy⟩
+      exact Finset.mem_union.mpr (Or.inl this)
+  have hcard :
+      (Finset.univ.filter fun i => x i ≠ z i).card ≤
+        ((Finset.univ.filter fun i => x i ≠ y i) ∪
+          (Finset.univ.filter fun i => y i ≠ z i)).card :=
+    Finset.card_mono hsubset
+  have hunion :
+      ((Finset.univ.filter fun i => x i ≠ y i) ∪
+        (Finset.univ.filter fun i => y i ≠ z i)).card ≤
+        (Finset.univ.filter fun i => x i ≠ y i).card +
+        (Finset.univ.filter fun i => y i ≠ z i).card :=
+    by
+      simpa using
+        Finset.card_union_le (Finset.univ.filter fun i => x i ≠ y i)
+          (Finset.univ.filter fun i => y i ≠ z i)
+  have : (Finset.univ.filter fun i => x i ≠ z i).card ≤
+        (Finset.univ.filter fun i => x i ≠ y i).card +
+        (Finset.univ.filter fun i => y i ≠ z i).card :=
+    le_trans hcard hunion
+  simpa [hammingDist] using this
 
 /-- Corresponds to `dist_triangle_left`. -/
 @[target]
