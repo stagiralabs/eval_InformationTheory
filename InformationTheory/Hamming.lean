@@ -5,6 +5,8 @@ Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Wrenna Robson
 -/
 import Mathlib.Analysis.Normed.Group.Basic
+import Mathlib.Data.Finset.Card
+import Mathlib.Data.Finset.Basic
 
 /-!
 # Hamming spaces
@@ -157,7 +159,18 @@ theorem hammingNorm_le_card_fintype {x : ∀ i, β i} : hammingNorm x ≤ Fintyp
 
 @[target]
 theorem hammingNorm_comp_le_hammingNorm (f : ∀ i, γ i → β i) {x : ∀ i, γ i} (hf : ∀ i, f i 0 = 0) :
-    (hammingNorm fun i => f i (x i)) ≤ hammingNorm x := by sorry
+    (hammingNorm fun i => f i (x i)) ≤ hammingNorm x := by
+  classical
+  unfold hammingNorm
+  -- Show the set of indices where `f i (x i) ≠ 0` is a subset of those where `x i ≠ 0`
+  apply Finset.card_mono
+  intro i hi
+  rcases Finset.mem_filter.mp hi with ⟨_, hfx⟩
+  have hx : x i ≠ 0 := by
+    intro hzero
+    have : f i (x i) = 0 := by simpa [hzero, hf i]
+    exact hfx this
+  exact Finset.mem_filter.mpr ⟨Finset.mem_univ _, hx⟩
 
 @[target]
 theorem hammingNorm_comp (f : ∀ i, γ i → β i) {x : ∀ i, γ i} (hf₁ : ∀ i, Injective (f i))
