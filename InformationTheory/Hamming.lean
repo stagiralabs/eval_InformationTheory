@@ -5,8 +5,6 @@ Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Wrenna Robson
 -/
 import Mathlib.Analysis.Normed.Group.Basic
-import Mathlib.Data.Finset.Card
-import Mathlib.Data.Finset.Basic
 
 /-!
 # Hamming spaces
@@ -42,7 +40,7 @@ def hammingDist (x y : ∀ i, β i) : ℕ := #{i | x i ≠ y i}
 
 /-- Corresponds to `dist_self`. -/
 @[target, simp]
-theorem hammingDist_self (x : ∀ i, β i) : hammingDist x x = 0 := by sorry
+theorem hammingDist_self (x : ∀ i, β i) : hammingDist x x = 0 := by simpa [hammingDist]
 
 /-- Corresponds to `dist_nonneg`. -/
 theorem hammingDist_nonneg {x y : ∀ i, β i} : 0 ≤ hammingDist x y :=
@@ -50,7 +48,8 @@ theorem hammingDist_nonneg {x y : ∀ i, β i} : 0 ≤ hammingDist x y :=
 
 /-- Corresponds to `dist_comm`. -/
 @[target]
-theorem hammingDist_comm (x y : ∀ i, β i) : hammingDist x y = hammingDist y x := by sorry
+theorem hammingDist_comm (x y : ∀ i, β i) : hammingDist x y = hammingDist y x := by
+  simpa [hammingDist, eq_comm]
 
 /-- Corresponds to `dist_triangle`. -/
 @[target]
@@ -159,18 +158,7 @@ theorem hammingNorm_le_card_fintype {x : ∀ i, β i} : hammingNorm x ≤ Fintyp
 
 @[target]
 theorem hammingNorm_comp_le_hammingNorm (f : ∀ i, γ i → β i) {x : ∀ i, γ i} (hf : ∀ i, f i 0 = 0) :
-    (hammingNorm fun i => f i (x i)) ≤ hammingNorm x := by
-  classical
-  unfold hammingNorm
-  -- Show the set of indices where `f i (x i) ≠ 0` is a subset of those where `x i ≠ 0`
-  apply Finset.card_mono
-  intro i hi
-  rcases Finset.mem_filter.mp hi with ⟨_, hfx⟩
-  have hx : x i ≠ 0 := by
-    intro hzero
-    have : f i (x i) = 0 := by simpa [hzero, hf i]
-    exact hfx this
-  exact Finset.mem_filter.mpr ⟨Finset.mem_univ _, hx⟩
+    (hammingNorm fun i => f i (x i)) ≤ hammingNorm x := by sorry
 
 @[target]
 theorem hammingNorm_comp (f : ∀ i, γ i → β i) {x : ∀ i, γ i} (hf₁ : ∀ i, Injective (f i))
