@@ -40,7 +40,10 @@ def hammingDist (x y : ∀ i, β i) : ℕ := #{i | x i ≠ y i}
 
 /-- Corresponds to `dist_self`. -/
 @[target, simp]
-theorem hammingDist_self (x : ∀ i, β i) : hammingDist x x = 0 := by sorry
+theorem hammingDist_self (x : ∀ i, β i) : hammingDist x x = 0 := by
+  classical
+  unfold hammingDist
+  simp
 
 /-- Corresponds to `dist_nonneg`. -/
 theorem hammingDist_nonneg {x y : ∀ i, β i} : 0 ≤ hammingDist x y :=
@@ -77,7 +80,34 @@ theorem eq_of_hammingDist_eq_zero {x y : ∀ i, β i} : hammingDist x y = 0 → 
 
 /-- Corresponds to `dist_eq_zero`. -/
 @[target, simp]
-theorem hammingDist_eq_zero {x y : ∀ i, β i} : hammingDist x y = 0 ↔ x = y := by sorry
+theorem hammingDist_eq_zero {x y : ∀ i, β i} : hammingDist x y = 0 ↔ x = y := by
+  classical
+  unfold hammingDist
+  -- rewrite cardinal equality to set emptiness
+  have h₁ : (Finset.univ.filter fun i => x i ≠ y i) = ∅ ↔ ∀ i, x i = y i := by
+    constructor
+    · intro h i
+      by_contra hneq
+      have : i ∈ (Finset.univ.filter fun i => x i ≠ y i) :=
+        Finset.mem_filter.2 ⟨Finset.mem_univ _, hneq⟩
+      have : i ∈ (∅ : Finset ι) := by simpa [h] using this
+      exact (Finset.not_mem_empty i) this
+    · intro h
+      apply Finset.eq_empty_iff_forall_not_mem.2
+      intro i hi
+      rcases Finset.mem_filter.1 hi with ⟨_, hneq⟩
+      have : x i = y i := h i
+      exact hneq this
+  have h₂ : (Finset.univ.filter fun i => x i ≠ y i).card = 0 ↔ ∀ i, x i = y i := by
+    simpa [Finset.card_eq_zero] using h₁
+  constructor
+  · intro h
+    have : ∀ i, x i = y i := (h₂.mp h)
+    exact funext this
+  · intro hxy
+    apply h₂.mpr
+    intro i
+    exact congrArg (fun f => f i) hxy
 
 /-- Corresponds to `zero_eq_dist`. -/
 @[target, simp]
