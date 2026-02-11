@@ -12,3 +12,4 @@ This file tracks contributions made through the [Agora](https://github.com/stagi
 
 | Date | File | Action | Description |
 |------|------|--------|-------------|
+| 2026-02-11 02:19:19 | `InformationTheory/KullbackLeibler/KLFun.lean` | Modified |  |
