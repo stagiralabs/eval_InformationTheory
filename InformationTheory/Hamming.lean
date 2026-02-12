@@ -40,7 +40,7 @@ def hammingDist (x y : ∀ i, β i) : ℕ := #{i | x i ≠ y i}
 
 /-- Corresponds to `dist_self`. -/
 @[target, simp]
-theorem hammingDist_self (x : ∀ i, β i) : hammingDist x x = 0 := by sorry
+theorem hammingDist_self (x : ∀ i, β i) : hammingDist x x = 0 := by simp [hammingDist]
 
 /-- Corresponds to `dist_nonneg`. -/
 theorem hammingDist_nonneg {x y : ∀ i, β i} : 0 ≤ hammingDist x y :=
@@ -338,8 +338,10 @@ instance : PseudoMetricSpace (Hamming β) where
 theorem nndist_eq_hammingDist (x y : Hamming β) :
     nndist x y = hammingDist (ofHamming x) (ofHamming y) := by sorry
 
+@[target]
 instance : DiscreteTopology (Hamming β) := ⟨rfl⟩
 
+@[target]
 instance : MetricSpace (Hamming β) := .ofT0PseudoMetricSpace _
 
 instance [∀ i, Zero (β i)] : Norm (Hamming β) :=
@@ -347,12 +349,13 @@ instance [∀ i, Zero (β i)] : Norm (Hamming β) :=
 
 @[target, simp, push_cast]
 theorem norm_eq_hammingNorm [∀ i, Zero (β i)] (x : Hamming β) : ‖x‖ = hammingNorm (ofHamming x) := by sorry
-
+@[target]
 instance [∀ i, AddGroup (β i)] : NormedAddGroup (Hamming β) where
   dist_eq := by push_cast; exact mod_cast hammingDist_eq_hammingNorm
-
+@[target]
 instance [∀ i, AddCommGroup (β i)] : NormedAddCommGroup (Hamming β) where
   dist_eq := by push_cast; exact mod_cast hammingDist_eq_hammingNorm
+
 
 @[target, simp, push_cast]
 theorem nnnorm_eq_hammingNorm [∀ i, AddGroup (β i)] (x : Hamming β) :
