@@ -182,7 +182,11 @@ lemma mul_klFun_le_toReal_klDiv (hμν : μ ≪ ν) (h_int : Integrable (llr μ 
 @[target]
 lemma mul_log_le_toReal_klDiv (hμν : μ ≪ ν) (h_int : Integrable (llr μ ν) μ) :
     (μ univ).toReal * log ((μ univ).toReal / (ν univ).toReal) + (ν univ).toReal - (μ univ).toReal
-      ≤ (klDiv μ ν).toReal := by sorry
+      ≤ (klDiv μ ν).toReal := by
+  -- This follows from `mul_klFun_le_toReal_klDiv` after expanding `klFun`.
+  simpa [klFun, mul_add, mul_sub, mul_one, mul_comm, mul_left_comm, mul_assoc,
+    div_eq_mul_inv] using
+    (mul_klFun_le_toReal_klDiv (μ:=μ) (ν:=ν) hμν h_int)
 
 @[target]
 lemma mul_log_le_klDiv (μ ν : Measure α) [IsFiniteMeasure μ] [IsFiniteMeasure ν] :
