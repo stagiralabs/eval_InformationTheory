@@ -13,3 +13,4 @@ This file tracks contributions made through the [Agora](https://github.com/stagi
 | Date | File | Action | Description |
 |------|------|--------|-------------|
 | 2026-02-13 09:02:56 | `InformationTheory/Hamming.lean` | Modified |  |
+| 2026-02-13 10:10:23 | `InformationTheory/KullbackLeibler/Basic.lean` | Modified |  |
