@@ -135,7 +135,11 @@ lemma tendsto_rightDeriv_klFun_atTop :
 end Derivatives
 
 @[target]
-lemma isMinOn_klFun : IsMinOn klFun (Ici 0) 1 := by sorry
+lemma isMinOn_klFun : IsMinOn klFun (Ici 0) 1 := by
+  refine ⟨by norm_num, ?_⟩
+  intro x hx
+  have h0 : (0 : ℝ) ≤ klFun x := klFun_nonneg (x:=x) hx
+  simpa [klFun] using h0
 
 /-- The function `klFun` is nonnegative on `[0,∞)`. -/
 @[target]
