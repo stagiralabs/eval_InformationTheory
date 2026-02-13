@@ -49,7 +49,8 @@ The Kullback-Leibler divergence is an f-divergence for this function. -/
 noncomputable def klFun (x : ℝ) : ℝ := x * log x + 1 - x
 
 @[target]
-lemma klFun_apply (x : ℝ) : klFun x = x * log x + 1 - x := by sorry
+lemma klFun_apply (x : ℝ) : klFun x = x * log x + 1 - x := by
+  unfold klFun
 
 lemma klFun_zero : klFun 0 = 1 := by simp [klFun]
 
@@ -105,20 +106,33 @@ lemma deriv_klFun : deriv klFun = log := by
     simpa [klFun] using h
 
 @[target]
-lemma not_differentiableWithinAt_klFun_Ioi_zero : ¬ DifferentiableWithinAt ℝ klFun (Ioi 0) 0 := by sorry
+lemma not_differentiableWithinAt_klFun_Ioi_zero : ¬ DifferentiableWithinAt ℝ klFun (Ioi 0) 0 := by
+  -- Since 0 ∉ Ioi 0, differentiability within at 0 is vacuous; we use the existing lemma
+  simpa [Ioi] using not_differentiableAt_klFun_zero
 
 @[target]
-lemma not_differentiableWithinAt_klFun_Iio_zero : ¬ DifferentiableWithinAt ℝ klFun (Iio 0) 0 := by sorry
+lemma not_differentiableWithinAt_klFun_Iio_zero : ¬ DifferentiableWithinAt ℝ klFun (Iio 0) 0 := by
+  simpa [Iio] using not_differentiableAt_klFun_zero
 
 /-- The right derivative of `klFun` is `log x`. This also holds at `x = 0` although `klFun` is not
 differentiable there since the default value of `derivWithin` in that case is 0. -/
 @[target, simp]
-lemma rightDeriv_klFun : derivWithin klFun (Ioi x) x = log x := by sorry
+lemma rightDeriv_klFun : derivWithin klFun (Ioi x) x = log x := by
+  by_cases hx : x = 0
+  · subst hx
+    simp [klFun]
+  · have h := (hasDerivAt_klFun (by exact hx)).derivWithin (Ioi x)
+    simpa [klFun] using h
 
 /-- The left derivative of `klFun` is `log x`. This also holds at `x = 0` although `klFun` is not
 differentiable there since the default value of `derivWithin` in that case is 0. -/
 @[target, simp]
-lemma leftDeriv_klFun : derivWithin klFun (Iio x) x = log x := by sorry
+lemma leftDeriv_klFun : derivWithin klFun (Iio x) x = log x := by
+  by_cases hx : x = 0
+  · subst hx
+    simp [klFun]
+  · have h := (hasDerivAt_klFun (by exact hx)).derivWithin (Iio x)
+    simpa [klFun] using h
 
 @[target]
 
@@ -139,10 +153,36 @@ lemma isMinOn_klFun : IsMinOn klFun (Ici 0) 1 := by sorry
 
 /-- The function `klFun` is nonnegative on `[0,∞)`. -/
 @[target]
-lemma klFun_nonneg (hx : 0 ≤ x) : 0 ≤ klFun x := by sorry
+lemma klFun_nonneg (hx : 0 ≤ x) : 0 ≤ klFun x := by
+  rcases eq_or_lt_of_le hx with rfl|hxpos
+  · simp [klFun]
+  · have h := Real.mul_log_ge_sub_one hxpos
+    have : 0 ≤ x * log x + 1 - x := by
+      have : x * log x ≥ x - 1 := by
+        simpa [sub_eq, add_comm] using h
+      linarith
+    simpa [klFun] using this
 
 @[target]
-lemma klFun_eq_zero_iff (hx : 0 ≤ x) : klFun x = 0 ↔ x = 1 := by sorry
+lemma klFun_eq_zero_iff (hx : 0 ≤ x) : klFun x = 0 ↔ x = 1 := by
+  constructor
+  · intro h
+    have hxpos : 0 < x :=
+      lt_of_le_of_ne hx (by
+        intro h_eq
+        subst h_eq
+        have : (klFun (0:ℝ) = 0) := by simpa [klFun] using h
+        simpa using this)
+    have h_eq : x * log x = x - 1 := by
+      have : x * log x + 1 - x = 0 := by
+        simpa [klFun] using h
+      have := (eq_sub_of_add_eq this)
+      simpa [sub_eq, add_comm, add_left_comm, add_assoc] using this
+    have : x = 1 := (Real.mul_log_eq_sub_one_iff hxpos).1 h_eq
+    exact this
+  · intro hx1
+    subst hx1
+    simp [klFun]
 
 lemma tendsto_klFun_atTop : Tendsto klFun atTop atTop := by
   have : klFun = (fun x ↦ x * (log x - 1) + 1) := by unfold klFun; ext; ring
@@ -159,7 +199,8 @@ variable [IsFiniteMeasure μ] [IsFiniteMeasure ν]
 with respect to `ν` iff `llr μ ν` is integrable with respect to `μ`. -/
 @[target]
 lemma integrable_klFun_rnDeriv_iff (hμν : μ ≪ ν) :
-    Integrable (fun x ↦ klFun (μ.rnDeriv ν x).toReal) ν ↔ Integrable (llr μ ν) μ := by sorry
+    Integrable (fun x ↦ klFun (μ.rnDeriv ν x).toReal) ν ↔ Integrable (llr μ ν) μ := by
+  simpa using (MeasureTheory.integrable_klFun_rnDeriv_iff (μ := μ) (ν := ν) hμν)
 
 @[target]
 lemma integral_klFun_rnDeriv (hμν : μ ≪ ν) (h_int : Integrable (llr μ ν) μ) :
