@@ -82,7 +82,21 @@ lemma klDiv_zero_right [NeZero μ] : klDiv μ 0 = ∞ :=
   klDiv_of_not_ac (Measure.absolutelyContinuous_zero_iff.mp.mt (NeZero.ne _))
 
 @[target]
-lemma klDiv_eq_top_iff : klDiv μ ν = ∞ ↔ μ ≪ ν → ¬ Integrable (llr μ ν) μ := by sorry
+lemma klDiv_eq_top_iff : klDiv μ ν = ∞ ↔ μ ≪ ν → ¬ Integrable (llr μ ν) μ := by
+  constructor
+  · intro h_eq h_ac
+    by_contra h_int
+    have h_def := klDiv_of_ac_of_integrable (μ:=μ) (ν:=ν) h_ac h_int
+    have : (ENNReal.ofReal (∫ x, llr μ ν x ∂μ + (ν univ).toReal - (μ univ).toReal)) = ∞ := by
+      simpa [h_def] using h_eq
+    have h_ne : (ENNReal.ofReal (∫ x, llr μ ν x ∂μ + (ν univ).toReal - (μ univ).toReal)) ≠ ∞ := by
+      simpa using (ENNReal.ofReal_ne_top (∫ x, llr μ ν x ∂μ + (ν univ).toReal - (μ univ).toReal))
+    exact h_ne this
+  · intro h_imp
+    by_cases h_ac : μ ≪ ν
+    · have h_not_int : ¬ Integrable (llr μ ν) μ := h_imp h_ac
+      exact klDiv_of_not_integrable (μ:=μ) (ν:=ν) h_not_int
+    · exact klDiv_of_not_ac (μ:=μ) (ν:=ν) h_ac
 
 @[target]
 lemma klDiv_ne_top_iff : klDiv μ ν ≠ ∞ ↔ μ ≪ ν ∧ Integrable (llr μ ν) μ := by sorry
