@@ -111,7 +111,13 @@ open Classical in
 lemma klDiv_eq_integral_klFun :
     klDiv μ ν = if μ ≪ ν ∧ Integrable (llr μ ν) μ
       then ENNReal.ofReal (∫ x, klFun (μ.rnDeriv ν x).toReal ∂ν)
-      else ∞ := by sorry
+      else ∞ := by
+  classical
+  by_cases h : (μ ≪ ν ∧ Integrable (llr μ ν) μ)
+  · rcases h with ⟨h_ac, h_int⟩
+    have h_eq := integral_klFun_rnDeriv (μ:=μ) (ν:=ν) h_ac h_int
+    simp [klDiv, h, h_eq]
+  · simp [klDiv, h]
 
 open Classical in
 @[target]
