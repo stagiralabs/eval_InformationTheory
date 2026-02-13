@@ -95,7 +95,12 @@ lemma not_differentiableAt_klFun_zero : ¬ DifferentiableAt ℝ klFun 0 := by
 /-- The derivative of `klFun` is `log x`. This also holds at `x = 0` although `klFun` is not
 differentiable there since the default value of `deriv` in that case is 0. -/
 @[target, simp]
-lemma deriv_klFun : deriv klFun = log := by sorry
+lemma deriv_klFun : deriv klFun = log := by
+  funext x
+  by_cases hx : x = 0
+  · subst hx; simp [klFun]
+  · have h := (hasDerivAt_klFun (by exact hx)).deriv
+    simpa [klFun] using h
 
 @[target]
 lemma not_differentiableWithinAt_klFun_Ioi_zero : ¬ DifferentiableWithinAt ℝ klFun (Ioi 0) 0 := by sorry
