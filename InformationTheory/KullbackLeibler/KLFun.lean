@@ -54,7 +54,8 @@ lemma klFun_apply (x : ℝ) : klFun x = x * log x + 1 - x := by sorry
 lemma klFun_zero : klFun 0 = 1 := by simp [klFun]
 
 @[target]
-lemma klFun_one : klFun 1 = 0 := by sorry
+lemma klFun_one : klFun 1 = 0 := by
+  simpa [klFun]
 
 /-- `klFun` is strictly convex on [0,∞). -/
 lemma strictConvexOn_klFun : StrictConvexOn ℝ (Ici 0) klFun :=
