@@ -77,7 +77,9 @@ lemma continuous_klFun : Continuous klFun := by unfold klFun; fun_prop
 
 /-- `klFun` is measurable. -/
 @[target, measurability, fun_prop]
-lemma measurable_klFun : Measurable klFun := by sorry
+lemma measurable_klFun : Measurable klFun := by
+  dsimp [klFun]
+  exact ((measurable_id.mul measurable_log).add measurable_const).sub measurable_id
 
 /-- `klFun` is strongly measurable. -/
 @[target, measurability] lemma stronglyMeasurable_klFun : StronglyMeasurable klFun := measurable_klFun.stronglyMeasurable
