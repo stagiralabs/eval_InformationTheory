@@ -40,7 +40,9 @@ def hammingDist (x y : ∀ i, β i) : ℕ := #{i | x i ≠ y i}
 
 /-- Corresponds to `dist_self`. -/
 @[target, simp]
-theorem hammingDist_self (x : ∀ i, β i) : hammingDist x x = 0 := by simpa [hammingDist]
+theorem hammingDist_self (x : ∀ i, β i) : hammingDist x x = 0 := by
+  unfold hammingDist
+  simp
 
 /-- Corresponds to `dist_nonneg`. -/
 theorem hammingDist_nonneg {x y : ∀ i, β i} : 0 ≤ hammingDist x y :=
@@ -48,7 +50,10 @@ theorem hammingDist_nonneg {x y : ∀ i, β i} : 0 ≤ hammingDist x y :=
 
 /-- Corresponds to `dist_comm`. -/
 @[target]
-theorem hammingDist_comm (x y : ∀ i, β i) : hammingDist x y = hammingDist y x := by sorry
+theorem hammingDist_comm (x y : ∀ i, β i) : hammingDist x y = hammingDist y x := by
+  classical
+  unfold hammingDist
+  simp [ne_comm]
 
 /-- Corresponds to `dist_triangle`. -/
 @[target]
@@ -254,7 +259,7 @@ def ofHamming : Hamming β ≃ ∀ i, β i :=
 theorem toHamming_symm_eq : (@toHamming _ β).symm = ofHamming := by sorry
 
 @[target, simp]
-theorem ofHamming_symm_eq : (@ofHamming _ β).symm = toHamming := by sorry
+theorem ofHamming_symm_eq : (@ofHamming _ β).symm = toHamming := rfl
 
 @[target, simp]
 theorem toHamming_ofHamming (x : Hamming β) : toHamming (ofHamming x) = x := by sorry
