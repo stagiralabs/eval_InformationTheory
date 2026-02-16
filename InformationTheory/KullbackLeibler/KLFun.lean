@@ -113,11 +113,11 @@ lemma leftDeriv_klFun : derivWithin klFun (Iio x) x = log x := by sorry
 
 @[target]
 
-lemma rightDeriv_klFun_one : derivWithin klFun (Ioi 1) 1 = 0 := by simp
+lemma rightDeriv_klFun_one : derivWithin klFun (Ioi 1) 1 = 0 := by sorry
 
 @[target]
 
-lemma leftDeriv_klFun_one : derivWithin klFun (Iio 1) 1 = 0 := by simp
+lemma leftDeriv_klFun_one : derivWithin klFun (Iio 1) 1 = 0 := by sorry
 
 @[target]
 lemma tendsto_rightDeriv_klFun_atTop :
