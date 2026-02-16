@@ -260,25 +260,25 @@ theorem ofHamming_symm_eq : (@ofHamming _ β).symm = toHamming := by sorry
 theorem toHamming_ofHamming (x : Hamming β) : toHamming (ofHamming x) = x := by sorry
 
 @[target, simp]
-theorem ofHamming_toHamming (x : ∀ i, β i) : ofHamming (toHamming x) = x := by sorry
+theorem ofHamming_toHamming (x : ∀ i, β i) : ofHamming (toHamming x) = x := rfl
 
 @[target]
-theorem toHamming_inj {x y : ∀ i, β i} : toHamming x = toHamming y ↔ x = y := by sorry
+theorem toHamming_inj {x y : ∀ i, β i} : toHamming x = toHamming y ↔ x = y := by rfl
 
 @[target]
-theorem ofHamming_inj {x y : Hamming β} : ofHamming x = ofHamming y ↔ x = y := by sorry
+theorem ofHamming_inj {x y : Hamming β} : ofHamming x = ofHamming y ↔ x = y := Iff.rfl
 
 @[target, simp]
 theorem toHamming_zero [∀ i, Zero (β i)] : toHamming (0 : ∀ i, β i) = 0 := by sorry
 
 @[target, simp]
-theorem ofHamming_zero [∀ i, Zero (β i)] : ofHamming (0 : Hamming β) = 0 := by sorry
+theorem ofHamming_zero [∀ i, Zero (β i)] : ofHamming (0 : Hamming β) = 0 := rfl
 
 @[target, simp]
-theorem toHamming_neg [∀ i, Neg (β i)] {x : ∀ i, β i} : toHamming (-x) = -toHamming x := by sorry
+theorem toHamming_neg [∀ i, Neg (β i)] {x : ∀ i, β i} : toHamming (-x) = -toHamming x := rfl
 
 @[target, simp]
-theorem ofHamming_neg [∀ i, Neg (β i)] {x : Hamming β} : ofHamming (-x) = -ofHamming x := by sorry
+theorem ofHamming_neg [∀ i, Neg (β i)] {x : Hamming β} : ofHamming (-x) = -ofHamming x := rfl
 
 @[target, simp]
 theorem toHamming_add [∀ i, Add (β i)] {x y : ∀ i, β i} :
@@ -286,11 +286,11 @@ theorem toHamming_add [∀ i, Add (β i)] {x y : ∀ i, β i} :
 
 @[target, simp]
 theorem ofHamming_add [∀ i, Add (β i)] {x y : Hamming β} :
-    ofHamming (x + y) = ofHamming x + ofHamming y := by sorry
+    ofHamming (x + y) = ofHamming x + ofHamming y := rfl
 
 @[target, simp]
 theorem toHamming_sub [∀ i, Sub (β i)] {x y : ∀ i, β i} :
-    toHamming (x - y) = toHamming x - toHamming y := by sorry
+    toHamming (x - y) = toHamming x - toHamming y := by rfl
 
 @[target, simp]
 theorem ofHamming_sub [∀ i, Sub (β i)] {x y : Hamming β} :
