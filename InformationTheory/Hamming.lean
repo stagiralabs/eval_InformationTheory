@@ -126,7 +126,10 @@ def hammingNorm (x : ∀ i, β i) : ℕ := #{i | x i ≠ 0}
 
 /-- Corresponds to `dist_zero_right`. -/
 @[target, simp]
-theorem hammingDist_zero_right (x : ∀ i, β i) : hammingDist x 0 = hammingNorm x := by sorry
+theorem hammingDist_zero_right (x : ∀ i, β i) : hammingDist x 0 = hammingNorm x := by
+  classical
+  unfold hammingDist hammingNorm
+  simp
 
 /-- Corresponds to `dist_zero_left`. -/
 @[target, simp]
@@ -262,7 +265,7 @@ theorem toHamming_symm_eq : (@toHamming _ β).symm = ofHamming := by sorry
 theorem ofHamming_symm_eq : (@ofHamming _ β).symm = toHamming := rfl
 
 @[target, simp]
-theorem toHamming_ofHamming (x : Hamming β) : toHamming (ofHamming x) = x := by sorry
+theorem toHamming_ofHamming (x : Hamming β) : toHamming (ofHamming x) = x := by rfl
 
 @[target, simp]
 theorem ofHamming_toHamming (x : ∀ i, β i) : ofHamming (toHamming x) = x := by sorry
