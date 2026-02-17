@@ -113,6 +113,7 @@ variable [IsFiniteMeasure μ] [IsFiniteMeasure ν]
 Note that since `klDiv` takes value in `ℝ≥0∞` (defined when it is finite as `ENNReal.ofReal (...)`),
 it is nonnegative by definition. This lemma proves that the argument of `ENNReal.ofReal`
 is also nonnegative. -/
+@[target]
 lemma integral_llr_add_sub_measure_univ_nonneg (hμν : μ ≪ ν) (h_int : Integrable (llr μ ν) μ) :
     0 ≤ ∫ x, llr μ ν x ∂μ + (ν univ).toReal - (μ univ).toReal := by
   rw [← integral_klFun_rnDeriv hμν h_int]
@@ -141,6 +142,7 @@ section Inequalities
 
 variable [IsFiniteMeasure μ] [IsFiniteMeasure ν]
 
+@[target]
 lemma integral_llr_add_mul_log_nonneg (hμν : μ ≪ ν) (h_int : Integrable (llr μ ν) μ) :
     0 ≤ ∫ x, llr μ ν x ∂μ + (μ univ).toReal * log (ν univ).toReal + 1 - (μ univ).toReal := by
   by_cases hμ : μ = 0
@@ -159,6 +161,7 @@ lemma integral_llr_add_mul_log_nonneg (hμν : μ ≪ ν) (h_int : Integrable (l
   rw [integral_congr_ae (llr_smul_right hμν (ν univ)⁻¹ (by simp) (by simp [hν])),
     integral_sub h_int (integrable_const _), integral_const, smul_eq_mul] at h
   simpa using h
+
 
 @[target]
 lemma mul_klFun_le_toReal_klDiv (hμν : μ ≪ ν) (h_int : Integrable (llr μ ν) μ) :

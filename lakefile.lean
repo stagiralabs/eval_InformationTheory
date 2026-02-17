@@ -8,7 +8,7 @@ require mathlib from git
   "https://github.com/leanprover-community/mathlib4.git" @ "v4.17.0"
 
 require VerifiedAgora from git
-  "https://github.com/stagiralabs/VerifiedAgora.git" @ "rewrite_1"
+  "https://github.com/stagiralabs/VerifiedAgora.git" @ "rewrite_2"
 
 
 
