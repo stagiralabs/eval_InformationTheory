@@ -53,7 +53,39 @@ theorem hammingDist_comm (x y : ∀ i, β i) : hammingDist x y = hammingDist y x
 /-- Corresponds to `dist_triangle`. -/
 @[target]
 theorem hammingDist_triangle (x y z : ∀ i, β i) :
-    hammingDist x z ≤ hammingDist x y + hammingDist y z := by sorry
+    hammingDist x z ≤ hammingDist x y + hammingDist y z := by
+  classical
+  unfold hammingDist
+  have hsubset :
+      (Finset.univ.filter fun i => x i ≠ z i) ⊆
+        (Finset.univ.filter fun i => x i ≠ y i) ∪
+          (Finset.univ.filter fun i => y i ≠ z i) := by
+    intro i hi
+    have hneq : x i ≠ z i := by
+      have : i ∈ Finset.univ ∧ (x i ≠ z i) := by
+        exact Finset.mem_filter.mp hi
+      exact this.2
+    by_cases hxy : x i = y i
+    · have hyz : y i ≠ z i := by
+        intro h
+        apply hneq
+        simpa [hxy] using h
+      have : i ∈ Finset.univ.filter fun i => y i ≠ z i := by
+        exact Finset.mem_filter.mpr ⟨Finset.mem_univ _, hyz⟩
+      exact Finset.mem_union.mpr (Or.inr this)
+    · have : i ∈ Finset.univ.filter fun i => x i ≠ y i := by
+        exact Finset.mem_filter.mpr ⟨Finset.mem_univ _, hxy⟩
+      exact Finset.mem_union.mpr (Or.inl this)
+  have hcard : (Finset.univ.filter fun i => x i ≠ z i).card ≤
+      ((Finset.univ.filter fun i => x i ≠ y i) ∪
+        (Finset.univ.filter fun i => y i ≠ z i)).card :=
+    Finset.card_mono hsubset
+  have hunion : ((Finset.univ.filter fun i => x i ≠ y i) ∪
+        (Finset.univ.filter fun i => y i ≠ z i)).card ≤
+      (Finset.univ.filter fun i => x i ≠ y i).card +
+        (Finset.univ.filter fun i => y i ≠ z i).card :=
+    Finset.card_union_le _ _
+  exact le_trans hcard hunion
 
 /-- Corresponds to `dist_triangle_left`. -/
 @[target]
@@ -167,7 +199,24 @@ theorem hammingNorm_smul_le_hammingNorm [Zero α] [∀ i, SMulWithZero α (β i)
 
 @[target]
 theorem hammingNorm_smul [Zero α] [∀ i, SMulWithZero α (β i)] {k : α}
-    (hk : ∀ i, IsSMulRegular (β i) k) (x : ∀ i, β i) : hammingNorm (k • x) = hammingNorm x := by sorry
+    (hk : ∀ i, IsSMulRegular (β i) k) (x : ∀ i, β i) : hammingNorm (k • x) = hammingNorm x := by
+  classical
+  unfold hammingNorm
+  have h : (Finset.univ.filter fun i => k • x i ≠ (0 : β i)) =
+      (Finset.univ.filter fun i => x i ≠ 0) := by
+    apply Finset.filter_congr
+    intro i hi
+    constructor
+    · intro hneq
+      by_contra hzero
+      have : k • x i = (0 : β i) := by
+        simpa [hzero] using (zero_smul _ (0 : β i))
+      exact hneq this
+    · intro hneq
+      intro h_eq
+      have hx0 : x i = 0 := (hk i) (by simpa [zero_smul] using h_eq)
+      exact hneq hx0
+  simpa [h]
 
 end Zero
 
@@ -269,7 +318,7 @@ theorem toHamming_inj {x y : ∀ i, β i} : toHamming x = toHamming y ↔ x = y 
 theorem ofHamming_inj {x y : Hamming β} : ofHamming x = ofHamming y ↔ x = y := by sorry
 
 @[target, simp]
-theorem toHamming_zero [∀ i, Zero (β i)] : toHamming (0 : ∀ i, β i) = 0 := by sorry
+theorem toHamming_zero [∀ i, Zero (β i)] : toHamming (0 : ∀ i, β i) = 0 := by rfl
 
 @[target, simp]
 theorem ofHamming_zero [∀ i, Zero (β i)] : ofHamming (0 : Hamming β) = 0 := by sorry
@@ -278,11 +327,11 @@ theorem ofHamming_zero [∀ i, Zero (β i)] : ofHamming (0 : Hamming β) = 0 := 
 theorem toHamming_neg [∀ i, Neg (β i)] {x : ∀ i, β i} : toHamming (-x) = -toHamming x := by sorry
 
 @[target, simp]
-theorem ofHamming_neg [∀ i, Neg (β i)] {x : Hamming β} : ofHamming (-x) = -ofHamming x := by sorry
+theorem ofHamming_neg [∀ i, Neg (β i)] {x : Hamming β} : ofHamming (-x) = -ofHamming x := by rfl
 
 @[target, simp]
 theorem toHamming_add [∀ i, Add (β i)] {x y : ∀ i, β i} :
-    toHamming (x + y) = toHamming x + toHamming y := by sorry
+    toHamming (x + y) = toHamming x + toHamming y := by rfl
 
 @[target, simp]
 theorem ofHamming_add [∀ i, Add (β i)] {x y : Hamming β} :
