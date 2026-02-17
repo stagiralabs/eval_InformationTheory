@@ -49,7 +49,7 @@ The Kullback-Leibler divergence is an f-divergence for this function. -/
 noncomputable def klFun (x : ℝ) : ℝ := x * log x + 1 - x
 
 @[target]
-lemma klFun_apply (x : ℝ) : klFun x = x * log x + 1 - x := by sorry
+lemma klFun_apply (x : ℝ) : klFun x = x * log x + 1 - x := by rfl
 
 lemma klFun_zero : klFun 0 = 1 := by simp [klFun]
 
@@ -155,7 +155,17 @@ lemma integrable_klFun_rnDeriv_iff (hμν : μ ≪ ν) :
 @[target]
 lemma integral_klFun_rnDeriv (hμν : μ ≪ ν) (h_int : Integrable (llr μ ν) μ) :
     ∫ x, klFun (μ.rnDeriv ν x).toReal ∂ν
-      = ∫ x, llr μ ν x ∂μ + (ν univ).toReal - (μ univ).toReal := by sorry
+      = ∫ x, llr μ ν x ∂μ + (ν univ).toReal - (μ univ).toReal := by
+  unfold klFun
+  rw [integral_sub, integral_add, integral_const, Measure.integral_toReal_rnDeriv hμν, smul_eq_mul,
+    mul_one]
+  · congr 2
+    exact integral_rnDeriv_smul hμν
+  · rwa [integrable_rnDeriv_mul_log_iff hμν]
+  · fun_prop
+  · refine Integrable.add ?_ (integrable_const _)
+    rwa [integrable_rnDeriv_mul_log_iff hμν]
+  · fun_prop
 
 end Integral
 
