@@ -40,7 +40,8 @@ def hammingDist (x y : ∀ i, β i) : ℕ := #{i | x i ≠ y i}
 
 /-- Corresponds to `dist_self`. -/
 @[target, simp]
-theorem hammingDist_self (x : ∀ i, β i) : hammingDist x x = 0 := by sorry
+theorem hammingDist_self (x : ∀ i, β i) : hammingDist x x = 0 := by
+  simp [hammingDist]
 
 /-- Corresponds to `dist_nonneg`. -/
 theorem hammingDist_nonneg {x y : ∀ i, β i} : 0 ≤ hammingDist x y :=
@@ -48,7 +49,8 @@ theorem hammingDist_nonneg {x y : ∀ i, β i} : 0 ≤ hammingDist x y :=
 
 /-- Corresponds to `dist_comm`. -/
 @[target]
-theorem hammingDist_comm (x y : ∀ i, β i) : hammingDist x y = hammingDist y x := by sorry
+theorem hammingDist_comm (x y : ∀ i, β i) : hammingDist x y = hammingDist y x := by
+  simp [hammingDist, ne_comm]
 
 /-- Corresponds to `dist_triangle`. -/
 @[target]
@@ -141,7 +143,8 @@ theorem hammingNorm_eq_zero {x : ∀ i, β i} : hammingNorm x = 0 ↔ x = 0 := b
 
 /-- Corresponds to `norm_ne_zero_iff`. -/
 @[target]
-theorem hammingNorm_ne_zero_iff {x : ∀ i, β i} : hammingNorm x ≠ 0 ↔ x ≠ 0 := by sorry
+theorem hammingNorm_ne_zero_iff {x : ∀ i, β i} : hammingNorm x ≠ 0 ↔ x ≠ 0 := by
+  simpa using not_congr (hammingNorm_eq_zero (x := x))
 
 /-- Corresponds to `norm_pos_iff`. -/
 @[target, simp]
@@ -298,7 +301,7 @@ theorem ofHamming_sub [∀ i, Sub (β i)] {x y : Hamming β} :
 
 @[target, simp]
 theorem toHamming_smul [∀ i, SMul α (β i)] {r : α} {x : ∀ i, β i} :
-    toHamming (r • x) = r • toHamming x := by sorry
+    toHamming (r • x) = r • toHamming x := by rfl
 
 @[target, simp]
 theorem ofHamming_smul [∀ i, SMul α (β i)] {r : α} {x : Hamming β} :
