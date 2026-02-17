@@ -127,10 +127,7 @@ lemma toReal_klDiv (h : μ ≪ ν) (h_int : Integrable (llr μ ν) μ) :
 an integral, without any integrability condition. -/
 @[target]
 lemma toReal_klDiv_of_measure_eq (h : μ ≪ ν) (h_eq : μ univ = ν univ) :
-    (klDiv μ ν).toReal = ∫ a, llr μ ν a ∂μ := by
-  by_cases h_int : Integrable (llr μ ν) μ
-  · simp [toReal_klDiv h h_int, h_eq]
-  · rw [klDiv_of_not_integrable h_int, integral_undef h_int, ENNReal.top_toReal]
+    (klDiv μ ν).toReal = ∫ a, llr μ ν a ∂μ := by sorry
 
 @[target]
 lemma toReal_klDiv_eq_integral_klFun (h : μ ≪ ν) :

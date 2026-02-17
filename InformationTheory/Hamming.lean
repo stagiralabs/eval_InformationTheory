@@ -40,7 +40,7 @@ def hammingDist (x y : ∀ i, β i) : ℕ := #{i | x i ≠ y i}
 
 /-- Corresponds to `dist_self`. -/
 @[target, simp]
-theorem hammingDist_self (x : ∀ i, β i) : hammingDist x x = 0 := by simp [hammingDist]
+theorem hammingDist_self (x : ∀ i, β i) : hammingDist x x = 0 := by sorry
 
 /-- Corresponds to `dist_nonneg`. -/
 theorem hammingDist_nonneg {x y : ∀ i, β i} : 0 ≤ hammingDist x y :=
@@ -63,9 +63,7 @@ theorem hammingDist_triangle_left (x y z : ∀ i, β i) :
 /-- Corresponds to `dist_triangle_right`. -/
 @[target]
 theorem hammingDist_triangle_right (x y z : ∀ i, β i) :
-    hammingDist x y ≤ hammingDist x z + hammingDist y z := by
-  rw [hammingDist_comm y]
-  exact hammingDist_triangle _ _ _
+    hammingDist x y ≤ hammingDist x z + hammingDist y z := by sorry
 
 /-- Corresponds to `swap_dist`. -/
 @[target]
