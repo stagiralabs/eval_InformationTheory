@@ -167,7 +167,24 @@ theorem hammingNorm_smul_le_hammingNorm [Zero α] [∀ i, SMulWithZero α (β i)
 
 @[target]
 theorem hammingNorm_smul [Zero α] [∀ i, SMulWithZero α (β i)] {k : α}
-    (hk : ∀ i, IsSMulRegular (β i) k) (x : ∀ i, β i) : hammingNorm (k • x) = hammingNorm x := by sorry
+    (hk : ∀ i, IsSMulRegular (β i) k) (x : ∀ i, β i) : hammingNorm (k • x) = hammingNorm x := by
+  classical
+  unfold hammingNorm
+  have h : (Finset.univ.filter fun i => k • x i ≠ (0 : β i)) =
+      (Finset.univ.filter fun i => x i ≠ 0) := by
+    apply Finset.filter_congr
+    intro i hi
+    constructor
+    · intro hneq
+      by_contra hzero
+      have : k • x i = (0 : β i) := by
+        simpa [hzero] using (zero_smul _ (0 : β i))
+      exact hneq this
+    · intro hneq
+      intro h_eq
+      have hx0 : x i = 0 := (hk i) (by simpa [zero_smul] using h_eq)
+      exact hneq hx0
+  simpa [h]
 
 end Zero
 
