@@ -75,7 +75,21 @@ theorem eq_of_hammingDist_eq_zero {x y : ∀ i, β i} : hammingDist x y = 0 → 
 
 /-- Corresponds to `dist_eq_zero`. -/
 @[target, simp]
-theorem hammingDist_eq_zero {x y : ∀ i, β i} : hammingDist x y = 0 ↔ x = y := by sorry
+theorem hammingDist_eq_zero {x y : ∀ i, β i} : hammingDist x y = 0 ↔ x = y := by
+  classical
+  unfold hammingDist
+  constructor
+  · intro h
+    have hcard : (Finset.univ.filter fun i => x i ≠ y i).card = 0 := by
+      simpa using h
+    funext i
+    by_contra hneq
+    have : (Finset.univ.filter fun i => x i ≠ y i).card ≠ 0 :=
+      Finset.card_ne_zero_of_mem (Finset.mem_filter.2 ⟨Finset.mem_univ i, hneq⟩)
+    exact (this hcard).elim
+  · intro h
+    subst h
+    simp [hammingDist]
 
 /-- Corresponds to `zero_eq_dist`. -/
 @[target, simp]
@@ -83,7 +97,8 @@ theorem hamming_zero_eq_dist {x y : ∀ i, β i} : 0 = hammingDist x y ↔ x = y
 
 /-- Corresponds to `dist_ne_zero`. -/
 @[target]
-theorem hammingDist_ne_zero {x y : ∀ i, β i} : hammingDist x y ≠ 0 ↔ x ≠ y := by sorry
+theorem hammingDist_ne_zero {x y : ∀ i, β i} : hammingDist x y ≠ 0 ↔ x ≠ y := by
+  simpa using not_congr (hammingDist_eq_zero (x:=x) (y:=y))
 
 /-- Corresponds to `dist_pos`. -/
 @[target, simp]
