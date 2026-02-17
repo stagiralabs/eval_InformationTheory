@@ -141,7 +141,8 @@ theorem hammingNorm_eq_zero {x : ∀ i, β i} : hammingNorm x = 0 ↔ x = 0 := b
 
 /-- Corresponds to `norm_ne_zero_iff`. -/
 @[target]
-theorem hammingNorm_ne_zero_iff {x : ∀ i, β i} : hammingNorm x ≠ 0 ↔ x ≠ 0 := by sorry
+theorem hammingNorm_ne_zero_iff {x : ∀ i, β i} : hammingNorm x ≠ 0 ↔ x ≠ 0 := by
+  simpa using not_congr (hammingNorm_eq_zero (x:=x))
 
 /-- Corresponds to `norm_pos_iff`. -/
 @[target, simp]
