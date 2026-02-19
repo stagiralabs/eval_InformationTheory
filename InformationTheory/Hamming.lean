@@ -53,9 +53,6 @@ theorem hammingDist_comm (x y : ∀ i, β i) : hammingDist x y = hammingDist y x
   congr
   aesop
 
-@[target]
-theorem wahoo : 1=1 := by sorry
-
 /-- Corresponds to `dist_triangle`. -/
 @[target]
 theorem hammingDist_triangle (x y z : ∀ i, β i) :
