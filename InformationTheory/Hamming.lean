@@ -275,32 +275,32 @@ theorem toHamming_symm_eq : (@toHamming _ β).symm = ofHamming := by
   rfl
 
 @[target, simp]
-theorem ofHamming_symm_eq : (@ofHamming _ β).symm = toHamming := by sorry
+theorem ofHamming_symm_eq : (@ofHamming _ β).symm = toHamming := by rfl
 
 @[target, simp]
 theorem toHamming_ofHamming (x : Hamming β) : toHamming (ofHamming x) = x := by
   rfl
 
 @[target, simp]
-theorem ofHamming_toHamming (x : ∀ i, β i) : ofHamming (toHamming x) = x := by sorry
+theorem ofHamming_toHamming (x : ∀ i, β i) : ofHamming (toHamming x) = x := by rfl
 
 @[target]
-theorem toHamming_inj {x y : ∀ i, β i} : toHamming x = toHamming y ↔ x = y := by sorry
+theorem toHamming_inj {x y : ∀ i, β i} : toHamming x = toHamming y ↔ x = y := by simp
 
 @[target]
-theorem ofHamming_inj {x y : Hamming β} : ofHamming x = ofHamming y ↔ x = y := by sorry
+theorem ofHamming_inj {x y : Hamming β} : ofHamming x = ofHamming y ↔ x = y := by simp
 
 @[target, simp]
-theorem toHamming_zero [∀ i, Zero (β i)] : toHamming (0 : ∀ i, β i) = 0 := by sorry
+theorem toHamming_zero [∀ i, Zero (β i)] : toHamming (0 : ∀ i, β i) = 0 := by rfl
 
 @[target, simp]
-theorem ofHamming_zero [∀ i, Zero (β i)] : ofHamming (0 : Hamming β) = 0 := by sorry
+theorem ofHamming_zero [∀ i, Zero (β i)] : ofHamming (0 : Hamming β) = 0 := by rfl
 
 @[target, simp]
-theorem toHamming_neg [∀ i, Neg (β i)] {x : ∀ i, β i} : toHamming (-x) = -toHamming x := by sorry
+theorem toHamming_neg [∀ i, Neg (β i)] {x : ∀ i, β i} : toHamming (-x) = -toHamming x := by rfl
 
 @[target, simp]
-theorem ofHamming_neg [∀ i, Neg (β i)] {x : Hamming β} : ofHamming (-x) = -ofHamming x := by sorry
+theorem ofHamming_neg [∀ i, Neg (β i)] {x : Hamming β} : ofHamming (-x) = -ofHamming x := by rfl
 
 @[target, simp]
 theorem toHamming_add [∀ i, Add (β i)] {x y : ∀ i, β i} :
@@ -309,23 +309,23 @@ theorem toHamming_add [∀ i, Add (β i)] {x y : ∀ i, β i} :
 
 @[target, simp]
 theorem ofHamming_add [∀ i, Add (β i)] {x y : Hamming β} :
-    ofHamming (x + y) = ofHamming x + ofHamming y := by sorry
+    ofHamming (x + y) = ofHamming x + ofHamming y := by rfl
 
 @[target, simp]
 theorem toHamming_sub [∀ i, Sub (β i)] {x y : ∀ i, β i} :
-    toHamming (x - y) = toHamming x - toHamming y := by sorry
+    toHamming (x - y) = toHamming x - toHamming y := by rfl
 
 @[target, simp]
 theorem ofHamming_sub [∀ i, Sub (β i)] {x y : Hamming β} :
-    ofHamming (x - y) = ofHamming x - ofHamming y := by sorry
+    ofHamming (x - y) = ofHamming x - ofHamming y := by rfl
 
 @[target, simp]
 theorem toHamming_smul [∀ i, SMul α (β i)] {r : α} {x : ∀ i, β i} :
-    toHamming (r • x) = r • toHamming x := by sorry
+    toHamming (r • x) = r • toHamming x := by rfl
 
 @[target, simp]
 theorem ofHamming_smul [∀ i, SMul α (β i)] {r : α} {x : Hamming β} :
-    ofHamming (r • x) = r • ofHamming x := by sorry
+    ofHamming (r • x) = r • ofHamming x := by rfl
 
 section
 
