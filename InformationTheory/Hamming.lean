@@ -294,7 +294,7 @@ theorem toHamming_sub [∀ i, Sub (β i)] {x y : ∀ i, β i} :
 
 @[target, simp]
 theorem ofHamming_sub [∀ i, Sub (β i)] {x y : Hamming β} :
-    ofHamming (x - y) = ofHamming x - ofHamming y := by sorry
+    ofHamming (x - y) = ofHamming x - ofHamming y := by rfl
 
 @[target, simp]
 theorem toHamming_smul [∀ i, SMul α (β i)] {r : α} {x : ∀ i, β i} :
