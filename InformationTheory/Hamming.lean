@@ -100,11 +100,13 @@ theorem hamming_zero_eq_dist {x y : ∀ i, β i} : 0 = hammingDist x y ↔ x = y
 
 /-- Corresponds to `dist_ne_zero`. -/
 @[target]
-theorem hammingDist_ne_zero {x y : ∀ i, β i} : hammingDist x y ≠ 0 ↔ x ≠ y := by sorry
+theorem hammingDist_ne_zero {x y : ∀ i, β i} : hammingDist x y ≠ 0 ↔ x ≠ y := by
+  simp [hammingDist_eq_zero]
 
 /-- Corresponds to `dist_pos`. -/
 @[target, simp]
-theorem hammingDist_pos {x y : ∀ i, β i} : 0 < hammingDist x y ↔ x ≠ y := by sorry
+theorem hammingDist_pos {x y : ∀ i, β i} : 0 < hammingDist x y ↔ x ≠ y := by
+  simp only [Nat.pos_iff_ne_zero, hammingDist_ne_zero]
 
 @[target]
 theorem hammingDist_lt_one {x y : ∀ i, β i} : hammingDist x y < 1 ↔ x = y := by sorry
@@ -275,7 +277,8 @@ theorem toHamming_symm_eq : (@toHamming _ β).symm = ofHamming := by sorry
 theorem ofHamming_symm_eq : (@ofHamming _ β).symm = toHamming := by sorry
 
 @[target, simp]
-theorem toHamming_ofHamming (x : Hamming β) : toHamming (ofHamming x) = x := by sorry
+theorem toHamming_ofHamming (x : Hamming β) : toHamming (ofHamming x) = x := by
+  rfl
 
 @[target, simp]
 theorem ofHamming_toHamming (x : ∀ i, β i) : ofHamming (toHamming x) = x := by sorry
@@ -300,7 +303,8 @@ theorem ofHamming_neg [∀ i, Neg (β i)] {x : Hamming β} : ofHamming (-x) = -o
 
 @[target, simp]
 theorem toHamming_add [∀ i, Add (β i)] {x y : ∀ i, β i} :
-    toHamming (x + y) = toHamming x + toHamming y := by sorry
+    toHamming (x + y) = toHamming x + toHamming y := by
+  rfl
 
 @[target, simp]
 theorem ofHamming_add [∀ i, Add (β i)] {x y : Hamming β} :
