@@ -157,7 +157,7 @@ lemma integral_llr_add_mul_log_nonneg (hμν : μ ≪ ν) (h_int : Integrable (l
     exact h_int.sub (integrable_const _)
   rw [integral_congr_ae (llr_smul_right hμν (ν univ)⁻¹ (by simp) (by simp [hν])),
     integral_sub h_int (integrable_const _), integral_const, smul_eq_mul] at h
-  simpa using h
+  simpa using h -- proof complete
 
 
 @[target]
