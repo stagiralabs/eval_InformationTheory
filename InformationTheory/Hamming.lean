@@ -40,7 +40,8 @@ def hammingDist (x y : ∀ i, β i) : ℕ := #{i | x i ≠ y i}
 
 /-- Corresponds to `dist_self`. -/
 @[target, simp]
-theorem hammingDist_self (x : ∀ i, β i) : hammingDist x x = 0 := by sorry
+theorem hammingDist_self (x : ∀ i, β i) : hammingDist x x = 0 := by
+  simp [hammingDist]
 
 /-- Corresponds to `dist_nonneg`. -/
 theorem hammingDist_nonneg {x y : ∀ i, β i} : 0 ≤ hammingDist x y :=
@@ -79,7 +80,20 @@ theorem eq_of_hammingDist_eq_zero {x y : ∀ i, β i} : hammingDist x y = 0 → 
 
 /-- Corresponds to `dist_eq_zero`. -/
 @[target, simp]
-theorem hammingDist_eq_zero {x y : ∀ i, β i} : hammingDist x y = 0 ↔ x = y := by sorry
+theorem hammingDist_eq_zero {x y : ∀ i, β i} : hammingDist x y = 0 ↔ x = y := by
+  simp only [hammingDist]
+  constructor
+  · intro h
+    ext i
+    by_contra ne
+    have mem : i ∈ Finset.filter (fun j => x j ≠ y j) Finset.univ := by simp [ne]
+    have card_pos : 0 < Finset.card (Finset.filter (fun j => x j ≠ y j) Finset.univ) := by
+      rw [Finset.card_pos]
+      exact ⟨i, mem⟩
+    simp at h
+    exact Nat.not_lt.mpr (Nat.zero_le _) (h ▸ card_pos)
+  · intro h
+    simp [h]
 
 /-- Corresponds to `zero_eq_dist`. -/
 @[target, simp]
