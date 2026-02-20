@@ -231,7 +231,11 @@ end Zero
 /-- Corresponds to `dist_eq_norm`. -/
 @[target]
 theorem hammingDist_eq_hammingNorm [∀ i, AddGroup (β i)] (x y : ∀ i, β i) :
-    hammingDist x y = hammingNorm (x - y) := by sorry
+    hammingDist x y = hammingNorm (x - y) := by
+  unfold hammingDist hammingNorm
+  congr 1
+  ext i
+  simp [sub_ne_zero]
 
 end HammingDistNorm
 
@@ -331,7 +335,8 @@ theorem ofHamming_inj {x y : Hamming β} : ofHamming x = ofHamming y ↔ x = y :
 theorem toHamming_zero [∀ i, Zero (β i)] : toHamming (0 : ∀ i, β i) = 0 := by sorry
 
 @[target, simp]
-theorem ofHamming_zero [∀ i, Zero (β i)] : ofHamming (0 : Hamming β) = 0 := by sorry
+theorem ofHamming_zero [∀ i, Zero (β i)] : ofHamming (0 : Hamming β) = 0 := by
+  rfl
 
 @[target, simp]
 theorem toHamming_neg [∀ i, Neg (β i)] {x : ∀ i, β i} : toHamming (-x) = -toHamming x := by sorry
