@@ -40,7 +40,9 @@ def hammingDist (x y : ∀ i, β i) : ℕ := #{i | x i ≠ y i}
 
 /-- Corresponds to `dist_self`. -/
 @[target, simp]
-theorem hammingDist_self (x : ∀ i, β i) : hammingDist x x = 0 := by sorry
+theorem hammingDist_self (x : ∀ i, β i) : hammingDist x x = 0 := by
+  unfold hammingDist
+  simp [Finset.filter_false_of_mem]
 
 /-- Corresponds to `dist_nonneg`. -/
 theorem hammingDist_nonneg {x y : ∀ i, β i} : 0 ≤ hammingDist x y :=
@@ -48,7 +50,11 @@ theorem hammingDist_nonneg {x y : ∀ i, β i} : 0 ≤ hammingDist x y :=
 
 /-- Corresponds to `dist_comm`. -/
 @[target]
-theorem hammingDist_comm (x y : ∀ i, β i) : hammingDist x y = hammingDist y x := by sorry
+theorem hammingDist_comm (x y : ∀ i, β i) : hammingDist x y = hammingDist y x := by
+  unfold hammingDist
+  congr 1
+  ext i
+  simp [ne_comm]
 
 /-- Corresponds to `dist_triangle`. -/
 @[target]
@@ -71,26 +77,41 @@ theorem swap_hammingDist : swap (@hammingDist _ β _ _) = hammingDist := by sorr
 
 /-- Corresponds to `eq_of_dist_eq_zero`. -/
 @[target]
-theorem eq_of_hammingDist_eq_zero {x y : ∀ i, β i} : hammingDist x y = 0 → x = y := by sorry
+theorem eq_of_hammingDist_eq_zero {x y : ∀ i, β i} : hammingDist x y = 0 → x = y := by
+  intro h
+  unfold hammingDist at h
+  ext i
+  by_contra h_ne
+  have this : i ∈ filter (fun i => x i ≠ y i) univ := by
+    simp [Finset.mem_filter, h_ne]
+  have h_empty : filter (fun i => x i ≠ y i) univ = ∅ := by simp [Finset.card_eq_zero] at h; exact h
+  simp [h_empty] at this
 
 /-- Corresponds to `dist_eq_zero`. -/
 @[target, simp]
-theorem hammingDist_eq_zero {x y : ∀ i, β i} : hammingDist x y = 0 ↔ x = y := by sorry
+theorem hammingDist_eq_zero {x y : ∀ i, β i} : hammingDist x y = 0 ↔ x = y := by
+  constructor
+  · exact eq_of_hammingDist_eq_zero
+  · intro h; rw [h]; simp
 
 /-- Corresponds to `zero_eq_dist`. -/
 @[target, simp]
-theorem hamming_zero_eq_dist {x y : ∀ i, β i} : 0 = hammingDist x y ↔ x = y := by sorry
+theorem hamming_zero_eq_dist {x y : ∀ i, β i} : 0 = hammingDist x y ↔ x = y := by
+  simp [eq_comm, hammingDist_eq_zero]
 
 /-- Corresponds to `dist_ne_zero`. -/
 @[target]
-theorem hammingDist_ne_zero {x y : ∀ i, β i} : hammingDist x y ≠ 0 ↔ x ≠ y := by sorry
+theorem hammingDist_ne_zero {x y : ∀ i, β i} : hammingDist x y ≠ 0 ↔ x ≠ y := by
+  simp [hammingDist_eq_zero]
 
 /-- Corresponds to `dist_pos`. -/
 @[target, simp]
-theorem hammingDist_pos {x y : ∀ i, β i} : 0 < hammingDist x y ↔ x ≠ y := by sorry
+theorem hammingDist_pos {x y : ∀ i, β i} : 0 < hammingDist x y ↔ x ≠ y := by
+  simp [Nat.pos_iff_ne_zero, hammingDist_ne_zero]
 
 @[target]
-theorem hammingDist_lt_one {x y : ∀ i, β i} : hammingDist x y < 1 ↔ x = y := by sorry
+theorem hammingDist_lt_one {x y : ∀ i, β i} : hammingDist x y < 1 ↔ x = y := by
+  simp [Nat.lt_succ_iff, hammingDist_eq_zero]
 
 @[target]
 theorem hammingDist_le_card_fintype {x y : ∀ i, β i} : hammingDist x y ≤ Fintype.card ι := by sorry
@@ -133,7 +154,8 @@ theorem hammingNorm_nonneg {x : ∀ i, β i} : 0 ≤ hammingNorm x := by sorry
 
 /-- Corresponds to `norm_zero`. -/
 @[target, simp]
-theorem hammingNorm_zero : hammingNorm (0 : ∀ i, β i) = 0 := by sorry
+theorem hammingNorm_zero : hammingNorm (0 : ∀ i, β i) = 0 := by
+  simp [hammingNorm]
 
 /-- Corresponds to `norm_eq_zero`. -/
 @[target, simp]
@@ -141,14 +163,17 @@ theorem hammingNorm_eq_zero {x : ∀ i, β i} : hammingNorm x = 0 ↔ x = 0 := b
 
 /-- Corresponds to `norm_ne_zero_iff`. -/
 @[target]
-theorem hammingNorm_ne_zero_iff {x : ∀ i, β i} : hammingNorm x ≠ 0 ↔ x ≠ 0 := by sorry
+theorem hammingNorm_ne_zero_iff {x : ∀ i, β i} : hammingNorm x ≠ 0 ↔ x ≠ 0 := by
+  simp [hammingNorm_eq_zero]
 
 /-- Corresponds to `norm_pos_iff`. -/
 @[target, simp]
-theorem hammingNorm_pos_iff {x : ∀ i, β i} : 0 < hammingNorm x ↔ x ≠ 0 := by sorry
+theorem hammingNorm_pos_iff {x : ∀ i, β i} : 0 < hammingNorm x ↔ x ≠ 0 := by
+  simp [Nat.pos_iff_ne_zero, hammingNorm_ne_zero_iff]
 
 @[target]
-theorem hammingNorm_lt_one {x : ∀ i, β i} : hammingNorm x < 1 ↔ x = 0 := by sorry
+theorem hammingNorm_lt_one {x : ∀ i, β i} : hammingNorm x < 1 ↔ x = 0 := by
+  simp [Nat.lt_succ_iff, hammingNorm_eq_zero]
 
 @[target]
 theorem hammingNorm_le_card_fintype {x : ∀ i, β i} : hammingNorm x ≤ Fintype.card ι := by sorry
@@ -251,58 +276,58 @@ def ofHamming : Hamming β ≃ ∀ i, β i :=
   Equiv.refl _
 
 @[target, simp]
-theorem toHamming_symm_eq : (@toHamming _ β).symm = ofHamming := by sorry
+theorem toHamming_symm_eq : (@toHamming _ β).symm = ofHamming := by rfl
 
 @[target, simp]
-theorem ofHamming_symm_eq : (@ofHamming _ β).symm = toHamming := by sorry
+theorem ofHamming_symm_eq : (@ofHamming _ β).symm = toHamming := by rfl
 
 @[target, simp]
-theorem toHamming_ofHamming (x : Hamming β) : toHamming (ofHamming x) = x := by sorry
+theorem toHamming_ofHamming (x : Hamming β) : toHamming (ofHamming x) = x := by rfl
 
 @[target, simp]
-theorem ofHamming_toHamming (x : ∀ i, β i) : ofHamming (toHamming x) = x := by sorry
+theorem ofHamming_toHamming (x : ∀ i, β i) : ofHamming (toHamming x) = x := by rfl
 
 @[target]
-theorem toHamming_inj {x y : ∀ i, β i} : toHamming x = toHamming y ↔ x = y := by sorry
+theorem toHamming_inj {x y : ∀ i, β i} : toHamming x = toHamming y ↔ x = y := by simp
 
 @[target]
-theorem ofHamming_inj {x y : Hamming β} : ofHamming x = ofHamming y ↔ x = y := by sorry
+theorem ofHamming_inj {x y : Hamming β} : ofHamming x = ofHamming y ↔ x = y := by simp
 
 @[target, simp]
-theorem toHamming_zero [∀ i, Zero (β i)] : toHamming (0 : ∀ i, β i) = 0 := by sorry
+theorem toHamming_zero [∀ i, Zero (β i)] : toHamming (0 : ∀ i, β i) = 0 := rfl
 
 @[target, simp]
-theorem ofHamming_zero [∀ i, Zero (β i)] : ofHamming (0 : Hamming β) = 0 := by sorry
+theorem ofHamming_zero [∀ i, Zero (β i)] : ofHamming (0 : Hamming β) = 0 := rfl
 
 @[target, simp]
-theorem toHamming_neg [∀ i, Neg (β i)] {x : ∀ i, β i} : toHamming (-x) = -toHamming x := by sorry
+theorem toHamming_neg [∀ i, Neg (β i)] {x : ∀ i, β i} : toHamming (-x) = -toHamming x := rfl
 
 @[target, simp]
-theorem ofHamming_neg [∀ i, Neg (β i)] {x : Hamming β} : ofHamming (-x) = -ofHamming x := by sorry
+theorem ofHamming_neg [∀ i, Neg (β i)] {x : Hamming β} : ofHamming (-x) = -ofHamming x := rfl
 
 @[target, simp]
 theorem toHamming_add [∀ i, Add (β i)] {x y : ∀ i, β i} :
-    toHamming (x + y) = toHamming x + toHamming y := by sorry
+    toHamming (x + y) = toHamming x + toHamming y := rfl
 
 @[target, simp]
 theorem ofHamming_add [∀ i, Add (β i)] {x y : Hamming β} :
-    ofHamming (x + y) = ofHamming x + ofHamming y := by sorry
+    ofHamming (x + y) = ofHamming x + ofHamming y := rfl
 
 @[target, simp]
 theorem toHamming_sub [∀ i, Sub (β i)] {x y : ∀ i, β i} :
-    toHamming (x - y) = toHamming x - toHamming y := by sorry
+    toHamming (x - y) = toHamming x - toHamming y := rfl
 
 @[target, simp]
 theorem ofHamming_sub [∀ i, Sub (β i)] {x y : Hamming β} :
-    ofHamming (x - y) = ofHamming x - ofHamming y := by sorry
+    ofHamming (x - y) = ofHamming x - ofHamming y := rfl
 
 @[target, simp]
 theorem toHamming_smul [∀ i, SMul α (β i)] {r : α} {x : ∀ i, β i} :
-    toHamming (r • x) = r • toHamming x := by sorry
+    toHamming (r • x) = r • toHamming x := rfl
 
 @[target, simp]
 theorem ofHamming_smul [∀ i, SMul α (β i)] {r : α} {x : Hamming β} :
-    ofHamming (r • x) = r • ofHamming x := by sorry
+    ofHamming (r • x) = r • ofHamming x := rfl
 
 section
 
@@ -315,7 +340,7 @@ instance : Dist (Hamming β) :=
 
 @[target, simp, push_cast]
 theorem dist_eq_hammingDist (x y : Hamming β) :
-    dist x y = hammingDist (ofHamming x) (ofHamming y) := by sorry
+    dist x y = hammingDist (ofHamming x) (ofHamming y) := rfl
 
 @[target]
 instance : PseudoMetricSpace (Hamming β) where
@@ -334,7 +359,7 @@ instance : PseudoMetricSpace (Hamming β) where
 
 @[target, simp, push_cast]
 theorem nndist_eq_hammingDist (x y : Hamming β) :
-    nndist x y = hammingDist (ofHamming x) (ofHamming y) := by sorry
+    nndist x y = hammingDist (ofHamming x) (ofHamming y) := rfl
 
 @[target]
 instance : DiscreteTopology (Hamming β) := ⟨rfl⟩
@@ -346,7 +371,7 @@ instance [∀ i, Zero (β i)] : Norm (Hamming β) :=
   ⟨fun x => hammingNorm (ofHamming x)⟩
 
 @[target, simp, push_cast]
-theorem norm_eq_hammingNorm [∀ i, Zero (β i)] (x : Hamming β) : ‖x‖ = hammingNorm (ofHamming x) := by sorry
+theorem norm_eq_hammingNorm [∀ i, Zero (β i)] (x : Hamming β) : ‖x‖ = hammingNorm (ofHamming x) := rfl
 @[target]
 instance [∀ i, AddGroup (β i)] : NormedAddGroup (Hamming β) where
   dist_eq := by push_cast; exact mod_cast hammingDist_eq_hammingNorm
@@ -357,7 +382,7 @@ instance [∀ i, AddCommGroup (β i)] : NormedAddCommGroup (Hamming β) where
 
 @[target, simp, push_cast]
 theorem nnnorm_eq_hammingNorm [∀ i, AddGroup (β i)] (x : Hamming β) :
-    ‖x‖₊ = hammingNorm (ofHamming x) := by sorry
+    ‖x‖₊ = hammingNorm (ofHamming x) := rfl
 
 end
 
