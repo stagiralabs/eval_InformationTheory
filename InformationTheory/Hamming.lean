@@ -72,7 +72,17 @@ theorem swap_hammingDist : swap (@hammingDist _ β _ _) = hammingDist := by sorr
 
 /-- Corresponds to `eq_of_dist_eq_zero`. -/
 @[target]
-theorem eq_of_hammingDist_eq_zero {x y : ∀ i, β i} : hammingDist x y = 0 → x = y := by sorry
+theorem eq_of_hammingDist_eq_zero {x y : ∀ i, β i} : hammingDist x y = 0 → x = y := by
+  intro h
+  ext i
+  by_contra ne
+  have : 0 < #{j | x j ≠ y j} := by
+    rw [Finset.card_pos]
+    use i
+    simp
+    exact ne
+  have : hammingDist x y > 0 := this
+  omega
 
 /-- Corresponds to `dist_eq_zero`. -/
 @[target, simp]
@@ -123,23 +133,35 @@ def hammingNorm (x : ∀ i, β i) : ℕ := #{i | x i ≠ 0}
 /-- Corresponds to `dist_zero_right`. -/
 @[target, simp]
 theorem hammingDist_zero_right (x : ∀ i, β i) : hammingDist x 0 = hammingNorm x := by
-  unfold hammingDist hammingNorm
-  simp
+  unf
+
 
 
 /-- Corresponds to `dist_zero_left`. -/
 @[target, simp]
+theorem hammingDist_zero_lef
+
 theorem hammingDist_zero_left : hammingDist (0 : ∀ i, β i) = hamming
 
 
 /-- Corresponds to `norm_nonneg`. -/
+@[target]
+theorem hammingNorm_nonne
+
 @[target]
 theorem hammingNorm_nonneg {x : ∀ i, β i} : 0 ≤ hammingNorm x :
 
 
 /-- Corresponds to `norm_zero`. -/
 @[target, simp]
+theorem hammingN
+
+/-- Corresponds to `norm_zero`. -/
+@[target, simp]
 theorem hammingNorm_zero : hammingNorm (0 : ∀ i, β i)
+
+
+/-- Corresponds to `norm_e
 
 
 /-- Corresponds to `norm_eq_zero`. -/
@@ -147,10 +169,20 @@ theorem hammingNorm_zero : hammingNorm (0 : ∀ i, β i)
 theorem hammingNorm_eq_zero {x : ∀ i, β i} : hammingNorm x = 0 ↔ x
 
 
+/
+
+
+
 /-- Corresponds to `norm_ne_zero_iff`. -/
 @[target]
+theorem hammingNorm_ne_zero_if
+
 theorem hammingNorm_ne_zero_iff {x : ∀ i, β i} : hammingNorm x ≠ 0 ↔ x ≠ 0 :
 
+
+/-- Corresponds to `norm_pos_iff`. -/
+@[target, simp]
+theorem hammingNorm_pos_i
 
 /-- Corresponds to `norm_pos_iff`. -/
 @[target, simp]
@@ -158,35 +190,39 @@ theorem hammingNorm_pos_iff {x : ∀ i, β i} : 0 < hammingNorm x ↔ x
 
 
 @[target]
-theorem hammingNorm_lt_one {x : ∀ i, β i} : hammingNorm x < 1 ↔ x = 0 :
+
+
 
 
 @[target]
-theorem hammingNorm_le_card_fintype {x : ∀ i, β i} : hammingNorm x ≤ Fintype.card ι :
+theorem hammingNorm_lt_one {x : ∀ i, β i} : hammingNor
+
 
 
 @[target]
-theorem hammingNorm_comp_le_hammingNorm (f : ∀ i, γ i → β i) {x 
+theorem hammingNorm_le_card_fintype {x : ∀ i, β i} : hammingNorm x ≤ Fintype.ca
+
+
+
+@[target]
+theorem hammingNorm_comp_le_hammingNorm (f : ∀ i, γ i → β 
+
 
 
 @[target]
 theorem hammingNorm_comp (f : ∀ i, γ i → β i) {x : ∀ i, γ i} (hf₁ : ∀ i, Injective (f i))
 
 
+
+
+end Zero
+
 @[target]
 theorem hammingNorm_smul_le_hammingNorm [Zero α] [∀ i, SMulWithZero 
 
 
 @[target]
-theorem hammingNorm_smul [Zero α] [∀ i, SMulWithZero α (β i)] {k : α}
-    (hk : ∀ i, IsSMulRegular (β 
-
-end Zero
-
-
-/-- Corresponds to `dist_eq_norm`. -/
-@[target]
-theorem hammingDist_eq_hammingNorm [∀ i, AddGroup (β 
+theorem hammingNorm_smul [Zero α] [∀ i, SM
 
 end HammingDistNorm
 
@@ -194,9 +230,9 @@ end HammingDistNorm
 
 
 
-/-- Type synonym for a Pi type which inherits the usual algebraic instances, but is equipped with
-the Hamming metric and norm, instead of `Pi.normedAddCommGroup` which uses the sup norm. -/
-def Hammin
+/-- Corresponds to `dist_eq_norm`. -/
+@[target]
+theorem ha
 
 namespace Hamming
 
@@ -204,29 +240,55 @@ variable {α ι : Type*} {β : ι → Type*}
 
 /-! Instances inherited from normal Pi types. -/
 
+/-- Type synonym for a Pi type which inherits the usual algebraic instances, but is equipped with
+the Hamming metric a
+
+
+namespace Hammin
+
+variable {α ι : Type*} {β : ι → Type*}
+
+/-! Instances 
+
+
 
 instance [∀ i, Inhab
 
 
-instance [Decida
+inst
 
 
-instance [Inhab
+
+instance [De
 
 
-instance [Fintype ι] [∀ i, D
+
+instance [I
 
 
-instance [∀ i
+
+instance [F
+
+
+
+instance [∀
+
 
 
 instance [∀ 
 
 
+
 instance [∀ 
 
 
+ins
+
+
+
 instance [∀ 
+
+
 
 
 instance [∀ i
@@ -238,29 +300,53 @@ instance [Zero α] [
 instance [∀ i,
 
 
-instance [∀ i, AddGroup (β i)] : AddGroup (Hamming β) := Pi.addGrou
+instance [∀
+
+instance [∀ i
 
 
-instance [∀ i, Add
+instance [Zero α
+
+instance [Zero α] [
 
 
-instance [∀ i, Ad
+instance [∀ i,
 
 
-instance (α) [Semiring α] (β : ι → Type*) [∀ i, AddCommMonoid (β i)] [∀ i, Module α (β i)] :
-    Module α (Ham
+instance [∀ i,
+
+
+instance [∀ i, A
 
 /-! API to/from the type synonym. -/
 
 
 
-/-- `Hamming.toHamming` is the identity function to the `Hamming` of a type. -/
+
+instance [∀ i, Ad
+
+
+instance (α)
+
+instance (α) [Semiring α] (β : ι → Type*) [∀ i, AddCommMonoid (β i)] [∀ i, Module α (β i)] :
+    Module α (Ham
+
+/-! API to/fro
+
+
+
+/-- `Hamming.toHamming` is the identity function to the `Hamming` of a t
+
 @[match_pattern]
 def toHamming 
 
 
+/-- `Hamming.ofHamming` is the identity function from th
+
+
 /-- `Hamming.ofHamming` is the identity function from the `Hamming` of a type. -/
-@[match_pattern]
+@[m
+
 def ofHamming 
 
 
@@ -268,16 +354,36 @@ def ofHamming
 theorem toHamming_symm_eq : (@toHamming _ β).symm = ofHam
 
 
+@[targ
+
+@[target, simp]
+theorem toHamming_symm_eq : (@toHamming _ β).symm = ofHam
+
+
+@[target, simp]
+theorem of
+
+
 @[target, simp]
 theorem ofHamming_symm_eq : (@ofHamming _ β).symm = toHam
 
 
-@[target, simp]
-theorem toHamming_ofHamming (x : Hamming β) : toHamming (ofHamming x)
+@[target, s
 
+
+
+@[target, simp]
+theorem toHamming_ofHamming (x : Hamming β) : toHamming (ofHamming
+
+@[target, simp]
+theorem ofHamming_zero [∀ i, Zero (β i)] : ofHamming (0 : Hamming β) = 0 := by rfl
 
 @[target, simp]
 theorem ofHamming_toHamming (x : ∀ i, β i) : ofHamming (toHamming x)
+
+
+@[target]
+theorem toHammin
 
 
 @[target]
@@ -285,39 +391,53 @@ theorem toHamming_inj {x y : ∀ i, β i} : toHamming x = toHamming y ↔ x = y 
 
 
 @[target]
-theorem ofHamming_inj {x y : Hamming β} : ofHamming x = ofHamming y ↔ x = y :
 
 
-@[target, simp]
-theorem toHamming_zero [∀ i, Zero (β i)] : toHamming (0 : ∀ i, β i)
 
+@[target]
+theorem ofHamming_inj {x y : Hamming β} : ofHamming
 
-@[target, simp]
-theorem ofHamming_zero [∀ i, Zero (β i)] : ofHamming (0 : Hamming β)
 
 
 @[target, simp]
-theorem toHamming_neg [∀ i, Neg (β i)] {x : ∀ i, β i} : toHamming (-x) = -toHammi
+theorem toHamming_zero [∀ i, Zero (β i)] : to
 
-
-@[target, simp]
-theorem ofHamming_neg [∀ i, Neg (β i)] {x : Hamming β} : ofHamming (-x) = -ofHammi
 
 
 @[target, simp]
-theorem toHamming_add [∀ i, Add (β i)] {x y : ∀ i, β i} :
-   
+theorem ofHamming_zero [∀ i, Zero (β i)] : of
+
+@[target, simp]
+theorem ofHamming_sub [∀ i, Sub (β i)] {x y : Hamming β} :
+    ofHamming (x - y) = ofHamming x - ofHamming y := by rfl
+
 
 
 @[target, simp]
-theorem ofHamming_add [∀ i, Add (β i)] {x y : Hamming β} :
-  
+theorem ofHamming_neg [∀ i, Neg (β 
+
 
 
 @[target, simp]
+theorem toHamming_add [∀ i, Add (β 
+
+section
+
+/-! Instances equipping `Hamming` with `hammingNorm` and `hammingDist`. -/
+
+variable [Fintype ι] [∀ i, DecidableEq (β i)]
+
+
+
+@[target, simp]
+theorem toHamming_sub [∀ i, Sub (β i)
+
 theorem toHamming_sub [∀ i, Sub (β i)] {x y : ∀ i, β i} :
    
 
+
+@[target, simp]
+theorem ofHamming_sub [∀ i, Sub (β i)] {x y : Ha
 
 @[target, simp]
 theorem ofHamming_sub [∀ i, Sub (β i)] {x y : Hamming β} :
@@ -333,7 +453,8 @@ theorem ofHamming_smul [∀ i, SMul α (β i)] {r : α}
 
 section
 
-/-! Instances equipping `Hamming` with `hammingNorm` and `hammingDist`. -/
+/-! Inst
+
 
 variable [Fintype ι] [∀ i, DecidableEq (β i)]
 
@@ -342,10 +463,23 @@ instance : Dist (Hamming β) :=
   ⟨fun x y => hammingDi
 
 
+@[target,
+
+instance : Dist (Hamming β) :=
+  ⟨fun x y => hammingDi
+
+
+@[target, simp, push_c
+
+
 @[target, simp, push_cast]
-theorem dist_eq_hammingDist (x y : Hamming β) :
+theorem dist_eq_hammingDist (x y : 
+
     dist x y = ham
 
+
+@[target]
+instance : PseudoMetricSpa
 
 @[target]
 instance : PseudoMetricSpace (Hamming β) where
@@ -353,45 +487,28 @@ instance : PseudoMetricSpace (Hamming β) where
     sorry
   dist_comm := by
     sorry
+  di
+  dist_self := by
+    sorry
+  dist_comm := by
+    sorry
+  dist_triangle := by
+    sorry
+  toUnif
+    sorry
   dist_triangle := by
     sorry
   toUniformSpace := ⊥
-  uniformity_dist := uniformity_dist_of_mem_uniformity _ _ fun s => by
+  uniformity_dist := uniformity_dist
+
+
     sorry
   toBornology := sorry
   cobound
 
 
 @[target, simp, push_cast]
-theorem nndist_eq_hammingDist (x y : Hamming β) :
-    nndist x y = h
-
-
-@[target]
-instance : DiscreteTopology (Hamming β
-
-
-@[target]
-instance : MetricSpace (Hamming β) := .ofT0PseudoMet
-
-
-instance [∀ i, Zero (β i)] : Norm (Ham
-
-
-@[target, simp, push_cast]
-theorem norm_eq_hammingNorm [∀ i, Zero (β i)] (x : Hamming β) : ‖x‖ = hammingNor
-theorem norm_eq_hammingNorm [∀ i, Zero (β i)] (x : Hamming β) : ‖x‖ = hammingNorm (ofHamming x) := by sorry
-@[target]
-instance [∀ i, AddGroup (β i)] : NormedAddGroup (Hamming β) where
-  
-  dist_eq := by push_cast; exact mod_cast hammingDist_eq_hammingNorm
-@[target]
-instance [∀ i, AddCommGroup (β i)] : NormedAddCommGroup (Hamming β) 
-
-
-
-@[target, simp, push_cast]
-theorem nnnorm_eq_hammingNorm [∀ i, AddGroup (β 
+theorem n
 
 end
 
