@@ -154,7 +154,27 @@ theorem hammingNorm_ne_zero_iff {x : ∀ i, β i} : hammingNorm x ≠ 0 ↔ x �
 
 /-- Corresponds to `norm_pos_iff`. -/
 @[target, simp]
-theorem hammingNorm_pos_iff {x : ∀ i, β i} : 0 < hammingNorm x ↔ x ≠ 0 := by sorry
+theorem hammingNorm_pos_iff {x : ∀ i, β i} : 0 < hammingNorm x ↔ x ≠ 0 := by
+  simp only [hammingNorm, Finset.card_pos, Finset.nonempty_iff_ne_empty]
+  constructor
+  · intro h
+    intro hx
+    rw [hx] at h
+    simp at h
+  · intro hx
+    by_contra h
+    simp at h
+    have hempty : filter (fun i => x i ≠ 0) univ = ∅ := h
+    have : ∀ i, x i = 0 := by
+      intro i
+      by_contra h2
+      have mem : i ∈ filter (fun i => x i ≠ 0) univ := by
+        simp [h2]
+      rw [hempty] at mem
+      simp at mem
+    apply hx
+    ext i
+    exact this i
 
 @[target]
 theorem hammingNorm_lt_one {x : ∀ i, β i} : hammingNorm x < 1 ↔ x = 0 := by sorry
