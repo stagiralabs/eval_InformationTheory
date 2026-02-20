@@ -40,7 +40,9 @@ def hammingDist (x y : ∀ i, β i) : ℕ := #{i | x i ≠ y i}
 
 /-- Corresponds to `dist_self`. -/
 @[target, simp]
-theorem hammingDist_self (x : ∀ i, β i) : hammingDist x x = 0 := by sorry
+theorem hammingDist_self (x : ∀ i, β i) : hammingDist x x = 0 := by
+  unfold hammingDist
+  simp
 
 /-- Corresponds to `dist_nonneg`. -/
 theorem hammingDist_nonneg {x y : ∀ i, β i} : 0 ≤ hammingDist x y :=
@@ -85,7 +87,20 @@ theorem eq_of_hammingDist_eq_zero {x y : ∀ i, β i} : hammingDist x y = 0 → 
 
 /-- Corresponds to `dist_eq_zero`. -/
 @[target, simp]
-theorem hammingDist_eq_zero {x y : ∀ i, β i} : hammingDist x y = 0 ↔ x = y := by sorry
+theorem hammingDist_eq_zero {x y : ∀ i, β i} : hammingDist x y = 0 ↔ x = y := by
+  constructor
+  · intro h
+    unfold hammingDist at h
+    ext i
+    by_contra hne
+    have : i ∈ Finset.filter (fun j => x j ≠ y j) Finset.univ := by
+      simp [Finset.mem_filter, hne]
+    simp [Finset.card_eq_zero, Finset.ext_iff] at h
+    have := h i
+    simp at this
+    exact hne this
+  · intro h
+    simp [h]
 
 /-- Corresponds to `zero_eq_dist`. -/
 @[target, simp]
@@ -97,10 +112,13 @@ theorem hammingDist_ne_zero {x y : ∀ i, β i} : hammingDist x y ≠ 0 ↔ x �
 
 /-- Corresponds to `dist_pos`. -/
 @[target, simp]
-theorem hammingDist_pos {x y : ∀ i, β i} : 0 < hammingDist x y ↔ x ≠ y := by sorry
+theorem hammingDist_pos {x y : ∀ i, β i} : 0 < hammingDist x y ↔ x ≠ y := by
+  simp [Nat.pos_iff_ne_zero, hammingDist_eq_zero]
 
 @[target]
-theorem hammingDist_lt_one {x y : ∀ i, β i} : hammingDist x y < 1 ↔ x = y := by sorry
+theorem hammingDist_lt_one {x y : ∀ i, β i} : hammingDist x y < 1 ↔ x = y := by
+  simp only [Nat.lt_one_iff]
+  exact hammingDist_eq_zero
 
 @[target]
 theorem hammingDist_le_card_fintype {x y : ∀ i, β i} : hammingDist x y ≤ Fintype.card ι := by sorry
@@ -281,7 +299,8 @@ theorem toHamming_ofHamming (x : Hamming β) : toHamming (ofHamming x) = x := by
   rfl
 
 @[target, simp]
-theorem ofHamming_toHamming (x : ∀ i, β i) : ofHamming (toHamming x) = x := by sorry
+theorem ofHamming_toHamming (x : ∀ i, β i) : ofHamming (toHamming x) = x := by
+  rfl
 
 @[target]
 theorem toHamming_inj {x y : ∀ i, β i} : toHamming x = toHamming y ↔ x = y := by sorry
