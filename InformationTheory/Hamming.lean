@@ -40,7 +40,9 @@ def hammingDist (x y : ∀ i, β i) : ℕ := #{i | x i ≠ y i}
 
 /-- Corresponds to `dist_self`. -/
 @[target, simp]
-theorem hammingDist_self (x : ∀ i, β i) : hammingDist x x = 0 := by sorry
+theorem hammingDist_self (x : ∀ i, β i) : hammingDist x x = 0 := by
+  unfold hammingDist
+  simp
 
 /-- Corresponds to `dist_nonneg`. -/
 theorem hammingDist_nonneg {x y : ∀ i, β i} : 0 ≤ hammingDist x y :=
@@ -48,7 +50,11 @@ theorem hammingDist_nonneg {x y : ∀ i, β i} : 0 ≤ hammingDist x y :=
 
 /-- Corresponds to `dist_comm`. -/
 @[target]
-theorem hammingDist_comm (x y : ∀ i, β i) : hammingDist x y = hammingDist y x := by sorry
+theorem hammingDist_comm (x y : ∀ i, β i) : hammingDist x y = hammingDist y x := by
+  unfold hammingDist
+  congr 1
+  ext i
+  simp [eq_comm]
 
 /-- Corresponds to `dist_triangle`. -/
 @[target]
@@ -71,11 +77,34 @@ theorem swap_hammingDist : swap (@hammingDist _ β _ _) = hammingDist := by sorr
 
 /-- Corresponds to `eq_of_dist_eq_zero`. -/
 @[target]
-theorem eq_of_hammingDist_eq_zero {x y : ∀ i, β i} : hammingDist x y = 0 → x = y := by sorry
+theorem eq_of_hammingDist_eq_zero {x y : ∀ i, β i} : hammingDist x y = 0 → x = y := by
+  intro h
+  unfold hammingDist at h
+  ext i
+  by_contra hne
+  have : i ∈ Finset.filter (fun j => x j ≠ y j) Finset.univ := by
+    simp [Finset.mem_filter, hne]
+  simp [Finset.card_eq_zero, Finset.ext_iff] at h
+  have := h i
+  simp at this
+  exact hne this
 
 /-- Corresponds to `dist_eq_zero`. -/
 @[target, simp]
-theorem hammingDist_eq_zero {x y : ∀ i, β i} : hammingDist x y = 0 ↔ x = y := by sorry
+theorem hammingDist_eq_zero {x y : ∀ i, β i} : hammingDist x y = 0 ↔ x = y := by
+  constructor
+  · intro h
+    unfold hammingDist at h
+    ext i
+    by_contra hne
+    have : i ∈ Finset.filter (fun j => x j ≠ y j) Finset.univ := by
+      simp [Finset.mem_filter, hne]
+    simp [Finset.card_eq_zero, Finset.ext_iff] at h
+    have := h i
+    simp at this
+    exact hne this
+  · intro h
+    simp [h]
 
 /-- Corresponds to `zero_eq_dist`. -/
 @[target, simp]
@@ -87,10 +116,13 @@ theorem hammingDist_ne_zero {x y : ∀ i, β i} : hammingDist x y ≠ 0 ↔ x �
 
 /-- Corresponds to `dist_pos`. -/
 @[target, simp]
-theorem hammingDist_pos {x y : ∀ i, β i} : 0 < hammingDist x y ↔ x ≠ y := by sorry
+theorem hammingDist_pos {x y : ∀ i, β i} : 0 < hammingDist x y ↔ x ≠ y := by
+  simp [Nat.pos_iff_ne_zero, hammingDist_eq_zero]
 
 @[target]
-theorem hammingDist_lt_one {x y : ∀ i, β i} : hammingDist x y < 1 ↔ x = y := by sorry
+theorem hammingDist_lt_one {x y : ∀ i, β i} : hammingDist x y < 1 ↔ x = y := by
+  simp only [Nat.lt_one_iff]
+  exact hammingDist_eq_zero
 
 @[target]
 theorem hammingDist_le_card_fintype {x y : ∀ i, β i} : hammingDist x y ≤ Fintype.card ι := by sorry
@@ -121,23 +153,48 @@ def hammingNorm (x : ∀ i, β i) : ℕ := #{i | x i ≠ 0}
 
 /-- Corresponds to `dist_zero_right`. -/
 @[target, simp]
-theorem hammingDist_zero_right (x : ∀ i, β i) : hammingDist x 0 = hammingNorm x := by sorry
+theorem hammingDist_zero_right (x : ∀ i, β i) : hammingDist x 0 = hammingNorm x := by
+  unfold hammingDist hammingNorm
+  simp only [Pi.zero_apply]
 
 /-- Corresponds to `dist_zero_left`. -/
 @[target, simp]
-theorem hammingDist_zero_left : hammingDist (0 : ∀ i, β i) = hammingNorm := by sorry
+theorem hammingDist_zero_left : hammingDist (0 : ∀ i, β i) = hammingNorm := by
+  unfold hammingDist hammingNorm
+  ext x
+  simp only [Pi.zero_apply]
+  congr 1
+  ext i
+  simp [eq_comm]
 
 /-- Corresponds to `norm_nonneg`. -/
 @[target]
-theorem hammingNorm_nonneg {x : ∀ i, β i} : 0 ≤ hammingNorm x := by sorry
+theorem hammingNorm_nonneg {x : ∀ i, β i} : 0 ≤ hammingNorm x :=
+  zero_le _
 
 /-- Corresponds to `norm_zero`. -/
 @[target, simp]
-theorem hammingNorm_zero : hammingNorm (0 : ∀ i, β i) = 0 := by sorry
+theorem hammingNorm_zero : hammingNorm (0 : ∀ i, β i) = 0 := by
+  unfold hammingNorm
+  simp
 
 /-- Corresponds to `norm_eq_zero`. -/
 @[target, simp]
-theorem hammingNorm_eq_zero {x : ∀ i, β i} : hammingNorm x = 0 ↔ x = 0 := by sorry
+theorem hammingNorm_eq_zero {x : ∀ i, β i} : hammingNorm x = 0 ↔ x = 0 := by
+  constructor
+  · intro h
+    ext i
+    by_contra hne
+    unfold hammingNorm at h
+    have mem : i ∈ Finset.filter (fun j => x j ≠ 0) Finset.univ := by
+      simp only [Finset.mem_filter, Finset.mem_univ, true_and]
+      exact hne
+    simp only [Finset.card_eq_zero, Finset.ext_iff, Finset.mem_filter,
+               Finset.mem_univ, true_and] at h
+    have := h i
+    exact hne (by simp at this; exact this)
+  · intro h
+    simp [h]
 
 /-- Corresponds to `norm_ne_zero_iff`. -/
 @[target]
@@ -174,7 +231,11 @@ end Zero
 /-- Corresponds to `dist_eq_norm`. -/
 @[target]
 theorem hammingDist_eq_hammingNorm [∀ i, AddGroup (β i)] (x y : ∀ i, β i) :
-    hammingDist x y = hammingNorm (x - y) := by sorry
+    hammingDist x y = hammingNorm (x - y) := by
+  unfold hammingDist hammingNorm
+  congr 1
+  ext i
+  simp [sub_ne_zero]
 
 end HammingDistNorm
 
@@ -257,10 +318,12 @@ theorem toHamming_symm_eq : (@toHamming _ β).symm = ofHamming := by sorry
 theorem ofHamming_symm_eq : (@ofHamming _ β).symm = toHamming := by sorry
 
 @[target, simp]
-theorem toHamming_ofHamming (x : Hamming β) : toHamming (ofHamming x) = x := by sorry
+theorem toHamming_ofHamming (x : Hamming β) : toHamming (ofHamming x) = x := by
+  rfl
 
 @[target, simp]
-theorem ofHamming_toHamming (x : ∀ i, β i) : ofHamming (toHamming x) = x := by sorry
+theorem ofHamming_toHamming (x : ∀ i, β i) : ofHamming (toHamming x) = x := by
+  rfl
 
 @[target]
 theorem toHamming_inj {x y : ∀ i, β i} : toHamming x = toHamming y ↔ x = y := by sorry
@@ -272,7 +335,8 @@ theorem ofHamming_inj {x y : Hamming β} : ofHamming x = ofHamming y ↔ x = y :
 theorem toHamming_zero [∀ i, Zero (β i)] : toHamming (0 : ∀ i, β i) = 0 := by sorry
 
 @[target, simp]
-theorem ofHamming_zero [∀ i, Zero (β i)] : ofHamming (0 : Hamming β) = 0 := by sorry
+theorem ofHamming_zero [∀ i, Zero (β i)] : ofHamming (0 : Hamming β) = 0 := by
+  rfl
 
 @[target, simp]
 theorem toHamming_neg [∀ i, Neg (β i)] {x : ∀ i, β i} : toHamming (-x) = -toHamming x := by sorry
