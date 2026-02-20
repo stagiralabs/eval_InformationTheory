@@ -252,7 +252,7 @@ def ofHamming : Hamming β ≃ ∀ i, β i :=
   Equiv.refl _
 
 @[target, simp]
-theorem toHamming_symm_eq : (@toHamming _ β).symm = ofHamming := by sorry
+theorem toHamming_symm_eq : (@toHamming _ β).symm = ofHamming := by rfl
 
 @[target, simp]
 theorem ofHamming_symm_eq : (@ofHamming _ β).symm = toHamming := by sorry
@@ -270,16 +270,16 @@ theorem toHamming_inj {x y : ∀ i, β i} : toHamming x = toHamming y ↔ x = y 
 theorem ofHamming_inj {x y : Hamming β} : ofHamming x = ofHamming y ↔ x = y := by sorry
 
 @[target, simp]
-theorem toHamming_zero [∀ i, Zero (β i)] : toHamming (0 : ∀ i, β i) = 0 := by sorry
+theorem toHamming_zero [∀ i, Zero (β i)] : toHamming (0 : ∀ i, β i) = 0 := by rfl
 
 @[target, simp]
-theorem ofHamming_zero [∀ i, Zero (β i)] : ofHamming (0 : Hamming β) = 0 := by sorry
+theorem ofHamming_zero [∀ i, Zero (β i)] : ofHamming (0 : Hamming β) = 0 := by rfl
 
 @[target, simp]
-theorem toHamming_neg [∀ i, Neg (β i)] {x : ∀ i, β i} : toHamming (-x) = -toHamming x := by sorry
+theorem toHamming_neg [∀ i, Neg (β i)] {x : ∀ i, β i} : toHamming (-x) = -toHamming x := by rfl
 
 @[target, simp]
-theorem ofHamming_neg [∀ i, Neg (β i)] {x : Hamming β} : ofHamming (-x) = -ofHamming x := by sorry
+theorem ofHamming_neg [∀ i, Neg (β i)] {x : Hamming β} : ofHamming (-x) = -ofHamming x := by rfl
 
 @[target, simp]
 theorem toHamming_add [∀ i, Add (β i)] {x y : ∀ i, β i} :
