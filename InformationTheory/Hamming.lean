@@ -125,23 +125,38 @@ def hammingNorm (x : ∀ i, β i) : ℕ := #{i | x i ≠ 0}
 
 /-- Corresponds to `dist_zero_right`. -/
 @[target, simp]
-theorem hammingDist_zero_right (x : ∀ i, β i) : hammingDist x 0 = hammingNorm x := by sorry
+theorem hammingDist_zero_right (x : ∀ i, β i) : hammingDist x 0 = hammingNorm x := by
+  simp [hammingDist, hammingNorm]
 
 /-- Corresponds to `dist_zero_left`. -/
 @[target, simp]
-theorem hammingDist_zero_left : hammingDist (0 : ∀ i, β i) = hammingNorm := by sorry
+theorem hammingDist_zero_left : hammingDist (0 : ∀ i, β i) = hammingNorm := by
+  funext x
+  simp [hammingDist, hammingNorm, eq_comm]
 
 /-- Corresponds to `norm_nonneg`. -/
 @[target]
-theorem hammingNorm_nonneg {x : ∀ i, β i} : 0 ≤ hammingNorm x := by sorry
+theorem hammingNorm_nonneg {x : ∀ i, β i} : 0 ≤ hammingNorm x := zero_le _
 
 /-- Corresponds to `norm_zero`. -/
 @[target, simp]
-theorem hammingNorm_zero : hammingNorm (0 : ∀ i, β i) = 0 := by sorry
+theorem hammingNorm_zero : hammingNorm (0 : ∀ i, β i) = 0 := by simp [hammingNorm]
 
 /-- Corresponds to `norm_eq_zero`. -/
 @[target, simp]
-theorem hammingNorm_eq_zero {x : ∀ i, β i} : hammingNorm x = 0 ↔ x = 0 := by sorry
+theorem hammingNorm_eq_zero {x : ∀ i, β i} : hammingNorm x = 0 ↔ x = 0 := by
+  constructor
+  · intro h
+    unfold hammingNorm at h
+    rw [Finset.card_eq_zero] at h
+    ext i
+    by_contra hne
+    have : i ∈ Finset.filter (fun i => x i ≠ 0) Finset.univ := by
+      rw [Finset.mem_filter]
+      exact ⟨Finset.mem_univ i, hne⟩
+    rw [h] at this
+    simp at this
+  · intro h; rw [h]; simp [hammingNorm]
 
 /-- Corresponds to `norm_ne_zero_iff`. -/
 @[target]
@@ -149,7 +164,9 @@ theorem hammingNorm_ne_zero_iff {x : ∀ i, β i} : hammingNorm x ≠ 0 ↔ x �
 
 /-- Corresponds to `norm_pos_iff`. -/
 @[target, simp]
-theorem hammingNorm_pos_iff {x : ∀ i, β i} : 0 < hammingNorm x ↔ x ≠ 0 := by sorry
+theorem hammingNorm_pos_iff {x : ∀ i, β i} : 0 < hammingNorm x ↔ x ≠ 0 := by
+  simp only [Nat.pos_iff_ne_zero]
+  exact not_congr hammingNorm_eq_zero
 
 @[target]
 theorem hammingNorm_lt_one {x : ∀ i, β i} : hammingNorm x < 1 ↔ x = 0 := by sorry
