@@ -76,7 +76,9 @@ theorem swap_hammingDist : swap (@hammingDist _ β _ _) = hammingDist := by sorr
 
 /-- Corresponds to `eq_of_dist_eq_zero`. -/
 @[target]
-theorem eq_of_hammingDist_eq_zero {x y : ∀ i, β i} : hammingDist x y = 0 → x = y := by sorry
+theorem eq_of_hammingDist_eq_zero {x y : ∀ i, β i} : hammingDist x y = 0 → x = y := by
+  intro h
+  exact hammingDist_eq_zero.mp h
 
 /-- Corresponds to `dist_eq_zero`. -/
 @[target, simp]
@@ -145,15 +147,19 @@ def hammingNorm (x : ∀ i, β i) : ℕ := #{i | x i ≠ 0}
 
 /-- Corresponds to `dist_zero_right`. -/
 @[target, simp]
-theorem hammingDist_zero_right (x : ∀ i, β i) : hammingDist x 0 = hammingNorm x := by sorry
+theorem hammingDist_zero_right (x : ∀ i, β i) : hammingDist x 0 = hammingNorm x := by
+  simp [hammingDist, hammingNorm]
 
 /-- Corresponds to `dist_zero_left`. -/
 @[target, simp]
-theorem hammingDist_zero_left : hammingDist (0 : ∀ i, β i) = hammingNorm := by sorry
+theorem hammingDist_zero_left : hammingDist (0 : ∀ i, β i) = hammingNorm := by
+  ext x
+  simp [hammingDist, hammingNorm]
 
 /-- Corresponds to `norm_nonneg`. -/
 @[target]
-theorem hammingNorm_nonneg {x : ∀ i, β i} : 0 ≤ hammingNorm x := by sorry
+theorem hammingNorm_nonneg {x : ∀ i, β i} : 0 ≤ hammingNorm x := by
+  exact Nat.zero_le _
 
 /-- Corresponds to `norm_zero`. -/
 @[target, simp]
