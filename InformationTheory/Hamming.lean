@@ -76,11 +76,23 @@ theorem eq_of_hammingDist_eq_zero {x y : ∀ i, β i} : hammingDist x y = 0 → 
 
 /-- Corresponds to `dist_eq_zero`. -/
 @[target, simp]
-theorem hammingDist_eq_zero {x y : ∀ i, β i} : hammingDist x y = 0 ↔ x = y := by sorry
+theorem hammingDist_eq_zero {x y : ∀ i, β i} : hammingDist x y = 0 ↔ x = y := by
+  unfold hammingDist
+  simp only [Finset.card_eq_zero, Finset.filter_false_of_mem]
+  constructor
+  · intro h
+    ext i
+    by_contra hne
+    have : i ∈ (Finset.filter (fun i => x i ≠ y i) Finset.univ) := by
+      simp [hne]
+    simp [h] at this
+  · intro h
+    simp [h]
 
 /-- Corresponds to `zero_eq_dist`. -/
 @[target, simp]
-theorem hamming_zero_eq_dist {x y : ∀ i, β i} : 0 = hammingDist x y ↔ x = y := by sorry
+theorem hamming_zero_eq_dist {x y : ∀ i, β i} : 0 = hammingDist x y ↔ x = y := by
+  simp [eq_comm, hammingDist_eq_zero]
 
 /-- Corresponds to `dist_ne_zero`. -/
 @[target]
@@ -175,7 +187,11 @@ end Zero
 /-- Corresponds to `dist_eq_norm`. -/
 @[target]
 theorem hammingDist_eq_hammingNorm [∀ i, AddGroup (β i)] (x y : ∀ i, β i) :
-    hammingDist x y = hammingNorm (x - y) := by sorry
+    hammingDist x y = hammingNorm (x - y) := by
+  unfold hammingDist hammingNorm
+  congr 1
+  ext i
+  simp [sub_ne_zero]
 
 end HammingDistNorm
 
