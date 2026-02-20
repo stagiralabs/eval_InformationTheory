@@ -71,7 +71,17 @@ theorem swap_hammingDist : swap (@hammingDist _ β _ _) = hammingDist := by sorr
 
 /-- Corresponds to `eq_of_dist_eq_zero`. -/
 @[target]
-theorem eq_of_hammingDist_eq_zero {x y : ∀ i, β i} : hammingDist x y = 0 → x = y := by sorry
+theorem eq_of_hammingDist_eq_zero {x y : ∀ i, β i} : hammingDist x y = 0 → x = y := by
+  intro h
+  unfold hammingDist at h
+  ext i
+  by_contra hne
+  have : i ∈ Finset.filter (fun j => x j ≠ y j) Finset.univ := by
+    simp [Finset.mem_filter, hne]
+  simp [Finset.card_eq_zero, Finset.ext_iff] at h
+  have := h i
+  simp at this
+  exact hne this
 
 /-- Corresponds to `dist_eq_zero`. -/
 @[target, simp]
@@ -121,7 +131,9 @@ def hammingNorm (x : ∀ i, β i) : ℕ := #{i | x i ≠ 0}
 
 /-- Corresponds to `dist_zero_right`. -/
 @[target, simp]
-theorem hammingDist_zero_right (x : ∀ i, β i) : hammingDist x 0 = hammingNorm x := by sorry
+theorem hammingDist_zero_right (x : ∀ i, β i) : hammingDist x 0 = hammingNorm x := by
+  unfold hammingDist hammingNorm
+  simp only [Pi.zero_apply]
 
 /-- Corresponds to `dist_zero_left`. -/
 @[target, simp]
