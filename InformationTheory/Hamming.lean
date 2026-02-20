@@ -152,7 +152,12 @@ theorem hammingDist_zero_right (x : ∀ i, β i) : hammingDist x 0 = hammingNorm
 
 /-- Corresponds to `dist_zero_left`. -/
 @[target, simp]
-theorem hammingDist_zero_left : hammingDist (0 : ∀ i, β i) = hammingNorm := by sorry
+theorem hammingDist_zero_left : hammingDist (0 : ∀ i, β i) = hammingNorm := by
+  unfold hammingDist hammingNorm
+  funext y
+  congr 1
+  ext i
+  simp [eq_comm]
 
 /-- Corresponds to `norm_nonneg`. -/
 @[target]
@@ -160,7 +165,8 @@ theorem hammingNorm_nonneg {x : ∀ i, β i} : 0 ≤ hammingNorm x := by sorry
 
 /-- Corresponds to `norm_zero`. -/
 @[target, simp]
-theorem hammingNorm_zero : hammingNorm (0 : ∀ i, β i) = 0 := by sorry
+theorem hammingNorm_zero : hammingNorm (0 : ∀ i, β i) = 0 := by
+  simp [hammingNorm]
 
 /-- Corresponds to `norm_eq_zero`. -/
 @[target, simp]
@@ -298,7 +304,7 @@ theorem toHamming_symm_eq : (@toHamming _ β).symm = ofHamming := by sorry
 theorem ofHamming_symm_eq : (@ofHamming _ β).symm = toHamming := by sorry
 
 @[target, simp]
-theorem toHamming_ofHamming (x : Hamming β) : toHamming (ofHamming x) = x := by sorry
+theorem toHamming_ofHamming (x : Hamming β) : toHamming (ofHamming x) = x := rfl
 
 @[target, simp]
 theorem ofHamming_toHamming (x : ∀ i, β i) : ofHamming (toHamming x) = x := by sorry
@@ -310,7 +316,7 @@ theorem toHamming_inj {x y : ∀ i, β i} : toHamming x = toHamming y ↔ x = y 
 theorem ofHamming_inj {x y : Hamming β} : ofHamming x = ofHamming y ↔ x = y := by sorry
 
 @[target, simp]
-theorem toHamming_zero [∀ i, Zero (β i)] : toHamming (0 : ∀ i, β i) = 0 := by sorry
+theorem toHamming_zero [∀ i, Zero (β i)] : toHamming (0 : ∀ i, β i) = 0 := rfl
 
 @[target, simp]
 theorem ofHamming_zero [∀ i, Zero (β i)] : ofHamming (0 : Hamming β) = 0 := by sorry
