@@ -97,18 +97,24 @@ theorem hammingDist_eq_zero {x y : ∀ i, β i} : hammingDist x y = 0 ↔ x = y 
 
 /-- Corresponds to `zero_eq_dist`. -/
 @[target, simp]
-theorem hamming_zero_eq_dist {x y : ∀ i, β i} : 0 = hammingDist x y ↔ x = y := by sorry
+theorem hamming_zero_eq_dist {x y : ∀ i, β i} : 0 = hammingDist x y ↔ x = y := by
+  rw [eq_comm]
+  exact hammingDist_eq_zero
 
 /-- Corresponds to `dist_ne_zero`. -/
 @[target]
-theorem hammingDist_ne_zero {x y : ∀ i, β i} : hammingDist x y ≠ 0 ↔ x ≠ y := by sorry
+theorem hammingDist_ne_zero {x y : ∀ i, β i} : hammingDist x y ≠ 0 ↔ x ≠ y := by
+  simp only [not_iff_not]
+  exact hammingDist_eq_zero
 
 /-- Corresponds to `dist_pos`. -/
 @[target, simp]
-theorem hammingDist_pos {x y : ∀ i, β i} : 0 < hammingDist x y ↔ x ≠ y := by sorry
+theorem hammingDist_pos {x y : ∀ i, β i} : 0 < hammingDist x y ↔ x ≠ y := by
+  simp [Nat.pos_iff_ne_zero, hammingDist_ne_zero]
 
 @[target]
-theorem hammingDist_lt_one {x y : ∀ i, β i} : hammingDist x y < 1 ↔ x = y := by sorry
+theorem hammingDist_lt_one {x y : ∀ i, β i} : hammingDist x y < 1 ↔ x = y := by
+  simp [Nat.lt_one_iff, hammingDist_eq_zero]
 
 @[target]
 theorem hammingDist_le_card_fintype {x y : ∀ i, β i} : hammingDist x y ≤ Fintype.card ι := by sorry
@@ -151,22 +157,29 @@ theorem hammingNorm_nonneg {x : ∀ i, β i} : 0 ≤ hammingNorm x := by sorry
 
 /-- Corresponds to `norm_zero`. -/
 @[target, simp]
-theorem hammingNorm_zero : hammingNorm (0 : ∀ i, β i) = 0 := by sorry
+theorem hammingNorm_zero : hammingNorm (0 : ∀ i, β i) = 0 := by
+  simp [hammingNorm]
 
 /-- Corresponds to `norm_eq_zero`. -/
 @[target, simp]
-theorem hammingNorm_eq_zero {x : ∀ i, β i} : hammingNorm x = 0 ↔ x = 0 := by sorry
+theorem hammingNorm_eq_zero {x : ∀ i, β i} : hammingNorm x = 0 ↔ x = 0 := by
+  simp only [hammingNorm, Finset.card_eq_zero]
+  simp [funext_iff]
 
 /-- Corresponds to `norm_ne_zero_iff`. -/
 @[target]
-theorem hammingNorm_ne_zero_iff {x : ∀ i, β i} : hammingNorm x ≠ 0 ↔ x ≠ 0 := by sorry
+theorem hammingNorm_ne_zero_iff {x : ∀ i, β i} : hammingNorm x ≠ 0 ↔ x ≠ 0 := by
+  simp only [not_iff_not]
+  exact hammingNorm_eq_zero
 
 /-- Corresponds to `norm_pos_iff`. -/
 @[target, simp]
-theorem hammingNorm_pos_iff {x : ∀ i, β i} : 0 < hammingNorm x ↔ x ≠ 0 := by sorry
+theorem hammingNorm_pos_iff {x : ∀ i, β i} : 0 < hammingNorm x ↔ x ≠ 0 := by
+  simp [Nat.pos_iff_ne_zero, hammingNorm_ne_zero_iff]
 
 @[target]
-theorem hammingNorm_lt_one {x : ∀ i, β i} : hammingNorm x < 1 ↔ x = 0 := by sorry
+theorem hammingNorm_lt_one {x : ∀ i, β i} : hammingNorm x < 1 ↔ x = 0 := by
+  simp [Nat.lt_one_iff, hammingNorm_eq_zero]
 
 @[target]
 theorem hammingNorm_le_card_fintype {x : ∀ i, β i} : hammingNorm x ≤ Fintype.card ι := by sorry
