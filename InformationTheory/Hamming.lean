@@ -72,7 +72,10 @@ theorem hammingDist_triangle_right (x y z : ∀ i, β i) :
 
 /-- Corresponds to `swap_dist`. -/
 @[target]
-theorem swap_hammingDist : swap (@hammingDist _ β _ _) = hammingDist := by sorry
+theorem swap_hammingDist : swap (@hammingDist _ β _ _) = hammingDist := by
+  ext x y
+  unfold swap
+  exact hammingDist_comm y x
 
 /-- Corresponds to `eq_of_dist_eq_zero`. -/
 @[target]
