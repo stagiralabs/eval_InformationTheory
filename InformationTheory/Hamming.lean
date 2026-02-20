@@ -49,7 +49,11 @@ theorem hammingDist_nonneg {x y : ∀ i, β i} : 0 ≤ hammingDist x y :=
 
 /-- Corresponds to `dist_comm`. -/
 @[target]
-theorem hammingDist_comm (x y : ∀ i, β i) : hammingDist x y = hammingDist y x := by sorry
+theorem hammingDist_comm (x y : ∀ i, β i) : hammingDist x y = hammingDist y x := by
+  unfold hammingDist
+  congr 1
+  ext i
+  simp [eq_comm]
 
 /-- Corresponds to `dist_triangle`. -/
 @[target]
@@ -72,7 +76,17 @@ theorem swap_hammingDist : swap (@hammingDist _ β _ _) = hammingDist := by sorr
 
 /-- Corresponds to `eq_of_dist_eq_zero`. -/
 @[target]
-theorem eq_of_hammingDist_eq_zero {x y : ∀ i, β i} : hammingDist x y = 0 → x = y := by sorry
+theorem eq_of_hammingDist_eq_zero {x y : ∀ i, β i} : hammingDist x y = 0 → x = y := by
+  intro h
+  unfold hammingDist at h
+  ext i
+  by_contra hne
+  have mem : i ∈ (Finset.filter (fun i => x i ≠ y i) Finset.univ) := by
+    simp [hne]
+  have card_eq : (Finset.filter (fun i => x i ≠ y i) Finset.univ).card = 0 := h
+  have : Finset.filter (fun i => x i ≠ y i) Finset.univ = ∅ := by
+    exact Finset.card_eq_zero.mp card_eq
+  simp [this] at mem
 
 /-- Corresponds to `dist_eq_zero`. -/
 @[target, simp]
@@ -150,7 +164,17 @@ theorem hammingNorm_zero : hammingNorm (0 : ∀ i, β i) = 0 := by sorry
 
 /-- Corresponds to `norm_eq_zero`. -/
 @[target, simp]
-theorem hammingNorm_eq_zero {x : ∀ i, β i} : hammingNorm x = 0 ↔ x = 0 := by sorry
+theorem hammingNorm_eq_zero {x : ∀ i, β i} : hammingNorm x = 0 ↔ x = 0 := by
+  unfold hammingNorm
+  simp only [Finset.card_eq_zero]
+  refine ⟨?_, fun h => by simp [h]⟩
+  intro h
+  ext i
+  by_contra hne
+  have : i ∈ Finset.filter (fun j => x j ≠ 0) Finset.univ := by
+    simp only [Finset.mem_filter, Finset.mem_univ, true_and]
+    exact hne
+  simp [h] at this
 
 /-- Corresponds to `norm_ne_zero_iff`. -/
 @[target]
