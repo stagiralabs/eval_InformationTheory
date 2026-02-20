@@ -251,7 +251,7 @@ def ofHamming : Hamming β ≃ ∀ i, β i :=
   Equiv.refl _
 
 @[target, simp]
-theorem toHamming_symm_eq : (@toHamming _ β).symm = ofHamming := by sorry
+theorem toHamming_symm_eq : (@toHamming _ β).symm = ofHamming := by rfl
 
 @[target, simp]
 theorem ofHamming_symm_eq : (@ofHamming _ β).symm = toHamming := by sorry
