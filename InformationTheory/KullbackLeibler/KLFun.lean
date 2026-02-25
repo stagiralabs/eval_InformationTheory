@@ -54,7 +54,8 @@ lemma klFun_apply (x : ℝ) : klFun x = x * log x + 1 - x := by sorry
 lemma klFun_zero : klFun 0 = 1 := by simp [klFun]
 
 @[target]
-lemma klFun_one : klFun 1 = 0 := by sorry
+lemma klFun_one : klFun 1 = 0 := by
+  simp [klFun]
 
 /-- `klFun` is strictly convex on [0,∞). -/
 lemma strictConvexOn_klFun : StrictConvexOn ℝ (Ici 0) klFun :=
@@ -67,7 +68,10 @@ lemma convexOn_klFun : ConvexOn ℝ (Ici 0) klFun := strictConvexOn_klFun.convex
 /-- `klFun` is convex on (0,∞).
 This is an often useful consequence of `convexOn_klFun`, which states convexity on [0, ∞). -/
 @[target]
-lemma convexOn_Ioi_klFun : ConvexOn ℝ (Ioi 0) klFun := by sorry
+lemma convexOn_Ioi_klFun : ConvexOn ℝ (Ioi 0) klFun := by
+  refine (convexOn_klFun : ConvexOn ℝ (Ici (0 : ℝ)) klFun).mono ?_
+  intro x hx
+  exact le_of_lt hx
 
 /-- `klFun` is continuous. -/
 @[continuity, fun_prop]
@@ -93,7 +97,12 @@ lemma not_differentiableAt_klFun_zero : ¬ DifferentiableAt ℝ klFun 0 := by
 /-- The derivative of `klFun` is `log x`. This also holds at `x = 0` although `klFun` is not
 differentiable there since the default value of `deriv` in that case is 0. -/
 @[target, simp]
-lemma deriv_klFun : deriv klFun = log := by sorry
+lemma deriv_klFun : deriv klFun = log := by
+  funext x
+  by_cases hx : x = 0
+  · subst hx; simp [klFun]
+  · have h := (hasDerivAt_klFun (x:=x) hx).deriv
+    simpa using h
 
 @[target]
 lemma not_differentiableWithinAt_klFun_Ioi_zero : ¬ DifferentiableWithinAt ℝ klFun (Ioi 0) 0 := by sorry
@@ -126,7 +135,11 @@ lemma tendsto_rightDeriv_klFun_atTop :
 end Derivatives
 
 @[target]
-lemma isMinOn_klFun : IsMinOn klFun (Ici 0) 1 := by sorry
+lemma isMinOn_klFun : IsMinOn klFun (Ici 0) 1 := by
+  refine ⟨by norm_num, ?_⟩
+  intro x hx
+  have h0 : (0 : ℝ) ≤ klFun x := klFun_nonneg (x:=x) hx
+  simpa [klFun] using h0
 
 /-- The function `klFun` is nonnegative on `[0,∞)`. -/
 @[target]

@@ -82,7 +82,22 @@ lemma klDiv_zero_right [NeZero μ] : klDiv μ 0 = ∞ :=
   klDiv_of_not_ac (Measure.absolutelyContinuous_zero_iff.mp.mt (NeZero.ne _))
 
 @[target]
-lemma klDiv_eq_top_iff : klDiv μ ν = ∞ ↔ μ ≪ ν → ¬ Integrable (llr μ ν) μ := by sorry
+lemma klDiv_eq_top_iff : klDiv μ ν = ∞ ↔ μ ≪ ν → ¬ Integrable (llr μ ν) μ := by
+  classical
+  constructor
+  · intro h_eq h_ac
+    by_contra h_int
+    have h_eq' := klDiv_of_ac_of_integrable (μ:=μ) (ν:=ν) h_ac h_int
+    have : (klDiv μ ν) ≠ ∞ := by
+      have h_ne_top : (ENNReal.ofReal (∫ x, llr μ ν x ∂μ + (ν univ).toReal - (μ univ).toReal)).ne_top :=
+        ENNReal.ofReal_ne_top _
+      simpa [h_eq'] using h_ne_top
+    exact this h_eq
+  · intro h_imp
+    by_cases h_ac : μ ≪ ν
+    · have h_int : ¬ Integrable (llr μ ν) μ := h_imp h_ac
+      exact (klDiv_of_not_integrable (μ:=μ) (ν:=ν) h_int)
+    · exact (klDiv_of_not_ac (μ:=μ) (ν:=ν) h_ac)
 
 @[target]
 lemma klDiv_ne_top_iff : klDiv μ ν ≠ ∞ ↔ μ ≪ ν ∧ Integrable (llr μ ν) μ := by sorry
@@ -96,7 +111,13 @@ open Classical in
 lemma klDiv_eq_integral_klFun :
     klDiv μ ν = if μ ≪ ν ∧ Integrable (llr μ ν) μ
       then ENNReal.ofReal (∫ x, klFun (μ.rnDeriv ν x).toReal ∂ν)
-      else ∞ := by sorry
+      else ∞ := by
+  classical
+  by_cases h : (μ ≪ ν ∧ Integrable (llr μ ν) μ)
+  · rcases h with ⟨h_ac, h_int⟩
+    have h_eq := integral_klFun_rnDeriv (μ:=μ) (ν:=ν) h_ac h_int
+    simp [klDiv, h, h_eq]
+  · simp [klDiv, h]
 
 open Classical in
 @[target]
@@ -164,7 +185,11 @@ lemma mul_klFun_le_toReal_klDiv (hμν : μ ≪ ν) (h_int : Integrable (llr μ 
 @[target]
 lemma mul_log_le_toReal_klDiv (hμν : μ ≪ ν) (h_int : Integrable (llr μ ν) μ) :
     (μ univ).toReal * log ((μ univ).toReal / (ν univ).toReal) + (ν univ).toReal - (μ univ).toReal
-      ≤ (klDiv μ ν).toReal := by sorry
+      ≤ (klDiv μ ν).toReal := by
+  -- This follows from `mul_klFun_le_toReal_klDiv` after expanding `klFun`.
+  simpa [klFun, mul_add, mul_sub, mul_one, mul_comm, mul_left_comm, mul_assoc,
+    div_eq_mul_inv] using
+    (mul_klFun_le_toReal_klDiv (μ:=μ) (ν:=ν) hμν h_int)
 
 @[target]
 lemma mul_log_le_klDiv (μ ν : Measure α) [IsFiniteMeasure μ] [IsFiniteMeasure ν] :
