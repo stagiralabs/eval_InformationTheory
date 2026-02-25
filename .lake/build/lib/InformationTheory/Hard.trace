@@ -1,0 +1,14 @@
+{"log":
+ [{"message":
+   ".> LEAN_PATH=././.lake/packages/Cli/.lake/build/lib:././.lake/packages/batteries/.lake/build/lib:././.lake/packages/Qq/.lake/build/lib:././.lake/packages/aesop/.lake/build/lib:././.lake/packages/proofwidgets/.lake/build/lib:././.lake/packages/importGraph/.lake/build/lib:././.lake/packages/LeanSearchClient/.lake/build/lib:././.lake/packages/plausible/.lake/build/lib:././.lake/packages/SafeVerify/.lake/build/lib:././.lake/packages/mathlib/.lake/build/lib:././.lake/packages/VerifiedAgora/.lake/build/lib:././.lake/build/lib LD_LIBRARY_PATH= /shared/elan/toolchains/leanprover--lean4---v4.17.0/bin/lean ././././InformationTheory/Hard.lean -R ./././. -o ././.lake/build/lib/InformationTheory/Hard.olean -i ././.lake/build/lib/InformationTheory/Hard.ilean -c ././.lake/build/ir/InformationTheory/Hard.c --json",
+   "level": "trace"},
+  {"message":
+   "././././InformationTheory/Hard.lean:8:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././././InformationTheory/Hard.lean:12:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././././InformationTheory/Hard.lean:17:8: declaration uses 'sorry'",
+   "level": "warning"}],
+ "depHash": "17502945670571525434"}
