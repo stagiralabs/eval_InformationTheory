@@ -68,17 +68,26 @@ theorem Set.left_not_mem_uIoo {a b : ℝ} : a ∉ Set.uIoo a b := by
   simp [Set.uIoo] at h
   linarith
 @[target]
-theorem Set.right_not_mem_uIoo {a b : ℝ} : b ∉ Set.uIoo a b := by sorry
+theorem Set.right_not_mem_uIoo {a b : ℝ} : b ∉ Set.uIoo a b := by
+  intro h
+  simp [Set.uIoo] at h
+  linarith
 @[target]
 theorem Set.ne_left_of_mem_uIoo {a b c : ℝ} (hc : c ∈ Set.uIoo a b) : c ≠ a := by sorry
 @[target]
-theorem Set.ne_right_of_mem_uIoo {a b c : ℝ} (hc : c ∈ Set.uIoo a b) : c ≠ b := by sorry
+theorem Set.ne_right_of_mem_uIoo {a b c : ℝ} (hc : c ∈ Set.uIoo a b) : c ≠ b := by
+  intro h
+  rw [h] at hc
+  simp [Set.uIoo] at hc
+  linarith
 @[target]
 lemma left_mem_rect (z w : ℂ) : z ∈ Rectangle z w := by
   simp [Rectangle]
   constructor <;> simp [le_refl]
 @[target]
-lemma right_mem_rect (z w : ℂ) : w ∈ Rectangle z w := by sorry
+lemma right_mem_rect (z w : ℂ) : w ∈ Rectangle z w := by
+  simp [Complex.Rectangle]
+  constructor <;> simp [Set.mem_Icc] <;> linarith
 @[target]
 lemma rect_subset_iff {z w z' w' : ℂ} :
     Rectangle z' w' ⊆ Rectangle z w ↔ z' ∈ Rectangle z w ∧ w' ∈ Rectangle z w := by sorry
