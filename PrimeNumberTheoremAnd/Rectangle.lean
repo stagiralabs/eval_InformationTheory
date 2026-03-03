@@ -39,7 +39,10 @@ lemma Square_apply (p : ℂ) (cpos : c > 0) :
     Square p c = Icc (-c + p.re) (c + p.re) ×ℂ Icc (-c + p.im) (c + p.im) := by sorry
 @[target, simp]
 theorem preimage_equivRealProdCLM_reProdIm (s t : Set ℝ) :
-    equivRealProdCLM.symm ⁻¹' (s ×ℂ t) = s ×ˢ t := by sorry
+    equivRealProdCLM.symm ⁻¹' (s ×ℂ t) = s ×ˢ t := by
+  ext z
+  simp [Set.mem_prod, Complex.ext_iff]
+  <;> aesop
 @[target, simp]
 theorem ContinuousLinearEquiv.coe_toLinearEquiv_symm {R : Type*} {S : Type*} [Semiring R] [Semiring S] {σ : R →+* S}
     {σ' : S →+* R} [RingHomInvPair σ σ'] [RingHomInvPair σ' σ] (M : Type*) [TopologicalSpace M]
